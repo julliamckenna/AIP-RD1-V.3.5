@@ -1,0 +1,3164 @@
+{
+ "schema_version": "1.2",
+ "authority": "supporting_evidence_only",
+ "native_image": "panel.png",
+ "legend": "legend.png",
+ "tiles": [
+  {
+   "tile_id": "marker_01",
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "boxes": [
+    {
+     "box": 1,
+     "point_id": "pt-c1d70570aaa0b18b",
+     "series_label": "CO2 273K",
+     "source_pixel": [
+      300.0,
+      430.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 2,
+     "point_id": "pt-c7f2adf000cc13c1",
+     "series_label": "CO2 273K",
+     "source_pixel": [
+      310.0,
+      431.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 3,
+     "point_id": "pt-afe52325e567ec3d",
+     "series_label": "CO2 283K",
+     "source_pixel": [
+      260.0,
+      566.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 4,
+     "point_id": "pt-0ab2f5429ce70a40",
+     "series_label": "CO2 283K",
+     "source_pixel": [
+      308.0,
+      476.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 5,
+     "point_id": "pt-8e5b842f07c87125",
+     "series_label": "CO2 293K",
+     "source_pixel": [
+      352.69,
+      380.14
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 6,
+     "point_id": "pt-3773f2941c961504",
+     "series_label": "CO2 303K",
+     "source_pixel": [
+      218.01,
+      674.72
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 7,
+     "point_id": "pt-16f638f7c2ed3832",
+     "series_label": "CO2 303K",
+     "source_pixel": [
+      225.0,
+      620.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 8,
+     "point_id": "pt-88810d9c3d5c21a7",
+     "series_label": "CO2 303K",
+     "source_pixel": [
+      264.0,
+      557.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 9,
+     "point_id": "pt-80c482f5d7521374",
+     "series_label": "CO2 303K",
+     "source_pixel": [
+      407.6,
+      360.08
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 10,
+     "point_id": "pt-cdc6b7ec4b538dfc",
+     "series_label": "CO2 303K",
+     "source_pixel": [
+      478.0,
+      346.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 11,
+     "point_id": "pt-f3d4c2c9132fcc18",
+     "series_label": "CO2 303K",
+     "source_pixel": [
+      486.0,
+      359.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 12,
+     "point_id": "pt-9bde0cf1b7f1f4ab",
+     "series_label": "CO2 303K",
+     "source_pixel": [
+      516.0,
+      332.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 13,
+     "point_id": "pt-10ad2346964b72b9",
+     "series_label": "CO2 303K",
+     "source_pixel": [
+      607.0,
+      320.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 14,
+     "point_id": "pt-bcc452be79c09e7e",
+     "series_label": "CO2 303K",
+     "source_pixel": [
+      841.0,
+      278.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 15,
+     "point_id": "pt-42567a25fbd672c2",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      228.31,
+      641.64
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 16,
+     "point_id": "pt-11233e03a93b6451",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      232.32,
+      648.78
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 17,
+     "point_id": "pt-29419964c7328fa0",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      432.01,
+      405.02
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 18,
+     "point_id": "pt-7766b6c5faeab43c",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      230.09,
+      666.63
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 19,
+     "point_id": "pt-ba724391c46215f1",
+     "series_label": "CO2 343K",
+     "source_pixel": [
+      256.21,
+      640.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 20,
+     "point_id": "pt-7871aac181be73dc",
+     "series_label": "CO2 343K",
+     "source_pixel": [
+      265.35,
+      627.36
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 21,
+     "point_id": "pt-e008f7b40e987c66",
+     "series_label": "CO2 343K",
+     "source_pixel": [
+      345.17,
+      530.3
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 22,
+     "point_id": "pt-b6d935f6ec3f035d",
+     "series_label": "CO2 343K",
+     "source_pixel": [
+      348.24,
+      521.99
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 23,
+     "point_id": "pt-aa9cbb7ec7aa23c1",
+     "series_label": "CO2 343K",
+     "source_pixel": [
+      512.78,
+      440.37
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 24,
+     "point_id": "pt-b779f930432a215f",
+     "series_label": "CO2 343K",
+     "source_pixel": [
+      524.25,
+      441.58
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 25,
+     "point_id": "pt-7cc2e696c45d226a",
+     "series_label": "CO2 343K",
+     "source_pixel": [
+      559.9,
+      431.78
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 26,
+     "point_id": "pt-235eb7290a918e54",
+     "series_label": "CO2 343K",
+     "source_pixel": [
+      570.0,
+      425.25
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 27,
+     "point_id": "pt-8b630ff983a1bf3b",
+     "series_label": "CO2 343K",
+     "source_pixel": [
+      779.28,
+      398.68
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 28,
+     "point_id": "pt-66f3125d805b067d",
+     "series_label": "CO2 343K",
+     "source_pixel": [
+      791.25,
+      392.84
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 29,
+     "point_id": "pt-46fb46c0d982e607",
+     "series_label": "CO2 343K",
+     "source_pixel": [
+      943.51,
+      381.68
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 30,
+     "point_id": "pt-89073908b1566508",
+     "series_label": "CO2 343K",
+     "source_pixel": [
+      954.66,
+      381.62
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 31,
+     "point_id": "pt-dae42c3bbbcb03dd",
+     "series_label": "CO2 353K",
+     "source_pixel": [
+      266.06,
+      649.84
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 32,
+     "point_id": "pt-c634b4ac7f46f73c",
+     "series_label": "CO2 353K",
+     "source_pixel": [
+      275.93,
+      638.57
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 33,
+     "point_id": "pt-eaa72c606f066078",
+     "series_label": "CO2 353K",
+     "source_pixel": [
+      510.64,
+      475.93
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 34,
+     "point_id": "pt-347f27c55cd573b6",
+     "series_label": "CO2 353K",
+     "source_pixel": [
+      525.63,
+      478.46
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 35,
+     "point_id": "pt-fbc094193bbe0507",
+     "series_label": "CO2 353K",
+     "source_pixel": [
+      559.79,
+      466.72
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 36,
+     "point_id": "pt-f2da46a17a522fc4",
+     "series_label": "CO2 353K",
+     "source_pixel": [
+      571.52,
+      460.75
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 37,
+     "point_id": "pt-5d6928bd590d5f7d",
+     "series_label": "CO2 353K",
+     "source_pixel": [
+      676.61,
+      436.53
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 38,
+     "point_id": "pt-061a38199a09ac7d",
+     "series_label": "CO2 353K",
+     "source_pixel": [
+      693.94,
+      439.44
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 39,
+     "point_id": "pt-14992fba9230bb4e",
+     "series_label": "CO2 353K",
+     "source_pixel": [
+      941.15,
+      407.13
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 40,
+     "point_id": "pt-32a6a3b0fa98f7be",
+     "series_label": "CO2 353K",
+     "source_pixel": [
+      955.16,
+      409.8
+     ],
+     "reason": "low_confidence_or_overlap"
+    }
+   ]
+  },
+  {
+   "tile_id": "marker_02",
+   "native_tile": "tile_02_native.png",
+   "candidate_tile": "tile_02_candidate.png",
+   "boxes": [
+    {
+     "box": 41,
+     "point_id": "pt-fadcc5c00f6ce29a",
+     "series_label": "CO2 363K",
+     "source_pixel": [
+      341.56,
+      608.31
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 42,
+     "point_id": "pt-f4a43e6c062e3084",
+     "series_label": "CO2 363K",
+     "source_pixel": [
+      511.39,
+      516.48
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 43,
+     "point_id": "pt-33ad9ba5af40ab8a",
+     "series_label": "CO2 363K",
+     "source_pixel": [
+      559.29,
+      503.27
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 44,
+     "point_id": "pt-dba88558f26dcbb9",
+     "series_label": "CO2 363K",
+     "source_pixel": [
+      569.11,
+      495.55
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 45,
+     "point_id": "pt-0f1c5c227e2eed6b",
+     "series_label": "CO2 363K",
+     "source_pixel": [
+      679.01,
+      470.36
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 46,
+     "point_id": "pt-5c119b1831d431cf",
+     "series_label": "CO2 363K",
+     "source_pixel": [
+      944.31,
+      432.99
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 47,
+     "point_id": "pt-c5abd340ccbd1b20",
+     "series_label": "CO2 363K",
+     "source_pixel": [
+      952.89,
+      432.75
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 48,
+     "point_id": "pt-b61e96ee0759904d",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      281.47,
+      670.13
+     ],
+     "reason": "low_confidence_or_overlap"
+    }
+   ]
+  },
+  {
+   "tile_id": "region_01",
+   "native_tile": "region_01_native.png",
+   "candidate_tile": "region_01_candidate.png",
+   "boxes": [],
+   "reason": "Agent 02 complex-region search"
+  },
+  {
+   "tile_id": "region_02",
+   "native_tile": "region_02_native.png",
+   "candidate_tile": "region_02_candidate.png",
+   "boxes": [],
+   "reason": "Agent 02 complex-region search"
+  },
+  {
+   "tile_id": "region_03",
+   "native_tile": "region_03_native.png",
+   "candidate_tile": "region_03_candidate.png",
+   "boxes": [],
+   "reason": "Agent 02 complex-region search"
+  }
+ ],
+ "dense_region_evidence": [
+  "dense_roi_native.png",
+  "dense_roi_line_suppressed.png",
+  "dense_roi_series_likelihood.png",
+  "dense_roi_proposed_assignments.png",
+  "ambiguity_assignment_scores.png",
+  "assignment_diagnostics.json"
+ ],
+ "ambiguity_native_evidence_tiles": [
+  "ambiguity_001_native.png",
+  "ambiguity_002_native.png",
+  "ambiguity_003_native.png",
+  "ambiguity_004_native.png",
+  "ambiguity_005_native.png",
+  "ambiguity_006_native.png",
+  "ambiguity_007_native.png",
+  "ambiguity_008_native.png",
+  "ambiguity_009_native.png",
+  "ambiguity_010_native.png",
+  "ambiguity_011_native.png",
+  "ambiguity_012_native.png",
+  "ambiguity_013_native.png",
+  "ambiguity_014_native.png",
+  "ambiguity_015_native.png",
+  "ambiguity_016_native.png",
+  "ambiguity_017_native.png",
+  "ambiguity_018_native.png",
+  "ambiguity_019_native.png",
+  "ambiguity_020_native.png",
+  "ambiguity_021_native.png",
+  "ambiguity_022_native.png",
+  "ambiguity_023_native.png",
+  "ambiguity_024_native.png",
+  "ambiguity_025_native.png",
+  "ambiguity_026_native.png",
+  "ambiguity_027_native.png",
+  "ambiguity_028_native.png",
+  "ambiguity_029_native.png",
+  "ambiguity_030_native.png",
+  "ambiguity_031_native.png",
+  "ambiguity_032_native.png",
+  "ambiguity_033_native.png",
+  "ambiguity_034_native.png",
+  "ambiguity_035_native.png",
+  "ambiguity_036_native.png",
+  "ambiguity_037_native.png",
+  "ambiguity_038_native.png",
+  "ambiguity_039_native.png",
+  "ambiguity_040_native.png",
+  "ambiguity_041_native.png",
+  "ambiguity_042_native.png",
+  "ambiguity_043_native.png",
+  "ambiguity_044_native.png",
+  "ambiguity_045_native.png",
+  "ambiguity_046_native.png",
+  "ambiguity_047_native.png",
+  "ambiguity_048_native.png",
+  "ambiguity_049_native.png",
+  "ambiguity_050_native.png",
+  "ambiguity_051_native.png",
+  "ambiguity_052_native.png",
+  "ambiguity_053_native.png",
+  "ambiguity_054_native.png",
+  "ambiguity_055_native.png",
+  "ambiguity_056_native.png",
+  "ambiguity_057_native.png",
+  "ambiguity_058_native.png",
+  "ambiguity_059_native.png",
+  "ambiguity_060_native.png",
+  "ambiguity_061_native.png",
+  "ambiguity_062_native.png",
+  "ambiguity_063_native.png",
+  "ambiguity_064_native.png",
+  "ambiguity_065_native.png",
+  "ambiguity_066_native.png",
+  "ambiguity_067_native.png",
+  "ambiguity_068_native.png",
+  "ambiguity_069_native.png",
+  "ambiguity_070_native.png",
+  "ambiguity_071_native.png",
+  "ambiguity_072_native.png",
+  "ambiguity_073_native.png",
+  "ambiguity_074_native.png",
+  "ambiguity_075_native.png",
+  "ambiguity_076_native.png",
+  "ambiguity_077_native.png",
+  "ambiguity_078_native.png",
+  "ambiguity_079_native.png",
+  "ambiguity_080_native.png"
+ ],
+ "ambiguity_contact_sheets": [
+  {
+   "native_tile": "ambiguity_contact_sheet_01_native.png",
+   "cells": [
+    {
+     "source_native_tile": "ambiguity_001_native.png",
+     "label": "ambiguity_001",
+     "row": 1,
+     "column": 1
+    },
+    {
+     "source_native_tile": "ambiguity_002_native.png",
+     "label": "ambiguity_002",
+     "row": 1,
+     "column": 2
+    },
+    {
+     "source_native_tile": "ambiguity_003_native.png",
+     "label": "ambiguity_003",
+     "row": 1,
+     "column": 3
+    },
+    {
+     "source_native_tile": "ambiguity_004_native.png",
+     "label": "ambiguity_004",
+     "row": 1,
+     "column": 4
+    },
+    {
+     "source_native_tile": "ambiguity_005_native.png",
+     "label": "ambiguity_005",
+     "row": 1,
+     "column": 5
+    },
+    {
+     "source_native_tile": "ambiguity_006_native.png",
+     "label": "ambiguity_006",
+     "row": 2,
+     "column": 1
+    },
+    {
+     "source_native_tile": "ambiguity_007_native.png",
+     "label": "ambiguity_007",
+     "row": 2,
+     "column": 2
+    },
+    {
+     "source_native_tile": "ambiguity_008_native.png",
+     "label": "ambiguity_008",
+     "row": 2,
+     "column": 3
+    },
+    {
+     "source_native_tile": "ambiguity_009_native.png",
+     "label": "ambiguity_009",
+     "row": 2,
+     "column": 4
+    },
+    {
+     "source_native_tile": "ambiguity_010_native.png",
+     "label": "ambiguity_010",
+     "row": 2,
+     "column": 5
+    },
+    {
+     "source_native_tile": "ambiguity_011_native.png",
+     "label": "ambiguity_011",
+     "row": 3,
+     "column": 1
+    },
+    {
+     "source_native_tile": "ambiguity_012_native.png",
+     "label": "ambiguity_012",
+     "row": 3,
+     "column": 2
+    },
+    {
+     "source_native_tile": "ambiguity_013_native.png",
+     "label": "ambiguity_013",
+     "row": 3,
+     "column": 3
+    },
+    {
+     "source_native_tile": "ambiguity_014_native.png",
+     "label": "ambiguity_014",
+     "row": 3,
+     "column": 4
+    },
+    {
+     "source_native_tile": "ambiguity_015_native.png",
+     "label": "ambiguity_015",
+     "row": 3,
+     "column": 5
+    },
+    {
+     "source_native_tile": "ambiguity_016_native.png",
+     "label": "ambiguity_016",
+     "row": 4,
+     "column": 1
+    },
+    {
+     "source_native_tile": "ambiguity_017_native.png",
+     "label": "ambiguity_017",
+     "row": 4,
+     "column": 2
+    },
+    {
+     "source_native_tile": "ambiguity_018_native.png",
+     "label": "ambiguity_018",
+     "row": 4,
+     "column": 3
+    },
+    {
+     "source_native_tile": "ambiguity_019_native.png",
+     "label": "ambiguity_019",
+     "row": 4,
+     "column": 4
+    },
+    {
+     "source_native_tile": "ambiguity_020_native.png",
+     "label": "ambiguity_020",
+     "row": 4,
+     "column": 5
+    },
+    {
+     "source_native_tile": "ambiguity_021_native.png",
+     "label": "ambiguity_021",
+     "row": 5,
+     "column": 1
+    },
+    {
+     "source_native_tile": "ambiguity_022_native.png",
+     "label": "ambiguity_022",
+     "row": 5,
+     "column": 2
+    },
+    {
+     "source_native_tile": "ambiguity_023_native.png",
+     "label": "ambiguity_023",
+     "row": 5,
+     "column": 3
+    },
+    {
+     "source_native_tile": "ambiguity_024_native.png",
+     "label": "ambiguity_024",
+     "row": 5,
+     "column": 4
+    },
+    {
+     "source_native_tile": "ambiguity_025_native.png",
+     "label": "ambiguity_025",
+     "row": 5,
+     "column": 5
+    }
+   ]
+  },
+  {
+   "native_tile": "ambiguity_contact_sheet_02_native.png",
+   "cells": [
+    {
+     "source_native_tile": "ambiguity_026_native.png",
+     "label": "ambiguity_026",
+     "row": 1,
+     "column": 1
+    },
+    {
+     "source_native_tile": "ambiguity_027_native.png",
+     "label": "ambiguity_027",
+     "row": 1,
+     "column": 2
+    },
+    {
+     "source_native_tile": "ambiguity_028_native.png",
+     "label": "ambiguity_028",
+     "row": 1,
+     "column": 3
+    },
+    {
+     "source_native_tile": "ambiguity_029_native.png",
+     "label": "ambiguity_029",
+     "row": 1,
+     "column": 4
+    },
+    {
+     "source_native_tile": "ambiguity_030_native.png",
+     "label": "ambiguity_030",
+     "row": 1,
+     "column": 5
+    },
+    {
+     "source_native_tile": "ambiguity_031_native.png",
+     "label": "ambiguity_031",
+     "row": 2,
+     "column": 1
+    },
+    {
+     "source_native_tile": "ambiguity_032_native.png",
+     "label": "ambiguity_032",
+     "row": 2,
+     "column": 2
+    },
+    {
+     "source_native_tile": "ambiguity_033_native.png",
+     "label": "ambiguity_033",
+     "row": 2,
+     "column": 3
+    },
+    {
+     "source_native_tile": "ambiguity_034_native.png",
+     "label": "ambiguity_034",
+     "row": 2,
+     "column": 4
+    },
+    {
+     "source_native_tile": "ambiguity_035_native.png",
+     "label": "ambiguity_035",
+     "row": 2,
+     "column": 5
+    },
+    {
+     "source_native_tile": "ambiguity_036_native.png",
+     "label": "ambiguity_036",
+     "row": 3,
+     "column": 1
+    },
+    {
+     "source_native_tile": "ambiguity_037_native.png",
+     "label": "ambiguity_037",
+     "row": 3,
+     "column": 2
+    },
+    {
+     "source_native_tile": "ambiguity_038_native.png",
+     "label": "ambiguity_038",
+     "row": 3,
+     "column": 3
+    },
+    {
+     "source_native_tile": "ambiguity_039_native.png",
+     "label": "ambiguity_039",
+     "row": 3,
+     "column": 4
+    },
+    {
+     "source_native_tile": "ambiguity_040_native.png",
+     "label": "ambiguity_040",
+     "row": 3,
+     "column": 5
+    },
+    {
+     "source_native_tile": "ambiguity_041_native.png",
+     "label": "ambiguity_041",
+     "row": 4,
+     "column": 1
+    },
+    {
+     "source_native_tile": "ambiguity_042_native.png",
+     "label": "ambiguity_042",
+     "row": 4,
+     "column": 2
+    },
+    {
+     "source_native_tile": "ambiguity_043_native.png",
+     "label": "ambiguity_043",
+     "row": 4,
+     "column": 3
+    },
+    {
+     "source_native_tile": "ambiguity_044_native.png",
+     "label": "ambiguity_044",
+     "row": 4,
+     "column": 4
+    },
+    {
+     "source_native_tile": "ambiguity_045_native.png",
+     "label": "ambiguity_045",
+     "row": 4,
+     "column": 5
+    },
+    {
+     "source_native_tile": "ambiguity_046_native.png",
+     "label": "ambiguity_046",
+     "row": 5,
+     "column": 1
+    },
+    {
+     "source_native_tile": "ambiguity_047_native.png",
+     "label": "ambiguity_047",
+     "row": 5,
+     "column": 2
+    },
+    {
+     "source_native_tile": "ambiguity_048_native.png",
+     "label": "ambiguity_048",
+     "row": 5,
+     "column": 3
+    },
+    {
+     "source_native_tile": "ambiguity_049_native.png",
+     "label": "ambiguity_049",
+     "row": 5,
+     "column": 4
+    },
+    {
+     "source_native_tile": "ambiguity_050_native.png",
+     "label": "ambiguity_050",
+     "row": 5,
+     "column": 5
+    }
+   ]
+  },
+  {
+   "native_tile": "ambiguity_contact_sheet_03_native.png",
+   "cells": [
+    {
+     "source_native_tile": "ambiguity_051_native.png",
+     "label": "ambiguity_051",
+     "row": 1,
+     "column": 1
+    },
+    {
+     "source_native_tile": "ambiguity_052_native.png",
+     "label": "ambiguity_052",
+     "row": 1,
+     "column": 2
+    },
+    {
+     "source_native_tile": "ambiguity_053_native.png",
+     "label": "ambiguity_053",
+     "row": 1,
+     "column": 3
+    },
+    {
+     "source_native_tile": "ambiguity_054_native.png",
+     "label": "ambiguity_054",
+     "row": 1,
+     "column": 4
+    },
+    {
+     "source_native_tile": "ambiguity_055_native.png",
+     "label": "ambiguity_055",
+     "row": 1,
+     "column": 5
+    },
+    {
+     "source_native_tile": "ambiguity_056_native.png",
+     "label": "ambiguity_056",
+     "row": 2,
+     "column": 1
+    },
+    {
+     "source_native_tile": "ambiguity_057_native.png",
+     "label": "ambiguity_057",
+     "row": 2,
+     "column": 2
+    },
+    {
+     "source_native_tile": "ambiguity_058_native.png",
+     "label": "ambiguity_058",
+     "row": 2,
+     "column": 3
+    },
+    {
+     "source_native_tile": "ambiguity_059_native.png",
+     "label": "ambiguity_059",
+     "row": 2,
+     "column": 4
+    },
+    {
+     "source_native_tile": "ambiguity_060_native.png",
+     "label": "ambiguity_060",
+     "row": 2,
+     "column": 5
+    },
+    {
+     "source_native_tile": "ambiguity_061_native.png",
+     "label": "ambiguity_061",
+     "row": 3,
+     "column": 1
+    },
+    {
+     "source_native_tile": "ambiguity_062_native.png",
+     "label": "ambiguity_062",
+     "row": 3,
+     "column": 2
+    },
+    {
+     "source_native_tile": "ambiguity_063_native.png",
+     "label": "ambiguity_063",
+     "row": 3,
+     "column": 3
+    },
+    {
+     "source_native_tile": "ambiguity_064_native.png",
+     "label": "ambiguity_064",
+     "row": 3,
+     "column": 4
+    },
+    {
+     "source_native_tile": "ambiguity_065_native.png",
+     "label": "ambiguity_065",
+     "row": 3,
+     "column": 5
+    },
+    {
+     "source_native_tile": "ambiguity_066_native.png",
+     "label": "ambiguity_066",
+     "row": 4,
+     "column": 1
+    },
+    {
+     "source_native_tile": "ambiguity_067_native.png",
+     "label": "ambiguity_067",
+     "row": 4,
+     "column": 2
+    },
+    {
+     "source_native_tile": "ambiguity_068_native.png",
+     "label": "ambiguity_068",
+     "row": 4,
+     "column": 3
+    },
+    {
+     "source_native_tile": "ambiguity_069_native.png",
+     "label": "ambiguity_069",
+     "row": 4,
+     "column": 4
+    },
+    {
+     "source_native_tile": "ambiguity_070_native.png",
+     "label": "ambiguity_070",
+     "row": 4,
+     "column": 5
+    },
+    {
+     "source_native_tile": "ambiguity_071_native.png",
+     "label": "ambiguity_071",
+     "row": 5,
+     "column": 1
+    },
+    {
+     "source_native_tile": "ambiguity_072_native.png",
+     "label": "ambiguity_072",
+     "row": 5,
+     "column": 2
+    },
+    {
+     "source_native_tile": "ambiguity_073_native.png",
+     "label": "ambiguity_073",
+     "row": 5,
+     "column": 3
+    },
+    {
+     "source_native_tile": "ambiguity_074_native.png",
+     "label": "ambiguity_074",
+     "row": 5,
+     "column": 4
+    },
+    {
+     "source_native_tile": "ambiguity_075_native.png",
+     "label": "ambiguity_075",
+     "row": 5,
+     "column": 5
+    }
+   ]
+  },
+  {
+   "native_tile": "ambiguity_contact_sheet_04_native.png",
+   "cells": [
+    {
+     "source_native_tile": "ambiguity_076_native.png",
+     "label": "ambiguity_076",
+     "row": 1,
+     "column": 1
+    },
+    {
+     "source_native_tile": "ambiguity_077_native.png",
+     "label": "ambiguity_077",
+     "row": 1,
+     "column": 2
+    },
+    {
+     "source_native_tile": "ambiguity_078_native.png",
+     "label": "ambiguity_078",
+     "row": 1,
+     "column": 3
+    },
+    {
+     "source_native_tile": "ambiguity_079_native.png",
+     "label": "ambiguity_079",
+     "row": 1,
+     "column": 4
+    },
+    {
+     "source_native_tile": "ambiguity_080_native.png",
+     "label": "ambiguity_080",
+     "row": 1,
+     "column": 5
+    }
+   ]
+  }
+ ],
+ "review_items": [
+  {
+   "item_id": "tile:marker_01",
+   "item_type": "tile",
+   "tile_id": "marker_01",
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": ""
+  },
+  {
+   "item_id": "box:marker_01:1",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 1,
+   "point_id": "pt-c1d70570aaa0b18b",
+   "series_label": "CO2 273K",
+   "source_pixel": [
+    300.0,
+    430.0
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:2",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 2,
+   "point_id": "pt-c7f2adf000cc13c1",
+   "series_label": "CO2 273K",
+   "source_pixel": [
+    310.0,
+    431.0
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:3",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 3,
+   "point_id": "pt-afe52325e567ec3d",
+   "series_label": "CO2 283K",
+   "source_pixel": [
+    260.0,
+    566.0
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:4",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 4,
+   "point_id": "pt-0ab2f5429ce70a40",
+   "series_label": "CO2 283K",
+   "source_pixel": [
+    308.0,
+    476.0
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:5",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 5,
+   "point_id": "pt-8e5b842f07c87125",
+   "series_label": "CO2 293K",
+   "source_pixel": [
+    352.69,
+    380.14
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:6",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 6,
+   "point_id": "pt-3773f2941c961504",
+   "series_label": "CO2 303K",
+   "source_pixel": [
+    218.01,
+    674.72
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:7",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 7,
+   "point_id": "pt-16f638f7c2ed3832",
+   "series_label": "CO2 303K",
+   "source_pixel": [
+    225.0,
+    620.0
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:8",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 8,
+   "point_id": "pt-88810d9c3d5c21a7",
+   "series_label": "CO2 303K",
+   "source_pixel": [
+    264.0,
+    557.0
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:9",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 9,
+   "point_id": "pt-80c482f5d7521374",
+   "series_label": "CO2 303K",
+   "source_pixel": [
+    407.6,
+    360.08
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:10",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 10,
+   "point_id": "pt-cdc6b7ec4b538dfc",
+   "series_label": "CO2 303K",
+   "source_pixel": [
+    478.0,
+    346.0
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:11",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 11,
+   "point_id": "pt-f3d4c2c9132fcc18",
+   "series_label": "CO2 303K",
+   "source_pixel": [
+    486.0,
+    359.0
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:12",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 12,
+   "point_id": "pt-9bde0cf1b7f1f4ab",
+   "series_label": "CO2 303K",
+   "source_pixel": [
+    516.0,
+    332.0
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:13",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 13,
+   "point_id": "pt-10ad2346964b72b9",
+   "series_label": "CO2 303K",
+   "source_pixel": [
+    607.0,
+    320.0
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:14",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 14,
+   "point_id": "pt-bcc452be79c09e7e",
+   "series_label": "CO2 303K",
+   "source_pixel": [
+    841.0,
+    278.0
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:15",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 15,
+   "point_id": "pt-42567a25fbd672c2",
+   "series_label": "CO2 323K",
+   "source_pixel": [
+    228.31,
+    641.64
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:16",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 16,
+   "point_id": "pt-11233e03a93b6451",
+   "series_label": "CO2 323K",
+   "source_pixel": [
+    232.32,
+    648.78
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:17",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 17,
+   "point_id": "pt-29419964c7328fa0",
+   "series_label": "CO2 323K",
+   "source_pixel": [
+    432.01,
+    405.02
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:18",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 18,
+   "point_id": "pt-7766b6c5faeab43c",
+   "series_label": "CO2 333K",
+   "source_pixel": [
+    230.09,
+    666.63
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:19",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 19,
+   "point_id": "pt-ba724391c46215f1",
+   "series_label": "CO2 343K",
+   "source_pixel": [
+    256.21,
+    640.0
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:20",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 20,
+   "point_id": "pt-7871aac181be73dc",
+   "series_label": "CO2 343K",
+   "source_pixel": [
+    265.35,
+    627.36
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:21",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 21,
+   "point_id": "pt-e008f7b40e987c66",
+   "series_label": "CO2 343K",
+   "source_pixel": [
+    345.17,
+    530.3
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:22",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 22,
+   "point_id": "pt-b6d935f6ec3f035d",
+   "series_label": "CO2 343K",
+   "source_pixel": [
+    348.24,
+    521.99
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:23",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 23,
+   "point_id": "pt-aa9cbb7ec7aa23c1",
+   "series_label": "CO2 343K",
+   "source_pixel": [
+    512.78,
+    440.37
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:24",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 24,
+   "point_id": "pt-b779f930432a215f",
+   "series_label": "CO2 343K",
+   "source_pixel": [
+    524.25,
+    441.58
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:25",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 25,
+   "point_id": "pt-7cc2e696c45d226a",
+   "series_label": "CO2 343K",
+   "source_pixel": [
+    559.9,
+    431.78
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:26",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 26,
+   "point_id": "pt-235eb7290a918e54",
+   "series_label": "CO2 343K",
+   "source_pixel": [
+    570.0,
+    425.25
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:27",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 27,
+   "point_id": "pt-8b630ff983a1bf3b",
+   "series_label": "CO2 343K",
+   "source_pixel": [
+    779.28,
+    398.68
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:28",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 28,
+   "point_id": "pt-66f3125d805b067d",
+   "series_label": "CO2 343K",
+   "source_pixel": [
+    791.25,
+    392.84
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:29",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 29,
+   "point_id": "pt-46fb46c0d982e607",
+   "series_label": "CO2 343K",
+   "source_pixel": [
+    943.51,
+    381.68
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:30",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 30,
+   "point_id": "pt-89073908b1566508",
+   "series_label": "CO2 343K",
+   "source_pixel": [
+    954.66,
+    381.62
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:31",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 31,
+   "point_id": "pt-dae42c3bbbcb03dd",
+   "series_label": "CO2 353K",
+   "source_pixel": [
+    266.06,
+    649.84
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:32",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 32,
+   "point_id": "pt-c634b4ac7f46f73c",
+   "series_label": "CO2 353K",
+   "source_pixel": [
+    275.93,
+    638.57
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:33",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 33,
+   "point_id": "pt-eaa72c606f066078",
+   "series_label": "CO2 353K",
+   "source_pixel": [
+    510.64,
+    475.93
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:34",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 34,
+   "point_id": "pt-347f27c55cd573b6",
+   "series_label": "CO2 353K",
+   "source_pixel": [
+    525.63,
+    478.46
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:35",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 35,
+   "point_id": "pt-fbc094193bbe0507",
+   "series_label": "CO2 353K",
+   "source_pixel": [
+    559.79,
+    466.72
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:36",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 36,
+   "point_id": "pt-f2da46a17a522fc4",
+   "series_label": "CO2 353K",
+   "source_pixel": [
+    571.52,
+    460.75
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:37",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 37,
+   "point_id": "pt-5d6928bd590d5f7d",
+   "series_label": "CO2 353K",
+   "source_pixel": [
+    676.61,
+    436.53
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:38",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 38,
+   "point_id": "pt-061a38199a09ac7d",
+   "series_label": "CO2 353K",
+   "source_pixel": [
+    693.94,
+    439.44
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:39",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 39,
+   "point_id": "pt-14992fba9230bb4e",
+   "series_label": "CO2 353K",
+   "source_pixel": [
+    941.15,
+    407.13
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:40",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 40,
+   "point_id": "pt-32a6a3b0fa98f7be",
+   "series_label": "CO2 353K",
+   "source_pixel": [
+    955.16,
+    409.8
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "tile:marker_02",
+   "item_type": "tile",
+   "tile_id": "marker_02",
+   "native_tile": "tile_02_native.png",
+   "candidate_tile": "tile_02_candidate.png",
+   "detail": ""
+  },
+  {
+   "item_id": "box:marker_02:41",
+   "item_type": "box",
+   "tile_id": "marker_02",
+   "box": 41,
+   "point_id": "pt-fadcc5c00f6ce29a",
+   "series_label": "CO2 363K",
+   "source_pixel": [
+    341.56,
+    608.31
+   ],
+   "native_tile": "tile_02_native.png",
+   "candidate_tile": "tile_02_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_02:42",
+   "item_type": "box",
+   "tile_id": "marker_02",
+   "box": 42,
+   "point_id": "pt-f4a43e6c062e3084",
+   "series_label": "CO2 363K",
+   "source_pixel": [
+    511.39,
+    516.48
+   ],
+   "native_tile": "tile_02_native.png",
+   "candidate_tile": "tile_02_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_02:43",
+   "item_type": "box",
+   "tile_id": "marker_02",
+   "box": 43,
+   "point_id": "pt-33ad9ba5af40ab8a",
+   "series_label": "CO2 363K",
+   "source_pixel": [
+    559.29,
+    503.27
+   ],
+   "native_tile": "tile_02_native.png",
+   "candidate_tile": "tile_02_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_02:44",
+   "item_type": "box",
+   "tile_id": "marker_02",
+   "box": 44,
+   "point_id": "pt-dba88558f26dcbb9",
+   "series_label": "CO2 363K",
+   "source_pixel": [
+    569.11,
+    495.55
+   ],
+   "native_tile": "tile_02_native.png",
+   "candidate_tile": "tile_02_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_02:45",
+   "item_type": "box",
+   "tile_id": "marker_02",
+   "box": 45,
+   "point_id": "pt-0f1c5c227e2eed6b",
+   "series_label": "CO2 363K",
+   "source_pixel": [
+    679.01,
+    470.36
+   ],
+   "native_tile": "tile_02_native.png",
+   "candidate_tile": "tile_02_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_02:46",
+   "item_type": "box",
+   "tile_id": "marker_02",
+   "box": 46,
+   "point_id": "pt-5c119b1831d431cf",
+   "series_label": "CO2 363K",
+   "source_pixel": [
+    944.31,
+    432.99
+   ],
+   "native_tile": "tile_02_native.png",
+   "candidate_tile": "tile_02_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_02:47",
+   "item_type": "box",
+   "tile_id": "marker_02",
+   "box": 47,
+   "point_id": "pt-c5abd340ccbd1b20",
+   "series_label": "CO2 363K",
+   "source_pixel": [
+    952.89,
+    432.75
+   ],
+   "native_tile": "tile_02_native.png",
+   "candidate_tile": "tile_02_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_02:48",
+   "item_type": "box",
+   "tile_id": "marker_02",
+   "box": 48,
+   "point_id": "pt-b61e96ee0759904d",
+   "series_label": "CO2 373K",
+   "source_pixel": [
+    281.47,
+    670.13
+   ],
+   "native_tile": "tile_02_native.png",
+   "candidate_tile": "tile_02_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "tile:region_01",
+   "item_type": "tile",
+   "tile_id": "region_01",
+   "native_tile": "region_01_native.png",
+   "candidate_tile": "region_01_candidate.png",
+   "detail": "Agent 02 complex-region search"
+  },
+  {
+   "item_id": "tile:region_02",
+   "item_type": "tile",
+   "tile_id": "region_02",
+   "native_tile": "region_02_native.png",
+   "candidate_tile": "region_02_candidate.png",
+   "detail": "Agent 02 complex-region search"
+  },
+  {
+   "item_id": "tile:region_03",
+   "item_type": "tile",
+   "tile_id": "region_03",
+   "native_tile": "region_03_native.png",
+   "candidate_tile": "region_03_candidate.png",
+   "detail": "Agent 02 complex-region search"
+  },
+  {
+   "item_id": "evidence:dense_roi_native.png",
+   "item_type": "evidence",
+   "native_tile": "dense_roi_native.png",
+   "diagnostic_tile": null,
+   "evidence_kind": "native_source",
+   "candidate_tile": null,
+   "detail": "unchanged source crop"
+  },
+  {
+   "item_id": "evidence:dense_roi_line_suppressed.png",
+   "item_type": "evidence",
+   "native_tile": null,
+   "diagnostic_tile": "dense_roi_line_suppressed.png",
+   "evidence_kind": "derived_diagnostic",
+   "candidate_tile": null,
+   "detail": "Python-derived diagnostic; not source pixels or proof of a marker"
+  },
+  {
+   "item_id": "evidence:dense_roi_series_likelihood.png",
+   "item_type": "evidence",
+   "native_tile": null,
+   "diagnostic_tile": "dense_roi_series_likelihood.png",
+   "evidence_kind": "derived_diagnostic",
+   "candidate_tile": null,
+   "detail": "Python-derived diagnostic; not source pixels or proof of a marker"
+  },
+  {
+   "item_id": "evidence:dense_roi_proposed_assignments.png",
+   "item_type": "evidence",
+   "native_tile": null,
+   "diagnostic_tile": "dense_roi_proposed_assignments.png",
+   "evidence_kind": "derived_diagnostic",
+   "candidate_tile": null,
+   "detail": "Python-derived diagnostic; not source pixels or proof of a marker"
+  },
+  {
+   "item_id": "evidence:ambiguity_assignment_scores.png",
+   "item_type": "evidence",
+   "native_tile": null,
+   "diagnostic_tile": "ambiguity_assignment_scores.png",
+   "evidence_kind": "derived_diagnostic",
+   "candidate_tile": null,
+   "detail": "Python-derived diagnostic; not source pixels or proof of a marker"
+  },
+  {
+   "item_id": "evidence:assignment_diagnostics.json",
+   "item_type": "evidence",
+   "native_tile": null,
+   "diagnostic_tile": "assignment_diagnostics.json",
+   "evidence_kind": "derived_diagnostic",
+   "candidate_tile": null,
+   "detail": "Python-derived diagnostic; not source pixels or proof of a marker"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_001_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_01_native.png",
+   "source_native_tile": "ambiguity_001_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_001",
+    "row": 1,
+    "column": 1
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_002_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_01_native.png",
+   "source_native_tile": "ambiguity_002_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_002",
+    "row": 1,
+    "column": 2
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_003_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_01_native.png",
+   "source_native_tile": "ambiguity_003_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_003",
+    "row": 1,
+    "column": 3
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_004_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_01_native.png",
+   "source_native_tile": "ambiguity_004_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_004",
+    "row": 1,
+    "column": 4
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_005_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_01_native.png",
+   "source_native_tile": "ambiguity_005_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_005",
+    "row": 1,
+    "column": 5
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_006_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_01_native.png",
+   "source_native_tile": "ambiguity_006_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_006",
+    "row": 2,
+    "column": 1
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_007_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_01_native.png",
+   "source_native_tile": "ambiguity_007_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_007",
+    "row": 2,
+    "column": 2
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_008_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_01_native.png",
+   "source_native_tile": "ambiguity_008_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_008",
+    "row": 2,
+    "column": 3
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_009_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_01_native.png",
+   "source_native_tile": "ambiguity_009_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_009",
+    "row": 2,
+    "column": 4
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_010_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_01_native.png",
+   "source_native_tile": "ambiguity_010_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_010",
+    "row": 2,
+    "column": 5
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_011_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_01_native.png",
+   "source_native_tile": "ambiguity_011_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_011",
+    "row": 3,
+    "column": 1
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_012_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_01_native.png",
+   "source_native_tile": "ambiguity_012_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_012",
+    "row": 3,
+    "column": 2
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_013_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_01_native.png",
+   "source_native_tile": "ambiguity_013_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_013",
+    "row": 3,
+    "column": 3
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_014_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_01_native.png",
+   "source_native_tile": "ambiguity_014_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_014",
+    "row": 3,
+    "column": 4
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_015_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_01_native.png",
+   "source_native_tile": "ambiguity_015_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_015",
+    "row": 3,
+    "column": 5
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_016_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_01_native.png",
+   "source_native_tile": "ambiguity_016_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_016",
+    "row": 4,
+    "column": 1
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_017_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_01_native.png",
+   "source_native_tile": "ambiguity_017_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_017",
+    "row": 4,
+    "column": 2
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_018_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_01_native.png",
+   "source_native_tile": "ambiguity_018_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_018",
+    "row": 4,
+    "column": 3
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_019_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_01_native.png",
+   "source_native_tile": "ambiguity_019_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_019",
+    "row": 4,
+    "column": 4
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_020_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_01_native.png",
+   "source_native_tile": "ambiguity_020_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_020",
+    "row": 4,
+    "column": 5
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_021_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_01_native.png",
+   "source_native_tile": "ambiguity_021_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_021",
+    "row": 5,
+    "column": 1
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_022_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_01_native.png",
+   "source_native_tile": "ambiguity_022_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_022",
+    "row": 5,
+    "column": 2
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_023_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_01_native.png",
+   "source_native_tile": "ambiguity_023_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_023",
+    "row": 5,
+    "column": 3
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_024_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_01_native.png",
+   "source_native_tile": "ambiguity_024_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_024",
+    "row": 5,
+    "column": 4
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_025_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_01_native.png",
+   "source_native_tile": "ambiguity_025_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_025",
+    "row": 5,
+    "column": 5
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_026_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_02_native.png",
+   "source_native_tile": "ambiguity_026_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_026",
+    "row": 1,
+    "column": 1
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_027_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_02_native.png",
+   "source_native_tile": "ambiguity_027_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_027",
+    "row": 1,
+    "column": 2
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_028_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_02_native.png",
+   "source_native_tile": "ambiguity_028_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_028",
+    "row": 1,
+    "column": 3
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_029_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_02_native.png",
+   "source_native_tile": "ambiguity_029_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_029",
+    "row": 1,
+    "column": 4
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_030_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_02_native.png",
+   "source_native_tile": "ambiguity_030_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_030",
+    "row": 1,
+    "column": 5
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_031_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_02_native.png",
+   "source_native_tile": "ambiguity_031_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_031",
+    "row": 2,
+    "column": 1
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_032_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_02_native.png",
+   "source_native_tile": "ambiguity_032_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_032",
+    "row": 2,
+    "column": 2
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_033_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_02_native.png",
+   "source_native_tile": "ambiguity_033_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_033",
+    "row": 2,
+    "column": 3
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_034_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_02_native.png",
+   "source_native_tile": "ambiguity_034_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_034",
+    "row": 2,
+    "column": 4
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_035_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_02_native.png",
+   "source_native_tile": "ambiguity_035_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_035",
+    "row": 2,
+    "column": 5
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_036_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_02_native.png",
+   "source_native_tile": "ambiguity_036_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_036",
+    "row": 3,
+    "column": 1
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_037_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_02_native.png",
+   "source_native_tile": "ambiguity_037_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_037",
+    "row": 3,
+    "column": 2
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_038_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_02_native.png",
+   "source_native_tile": "ambiguity_038_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_038",
+    "row": 3,
+    "column": 3
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_039_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_02_native.png",
+   "source_native_tile": "ambiguity_039_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_039",
+    "row": 3,
+    "column": 4
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_040_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_02_native.png",
+   "source_native_tile": "ambiguity_040_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_040",
+    "row": 3,
+    "column": 5
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_041_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_02_native.png",
+   "source_native_tile": "ambiguity_041_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_041",
+    "row": 4,
+    "column": 1
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_042_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_02_native.png",
+   "source_native_tile": "ambiguity_042_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_042",
+    "row": 4,
+    "column": 2
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_043_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_02_native.png",
+   "source_native_tile": "ambiguity_043_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_043",
+    "row": 4,
+    "column": 3
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_044_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_02_native.png",
+   "source_native_tile": "ambiguity_044_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_044",
+    "row": 4,
+    "column": 4
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_045_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_02_native.png",
+   "source_native_tile": "ambiguity_045_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_045",
+    "row": 4,
+    "column": 5
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_046_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_02_native.png",
+   "source_native_tile": "ambiguity_046_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_046",
+    "row": 5,
+    "column": 1
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_047_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_02_native.png",
+   "source_native_tile": "ambiguity_047_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_047",
+    "row": 5,
+    "column": 2
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_048_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_02_native.png",
+   "source_native_tile": "ambiguity_048_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_048",
+    "row": 5,
+    "column": 3
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_049_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_02_native.png",
+   "source_native_tile": "ambiguity_049_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_049",
+    "row": 5,
+    "column": 4
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_050_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_02_native.png",
+   "source_native_tile": "ambiguity_050_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_050",
+    "row": 5,
+    "column": 5
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_051_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_03_native.png",
+   "source_native_tile": "ambiguity_051_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_051",
+    "row": 1,
+    "column": 1
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_052_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_03_native.png",
+   "source_native_tile": "ambiguity_052_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_052",
+    "row": 1,
+    "column": 2
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_053_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_03_native.png",
+   "source_native_tile": "ambiguity_053_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_053",
+    "row": 1,
+    "column": 3
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_054_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_03_native.png",
+   "source_native_tile": "ambiguity_054_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_054",
+    "row": 1,
+    "column": 4
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_055_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_03_native.png",
+   "source_native_tile": "ambiguity_055_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_055",
+    "row": 1,
+    "column": 5
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_056_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_03_native.png",
+   "source_native_tile": "ambiguity_056_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_056",
+    "row": 2,
+    "column": 1
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_057_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_03_native.png",
+   "source_native_tile": "ambiguity_057_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_057",
+    "row": 2,
+    "column": 2
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_058_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_03_native.png",
+   "source_native_tile": "ambiguity_058_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_058",
+    "row": 2,
+    "column": 3
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_059_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_03_native.png",
+   "source_native_tile": "ambiguity_059_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_059",
+    "row": 2,
+    "column": 4
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_060_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_03_native.png",
+   "source_native_tile": "ambiguity_060_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_060",
+    "row": 2,
+    "column": 5
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_061_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_03_native.png",
+   "source_native_tile": "ambiguity_061_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_061",
+    "row": 3,
+    "column": 1
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_062_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_03_native.png",
+   "source_native_tile": "ambiguity_062_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_062",
+    "row": 3,
+    "column": 2
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_063_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_03_native.png",
+   "source_native_tile": "ambiguity_063_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_063",
+    "row": 3,
+    "column": 3
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_064_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_03_native.png",
+   "source_native_tile": "ambiguity_064_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_064",
+    "row": 3,
+    "column": 4
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_065_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_03_native.png",
+   "source_native_tile": "ambiguity_065_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_065",
+    "row": 3,
+    "column": 5
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_066_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_03_native.png",
+   "source_native_tile": "ambiguity_066_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_066",
+    "row": 4,
+    "column": 1
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_067_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_03_native.png",
+   "source_native_tile": "ambiguity_067_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_067",
+    "row": 4,
+    "column": 2
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_068_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_03_native.png",
+   "source_native_tile": "ambiguity_068_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_068",
+    "row": 4,
+    "column": 3
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_069_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_03_native.png",
+   "source_native_tile": "ambiguity_069_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_069",
+    "row": 4,
+    "column": 4
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_070_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_03_native.png",
+   "source_native_tile": "ambiguity_070_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_070",
+    "row": 4,
+    "column": 5
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_071_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_03_native.png",
+   "source_native_tile": "ambiguity_071_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_071",
+    "row": 5,
+    "column": 1
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_072_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_03_native.png",
+   "source_native_tile": "ambiguity_072_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_072",
+    "row": 5,
+    "column": 2
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_073_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_03_native.png",
+   "source_native_tile": "ambiguity_073_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_073",
+    "row": 5,
+    "column": 3
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_074_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_03_native.png",
+   "source_native_tile": "ambiguity_074_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_074",
+    "row": 5,
+    "column": 4
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_075_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_03_native.png",
+   "source_native_tile": "ambiguity_075_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_075",
+    "row": 5,
+    "column": 5
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_076_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_04_native.png",
+   "source_native_tile": "ambiguity_076_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_076",
+    "row": 1,
+    "column": 1
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_077_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_04_native.png",
+   "source_native_tile": "ambiguity_077_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_077",
+    "row": 1,
+    "column": 2
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_078_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_04_native.png",
+   "source_native_tile": "ambiguity_078_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_078",
+    "row": 1,
+    "column": 3
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_079_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_04_native.png",
+   "source_native_tile": "ambiguity_079_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_079",
+    "row": 1,
+    "column": 4
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_080_native.png",
+   "item_type": "ambiguity",
+   "native_tile": "ambiguity_contact_sheet_04_native.png",
+   "source_native_tile": "ambiguity_080_native.png",
+   "sheet_cell": {
+    "label": "ambiguity_080",
+    "row": 1,
+    "column": 5
+   },
+   "candidate_tile": null,
+   "detail": "native crop for a disputed series assignment"
+  },
+  {
+   "item_id": "slot:0001",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 283K",
+   "source_pixel": [
+    233.17,
+    null
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0002",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 313K",
+   "source_pixel": [
+    233.17,
+    null
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0003",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 343K",
+   "source_pixel": [
+    233.17,
+    null
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0004",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 353K",
+   "source_pixel": [
+    233.17,
+    null
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0005",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 363K",
+   "source_pixel": [
+    233.17,
+    null
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0006",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 373K",
+   "source_pixel": [
+    233.17,
+    null
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0007",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 313K",
+   "source_pixel": [
+    256.93,
+    588.88
+   ],
+   "detail": "no_native_marker_core_after_line_suppression"
+  },
+  {
+   "item_id": "slot:0008",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 323K",
+   "source_pixel": [
+    256.93,
+    612.79
+   ],
+   "detail": "line_like_residual_not_marker"
+  },
+  {
+   "item_id": "slot:0009",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 353K",
+   "source_pixel": [
+    256.93,
+    null
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0010",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 373K",
+   "source_pixel": [
+    256.93,
+    null
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0011",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 313K",
+   "source_pixel": [
+    268.27,
+    572.46
+   ],
+   "detail": "no_native_marker_core_after_line_suppression"
+  },
+  {
+   "item_id": "slot:0012",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 323K",
+   "source_pixel": [
+    268.27,
+    596.2
+   ],
+   "detail": "no_native_marker_core_after_line_suppression"
+  },
+  {
+   "item_id": "slot:0013",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 373K",
+   "source_pixel": [
+    268.27,
+    null
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0014",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 313K",
+   "source_pixel": [
+    279.69,
+    555.92
+   ],
+   "detail": "no_native_marker_core_after_line_suppression"
+  },
+  {
+   "item_id": "slot:0015",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 323K",
+   "source_pixel": [
+    279.69,
+    579.49
+   ],
+   "detail": "no_native_marker_core_after_line_suppression"
+  },
+  {
+   "item_id": "slot:0016",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 373K",
+   "source_pixel": [
+    279.69,
+    null
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  }
+ ],
+ "instructions": "Native tiles preserve source pixel values, with nearest-neighbor enlargement where needed. Candidate tiles identify Python proposals only. Diagnostic tiles (line suppression, likelihood, assignments and scores) are fallible derived views, not native evidence. Ambiguity contact sheets preserve each native crop as a labeled cell; use the manifest row and column to match item IDs. Search every complex-region native tile for missed CO2 markers; never use an annotated ring or count as coordinate evidence."
+}

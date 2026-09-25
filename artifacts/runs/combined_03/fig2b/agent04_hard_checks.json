@@ -1,0 +1,153 @@
+{
+ "stage": "agent04",
+ "passed": true,
+ "problems": [],
+ "axis_range": {
+  "passed": true,
+  "problems": [],
+  "margin": 0.05,
+  "max_frame_overhang_steps": 1.0,
+  "x": {
+   "unit": "kPa",
+   "scale": "linear",
+   "printed": [
+    0.0,
+    120.0
+   ],
+   "data": [
+    1.5124,
+    114.1171
+   ],
+   "points_outside": 0,
+   "passed": true,
+   "frame": [
+    0.046347486973076,
+    119.953652513027
+   ],
+   "frame_overhang_steps": [
+    -0.0,
+    -0.0
+   ],
+   "allowed": [
+    -6.0,
+    126.0
+   ]
+  },
+  "y": {
+   "unit": "mmol/g",
+   "scale": "linear",
+   "printed": [
+    0.0,
+    3.0
+   ],
+   "data": [
+    0.1446,
+    2.9272
+   ],
+   "points_outside": 0,
+   "passed": true,
+   "frame": [
+    -0.000701433501222315,
+    3.1155558759133943
+   ],
+   "frame_overhang_steps": [
+    0.0,
+    0.23
+   ],
+   "allowed": [
+    -0.15000000000000002,
+    3.15
+   ]
+  }
+ },
+ "redraw": {
+  "available": true,
+  "series": {
+   "CO2 303K": {
+    "points": 14,
+    "precision": 1.0,
+    "recall": 0.979,
+    "missed_marker_equivalents": 0.3,
+    "same_color_group": [
+     "CO2 303K"
+    ]
+   },
+   "CO2 313K": {
+    "points": 19,
+    "precision": 0.947,
+    "recall": 0.998,
+    "missed_marker_equivalents": 0.0,
+    "same_color_group": [
+     "CO2 313K"
+    ]
+   },
+   "CO2 323K": {
+    "points": 22,
+    "precision": 1.0,
+    "recall": 1.0,
+    "missed_marker_equivalents": 0.0,
+    "same_color_group": [
+     "CO2 323K"
+    ]
+   },
+   "CO2 333K": {
+    "points": 19,
+    "precision": 1.0,
+    "recall": 0.973,
+    "missed_marker_equivalents": 0.5,
+    "same_color_group": [
+     "CO2 333K"
+    ]
+   },
+   "CO2 353K": {
+    "points": 18,
+    "precision": 1.0,
+    "recall": 0.958,
+    "missed_marker_equivalents": 0.5,
+    "same_color_group": [
+     "CO2 353K"
+    ]
+   },
+   "CO2 373K": {
+    "points": 13,
+    "precision": 1.0,
+    "recall": 0.312,
+    "missed_marker_equivalents": 18.0,
+    "same_color_group": [
+     "CO2 373K"
+    ]
+   }
+  },
+  "recall": 0.87,
+  "precision": 0.991
+ },
+ "physics": {
+  "verdict": "auto_accept",
+  "flags": {
+   "CO2 303K": [],
+   "CO2 313K": [],
+   "CO2 323K": [],
+   "CO2 333K": [
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "ads: local outliers (P,q,resid) [(np.float64(13.503), np.float64(1.148), 0.048)]"
+    },
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "des: local outliers (P,q,resid) [(np.float64(13.503), np.float64(1.148), 0.048)]"
+    }
+   ],
+   "CO2 353K": [],
+   "CO2 373K": []
+  },
+  "cross_series": []
+ },
+ "limitations": {
+  "unresolved_slots": 18,
+  "dense_regions_with_no_distinct_centres": 0,
+  "note": "ink coverage is not marker completeness; unresolved dense evidence requires review"
+ },
+ "accepted_extraction": false
+}

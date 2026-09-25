@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\src\workflow\steps\base.py", line 62, in handle
+    run.panel_dir.mkdir(parents=True, exist_ok=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\src\workflow\steps\agent03_review_points.py", line 348, in run_panel
+    answer = await _await_batch(self.agent.ask(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\src\workflow\steps\agent03_review_points.py", line 43, in _await_batch
+    raise TimeoutError(
+TimeoutError: agent03-extraction batch 1/1 exceeded its 180s hard timeout

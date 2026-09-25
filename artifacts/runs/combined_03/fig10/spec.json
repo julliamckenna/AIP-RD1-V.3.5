@@ -1,0 +1,1457 @@
+{
+ "image": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_03\\fig10\\panel.png",
+ "panel_bbox": [
+  0,
+  0,
+  942,
+  695
+ ],
+ "x": {
+  "title": "Pressure",
+  "unit": "bar",
+  "scale": "linear",
+  "ticks": [
+   0,
+   0.2,
+   0.4,
+   0.6,
+   0.8,
+   1,
+   1.2
+  ],
+  "x_setpoints_visible": [
+   0.01,
+   0.04,
+   0.07,
+   0.1,
+   0.13,
+   0.16,
+   0.19,
+   0.22,
+   0.25,
+   0.28,
+   0.31,
+   0.34,
+   0.37,
+   0.4,
+   0.43,
+   0.46,
+   0.49,
+   0.52,
+   0.55,
+   0.58,
+   0.61,
+   0.64,
+   0.67,
+   0.7,
+   0.73,
+   0.76,
+   0.79,
+   0.82,
+   0.85,
+   0.88,
+   0.91,
+   0.94,
+   0.97,
+   1,
+   1.03,
+   1.06,
+   1.08
+  ],
+  "grid": [
+   0.01,
+   0.04,
+   0.07,
+   0.1,
+   0.13,
+   0.16,
+   0.19,
+   0.22,
+   0.25,
+   0.28,
+   0.31,
+   0.34,
+   0.37,
+   0.4,
+   0.43,
+   0.46,
+   0.49,
+   0.52,
+   0.55,
+   0.58,
+   0.61,
+   0.64,
+   0.67,
+   0.7,
+   0.73,
+   0.76,
+   0.79,
+   0.82,
+   0.85,
+   0.88,
+   0.91,
+   0.94,
+   0.97,
+   1,
+   1.03,
+   1.06,
+   1.08
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.18259023354564755,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.3036093418259023,
+    "value": 0.2
+   },
+   {
+    "pixel_norm": 0.4267515923566879,
+    "value": 0.4
+   },
+   {
+    "pixel_norm": 0.5498938428874734,
+    "value": 0.6
+   },
+   {
+    "pixel_norm": 0.673036093418259,
+    "value": 0.8
+   },
+   {
+    "pixel_norm": 0.7940552016985138,
+    "value": 1
+   },
+   {
+    "pixel_norm": 0.9171974522292994,
+    "value": 1.2
+   }
+  ],
+  "minimum": 0,
+  "maximum": 1.3,
+  "boundary_limits_confirmed": true
+ },
+ "y": {
+  "title": "Quantity Adsorbed",
+  "unit": "cm³·g⁻¹",
+  "scale": "linear",
+  "ticks": [
+   0,
+   10,
+   20,
+   30,
+   40,
+   50
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.8028776978417266,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.6589928057553956,
+    "value": 10
+   },
+   {
+    "pixel_norm": 0.5151079136690647,
+    "value": 20
+   },
+   {
+    "pixel_norm": 0.3712230215827338,
+    "value": 30
+   },
+   {
+    "pixel_norm": 0.2302158273381295,
+    "value": 40
+   },
+   {
+    "pixel_norm": 0.08633093525179857,
+    "value": 50
+   }
+  ],
+  "minimum": 0,
+  "maximum": 55,
+  "boundary_limits_confirmed": true
+ },
+ "legend_bbox": [
+  832,
+  240,
+  942,
+  556
+ ],
+ "legend_position": "right side outside the plot area",
+ "series": [
+  {
+   "label": "CO2 273K ads",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend entry 'a' is a red filled circle; caption explicitly identifies (a) as CO2 adsorption at 273 K.",
+   "marker": "circle",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "color_hex": "#ef3b2c",
+   "quantity_type": "co2_uptake",
+   "loading_basis": "per gram of adsorbent",
+   "y_at_xmax": 53,
+   "y_anchors": {
+    "p25": 40.5,
+    "p50": 47.5,
+    "p75": 51.7,
+    "p100": 53
+   },
+   "n_markers_estimate": 40,
+   "color_tolerance": 28.0,
+   "separate_from": [
+    "CO2 273K des",
+    "CH4 273K ads",
+    "CH4 273K des"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.08,
+     "y_min": 7,
+     "y_max": 28
+    },
+    {
+     "x_from": 0.08,
+     "x_to": 0.3,
+     "y_min": 25,
+     "y_max": 40
+    },
+    {
+     "x_from": 0.3,
+     "x_to": 1.1,
+     "y_min": 38,
+     "y_max": 55
+    }
+   ],
+   "template_fill": "fit_only",
+   "setting_reason": "Guide the upper red filled-circle branch and distinguish it from the nearly coincident open red circles and lower red triangles.",
+   "sample_px": [
+    724.0,
+    29.0
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 1.1,
+     "count": 36
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 0.01,
+     "y": 9.5
+    },
+    {
+     "x": 0.04,
+     "y": 19.5
+    },
+    {
+     "x": 0.07,
+     "y": 25.5
+    },
+    {
+     "x": 0.12,
+     "y": 32.0
+    },
+    {
+     "x": 0.2,
+     "y": 36.0
+    },
+    {
+     "x": 0.3,
+     "y": 40.0
+    },
+    {
+     "x": 0.45,
+     "y": 44.5
+    },
+    {
+     "x": 0.65,
+     "y": 48.0
+    },
+    {
+     "x": 0.85,
+     "y": 51.0
+    },
+    {
+     "x": 1.05,
+     "y": 53.0
+    }
+   ]
+  },
+  {
+   "label": "CO2 273K des",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend entry 'b' is a red open circle; caption explicitly identifies (b) as CO2 desorption at 273 K.",
+   "marker": "circle",
+   "marker_fill": "open",
+   "line_style": "none",
+   "color_hex": "#ef3b2c",
+   "quantity_type": "co2_uptake",
+   "loading_basis": "per gram of adsorbent",
+   "y_at_xmax": 53.3,
+   "y_anchors": {
+    "p25": 41,
+    "p50": 47.8,
+    "p75": 51.8,
+    "p100": 53.3
+   },
+   "n_markers_estimate": 40,
+   "color_tolerance": 31.0,
+   "separate_from": [
+    "CO2 273K ads",
+    "CH4 273K ads",
+    "CH4 273K des"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.08,
+     "y_min": 8,
+     "y_max": 29
+    },
+    {
+     "x_from": 0.08,
+     "x_to": 0.3,
+     "y_min": 26,
+     "y_max": 41
+    },
+    {
+     "x_from": 0.3,
+     "x_to": 1.1,
+     "y_min": 39,
+     "y_max": 55
+    }
+   ],
+   "template_fill": "off",
+   "setting_reason": "Open red circles closely track the filled red-circle branch; use open-centre evidence and the upper curve band rather than template filling.",
+   "sample_px": [
+    794.0,
+    50.5
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 1.1,
+     "count": 36
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 0.01,
+     "y": 10.0
+    },
+    {
+     "x": 0.04,
+     "y": 20.5
+    },
+    {
+     "x": 0.07,
+     "y": 26.0
+    },
+    {
+     "x": 0.12,
+     "y": 32.5
+    },
+    {
+     "x": 0.2,
+     "y": 36.5
+    },
+    {
+     "x": 0.3,
+     "y": 40.5
+    },
+    {
+     "x": 0.45,
+     "y": 45.0
+    },
+    {
+     "x": 0.65,
+     "y": 48.5
+    },
+    {
+     "x": 0.85,
+     "y": 51.3
+    },
+    {
+     "x": 1.05,
+     "y": 53.3
+    }
+   ]
+  },
+  {
+   "label": "CO2 300K ads",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend entry 'c' is a blue filled circle; caption explicitly identifies (c) as CO2 adsorption at 300 K.",
+   "marker": "circle",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "color_hex": "#3557a4",
+   "quantity_type": "co2_uptake",
+   "loading_basis": "per gram of adsorbent",
+   "y_at_xmax": 41.4,
+   "y_anchors": {
+    "p25": 28.5,
+    "p50": 36.3,
+    "p75": 40.5,
+    "p100": 41.4
+   },
+   "n_markers_estimate": 40,
+   "color_tolerance": 28.0,
+   "separate_from": [
+    "CO2 300K des",
+    "CH4 300K ads",
+    "CH4 300K des"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.08,
+     "y_min": 3,
+     "y_max": 18
+    },
+    {
+     "x_from": 0.08,
+     "x_to": 0.3,
+     "y_min": 14,
+     "y_max": 28
+    },
+    {
+     "x_from": 0.3,
+     "x_to": 1.1,
+     "y_min": 27,
+     "y_max": 43
+    }
+   ],
+   "template_fill": "fit_only",
+   "setting_reason": "Current extraction finds only half the expected blue filled-circle markers; constrain it to the middle blue circle curve and use a clean filled marker sample.",
+   "sample_px": [
+    632.1,
+    376.0
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 1.1,
+     "count": 36
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 0.01,
+     "y": 3.5
+    },
+    {
+     "x": 0.04,
+     "y": 14.0
+    },
+    {
+     "x": 0.08,
+     "y": 18.0
+    },
+    {
+     "x": 0.12,
+     "y": 22.0
+    },
+    {
+     "x": 0.2,
+     "y": 25.0
+    },
+    {
+     "x": 0.3,
+     "y": 28.5
+    },
+    {
+     "x": 0.45,
+     "y": 33.0
+    },
+    {
+     "x": 0.65,
+     "y": 36.5
+    },
+    {
+     "x": 0.85,
+     "y": 39.0
+    },
+    {
+     "x": 1.05,
+     "y": 41.2
+    }
+   ]
+  },
+  {
+   "label": "CO2 300K des",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend entry 'd' is a blue open circle; caption explicitly identifies (d) as CO2 desorption at 300 K.",
+   "marker": "circle",
+   "marker_fill": "open",
+   "line_style": "none",
+   "color_hex": "#3557a4",
+   "quantity_type": "co2_uptake",
+   "loading_basis": "per gram of adsorbent",
+   "y_at_xmax": 41.7,
+   "y_anchors": {
+    "p25": 29,
+    "p50": 36.5,
+    "p75": 40.7,
+    "p100": 41.7
+   },
+   "n_markers_estimate": 40,
+   "color_tolerance": 29.0,
+   "separate_from": [
+    "CO2 300K ads",
+    "CH4 300K ads",
+    "CH4 300K des"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.08,
+     "y_min": 3,
+     "y_max": 19
+    },
+    {
+     "x_from": 0.08,
+     "x_to": 0.3,
+     "y_min": 15,
+     "y_max": 29
+    },
+    {
+     "x_from": 0.3,
+     "x_to": 1.1,
+     "y_min": 28,
+     "y_max": 43
+    }
+   ],
+   "template_fill": "off",
+   "setting_reason": "Open blue circles are paired just above the filled blue circles; suppress template-filled false positives and use centre-white evidence.",
+   "sample_px": [
+    797.0,
+    405.5
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 1.1,
+     "count": 36
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 0.01,
+     "y": 3.8
+    },
+    {
+     "x": 0.04,
+     "y": 14.5
+    },
+    {
+     "x": 0.08,
+     "y": 19.0
+    },
+    {
+     "x": 0.12,
+     "y": 22.5
+    },
+    {
+     "x": 0.2,
+     "y": 25.5
+    },
+    {
+     "x": 0.3,
+     "y": 29.0
+    },
+    {
+     "x": 0.45,
+     "y": 33.5
+    },
+    {
+     "x": 0.65,
+     "y": 37.0
+    },
+    {
+     "x": 0.85,
+     "y": 39.3
+    },
+    {
+     "x": 1.05,
+     "y": 41.6
+    }
+   ]
+  },
+  {
+   "label": "CH4 273K ads",
+   "extract": false,
+   "gas": "CH4",
+   "species_evidence": "Legend entry 'e' is a red filled upward triangle; caption explicitly identifies (e) as CH4 adsorption at 273 K.",
+   "marker": "triangle_up",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "color_hex": "#ef3b2c",
+   "quantity_type": "ch4_uptake",
+   "loading_basis": "per gram of adsorbent",
+   "y_at_xmax": 26.8,
+   "y_anchors": {
+    "p25": 15.5,
+    "p50": 22.2,
+    "p75": 26,
+    "p100": 26.8
+   },
+   "n_markers_estimate": 36,
+   "color_tolerance": 28.0,
+   "separate_from": [
+    "CH4 273K des",
+    "CO2 273K ads",
+    "CO2 273K des"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.08,
+     "y_min": 0,
+     "y_max": 7
+    },
+    {
+     "x_from": 0.08,
+     "x_to": 0.3,
+     "y_min": 5,
+     "y_max": 15
+    },
+    {
+     "x_from": 0.3,
+     "x_to": 1.1,
+     "y_min": 14,
+     "y_max": 28
+    }
+   ],
+   "template_fill": "fit_only",
+   "setting_reason": "Previously excluded; extract the lower red filled upward-triangle branch separately from the upper red circles.",
+   "sample_px": [
+    724.0,
+    416.5
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 1.1,
+     "count": 36
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 0.01,
+     "y": 1.0
+    },
+    {
+     "x": 0.04,
+     "y": 3.5
+    },
+    {
+     "x": 0.08,
+     "y": 6.5
+    },
+    {
+     "x": 0.12,
+     "y": 9.0
+    },
+    {
+     "x": 0.2,
+     "y": 12.0
+    },
+    {
+     "x": 0.3,
+     "y": 15.0
+    },
+    {
+     "x": 0.45,
+     "y": 19.0
+    },
+    {
+     "x": 0.65,
+     "y": 22.5
+    },
+    {
+     "x": 0.85,
+     "y": 25.0
+    },
+    {
+     "x": 1.05,
+     "y": 27.0
+    }
+   ]
+  },
+  {
+   "label": "CH4 273K des",
+   "extract": false,
+   "gas": "CH4",
+   "species_evidence": "Legend entry 'f' is a red open upward triangle; caption explicitly identifies (f) as CH4 desorption at 273 K.",
+   "marker": "triangle_up",
+   "marker_fill": "open",
+   "line_style": "none",
+   "color_hex": "#ef3b2c",
+   "quantity_type": "ch4_uptake",
+   "loading_basis": "per gram of adsorbent",
+   "y_at_xmax": 27,
+   "y_anchors": {
+    "p25": 16,
+    "p50": 22.5,
+    "p75": 26.2,
+    "p100": 27
+   },
+   "n_markers_estimate": 36,
+   "color_tolerance": 30.0,
+   "separate_from": [
+    "CH4 273K ads",
+    "CO2 273K ads",
+    "CO2 273K des"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.08,
+     "y_min": 0,
+     "y_max": 8
+    },
+    {
+     "x_from": 0.08,
+     "x_to": 0.3,
+     "y_min": 6,
+     "y_max": 16
+    },
+    {
+     "x_from": 0.3,
+     "x_to": 1.1,
+     "y_min": 15,
+     "y_max": 28
+    }
+   ],
+   "template_fill": "off",
+   "setting_reason": "Previously excluded; use open-centre upward triangles on the red lower branch, which lies slightly above the filled triangles.",
+   "sample_px": [
+    794.0,
+    459.0
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 1.1,
+     "count": 36
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 0.01,
+     "y": 1.2
+    },
+    {
+     "x": 0.04,
+     "y": 4.0
+    },
+    {
+     "x": 0.08,
+     "y": 7.0
+    },
+    {
+     "x": 0.12,
+     "y": 9.5
+    },
+    {
+     "x": 0.2,
+     "y": 12.5
+    },
+    {
+     "x": 0.3,
+     "y": 15.5
+    },
+    {
+     "x": 0.45,
+     "y": 19.5
+    },
+    {
+     "x": 0.65,
+     "y": 23.0
+    },
+    {
+     "x": 0.85,
+     "y": 25.3
+    },
+    {
+     "x": 1.05,
+     "y": 27.3
+    }
+   ]
+  },
+  {
+   "label": "CH4 300K ads",
+   "extract": false,
+   "gas": "CH4",
+   "species_evidence": "Legend entry 'g' is a blue filled upward triangle; caption explicitly identifies (g) as CH4 adsorption at 300 K.",
+   "marker": "triangle_up",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "color_hex": "#3557a4",
+   "quantity_type": "ch4_uptake",
+   "loading_basis": "per gram of adsorbent",
+   "y_at_xmax": 18.8,
+   "y_anchors": {
+    "p25": 9,
+    "p50": 14.5,
+    "p75": 18.1,
+    "p100": 18.8
+   },
+   "n_markers_estimate": 36,
+   "color_tolerance": 28.0,
+   "separate_from": [
+    "CH4 300K des",
+    "CO2 300K ads",
+    "CO2 300K des"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.08,
+     "y_min": 0,
+     "y_max": 4
+    },
+    {
+     "x_from": 0.08,
+     "x_to": 0.3,
+     "y_min": 2,
+     "y_max": 9
+    },
+    {
+     "x_from": 0.3,
+     "x_to": 1.1,
+     "y_min": 8,
+     "y_max": 20
+    }
+   ],
+   "template_fill": "fit_only",
+   "setting_reason": "Previously excluded; extract the lower blue filled upward-triangle branch, below the blue open triangles.",
+   "sample_px": [
+    724.0,
+    587.5
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 1.1,
+     "count": 36
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 0.01,
+     "y": 1.0
+    },
+    {
+     "x": 0.04,
+     "y": 2.0
+    },
+    {
+     "x": 0.08,
+     "y": 3.5
+    },
+    {
+     "x": 0.12,
+     "y": 5.0
+    },
+    {
+     "x": 0.2,
+     "y": 6.5
+    },
+    {
+     "x": 0.3,
+     "y": 8.5
+    },
+    {
+     "x": 0.45,
+     "y": 11.5
+    },
+    {
+     "x": 0.65,
+     "y": 14.5
+    },
+    {
+     "x": 0.85,
+     "y": 17.0
+    },
+    {
+     "x": 1.05,
+     "y": 19.0
+    }
+   ]
+  },
+  {
+   "label": "CH4 300K des",
+   "extract": false,
+   "gas": "CH4",
+   "species_evidence": "Legend entry 'h' is a blue open upward triangle; caption explicitly identifies (h) as CH4 desorption at 300 K.",
+   "marker": "triangle_up",
+   "marker_fill": "open",
+   "line_style": "none",
+   "color_hex": "#3557a4",
+   "quantity_type": "ch4_uptake",
+   "loading_basis": "per gram of adsorbent",
+   "y_at_xmax": 19,
+   "y_anchors": {
+    "p25": 9.3,
+    "p50": 14.8,
+    "p75": 18.3,
+    "p100": 19
+   },
+   "n_markers_estimate": 36,
+   "color_tolerance": 31.0,
+   "separate_from": [
+    "CH4 300K ads",
+    "CO2 300K ads",
+    "CO2 300K des"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.08,
+     "y_min": 0,
+     "y_max": 5
+    },
+    {
+     "x_from": 0.08,
+     "x_to": 0.3,
+     "y_min": 3,
+     "y_max": 10
+    },
+    {
+     "x_from": 0.3,
+     "x_to": 1.1,
+     "y_min": 9,
+     "y_max": 20
+    }
+   ],
+   "template_fill": "off",
+   "setting_reason": "Previously excluded; use open blue upward triangles on the lower blue branch, slightly above the filled triangles.",
+   "sample_px": [
+    794.0,
+    612.5
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 1.1,
+     "count": 36
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 0.01,
+     "y": 1.2
+    },
+    {
+     "x": 0.04,
+     "y": 2.3
+    },
+    {
+     "x": 0.08,
+     "y": 4.0
+    },
+    {
+     "x": 0.12,
+     "y": 5.5
+    },
+    {
+     "x": 0.2,
+     "y": 7.0
+    },
+    {
+     "x": 0.3,
+     "y": 9.0
+    },
+    {
+     "x": 0.45,
+     "y": 12.0
+    },
+    {
+     "x": 0.65,
+     "y": 15.0
+    },
+    {
+     "x": 0.85,
+     "y": 17.5
+    },
+    {
+     "x": 1.05,
+     "y": 19.2
+    }
+   ]
+  }
+ ],
+ "mask_bboxes": [],
+ "context": {
+  "adsorbent": "1a",
+  "sample_form": "Not reported in the provided caption or page text.",
+  "activation": "Not reported in the provided caption or page text.",
+  "instrument": "Not reported in the provided caption or page text.",
+  "measurement_notes": "CO2 adsorption and desorption isotherms were measured at 273 K and 300 K, with quantity adsorbed in cm³ g⁻¹ plotted against pressure in bar. CH4 adsorption/desorption series at the same temperatures share the axis frame but are excluded from CO2 extraction.",
+  "other_parameters": "The page text describes the CO2 measurements as being under ambient conditions and discusses uptake at 1 bar. It mentions CO2 adsorption enthalpies calculated using the Clausius–Clapeyron equation; those heat-of-adsorption results are not eligible uptake data. No supplementary table containing isotherm data is identified in the provided evidence."
+ },
+ "panel_info": {
+  "panel": "x",
+  "is_co2_isotherm": true,
+  "reason": "The single axis frame plots quantity adsorbed (cm³ g⁻¹) against pressure (bar) and includes CO2 adsorption and desorption series at 273 K and 300 K; the CH4 series in the same frame are not eligible.",
+  "bbox_norm": [
+   0.01,
+   0.01,
+   0.99,
+   0.99
+  ],
+  "has_inset": false,
+  "inset_bbox_norm": null
+ },
+ "panel_mapping": {
+  "runtime_panel_id": "x",
+  "layout_panel_id": "x",
+  "canonical_panel_id": "x"
+ },
+ "llm_spec": {
+  "reasoning": "One linear axis frame contains eight legend entries, a–h. The caption binds a/b to CO2 adsorption/desorption at 273 K, c/d to CO2 adsorption/desorption at 300 K, e/f to CH4 adsorption/desorption at 273 K, and g/h to CH4 adsorption/desorption at 300 K. Thus only a–d are eligible CO2 uptake series. Red denotes 273 K and blue denotes 300 K; circles denote CO2 and upward triangles denote CH4, with filled markers for adsorption and open markers for desorption. The paired branches nearly overlap, especially at high pressure.",
+  "x": {
+   "title": "Pressure",
+   "unit": "bar",
+   "scale": "linear",
+   "ticks": [
+    0,
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1,
+    1.2
+   ],
+   "x_setpoints_visible": [
+    0.01,
+    0.04,
+    0.07,
+    0.1,
+    0.13,
+    0.16,
+    0.19,
+    0.22,
+    0.25,
+    0.28,
+    0.31,
+    0.34,
+    0.37,
+    0.4,
+    0.43,
+    0.46,
+    0.49,
+    0.52,
+    0.55,
+    0.58,
+    0.61,
+    0.64,
+    0.67,
+    0.7,
+    0.73,
+    0.76,
+    0.79,
+    0.82,
+    0.85,
+    0.88,
+    0.91,
+    0.94,
+    0.97,
+    1,
+    1.03,
+    1.06,
+    1.08
+   ],
+   "grid": [
+    0.01,
+    0.04,
+    0.07,
+    0.1,
+    0.13,
+    0.16,
+    0.19,
+    0.22,
+    0.25,
+    0.28,
+    0.31,
+    0.34,
+    0.37,
+    0.4,
+    0.43,
+    0.46,
+    0.49,
+    0.52,
+    0.55,
+    0.58,
+    0.61,
+    0.64,
+    0.67,
+    0.7,
+    0.73,
+    0.76,
+    0.79,
+    0.82,
+    0.85,
+    0.88,
+    0.91,
+    0.94,
+    0.97,
+    1,
+    1.03,
+    1.06,
+    1.08
+   ],
+   "tick_anchors": [
+    {
+     "pixel_norm": 0.18259023354564755,
+     "value": 0
+    },
+    {
+     "pixel_norm": 0.3036093418259023,
+     "value": 0.2
+    },
+    {
+     "pixel_norm": 0.4267515923566879,
+     "value": 0.4
+    },
+    {
+     "pixel_norm": 0.5498938428874734,
+     "value": 0.6
+    },
+    {
+     "pixel_norm": 0.673036093418259,
+     "value": 0.8
+    },
+    {
+     "pixel_norm": 0.7940552016985138,
+     "value": 1
+    },
+    {
+     "pixel_norm": 0.9171974522292994,
+     "value": 1.2
+    }
+   ],
+   "minimum": 0,
+   "maximum": 1.3,
+   "boundary_limits_confirmed": true
+  },
+  "y": {
+   "title": "Quantity Adsorbed",
+   "unit": "cm³·g⁻¹",
+   "scale": "linear",
+   "ticks": [
+    0,
+    10,
+    20,
+    30,
+    40,
+    50
+   ],
+   "tick_anchors": [
+    {
+     "pixel_norm": 0.8028776978417266,
+     "value": 0
+    },
+    {
+     "pixel_norm": 0.6589928057553956,
+     "value": 10
+    },
+    {
+     "pixel_norm": 0.5151079136690647,
+     "value": 20
+    },
+    {
+     "pixel_norm": 0.3712230215827338,
+     "value": 30
+    },
+    {
+     "pixel_norm": 0.2302158273381295,
+     "value": 40
+    },
+    {
+     "pixel_norm": 0.08633093525179857,
+     "value": 50
+    }
+   ],
+   "minimum": 0,
+   "maximum": 55,
+   "boundary_limits_confirmed": true
+  },
+  "legend_bbox_norm": [
+   0.8938428874734607,
+   0.3553956834532374,
+   1.0,
+   0.7906474820143885
+  ],
+  "legend_position": "right side outside the plot area",
+  "series": [
+   {
+    "label": "CO2 273K ads",
+    "gas": "CO2",
+    "species_evidence": "Legend entry 'a' is a red filled circle; caption explicitly identifies (a) as CO2 adsorption at 273 K.",
+    "temperature_k": 273,
+    "color_name": "red",
+    "color_hex": "#ef3b2c",
+    "marker": "circle",
+    "marker_fill": "filled",
+    "line_style": "none",
+    "has_line": false,
+    "quantity_type": "co2_uptake",
+    "loading_basis": "per gram of adsorbent",
+    "extract": true,
+    "y_anchors": {
+     "p25": 40.5,
+     "p50": 47.5,
+     "p75": 51.7,
+     "p100": 53
+    },
+    "n_markers_estimate": 40
+   },
+   {
+    "label": "CO2 273K des",
+    "gas": "CO2",
+    "species_evidence": "Legend entry 'b' is a red open circle; caption explicitly identifies (b) as CO2 desorption at 273 K.",
+    "temperature_k": 273,
+    "color_name": "red",
+    "color_hex": "#ef3b2c",
+    "marker": "circle",
+    "marker_fill": "open",
+    "line_style": "none",
+    "has_line": false,
+    "quantity_type": "co2_uptake",
+    "loading_basis": "per gram of adsorbent",
+    "extract": true,
+    "y_anchors": {
+     "p25": 41,
+     "p50": 47.8,
+     "p75": 51.8,
+     "p100": 53.3
+    },
+    "n_markers_estimate": 40
+   },
+   {
+    "label": "CO2 300K ads",
+    "gas": "CO2",
+    "species_evidence": "Legend entry 'c' is a blue filled circle; caption explicitly identifies (c) as CO2 adsorption at 300 K.",
+    "temperature_k": 300,
+    "color_name": "blue",
+    "color_hex": "#3557a4",
+    "marker": "circle",
+    "marker_fill": "filled",
+    "line_style": "none",
+    "has_line": false,
+    "quantity_type": "co2_uptake",
+    "loading_basis": "per gram of adsorbent",
+    "extract": true,
+    "y_anchors": {
+     "p25": 28.5,
+     "p50": 36.3,
+     "p75": 40.5,
+     "p100": 41.4
+    },
+    "n_markers_estimate": 40
+   },
+   {
+    "label": "CO2 300K des",
+    "gas": "CO2",
+    "species_evidence": "Legend entry 'd' is a blue open circle; caption explicitly identifies (d) as CO2 desorption at 300 K.",
+    "temperature_k": 300,
+    "color_name": "blue",
+    "color_hex": "#3557a4",
+    "marker": "circle",
+    "marker_fill": "open",
+    "line_style": "none",
+    "has_line": false,
+    "quantity_type": "co2_uptake",
+    "loading_basis": "per gram of adsorbent",
+    "extract": true,
+    "y_anchors": {
+     "p25": 29,
+     "p50": 36.5,
+     "p75": 40.7,
+     "p100": 41.7
+    },
+    "n_markers_estimate": 40
+   },
+   {
+    "label": "CH4 273K ads",
+    "gas": "CH4",
+    "species_evidence": "Legend entry 'e' is a red filled upward triangle; caption explicitly identifies (e) as CH4 adsorption at 273 K.",
+    "temperature_k": 273,
+    "color_name": "red",
+    "color_hex": "#ef3b2c",
+    "marker": "triangle_up",
+    "marker_fill": "filled",
+    "line_style": "none",
+    "has_line": false,
+    "quantity_type": "ch4_uptake",
+    "loading_basis": "per gram of adsorbent",
+    "extract": false,
+    "y_anchors": {
+     "p25": 15.5,
+     "p50": 22.2,
+     "p75": 26,
+     "p100": 26.8
+    },
+    "n_markers_estimate": 36
+   },
+   {
+    "label": "CH4 273K des",
+    "gas": "CH4",
+    "species_evidence": "Legend entry 'f' is a red open upward triangle; caption explicitly identifies (f) as CH4 desorption at 273 K.",
+    "temperature_k": 273,
+    "color_name": "red",
+    "color_hex": "#ef3b2c",
+    "marker": "triangle_up",
+    "marker_fill": "open",
+    "line_style": "none",
+    "has_line": false,
+    "quantity_type": "ch4_uptake",
+    "loading_basis": "per gram of adsorbent",
+    "extract": false,
+    "y_anchors": {
+     "p25": 16,
+     "p50": 22.5,
+     "p75": 26.2,
+     "p100": 27
+    },
+    "n_markers_estimate": 36
+   },
+   {
+    "label": "CH4 300K ads",
+    "gas": "CH4",
+    "species_evidence": "Legend entry 'g' is a blue filled upward triangle; caption explicitly identifies (g) as CH4 adsorption at 300 K.",
+    "temperature_k": 300,
+    "color_name": "blue",
+    "color_hex": "#3557a4",
+    "marker": "triangle_up",
+    "marker_fill": "filled",
+    "line_style": "none",
+    "has_line": false,
+    "quantity_type": "ch4_uptake",
+    "loading_basis": "per gram of adsorbent",
+    "extract": false,
+    "y_anchors": {
+     "p25": 9,
+     "p50": 14.5,
+     "p75": 18.1,
+     "p100": 18.8
+    },
+    "n_markers_estimate": 36
+   },
+   {
+    "label": "CH4 300K des",
+    "gas": "CH4",
+    "species_evidence": "Legend entry 'h' is a blue open upward triangle; caption explicitly identifies (h) as CH4 desorption at 300 K.",
+    "temperature_k": 300,
+    "color_name": "blue",
+    "color_hex": "#3557a4",
+    "marker": "triangle_up",
+    "marker_fill": "open",
+    "line_style": "none",
+    "has_line": false,
+    "quantity_type": "ch4_uptake",
+    "loading_basis": "per gram of adsorbent",
+    "extract": false,
+    "y_anchors": {
+     "p25": 9.3,
+     "p50": 14.8,
+     "p75": 18.3,
+     "p100": 19
+    },
+    "n_markers_estimate": 36
+   }
+  ],
+  "branches": "adsorption_and_desorption",
+  "notes": "Single y axis with unlabeled minor ticks; no inset, broken axis, or error bars. Data are shown as unconnected markers. Adsorption and desorption markers overlap closely, so marker counts and anchors are approximate. CH4 curves remain described but are excluded from extraction.",
+  "chart_title": "",
+  "complex_regions": [
+   {
+    "bbox_norm": [
+     0.12,
+     0.015,
+     0.34,
+     0.81
+    ],
+    "kind": "dense_markers",
+    "python_passes": 4
+   },
+   {
+    "bbox_norm": [
+     0.17,
+     0.38,
+     0.34,
+     0.81
+    ],
+    "kind": "overlapping_markers",
+    "python_passes": 3
+   }
+  ]
+ },
+ "vector_marks": null,
+ "region_strategies": [],
+ "shared_x_columns": [],
+ "complex_regions": [
+  {
+   "bbox_norm": [
+    0.12,
+    0.015,
+    0.34,
+    0.81
+   ],
+   "kind": "dense_markers",
+   "python_passes": 4
+  },
+  {
+   "bbox_norm": [
+    0.17,
+    0.38,
+    0.34,
+    0.81
+   ],
+   "kind": "overlapping_markers",
+   "python_passes": 3
+  }
+ ]
+}

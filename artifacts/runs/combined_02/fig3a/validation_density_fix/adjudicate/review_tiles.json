@@ -1,0 +1,310 @@
+{
+ "schema_version": "1.0",
+ "authority": "supporting_evidence_only",
+ "native_image": "panel.png",
+ "legend": "legend.png",
+ "tiles": [
+  {
+   "tile_id": "marker_01",
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "boxes": [
+    {
+     "box": 1,
+     "point_id": "pt-e872f2bcd0d4db44",
+     "series_label": "CO2 195K",
+     "source_pixel": [
+      152.94,
+      453.82
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 2,
+     "point_id": "pt-238019bed7ab1fc6",
+     "series_label": "CO2 195K",
+     "source_pixel": [
+      153.0,
+      440.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 3,
+     "point_id": "pt-6f86c7a785ce0a66",
+     "series_label": "CO2 195K",
+     "source_pixel": [
+      153.0,
+      447.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 4,
+     "point_id": "pt-8d3b04e1b917b1b3",
+     "series_label": "CO2 195K",
+     "source_pixel": [
+      154.2,
+      412.73
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 5,
+     "point_id": "pt-e43eb29203f7e348",
+     "series_label": "CO2 195K",
+     "source_pixel": [
+      155.0,
+      384.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 6,
+     "point_id": "pt-e295747f1e9c75b0",
+     "series_label": "CO2 195K",
+     "source_pixel": [
+      155.2,
+      387.73
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 7,
+     "point_id": "pt-9b3da906f75c21cc",
+     "series_label": "CO2 195K",
+     "source_pixel": [
+      155.38,
+      370.12
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 8,
+     "point_id": "pt-6cc14f6a03d96164",
+     "series_label": "CO2 195K",
+     "source_pixel": [
+      172.46,
+      225.52
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 9,
+     "point_id": "pt-adcbc2a19e6d45e1",
+     "series_label": "CO2 195K",
+     "source_pixel": [
+      172.52,
+      216.5
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 10,
+     "point_id": "pt-db3c9dd10a2a691e",
+     "series_label": "CO2 195K",
+     "source_pixel": [
+      175.0,
+      180.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 11,
+     "point_id": "pt-39d42a68f4158aa7",
+     "series_label": "CO2 195K",
+     "source_pixel": [
+      182.5,
+      132.5
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 12,
+     "point_id": "pt-ede21fa14c9ee812",
+     "series_label": "CO2 195K",
+     "source_pixel": [
+      196.5,
+      120.5
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 13,
+     "point_id": "pt-2f5a19fd1bcdd39a",
+     "series_label": "CO2 195K",
+     "source_pixel": [
+      246.5,
+      117.5
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 14,
+     "point_id": "pt-cb7e169804b93941",
+     "series_label": "CO2 195K",
+     "source_pixel": [
+      258.5,
+      121.5
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 15,
+     "point_id": "pt-464c582f32707f60",
+     "series_label": "CO2 195K",
+     "source_pixel": [
+      296.5,
+      118.5
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 16,
+     "point_id": "pt-e27bee6ae32d55e8",
+     "series_label": "CO2 195K",
+     "source_pixel": [
+      318.5,
+      117.5
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 17,
+     "point_id": "pt-7a584e945937a45d",
+     "series_label": "CO2 195K",
+     "source_pixel": [
+      344.5,
+      116.5
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 18,
+     "point_id": "pt-3c2d22b66f732f09",
+     "series_label": "CO2 195K",
+     "source_pixel": [
+      365.5,
+      115.5
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 19,
+     "point_id": "pt-30ad544c092a7125",
+     "series_label": "CO2 195K",
+     "source_pixel": [
+      389.5,
+      115.5
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 20,
+     "point_id": "pt-a573b4bf90896a5b",
+     "series_label": "CO2 195K",
+     "source_pixel": [
+      415.5,
+      114.5
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 21,
+     "point_id": "pt-269bf8b483e269c1",
+     "series_label": "CO2 195K",
+     "source_pixel": [
+      438.5,
+      114.5
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 22,
+     "point_id": "pt-6dc243deba9db64c",
+     "series_label": "CO2 195K",
+     "source_pixel": [
+      464.5,
+      114.5
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 23,
+     "point_id": "pt-58a36b3ae31d5cc8",
+     "series_label": "CO2 195K",
+     "source_pixel": [
+      487.5,
+      114.5
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 24,
+     "point_id": "pt-847561b3c04fec54",
+     "series_label": "CO2 195K",
+     "source_pixel": [
+      512.5,
+      114.5
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 25,
+     "point_id": "pt-9df5e5f62f0db42e",
+     "series_label": "CO2 195K",
+     "source_pixel": [
+      536.5,
+      113.5
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 26,
+     "point_id": "pt-f1d4c88074aa31a1",
+     "series_label": "CO2 195K",
+     "source_pixel": [
+      561.5,
+      112.5
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 27,
+     "point_id": "pt-dbbd01045f0065b0",
+     "series_label": "CO2 195K",
+     "source_pixel": [
+      584.5,
+      111.5
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 28,
+     "point_id": "pt-00a460c317d1fb20",
+     "series_label": "CO2 195K",
+     "source_pixel": [
+      625.5,
+      105.5
+     ],
+     "reason": "low_confidence_or_overlap"
+    }
+   ]
+  },
+  {
+   "tile_id": "region_01",
+   "native_tile": "region_01_native.png",
+   "candidate_tile": "region_01_candidate.png",
+   "boxes": [],
+   "reason": "Agent 02 complex-region search"
+  }
+ ],
+ "dense_region_evidence": [
+  "dense_roi_native.png",
+  "dense_roi_line_suppressed.png",
+  "dense_roi_series_likelihood.png",
+  "dense_roi_proposed_assignments.png"
+ ],
+ "ambiguity_native_evidence_tiles": [],
+ "instructions": "Native tiles are source truth. Candidate tiles identify Python proposals only. Search every complex-region native tile for missed CO2 markers; never use an annotated ring or count as coordinate evidence."
+}

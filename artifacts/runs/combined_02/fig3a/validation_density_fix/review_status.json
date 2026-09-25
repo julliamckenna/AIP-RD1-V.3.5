@@ -1,0 +1,5 @@
+{
+ "status": "pending_fresh_agent_review",
+ "reason": "points changed after the saved Agent 03/04 reviews; no old review is reused",
+ "tile_manifest": "review_tiles.json"
+}

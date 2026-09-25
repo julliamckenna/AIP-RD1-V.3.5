@@ -1,0 +1,1844 @@
+{
+ "image": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_03\\fig2a\\panel.png",
+ "panel_bbox": [
+  0,
+  0,
+  1465,
+  922
+ ],
+ "x": {
+  "title": "P",
+  "unit": "mbar",
+  "scale": "linear",
+  "ticks": [
+   0,
+   200,
+   400,
+   600,
+   800,
+   1000,
+   1200
+  ],
+  "x_setpoints_visible": [
+   0,
+   5,
+   10,
+   15,
+   20,
+   25,
+   30,
+   40,
+   50,
+   60,
+   75,
+   90,
+   110,
+   140,
+   180,
+   220,
+   260,
+   300,
+   340,
+   380,
+   420,
+   460,
+   500,
+   540,
+   580,
+   620,
+   660,
+   700,
+   740,
+   780,
+   820,
+   860,
+   900,
+   940,
+   980,
+   1020,
+   1080,
+   1140,
+   1200
+  ],
+  "grid": [
+   0,
+   5,
+   10,
+   15,
+   20,
+   25,
+   30,
+   40,
+   50,
+   60,
+   75,
+   90,
+   110,
+   140,
+   180,
+   220,
+   260,
+   300,
+   340,
+   380,
+   420,
+   460,
+   500,
+   540,
+   580,
+   620,
+   660,
+   700,
+   740,
+   780,
+   820,
+   860,
+   900,
+   940,
+   980,
+   1020,
+   1080,
+   1140,
+   1200
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.1501706485,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.2491467577,
+    "value": 200
+   },
+   {
+    "pixel_norm": 0.3470989761,
+    "value": 400
+   },
+   {
+    "pixel_norm": 0.4457337884,
+    "value": 600
+   },
+   {
+    "pixel_norm": 0.5447098976,
+    "value": 800
+   },
+   {
+    "pixel_norm": 0.6416382253,
+    "value": 1000
+   },
+   {
+    "pixel_norm": 0.7395904437,
+    "value": 1200
+   }
+  ],
+  "minimum": 0,
+  "maximum": 1200,
+  "boundary_limits_confirmed": true
+ },
+ "y": {
+  "title": "CO2 Loading",
+  "unit": "mmol/g",
+  "scale": "linear",
+  "ticks": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.7678958785,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.6334056399,
+    "value": 1
+   },
+   {
+    "pixel_norm": 0.4978308026,
+    "value": 2
+   },
+   {
+    "pixel_norm": 0.3644251627,
+    "value": 3
+   },
+   {
+    "pixel_norm": 0.2299349241,
+    "value": 4
+   },
+   {
+    "pixel_norm": 0.0932754881,
+    "value": 5
+   }
+  ],
+  "minimum": 0,
+  "maximum": 5,
+  "boundary_limits_confirmed": true
+ },
+ "legend_bbox": [
+  1077,
+  0,
+  1465,
+  797
+ ],
+ "legend_position": "outside the plot on the right",
+ "series": [
+  {
+   "label": "CO2 273K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend group header 'CO2 @' binds the 273K entry to CO2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+   "marker": "square",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#030303",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of pure CALF-20",
+   "y_at_xmax": 5.05,
+   "y_anchors": {
+    "p25": 4.05,
+    "p50": 4.6,
+    "p75": 4.88,
+    "p100": 5.05
+   },
+   "n_markers_estimate": 42,
+   "color_tolerance": 20.0,
+   "separate_from": [
+    "N2 313K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 10,
+     "y_min": 0.4,
+     "y_max": 2.5
+    },
+    {
+     "x_from": 10,
+     "x_to": 100,
+     "y_min": 2.0,
+     "y_max": 3.6
+    },
+    {
+     "x_from": 100,
+     "x_to": 1200,
+     "y_min": 3.3,
+     "y_max": 5.2
+    }
+   ],
+   "template_fill": "fit_only",
+   "setting_reason": "Only four markers were retained. Recover the upper black square trajectory and reject the low near-black N2 curve.",
+   "sample_px": [
+    1006.5,
+    95.0
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 20,
+     "count": 12
+    },
+    {
+     "x_from": 20,
+     "x_to": 200,
+     "count": 10
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "count": 20
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 1.0,
+     "y": 1.2
+    },
+    {
+     "x": 5.0,
+     "y": 2.0
+    },
+    {
+     "x": 10.0,
+     "y": 2.7
+    },
+    {
+     "x": 25.0,
+     "y": 3.5
+    },
+    {
+     "x": 50.0,
+     "y": 3.9
+    },
+    {
+     "x": 100.0,
+     "y": 4.25
+    },
+    {
+     "x": 200.0,
+     "y": 4.55
+    },
+    {
+     "x": 400.0,
+     "y": 4.75
+    },
+    {
+     "x": 800.0,
+     "y": 4.95
+    },
+    {
+     "x": 1200.0,
+     "y": 5.05
+    }
+   ]
+  },
+  {
+   "label": "CO2 283K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend group header 'CO2 @' binds the 283K entry to CO2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+   "marker": "hexagon",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#f1231f",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of pure CALF-20",
+   "y_at_xmax": 4.5,
+   "y_anchors": {
+    "p25": 3.48,
+    "p50": 4.05,
+    "p75": 4.35,
+    "p100": 4.5
+   },
+   "n_markers_estimate": 42,
+   "color_tolerance": 20.0,
+   "separate_from": [
+    "N2 333K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 20,
+     "y_min": 0.2,
+     "y_max": 2.2
+    },
+    {
+     "x_from": 20,
+     "x_to": 200,
+     "y_min": 1.7,
+     "y_max": 3.4
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "y_min": 3.2,
+     "y_max": 4.7
+    }
+   ],
+   "template_fill": "fit_only",
+   "setting_reason": "Recover shortfall using the upper red hexagon curve and exclude the low red N2 left-triangle curve.",
+   "sample_px": [
+    1087.0,
+    166.9
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 20,
+     "count": 12
+    },
+    {
+     "x_from": 20,
+     "x_to": 200,
+     "count": 10
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "count": 20
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 1.0,
+     "y": 0.9
+    },
+    {
+     "x": 5.0,
+     "y": 1.6
+    },
+    {
+     "x": 10.0,
+     "y": 2.1
+    },
+    {
+     "x": 25.0,
+     "y": 2.7
+    },
+    {
+     "x": 50.0,
+     "y": 3.0
+    },
+    {
+     "x": 100.0,
+     "y": 3.3
+    },
+    {
+     "x": 200.0,
+     "y": 3.55
+    },
+    {
+     "x": 400.0,
+     "y": 3.85
+    },
+    {
+     "x": 800.0,
+     "y": 4.25
+    },
+    {
+     "x": 1200.0,
+     "y": 4.5
+    }
+   ]
+  },
+  {
+   "label": "CO2 293K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend group header 'CO2 @' binds the 293K entry to CO2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+   "marker": "triangle_up",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#384ca8",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of pure CALF-20",
+   "y_at_xmax": 4.08,
+   "y_anchors": {
+    "p25": 3.15,
+    "p50": 3.6,
+    "p75": 3.9,
+    "p100": 4.08
+   },
+   "n_markers_estimate": 42,
+   "color_tolerance": 18.0,
+   "separate_from": [
+    "N2 293K",
+    "N2 353K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 20,
+     "y_min": 0.2,
+     "y_max": 2
+    },
+    {
+     "x_from": 20,
+     "x_to": 200,
+     "y_min": 1.8,
+     "y_max": 3.1
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "y_min": 2.8,
+     "y_max": 4.2
+    }
+   ],
+   "template_fill": "fit_only",
+   "setting_reason": "Many blue triangle-up markers are missing or assigned to twins; use the upper blue trajectory and triangle shape.",
+   "sample_px": [
+    1081.2,
+    203.8
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 20,
+     "count": 12
+    },
+    {
+     "x_from": 20,
+     "x_to": 200,
+     "count": 10
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "count": 20
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 1.0,
+     "y": 0.8
+    },
+    {
+     "x": 5.0,
+     "y": 1.5
+    },
+    {
+     "x": 10.0,
+     "y": 2.0
+    },
+    {
+     "x": 25.0,
+     "y": 2.45
+    },
+    {
+     "x": 50.0,
+     "y": 2.7
+    },
+    {
+     "x": 100.0,
+     "y": 2.9
+    },
+    {
+     "x": 200.0,
+     "y": 3.15
+    },
+    {
+     "x": 400.0,
+     "y": 3.45
+    },
+    {
+     "x": 800.0,
+     "y": 3.8
+    },
+    {
+     "x": 1200.0,
+     "y": 4.08
+    }
+   ]
+  },
+  {
+   "label": "CO2 303K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend group header 'CO2 @' binds the 303K entry to CO2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+   "marker": "triangle_down",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#0d7d75",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of pure CALF-20",
+   "y_at_xmax": 3.62,
+   "y_anchors": {
+    "p25": 2.85,
+    "p50": 3.2,
+    "p75": 3.45,
+    "p100": 3.62
+   },
+   "n_markers_estimate": 42,
+   "color_tolerance": 18.0,
+   "separate_from": [
+    "N2 373K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 20,
+     "y_min": 0.1,
+     "y_max": 1.8
+    },
+    {
+     "x_from": 20,
+     "x_to": 200,
+     "y_min": 1.5,
+     "y_max": 2.8
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "y_min": 2.6,
+     "y_max": 3.8
+    }
+   ],
+   "template_fill": "off",
+   "setting_reason": "55 detections include false crowded-strip points; keep only teal downward triangles on the smooth upper teal trajectory.",
+   "sample_px": [
+    1082.6,
+    322.7
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 20,
+     "count": 12
+    },
+    {
+     "x_from": 20,
+     "x_to": 200,
+     "count": 10
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "count": 20
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 1.0,
+     "y": 0.6
+    },
+    {
+     "x": 5.0,
+     "y": 1.2
+    },
+    {
+     "x": 10.0,
+     "y": 1.7
+    },
+    {
+     "x": 25.0,
+     "y": 2.1
+    },
+    {
+     "x": 50.0,
+     "y": 2.35
+    },
+    {
+     "x": 100.0,
+     "y": 2.55
+    },
+    {
+     "x": 200.0,
+     "y": 2.8
+    },
+    {
+     "x": 400.0,
+     "y": 3.0
+    },
+    {
+     "x": 800.0,
+     "y": 3.35
+    },
+    {
+     "x": 1200.0,
+     "y": 3.62
+    }
+   ]
+  },
+  {
+   "label": "CO2 313K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend group header 'CO2 @' binds the 313K entry to CO2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+   "marker": "triangle_left",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#b94fa3",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of pure CALF-20",
+   "y_at_xmax": 3.5,
+   "y_anchors": {
+    "p25": 2.75,
+    "p50": 3.1,
+    "p75": 3.33,
+    "p100": 3.5
+   },
+   "n_markers_estimate": 42
+  },
+  {
+   "label": "CO2 323K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend group header 'CO2 @' binds the 323K entry to CO2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+   "marker": "triangle_right",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#76792b",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of pure CALF-20",
+   "y_at_xmax": 3.14,
+   "y_anchors": {
+    "p25": 2.5,
+    "p50": 2.82,
+    "p75": 3.0,
+    "p100": 3.14
+   },
+   "n_markers_estimate": 42,
+   "color_tolerance": 18.0,
+   "separate_from": [
+    "CO2 293K",
+    "CO2 333K",
+    "N2 293K",
+    "N2 353K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 20,
+     "y_min": 0.1,
+     "y_max": 1.5
+    },
+    {
+     "x_from": 20,
+     "x_to": 200,
+     "y_min": 1.2,
+     "y_max": 2.3
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "y_min": 2.3,
+     "y_max": 3.3
+    }
+   ],
+   "template_fill": "off",
+   "setting_reason": "Only 18 detections and one third are low-confidence; isolate olive right-triangle curve by its trajectory.",
+   "sample_px": [
+    1082.6,
+    442.6
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 20,
+     "count": 12
+    },
+    {
+     "x_from": 20,
+     "x_to": 200,
+     "count": 10
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "count": 20
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 1.0,
+     "y": 0.5
+    },
+    {
+     "x": 5.0,
+     "y": 1.0
+    },
+    {
+     "x": 10.0,
+     "y": 1.4
+    },
+    {
+     "x": 25.0,
+     "y": 1.8
+    },
+    {
+     "x": 50.0,
+     "y": 2.1
+    },
+    {
+     "x": 100.0,
+     "y": 2.3
+    },
+    {
+     "x": 200.0,
+     "y": 2.5
+    },
+    {
+     "x": 400.0,
+     "y": 2.7
+    },
+    {
+     "x": 800.0,
+     "y": 2.95
+    },
+    {
+     "x": 1200.0,
+     "y": 3.14
+    }
+   ]
+  },
+  {
+   "label": "CO2 333K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend group header 'CO2 @' binds the 333K entry to CO2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+   "marker": "diamond",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#282372",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of pure CALF-20",
+   "y_at_xmax": 2.9,
+   "y_anchors": {
+    "p25": 2.25,
+    "p50": 2.62,
+    "p75": 2.8,
+    "p100": 2.9
+   },
+   "n_markers_estimate": 42,
+   "color_tolerance": 18.0,
+   "separate_from": [
+    "CO2 323K",
+    "CO2 373K",
+    "N2 293K",
+    "N2 353K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 20,
+     "y_min": 0.1,
+     "y_max": 1.2
+    },
+    {
+     "x_from": 20,
+     "x_to": 200,
+     "y_min": 1,
+     "y_max": 2
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "y_min": 2,
+     "y_max": 3
+    }
+   ],
+   "template_fill": "off",
+   "setting_reason": "115 detections are dominated by false dark-blue assignments. Keep only filled diamonds on the intermediate dark-blue curve, not the lower circle curve or olive/right-triangle curve.",
+   "sample_px": [
+    1082.6,
+    496.0
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 20,
+     "count": 12
+    },
+    {
+     "x_from": 20,
+     "x_to": 200,
+     "count": 10
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "count": 20
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 1.0,
+     "y": 0.4
+    },
+    {
+     "x": 5.0,
+     "y": 0.8
+    },
+    {
+     "x": 10.0,
+     "y": 1.1
+    },
+    {
+     "x": 25.0,
+     "y": 1.5
+    },
+    {
+     "x": 50.0,
+     "y": 1.8
+    },
+    {
+     "x": 100.0,
+     "y": 2.0
+    },
+    {
+     "x": 200.0,
+     "y": 2.25
+    },
+    {
+     "x": 400.0,
+     "y": 2.5
+    },
+    {
+     "x": 800.0,
+     "y": 2.7
+    },
+    {
+     "x": 1200.0,
+     "y": 2.9
+    }
+   ]
+  },
+  {
+   "label": "CO2 343K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend group header 'CO2 @' binds the 343K entry to CO2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+   "marker": "pentagon",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#7b0f13",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of pure CALF-20",
+   "y_at_xmax": 2.7,
+   "y_anchors": {
+    "p25": 1.95,
+    "p50": 2.36,
+    "p75": 2.58,
+    "p100": 2.7
+   },
+   "n_markers_estimate": 42
+  },
+  {
+   "label": "CO2 353K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend group header 'CO2 @' binds the 353K entry to CO2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+   "marker": "hexagon",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#f31f74",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of pure CALF-20",
+   "y_at_xmax": 2.48,
+   "y_anchors": {
+    "p25": 1.65,
+    "p50": 2.1,
+    "p75": 2.36,
+    "p100": 2.48
+   },
+   "n_markers_estimate": 42
+  },
+  {
+   "label": "CO2 363K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend group header 'CO2 @' binds the 363K entry to CO2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+   "marker": "star",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#197b35",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of pure CALF-20",
+   "y_at_xmax": 2.29,
+   "y_anchors": {
+    "p25": 1.3,
+    "p50": 1.85,
+    "p75": 2.14,
+    "p100": 2.29
+   },
+   "n_markers_estimate": 42
+  },
+  {
+   "label": "CO2 373K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend group header 'CO2 @' binds the 373K entry to CO2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+   "marker": "circle",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#2a2b86",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of pure CALF-20",
+   "y_at_xmax": 2.04,
+   "y_anchors": {
+    "p25": 0.9,
+    "p50": 1.45,
+    "p75": 1.82,
+    "p100": 2.04
+   },
+   "n_markers_estimate": 42,
+   "color_tolerance": 18.0,
+   "separate_from": [
+    "CO2 323K",
+    "CO2 333K",
+    "N2 293K",
+    "N2 353K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 20,
+     "y_min": 0.05,
+     "y_max": 0.8
+    },
+    {
+     "x_from": 20,
+     "x_to": 200,
+     "y_min": 0.5,
+     "y_max": 1.5
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "y_min": 1.2,
+     "y_max": 2.2
+    }
+   ],
+   "template_fill": "off",
+   "setting_reason": "63 detections contain many false blue-group points. Keep only filled circles on the lowest high-CO2 dark-blue curve.",
+   "sample_px": [
+    1082.6,
+    597.5
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 20,
+     "count": 12
+    },
+    {
+     "x_from": 20,
+     "x_to": 200,
+     "count": 10
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "count": 20
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 1.0,
+     "y": 0.2
+    },
+    {
+     "x": 5.0,
+     "y": 0.5
+    },
+    {
+     "x": 10.0,
+     "y": 0.8
+    },
+    {
+     "x": 25.0,
+     "y": 1.05
+    },
+    {
+     "x": 50.0,
+     "y": 1.25
+    },
+    {
+     "x": 100.0,
+     "y": 1.45
+    },
+    {
+     "x": 200.0,
+     "y": 1.65
+    },
+    {
+     "x": 400.0,
+     "y": 1.8
+    },
+    {
+     "x": 800.0,
+     "y": 1.95
+    },
+    {
+     "x": 1200.0,
+     "y": 2.04
+    }
+   ]
+  },
+  {
+   "label": "N2 273K",
+   "extract": false,
+   "gas": "N2",
+   "species_evidence": "Legend group header 'N2 @' binds the 273K entry to N2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+   "marker": "hexagon",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#79237a",
+   "quantity_type": "n2_loading",
+   "loading_basis": "mmol per gram of pure CALF-20",
+   "y_at_xmax": 0.77,
+   "y_anchors": {
+    "p25": 0.16,
+    "p50": 0.4,
+    "p75": 0.6,
+    "p100": 0.77
+   },
+   "n_markers_estimate": 38
+  },
+  {
+   "label": "N2 293K",
+   "extract": false,
+   "gas": "N2",
+   "species_evidence": "Legend group header 'N2 @' binds the 293K entry to N2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+   "marker": "triangle_up",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#664ca2",
+   "quantity_type": "n2_loading",
+   "loading_basis": "mmol per gram of pure CALF-20",
+   "y_at_xmax": 0.45,
+   "y_anchors": {
+    "p25": 0.11,
+    "p50": 0.24,
+    "p75": 0.35,
+    "p100": 0.45
+   },
+   "n_markers_estimate": 38
+  },
+  {
+   "label": "N2 313K",
+   "extract": false,
+   "gas": "N2",
+   "species_evidence": "Legend group header 'N2 @' binds the 313K entry to N2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+   "marker": "triangle_down",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#020202",
+   "quantity_type": "n2_loading",
+   "loading_basis": "mmol per gram of pure CALF-20",
+   "y_at_xmax": 0.3,
+   "y_anchors": {
+    "p25": 0.07,
+    "p50": 0.16,
+    "p75": 0.23,
+    "p100": 0.3
+   },
+   "n_markers_estimate": 38
+  },
+  {
+   "label": "N2 333K",
+   "extract": false,
+   "gas": "N2",
+   "species_evidence": "Legend group header 'N2 @' binds the 333K entry to N2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+   "marker": "triangle_left",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#f72120",
+   "quantity_type": "n2_loading",
+   "loading_basis": "mmol per gram of pure CALF-20",
+   "y_at_xmax": 0.23,
+   "y_anchors": {
+    "p25": 0.05,
+    "p50": 0.12,
+    "p75": 0.18,
+    "p100": 0.23
+   },
+   "n_markers_estimate": 38
+  },
+  {
+   "label": "N2 353K",
+   "extract": false,
+   "gas": "N2",
+   "species_evidence": "Legend group header 'N2 @' binds the 353K entry to N2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+   "marker": "triangle_right",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#3b4baa",
+   "quantity_type": "n2_loading",
+   "loading_basis": "mmol per gram of pure CALF-20",
+   "y_at_xmax": 0.16,
+   "y_anchors": {
+    "p25": 0.03,
+    "p50": 0.08,
+    "p75": 0.12,
+    "p100": 0.16
+   },
+   "n_markers_estimate": 38
+  },
+  {
+   "label": "N2 373K",
+   "extract": false,
+   "gas": "N2",
+   "species_evidence": "Legend group header 'N2 @' binds the 373K entry to N2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+   "marker": "circle",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#057e7b",
+   "quantity_type": "n2_loading",
+   "loading_basis": "mmol per gram of pure CALF-20",
+   "y_at_xmax": 0.08,
+   "y_anchors": {
+    "p25": 0.02,
+    "p50": 0.04,
+    "p75": 0.06,
+    "p100": 0.08
+   },
+   "n_markers_estimate": 38
+  }
+ ],
+ "mask_bboxes": [],
+ "context": {
+  "adsorbent": "CALF-20: pure CALF-20 in panel A and structured CALF-20 in panel B.",
+  "sample_form": "Panel A uses pure CALF-20; panel B uses a structured composite containing 80% CALF-20 MOF and 20% polysulfone.",
+  "activation": "Not specified in the caption or supplied figure-referencing text.",
+  "instrument": "Volumetric gas-sorption measurement; no instrument model is specified.",
+  "measurement_notes": "Panel A contains CO2 and N2 isotherms from 273 to 373 K, plotted to about 1200 mbar. Panel B contains CO2 isotherms from 303 to 373 K, plotted to about 120 kPa. Only the CO2 series are eligible for extraction.",
+  "other_parameters": "The caption states that CO2 and N2 isotherms were measured by volumetry; H2O data in the excluded panels were measured by gravimetry. No supplementary table containing tabulated isotherm data is identified in the supplied evidence."
+ },
+ "panel_info": {
+  "panel": "A",
+  "is_co2_isotherm": true,
+  "reason": "Equilibrium CO2 loading is plotted against pressure for pure CALF-20 at temperatures from 273 to 373 K; N2 series share the same axis frame.",
+  "bbox_norm": [
+   0.0,
+   0.0,
+   0.98,
+   0.414
+  ],
+  "has_inset": false,
+  "inset_bbox_norm": null
+ },
+ "panel_mapping": {
+  "runtime_panel_id": "a",
+  "layout_panel_id": "A",
+  "canonical_panel_id": "a"
+ },
+ "llm_spec": {
+  "reasoning": "Panel A has one linear pressure axis and one linear loading axis. The legend is outside the plotting frame on the right and groups 11 temperature series under “CO2 @” followed by 6 under “N2 @”. The caption explicitly binds both gas groups to equilibrium volumetric isotherms on pure CALF-20, so only the 11 CO2 loading series are policy-eligible. All series show one adsorption branch with filled markers connected by solid lines. Anchor values and marker counts are rough visual constraints, not measured coordinates.",
+  "x": {
+   "title": "P",
+   "unit": "mbar",
+   "scale": "linear",
+   "ticks": [
+    0,
+    200,
+    400,
+    600,
+    800,
+    1000,
+    1200
+   ],
+   "x_setpoints_visible": [
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    40,
+    50,
+    60,
+    75,
+    90,
+    110,
+    140,
+    180,
+    220,
+    260,
+    300,
+    340,
+    380,
+    420,
+    460,
+    500,
+    540,
+    580,
+    620,
+    660,
+    700,
+    740,
+    780,
+    820,
+    860,
+    900,
+    940,
+    980,
+    1020,
+    1080,
+    1140,
+    1200
+   ],
+   "grid": [
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    40,
+    50,
+    60,
+    75,
+    90,
+    110,
+    140,
+    180,
+    220,
+    260,
+    300,
+    340,
+    380,
+    420,
+    460,
+    500,
+    540,
+    580,
+    620,
+    660,
+    700,
+    740,
+    780,
+    820,
+    860,
+    900,
+    940,
+    980,
+    1020,
+    1080,
+    1140,
+    1200
+   ],
+   "tick_anchors": [
+    {
+     "pixel_norm": 0.1501706485,
+     "value": 0
+    },
+    {
+     "pixel_norm": 0.2491467577,
+     "value": 200
+    },
+    {
+     "pixel_norm": 0.3470989761,
+     "value": 400
+    },
+    {
+     "pixel_norm": 0.4457337884,
+     "value": 600
+    },
+    {
+     "pixel_norm": 0.5447098976,
+     "value": 800
+    },
+    {
+     "pixel_norm": 0.6416382253,
+     "value": 1000
+    },
+    {
+     "pixel_norm": 0.7395904437,
+     "value": 1200
+    }
+   ],
+   "minimum": 0,
+   "maximum": 1200,
+   "boundary_limits_confirmed": true
+  },
+  "y": {
+   "title": "CO2 Loading",
+   "unit": "mmol/g",
+   "scale": "linear",
+   "ticks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "tick_anchors": [
+    {
+     "pixel_norm": 0.7678958785,
+     "value": 0
+    },
+    {
+     "pixel_norm": 0.6334056399,
+     "value": 1
+    },
+    {
+     "pixel_norm": 0.4978308026,
+     "value": 2
+    },
+    {
+     "pixel_norm": 0.3644251627,
+     "value": 3
+    },
+    {
+     "pixel_norm": 0.2299349241,
+     "value": 4
+    },
+    {
+     "pixel_norm": 0.0932754881,
+     "value": 5
+    }
+   ],
+   "minimum": 0,
+   "maximum": 5,
+   "boundary_limits_confirmed": true
+  },
+  "legend_bbox_norm": [
+   0.7457337884,
+   0.0,
+   1.0,
+   0.8546416382
+  ],
+  "legend_position": "outside the plot on the right",
+  "series": [
+   {
+    "label": "CO2 273K",
+    "gas": "CO2",
+    "species_evidence": "Legend group header 'CO2 @' binds the 273K entry to CO2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+    "temperature_k": 273,
+    "color_name": "black",
+    "color_hex": "#030303",
+    "marker": "square",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "co2_loading",
+    "loading_basis": "mmol per gram of pure CALF-20",
+    "extract": true,
+    "y_anchors": {
+     "p25": 4.05,
+     "p50": 4.6,
+     "p75": 4.88,
+     "p100": 5.05
+    },
+    "n_markers_estimate": 42
+   },
+   {
+    "label": "CO2 283K",
+    "gas": "CO2",
+    "species_evidence": "Legend group header 'CO2 @' binds the 283K entry to CO2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+    "temperature_k": 283,
+    "color_name": "red",
+    "color_hex": "#f1231f",
+    "marker": "hexagon",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "co2_loading",
+    "loading_basis": "mmol per gram of pure CALF-20",
+    "extract": true,
+    "y_anchors": {
+     "p25": 3.48,
+     "p50": 4.05,
+     "p75": 4.35,
+     "p100": 4.5
+    },
+    "n_markers_estimate": 42
+   },
+   {
+    "label": "CO2 293K",
+    "gas": "CO2",
+    "species_evidence": "Legend group header 'CO2 @' binds the 293K entry to CO2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+    "temperature_k": 293,
+    "color_name": "blue",
+    "color_hex": "#384ca8",
+    "marker": "triangle_up",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "co2_loading",
+    "loading_basis": "mmol per gram of pure CALF-20",
+    "extract": true,
+    "y_anchors": {
+     "p25": 3.15,
+     "p50": 3.6,
+     "p75": 3.9,
+     "p100": 4.08
+    },
+    "n_markers_estimate": 42
+   },
+   {
+    "label": "CO2 303K",
+    "gas": "CO2",
+    "species_evidence": "Legend group header 'CO2 @' binds the 303K entry to CO2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+    "temperature_k": 303,
+    "color_name": "teal",
+    "color_hex": "#0d7d75",
+    "marker": "triangle_down",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "co2_loading",
+    "loading_basis": "mmol per gram of pure CALF-20",
+    "extract": true,
+    "y_anchors": {
+     "p25": 2.85,
+     "p50": 3.2,
+     "p75": 3.45,
+     "p100": 3.62
+    },
+    "n_markers_estimate": 42
+   },
+   {
+    "label": "CO2 313K",
+    "gas": "CO2",
+    "species_evidence": "Legend group header 'CO2 @' binds the 313K entry to CO2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+    "temperature_k": 313,
+    "color_name": "magenta",
+    "color_hex": "#b94fa3",
+    "marker": "triangle_left",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "co2_loading",
+    "loading_basis": "mmol per gram of pure CALF-20",
+    "extract": true,
+    "y_anchors": {
+     "p25": 2.75,
+     "p50": 3.1,
+     "p75": 3.33,
+     "p100": 3.5
+    },
+    "n_markers_estimate": 42
+   },
+   {
+    "label": "CO2 323K",
+    "gas": "CO2",
+    "species_evidence": "Legend group header 'CO2 @' binds the 323K entry to CO2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+    "temperature_k": 323,
+    "color_name": "olive",
+    "color_hex": "#76792b",
+    "marker": "triangle_right",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "co2_loading",
+    "loading_basis": "mmol per gram of pure CALF-20",
+    "extract": true,
+    "y_anchors": {
+     "p25": 2.5,
+     "p50": 2.82,
+     "p75": 3.0,
+     "p100": 3.14
+    },
+    "n_markers_estimate": 42
+   },
+   {
+    "label": "CO2 333K",
+    "gas": "CO2",
+    "species_evidence": "Legend group header 'CO2 @' binds the 333K entry to CO2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+    "temperature_k": 333,
+    "color_name": "dark blue",
+    "color_hex": "#282372",
+    "marker": "diamond",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "co2_loading",
+    "loading_basis": "mmol per gram of pure CALF-20",
+    "extract": true,
+    "y_anchors": {
+     "p25": 2.25,
+     "p50": 2.62,
+     "p75": 2.8,
+     "p100": 2.9
+    },
+    "n_markers_estimate": 42
+   },
+   {
+    "label": "CO2 343K",
+    "gas": "CO2",
+    "species_evidence": "Legend group header 'CO2 @' binds the 343K entry to CO2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+    "temperature_k": 343,
+    "color_name": "brown",
+    "color_hex": "#7b0f13",
+    "marker": "pentagon",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "co2_loading",
+    "loading_basis": "mmol per gram of pure CALF-20",
+    "extract": true,
+    "y_anchors": {
+     "p25": 1.95,
+     "p50": 2.36,
+     "p75": 2.58,
+     "p100": 2.7
+    },
+    "n_markers_estimate": 42
+   },
+   {
+    "label": "CO2 353K",
+    "gas": "CO2",
+    "species_evidence": "Legend group header 'CO2 @' binds the 353K entry to CO2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+    "temperature_k": 353,
+    "color_name": "pink",
+    "color_hex": "#f31f74",
+    "marker": "hexagon",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "co2_loading",
+    "loading_basis": "mmol per gram of pure CALF-20",
+    "extract": true,
+    "y_anchors": {
+     "p25": 1.65,
+     "p50": 2.1,
+     "p75": 2.36,
+     "p100": 2.48
+    },
+    "n_markers_estimate": 42
+   },
+   {
+    "label": "CO2 363K",
+    "gas": "CO2",
+    "species_evidence": "Legend group header 'CO2 @' binds the 363K entry to CO2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+    "temperature_k": 363,
+    "color_name": "green",
+    "color_hex": "#197b35",
+    "marker": "star",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "co2_loading",
+    "loading_basis": "mmol per gram of pure CALF-20",
+    "extract": true,
+    "y_anchors": {
+     "p25": 1.3,
+     "p50": 1.85,
+     "p75": 2.14,
+     "p100": 2.29
+    },
+    "n_markers_estimate": 42
+   },
+   {
+    "label": "CO2 373K",
+    "gas": "CO2",
+    "species_evidence": "Legend group header 'CO2 @' binds the 373K entry to CO2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+    "temperature_k": 373,
+    "color_name": "navy blue",
+    "color_hex": "#2a2b86",
+    "marker": "circle",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "co2_loading",
+    "loading_basis": "mmol per gram of pure CALF-20",
+    "extract": true,
+    "y_anchors": {
+     "p25": 0.9,
+     "p50": 1.45,
+     "p75": 1.82,
+     "p100": 2.04
+    },
+    "n_markers_estimate": 42
+   },
+   {
+    "label": "N2 273K",
+    "gas": "N2",
+    "species_evidence": "Legend group header 'N2 @' binds the 273K entry to N2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+    "temperature_k": 273,
+    "color_name": "purple",
+    "color_hex": "#79237a",
+    "marker": "hexagon",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "n2_loading",
+    "loading_basis": "mmol per gram of pure CALF-20",
+    "extract": false,
+    "y_anchors": {
+     "p25": 0.16,
+     "p50": 0.4,
+     "p75": 0.6,
+     "p100": 0.77
+    },
+    "n_markers_estimate": 38
+   },
+   {
+    "label": "N2 293K",
+    "gas": "N2",
+    "species_evidence": "Legend group header 'N2 @' binds the 293K entry to N2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+    "temperature_k": 293,
+    "color_name": "purple-blue",
+    "color_hex": "#664ca2",
+    "marker": "triangle_up",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "n2_loading",
+    "loading_basis": "mmol per gram of pure CALF-20",
+    "extract": false,
+    "y_anchors": {
+     "p25": 0.11,
+     "p50": 0.24,
+     "p75": 0.35,
+     "p100": 0.45
+    },
+    "n_markers_estimate": 38
+   },
+   {
+    "label": "N2 313K",
+    "gas": "N2",
+    "species_evidence": "Legend group header 'N2 @' binds the 313K entry to N2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+    "temperature_k": 313,
+    "color_name": "black",
+    "color_hex": "#020202",
+    "marker": "triangle_down",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "n2_loading",
+    "loading_basis": "mmol per gram of pure CALF-20",
+    "extract": false,
+    "y_anchors": {
+     "p25": 0.07,
+     "p50": 0.16,
+     "p75": 0.23,
+     "p100": 0.3
+    },
+    "n_markers_estimate": 38
+   },
+   {
+    "label": "N2 333K",
+    "gas": "N2",
+    "species_evidence": "Legend group header 'N2 @' binds the 333K entry to N2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+    "temperature_k": 333,
+    "color_name": "red",
+    "color_hex": "#f72120",
+    "marker": "triangle_left",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "n2_loading",
+    "loading_basis": "mmol per gram of pure CALF-20",
+    "extract": false,
+    "y_anchors": {
+     "p25": 0.05,
+     "p50": 0.12,
+     "p75": 0.18,
+     "p100": 0.23
+    },
+    "n_markers_estimate": 38
+   },
+   {
+    "label": "N2 353K",
+    "gas": "N2",
+    "species_evidence": "Legend group header 'N2 @' binds the 353K entry to N2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+    "temperature_k": 353,
+    "color_name": "steel blue",
+    "color_hex": "#3b4baa",
+    "marker": "triangle_right",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "n2_loading",
+    "loading_basis": "mmol per gram of pure CALF-20",
+    "extract": false,
+    "y_anchors": {
+     "p25": 0.03,
+     "p50": 0.08,
+     "p75": 0.12,
+     "p100": 0.16
+    },
+    "n_markers_estimate": 38
+   },
+   {
+    "label": "N2 373K",
+    "gas": "N2",
+    "species_evidence": "Legend group header 'N2 @' binds the 373K entry to N2; caption identifies panel A as CO2 and N2 equilibrium isotherms.",
+    "temperature_k": 373,
+    "color_name": "teal",
+    "color_hex": "#057e7b",
+    "marker": "circle",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "n2_loading",
+    "loading_basis": "mmol per gram of pure CALF-20",
+    "extract": false,
+    "y_anchors": {
+     "p25": 0.02,
+     "p50": 0.04,
+     "p75": 0.06,
+     "p100": 0.08
+    },
+    "n_markers_estimate": 38
+   }
+  ],
+  "branches": "adsorption_only",
+  "notes": "No inset, broken axis, dual y-axis, or error bars are visible. Minor ticks are present but unlabeled and therefore omitted. N2 curves are retained for series discrimination but are not eligible for extraction. The cropped image includes panel letters B and C below panel A, but no data from those panels are included.",
+  "chart_title": "A",
+  "complex_regions": [
+   {
+    "bbox_norm": [
+     0.1017,
+     0.318,
+     0.199,
+     0.772
+    ],
+    "kind": "dense_markers",
+    "python_passes": 6
+   },
+   {
+    "bbox_norm": [
+     0.145,
+     0.45,
+     0.34,
+     0.78
+    ],
+    "kind": "overlapping_markers",
+    "python_passes": 6
+   },
+   {
+    "bbox_norm": [
+     0.2,
+     0.2,
+     0.75,
+     0.68
+    ],
+    "kind": "overlapping_markers",
+    "python_passes": 5
+   }
+  ]
+ },
+ "vector_marks": null,
+ "region_strategies": [],
+ "shared_x_columns": [],
+ "complex_regions": [
+  {
+   "bbox_norm": [
+    0.1017,
+    0.318,
+    0.199,
+    0.772
+   ],
+   "kind": "dense_markers",
+   "python_passes": 6
+  },
+  {
+   "bbox_norm": [
+    0.145,
+    0.45,
+    0.34,
+    0.78
+   ],
+   "kind": "overlapping_markers",
+   "python_passes": 6
+  },
+  {
+   "bbox_norm": [
+    0.2,
+    0.2,
+    0.75,
+    0.68
+   ],
+   "kind": "overlapping_markers",
+   "python_passes": 5
+  }
+ ]
+}

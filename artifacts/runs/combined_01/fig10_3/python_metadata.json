@@ -1,0 +1,254 @@
+{
+ "schema_version": "4.0",
+ "stage": "python",
+ "figure_id": "fig10_3",
+ "panel_id": "x",
+ "source_pdf": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\data\\input\\combined_01.pdf",
+ "image_sha256": "8cb24534098f3ae6059a47b3d2c1fb14d5e14935f50d52c233dd24b6ea1f18d5",
+ "status": "python_proposal",
+ "plot_bbox": [
+  76,
+  1164,
+  610,
+  1594
+ ],
+ "series": [
+  {
+   "series_id": "fig10_3:x:co2-273k-78e92393",
+   "series_name": "CO2 273K",
+   "species": "CO2",
+   "export_eligible": true,
+   "species_evidence": "",
+   "marker_shape": "circle",
+   "marker_fill": "filled",
+   "marker_glyph": {
+    "shape": "hexagon",
+    "fill": "filled",
+    "color_hex": "#6273fb",
+    "fill_hex": "#5f72ff",
+    "edge_hex": "#5f72ff",
+    "polygon": [
+     [
+      -0.315,
+      -1.06
+     ],
+     [
+      -0.93,
+      -0.444
+     ],
+     [
+      -0.93,
+      0.454
+     ],
+     [
+      -0.161,
+      1.069
+     ],
+     [
+      0.429,
+      1.069
+     ],
+     [
+      0.891,
+      0.761
+     ],
+     [
+      0.891,
+      -0.136
+     ],
+     [
+      0.583,
+      -0.367
+     ],
+     [
+      0.737,
+      -0.854
+     ],
+     [
+      0.583,
+      -1.06
+     ]
+    ],
+    "size_px": 6.5,
+    "vertices": 6,
+    "source": "raster",
+    "confidence": 0.46
+   },
+   "color_hex": "#6273fb",
+   "line_style": "solid",
+   "axis_x_id": "x",
+   "axis_y_id": "y",
+   "quantity_type": "CO2 uptake",
+   "loading_basis": "unknown"
+  },
+  {
+   "series_id": "fig10_3:x:co2-298k-438baf4c",
+   "series_name": "CO2 298K",
+   "species": "CO2",
+   "export_eligible": true,
+   "species_evidence": "",
+   "marker_shape": "circle",
+   "marker_fill": "filled",
+   "marker_glyph": {
+    "shape": "cross",
+    "fill": "filled",
+    "color_hex": "#080908",
+    "fill_hex": "#2a2a2a",
+    "edge_hex": "#262626",
+    "polygon": [
+     [
+      -0.994,
+      -0.951
+     ],
+     [
+      -0.763,
+      0.087
+     ],
+     [
+      0.391,
+      0.51
+     ],
+     [
+      -0.994,
+      0.433
+     ],
+     [
+      -0.994,
+      0.857
+     ],
+     [
+      0.814,
+      1.087
+     ],
+     [
+      0.814,
+      -0.182
+     ],
+     [
+      -0.34,
+      -0.605
+     ],
+     [
+      0.737,
+      -0.528
+     ],
+     [
+      0.583,
+      -1.182
+     ]
+    ],
+    "size_px": 4.33,
+    "vertices": 4,
+    "source": "raster",
+    "confidence": 0.34
+   },
+   "color_hex": "#080908",
+   "line_style": "solid",
+   "axis_x_id": "x",
+   "axis_y_id": "y",
+   "quantity_type": "CO2 uptake",
+   "loading_basis": "unknown"
+  }
+ ],
+ "axes": [
+  {
+   "axis_id": "x",
+   "scale": "linear",
+   "unit": "kPa",
+   "quantity_type": "Pressure",
+   "calibration_status": "valid",
+   "a": 0.2247191011235955,
+   "b": -27.19101123595508,
+   "anchors": [
+    {
+     "pixel": 121.0,
+     "value": 0.0
+    },
+    {
+     "pixel": 210.0,
+     "value": 20.0
+    },
+    {
+     "pixel": 299.0,
+     "value": 40.0
+    },
+    {
+     "pixel": 388.0,
+     "value": 60.0
+    },
+    {
+     "pixel": 477.0,
+     "value": 80.0
+    },
+    {
+     "pixel": 566.0,
+     "value": 100.0
+    }
+   ],
+   "equation": "value=a*pixel+b"
+  },
+  {
+   "axis_id": "y",
+   "scale": "linear",
+   "unit": "mmol/g",
+   "quantity_type": "CO2 uptake",
+   "calibration_status": "valid",
+   "a": -0.013946920006535815,
+   "b": 21.241170841016803,
+   "anchors": [
+    {
+     "pixel": 1236.0,
+     "value": 4.0
+    },
+    {
+     "pixel": 1308.0,
+     "value": 3.0
+    },
+    {
+     "pixel": 1380.0,
+     "value": 2.0
+    },
+    {
+     "pixel": 1451.0,
+     "value": 1.0
+    },
+    {
+     "pixel": 1523.0,
+     "value": 0.0
+    }
+   ],
+   "equation": "value=a*pixel+b"
+  }
+ ],
+ "instances": [],
+ "coverage": [
+  {
+   "bbox": [
+    76,
+    1164,
+    610,
+    1594
+   ],
+   "inspected": false
+  }
+ ],
+ "limitations": [
+  "python remains subject to downstream or human review."
+ ],
+ "rejected_masked_points": 0,
+ "unresolved_slots": {
+  "total": 0,
+  "by_series": {},
+  "slots": []
+ },
+ "unresolved_accounting_valid": true,
+ "row_count": 0,
+ "agent_report": {},
+ "edit_audit": {},
+ "dense_region_evidence": {
+  "native": "dense_roi_native.png",
+  "line_suppressed": "dense_roi_line_suppressed.png",
+  "series_likelihood": "dense_roi_series_likelihood.png",
+  "proposed_assignments": "dense_roi_proposed_assignments.png"
+ }
+}

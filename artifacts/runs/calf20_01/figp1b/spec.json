@@ -1,0 +1,1169 @@
+{
+ "image": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\calf20_01\\figp1b\\panel.png",
+ "panel_bbox": [
+  0,
+  0,
+  743,
+  641
+ ],
+ "x": {
+  "title": "P",
+  "unit": "mbar",
+  "scale": "linear",
+  "ticks": [
+   0,
+   40,
+   80,
+   120
+  ],
+  "x_setpoints_visible": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   8,
+   10,
+   15,
+   20,
+   25,
+   30,
+   33,
+   40,
+   47,
+   53,
+   60,
+   67,
+   73,
+   80,
+   87,
+   93,
+   100,
+   102,
+   107,
+   114
+  ],
+  "grid": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   8,
+   10,
+   15,
+   20,
+   25,
+   30,
+   33,
+   40,
+   47,
+   53,
+   60,
+   67,
+   73,
+   80,
+   87,
+   93,
+   100,
+   102,
+   107,
+   114
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.237,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.471,
+    "value": 40
+   },
+   {
+    "pixel_norm": 0.705,
+    "value": 80
+   },
+   {
+    "pixel_norm": 0.94,
+    "value": 120
+   }
+  ],
+  "minimum": 0,
+  "maximum": 120,
+  "boundary_limits_confirmed": false
+ },
+ "y": {
+  "title": "CO2 Loading",
+  "unit": "mmol/g",
+  "scale": "linear",
+  "ticks": [
+   0,
+   0.5,
+   1,
+   1.5,
+   2,
+   2.5,
+   3
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.89,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.774,
+    "value": 0.5
+   },
+   {
+    "pixel_norm": 0.656,
+    "value": 1
+   },
+   {
+    "pixel_norm": 0.54,
+    "value": 1.5
+   },
+   {
+    "pixel_norm": 0.421,
+    "value": 2
+   },
+   {
+    "pixel_norm": 0.304,
+    "value": 2.5
+   },
+   {
+    "pixel_norm": 0.187,
+    "value": 3
+   }
+  ],
+  "minimum": 0,
+  "maximum": 3,
+  "boundary_limits_confirmed": false
+ },
+ "legend_bbox": [
+  414,
+  417,
+  699,
+  573
+ ],
+ "legend_position": "lower right inside the plot",
+ "series": [
+  {
+   "label": "CO2 303K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend heading 'CO2' binds the legend entry '303K' to CO2.",
+   "marker": "circle",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "color_hex": "#e51c23",
+   "quantity_type": "co2_loading",
+   "loading_basis": "per gram of adsorbent",
+   "y_at_xmax": 2.96,
+   "y_anchors": {
+    "p25": 2.2,
+    "p50": 2.55,
+    "p75": 2.79,
+    "p100": 2.96
+   },
+   "n_markers_estimate": 25,
+   "color_tolerance": 30.0,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 6,
+     "y_min": 0,
+     "y_max": 1.8
+    },
+    {
+     "x_from": 6,
+     "x_to": 30,
+     "y_min": 1.2,
+     "y_max": 2.4
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "y_min": 2.0,
+     "y_max": 3.0
+    }
+   ],
+   "template_fill": "fit_only",
+   "setting_reason": "Recover the many missing red circles in the steep low-pressure fan and assign crowded red ink by the trajectory rather than relying only on isolated colour components.",
+   "sample_px": [
+    523.8,
+    164.1
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 30,
+     "count": 12
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "count": 13
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 1.0,
+     "y": 0.35
+    },
+    {
+     "x": 2.0,
+     "y": 0.65
+    },
+    {
+     "x": 4.0,
+     "y": 1.05
+    },
+    {
+     "x": 6.0,
+     "y": 1.4
+    },
+    {
+     "x": 10.0,
+     "y": 1.75
+    },
+    {
+     "x": 20.0,
+     "y": 2.1
+    },
+    {
+     "x": 30.0,
+     "y": 2.3
+    },
+    {
+     "x": 50.0,
+     "y": 2.55
+    },
+    {
+     "x": 80.0,
+     "y": 2.75
+    },
+    {
+     "x": 100.0,
+     "y": 2.88
+    },
+    {
+     "x": 114.0,
+     "y": 2.96
+    }
+   ]
+  },
+  {
+   "label": "CO2 313K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend heading 'CO2' binds the legend entry '313K' to CO2.",
+   "marker": "square",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "color_hex": "#f4a21b",
+   "quantity_type": "co2_loading",
+   "loading_basis": "per gram of adsorbent",
+   "y_at_xmax": 2.66,
+   "y_anchors": {
+    "p25": 2.02,
+    "p50": 2.36,
+    "p75": 2.53,
+    "p100": 2.66
+   },
+   "n_markers_estimate": 25,
+   "color_tolerance": 30.0,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 6,
+     "y_min": 0,
+     "y_max": 1.5
+    },
+    {
+     "x_from": 6,
+     "x_to": 30,
+     "y_min": 1.2,
+     "y_max": 2.2
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "y_min": 1.9,
+     "y_max": 2.75
+    }
+   ],
+   "template_fill": "fit_only",
+   "setting_reason": "Use the orange curve trajectory to recover shortfall markers near the low-pressure cluster and avoid confusing them with adjacent red and green markers.",
+   "sample_px": [
+    523.8,
+    194.9
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 30,
+     "count": 12
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "count": 13
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 1.0,
+     "y": 0.3
+    },
+    {
+     "x": 2.0,
+     "y": 0.6
+    },
+    {
+     "x": 4.0,
+     "y": 0.95
+    },
+    {
+     "x": 6.0,
+     "y": 1.25
+    },
+    {
+     "x": 10.0,
+     "y": 1.55
+    },
+    {
+     "x": 20.0,
+     "y": 1.9
+    },
+    {
+     "x": 30.0,
+     "y": 2.1
+    },
+    {
+     "x": 50.0,
+     "y": 2.35
+    },
+    {
+     "x": 80.0,
+     "y": 2.52
+    },
+    {
+     "x": 100.0,
+     "y": 2.6
+    },
+    {
+     "x": 114.0,
+     "y": 2.66
+    }
+   ]
+  },
+  {
+   "label": "CO2 323K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend heading 'CO2' binds the legend entry '323K' to CO2.",
+   "marker": "triangle_up",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "color_hex": "#198b43",
+   "quantity_type": "co2_loading",
+   "loading_basis": "per gram of adsorbent",
+   "y_at_xmax": 2.42,
+   "y_anchors": {
+    "p25": 1.79,
+    "p50": 2.13,
+    "p75": 2.3,
+    "p100": 2.42
+   },
+   "n_markers_estimate": 25,
+   "color_tolerance": 28.0,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 6,
+     "y_min": 0,
+     "y_max": 1.3
+    },
+    {
+     "x_from": 6,
+     "x_to": 30,
+     "y_min": 1.0,
+     "y_max": 2.0
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "y_min": 1.75,
+     "y_max": 2.5
+    }
+   ],
+   "template_fill": "fit_only",
+   "setting_reason": "Correct the triangle identity and constrain crowded green candidates to the green isotherm trajectory.",
+   "sample_px": [
+    523.8,
+    234.0
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 30,
+     "count": 12
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "count": 13
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 1.0,
+     "y": 0.25
+    },
+    {
+     "x": 2.0,
+     "y": 0.5
+    },
+    {
+     "x": 4.0,
+     "y": 0.8
+    },
+    {
+     "x": 6.0,
+     "y": 1.05
+    },
+    {
+     "x": 10.0,
+     "y": 1.35
+    },
+    {
+     "x": 20.0,
+     "y": 1.7
+    },
+    {
+     "x": 30.0,
+     "y": 1.9
+    },
+    {
+     "x": 50.0,
+     "y": 2.1
+    },
+    {
+     "x": 80.0,
+     "y": 2.25
+    },
+    {
+     "x": 100.0,
+     "y": 2.35
+    },
+    {
+     "x": 114.0,
+     "y": 2.42
+    }
+   ]
+  },
+  {
+   "label": "CO2 333K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend heading 'CO2' binds the legend entry '333K' to CO2.",
+   "marker": "pentagon",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "color_hex": "#29469d",
+   "quantity_type": "co2_loading",
+   "loading_basis": "per gram of adsorbent",
+   "y_at_xmax": 2.24,
+   "y_anchors": {
+    "p25": 1.58,
+    "p50": 1.98,
+    "p75": 2.15,
+    "p100": 2.24
+   },
+   "n_markers_estimate": 25,
+   "color_tolerance": 28.0,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 6,
+     "y_min": 0,
+     "y_max": 1.1
+    },
+    {
+     "x_from": 6,
+     "x_to": 30,
+     "y_min": 0.9,
+     "y_max": 1.75
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "y_min": 1.55,
+     "y_max": 2.35
+    }
+   ],
+   "template_fill": "fit_only",
+   "setting_reason": "Use filled-pentagon shape and the blue trajectory to recover missing markers and prevent assignment to the green series.",
+   "sample_px": [
+    523.8,
+    253.8
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 30,
+     "count": 12
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "count": 13
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 1.0,
+     "y": 0.2
+    },
+    {
+     "x": 2.0,
+     "y": 0.4
+    },
+    {
+     "x": 4.0,
+     "y": 0.65
+    },
+    {
+     "x": 6.0,
+     "y": 0.9
+    },
+    {
+     "x": 10.0,
+     "y": 1.15
+    },
+    {
+     "x": 20.0,
+     "y": 1.45
+    },
+    {
+     "x": 30.0,
+     "y": 1.7
+    },
+    {
+     "x": 50.0,
+     "y": 1.95
+    },
+    {
+     "x": 80.0,
+     "y": 2.1
+    },
+    {
+     "x": 100.0,
+     "y": 2.2
+    },
+    {
+     "x": 114.0,
+     "y": 2.25
+    }
+   ]
+  },
+  {
+   "label": "CO2 353K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend heading 'CO2' binds the legend entry '353K' to CO2.",
+   "marker": "diamond",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "color_hex": "#c52a86",
+   "quantity_type": "co2_loading",
+   "loading_basis": "per gram of adsorbent",
+   "y_at_xmax": 1.93,
+   "y_anchors": {
+    "p25": 1.08,
+    "p50": 1.59,
+    "p75": 1.8,
+    "p100": 1.93
+   },
+   "n_markers_estimate": 25,
+   "color_tolerance": 32.0,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 6,
+     "y_min": 0,
+     "y_max": 0.8
+    },
+    {
+     "x_from": 6,
+     "x_to": 30,
+     "y_min": 0.55,
+     "y_max": 1.35
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "y_min": 1.05,
+     "y_max": 2.05
+    }
+   ],
+   "template_fill": "fit_only",
+   "setting_reason": "Recover missed magenta diamonds in the dense low-pressure area and along the thick black-line neighborhood using the separated magenta curve.",
+   "sample_px": [
+    523.8,
+    307.0
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 30,
+     "count": 12
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "count": 13
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 1.0,
+     "y": 0.12
+    },
+    {
+     "x": 2.0,
+     "y": 0.25
+    },
+    {
+     "x": 4.0,
+     "y": 0.4
+    },
+    {
+     "x": 6.0,
+     "y": 0.58
+    },
+    {
+     "x": 10.0,
+     "y": 0.8
+    },
+    {
+     "x": 20.0,
+     "y": 1.1
+    },
+    {
+     "x": 30.0,
+     "y": 1.3
+    },
+    {
+     "x": 50.0,
+     "y": 1.55
+    },
+    {
+     "x": 80.0,
+     "y": 1.75
+    },
+    {
+     "x": 100.0,
+     "y": 1.86
+    },
+    {
+     "x": 114.0,
+     "y": 1.93
+    }
+   ]
+  },
+  {
+   "label": "CO2 373K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend heading 'CO2' binds the legend entry '373K' to CO2.",
+   "marker": "star",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "color_hex": "#000000",
+   "quantity_type": "co2_loading",
+   "loading_basis": "per gram of adsorbent",
+   "y_at_xmax": 1.56,
+   "y_anchors": {
+    "p25": 0.62,
+    "p50": 1.1,
+    "p75": 1.39,
+    "p100": 1.56
+   },
+   "n_markers_estimate": 25,
+   "color_tolerance": 25.0,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 6,
+     "y_min": 0,
+     "y_max": 0.45
+    },
+    {
+     "x_from": 6,
+     "x_to": 30,
+     "y_min": 0.3,
+     "y_max": 0.75
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "y_min": 0.55,
+     "y_max": 1.7
+    }
+   ],
+   "template_fill": "fit_only",
+   "setting_reason": "Recover missed black star markers along the steep low-pressure line and distinguish them from the thick black connecting stroke by marker-centre and trajectory constraints.",
+   "sample_px": [
+    523.8,
+    366.7
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 30,
+     "count": 12
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "count": 13
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 1.0,
+     "y": 0.06
+    },
+    {
+     "x": 2.0,
+     "y": 0.12
+    },
+    {
+     "x": 4.0,
+     "y": 0.22
+    },
+    {
+     "x": 6.0,
+     "y": 0.32
+    },
+    {
+     "x": 10.0,
+     "y": 0.45
+    },
+    {
+     "x": 20.0,
+     "y": 0.62
+    },
+    {
+     "x": 30.0,
+     "y": 0.78
+    },
+    {
+     "x": 50.0,
+     "y": 1.08
+    },
+    {
+     "x": 80.0,
+     "y": 1.38
+    },
+    {
+     "x": 100.0,
+     "y": 1.48
+    },
+    {
+     "x": 114.0,
+     "y": 1.56
+    }
+   ]
+  }
+ ],
+ "mask_bboxes": [],
+ "context": {
+  "adsorbent": "CALF-20 is identified elsewhere in the composite, but the CO2 panels do not explicitly label the adsorbent within their axes or legends.",
+  "sample_form": "Not reported in the supplied image.",
+  "activation": "Not reported in the supplied image.",
+  "instrument": "Not reported in the supplied image.",
+  "measurement_notes": "Panel A shows CO2 isotherms from 273 to 373 K over a displayed pressure range extending to about 1200 mbar, alongside N2 series at selected temperatures. Panel B shows CO2 isotherms at 303, 313, 323, 333, 353, and 373 K over a displayed pressure range extending to 120 kPa.",
+  "other_parameters": "Loading is reported in mmol/g. No caption or surrounding source text was available to establish equilibrium protocol, adsorption/desorption branch, sample identity for the CO2 panels, or other experimental parameters."
+ },
+ "panel_info": {
+  "panel": "B",
+  "is_co2_isotherm": true,
+  "reason": "CO2 loading in mmol/g is plotted against pressure in kPa at 303, 313, 323, 333, 353, and 373 K.",
+  "bbox_norm": [
+   0.0,
+   0.397,
+   0.49,
+   0.665
+  ],
+  "has_inset": false,
+  "inset_bbox_norm": null
+ },
+ "panel_mapping": {
+  "runtime_panel_id": "b",
+  "layout_panel_id": "B",
+  "canonical_panel_id": "b"
+ },
+ "llm_spec": {
+  "reasoning": "One linear-axis CO2 loading panel. The legend heading 'CO2' explicitly binds all six temperature entries to CO2. Each entry uses a distinct filled marker, and only one monotonic adsorption trajectory is visible per temperature. The curves are densely marked at low pressure and more widely spaced at higher pressure; no separate desorption branches are apparent.",
+  "x": {
+   "title": "P",
+   "unit": "mbar",
+   "scale": "linear",
+   "ticks": [
+    0,
+    40,
+    80,
+    120
+   ],
+   "x_setpoints_visible": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    10,
+    15,
+    20,
+    25,
+    30,
+    33,
+    40,
+    47,
+    53,
+    60,
+    67,
+    73,
+    80,
+    87,
+    93,
+    100,
+    102,
+    107,
+    114
+   ],
+   "grid": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    10,
+    15,
+    20,
+    25,
+    30,
+    33,
+    40,
+    47,
+    53,
+    60,
+    67,
+    73,
+    80,
+    87,
+    93,
+    100,
+    102,
+    107,
+    114
+   ],
+   "tick_anchors": [
+    {
+     "pixel_norm": 0.237,
+     "value": 0
+    },
+    {
+     "pixel_norm": 0.471,
+     "value": 40
+    },
+    {
+     "pixel_norm": 0.705,
+     "value": 80
+    },
+    {
+     "pixel_norm": 0.94,
+     "value": 120
+    }
+   ],
+   "minimum": 0,
+   "maximum": 120,
+   "boundary_limits_confirmed": false
+  },
+  "y": {
+   "title": "CO2 Loading",
+   "unit": "mmol/g",
+   "scale": "linear",
+   "ticks": [
+    0,
+    0.5,
+    1,
+    1.5,
+    2,
+    2.5,
+    3
+   ],
+   "tick_anchors": [
+    {
+     "pixel_norm": 0.89,
+     "value": 0
+    },
+    {
+     "pixel_norm": 0.774,
+     "value": 0.5
+    },
+    {
+     "pixel_norm": 0.656,
+     "value": 1
+    },
+    {
+     "pixel_norm": 0.54,
+     "value": 1.5
+    },
+    {
+     "pixel_norm": 0.421,
+     "value": 2
+    },
+    {
+     "pixel_norm": 0.304,
+     "value": 2.5
+    },
+    {
+     "pixel_norm": 0.187,
+     "value": 3
+    }
+   ],
+   "minimum": 0,
+   "maximum": 3,
+   "boundary_limits_confirmed": false
+  },
+  "legend_bbox_norm": [
+   0.568,
+   0.662,
+   0.931,
+   0.884
+  ],
+  "legend_position": "lower right inside the plot",
+  "series": [
+   {
+    "label": "CO2 303K",
+    "gas": "CO2",
+    "species_evidence": "Legend heading 'CO2' binds the legend entry '303K' to CO2.",
+    "temperature_k": 303,
+    "color_name": "red",
+    "color_hex": "#e51c23",
+    "marker": "circle",
+    "marker_fill": "filled",
+    "line_style": "none",
+    "has_line": false,
+    "quantity_type": "co2_loading",
+    "loading_basis": "per gram of adsorbent",
+    "extract": true,
+    "y_anchors": {
+     "p25": 2.2,
+     "p50": 2.55,
+     "p75": 2.79,
+     "p100": 2.96
+    },
+    "n_markers_estimate": 25
+   },
+   {
+    "label": "CO2 313K",
+    "gas": "CO2",
+    "species_evidence": "Legend heading 'CO2' binds the legend entry '313K' to CO2.",
+    "temperature_k": 313,
+    "color_name": "orange",
+    "color_hex": "#f4a21b",
+    "marker": "square",
+    "marker_fill": "filled",
+    "line_style": "none",
+    "has_line": false,
+    "quantity_type": "co2_loading",
+    "loading_basis": "per gram of adsorbent",
+    "extract": true,
+    "y_anchors": {
+     "p25": 2.02,
+     "p50": 2.36,
+     "p75": 2.53,
+     "p100": 2.66
+    },
+    "n_markers_estimate": 25
+   },
+   {
+    "label": "CO2 323K",
+    "gas": "CO2",
+    "species_evidence": "Legend heading 'CO2' binds the legend entry '323K' to CO2.",
+    "temperature_k": 323,
+    "color_name": "green",
+    "color_hex": "#198b43",
+    "marker": "triangle_up",
+    "marker_fill": "filled",
+    "line_style": "none",
+    "has_line": false,
+    "quantity_type": "co2_loading",
+    "loading_basis": "per gram of adsorbent",
+    "extract": true,
+    "y_anchors": {
+     "p25": 1.79,
+     "p50": 2.13,
+     "p75": 2.3,
+     "p100": 2.42
+    },
+    "n_markers_estimate": 25
+   },
+   {
+    "label": "CO2 333K",
+    "gas": "CO2",
+    "species_evidence": "Legend heading 'CO2' binds the legend entry '333K' to CO2.",
+    "temperature_k": 333,
+    "color_name": "blue",
+    "color_hex": "#29469d",
+    "marker": "pentagon",
+    "marker_fill": "filled",
+    "line_style": "none",
+    "has_line": false,
+    "quantity_type": "co2_loading",
+    "loading_basis": "per gram of adsorbent",
+    "extract": true,
+    "y_anchors": {
+     "p25": 1.58,
+     "p50": 1.98,
+     "p75": 2.15,
+     "p100": 2.24
+    },
+    "n_markers_estimate": 25
+   },
+   {
+    "label": "CO2 353K",
+    "gas": "CO2",
+    "species_evidence": "Legend heading 'CO2' binds the legend entry '353K' to CO2.",
+    "temperature_k": 353,
+    "color_name": "magenta",
+    "color_hex": "#c52a86",
+    "marker": "diamond",
+    "marker_fill": "filled",
+    "line_style": "none",
+    "has_line": false,
+    "quantity_type": "co2_loading",
+    "loading_basis": "per gram of adsorbent",
+    "extract": true,
+    "y_anchors": {
+     "p25": 1.08,
+     "p50": 1.59,
+     "p75": 1.8,
+     "p100": 1.93
+    },
+    "n_markers_estimate": 25
+   },
+   {
+    "label": "CO2 373K",
+    "gas": "CO2",
+    "species_evidence": "Legend heading 'CO2' binds the legend entry '373K' to CO2.",
+    "temperature_k": 373,
+    "color_name": "black",
+    "color_hex": "#000000",
+    "marker": "star",
+    "marker_fill": "filled",
+    "line_style": "none",
+    "has_line": false,
+    "quantity_type": "co2_loading",
+    "loading_basis": "per gram of adsorbent",
+    "extract": true,
+    "y_anchors": {
+     "p25": 0.62,
+     "p50": 1.1,
+     "p75": 1.39,
+     "p100": 1.56
+    },
+    "n_markers_estimate": 25
+   }
+  ],
+  "branches": "adsorption_only",
+  "notes": "No inset, broken axis, dual y-axis, or error bars. All markers are filled. The x-axis title is printed above the upper-right side of the frame, and ticks are also drawn on the top and right sides. Apparent thick traces below roughly 30 mbar result from densely overlapping markers rather than clearly distinguishable line segments.",
+  "chart_title": "",
+  "complex_regions": [
+   {
+    "bbox_norm": [
+     0.237,
+     0.43,
+     0.475,
+     0.89
+    ],
+    "kind": "dense_markers",
+    "python_passes": 5
+   },
+   {
+    "bbox_norm": [
+     0.237,
+     0.6,
+     0.405,
+     0.89
+    ],
+    "kind": "thick_connecting_lines",
+    "python_passes": 5
+   }
+  ]
+ },
+ "vector_marks": null,
+ "region_strategies": [],
+ "shared_x_columns": [],
+ "complex_regions": [
+  {
+   "bbox_norm": [
+    0.237,
+    0.43,
+    0.475,
+    0.89
+   ],
+   "kind": "dense_markers",
+   "python_passes": 5
+  },
+  {
+   "bbox_norm": [
+    0.237,
+    0.6,
+    0.405,
+    0.89
+   ],
+   "kind": "thick_connecting_lines",
+   "python_passes": 5
+  }
+ ]
+}

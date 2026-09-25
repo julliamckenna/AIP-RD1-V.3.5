@@ -1,0 +1,162 @@
+{
+ "schema_version": "1.0",
+ "actor": "agent04_final_check",
+ "requested": 14,
+ "applied": 14,
+ "operations": [
+  {
+   "operation_index": 0,
+   "operation_id": "op-delete-273-01",
+   "action": "delete",
+   "point_id": "pt-a162dd68d3f410c7",
+   "series_label": null,
+   "reason": "The candidate is far below the native black 273K curve and has no identifiable black-square body.",
+   "source_evidence": "At panel pixel (245,528), the untouched source shows crowded colored lower-series ink rather than a black square; the native 273K trace at this pressure is substantially higher.",
+   "actor": "agent04_final_check",
+   "status": "applied"
+  },
+  {
+   "operation_index": 1,
+   "operation_id": "op-delete-273-02",
+   "action": "delete",
+   "point_id": "pt-938b292fe7447915",
+   "series_label": null,
+   "reason": "No black 273K square is centered at the candidate position.",
+   "source_evidence": "The untouched source around panel pixel (247,523) contains overlapping colored fan ink, while the black 273K curve is visibly above it.",
+   "actor": "agent04_final_check",
+   "status": "applied"
+  },
+  {
+   "operation_index": 2,
+   "operation_id": "op-delete-273-03",
+   "action": "delete",
+   "point_id": "pt-ee4af6c4fc06cce9",
+   "series_label": null,
+   "reason": "The point lies on the lower colored fan rather than a native black square.",
+   "source_evidence": "At panel pixel (257,515), source pixels do not form a black filled square and are separated vertically from the black 273K trace.",
+   "actor": "agent04_final_check",
+   "status": "applied"
+  },
+  {
+   "operation_index": 3,
+   "operation_id": "op-delete-273-04",
+   "action": "delete",
+   "point_id": "pt-430c4e39141d481a",
+   "series_label": null,
+   "reason": "The claimed black square is absent and the coordinate is well below the native 273K curve.",
+   "source_evidence": "The source at panel pixel (268,492) shows other-series colored ink without a black-square center; the black curve is higher at the same x position.",
+   "actor": "agent04_final_check",
+   "status": "applied"
+  },
+  {
+   "operation_index": 4,
+   "operation_id": "op-delete-273-05",
+   "action": "delete",
+   "point_id": "pt-cd94947e2d972006",
+   "series_label": null,
+   "reason": "No black square supports this candidate on the native panel.",
+   "source_evidence": "At panel pixel (278,471), the source shows the crowded colored fan, whereas the black 273K rise lies markedly above it.",
+   "actor": "agent04_final_check",
+   "status": "applied"
+  },
+  {
+   "operation_index": 5,
+   "operation_id": "op-delete-273-06",
+   "action": "delete",
+   "point_id": "pt-185ac2a7d639df13",
+   "series_label": null,
+   "reason": "The candidate occupies another-series region below the native black curve.",
+   "source_evidence": "The untouched source around panel pixel (293,419) lacks a black square; the native 273K squares at approximately this pressure are visibly higher.",
+   "actor": "agent04_final_check",
+   "status": "applied"
+  },
+  {
+   "operation_index": 6,
+   "operation_id": "op-delete-273-07",
+   "action": "delete",
+   "point_id": "pt-9198d7287b9247ed",
+   "series_label": null,
+   "reason": "There is no black-square marker at this center.",
+   "source_evidence": "At panel pixel (298,422), native pixels belong to overlapping colored curves and do not show the solid black square expected for CO2 273K.",
+   "actor": "agent04_final_check",
+   "status": "applied"
+  },
+  {
+   "operation_index": 7,
+   "operation_id": "op-delete-273-08",
+   "action": "delete",
+   "point_id": "pt-236d673e54034037",
+   "series_label": null,
+   "reason": "The candidate is not supported by a black-square glyph.",
+   "source_evidence": "The source around panel pixel (305,417) contains colored overlap without a black square; the black 273K trace is substantially higher.",
+   "actor": "agent04_final_check",
+   "status": "applied"
+  },
+  {
+   "operation_index": 8,
+   "operation_id": "op-delete-273-09",
+   "action": "delete",
+   "point_id": "pt-fc648eadde65c862",
+   "series_label": null,
+   "reason": "This candidate lies below the source 273K curve and no black square is present.",
+   "source_evidence": "At panel pixel (341,323), the native source does not show a black-square body; the black series is visibly above this coordinate.",
+   "actor": "agent04_final_check",
+   "status": "applied"
+  },
+  {
+   "operation_index": 9,
+   "operation_id": "op-delete-273-10",
+   "action": "delete",
+   "point_id": "pt-8eaba5190881b0db",
+   "series_label": null,
+   "reason": "The claimed 273K point is a lower-series overlap, not a black square.",
+   "source_evidence": "At panel pixel (347,359), the untouched source has colored curve ink with no black-square marker and is far below the native black trajectory.",
+   "actor": "agent04_final_check",
+   "status": "applied"
+  },
+  {
+   "operation_index": 10,
+   "operation_id": "op-delete-273-11",
+   "action": "delete",
+   "point_id": "pt-4088050882cf4db7",
+   "series_label": null,
+   "reason": "No native black square supports the point and it remains below the steep 273K curve.",
+   "source_evidence": "The source at panel pixel (349,313) does not contain a filled black square centered there; the nearby black curve is higher.",
+   "actor": "agent04_final_check",
+   "status": "applied"
+  },
+  {
+   "operation_index": 11,
+   "operation_id": "op-delete-283-01",
+   "action": "delete",
+   "point_id": "pt-97ac1211770703e5",
+   "series_label": null,
+   "reason": "The candidate is well below the native red curve and lacks a red-hexagon center.",
+   "source_evidence": "At panel pixel (246,556), the untouched source shows dense low-series ink but no filled red hexagon belonging to CO2 283K.",
+   "actor": "agent04_final_check",
+   "status": "applied"
+  },
+  {
+   "operation_index": 12,
+   "operation_id": "op-delete-283-02",
+   "action": "delete",
+   "point_id": "pt-35c85a3ae3684662",
+   "series_label": null,
+   "reason": "No red 283K hexagon is present at this low candidate position.",
+   "source_evidence": "The source around panel pixel (280,519) contains other-series fan ink; the native red CO2 283K curve at this pressure is visibly higher.",
+   "actor": "agent04_final_check",
+   "status": "applied"
+  },
+  {
+   "operation_index": 13,
+   "operation_id": "op-delete-283-03",
+   "action": "delete",
+   "point_id": "pt-d03ed1c4c95d83cc",
+   "series_label": null,
+   "reason": "The claimed red point lies below the native 283K trajectory and has no red-hexagon body.",
+   "source_evidence": "At panel pixel (298,487), the untouched source lacks a filled red hexagon; the visible red 283K curve is substantially above this coordinate.",
+   "actor": "agent04_final_check",
+   "status": "applied"
+  }
+ ]
+}

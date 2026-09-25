@@ -1,0 +1,3282 @@
+{
+ "schema_version": "1.2",
+ "authority": "supporting_evidence_only",
+ "native_image": "panel.png",
+ "legend": "legend.png",
+ "tiles": [
+  {
+   "tile_id": "marker_01",
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "boxes": [
+    {
+     "box": 1,
+     "point_id": "pt-c446ba761707a77c",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      197.74,
+      458.08
+     ],
+     "source_bbox_px": [
+      165,
+      426,
+      230,
+      491
+     ],
+     "native_scale": 3,
+     "nearby_candidate_rows": [
+      {
+       "point_id": "pt-c446ba761707a77c",
+       "series_label": "CO2 323K",
+       "x": 4.9595,
+       "y": 0.7497,
+       "source_pixel": [
+        197.74,
+        458.08
+       ],
+       "evidence_type": null
+      },
+      {
+       "point_id": "pt-05e7e0183579551d",
+       "series_label": "CO2 313K",
+       "x": 2.7887,
+       "y": 0.7983,
+       "source_pixel": [
+        188.31,
+        450.76
+       ],
+       "evidence_type": null
+      },
+      {
+       "point_id": "pt-9625814c7b3e15db",
+       "series_label": "CO2 323K",
+       "x": 4.0402,
+       "y": 0.5902,
+       "source_pixel": [
+        193.74,
+        482.12
+       ],
+       "evidence_type": null
+      }
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 2,
+     "point_id": "pt-295a0d07aa667a0d",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      280.46,
+      298.86
+     ],
+     "source_bbox_px": [
+      248,
+      266,
+      313,
+      331
+     ],
+     "native_scale": 3,
+     "nearby_candidate_rows": [
+      {
+       "point_id": "pt-295a0d07aa667a0d",
+       "series_label": "CO2 323K",
+       "x": 24.0084,
+       "y": 1.8061,
+       "source_pixel": [
+        280.46,
+        298.86
+       ],
+       "evidence_type": null
+      },
+      {
+       "point_id": "pt-e29a94e1c0d00955",
+       "series_label": "CO2 323K",
+       "x": 26.7819,
+       "y": 1.8085,
+       "source_pixel": [
+        292.5,
+        298.5
+       ],
+       "evidence_type": null
+      },
+      {
+       "point_id": "pt-79b62b8b5975d2bf",
+       "series_label": "CO2 313K",
+       "x": 19.7698,
+       "y": 1.9214,
+       "source_pixel": [
+        262.05,
+        281.49
+       ],
+       "evidence_type": null
+      }
+     ],
+     "reason": "low_confidence_or_overlap"
+    }
+   ]
+  },
+  {
+   "tile_id": "region_01",
+   "native_tile": "region_01_native.png",
+   "candidate_tile": "region_01_candidate.png",
+   "boxes": [],
+   "source_bbox_px": [
+    176,
+    275,
+    352,
+    570
+   ],
+   "native_scale": 3,
+   "reason": "Agent 02 complex-region search"
+  },
+  {
+   "tile_id": "region_02",
+   "native_tile": "region_02_native.png",
+   "candidate_tile": "region_02_candidate.png",
+   "boxes": [],
+   "source_bbox_px": [
+    176,
+    384,
+    300,
+    570
+   ],
+   "native_scale": 3,
+   "reason": "Agent 02 complex-region search"
+  }
+ ],
+ "dense_region_evidence": [
+  "dense_roi_line_suppressed.png",
+  "dense_roi_series_likelihood.png",
+  "dense_roi_proposed_assignments.png"
+ ],
+ "ambiguity_native_evidence_tiles": [],
+ "ambiguity_contact_sheets": [],
+ "crowded_native_evidence": [
+  {
+   "item_id": "crowded_strip:01",
+   "image": "crowded_strip_native_01.png",
+   "source_bbox_px": [
+    176,
+    102,
+    281,
+    571
+   ],
+   "native_scale": 3,
+   "kind": "crowded_strip",
+   "item_type": "evidence",
+   "native_tile": "crowded_strip_native_01.png",
+   "evidence_kind": "native_source",
+   "candidate_tile": null,
+   "candidate_row_ids": [
+    "pt-b304aa92e0559ecc",
+    "pt-818f75b349ba5ce9",
+    "pt-25f5de4cce825874",
+    "pt-19a0ff0a0cde2555",
+    "pt-295a0d07aa667a0d",
+    "pt-79b62b8b5975d2bf",
+    "pt-b4a09461bf2b554b",
+    "pt-05e7e0183579551d",
+    "pt-c446ba761707a77c",
+    "pt-8241903cf416e6d4",
+    "pt-9625814c7b3e15db",
+    "pt-ffbcac3378cf4255"
+   ],
+   "nearby_candidate_rows": [
+    {
+     "point_id": "pt-b304aa92e0559ecc",
+     "series_label": "CO2 313K",
+     "x": 13.5845,
+     "y": 1.7396,
+     "source_pixel": [
+      235.19,
+      308.9
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-818f75b349ba5ce9",
+     "series_label": "CO2 313K",
+     "x": 7.3074,
+     "y": 1.379,
+     "source_pixel": [
+      207.93,
+      363.23
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-25f5de4cce825874",
+     "series_label": "CO2 333K",
+     "x": 19.7385,
+     "y": 1.4065,
+     "source_pixel": [
+      261.91,
+      359.09
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-19a0ff0a0cde2555",
+     "series_label": "CO2 333K",
+     "x": 13.4194,
+     "y": 1.1475,
+     "source_pixel": [
+      234.47,
+      398.13
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-295a0d07aa667a0d",
+     "series_label": "CO2 323K",
+     "x": 24.0084,
+     "y": 1.8061,
+     "source_pixel": [
+      280.46,
+      298.86
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-79b62b8b5975d2bf",
+     "series_label": "CO2 313K",
+     "x": 19.7698,
+     "y": 1.9214,
+     "source_pixel": [
+      262.05,
+      281.49
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-b4a09461bf2b554b",
+     "series_label": "CO2 353K",
+     "x": 19.3251,
+     "y": 0.8776,
+     "source_pixel": [
+      260.12,
+      438.81
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-05e7e0183579551d",
+     "series_label": "CO2 313K",
+     "x": 2.7887,
+     "y": 0.7983,
+     "source_pixel": [
+      188.31,
+      450.76
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-c446ba761707a77c",
+     "series_label": "CO2 323K",
+     "x": 4.9595,
+     "y": 0.7497,
+     "source_pixel": [
+      197.74,
+      458.08
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-8241903cf416e6d4",
+     "series_label": "CO2 353K",
+     "x": 13.1778,
+     "y": 0.6368,
+     "source_pixel": [
+      233.42,
+      475.1
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-9625814c7b3e15db",
+     "series_label": "CO2 323K",
+     "x": 4.0402,
+     "y": 0.5902,
+     "source_pixel": [
+      193.74,
+      482.12
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-ffbcac3378cf4255",
+     "series_label": "CO2 373K",
+     "x": 23.4764,
+     "y": 0.5646,
+     "source_pixel": [
+      278.15,
+      485.97
+     ],
+     "evidence_type": null
+    }
+   ],
+   "competing_series": [
+    "CO2 313K",
+    "CO2 333K",
+    "CO2 323K",
+    "CO2 353K",
+    "CO2 373K"
+   ],
+   "series_context": [
+    {
+     "label": "CO2 313K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "square",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#f4a21b"
+    },
+    {
+     "label": "CO2 323K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "triangle_up",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#198b43"
+    },
+    {
+     "label": "CO2 333K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "pentagon",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#29469d"
+    },
+    {
+     "label": "CO2 353K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "diamond",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#c52a86"
+    },
+    {
+     "label": "CO2 373K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "star",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#000000"
+    }
+   ],
+   "detail": "unchanged source crop across the full plot-height low-pressure strip"
+  }
+ ],
+ "review_items": [
+  {
+   "item_id": "crowded_strip:01",
+   "image": "crowded_strip_native_01.png",
+   "source_bbox_px": [
+    176,
+    102,
+    281,
+    571
+   ],
+   "native_scale": 3,
+   "kind": "crowded_strip",
+   "item_type": "evidence",
+   "native_tile": "crowded_strip_native_01.png",
+   "evidence_kind": "native_source",
+   "candidate_tile": null,
+   "candidate_row_ids": [
+    "pt-b304aa92e0559ecc",
+    "pt-818f75b349ba5ce9",
+    "pt-25f5de4cce825874",
+    "pt-19a0ff0a0cde2555",
+    "pt-295a0d07aa667a0d",
+    "pt-79b62b8b5975d2bf",
+    "pt-b4a09461bf2b554b",
+    "pt-05e7e0183579551d",
+    "pt-c446ba761707a77c",
+    "pt-8241903cf416e6d4",
+    "pt-9625814c7b3e15db",
+    "pt-ffbcac3378cf4255"
+   ],
+   "nearby_candidate_rows": [
+    {
+     "point_id": "pt-b304aa92e0559ecc",
+     "series_label": "CO2 313K",
+     "x": 13.5845,
+     "y": 1.7396,
+     "source_pixel": [
+      235.19,
+      308.9
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-818f75b349ba5ce9",
+     "series_label": "CO2 313K",
+     "x": 7.3074,
+     "y": 1.379,
+     "source_pixel": [
+      207.93,
+      363.23
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-25f5de4cce825874",
+     "series_label": "CO2 333K",
+     "x": 19.7385,
+     "y": 1.4065,
+     "source_pixel": [
+      261.91,
+      359.09
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-19a0ff0a0cde2555",
+     "series_label": "CO2 333K",
+     "x": 13.4194,
+     "y": 1.1475,
+     "source_pixel": [
+      234.47,
+      398.13
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-295a0d07aa667a0d",
+     "series_label": "CO2 323K",
+     "x": 24.0084,
+     "y": 1.8061,
+     "source_pixel": [
+      280.46,
+      298.86
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-79b62b8b5975d2bf",
+     "series_label": "CO2 313K",
+     "x": 19.7698,
+     "y": 1.9214,
+     "source_pixel": [
+      262.05,
+      281.49
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-b4a09461bf2b554b",
+     "series_label": "CO2 353K",
+     "x": 19.3251,
+     "y": 0.8776,
+     "source_pixel": [
+      260.12,
+      438.81
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-05e7e0183579551d",
+     "series_label": "CO2 313K",
+     "x": 2.7887,
+     "y": 0.7983,
+     "source_pixel": [
+      188.31,
+      450.76
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-c446ba761707a77c",
+     "series_label": "CO2 323K",
+     "x": 4.9595,
+     "y": 0.7497,
+     "source_pixel": [
+      197.74,
+      458.08
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-8241903cf416e6d4",
+     "series_label": "CO2 353K",
+     "x": 13.1778,
+     "y": 0.6368,
+     "source_pixel": [
+      233.42,
+      475.1
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-9625814c7b3e15db",
+     "series_label": "CO2 323K",
+     "x": 4.0402,
+     "y": 0.5902,
+     "source_pixel": [
+      193.74,
+      482.12
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-ffbcac3378cf4255",
+     "series_label": "CO2 373K",
+     "x": 23.4764,
+     "y": 0.5646,
+     "source_pixel": [
+      278.15,
+      485.97
+     ],
+     "evidence_type": null
+    }
+   ],
+   "competing_series": [
+    "CO2 313K",
+    "CO2 333K",
+    "CO2 323K",
+    "CO2 353K",
+    "CO2 373K"
+   ],
+   "series_context": [
+    {
+     "label": "CO2 313K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "square",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#f4a21b"
+    },
+    {
+     "label": "CO2 323K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "triangle_up",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#198b43"
+    },
+    {
+     "label": "CO2 333K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "pentagon",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#29469d"
+    },
+    {
+     "label": "CO2 353K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "diamond",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#c52a86"
+    },
+    {
+     "label": "CO2 373K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "star",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#000000"
+    }
+   ],
+   "detail": "unchanged source crop across the full plot-height low-pressure strip"
+  },
+  {
+   "item_id": "tile:marker_01",
+   "item_type": "tile",
+   "tile_id": "marker_01",
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "source_bbox_px": null,
+   "source_regions_px": [
+    [
+     165,
+     426,
+     230,
+     491
+    ],
+    [
+     248,
+     266,
+     313,
+     331
+    ]
+   ],
+   "native_scale": 3,
+   "candidate_row_ids": [],
+   "nearby_candidate_rows": [],
+   "series_context": [],
+   "detail": ""
+  },
+  {
+   "item_id": "box:marker_01:1",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 1,
+   "point_id": "pt-c446ba761707a77c",
+   "series_label": "CO2 323K",
+   "source_pixel": [
+    197.74,
+    458.08
+   ],
+   "source_bbox_px": [
+    165,
+    426,
+    230,
+    491
+   ],
+   "native_scale": 3,
+   "candidate_row_ids": [
+    "pt-c446ba761707a77c"
+   ],
+   "nearby_candidate_rows": [
+    {
+     "point_id": "pt-c446ba761707a77c",
+     "series_label": "CO2 323K",
+     "x": 4.9595,
+     "y": 0.7497,
+     "source_pixel": [
+      197.74,
+      458.08
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-05e7e0183579551d",
+     "series_label": "CO2 313K",
+     "x": 2.7887,
+     "y": 0.7983,
+     "source_pixel": [
+      188.31,
+      450.76
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-9625814c7b3e15db",
+     "series_label": "CO2 323K",
+     "x": 4.0402,
+     "y": 0.5902,
+     "source_pixel": [
+      193.74,
+      482.12
+     ],
+     "evidence_type": null
+    }
+   ],
+   "series_context": [
+    {
+     "label": "CO2 323K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "triangle_up",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#198b43"
+    }
+   ],
+   "competing_series": [
+    "CO2 313K"
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:2",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 2,
+   "point_id": "pt-295a0d07aa667a0d",
+   "series_label": "CO2 323K",
+   "source_pixel": [
+    280.46,
+    298.86
+   ],
+   "source_bbox_px": [
+    248,
+    266,
+    313,
+    331
+   ],
+   "native_scale": 3,
+   "candidate_row_ids": [
+    "pt-295a0d07aa667a0d"
+   ],
+   "nearby_candidate_rows": [
+    {
+     "point_id": "pt-295a0d07aa667a0d",
+     "series_label": "CO2 323K",
+     "x": 24.0084,
+     "y": 1.8061,
+     "source_pixel": [
+      280.46,
+      298.86
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-e29a94e1c0d00955",
+     "series_label": "CO2 323K",
+     "x": 26.7819,
+     "y": 1.8085,
+     "source_pixel": [
+      292.5,
+      298.5
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-79b62b8b5975d2bf",
+     "series_label": "CO2 313K",
+     "x": 19.7698,
+     "y": 1.9214,
+     "source_pixel": [
+      262.05,
+      281.49
+     ],
+     "evidence_type": null
+    }
+   ],
+   "series_context": [
+    {
+     "label": "CO2 323K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "triangle_up",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#198b43"
+    }
+   ],
+   "competing_series": [
+    "CO2 313K"
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "tile:region_01",
+   "item_type": "tile",
+   "tile_id": "region_01",
+   "native_tile": "region_01_native.png",
+   "candidate_tile": "region_01_candidate.png",
+   "source_bbox_px": [
+    176,
+    275,
+    352,
+    570
+   ],
+   "source_regions_px": [],
+   "native_scale": 3,
+   "candidate_row_ids": [
+    "pt-b4a09461bf2b554b",
+    "pt-9605faa00012f72a",
+    "pt-19a0ff0a0cde2555",
+    "pt-6d8b25c45e023c32",
+    "pt-8241903cf416e6d4",
+    "pt-06ebe12e53a5a290",
+    "pt-25f5de4cce825874",
+    "pt-ffbcac3378cf4255"
+   ],
+   "nearby_candidate_rows": [
+    {
+     "point_id": "pt-b4a09461bf2b554b",
+     "series_label": "CO2 353K",
+     "x": 19.3251,
+     "y": 0.8776,
+     "source_pixel": [
+      260.12,
+      438.81
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-9605faa00012f72a",
+     "series_label": "CO2 353K",
+     "x": 26.4365,
+     "y": 1.0886,
+     "source_pixel": [
+      291.0,
+      407.0
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-19a0ff0a0cde2555",
+     "series_label": "CO2 333K",
+     "x": 13.4194,
+     "y": 1.1475,
+     "source_pixel": [
+      234.47,
+      398.13
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-6d8b25c45e023c32",
+     "series_label": "CO2 373K",
+     "x": 26.3251,
+     "y": 0.628,
+     "source_pixel": [
+      290.52,
+      476.42
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-8241903cf416e6d4",
+     "series_label": "CO2 353K",
+     "x": 13.1778,
+     "y": 0.6368,
+     "source_pixel": [
+      233.42,
+      475.1
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-06ebe12e53a5a290",
+     "series_label": "CO2 373K",
+     "x": 25.0779,
+     "y": 0.5978,
+     "source_pixel": [
+      285.1,
+      480.98
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-25f5de4cce825874",
+     "series_label": "CO2 333K",
+     "x": 19.7385,
+     "y": 1.4065,
+     "source_pixel": [
+      261.91,
+      359.09
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-ffbcac3378cf4255",
+     "series_label": "CO2 373K",
+     "x": 23.4764,
+     "y": 0.5646,
+     "source_pixel": [
+      278.15,
+      485.97
+     ],
+     "evidence_type": null
+    }
+   ],
+   "series_context": [
+    {
+     "label": "CO2 333K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "pentagon",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#29469d"
+    },
+    {
+     "label": "CO2 353K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "diamond",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#c52a86"
+    },
+    {
+     "label": "CO2 373K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "star",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#000000"
+    }
+   ],
+   "detail": "Agent 02 complex-region search"
+  },
+  {
+   "item_id": "tile:region_02",
+   "item_type": "tile",
+   "tile_id": "region_02",
+   "native_tile": "region_02_native.png",
+   "candidate_tile": "region_02_candidate.png",
+   "source_bbox_px": [
+    176,
+    384,
+    300,
+    570
+   ],
+   "source_regions_px": [],
+   "native_scale": 3,
+   "candidate_row_ids": [
+    "pt-8241903cf416e6d4",
+    "pt-beae9471ccd08499",
+    "pt-17014a7ba4a307b8",
+    "pt-41624cdb27edd630",
+    "pt-dcdd08050763945a",
+    "pt-ffbcac3378cf4255",
+    "pt-fbe9ea4874378c96",
+    "pt-b4a09461bf2b554b"
+   ],
+   "nearby_candidate_rows": [
+    {
+     "point_id": "pt-8241903cf416e6d4",
+     "series_label": "CO2 353K",
+     "x": 13.1778,
+     "y": 0.6368,
+     "source_pixel": [
+      233.42,
+      475.1
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-beae9471ccd08499",
+     "series_label": "CO2 373K",
+     "x": 17.9474,
+     "y": 0.4381,
+     "source_pixel": [
+      254.14,
+      505.04
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-17014a7ba4a307b8",
+     "series_label": "CO2 373K",
+     "x": 20.895,
+     "y": 0.5041,
+     "source_pixel": [
+      266.94,
+      495.09
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-41624cdb27edd630",
+     "series_label": "CO2 373K",
+     "x": 16.2787,
+     "y": 0.3986,
+     "source_pixel": [
+      246.89,
+      511.0
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-dcdd08050763945a",
+     "series_label": "CO2 373K",
+     "x": 22.2906,
+     "y": 0.5381,
+     "source_pixel": [
+      273.0,
+      489.97
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-ffbcac3378cf4255",
+     "series_label": "CO2 373K",
+     "x": 23.4764,
+     "y": 0.5646,
+     "source_pixel": [
+      278.15,
+      485.97
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-fbe9ea4874378c96",
+     "series_label": "CO2 373K",
+     "x": 14.0219,
+     "y": 0.3448,
+     "source_pixel": [
+      237.09,
+      519.1
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-b4a09461bf2b554b",
+     "series_label": "CO2 353K",
+     "x": 19.3251,
+     "y": 0.8776,
+     "source_pixel": [
+      260.12,
+      438.81
+     ],
+     "evidence_type": null
+    }
+   ],
+   "series_context": [
+    {
+     "label": "CO2 353K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "diamond",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#c52a86"
+    },
+    {
+     "label": "CO2 373K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "star",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#000000"
+    }
+   ],
+   "detail": "Agent 02 complex-region search"
+  },
+  {
+   "item_id": "evidence:dense_roi_line_suppressed.png",
+   "item_type": "evidence",
+   "native_tile": null,
+   "diagnostic_tile": "dense_roi_line_suppressed.png",
+   "evidence_kind": "derived_diagnostic",
+   "source_bbox_px": null,
+   "native_scale": null,
+   "candidate_row_ids": [],
+   "nearby_candidate_rows": [],
+   "series_context": [],
+   "competing_series": [],
+   "candidate_tile": null,
+   "detail": "Python-derived diagnostic; not source pixels or proof of a marker"
+  },
+  {
+   "item_id": "evidence:dense_roi_series_likelihood.png",
+   "item_type": "evidence",
+   "native_tile": null,
+   "diagnostic_tile": "dense_roi_series_likelihood.png",
+   "evidence_kind": "derived_diagnostic",
+   "source_bbox_px": null,
+   "native_scale": null,
+   "candidate_row_ids": [],
+   "nearby_candidate_rows": [],
+   "series_context": [],
+   "competing_series": [],
+   "candidate_tile": null,
+   "detail": "Python-derived diagnostic; not source pixels or proof of a marker"
+  },
+  {
+   "item_id": "evidence:dense_roi_proposed_assignments.png",
+   "item_type": "evidence",
+   "native_tile": null,
+   "diagnostic_tile": "dense_roi_proposed_assignments.png",
+   "evidence_kind": "derived_diagnostic",
+   "source_bbox_px": null,
+   "native_scale": null,
+   "candidate_row_ids": [],
+   "nearby_candidate_rows": [],
+   "series_context": [],
+   "competing_series": [],
+   "candidate_tile": null,
+   "detail": "Python-derived diagnostic; not source pixels or proof of a marker"
+  },
+  {
+   "item_id": "slot:0001",
+   "item_type": "slot",
+   "native_tile": "panel.png",
+   "candidate_tile": null,
+   "series_label": "CO2 303K",
+   "source_pixel": [
+    182.77,
+    null
+   ],
+   "source_bbox_px": [
+    176.19948186528546,
+    102.0,
+    215.77,
+    571.0
+   ],
+   "native_scale": 3,
+   "candidate_row_ids": [
+    "pt-818f75b349ba5ce9",
+    "pt-05e7e0183579551d",
+    "pt-c446ba761707a77c",
+    "pt-9625814c7b3e15db"
+   ],
+   "nearby_candidate_rows": [
+    {
+     "point_id": "pt-818f75b349ba5ce9",
+     "series_label": "CO2 313K",
+     "x": 7.3074,
+     "y": 1.379,
+     "source_pixel": [
+      207.93,
+      363.23
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-05e7e0183579551d",
+     "series_label": "CO2 313K",
+     "x": 2.7887,
+     "y": 0.7983,
+     "source_pixel": [
+      188.31,
+      450.76
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-c446ba761707a77c",
+     "series_label": "CO2 323K",
+     "x": 4.9595,
+     "y": 0.7497,
+     "source_pixel": [
+      197.74,
+      458.08
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-9625814c7b3e15db",
+     "series_label": "CO2 323K",
+     "x": 4.0402,
+     "y": 0.5902,
+     "source_pixel": [
+      193.74,
+      482.12
+     ],
+     "evidence_type": null
+    }
+   ],
+   "competing_series": [
+    "CO2 313K",
+    "CO2 323K"
+   ],
+   "series_context": [
+    {
+     "label": "CO2 303K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "circle",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#e51c23"
+    },
+    {
+     "label": "CO2 313K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "square",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#f4a21b"
+    },
+    {
+     "label": "CO2 323K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "triangle_up",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#198b43"
+    }
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0002",
+   "item_type": "slot",
+   "native_tile": "panel.png",
+   "candidate_tile": null,
+   "series_label": "CO2 313K",
+   "source_pixel": [
+    182.77,
+    null
+   ],
+   "source_bbox_px": [
+    176.19948186528546,
+    102.0,
+    215.77,
+    571.0
+   ],
+   "native_scale": 3,
+   "candidate_row_ids": [
+    "pt-818f75b349ba5ce9",
+    "pt-05e7e0183579551d",
+    "pt-c446ba761707a77c",
+    "pt-9625814c7b3e15db"
+   ],
+   "nearby_candidate_rows": [
+    {
+     "point_id": "pt-818f75b349ba5ce9",
+     "series_label": "CO2 313K",
+     "x": 7.3074,
+     "y": 1.379,
+     "source_pixel": [
+      207.93,
+      363.23
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-05e7e0183579551d",
+     "series_label": "CO2 313K",
+     "x": 2.7887,
+     "y": 0.7983,
+     "source_pixel": [
+      188.31,
+      450.76
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-c446ba761707a77c",
+     "series_label": "CO2 323K",
+     "x": 4.9595,
+     "y": 0.7497,
+     "source_pixel": [
+      197.74,
+      458.08
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-9625814c7b3e15db",
+     "series_label": "CO2 323K",
+     "x": 4.0402,
+     "y": 0.5902,
+     "source_pixel": [
+      193.74,
+      482.12
+     ],
+     "evidence_type": null
+    }
+   ],
+   "competing_series": [
+    "CO2 323K"
+   ],
+   "series_context": [
+    {
+     "label": "CO2 313K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "square",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#f4a21b"
+    },
+    {
+     "label": "CO2 323K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "triangle_up",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#198b43"
+    }
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0003",
+   "item_type": "slot",
+   "native_tile": "panel.png",
+   "candidate_tile": null,
+   "series_label": "CO2 323K",
+   "source_pixel": [
+    182.77,
+    null
+   ],
+   "source_bbox_px": [
+    176.19948186528546,
+    102.0,
+    215.77,
+    571.0
+   ],
+   "native_scale": 3,
+   "candidate_row_ids": [
+    "pt-818f75b349ba5ce9",
+    "pt-05e7e0183579551d",
+    "pt-c446ba761707a77c",
+    "pt-9625814c7b3e15db"
+   ],
+   "nearby_candidate_rows": [
+    {
+     "point_id": "pt-818f75b349ba5ce9",
+     "series_label": "CO2 313K",
+     "x": 7.3074,
+     "y": 1.379,
+     "source_pixel": [
+      207.93,
+      363.23
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-05e7e0183579551d",
+     "series_label": "CO2 313K",
+     "x": 2.7887,
+     "y": 0.7983,
+     "source_pixel": [
+      188.31,
+      450.76
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-c446ba761707a77c",
+     "series_label": "CO2 323K",
+     "x": 4.9595,
+     "y": 0.7497,
+     "source_pixel": [
+      197.74,
+      458.08
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-9625814c7b3e15db",
+     "series_label": "CO2 323K",
+     "x": 4.0402,
+     "y": 0.5902,
+     "source_pixel": [
+      193.74,
+      482.12
+     ],
+     "evidence_type": null
+    }
+   ],
+   "competing_series": [
+    "CO2 313K"
+   ],
+   "series_context": [
+    {
+     "label": "CO2 313K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "square",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#f4a21b"
+    },
+    {
+     "label": "CO2 323K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "triangle_up",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#198b43"
+    }
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0004",
+   "item_type": "slot",
+   "native_tile": "panel.png",
+   "candidate_tile": null,
+   "series_label": "CO2 353K",
+   "source_pixel": [
+    182.77,
+    null
+   ],
+   "source_bbox_px": [
+    176.19948186528546,
+    102.0,
+    215.77,
+    571.0
+   ],
+   "native_scale": 3,
+   "candidate_row_ids": [
+    "pt-818f75b349ba5ce9",
+    "pt-05e7e0183579551d",
+    "pt-c446ba761707a77c",
+    "pt-9625814c7b3e15db"
+   ],
+   "nearby_candidate_rows": [
+    {
+     "point_id": "pt-818f75b349ba5ce9",
+     "series_label": "CO2 313K",
+     "x": 7.3074,
+     "y": 1.379,
+     "source_pixel": [
+      207.93,
+      363.23
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-05e7e0183579551d",
+     "series_label": "CO2 313K",
+     "x": 2.7887,
+     "y": 0.7983,
+     "source_pixel": [
+      188.31,
+      450.76
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-c446ba761707a77c",
+     "series_label": "CO2 323K",
+     "x": 4.9595,
+     "y": 0.7497,
+     "source_pixel": [
+      197.74,
+      458.08
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-9625814c7b3e15db",
+     "series_label": "CO2 323K",
+     "x": 4.0402,
+     "y": 0.5902,
+     "source_pixel": [
+      193.74,
+      482.12
+     ],
+     "evidence_type": null
+    }
+   ],
+   "competing_series": [
+    "CO2 313K",
+    "CO2 323K"
+   ],
+   "series_context": [
+    {
+     "label": "CO2 313K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "square",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#f4a21b"
+    },
+    {
+     "label": "CO2 323K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "triangle_up",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#198b43"
+    },
+    {
+     "label": "CO2 353K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "diamond",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#c52a86"
+    }
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0005",
+   "item_type": "slot",
+   "native_tile": "panel.png",
+   "candidate_tile": null,
+   "series_label": "CO2 373K",
+   "source_pixel": [
+    182.77,
+    null
+   ],
+   "source_bbox_px": [
+    176.19948186528546,
+    102.0,
+    215.77,
+    571.0
+   ],
+   "native_scale": 3,
+   "candidate_row_ids": [
+    "pt-818f75b349ba5ce9",
+    "pt-05e7e0183579551d",
+    "pt-c446ba761707a77c",
+    "pt-9625814c7b3e15db"
+   ],
+   "nearby_candidate_rows": [
+    {
+     "point_id": "pt-818f75b349ba5ce9",
+     "series_label": "CO2 313K",
+     "x": 7.3074,
+     "y": 1.379,
+     "source_pixel": [
+      207.93,
+      363.23
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-05e7e0183579551d",
+     "series_label": "CO2 313K",
+     "x": 2.7887,
+     "y": 0.7983,
+     "source_pixel": [
+      188.31,
+      450.76
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-c446ba761707a77c",
+     "series_label": "CO2 323K",
+     "x": 4.9595,
+     "y": 0.7497,
+     "source_pixel": [
+      197.74,
+      458.08
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-9625814c7b3e15db",
+     "series_label": "CO2 323K",
+     "x": 4.0402,
+     "y": 0.5902,
+     "source_pixel": [
+      193.74,
+      482.12
+     ],
+     "evidence_type": null
+    }
+   ],
+   "competing_series": [
+    "CO2 313K",
+    "CO2 323K"
+   ],
+   "series_context": [
+    {
+     "label": "CO2 313K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "square",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#f4a21b"
+    },
+    {
+     "label": "CO2 323K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "triangle_up",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#198b43"
+    },
+    {
+     "label": "CO2 373K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "star",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#000000"
+    }
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0006",
+   "item_type": "slot",
+   "native_tile": "panel.png",
+   "candidate_tile": null,
+   "series_label": "CO2 303K",
+   "source_pixel": [
+    192.41,
+    null
+   ],
+   "source_bbox_px": [
+    176.19948186528546,
+    102.0,
+    225.41,
+    571.0
+   ],
+   "native_scale": 3,
+   "candidate_row_ids": [
+    "pt-818f75b349ba5ce9",
+    "pt-05e7e0183579551d",
+    "pt-c446ba761707a77c",
+    "pt-9625814c7b3e15db"
+   ],
+   "nearby_candidate_rows": [
+    {
+     "point_id": "pt-818f75b349ba5ce9",
+     "series_label": "CO2 313K",
+     "x": 7.3074,
+     "y": 1.379,
+     "source_pixel": [
+      207.93,
+      363.23
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-05e7e0183579551d",
+     "series_label": "CO2 313K",
+     "x": 2.7887,
+     "y": 0.7983,
+     "source_pixel": [
+      188.31,
+      450.76
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-c446ba761707a77c",
+     "series_label": "CO2 323K",
+     "x": 4.9595,
+     "y": 0.7497,
+     "source_pixel": [
+      197.74,
+      458.08
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-9625814c7b3e15db",
+     "series_label": "CO2 323K",
+     "x": 4.0402,
+     "y": 0.5902,
+     "source_pixel": [
+      193.74,
+      482.12
+     ],
+     "evidence_type": null
+    }
+   ],
+   "competing_series": [
+    "CO2 313K",
+    "CO2 323K"
+   ],
+   "series_context": [
+    {
+     "label": "CO2 303K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "circle",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#e51c23"
+    },
+    {
+     "label": "CO2 313K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "square",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#f4a21b"
+    },
+    {
+     "label": "CO2 323K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "triangle_up",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#198b43"
+    }
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0007",
+   "item_type": "slot",
+   "native_tile": "crowded_strip_native_01.png",
+   "candidate_tile": null,
+   "series_label": "CO2 313K",
+   "source_pixel": [
+    192.41,
+    432.49
+   ],
+   "source_bbox_px": [
+    160.41,
+    400.49,
+    225.41,
+    465.49
+   ],
+   "native_scale": 3,
+   "candidate_row_ids": [
+    "pt-05e7e0183579551d",
+    "pt-c446ba761707a77c"
+   ],
+   "nearby_candidate_rows": [
+    {
+     "point_id": "pt-05e7e0183579551d",
+     "series_label": "CO2 313K",
+     "x": 2.7887,
+     "y": 0.7983,
+     "source_pixel": [
+      188.31,
+      450.76
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-c446ba761707a77c",
+     "series_label": "CO2 323K",
+     "x": 4.9595,
+     "y": 0.7497,
+     "source_pixel": [
+      197.74,
+      458.08
+     ],
+     "evidence_type": null
+    }
+   ],
+   "competing_series": [
+    "CO2 323K"
+   ],
+   "series_context": [
+    {
+     "label": "CO2 313K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "square",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#f4a21b"
+    },
+    {
+     "label": "CO2 323K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "triangle_up",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#198b43"
+    }
+   ],
+   "detail": "no_native_marker_core_after_line_suppression"
+  },
+  {
+   "item_id": "slot:0008",
+   "item_type": "slot",
+   "native_tile": "panel.png",
+   "candidate_tile": null,
+   "series_label": "CO2 303K",
+   "source_pixel": [
+    235.83,
+    null
+   ],
+   "source_bbox_px": [
+    203.83,
+    102.0,
+    268.83000000000004,
+    571.0
+   ],
+   "native_scale": 3,
+   "candidate_row_ids": [
+    "pt-b304aa92e0559ecc",
+    "pt-25f5de4cce825874",
+    "pt-818f75b349ba5ce9",
+    "pt-79b62b8b5975d2bf"
+   ],
+   "nearby_candidate_rows": [
+    {
+     "point_id": "pt-b304aa92e0559ecc",
+     "series_label": "CO2 313K",
+     "x": 13.5845,
+     "y": 1.7396,
+     "source_pixel": [
+      235.19,
+      308.9
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-25f5de4cce825874",
+     "series_label": "CO2 333K",
+     "x": 19.7385,
+     "y": 1.4065,
+     "source_pixel": [
+      261.91,
+      359.09
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-818f75b349ba5ce9",
+     "series_label": "CO2 313K",
+     "x": 7.3074,
+     "y": 1.379,
+     "source_pixel": [
+      207.93,
+      363.23
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-79b62b8b5975d2bf",
+     "series_label": "CO2 313K",
+     "x": 19.7698,
+     "y": 1.9214,
+     "source_pixel": [
+      262.05,
+      281.49
+     ],
+     "evidence_type": null
+    }
+   ],
+   "competing_series": [
+    "CO2 313K",
+    "CO2 333K"
+   ],
+   "series_context": [
+    {
+     "label": "CO2 303K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "circle",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#e51c23"
+    },
+    {
+     "label": "CO2 313K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "square",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#f4a21b"
+    },
+    {
+     "label": "CO2 333K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "pentagon",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#29469d"
+    }
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0009",
+   "item_type": "slot",
+   "native_tile": "crowded_strip_native_01.png",
+   "candidate_tile": null,
+   "series_label": "CO2 323K",
+   "source_pixel": [
+    235.83,
+    384.76
+   ],
+   "source_bbox_px": [
+    203.83,
+    352.76,
+    268.83000000000004,
+    417.76
+   ],
+   "native_scale": 3,
+   "candidate_row_ids": [
+    "pt-19a0ff0a0cde2555",
+    "pt-818f75b349ba5ce9",
+    "pt-25f5de4cce825874"
+   ],
+   "nearby_candidate_rows": [
+    {
+     "point_id": "pt-19a0ff0a0cde2555",
+     "series_label": "CO2 333K",
+     "x": 13.4194,
+     "y": 1.1475,
+     "source_pixel": [
+      234.47,
+      398.13
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-818f75b349ba5ce9",
+     "series_label": "CO2 313K",
+     "x": 7.3074,
+     "y": 1.379,
+     "source_pixel": [
+      207.93,
+      363.23
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-25f5de4cce825874",
+     "series_label": "CO2 333K",
+     "x": 19.7385,
+     "y": 1.4065,
+     "source_pixel": [
+      261.91,
+      359.09
+     ],
+     "evidence_type": null
+    }
+   ],
+   "competing_series": [
+    "CO2 333K",
+    "CO2 313K"
+   ],
+   "series_context": [
+    {
+     "label": "CO2 313K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "square",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#f4a21b"
+    },
+    {
+     "label": "CO2 323K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "triangle_up",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#198b43"
+    },
+    {
+     "label": "CO2 333K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "pentagon",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#29469d"
+    }
+   ],
+   "detail": "no_native_marker_core_after_line_suppression"
+  },
+  {
+   "item_id": "slot:0010",
+   "item_type": "slot",
+   "native_tile": "panel.png",
+   "candidate_tile": null,
+   "series_label": "CO2 303K",
+   "source_pixel": [
+    261.02,
+    null
+   ],
+   "source_bbox_px": [
+    229.01999999999998,
+    102.0,
+    280.4196891191714,
+    571.0
+   ],
+   "native_scale": 3,
+   "candidate_row_ids": [
+    "pt-25f5de4cce825874",
+    "pt-b304aa92e0559ecc",
+    "pt-79b62b8b5975d2bf",
+    "pt-19a0ff0a0cde2555"
+   ],
+   "nearby_candidate_rows": [
+    {
+     "point_id": "pt-25f5de4cce825874",
+     "series_label": "CO2 333K",
+     "x": 19.7385,
+     "y": 1.4065,
+     "source_pixel": [
+      261.91,
+      359.09
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-b304aa92e0559ecc",
+     "series_label": "CO2 313K",
+     "x": 13.5845,
+     "y": 1.7396,
+     "source_pixel": [
+      235.19,
+      308.9
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-79b62b8b5975d2bf",
+     "series_label": "CO2 313K",
+     "x": 19.7698,
+     "y": 1.9214,
+     "source_pixel": [
+      262.05,
+      281.49
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-19a0ff0a0cde2555",
+     "series_label": "CO2 333K",
+     "x": 13.4194,
+     "y": 1.1475,
+     "source_pixel": [
+      234.47,
+      398.13
+     ],
+     "evidence_type": null
+    }
+   ],
+   "competing_series": [
+    "CO2 333K",
+    "CO2 313K"
+   ],
+   "series_context": [
+    {
+     "label": "CO2 303K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "circle",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#e51c23"
+    },
+    {
+     "label": "CO2 313K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "square",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#f4a21b"
+    },
+    {
+     "label": "CO2 333K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "pentagon",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#29469d"
+    }
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0011",
+   "item_type": "slot",
+   "native_tile": "crowded_strip_native_01.png",
+   "candidate_tile": null,
+   "series_label": "CO2 323K",
+   "source_pixel": [
+    261.02,
+    336.28
+   ],
+   "source_bbox_px": [
+    229.01999999999998,
+    304.28,
+    294.02,
+    369.28
+   ],
+   "native_scale": 3,
+   "candidate_row_ids": [
+    "pt-25f5de4cce825874",
+    "pt-ea7db5f5d6d9c45c",
+    "pt-b304aa92e0559ecc"
+   ],
+   "nearby_candidate_rows": [
+    {
+     "point_id": "pt-25f5de4cce825874",
+     "series_label": "CO2 333K",
+     "x": 19.7385,
+     "y": 1.4065,
+     "source_pixel": [
+      261.91,
+      359.09
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-ea7db5f5d6d9c45c",
+     "series_label": "CO2 333K",
+     "x": 26.6749,
+     "y": 1.5895,
+     "source_pixel": [
+      292.04,
+      331.51
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-b304aa92e0559ecc",
+     "series_label": "CO2 313K",
+     "x": 13.5845,
+     "y": 1.7396,
+     "source_pixel": [
+      235.19,
+      308.9
+     ],
+     "evidence_type": null
+    }
+   ],
+   "competing_series": [
+    "CO2 333K",
+    "CO2 313K"
+   ],
+   "series_context": [
+    {
+     "label": "CO2 313K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "square",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#f4a21b"
+    },
+    {
+     "label": "CO2 323K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "triangle_up",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#198b43"
+    },
+    {
+     "label": "CO2 333K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "pentagon",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#29469d"
+    }
+   ],
+   "detail": "no_native_marker_core_after_line_suppression"
+  },
+  {
+   "item_id": "slot:0012",
+   "item_type": "slot",
+   "native_tile": "panel.png",
+   "candidate_tile": null,
+   "series_label": "CO2 303K",
+   "source_pixel": [
+    291.95,
+    null
+   ],
+   "source_bbox_px": [
+    259.95,
+    102.0,
+    280.4196891191714,
+    571.0
+   ],
+   "native_scale": 3,
+   "candidate_row_ids": [
+    "pt-25f5de4cce825874",
+    "pt-79b62b8b5975d2bf",
+    "pt-b4a09461bf2b554b",
+    "pt-ffbcac3378cf4255"
+   ],
+   "nearby_candidate_rows": [
+    {
+     "point_id": "pt-25f5de4cce825874",
+     "series_label": "CO2 333K",
+     "x": 19.7385,
+     "y": 1.4065,
+     "source_pixel": [
+      261.91,
+      359.09
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-79b62b8b5975d2bf",
+     "series_label": "CO2 313K",
+     "x": 19.7698,
+     "y": 1.9214,
+     "source_pixel": [
+      262.05,
+      281.49
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-b4a09461bf2b554b",
+     "series_label": "CO2 353K",
+     "x": 19.3251,
+     "y": 0.8776,
+     "source_pixel": [
+      260.12,
+      438.81
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-ffbcac3378cf4255",
+     "series_label": "CO2 373K",
+     "x": 23.4764,
+     "y": 0.5646,
+     "source_pixel": [
+      278.15,
+      485.97
+     ],
+     "evidence_type": null
+    }
+   ],
+   "competing_series": [
+    "CO2 333K",
+    "CO2 313K",
+    "CO2 353K",
+    "CO2 373K"
+   ],
+   "series_context": [
+    {
+     "label": "CO2 303K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "circle",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#e51c23"
+    },
+    {
+     "label": "CO2 313K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "square",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#f4a21b"
+    },
+    {
+     "label": "CO2 333K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "pentagon",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#29469d"
+    },
+    {
+     "label": "CO2 353K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "diamond",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#c52a86"
+    },
+    {
+     "label": "CO2 373K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "star",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#000000"
+    }
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0013",
+   "item_type": "slot",
+   "native_tile": "panel.png",
+   "candidate_tile": null,
+   "series_label": "CO2 303K",
+   "source_pixel": [
+    182.77,
+    null
+   ],
+   "source_bbox_px": [
+    176.19948186528546,
+    102.0,
+    215.77,
+    571.0
+   ],
+   "native_scale": 3,
+   "candidate_row_ids": [
+    "pt-818f75b349ba5ce9",
+    "pt-05e7e0183579551d",
+    "pt-c446ba761707a77c",
+    "pt-9625814c7b3e15db"
+   ],
+   "nearby_candidate_rows": [
+    {
+     "point_id": "pt-818f75b349ba5ce9",
+     "series_label": "CO2 313K",
+     "x": 7.3074,
+     "y": 1.379,
+     "source_pixel": [
+      207.93,
+      363.23
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-05e7e0183579551d",
+     "series_label": "CO2 313K",
+     "x": 2.7887,
+     "y": 0.7983,
+     "source_pixel": [
+      188.31,
+      450.76
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-c446ba761707a77c",
+     "series_label": "CO2 323K",
+     "x": 4.9595,
+     "y": 0.7497,
+     "source_pixel": [
+      197.74,
+      458.08
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-9625814c7b3e15db",
+     "series_label": "CO2 323K",
+     "x": 4.0402,
+     "y": 0.5902,
+     "source_pixel": [
+      193.74,
+      482.12
+     ],
+     "evidence_type": null
+    }
+   ],
+   "competing_series": [
+    "CO2 313K",
+    "CO2 323K"
+   ],
+   "series_context": [
+    {
+     "label": "CO2 303K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "circle",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#e51c23"
+    },
+    {
+     "label": "CO2 313K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "square",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#f4a21b"
+    },
+    {
+     "label": "CO2 323K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "triangle_up",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#198b43"
+    }
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0014",
+   "item_type": "slot",
+   "native_tile": "panel.png",
+   "candidate_tile": null,
+   "series_label": "CO2 313K",
+   "source_pixel": [
+    182.77,
+    null
+   ],
+   "source_bbox_px": [
+    176.19948186528546,
+    102.0,
+    215.77,
+    571.0
+   ],
+   "native_scale": 3,
+   "candidate_row_ids": [
+    "pt-818f75b349ba5ce9",
+    "pt-05e7e0183579551d",
+    "pt-c446ba761707a77c",
+    "pt-9625814c7b3e15db"
+   ],
+   "nearby_candidate_rows": [
+    {
+     "point_id": "pt-818f75b349ba5ce9",
+     "series_label": "CO2 313K",
+     "x": 7.3074,
+     "y": 1.379,
+     "source_pixel": [
+      207.93,
+      363.23
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-05e7e0183579551d",
+     "series_label": "CO2 313K",
+     "x": 2.7887,
+     "y": 0.7983,
+     "source_pixel": [
+      188.31,
+      450.76
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-c446ba761707a77c",
+     "series_label": "CO2 323K",
+     "x": 4.9595,
+     "y": 0.7497,
+     "source_pixel": [
+      197.74,
+      458.08
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-9625814c7b3e15db",
+     "series_label": "CO2 323K",
+     "x": 4.0402,
+     "y": 0.5902,
+     "source_pixel": [
+      193.74,
+      482.12
+     ],
+     "evidence_type": null
+    }
+   ],
+   "competing_series": [
+    "CO2 323K"
+   ],
+   "series_context": [
+    {
+     "label": "CO2 313K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "square",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#f4a21b"
+    },
+    {
+     "label": "CO2 323K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "triangle_up",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#198b43"
+    }
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0015",
+   "item_type": "slot",
+   "native_tile": "panel.png",
+   "candidate_tile": null,
+   "series_label": "CO2 323K",
+   "source_pixel": [
+    182.77,
+    null
+   ],
+   "source_bbox_px": [
+    176.19948186528546,
+    102.0,
+    215.77,
+    571.0
+   ],
+   "native_scale": 3,
+   "candidate_row_ids": [
+    "pt-818f75b349ba5ce9",
+    "pt-05e7e0183579551d",
+    "pt-c446ba761707a77c",
+    "pt-9625814c7b3e15db"
+   ],
+   "nearby_candidate_rows": [
+    {
+     "point_id": "pt-818f75b349ba5ce9",
+     "series_label": "CO2 313K",
+     "x": 7.3074,
+     "y": 1.379,
+     "source_pixel": [
+      207.93,
+      363.23
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-05e7e0183579551d",
+     "series_label": "CO2 313K",
+     "x": 2.7887,
+     "y": 0.7983,
+     "source_pixel": [
+      188.31,
+      450.76
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-c446ba761707a77c",
+     "series_label": "CO2 323K",
+     "x": 4.9595,
+     "y": 0.7497,
+     "source_pixel": [
+      197.74,
+      458.08
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-9625814c7b3e15db",
+     "series_label": "CO2 323K",
+     "x": 4.0402,
+     "y": 0.5902,
+     "source_pixel": [
+      193.74,
+      482.12
+     ],
+     "evidence_type": null
+    }
+   ],
+   "competing_series": [
+    "CO2 313K"
+   ],
+   "series_context": [
+    {
+     "label": "CO2 313K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "square",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#f4a21b"
+    },
+    {
+     "label": "CO2 323K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "triangle_up",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#198b43"
+    }
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0016",
+   "item_type": "slot",
+   "native_tile": "panel.png",
+   "candidate_tile": null,
+   "series_label": "CO2 353K",
+   "source_pixel": [
+    182.77,
+    null
+   ],
+   "source_bbox_px": [
+    176.19948186528546,
+    102.0,
+    215.77,
+    571.0
+   ],
+   "native_scale": 3,
+   "candidate_row_ids": [
+    "pt-818f75b349ba5ce9",
+    "pt-05e7e0183579551d",
+    "pt-c446ba761707a77c",
+    "pt-9625814c7b3e15db"
+   ],
+   "nearby_candidate_rows": [
+    {
+     "point_id": "pt-818f75b349ba5ce9",
+     "series_label": "CO2 313K",
+     "x": 7.3074,
+     "y": 1.379,
+     "source_pixel": [
+      207.93,
+      363.23
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-05e7e0183579551d",
+     "series_label": "CO2 313K",
+     "x": 2.7887,
+     "y": 0.7983,
+     "source_pixel": [
+      188.31,
+      450.76
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-c446ba761707a77c",
+     "series_label": "CO2 323K",
+     "x": 4.9595,
+     "y": 0.7497,
+     "source_pixel": [
+      197.74,
+      458.08
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-9625814c7b3e15db",
+     "series_label": "CO2 323K",
+     "x": 4.0402,
+     "y": 0.5902,
+     "source_pixel": [
+      193.74,
+      482.12
+     ],
+     "evidence_type": null
+    }
+   ],
+   "competing_series": [
+    "CO2 313K",
+    "CO2 323K"
+   ],
+   "series_context": [
+    {
+     "label": "CO2 313K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "square",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#f4a21b"
+    },
+    {
+     "label": "CO2 323K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "triangle_up",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#198b43"
+    },
+    {
+     "label": "CO2 353K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "diamond",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#c52a86"
+    }
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0017",
+   "item_type": "slot",
+   "native_tile": "panel.png",
+   "candidate_tile": null,
+   "series_label": "CO2 373K",
+   "source_pixel": [
+    182.77,
+    null
+   ],
+   "source_bbox_px": [
+    176.19948186528546,
+    102.0,
+    215.77,
+    571.0
+   ],
+   "native_scale": 3,
+   "candidate_row_ids": [
+    "pt-818f75b349ba5ce9",
+    "pt-05e7e0183579551d",
+    "pt-c446ba761707a77c",
+    "pt-9625814c7b3e15db"
+   ],
+   "nearby_candidate_rows": [
+    {
+     "point_id": "pt-818f75b349ba5ce9",
+     "series_label": "CO2 313K",
+     "x": 7.3074,
+     "y": 1.379,
+     "source_pixel": [
+      207.93,
+      363.23
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-05e7e0183579551d",
+     "series_label": "CO2 313K",
+     "x": 2.7887,
+     "y": 0.7983,
+     "source_pixel": [
+      188.31,
+      450.76
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-c446ba761707a77c",
+     "series_label": "CO2 323K",
+     "x": 4.9595,
+     "y": 0.7497,
+     "source_pixel": [
+      197.74,
+      458.08
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-9625814c7b3e15db",
+     "series_label": "CO2 323K",
+     "x": 4.0402,
+     "y": 0.5902,
+     "source_pixel": [
+      193.74,
+      482.12
+     ],
+     "evidence_type": null
+    }
+   ],
+   "competing_series": [
+    "CO2 313K",
+    "CO2 323K"
+   ],
+   "series_context": [
+    {
+     "label": "CO2 313K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "square",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#f4a21b"
+    },
+    {
+     "label": "CO2 323K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "triangle_up",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#198b43"
+    },
+    {
+     "label": "CO2 373K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "star",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#000000"
+    }
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0018",
+   "item_type": "slot",
+   "native_tile": "panel.png",
+   "candidate_tile": null,
+   "series_label": "CO2 303K",
+   "source_pixel": [
+    192.41,
+    null
+   ],
+   "source_bbox_px": [
+    176.19948186528546,
+    102.0,
+    225.41,
+    571.0
+   ],
+   "native_scale": 3,
+   "candidate_row_ids": [
+    "pt-818f75b349ba5ce9",
+    "pt-05e7e0183579551d",
+    "pt-c446ba761707a77c",
+    "pt-9625814c7b3e15db"
+   ],
+   "nearby_candidate_rows": [
+    {
+     "point_id": "pt-818f75b349ba5ce9",
+     "series_label": "CO2 313K",
+     "x": 7.3074,
+     "y": 1.379,
+     "source_pixel": [
+      207.93,
+      363.23
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-05e7e0183579551d",
+     "series_label": "CO2 313K",
+     "x": 2.7887,
+     "y": 0.7983,
+     "source_pixel": [
+      188.31,
+      450.76
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-c446ba761707a77c",
+     "series_label": "CO2 323K",
+     "x": 4.9595,
+     "y": 0.7497,
+     "source_pixel": [
+      197.74,
+      458.08
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-9625814c7b3e15db",
+     "series_label": "CO2 323K",
+     "x": 4.0402,
+     "y": 0.5902,
+     "source_pixel": [
+      193.74,
+      482.12
+     ],
+     "evidence_type": null
+    }
+   ],
+   "competing_series": [
+    "CO2 313K",
+    "CO2 323K"
+   ],
+   "series_context": [
+    {
+     "label": "CO2 303K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "circle",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#e51c23"
+    },
+    {
+     "label": "CO2 313K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "square",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#f4a21b"
+    },
+    {
+     "label": "CO2 323K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "triangle_up",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#198b43"
+    }
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0019",
+   "item_type": "slot",
+   "native_tile": "crowded_strip_native_01.png",
+   "candidate_tile": null,
+   "series_label": "CO2 313K",
+   "source_pixel": [
+    192.41,
+    432.49
+   ],
+   "source_bbox_px": [
+    160.41,
+    400.49,
+    225.41,
+    465.49
+   ],
+   "native_scale": 3,
+   "candidate_row_ids": [
+    "pt-05e7e0183579551d",
+    "pt-c446ba761707a77c"
+   ],
+   "nearby_candidate_rows": [
+    {
+     "point_id": "pt-05e7e0183579551d",
+     "series_label": "CO2 313K",
+     "x": 2.7887,
+     "y": 0.7983,
+     "source_pixel": [
+      188.31,
+      450.76
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-c446ba761707a77c",
+     "series_label": "CO2 323K",
+     "x": 4.9595,
+     "y": 0.7497,
+     "source_pixel": [
+      197.74,
+      458.08
+     ],
+     "evidence_type": null
+    }
+   ],
+   "competing_series": [
+    "CO2 323K"
+   ],
+   "series_context": [
+    {
+     "label": "CO2 313K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "square",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#f4a21b"
+    },
+    {
+     "label": "CO2 323K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "triangle_up",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#198b43"
+    }
+   ],
+   "detail": "no_native_marker_core_after_line_suppression"
+  },
+  {
+   "item_id": "slot:0020",
+   "item_type": "slot",
+   "native_tile": "panel.png",
+   "candidate_tile": null,
+   "series_label": "CO2 303K",
+   "source_pixel": [
+    235.52,
+    null
+   ],
+   "source_bbox_px": [
+    203.52,
+    102.0,
+    268.52,
+    571.0
+   ],
+   "native_scale": 3,
+   "candidate_row_ids": [
+    "pt-b304aa92e0559ecc",
+    "pt-25f5de4cce825874",
+    "pt-818f75b349ba5ce9",
+    "pt-79b62b8b5975d2bf"
+   ],
+   "nearby_candidate_rows": [
+    {
+     "point_id": "pt-b304aa92e0559ecc",
+     "series_label": "CO2 313K",
+     "x": 13.5845,
+     "y": 1.7396,
+     "source_pixel": [
+      235.19,
+      308.9
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-25f5de4cce825874",
+     "series_label": "CO2 333K",
+     "x": 19.7385,
+     "y": 1.4065,
+     "source_pixel": [
+      261.91,
+      359.09
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-818f75b349ba5ce9",
+     "series_label": "CO2 313K",
+     "x": 7.3074,
+     "y": 1.379,
+     "source_pixel": [
+      207.93,
+      363.23
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-79b62b8b5975d2bf",
+     "series_label": "CO2 313K",
+     "x": 19.7698,
+     "y": 1.9214,
+     "source_pixel": [
+      262.05,
+      281.49
+     ],
+     "evidence_type": null
+    }
+   ],
+   "competing_series": [
+    "CO2 313K",
+    "CO2 333K"
+   ],
+   "series_context": [
+    {
+     "label": "CO2 303K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "circle",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#e51c23"
+    },
+    {
+     "label": "CO2 313K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "square",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#f4a21b"
+    },
+    {
+     "label": "CO2 333K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "pentagon",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#29469d"
+    }
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0021",
+   "item_type": "slot",
+   "native_tile": "crowded_strip_native_01.png",
+   "candidate_tile": null,
+   "series_label": "CO2 323K",
+   "source_pixel": [
+    235.52,
+    385.36
+   ],
+   "source_bbox_px": [
+    203.52,
+    353.36,
+    268.52,
+    418.36
+   ],
+   "native_scale": 3,
+   "candidate_row_ids": [
+    "pt-19a0ff0a0cde2555",
+    "pt-818f75b349ba5ce9",
+    "pt-25f5de4cce825874"
+   ],
+   "nearby_candidate_rows": [
+    {
+     "point_id": "pt-19a0ff0a0cde2555",
+     "series_label": "CO2 333K",
+     "x": 13.4194,
+     "y": 1.1475,
+     "source_pixel": [
+      234.47,
+      398.13
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-818f75b349ba5ce9",
+     "series_label": "CO2 313K",
+     "x": 7.3074,
+     "y": 1.379,
+     "source_pixel": [
+      207.93,
+      363.23
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-25f5de4cce825874",
+     "series_label": "CO2 333K",
+     "x": 19.7385,
+     "y": 1.4065,
+     "source_pixel": [
+      261.91,
+      359.09
+     ],
+     "evidence_type": null
+    }
+   ],
+   "competing_series": [
+    "CO2 333K",
+    "CO2 313K"
+   ],
+   "series_context": [
+    {
+     "label": "CO2 313K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "square",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#f4a21b"
+    },
+    {
+     "label": "CO2 323K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "triangle_up",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#198b43"
+    },
+    {
+     "label": "CO2 333K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "pentagon",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#29469d"
+    }
+   ],
+   "detail": "no_native_marker_core_after_line_suppression"
+  },
+  {
+   "item_id": "slot:0022",
+   "item_type": "slot",
+   "native_tile": "panel.png",
+   "candidate_tile": null,
+   "series_label": "CO2 303K",
+   "source_pixel": [
+    290.76,
+    null
+   ],
+   "source_bbox_px": [
+    258.76,
+    102.0,
+    280.4196891191714,
+    571.0
+   ],
+   "native_scale": 3,
+   "candidate_row_ids": [
+    "pt-25f5de4cce825874",
+    "pt-79b62b8b5975d2bf",
+    "pt-b4a09461bf2b554b",
+    "pt-ffbcac3378cf4255"
+   ],
+   "nearby_candidate_rows": [
+    {
+     "point_id": "pt-25f5de4cce825874",
+     "series_label": "CO2 333K",
+     "x": 19.7385,
+     "y": 1.4065,
+     "source_pixel": [
+      261.91,
+      359.09
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-79b62b8b5975d2bf",
+     "series_label": "CO2 313K",
+     "x": 19.7698,
+     "y": 1.9214,
+     "source_pixel": [
+      262.05,
+      281.49
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-b4a09461bf2b554b",
+     "series_label": "CO2 353K",
+     "x": 19.3251,
+     "y": 0.8776,
+     "source_pixel": [
+      260.12,
+      438.81
+     ],
+     "evidence_type": null
+    },
+    {
+     "point_id": "pt-ffbcac3378cf4255",
+     "series_label": "CO2 373K",
+     "x": 23.4764,
+     "y": 0.5646,
+     "source_pixel": [
+      278.15,
+      485.97
+     ],
+     "evidence_type": null
+    }
+   ],
+   "competing_series": [
+    "CO2 333K",
+    "CO2 313K",
+    "CO2 353K",
+    "CO2 373K"
+   ],
+   "series_context": [
+    {
+     "label": "CO2 303K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "circle",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#e51c23"
+    },
+    {
+     "label": "CO2 313K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "square",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#f4a21b"
+    },
+    {
+     "label": "CO2 333K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "pentagon",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#29469d"
+    },
+    {
+     "label": "CO2 353K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "diamond",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#c52a86"
+    },
+    {
+     "label": "CO2 373K",
+     "gas": "CO2",
+     "extract": true,
+     "marker": "star",
+     "marker_fill": "filled",
+     "line_style": "none",
+     "color_hex": "#000000"
+    }
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  }
+ ],
+ "instructions": "Native tiles preserve source pixel values, with nearest-neighbor enlargement where needed. Candidate tiles identify Python proposals only. Diagnostic tiles (line suppression, likelihood, assignments and scores) are fallible derived views, not native evidence. Ambiguity contact sheets preserve each native crop as a labeled cell; use the manifest row and column to match item IDs. Each ambiguity crop is also attached individually with its source_bbox_px, nearby candidate row IDs and competing series. Crowded strip crops are unchanged source pixels, split horizontally to cover the full calibrated low-pressure strip from top to bottom. Search every complex-region native tile for missed CO2 markers; never use an annotated ring or count as coordinate evidence."
+}

@@ -1,0 +1,250 @@
+{
+ "schema_version": "1.0",
+ "actor": "agent03_review_points",
+ "requested": 13,
+ "applied": 12,
+ "operations": [
+  {
+   "operation_index": 0,
+   "operation_id": "batch-001-add_co2_plateau_01",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Visible blue open-circle glyph at native panel pixel (178,132) in the long plateau; omitted from the candidate table.",
+   "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (178,132).",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.0,
+   "evidence_ref": "panel.png",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    178.0,
+    132.0
+   ]
+  },
+  {
+   "operation_index": 1,
+   "operation_id": "batch-001-add_co2_plateau_02",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Visible blue open-circle glyph at native panel pixel (193,122) in the long plateau; omitted from the candidate table.",
+   "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (193,122).",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.0,
+   "evidence_ref": "panel.png",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    193.0,
+    122.0
+   ]
+  },
+  {
+   "operation_index": 2,
+   "operation_id": "batch-001-add_co2_plateau_03",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Visible blue open-circle glyph at native panel pixel (204,121) in the long plateau; omitted from the candidate table.",
+   "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (204,121).",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.0,
+   "evidence_ref": "panel.png",
+   "actor": "agent03_review_points",
+   "status": "not_applied",
+   "detail": "same_series_marker_collision",
+   "collision_prevented": true,
+   "collision": {
+    "point_id": "pt-316f740eead8605f",
+    "source_pixel": [
+     206.68,
+     123.25
+    ],
+    "distance_px": 3.499,
+    "collision_radius_px": 7.0,
+    "rule": "same_series_within_marker_radius"
+   }
+  },
+  {
+   "operation_index": 3,
+   "operation_id": "batch-001-add_co2_plateau_04",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Visible blue open-circle glyph at native panel pixel (268,118) in the long plateau; omitted from the candidate table.",
+   "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (268,118).",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.0,
+   "evidence_ref": "panel.png",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    268.0,
+    118.0
+   ]
+  },
+  {
+   "operation_index": 4,
+   "operation_id": "batch-001-add_co2_plateau_05",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Visible blue open-circle glyph at native panel pixel (340,116) in the long plateau; omitted from the candidate table.",
+   "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (340,116).",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.0,
+   "evidence_ref": "panel.png",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    340.0,
+    116.0
+   ]
+  },
+  {
+   "operation_index": 5,
+   "operation_id": "batch-001-add_co2_plateau_06",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Visible blue open-circle glyph at native panel pixel (462,114) in the long plateau; omitted from the candidate table.",
+   "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (462,114).",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.0,
+   "evidence_ref": "panel.png",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    462.0,
+    114.0
+   ]
+  },
+  {
+   "operation_index": 6,
+   "operation_id": "batch-001-add_co2_plateau_07",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Visible blue open-circle glyph at native panel pixel (486,114) in the long plateau; omitted from the candidate table.",
+   "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (486,114).",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.0,
+   "evidence_ref": "panel.png",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    486.0,
+    114.0
+   ]
+  },
+  {
+   "operation_index": 7,
+   "operation_id": "batch-001-add_co2_plateau_08",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Visible blue open-circle glyph at native panel pixel (510,114) in the long plateau; omitted from the candidate table.",
+   "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (510,114).",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.0,
+   "evidence_ref": "panel.png",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    510.0,
+    114.0
+   ]
+  },
+  {
+   "operation_index": 8,
+   "operation_id": "batch-001-add_co2_plateau_09",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Visible blue open-circle glyph at native panel pixel (534,113) in the long plateau; omitted from the candidate table.",
+   "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (534,113).",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.0,
+   "evidence_ref": "panel.png",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    534.0,
+    113.0
+   ]
+  },
+  {
+   "operation_index": 9,
+   "operation_id": "batch-001-add_co2_plateau_10",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Visible blue open-circle glyph at native panel pixel (558,112) in the long plateau; omitted from the candidate table.",
+   "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (558,112).",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.0,
+   "evidence_ref": "panel.png",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    558.0,
+    112.0
+   ]
+  },
+  {
+   "operation_index": 10,
+   "operation_id": "batch-001-add_co2_plateau_11",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Visible blue open-circle glyph at native panel pixel (594,112) in the long plateau; omitted from the candidate table.",
+   "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (594,112).",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.0,
+   "evidence_ref": "panel.png",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    594.0,
+    112.0
+   ]
+  },
+  {
+   "operation_index": 11,
+   "operation_id": "batch-001-add_co2_plateau_12",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Visible blue open-circle glyph at native panel pixel (614,110) in the long plateau; omitted from the candidate table.",
+   "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (614,110).",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.5,
+   "evidence_ref": "panel.png",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    614.0,
+    110.0
+   ]
+  },
+  {
+   "operation_index": 12,
+   "operation_id": "batch-001-add_co2_plateau_13",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Visible blue open-circle glyph at native panel pixel (632,108) in the long plateau; omitted from the candidate table.",
+   "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (632,108).",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.5,
+   "evidence_ref": "panel.png",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    632.0,
+    108.0
+   ]
+  }
+ ]
+}

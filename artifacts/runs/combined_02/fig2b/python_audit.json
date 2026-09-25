@@ -1,0 +1,654 @@
+{
+ "series_assignment_audit": {
+  "groups": [],
+  "candidates": []
+ },
+ "series_gate": [
+  {
+   "from": "CO2 333K",
+   "x": 3.0746,
+   "y": 1.692,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 333K",
+   "x": 14.7473,
+   "y": 0.5113,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 333K",
+   "x": 18.3153,
+   "y": 1.7828,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 333K",
+   "x": 24.3613,
+   "y": 1.9221,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 333K",
+   "x": 29.0535,
+   "y": 1.9203,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 333K",
+   "x": 29.624,
+   "y": 1.1673,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 333K",
+   "x": 30.5826,
+   "y": 0.6807,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 333K",
+   "x": 36.5169,
+   "y": 1.3043,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 333K",
+   "x": 57.3237,
+   "y": 2.4712,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 333K",
+   "x": 64.2226,
+   "y": 2.5145,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 333K",
+   "x": 70.9027,
+   "y": 2.5613,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 333K",
+   "x": 77.413,
+   "y": 2.6028,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 333K",
+   "x": 80.1452,
+   "y": 2.5987,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 333K",
+   "x": 84.0957,
+   "y": 2.6463,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 333K",
+   "x": 89.3301,
+   "y": 2.6473,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 333K",
+   "x": 93.0517,
+   "y": 2.6811,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 333K",
+   "x": 95.9465,
+   "y": 2.6868,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 333K",
+   "x": 96.0718,
+   "y": 2.9129,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 333K",
+   "x": 97.5,
+   "y": 2.4505,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 333K",
+   "x": 103.1023,
+   "y": 2.7328,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 333K",
+   "x": 103.8909,
+   "y": 2.4639,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 353K",
+   "x": 19.8143,
+   "y": 1.4079,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 353K",
+   "x": 26.7517,
+   "y": 1.5895,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 353K",
+   "x": 73.5076,
+   "y": 2.0686,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 353K",
+   "x": 80.0297,
+   "y": 2.1071,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 353K",
+   "x": 86.8703,
+   "y": 2.1348,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 353K",
+   "x": 93.5125,
+   "y": 2.1612,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 353K",
+   "x": 100.4505,
+   "y": 2.1886,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 353K",
+   "x": 101.97,
+   "y": 2.1991,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 353K",
+   "x": 106.892,
+   "y": 2.2145,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 353K",
+   "x": 113.9724,
+   "y": 2.2372,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 373K",
+   "x": 24.0867,
+   "y": 1.8061,
+   "reason": "outside own y_bands",
+   "to": null
+  }
+ ],
+ "template_fill": {
+  "template_fit": 0,
+  "template_fill": 0,
+  "slots": []
+ },
+ "complex_regions_accepted": [
+  {
+   "bbox_px": [
+    169.0,
+    61.27,
+    314.71,
+    515.0
+   ],
+   "data_x": [
+    0.046347486973076,
+    33.581727966735784
+   ],
+   "bbox_norm": [
+    0.222,
+    0.095,
+    0.423,
+    0.802
+   ],
+   "kind": "thick_connecting_lines",
+   "python_passes": 4
+  }
+ ],
+ "complex_regions_rejected": [],
+ "legend_markers": [
+  {
+   "label": "CO2 303K",
+   "legend_box_px": [
+    445,
+    417,
+    469,
+    442
+   ],
+   "shape": "circle",
+   "fill": "filled",
+   "color_hex": "#f21f26",
+   "fill_hex": "#ea2326",
+   "edge_hex": "#d42129",
+   "polygon": [
+    [
+     1.0,
+     0.0
+    ],
+    [
+     0.924,
+     0.383
+    ],
+    [
+     0.707,
+     0.707
+    ],
+    [
+     0.383,
+     0.924
+    ],
+    [
+     0.0,
+     1.0
+    ],
+    [
+     -0.383,
+     0.924
+    ],
+    [
+     -0.707,
+     0.707
+    ],
+    [
+     -0.924,
+     0.383
+    ],
+    [
+     -1.0,
+     0.0
+    ],
+    [
+     -0.924,
+     -0.383
+    ],
+    [
+     -0.707,
+     -0.707
+    ],
+    [
+     -0.383,
+     -0.924
+    ],
+    [
+     -0.0,
+     -1.0
+    ],
+    [
+     0.383,
+     -0.924
+    ],
+    [
+     0.707,
+     -0.707
+    ],
+    [
+     0.924,
+     -0.383
+    ]
+   ],
+   "size_px": 5.15,
+   "vertices": 5,
+   "source": "raster",
+   "confidence": 0.49
+  },
+  {
+   "label": "CO2 313K",
+   "legend_box_px": [
+    568,
+    417,
+    592,
+    442
+   ],
+   "shape": "square",
+   "fill": "filled",
+   "color_hex": "#f5ab1e",
+   "fill_hex": "#f2a924",
+   "edge_hex": "#e99e2a",
+   "polygon": [
+    [
+     -0.721,
+     -0.911
+    ],
+    [
+     -0.89,
+     -0.743
+    ],
+    [
+     -0.89,
+     0.743
+    ],
+    [
+     -0.721,
+     0.911
+    ],
+    [
+     0.765,
+     0.911
+    ],
+    [
+     0.933,
+     0.575
+    ],
+    [
+     0.765,
+     -0.911
+    ]
+   ],
+   "size_px": 5.94,
+   "vertices": 4,
+   "source": "raster",
+   "confidence": 0.6
+  },
+  {
+   "label": "CO2 323K",
+   "legend_box_px": [
+    444,
+    442,
+    470,
+    466
+   ],
+   "shape": "pentagon",
+   "fill": "filled",
+   "color_hex": "#248d43",
+   "fill_hex": "#278942",
+   "edge_hex": "#668e70",
+   "polygon": [
+    [
+     -0.428,
+     -1.506
+    ],
+    [
+     -1.501,
+     0.334
+    ],
+    [
+     -0.606,
+     -0.458
+    ],
+    [
+     -0.581,
+     0.564
+    ],
+    [
+     -1.501,
+     0.769
+    ],
+    [
+     1.387,
+     0.922
+    ],
+    [
+     1.54,
+     0.487
+    ],
+    [
+     0.62,
+     0.564
+    ],
+    [
+     0.467,
+     -0.381
+    ],
+    [
+     1.233,
+     -0.075
+    ],
+    [
+     0.467,
+     -1.301
+    ],
+    [
+     -0.376,
+     -0.739
+    ]
+   ],
+   "size_px": 6.52,
+   "vertices": 4,
+   "source": "raster",
+   "confidence": 0.33
+  },
+  {
+   "label": "CO2 333K",
+   "legend_box_px": [
+    553,
+    383,
+    587,
+    415
+   ],
+   "shape": "circle",
+   "fill": "open",
+   "color_hex": "#3a3691",
+   "fill_hex": null,
+   "edge_hex": "#8287ba",
+   "polygon": [
+    [
+     1.0,
+     0.0
+    ],
+    [
+     0.924,
+     0.383
+    ],
+    [
+     0.707,
+     0.707
+    ],
+    [
+     0.383,
+     0.924
+    ],
+    [
+     0.0,
+     1.0
+    ],
+    [
+     -0.383,
+     0.924
+    ],
+    [
+     -0.707,
+     0.707
+    ],
+    [
+     -0.924,
+     0.383
+    ],
+    [
+     -1.0,
+     0.0
+    ],
+    [
+     -0.924,
+     -0.383
+    ],
+    [
+     -0.707,
+     -0.707
+    ],
+    [
+     -0.383,
+     -0.924
+    ],
+    [
+     -0.0,
+     -1.0
+    ],
+    [
+     0.383,
+     -0.924
+    ],
+    [
+     0.707,
+     -0.707
+    ],
+    [
+     0.924,
+     -0.383
+    ]
+   ],
+   "size_px": 9.56,
+   "vertices": 7,
+   "source": "raster",
+   "confidence": 0.5
+  },
+  {
+   "label": "CO2 353K",
+   "legend_box_px": [
+    447,
+    469,
+    467,
+    498
+   ],
+   "shape": "hexagon",
+   "fill": "filled",
+   "color_hex": "#d13ea1",
+   "fill_hex": "#cc3c9d",
+   "edge_hex": "#b2348c",
+   "polygon": [
+    [
+     -0.218,
+     -1.418
+    ],
+    [
+     -0.735,
+     -0.642
+    ],
+    [
+     -0.735,
+     0.867
+    ],
+    [
+     -0.002,
+     1.384
+    ],
+    [
+     0.774,
+     0.608
+    ],
+    [
+     0.774,
+     -0.642
+    ],
+    [
+     0.429,
+     -1.159
+    ]
+   ],
+   "size_px": 3.87,
+   "vertices": 6,
+   "source": "raster",
+   "confidence": 0.36
+  },
+  {
+   "label": "CO2 373K",
+   "legend_box_px": [
+    569,
+    472,
+    592,
+    495
+   ],
+   "shape": "diamond",
+   "fill": "filled",
+   "color_hex": "#060707",
+   "fill_hex": "#0a0a0a",
+   "edge_hex": "#727272",
+   "polygon": [
+    [
+     -0.176,
+     -1.203
+    ],
+    [
+     -1.291,
+     0.045
+    ],
+    [
+     -0.574,
+     0.523
+    ],
+    [
+     -0.176,
+     1.161
+    ],
+    [
+     0.276,
+     1.161
+    ],
+    [
+     0.276,
+     0.922
+    ],
+    [
+     1.232,
+     0.205
+    ],
+    [
+     1.232,
+     -0.088
+    ],
+    [
+     0.515,
+     -0.566
+    ],
+    [
+     0.116,
+     -1.203
+    ]
+   ],
+   "size_px": 6.27,
+   "vertices": 4,
+   "source": "raster",
+   "confidence": 0.91
+  }
+ ]
+}

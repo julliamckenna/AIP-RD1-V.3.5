@@ -1,0 +1,255 @@
+{
+ "reasoning": "The proposal contains substantial same-color contamination in the crowded middle and lower CO2 trajectories. The native panel supports deletion of several detections whose visible pixels lie on neighboring curves rather than the claimed CO2 series, especially low-trajectory points assigned to CO2 303K, CO2 333K, and CO2 373K. The remaining extraction is still incomplete because many dense low-pressure and overlapping markers cannot be assigned uniquely from the supplied native pixels without risking fabricated edits.",
+ "verdict": "review",
+ "series": [
+  {
+   "label": "CO2 273K",
+   "coverage": "incomplete",
+   "final_count": 22,
+   "comment": "Upper black square curve is visibly real, but the proposal is short at low pressure and several overlaps remain unresolved."
+  },
+  {
+   "label": "CO2 283K",
+   "coverage": "incomplete",
+   "final_count": 37,
+   "comment": "Most upper red hexagons are supported, but low-pressure coverage is incomplete."
+  },
+  {
+   "label": "CO2 293K",
+   "coverage": "incomplete",
+   "final_count": 28,
+   "comment": "Upper blue triangle-up curve is supported at moderate and high pressure, but many low-pressure markers are missing."
+  },
+  {
+   "label": "CO2 303K",
+   "coverage": "incomplete",
+   "final_count": 53,
+   "comment": "Deleted four detections visibly lying below the upper teal downward-triangle trajectory; dense overlap and low-pressure coverage remain incomplete."
+  },
+  {
+   "label": "CO2 313K",
+   "coverage": "incomplete",
+   "final_count": 39,
+   "comment": "Magenta left-triangle curve is mostly coherent but remains short of the expected marker inventory."
+  },
+  {
+   "label": "CO2 323K",
+   "coverage": "uncertain",
+   "final_count": 81,
+   "comment": "The olive right-triangle series is heavily contaminated by neighboring curves in the crowded region; native evidence does not justify broad reassignment."
+  },
+  {
+   "label": "CO2 333K",
+   "coverage": "incomplete",
+   "final_count": 92,
+   "comment": "Deleted four points visibly below or outside the intermediate dark-blue diamond trajectory; many crowded assignments remain uncertain."
+  },
+  {
+   "label": "CO2 343K",
+   "coverage": "incomplete",
+   "final_count": 37,
+   "comment": "Brown pentagon curve is coherent but short of the expected marker inventory."
+  },
+  {
+   "label": "CO2 353K",
+   "coverage": "incomplete",
+   "final_count": 34,
+   "comment": "Pink hexagon curve is mostly supported but several low-pressure markers are unresolved."
+  },
+  {
+   "label": "CO2 363K",
+   "coverage": "incomplete",
+   "final_count": 35,
+   "comment": "Green star curve is visibly present and the template-fit rows coincide with visible markers, but coverage remains incomplete."
+  },
+  {
+   "label": "CO2 373K",
+   "coverage": "incomplete",
+   "final_count": 67,
+   "comment": "Deleted eight detections visibly above the lowest dark-blue circle trajectory or on neighboring curves; extensive contamination and missing low-pressure markers remain."
+  }
+ ],
+ "operations": [
+  {
+   "operation_id": "op-303-delete-01",
+   "action": "delete",
+   "point_id": "pt-5d03d5418c53369f",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False CO2 303K assignment.",
+   "source_evidence": "Native pixel (458.63,391.30) is on the lower teal/neighboring trajectory, well below the visible CO2 303K downward-triangle curve."
+  },
+  {
+   "operation_id": "op-303-delete-02",
+   "action": "delete",
+   "point_id": "pt-9ba9847d7ee14043",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False CO2 303K assignment.",
+   "source_evidence": "Native pixel (478.46,390.91) lies on the lower teal-colored curve rather than the upper CO2 303K curve."
+  },
+  {
+   "operation_id": "op-303-delete-03",
+   "action": "delete",
+   "point_id": "pt-a819368f05760e15",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False CO2 303K assignment.",
+   "source_evidence": "Native pixel (510.86,377.60) is visibly below the CO2 303K trajectory and belongs to a neighboring crowded curve."
+  },
+  {
+   "operation_id": "op-303-delete-04",
+   "action": "delete",
+   "point_id": "pt-638ea428c9830be3",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False CO2 303K assignment.",
+   "source_evidence": "Native pixel (523.42,384.68) is on the lower teal/overlapping trajectory, not the upper CO2 303K downward-triangle series."
+  },
+  {
+   "operation_id": "op-333-delete-01",
+   "action": "delete",
+   "point_id": "pt-92f395bc2a8f7dbf",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False CO2 333K assignment.",
+   "source_evidence": "Native pixel (1039.85,458.22) is far below the visible intermediate dark-blue diamond curve and lies on a lower neighboring series."
+  },
+  {
+   "operation_id": "op-333-delete-02",
+   "action": "delete",
+   "point_id": "pt-d684ff35e84016f9",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False CO2 333K assignment.",
+   "source_evidence": "Native pixel (971.21,420.59) is below the CO2 333K diamond trajectory and matches the neighboring lower curves in the native panel."
+  },
+  {
+   "operation_id": "op-333-delete-03",
+   "action": "delete",
+   "point_id": "pt-25f011f52058a0f7",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False CO2 333K assignment.",
+   "source_evidence": "Native pixel (981.10,418.98) is visibly below the intermediate dark-blue diamond series and is not a CO2 333K marker."
+  },
+  {
+   "operation_id": "op-333-delete-04",
+   "action": "delete",
+   "point_id": "pt-b228f3ba13588d6c",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False CO2 333K assignment.",
+   "source_evidence": "Native pixel (1057.86,413.56) lies on a lower neighboring curve rather than the visible CO2 333K diamond trajectory."
+  },
+  {
+   "operation_id": "op-373-delete-01",
+   "action": "delete",
+   "point_id": "pt-99551d32abaef3cc",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False CO2 373K assignment.",
+   "source_evidence": "Native pixel (326.09,632.75) is on the low N2-family region, far below the CO2 373K circle curve at this pressure."
+  },
+  {
+   "operation_id": "op-373-delete-02",
+   "action": "delete",
+   "point_id": "pt-ffdff4d50b313e60",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False CO2 373K assignment.",
+   "source_evidence": "Native pixel (334.23,628.00) is visibly on a low neighboring curve, not the lowest high-loading CO2 373K circle trajectory."
+  },
+  {
+   "operation_id": "op-373-delete-03",
+   "action": "delete",
+   "point_id": "pt-75fbf500dcd8d193",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False CO2 373K assignment.",
+   "source_evidence": "Native pixel (367.88,535.37) is well above the CO2 373K circle curve and aligns with the green-star or neighboring upper series."
+  },
+  {
+   "operation_id": "op-373-delete-04",
+   "action": "delete",
+   "point_id": "pt-fea2b452d70e86e5",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False CO2 373K assignment.",
+   "source_evidence": "Native pixel (369.83,486.25) is far above the visible lowest dark-blue circle trajectory and belongs to an upper neighboring curve."
+  },
+  {
+   "operation_id": "op-373-delete-05",
+   "action": "delete",
+   "point_id": "pt-a4173776a929b013",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False CO2 373K assignment.",
+   "source_evidence": "Native pixel (377.00,472.00) is above the CO2 373K circle trajectory and is visibly associated with the crowded upper family."
+  },
+  {
+   "operation_id": "op-373-delete-06",
+   "action": "delete",
+   "point_id": "pt-2bfbb4bbfdd901b9",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False CO2 373K assignment.",
+   "source_evidence": "Native pixel (551.00,445.00) is above the lowest dark-blue circle curve and lies on a neighboring higher trajectory."
+  },
+  {
+   "operation_id": "op-373-delete-07",
+   "action": "delete",
+   "point_id": "pt-75881c7a06a660d7",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False CO2 373K assignment.",
+   "source_evidence": "Native pixel (587.31,441.70) is visibly above the CO2 373K circle trajectory and matches an upper overlapping series."
+  },
+  {
+   "operation_id": "op-373-delete-08",
+   "action": "delete",
+   "point_id": "pt-5b417407139d6e26",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False CO2 373K assignment.",
+   "source_evidence": "Native pixel (703.86,423.57) is above the lowest high-loading CO2 curve and is on a neighboring series in the native panel."
+  }
+ ],
+ "uncertainties": [
+  "The dense low-pressure fan contains many real CO2 markers whose exact series identity is obscured by overlap; no additions were made without distinct native marker evidence.",
+  "CO2 323K, CO2 333K, and CO2 373K remain substantially contaminated by same-color neighboring series and require further native-pixel review.",
+  "Template-fit/template-fill rows were not deleted when their native pixels coincided with visible markers; the metadata alone is not sufficient evidence of a false point."
+ ]
+}

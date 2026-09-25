@@ -1,0 +1,186 @@
+{
+ "reasoning": "One linear axis frame is shown. The x-axis is pressure in mbar and the y-axis is CO2 loading in mmol/g. A boxed two-column legend headed 'CO2' binds all six temperature entries to CO2; reading the displayed rows left-to-right gives 303K, 313K, 323K, 333K, 353K, and 373K. The curves consist of filled markers that become crowded into nearly continuous traces at low pressure, with no distinct desorption branches.",
+ "x": {
+  "title": "P",
+  "unit": "mbar",
+  "scale": "linear",
+  "ticks": [
+   0,
+   400,
+   800,
+   1200
+  ],
+  "x_setpoints_visible": [
+   330,
+   400,
+   470,
+   530,
+   600,
+   670,
+   730,
+   800,
+   870,
+   930,
+   1000,
+   1070,
+   1130
+  ]
+ },
+ "y": {
+  "title": "CO2 Loading",
+  "unit": "mmol/g",
+  "scale": "linear",
+  "ticks": [
+   0,
+   0.5,
+   1,
+   1.5,
+   2,
+   2.5,
+   3
+  ]
+ },
+ "legend_bbox_norm": [
+  0.567,
+  0.702,
+  0.904,
+  0.922
+ ],
+ "legend_position": "lower right inside the plot",
+ "series": [
+  {
+   "label": "CO2 303K",
+   "gas": "CO2",
+   "species_evidence": "Legend is headed 'CO2' and its red-circle entry is labeled '303K'.",
+   "temperature_k": 303,
+   "color_name": "red",
+   "color_hex": "#e5252a",
+   "marker": "circle",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "has_line": false,
+   "quantity_type": "co2_loading",
+   "loading_basis": "per gram of sorbent",
+   "extract": true,
+   "y_anchors": {
+    "p25": 2.22,
+    "p50": 2.55,
+    "p75": 2.78,
+    "p100": 2.93
+   },
+   "n_markers_estimate": 50
+  },
+  {
+   "label": "CO2 313K",
+   "gas": "CO2",
+   "species_evidence": "Legend is headed 'CO2' and its orange-square entry is labeled '313K'.",
+   "temperature_k": 313,
+   "color_name": "orange",
+   "color_hex": "#f2a51a",
+   "marker": "square",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "has_line": false,
+   "quantity_type": "co2_loading",
+   "loading_basis": "per gram of sorbent",
+   "extract": true,
+   "y_anchors": {
+    "p25": 1.98,
+    "p50": 2.33,
+    "p75": 2.52,
+    "p100": 2.65
+   },
+   "n_markers_estimate": 50
+  },
+  {
+   "label": "CO2 323K",
+   "gas": "CO2",
+   "species_evidence": "Legend is headed 'CO2' and its green upward-triangle entry is labeled '323K'.",
+   "temperature_k": 323,
+   "color_name": "green",
+   "color_hex": "#168c48",
+   "marker": "triangle_up",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "has_line": false,
+   "quantity_type": "co2_loading",
+   "loading_basis": "per gram of sorbent",
+   "extract": true,
+   "y_anchors": {
+    "p25": 1.79,
+    "p50": 2.1,
+    "p75": 2.29,
+    "p100": 2.41
+   },
+   "n_markers_estimate": 50
+  },
+  {
+   "label": "CO2 333K",
+   "gas": "CO2",
+   "species_evidence": "Legend is headed 'CO2' and its blue polygon-marker entry is labeled '333K'.",
+   "temperature_k": 333,
+   "color_name": "blue",
+   "color_hex": "#29489a",
+   "marker": "hexagon",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "has_line": false,
+   "quantity_type": "co2_loading",
+   "loading_basis": "per gram of sorbent",
+   "extract": true,
+   "y_anchors": {
+    "p25": 1.5,
+    "p50": 1.93,
+    "p75": 2.13,
+    "p100": 2.23
+   },
+   "n_markers_estimate": 50
+  },
+  {
+   "label": "CO2 353K",
+   "gas": "CO2",
+   "species_evidence": "Legend is headed 'CO2' and its magenta-diamond entry is labeled '353K'.",
+   "temperature_k": 353,
+   "color_name": "magenta",
+   "color_hex": "#c52d8d",
+   "marker": "diamond",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "has_line": false,
+   "quantity_type": "co2_loading",
+   "loading_basis": "per gram of sorbent",
+   "extract": true,
+   "y_anchors": {
+    "p25": 0.96,
+    "p50": 1.56,
+    "p75": 1.8,
+    "p100": 1.91
+   },
+   "n_markers_estimate": 50
+  },
+  {
+   "label": "CO2 373K",
+   "gas": "CO2",
+   "species_evidence": "Legend is headed 'CO2' and its black-star entry is labeled '373K'.",
+   "temperature_k": 373,
+   "color_name": "black",
+   "color_hex": "#050505",
+   "marker": "star",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "has_line": false,
+   "quantity_type": "co2_loading",
+   "loading_basis": "per gram of sorbent",
+   "extract": true,
+   "y_anchors": {
+    "p25": 0.56,
+    "p50": 1.12,
+    "p75": 1.41,
+    "p100": 1.55
+   },
+   "n_markers_estimate": 50
+  }
+ ],
+ "branches": "adsorption_only",
+ "notes": "No inset, error bars, broken axis, or dual y-axis is visible. A second placement of the pressure-axis title appears along the upper edge. Markers are very densely spaced at low pressure and isolated at higher pressure; the listed visible setpoints are approximate readings of the clearest isolated markers."
+}

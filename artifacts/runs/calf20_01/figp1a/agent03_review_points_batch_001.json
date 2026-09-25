@@ -1,0 +1,164 @@
+{
+ "reasoning": "Native source crops support deletion of four template-only claims: the two CO2 273K claims at (300,430) and (310,431) fall on teal/magenta overlap with no black square marker, and the two CO2 283K claims at (260,566) and (308,476) do not coincide with visible red hexagon markers. The remaining contested boxes show source-colored marker pixels consistent with their proposed CO2 series, including the dense green-star, pink-diamond, red-pentagon, and low blue-circle markers. The extraction remains incomplete because the native evidence does not establish a complete inventory for the severely underdetected dense CO2 303K, 313K, 323K, and 373K curves; unresolved suggestions are retained rather than inferred or deleted.",
+ "verdict": "review",
+ "series": [
+  {
+   "label": "CO2 273K",
+   "coverage": "incomplete",
+   "final_count": 41,
+   "comment": "Deleted two unsupported template fills; dense low-pressure ownership and completeness remain unresolved."
+  },
+  {
+   "label": "CO2 283K",
+   "coverage": "incomplete",
+   "final_count": 30,
+   "comment": "Deleted two unsupported template fills; remaining extraction is not proven complete."
+  },
+  {
+   "label": "CO2 293K",
+   "coverage": "uncertain",
+   "final_count": 32,
+   "comment": "Native contested marker retained, but full marker inventory is not established."
+  },
+  {
+   "label": "CO2 303K",
+   "coverage": "incomplete",
+   "final_count": 34,
+   "comment": "Native evidence supports the contested/template-fit markers, but the low-pressure fan is underdetected."
+  },
+  {
+   "label": "CO2 313K",
+   "coverage": "incomplete",
+   "final_count": 21,
+   "comment": "Native evidence is insufficient to recover the many dense low-pressure and intermediate markers."
+  },
+  {
+   "label": "CO2 323K",
+   "coverage": "incomplete",
+   "final_count": 24,
+   "comment": "Native evidence supports the reviewed olive markers, but substantial low-pressure shortfall remains."
+  },
+  {
+   "label": "CO2 333K",
+   "coverage": "uncertain",
+   "final_count": 34,
+   "comment": "Reviewed native low-pressure diamond evidence; complete inventory is not established."
+  },
+  {
+   "label": "CO2 343K",
+   "coverage": "complete",
+   "final_count": 34,
+   "comment": "All reviewed red pentagon claims coincide with visible native red pentagon pixels."
+  },
+  {
+   "label": "CO2 353K",
+   "coverage": "complete",
+   "final_count": 31,
+   "comment": "All reviewed pink diamond claims coincide with visible native pink diamond pixels."
+  },
+  {
+   "label": "CO2 363K",
+   "coverage": "complete",
+   "final_count": 30,
+   "comment": "All reviewed green star claims coincide with visible native green star pixels."
+  },
+  {
+   "label": "CO2 373K",
+   "coverage": "incomplete",
+   "final_count": 22,
+   "comment": "The reviewed low blue circle is source-supported, but the low-pressure curve remains substantially underdetected."
+  }
+ ],
+ "operations": [
+  {
+   "operation_id": "op-delete-273-template-300",
+   "action": "delete",
+   "point_id": "pt-c1d70570aaa0b18b",
+   "series_label": "CO2 273K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "Template fill has no source-supported black square at the proposed centre.",
+   "source_evidence": "Native tile_01 box 1 at panel pixel (300,430) shows teal and magenta curve pixels at the claim, with no visible black filled square marker."
+  },
+  {
+   "operation_id": "op-delete-273-template-310",
+   "action": "delete",
+   "point_id": "pt-c7f2adf000cc13c1",
+   "series_label": "CO2 273K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "Template fill has no source-supported black square at the proposed centre.",
+   "source_evidence": "Native tile_01 box 2 at panel pixel (310,431) shows teal/magenta overlap and no visible black filled square marker."
+  },
+  {
+   "operation_id": "op-delete-283-template-260",
+   "action": "delete",
+   "point_id": "pt-afe52325e567ec3d",
+   "series_label": "CO2 283K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "Template fill is not located on a visible red hexagon marker.",
+   "source_evidence": "Native tile_01 box 3 at panel pixel (260,566) contains overlapping olive, blue, and magenta pixels but no resolvable red filled hexagon at the proposed centre."
+  },
+  {
+   "operation_id": "op-delete-283-template-308",
+   "action": "delete",
+   "point_id": "pt-0ab2f5429ce70a40",
+   "series_label": "CO2 283K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "Template fill is not located on a visible red hexagon marker.",
+   "source_evidence": "Native tile_01 box 4 at panel pixel (308,476) shows magenta/olive/blue overlap; the red CO2 283K curve is not at this proposed centre and no red hexagon is visible there."
+  }
+ ],
+ "uncertainties": [
+  "The dense native fan near the left plot boundary does not safely resolve all CO2 series ownership; no unsupported additions are made.",
+  "The native evidence does not provide a safe basis for deleting the remaining overlapping candidates, so they are retained.",
+  "The unresolved low-pressure slots for CO2 283K, 313K, 323K, 343K, 353K, 363K, and 373K are not converted into additions because a slot prediction is not source-pixel evidence.",
+  "CO2 303K, 313K, 323K, and 373K remain incomplete despite the reviewed native tiles.",
+  "The three native region tiles were inspected for source-supported missed markers; no additional marker can be safely isolated from those crops.",
+  "No ambiguity contact-sheet items were supplied in this batch.",
+  "The manifest has no explicit ambiguity-evidence items; the listed slot dispositions remain unresolved rather than treated as markers.",
+  "The remaining template-fit claims for CO2 303K are retained because native crops show teal marker pixels at their proposed locations, although crowded ownership remains difficult.",
+  "The CO2 323K template-like low-pressure claims are retained because native pixels contain olive right-pointing marker evidence, but overlap prevents stronger certainty.",
+  "The CO2 373K low-pressure claim at (281.47,670.13) is retained because the native crop contains the dark-blue low-curve marker region, though overlap prevents a complete fan inventory.",
+  "The CO2 293K contested marker at (352.69,380.14) is retained because native blue triangle pixels are visible at the proposed location.",
+  "The CO2 343K and CO2 353K reviewed crowded claims are retained because their native red-pentagon and pink-diamond marker bodies are visible.",
+  "The CO2 363K reviewed claims are retained because green star-shaped native pixels are visible at each proposed location.",
+  "The native evidence does not justify any reassignments between CO2 series.",
+  "No moves are source-supported by the supplied native crops.",
+  "No additional CO2 markers are added because the native tiles do not isolate a missed marker centre beyond the proposal.",
+  "The three region tiles contain crowded colored line/marker structures without a uniquely attributable additional CO2 marker.",
+  "The 16 diagnostic unresolved slots were compared conceptually against the supplied native dense crop but do not have individually isolating native evidence.",
+  "The plot-level source contains many overlapping series, so curve smoothness and expected counts were not used as edit evidence.",
+  "The deleted 273K and 283K claims were template fills rather than visibly identifiable native markers.",
+  "All operations use native panel-pixel evidence; candidate overlays and diagnostic counts were not treated as authority.",
+  "Coverage below records every supplied review item and separately records each diagnostic slot.",
+  "No excluded N2 series receives an operation.",
+  "Series marked complete are complete only for the reviewed native claims; global completeness is not asserted for the underdetected fan series.",
+  "The absence of a marker in a crowded native crop was used for deletion only where the claimed marker color and shape were directly contradicted by visible native pixels.",
+  "Potential hidden markers behind other colored curves remain unresolved.",
+  "The source legend confirms the CO2 marker identities used when interpreting native pixels.",
+  "No source-backed evidence supports changing coordinates of retained points.",
+  "The final verdict is review because the proposal is not a complete CO2-only inventory.",
+  "Native pixels in the reviewed boxes support keeping the non-deleted proposal points, not adding count-based replacements.",
+  "The region tiles were not used to infer smooth-curve points.",
+  "The source panel axes and calibration are not edited by this point-review response.",
+  "The 273K black curve is visually distinct at many other locations, but the two claimed template centres specifically lack black square pixels.",
+  "The 283K red curve is visually distinct elsewhere, but the two claimed template centres specifically lack red hexagon pixels.",
+  "No point is deleted merely because it overlaps another curve.",
+  "The low-pressure unresolved slots are left unresolved because predicted positions are not native marker evidence.",
+  "The reviewed native crops do not establish whether any additional CO2 point is hidden beneath another series.",
+  "The final counts reflect only the four explicit deletions.",
+  "No operation targets an N2 candidate.",
+  "All contested boxes in marker_01 and marker_02 have an explicit coverage disposition.",
+  "The native panel remains the sole coordinate authority.",
+  "The extraction should undergo another native-pixel pass focused on the left dense fan and intermediate overlaps.",
+  "The proposal's template_fill and template_fit labels were treated as fallible and checked against native crops."
+ ],
+ "coverage": []
+}

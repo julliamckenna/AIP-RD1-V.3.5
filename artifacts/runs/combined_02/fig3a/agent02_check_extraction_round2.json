@@ -1,0 +1,186 @@
+{
+ "reasoning": "The x-axis calibration is correct. The y-axis tick values are also correctly read as 0–140 cm³ g⁻¹, but the supplied y tick anchors were wrong for the 0 and 20 ticks and offset for the remaining ticks. Replacing them with the exact detected candidate positions resolves the calibration disagreement. The two plotted series and the inset duplicate are structurally identified correctly; the low-pressure blue-marker cluster remains a dense region for Python to handle.",
+ "axis_check": {
+  "x": {
+   "printed_min": 0,
+   "printed_max": 1,
+   "data_min": 0.02,
+   "data_max": 0.99,
+   "reason": "The source prints 0 to 1 on the relative-pressure axis, and the extracted setpoints lie at the same horizontal positions within that range.",
+   "result": "pass"
+  },
+  "y": {
+   "printed_min": 0,
+   "printed_max": 140,
+   "data_min": 0,
+   "data_max": 127,
+   "reason": "The source prints 0 to 140 cm³ g⁻¹. The extracted curves span approximately 0 to 127 cm³ g⁻¹, matching their source positions below the 140 tick; only the supplied pixel anchors were miscalibrated.",
+   "result": "pass"
+  }
+ },
+ "satisfied": false,
+ "issues": [
+  "The y-axis tick anchors do not match the detected tick candidates, especially the supplied anchors for 0 and 20 and the resulting calibration residual. Replace them with the exact candidate pixel positions.",
+  "A further Python extraction round is required after calibration correction."
+ ],
+ "structure_ok": true,
+ "chart_title": "",
+ "x_axis": {
+  "title": "Relative Pressure (P/P₀)",
+  "unit": "P/P₀",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 1,
+  "boundary_limits_confirmed": true,
+  "ticks": [
+   0,
+   0.2,
+   0.4,
+   0.6,
+   0.8,
+   1
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.21621621621621623,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.35561877667140823,
+    "value": 0.2
+   },
+   {
+    "pixel_norm": 0.492176386913229,
+    "value": 0.4
+   },
+   {
+    "pixel_norm": 0.6301564722617354,
+    "value": 0.6
+   },
+   {
+    "pixel_norm": 0.7681365576102418,
+    "value": 0.8
+   },
+   {
+    "pixel_norm": 0.9061166429587483,
+    "value": 1
+   }
+  ]
+ },
+ "y_axis": {
+  "title": "Uptake",
+  "unit": "cm³ g⁻¹",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 140,
+  "boundary_limits_confirmed": true,
+  "ticks": [
+   0,
+   20,
+   40,
+   60,
+   80,
+   100,
+   120,
+   140
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.1098546042003231,
+    "value": 140
+   },
+   {
+    "pixel_norm": 0.2035541195476575,
+    "value": 120
+   },
+   {
+    "pixel_norm": 0.2940226171243942,
+    "value": 100
+   },
+   {
+    "pixel_norm": 0.3877221324717286,
+    "value": 80
+   },
+   {
+    "pixel_norm": 0.4798061389337641,
+    "value": 60
+   },
+   {
+    "pixel_norm": 0.5718901453957996,
+    "value": 40
+   },
+   {
+    "pixel_norm": 0.6639741518578353,
+    "value": 20
+   },
+   {
+    "pixel_norm": 0.7560581583198708,
+    "value": 0
+   }
+  ]
+ },
+ "legend_bbox_norm": [
+  0.612,
+  0.173,
+  0.91,
+  0.75
+ ],
+ "total_series": 2,
+ "series": [
+  {
+   "label": "CO2 195K",
+   "marker": "circle",
+   "marker_fill": "open",
+   "line_style": "solid",
+   "color_hex": "#586CFF",
+   "notes": "Blue open-circle adsorption isotherm; dense steep low-pressure marker cluster. The inset is a duplicate view of this series."
+  },
+  {
+   "label": "N2 77K",
+   "marker": "circle",
+   "marker_fill": "open",
+   "line_style": "solid",
+   "color_hex": "#FF6666",
+   "notes": "Red open-circle low-uptake adsorption isotherm with a small upturn near P/P₀ = 1."
+  }
+ ],
+ "branches": "adsorption_only",
+ "complex_regions": [
+  {
+   "bbox_norm": [
+    0.20626,
+    0.22617,
+    0.28876,
+    0.76737
+   ],
+   "kind": "dense_markers",
+   "python_passes": 3
+  },
+  {
+   "bbox_norm": [
+    0.35846,
+    0.27895,
+    0.73969,
+    0.63005
+   ],
+   "kind": "inset",
+   "python_passes": 2
+  }
+ ],
+ "extraction_settings": [],
+ "notes": "Corrected y-axis anchors are copied exactly from the detected candidates. The outer frame extends below the 0 tick and the x frame extends beyond the 0 and 1 ticks, while the printed tick ranges remain 0–1 and 0–140.",
+ "region_strategies": [
+  {
+   "bbox_norm": [
+    0.35846,
+    0.27895,
+    0.73969,
+    0.63005
+   ],
+   "series_labels": [],
+   "strategy": "ignore",
+   "reason": "This is an inset duplicate of the CO2 curve and must not be counted as additional main-panel markers."
+  }
+ ],
+ "shared_x_columns": []
+}

@@ -1,0 +1,122 @@
+{
+ "reasoning": "One main linear axis frame contains two directly labeled gas isotherms rather than a conventional boxed legend. The upper blue open-circle curve is bound to CO2 by the in-panel label 'CO2@195 K' and the caption's CO2 adsorption–desorption assignment; the near-zero red open-circle curve is similarly bound to N2@77 K. Both gases show adsorption and desorption branches, although the paired branches overlap closely over much of the range. The semilogarithmic inset is excluded from all readings.",
+ "x": {
+  "title": "Relative Pressure (P/P0)",
+  "unit": "dimensionless",
+  "scale": "linear",
+  "ticks": [
+   0,
+   0.2,
+   0.4,
+   0.6,
+   0.8,
+   1
+  ],
+  "x_setpoints_visible": [
+   0.02,
+   0.05,
+   0.08,
+   0.11,
+   0.14,
+   0.17,
+   0.2,
+   0.23,
+   0.26,
+   0.29,
+   0.32,
+   0.35,
+   0.38,
+   0.41,
+   0.44,
+   0.47,
+   0.5,
+   0.53,
+   0.56,
+   0.59,
+   0.62,
+   0.65,
+   0.68,
+   0.71,
+   0.74,
+   0.77,
+   0.8,
+   0.83,
+   0.86,
+   0.89,
+   0.92,
+   0.95,
+   0.98,
+   1
+  ]
+ },
+ "y": {
+  "title": "Uptake",
+  "unit": "cm³ g⁻¹",
+  "scale": "linear",
+  "ticks": [
+   0,
+   20,
+   40,
+   60,
+   80,
+   100,
+   120,
+   140
+  ]
+ },
+ "legend_bbox_norm": [
+  0.64,
+  0.2,
+  0.9,
+  0.76
+ ],
+ "legend_position": "split direct labels at the upper right and lower right inside the plot; no conventional legend box",
+ "series": [
+  {
+   "label": "CO2@195K",
+   "gas": "CO2",
+   "species_evidence": "Direct in-panel label 'CO2@195 K'; caption states 'CO2 adsorption–desorption isotherm at 195 K for NUM-27a.'",
+   "temperature_k": 195,
+   "color_name": "blue",
+   "color_hex": "#536DFE",
+   "marker": "circle",
+   "marker_fill": "open",
+   "line_style": "solid",
+   "has_line": true,
+   "quantity_type": "co2_uptake",
+   "loading_basis": "reported gas volume per gram of sorbent",
+   "extract": true,
+   "y_anchors": {
+    "p25": 123,
+    "p50": 124,
+    "p75": 125,
+    "p100": 127
+   },
+   "n_markers_estimate": 70
+  },
+  {
+   "label": "N2@77K",
+   "gas": "N2",
+   "species_evidence": "Direct in-panel label 'N2@77 K'; caption states 'N2 adsorption–desorption isotherm at 77 K.'",
+   "temperature_k": 77,
+   "color_name": "red",
+   "color_hex": "#FF6868",
+   "marker": "circle",
+   "marker_fill": "open",
+   "line_style": "solid",
+   "has_line": true,
+   "quantity_type": "n2_uptake",
+   "loading_basis": "reported gas volume per gram of sorbent",
+   "extract": false,
+   "y_anchors": {
+    "p25": 1.1,
+    "p50": 1,
+    "p75": 0.9,
+    "p100": 2.5
+   },
+   "n_markers_estimate": 70
+  }
+ ],
+ "branches": "adsorption_and_desorption",
+ "notes": "A semilogarithmic low-relative-pressure inset occupies approximately [0.35, 0.29, 0.72, 0.67] of the image and must be masked; its axes, highlighted red points, arrows, and markers were not included. No error bars or dual y-axis are present. Adsorption and desorption branches use the same open-circle styling and overlap heavily, especially for N2."
+}

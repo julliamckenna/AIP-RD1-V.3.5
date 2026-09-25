@@ -1,0 +1,19 @@
+{
+ "agent_name": "agent03-extraction",
+ "agent_version": "4",
+ "response_id": "resp_0de3e1eaae1e667a006ab5a93259f481958d6cdd0a71de382a",
+ "usage": {
+  "input_tokens": 83946,
+  "input_tokens_details": {
+   "cache_write_tokens": 83943,
+   "cached_tokens": 0
+  },
+  "output_tokens": 5123,
+  "output_tokens_details": {
+   "reasoning_tokens": 2924
+  },
+  "total_tokens": 89069
+ },
+ "created_at": "2026-09-24T22:50:53.261264+00:00",
+ "dry_run": false
+}

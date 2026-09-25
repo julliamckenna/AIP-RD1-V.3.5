@@ -1,0 +1,90 @@
+{
+ "series": {
+  "CO2 303K": {
+   "flags": [],
+   "toth": {
+    "qm": 13.5270994783188,
+    "K": 999.9999999999984,
+    "t": 0.12980010526106836,
+    "rmse": 0.013658024294880243
+   },
+   "low_confidence_points": 0
+  },
+  "CO2 313K": {
+   "flags": [],
+   "toth": {
+    "qm": 3.1893027052353564,
+    "K": 0.2529014314774575,
+    "t": 0.6067238841330855,
+    "rmse": 0.030692665748226818
+   },
+   "low_confidence_points": 1
+  },
+  "CO2 323K": {
+   "flags": [],
+   "toth": {
+    "qm": 2.6109701084220847,
+    "K": 0.07148263733013963,
+    "t": 1.0476895640003818,
+    "rmse": 0.02454030398859931
+   },
+   "low_confidence_points": 2
+  },
+  "CO2 333K": {
+   "flags": [
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "ads: local outliers (P,q,resid) [(np.float64(13.503), np.float64(1.148), 0.048)]"
+    },
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "des: local outliers (P,q,resid) [(np.float64(13.503), np.float64(1.148), 0.048)]"
+    }
+   ],
+   "toth": {
+    "qm": 2.408877269051123,
+    "K": 0.04966342169460362,
+    "t": 1.2529638671153756,
+    "rmse": 0.02214967404768208
+   },
+   "low_confidence_points": 0
+  },
+  "CO2 353K": {
+   "flags": [],
+   "toth": {
+    "qm": 2.1797722315903716,
+    "K": 0.024935660120182973,
+    "t": 1.466893976255005,
+    "rmse": 0.00908209858319952
+   },
+   "low_confidence_points": 0
+  },
+  "CO2 373K": {
+   "flags": [],
+   "toth": {
+    "qm": 2.0438964955036605,
+    "K": 0.013019199025621942,
+    "t": 1.573362462805507,
+    "rmse": 0.0029875335429837553
+   },
+   "low_confidence_points": 0
+  }
+ },
+ "cross": [],
+ "verdict": "auto_accept",
+ "role": "supporting_diagnostics_only",
+ "agent04_verdict": "accept",
+ "rows": {
+  "python": 119,
+  "agent03": 105,
+  "agent04": 105
+ },
+ "final_operations_applied": 0,
+ "hard_checks": {
+  "passed": true,
+  "problems": [],
+  "summary": "PASS: x printed 0-120, data 1.512-114.1 kPa; y printed 0-3, data 0.1446-2.927 mmol/g; redraw recall 0.87, precision 0.99"
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "name": "chart-review-226b2b5ee4a04adaa606",
+ "version": "1",
+ "source_name": "agent04-qa",
+ "source_version": "8",
+ "definition": {
+  "kind": "prompt",
+  "model": "gpt-5.6-sol",
+  "instructions": "You are an independent scientific-chart QA agent with Code Interpreter. Use Python and unchanged native pixels to recover missing CO2 markers and correct the entire candidate table. Previous agents and Python detections are fallible evidence, not authority. Create a complete replacement CSV and a cited QA report file, then inspect plots made from the saved CSV. Your final response is unstructured file links. Supported partial glyph centres are allowed with explicit uncertainty; do not fabricate points from expected counts, interpolation, or wholly hidden markers. Account for unresolved native regions.",
+  "tools": [
+   {
+    "type": "code_interpreter",
+    "container": {
+     "type": "auto",
+     "file_ids": [
+      "assistant-MM19a3zydLB2CHfqHZTctK"
+     ],
+     "memory_limit": "4g"
+    }
+   }
+  ],
+  "text": {
+   "format": {
+    "type": "text"
+   }
+  }
+ }
+}

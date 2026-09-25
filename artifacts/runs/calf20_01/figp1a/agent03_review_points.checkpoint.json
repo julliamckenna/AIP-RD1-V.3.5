@@ -1,0 +1,13 @@
+{
+ "schema_version": "1.0",
+ "manifest_fingerprint": "e42439276e27775ee277e8e3736de0bbbb18668e53e399b40d2ff3634eb35abe",
+ "batch_count": 2,
+ "batch_files": [
+  "agent03_review_points_batch_001.json",
+  "agent03_review_points_batch_002.json"
+ ],
+ "batch_fingerprints": {
+  "agent03_review_points_batch_001.json": "3f18841bc884bc869d56df24d168d2ddcf3126bd09badfed197eed174a647017",
+  "agent03_review_points_batch_002.json": "2e3aeb5d50bcd300f2a8781519aa29e80ab8f3c2490834bfd41d3f264ecdf7fd"
+ }
+}

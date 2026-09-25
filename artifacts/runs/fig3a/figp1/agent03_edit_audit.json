@@ -1,0 +1,170 @@
+{
+ "schema_version": "1.0",
+ "actor": "agent03_review_points",
+ "requested": 9,
+ "applied": 9,
+ "operations": [
+  {
+   "operation_index": 0,
+   "operation_id": "batch-001-add-co2-native-01",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "A distinct blue open ring is visible on the main-plot plateau at this column; the candidate list skips this native marker and the nearby line is not being used as the point evidence.",
+   "source_evidence": "Blue open-circle contour centered near native panel pixel (340.5, 116.5); distinct from adjacent candidate markers.",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.0,
+   "evidence_ref": "tile:region_04",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    340.5,
+    116.5
+   ]
+  },
+  {
+   "operation_index": 1,
+   "operation_id": "batch-001-add-co2-native-02",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "A distinct blue open ring is visible on the main-plot plateau at this column; the candidate list skips this native marker and the nearby line is not being used as the point evidence.",
+   "source_evidence": "Blue open-circle contour centered near native panel pixel (461.5, 113.5); distinct from adjacent candidate markers.",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.0,
+   "evidence_ref": "tile:region_04",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    461.5,
+    113.5
+   ]
+  },
+  {
+   "operation_index": 2,
+   "operation_id": "batch-001-add-co2-native-03",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "A distinct blue open ring is visible on the main-plot plateau at this column; the candidate list skips this native marker and the nearby line is not being used as the point evidence.",
+   "source_evidence": "Blue open-circle contour centered near native panel pixel (485.5, 113.5); distinct from adjacent candidate markers.",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.0,
+   "evidence_ref": "tile:region_04",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    485.5,
+    113.5
+   ]
+  },
+  {
+   "operation_index": 3,
+   "operation_id": "batch-001-add-co2-native-04",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "A distinct blue open ring is visible on the main-plot plateau at this column; the candidate list skips this native marker and the nearby line is not being used as the point evidence.",
+   "source_evidence": "Blue open-circle contour centered near native panel pixel (510.5, 113.5); distinct from adjacent candidate markers.",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.0,
+   "evidence_ref": "tile:region_04",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    510.5,
+    113.5
+   ]
+  },
+  {
+   "operation_index": 4,
+   "operation_id": "batch-001-add-co2-native-05",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "A distinct blue open ring is visible on the main-plot plateau at this column; the candidate list skips this native marker and the nearby line is not being used as the point evidence.",
+   "source_evidence": "Blue open-circle contour centered near native panel pixel (535.5, 113.5); distinct from adjacent candidate markers.",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.0,
+   "evidence_ref": "tile:region_04",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    535.5,
+    113.5
+   ]
+  },
+  {
+   "operation_index": 5,
+   "operation_id": "batch-001-add-co2-native-06",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "A distinct blue open ring is visible on the main-plot plateau at this column; the candidate list skips this native marker and the nearby line is not being used as the point evidence.",
+   "source_evidence": "Blue open-circle contour centered near native panel pixel (557.5, 111.5); distinct from adjacent candidate markers.",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.0,
+   "evidence_ref": "tile:region_04",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    557.5,
+    111.5
+   ]
+  },
+  {
+   "operation_index": 6,
+   "operation_id": "batch-001-add-co2-native-07",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "A distinct blue open ring is visible on the main-plot plateau at this column; the candidate list skips this native marker and the nearby line is not being used as the point evidence.",
+   "source_evidence": "Blue open-circle contour centered near native panel pixel (615.5, 110.5); distinct from adjacent candidate markers.",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.0,
+   "evidence_ref": "tile:region_04",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    615.5,
+    110.5
+   ]
+  },
+  {
+   "operation_index": 7,
+   "operation_id": "batch-001-add-co2-native-08",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "A supported blue marker fragment/white interior is visible in the crowded low-pressure strip at this native position, separate from the adjacent rings; centre is reported with uncertainty because overlapping strokes fuse the contour.",
+   "source_evidence": "Blue open-circle contour centered near native panel pixel (158.5, 291.5); distinct from adjacent candidate markers.",
+   "evidence_kind": "partial_marker",
+   "uncertainty_px": 3.0,
+   "evidence_ref": "crowded_strip:01",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    158.5,
+    291.5
+   ]
+  },
+  {
+   "operation_index": 8,
+   "operation_id": "batch-001-add-co2-native-09",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "A supported blue marker fragment/white interior is visible in the crowded low-pressure strip at this native position, separate from the adjacent rings; centre is reported with uncertainty because overlapping strokes fuse the contour.",
+   "source_evidence": "Blue open-circle contour centered near native panel pixel (160.5, 282.5); distinct from adjacent candidate markers.",
+   "evidence_kind": "partial_marker",
+   "uncertainty_px": 3.0,
+   "evidence_ref": "crowded_strip:01",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    160.5,
+    282.5
+   ]
+  }
+ ]
+}

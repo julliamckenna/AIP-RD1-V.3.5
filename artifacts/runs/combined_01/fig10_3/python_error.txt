@@ -1,0 +1,1 @@
+x-axis tick anchors disagree with detected ticks (1265.17px > 3.00px); calibration ambiguous

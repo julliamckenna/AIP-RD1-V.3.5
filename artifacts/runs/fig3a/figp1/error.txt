@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\src\workflow\rerun.py", line 272, in _run_selected
+    await _run_stage(steps["04"], panel_run, panel)
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\src\workflow\rerun.py", line 226, in _run_stage
+    return await step.run_panel(panel_run, panel)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\src\workflow\steps\agent04_final_check.py", line 147, in run_panel
+    final, authored_rows, audit = qa_csv.load_final_csv(
+                                  ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\src\tools\qa_csv.py", line 417, in load_final_csv
+    series, point, moved, reassigned = _check_row(
+                                       ^^^^^^^^^^^
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\src\tools\qa_csv.py", line 261, in _check_row
+    _fail(f"{label} {column} conflicts with the candidate series identity or style")
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\src\tools\qa_csv.py", line 40, in _fail
+    raise FinalCSVError(message)
+src.tools.qa_csv.FinalCSVError: CSV row 2 color_hex conflicts with the candidate series identity or style

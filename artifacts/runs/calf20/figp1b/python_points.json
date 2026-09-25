@@ -1,0 +1,3112 @@
+{
+ "calibration": {
+  "px_per_unit_x": 0.434250863557858,
+  "px_per_unit_y": 150.714691943128,
+  "unit_per_px_x": 2.3028163762459934,
+  "unit_per_px_y": 0.0066350532062086475,
+  "axis_models": {
+   "x": {
+    "scale": "linear",
+    "slope": 2.3028163762459934,
+    "intercept": -405.7550523254382
+   },
+   "y": {
+    "scale": "linear",
+    "slope": -0.0066350532062086475,
+    "intercept": 3.7492830369047323
+   }
+  },
+  "tick_fit_resid_x": 0.9207288274623124,
+  "tick_fit_resid_y": 0.0023710095343520976,
+  "tick_fit_resid_x_px": 0.39982728842812326,
+  "tick_fit_resid_y_px": 0.35734597156409575,
+  "frame_px": [
+   176,
+   96,
+   697,
+   565
+  ],
+  "x_ticks_px": [
+   176,
+   350,
+   524,
+   697
+  ],
+  "y_ticks_px": [
+   113,
+   188,
+   264,
+   339,
+   414,
+   490,
+   565
+  ],
+  "tick_anchors": {
+   "x": [
+    {
+     "pixel_norm": 0.23219,
+     "value": 0.0
+    },
+    {
+     "pixel_norm": 0.46174,
+     "value": 400.0
+    },
+    {
+     "pixel_norm": 0.69129,
+     "value": 800.0
+    },
+    {
+     "pixel_norm": 0.92084,
+     "value": 1200.0
+    }
+   ],
+   "y": [
+    {
+     "pixel_norm": 0.94352,
+     "value": 0.0
+    },
+    {
+     "pixel_norm": 0.81728,
+     "value": 0.5
+    },
+    {
+     "pixel_norm": 0.69103,
+     "value": 1.0
+    },
+    {
+     "pixel_norm": 0.56478,
+     "value": 1.5
+    },
+    {
+     "pixel_norm": 0.43854,
+     "value": 2.0
+    },
+    {
+     "pixel_norm": 0.3123,
+     "value": 2.5
+    },
+    {
+     "pixel_norm": 0.18605,
+     "value": 3.0
+    }
+   ]
+  },
+  "color_tolerance_lab": 33.70121383666992,
+  "color_tolerance_per_series": [
+   34.0,
+   34.0,
+   34.0,
+   34.0,
+   34.0,
+   34.0
+  ],
+  "base_color_passes": 3,
+  "complex_region_passes": 5,
+  "complex_region_count": 2,
+  "complex_regions_accepted": [
+   {
+    "bbox_px": [
+     176.0,
+     112.0,
+     697.0,
+     565.0
+    ],
+    "data_x": [
+     -0.45932404981584796,
+     1199.3079619180194
+    ],
+    "bbox_norm": [
+     0.23219,
+     0.18605,
+     0.92084,
+     0.94352
+    ],
+    "kind": "thick_connecting_lines",
+    "python_passes": 4
+   },
+   {
+    "bbox_px": [
+     176.0,
+     458.0,
+     311.01,
+     565.0
+    ],
+    "data_x": [
+     -0.45932404981584796,
+     310.43788152825005
+    ],
+    "bbox_norm": [
+     0.23219,
+     0.7608,
+     0.4103,
+     0.94352
+    ],
+    "kind": "dense_markers",
+    "python_passes": 5
+   }
+  ],
+  "complex_regions_rejected": [],
+  "legend_reader": "rows_by_declared_color",
+  "sample_colors": [
+   {
+    "label": "CO2 303K",
+    "sample_px": [
+     670.1,
+     130.0
+    ],
+    "legend_lab": [
+     132.5,
+     202.0,
+     180.5
+    ],
+    "sample_lab": [
+     129.0,
+     200.0,
+     179.0
+    ],
+    "distance": 4.3,
+    "result": "sample color used"
+   },
+   {
+    "label": "CO2 313K",
+    "sample_px": [
+     551.1,
+     181.2
+    ],
+    "legend_lab": [
+     191.5,
+     145.0,
+     202.0
+    ],
+    "sample_lab": [
+     192.0,
+     144.0,
+     200.0
+    ],
+    "distance": 2.3,
+    "result": "sample color used"
+   },
+   {
+    "label": "CO2 323K",
+    "sample_px": [
+     579.9,
+     216.1
+    ],
+    "legend_lab": [
+     131.5,
+     82.5,
+     159.0
+    ],
+    "sample_lab": [
+     130.0,
+     83.0,
+     157.0
+    ],
+    "distance": 2.5,
+    "result": "sample color used"
+   },
+   {
+    "label": "CO2 333K",
+    "sample_px": [
+     579.9,
+     240.2
+    ],
+    "legend_lab": [
+     72.0,
+     157.5,
+     78.0
+    ],
+    "sample_lab": [
+     77.0,
+     158.0,
+     70.0
+    ],
+    "distance": 9.4,
+    "result": "sample color used"
+   },
+   {
+    "label": "CO2 353K",
+    "sample_px": [
+     610.2,
+     275.7
+    ],
+    "legend_lab": [
+     131.0,
+     194.5,
+     106.0
+    ],
+    "sample_lab": [
+     102.5,
+     189.0,
+     103.0
+    ],
+    "distance": 29.2,
+    "result": "sample color used"
+   },
+   {
+    "label": "CO2 373K",
+    "sample_px": [
+     610.2,
+     334.7
+    ],
+    "legend_lab": [
+     5.0,
+     128.0,
+     128.0
+    ],
+    "sample_lab": [
+     3.0,
+     128.0,
+     128.0
+    ],
+    "distance": 2.0,
+    "result": "sample color used"
+   }
+  ],
+  "legend_markers": [
+   {
+    "label": "CO2 303K",
+    "legend_box_px": [
+     452,
+     467,
+     476,
+     492
+    ],
+    "shape": "circle",
+    "fill": "filled",
+    "color_hex": "#f21f26",
+    "fill_hex": "#ea2326",
+    "edge_hex": "#d42129",
+    "polygon": [
+     [
+      1.0,
+      0.0
+     ],
+     [
+      0.924,
+      0.383
+     ],
+     [
+      0.707,
+      0.707
+     ],
+     [
+      0.383,
+      0.924
+     ],
+     [
+      0.0,
+      1.0
+     ],
+     [
+      -0.383,
+      0.924
+     ],
+     [
+      -0.707,
+      0.707
+     ],
+     [
+      -0.924,
+      0.383
+     ],
+     [
+      -1.0,
+      0.0
+     ],
+     [
+      -0.924,
+      -0.383
+     ],
+     [
+      -0.707,
+      -0.707
+     ],
+     [
+      -0.383,
+      -0.924
+     ],
+     [
+      -0.0,
+      -1.0
+     ],
+     [
+      0.383,
+      -0.924
+     ],
+     [
+      0.707,
+      -0.707
+     ],
+     [
+      0.924,
+      -0.383
+     ]
+    ],
+    "size_px": 5.15,
+    "vertices": 5,
+    "source": "raster",
+    "confidence": 0.49
+   },
+   {
+    "label": "CO2 313K",
+    "legend_box_px": [
+     575,
+     467,
+     599,
+     492
+    ],
+    "shape": "square",
+    "fill": "filled",
+    "color_hex": "#f5ab1e",
+    "fill_hex": "#f2a924",
+    "edge_hex": "#e99e2a",
+    "polygon": [
+     [
+      -0.721,
+      -0.911
+     ],
+     [
+      -0.89,
+      -0.743
+     ],
+     [
+      -0.89,
+      0.743
+     ],
+     [
+      -0.721,
+      0.911
+     ],
+     [
+      0.765,
+      0.911
+     ],
+     [
+      0.933,
+      0.575
+     ],
+     [
+      0.765,
+      -0.911
+     ]
+    ],
+    "size_px": 5.94,
+    "vertices": 4,
+    "source": "raster",
+    "confidence": 0.6
+   },
+   {
+    "label": "CO2 323K",
+    "legend_box_px": [
+     451,
+     492,
+     477,
+     516
+    ],
+    "shape": "pentagon",
+    "fill": "filled",
+    "color_hex": "#248d43",
+    "fill_hex": "#278942",
+    "edge_hex": "#668e70",
+    "polygon": [
+     [
+      -0.428,
+      -1.506
+     ],
+     [
+      -1.501,
+      0.334
+     ],
+     [
+      -0.606,
+      -0.458
+     ],
+     [
+      -0.581,
+      0.564
+     ],
+     [
+      -1.501,
+      0.769
+     ],
+     [
+      1.387,
+      0.922
+     ],
+     [
+      1.54,
+      0.487
+     ],
+     [
+      0.62,
+      0.564
+     ],
+     [
+      0.467,
+      -0.381
+     ],
+     [
+      1.233,
+      -0.075
+     ],
+     [
+      0.467,
+      -1.301
+     ],
+     [
+      -0.376,
+      -0.739
+     ]
+    ],
+    "size_px": 6.52,
+    "vertices": 4,
+    "source": "raster",
+    "confidence": 0.33
+   },
+   {
+    "label": "CO2 333K",
+    "legend_box_px": [
+     560,
+     433,
+     594,
+     465
+    ],
+    "shape": "circle",
+    "fill": "open",
+    "color_hex": "#3a3691",
+    "fill_hex": null,
+    "edge_hex": "#8287ba",
+    "polygon": [
+     [
+      1.0,
+      0.0
+     ],
+     [
+      0.924,
+      0.383
+     ],
+     [
+      0.707,
+      0.707
+     ],
+     [
+      0.383,
+      0.924
+     ],
+     [
+      0.0,
+      1.0
+     ],
+     [
+      -0.383,
+      0.924
+     ],
+     [
+      -0.707,
+      0.707
+     ],
+     [
+      -0.924,
+      0.383
+     ],
+     [
+      -1.0,
+      0.0
+     ],
+     [
+      -0.924,
+      -0.383
+     ],
+     [
+      -0.707,
+      -0.707
+     ],
+     [
+      -0.383,
+      -0.924
+     ],
+     [
+      -0.0,
+      -1.0
+     ],
+     [
+      0.383,
+      -0.924
+     ],
+     [
+      0.707,
+      -0.707
+     ],
+     [
+      0.924,
+      -0.383
+     ]
+    ],
+    "size_px": 9.56,
+    "vertices": 7,
+    "source": "raster",
+    "confidence": 0.5
+   },
+   {
+    "label": "CO2 353K",
+    "legend_box_px": [
+     454,
+     519,
+     474,
+     548
+    ],
+    "shape": "hexagon",
+    "fill": "filled",
+    "color_hex": "#d13ea1",
+    "fill_hex": "#cc3c9d",
+    "edge_hex": "#b2348c",
+    "polygon": [
+     [
+      -0.218,
+      -1.418
+     ],
+     [
+      -0.735,
+      -0.642
+     ],
+     [
+      -0.735,
+      0.867
+     ],
+     [
+      -0.002,
+      1.384
+     ],
+     [
+      0.774,
+      0.608
+     ],
+     [
+      0.774,
+      -0.642
+     ],
+     [
+      0.429,
+      -1.159
+     ]
+    ],
+    "size_px": 3.87,
+    "vertices": 6,
+    "source": "raster",
+    "confidence": 0.36
+   },
+   {
+    "label": "CO2 373K",
+    "legend_box_px": [
+     576,
+     522,
+     599,
+     545
+    ],
+    "shape": "diamond",
+    "fill": "filled",
+    "color_hex": "#060707",
+    "fill_hex": "#0a0a0a",
+    "edge_hex": "#727272",
+    "polygon": [
+     [
+      -0.176,
+      -1.203
+     ],
+     [
+      -1.291,
+      0.045
+     ],
+     [
+      -0.574,
+      0.523
+     ],
+     [
+      -0.176,
+      1.161
+     ],
+     [
+      0.276,
+      1.161
+     ],
+     [
+      0.276,
+      0.922
+     ],
+     [
+      1.232,
+      0.205
+     ],
+     [
+      1.232,
+      -0.088
+     ],
+     [
+      0.515,
+      -0.566
+     ],
+     [
+      0.116,
+      -1.203
+     ]
+    ],
+    "size_px": 6.27,
+    "vertices": 4,
+    "source": "raster",
+    "confidence": 0.91
+   }
+  ],
+  "twins_split_by_lines": 0,
+  "line_split_enabled": false,
+  "series_gate": [
+   {
+    "from": "CO2 313K",
+    "x": 73.2308,
+    "y": 1.3806,
+    "reason": "outside own y_bands",
+    "to": null
+   },
+   {
+    "from": "CO2 313K",
+    "to": "CO2 313K",
+    "x": 197.5828,
+    "y": 1.918,
+    "reason": "within_pixel_derived_y_band_margin",
+    "y_margin": 0.0498
+   },
+   {
+    "from": "CO2 323K",
+    "x": 241.127,
+    "y": 1.7816,
+    "reason": "outside own y_bands",
+    "to": null
+   },
+   {
+    "from": "CO2 373K",
+    "to": "CO2 373K",
+    "x": 96.6566,
+    "y": 0.2393,
+    "reason": "within_pixel_derived_y_band_margin",
+    "y_margin": 0.0464
+   },
+   {
+    "from": "CO2 373K",
+    "to": "CO2 373K",
+    "x": 250.7401,
+    "y": 0.5978,
+    "reason": "within_pixel_derived_y_band_margin",
+    "y_margin": 0.0464
+   }
+  ],
+  "color_ambiguity_groups": [],
+  "series_assignment_audit": {
+   "groups": [],
+   "candidates": []
+  },
+  "series_assignment_margin": 0.12,
+  "reclaimed_points": 1,
+  "dense_circle_detector": {
+   "regions": [],
+   "native_supported_additions": 0,
+   "unresolved_fused_regions": 0
+  },
+  "dense_region_resolver": {
+   "roi_px": [
+    [
+     176.0,
+     112.0,
+     697.0,
+     565.0
+    ],
+    [
+     176.0,
+     458.0,
+     311.01,
+     565.0
+    ]
+   ],
+   "columns": 23,
+   "native_supported_additions": 6
+  },
+  "global_spatial_ownership": {
+   "enabled": true,
+   "branches": "adsorption_only",
+   "multi_series": true,
+   "all_filled": true,
+   "ambiguity_group_count": 0,
+   "crowded_region_count": 2,
+   "reason": "adsorption_only_multi_series_filled_crowded",
+   "distance_fraction": 0.8,
+   "confidence_margin": 0.08,
+   "candidate_count": 117,
+   "overlap_components": 0,
+   "deduplicated": 0,
+   "unresolved": 0,
+   "components": [],
+   "global_twin_pool": true,
+   "joint_assignment_candidate_source": "globally_settled_candidates",
+   "rescore_single_source": false,
+   "expected_count_pruning": {
+    "enabled": true,
+    "tolerance_fraction": 0.15,
+    "minimum_tolerance": 2,
+    "series": [
+     {
+      "series_index": 0,
+      "series_label": "CO2 303K",
+      "before": 15,
+      "after": 15,
+      "expected_ranges": [
+       {
+        "x_from": 0.0,
+        "x_to": 1200.0,
+        "expected": 23,
+        "cap": 27
+       }
+      ],
+      "removed": []
+     },
+     {
+      "series_index": 1,
+      "series_label": "CO2 313K",
+      "before": 20,
+      "after": 20,
+      "expected_ranges": [
+       {
+        "x_from": 0.0,
+        "x_to": 1200.0,
+        "expected": 23,
+        "cap": 27
+       }
+      ],
+      "removed": []
+     },
+     {
+      "series_index": 2,
+      "series_label": "CO2 323K",
+      "before": 19,
+      "after": 19,
+      "expected_ranges": [
+       {
+        "x_from": 0.0,
+        "x_to": 1200.0,
+        "expected": 23,
+        "cap": 27
+       }
+      ],
+      "removed": []
+     },
+     {
+      "series_index": 3,
+      "series_label": "CO2 333K",
+      "before": 19,
+      "after": 19,
+      "expected_ranges": [
+       {
+        "x_from": 0.0,
+        "x_to": 1200.0,
+        "expected": 23,
+        "cap": 27
+       }
+      ],
+      "removed": []
+     },
+     {
+      "series_index": 4,
+      "series_label": "CO2 353K",
+      "before": 18,
+      "after": 18,
+      "expected_ranges": [
+       {
+        "x_from": 0.0,
+        "x_to": 1200.0,
+        "expected": 23,
+        "cap": 27
+       }
+      ],
+      "removed": []
+     },
+     {
+      "series_index": 5,
+      "series_label": "CO2 373K",
+      "before": 26,
+      "after": 26,
+      "expected_ranges": [
+       {
+        "x_from": 0.0,
+        "x_to": 1200.0,
+        "expected": 23,
+        "cap": 27
+       }
+      ],
+      "removed": []
+     }
+    ],
+    "removed": 0
+   }
+  },
+  "template_fill": {
+   "template_fit": 0,
+   "template_fill": 0,
+   "slots": []
+  },
+  "region_strategies": [],
+  "x_grid_columns": 0,
+  "x_grid_supported_columns": 0,
+  "exact_duplicates_dropped": {
+   "CO2 303K": 0,
+   "CO2 313K": 0,
+   "CO2 323K": 0,
+   "CO2 333K": 0,
+   "CO2 353K": 0,
+   "CO2 373K": 0
+  }
+ },
+ "series": [
+  {
+   "label": "CO2 303K",
+   "n_points": 15,
+   "marker_radius_px": 5.1,
+   "extract": true,
+   "gas": "CO2",
+   "color_lab": [
+    129.0,
+    200.0,
+    179.0
+   ],
+   "marker_glyph": {
+    "shape": "circle",
+    "fill": "filled",
+    "color_hex": "#f21f26",
+    "fill_hex": "#ea2326",
+    "edge_hex": "#d42129",
+    "polygon": [
+     [
+      1.0,
+      0.0
+     ],
+     [
+      0.924,
+      0.383
+     ],
+     [
+      0.707,
+      0.707
+     ],
+     [
+      0.383,
+      0.924
+     ],
+     [
+      0.0,
+      1.0
+     ],
+     [
+      -0.383,
+      0.924
+     ],
+     [
+      -0.707,
+      0.707
+     ],
+     [
+      -0.924,
+      0.383
+     ],
+     [
+      -1.0,
+      0.0
+     ],
+     [
+      -0.924,
+      -0.383
+     ],
+     [
+      -0.707,
+      -0.707
+     ],
+     [
+      -0.383,
+      -0.924
+     ],
+     [
+      -0.0,
+      -1.0
+     ],
+     [
+      0.383,
+      -0.924
+     ],
+     [
+      0.707,
+      -0.707
+     ],
+     [
+      0.924,
+      -0.383
+     ]
+    ],
+    "size_px": 5.15,
+    "vertices": 5,
+    "source": "raster",
+    "confidence": 0.49
+   },
+   "color_twins": [],
+   "x_min": 43.1811,
+   "x_max": 1138.0848,
+   "y_min": 1.2688,
+   "y_max": 2.9257,
+   "points": [
+    {
+     "x": 43.1811,
+     "y": 1.2688,
+     "px": [
+      194.95,
+      373.85
+     ],
+     "confidence": 0.54,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-55d92ac7e23ba306",
+     "source_instance_id": "src-be3e80877fa15622"
+    },
+    {
+     "x": 267.6066,
+     "y": 2.2226,
+     "px": [
+      292.41,
+      230.09
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-e8b19f65894df2cf",
+     "source_instance_id": "src-766cac82e132774b"
+    },
+    {
+     "x": 331.6957,
+     "y": 2.3035,
+     "px": [
+      320.24,
+      217.9
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-0388c9352d59a87d",
+     "source_instance_id": "src-c00c4807b61191a3"
+    },
+    {
+     "x": 399.8818,
+     "y": 2.382,
+     "px": [
+      349.85,
+      206.08
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-81c50fd0c8a42c98",
+     "source_instance_id": "src-c791ee70d9ffbf4e"
+    },
+    {
+     "x": 466.6094,
+     "y": 2.4462,
+     "px": [
+      378.82,
+      196.4
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-adbc7736931c6649",
+     "source_instance_id": "src-420d03b9c34ebd3f"
+    },
+    {
+     "x": 533.6501,
+     "y": 2.5087,
+     "px": [
+      407.94,
+      186.97
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-3f6a503e6458b820",
+     "source_instance_id": "src-642ee54941eb29e7"
+    },
+    {
+     "x": 600.4734,
+     "y": 2.5643,
+     "px": [
+      436.96,
+      178.59
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-2bdf42b551a5b6ec",
+     "source_instance_id": "src-f7d7462f7c10ab58"
+    },
+    {
+     "x": 666.6488,
+     "y": 2.618,
+     "px": [
+      465.69,
+      170.5
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-c1a4013b0a9fff39",
+     "source_instance_id": "src-5dcc1c2e768365d8"
+    },
+    {
+     "x": 733.5633,
+     "y": 2.6707,
+     "px": [
+      494.75,
+      162.55
+     ],
+     "confidence": 0.98,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-e0258771cde4a569",
+     "source_instance_id": "src-2e9c84c375c34b12"
+    },
+    {
+     "x": 799.7693,
+     "y": 2.7171,
+     "px": [
+      523.5,
+      155.56
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-1f7c86322399a4c1",
+     "source_instance_id": "src-f47110472cf0ba69"
+    },
+    {
+     "x": 865.929,
+     "y": 2.7608,
+     "px": [
+      552.23,
+      148.98
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-ddb8455faf3d6b8b",
+     "source_instance_id": "src-7131a396a6a3e879"
+    },
+    {
+     "x": 934.3402,
+     "y": 2.8073,
+     "px": [
+      581.94,
+      141.97
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-91a138bfe8fbe8fa",
+     "source_instance_id": "src-f20df5b54f6b9ded"
+    },
+    {
+     "x": 1013.0723,
+     "y": 2.8605,
+     "px": [
+      616.13,
+      133.95
+     ],
+     "confidence": 0.99,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-88c408e76c678495",
+     "source_instance_id": "src-15c273b72a4d71cb"
+    },
+    {
+     "x": 1069.0797,
+     "y": 2.8883,
+     "px": [
+      640.45,
+      129.76
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-de6e03bb583d33c4",
+     "source_instance_id": "src-49d9c2c87e2c295d"
+    },
+    {
+     "x": 1138.0848,
+     "y": 2.9257,
+     "px": [
+      670.41,
+      124.12
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-51c6b5c588bf2d44",
+     "source_instance_id": "src-97c326e3009ea0e8"
+    }
+   ],
+   "series_id": "figp1b:b:co2-303k-bc2a4dd1"
+  },
+  {
+   "label": "CO2 313K",
+   "n_points": 20,
+   "marker_radius_px": 6.0,
+   "extract": true,
+   "gas": "CO2",
+   "color_lab": [
+    192.0,
+    144.0,
+    200.0
+   ],
+   "marker_glyph": {
+    "shape": "square",
+    "fill": "filled",
+    "color_hex": "#f5ab1e",
+    "fill_hex": "#f2a924",
+    "edge_hex": "#e99e2a",
+    "polygon": [
+     [
+      -0.721,
+      -0.911
+     ],
+     [
+      -0.89,
+      -0.743
+     ],
+     [
+      -0.89,
+      0.743
+     ],
+     [
+      -0.721,
+      0.911
+     ],
+     [
+      0.765,
+      0.911
+     ],
+     [
+      0.933,
+      0.575
+     ],
+     [
+      0.765,
+      -0.911
+     ]
+    ],
+    "size_px": 5.94,
+    "vertices": 4,
+    "source": "raster",
+    "confidence": 0.6
+   },
+   "color_twins": [],
+   "x_min": 27.1744,
+   "x_max": 1138.6068,
+   "y_min": 0.7967,
+   "y_max": 2.6494,
+   "points": [
+    {
+     "x": 27.1744,
+     "y": 0.7967,
+     "px": [
+      188.0,
+      445.0
+     ],
+     "confidence": 0.7,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-bc522dd87c283b33",
+     "source_instance_id": "src-20896e9a6bfeadeb"
+    },
+    {
+     "x": 70.3246,
+     "y": 0.9399,
+     "px": [
+      206.74,
+      423.41
+     ],
+     "confidence": 0.5,
+     "overlap_flag": true,
+     "assigned_by": "color",
+     "point_id": "pt-8dd4d43bc126f90c",
+     "source_instance_id": "src-a59675d1fb440d95"
+    },
+    {
+     "x": 74.5796,
+     "y": 0.9816,
+     "px": [
+      208.59,
+      417.12
+     ],
+     "confidence": 0.5,
+     "overlap_flag": true,
+     "assigned_by": "color",
+     "point_id": "pt-b3cbaeb6c7bd1d13",
+     "source_instance_id": "src-f6a524756d6e1cc4"
+    },
+    {
+     "x": 87.2248,
+     "y": 1.0851,
+     "px": [
+      214.08,
+      401.54
+     ],
+     "confidence": 0.5,
+     "overlap_flag": true,
+     "assigned_by": "color",
+     "point_id": "pt-e351fc70686c5ece",
+     "source_instance_id": "src-4c77ea0ba2a403df"
+    },
+    {
+     "x": 135.4068,
+     "y": 1.7389,
+     "px": [
+      235.0,
+      303.0
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-f1bf70cb874ba3cc",
+     "source_instance_id": "src-5d5c85e13875288c"
+    },
+    {
+     "x": 197.5828,
+     "y": 1.918,
+     "px": [
+      262.0,
+      276.0
+     ],
+     "confidence": 0.7,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-4003b1acef73dca6",
+     "source_instance_id": "src-92664446ec7b1494"
+    },
+    {
+     "x": 270.707,
+     "y": 2.0486,
+     "px": [
+      293.75,
+      256.32
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-20b338e45c94c4b5",
+     "source_instance_id": "src-28b8ac4173a37ffa"
+    },
+    {
+     "x": 328.8434,
+     "y": 2.1237,
+     "px": [
+      319.0,
+      245.0
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-5688b1a78c6c207d",
+     "source_instance_id": "src-e637b4212b59f890"
+    },
+    {
+     "x": 400.2307,
+     "y": 2.1967,
+     "px": [
+      350.0,
+      234.0
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-8d75544b4dbac6de",
+     "source_instance_id": "src-f527d313b497e46a"
+    },
+    {
+     "x": 465.2527,
+     "y": 2.2518,
+     "px": [
+      378.24,
+      225.7
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-f91935fb4dfa0ee8",
+     "source_instance_id": "src-5bb0526e76bf6cde"
+    },
+    {
+     "x": 531.4912,
+     "y": 2.3095,
+     "px": [
+      407.0,
+      217.0
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-ac865fd0db6133d2",
+     "source_instance_id": "src-3a701c886c0ef14b"
+    },
+    {
+     "x": 599.4243,
+     "y": 2.3559,
+     "px": [
+      436.5,
+      210.0
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-0f1c6aca83b95e9e",
+     "source_instance_id": "src-bb1856fd7a864214"
+    },
+    {
+     "x": 667.3574,
+     "y": 2.3957,
+     "px": [
+      466.0,
+      204.0
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-b78a8ab5829361cd",
+     "source_instance_id": "src-2a3c3108383608d7"
+    },
+    {
+     "x": 734.1391,
+     "y": 2.4355,
+     "px": [
+      495.0,
+      198.0
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-f94ed228724dcfc0",
+     "source_instance_id": "src-1848217911acef6a"
+    },
+    {
+     "x": 800.9207,
+     "y": 2.4754,
+     "px": [
+      524.0,
+      192.0
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-c316cc75a21af3c0",
+     "source_instance_id": "src-e3153f9c034d730a"
+    },
+    {
+     "x": 866.551,
+     "y": 2.5152,
+     "px": [
+      552.5,
+      186.0
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-b10d39053338fe98",
+     "source_instance_id": "src-e23a7f0099756447"
+    },
+    {
+     "x": 933.6467,
+     "y": 2.5503,
+     "px": [
+      581.64,
+      180.7
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-ebc0b3731dc492fd",
+     "source_instance_id": "src-69fc9dcdb5c60a8a"
+    },
+    {
+     "x": 1012.7798,
+     "y": 2.5948,
+     "px": [
+      616.0,
+      174.0
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-bb89e733a62bc4bc",
+     "source_instance_id": "src-d84e15d741d74d0b"
+    },
+    {
+     "x": 1068.0474,
+     "y": 2.618,
+     "px": [
+      640.0,
+      170.5
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-ee49e7917598203c",
+     "source_instance_id": "src-40be122d2147c6c1"
+    },
+    {
+     "x": 1138.6068,
+     "y": 2.6494,
+     "px": [
+      670.64,
+      165.76
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-3544e6ba952be927",
+     "source_instance_id": "src-935baed8071d6b15"
+    }
+   ],
+   "series_id": "figp1b:b:co2-313k-21d87380"
+  },
+  {
+   "label": "CO2 323K",
+   "n_points": 19,
+   "marker_radius_px": 5.0,
+   "extract": true,
+   "gas": "CO2",
+   "color_lab": [
+    130.0,
+    83.0,
+    157.0
+   ],
+   "marker_glyph": {
+    "shape": "pentagon",
+    "fill": "filled",
+    "color_hex": "#248d43",
+    "fill_hex": "#278942",
+    "edge_hex": "#668e70",
+    "polygon": [
+     [
+      -0.428,
+      -1.506
+     ],
+     [
+      -1.501,
+      0.334
+     ],
+     [
+      -0.606,
+      -0.458
+     ],
+     [
+      -0.581,
+      0.564
+     ],
+     [
+      -1.501,
+      0.769
+     ],
+     [
+      1.387,
+      0.922
+     ],
+     [
+      1.54,
+      0.487
+     ],
+     [
+      0.62,
+      0.564
+     ],
+     [
+      0.467,
+      -0.381
+     ],
+     [
+      1.233,
+      -0.075
+     ],
+     [
+      0.467,
+      -1.301
+     ],
+     [
+      -0.376,
+      -0.739
+     ]
+    ],
+    "size_px": 6.52,
+    "vertices": 4,
+    "source": "raster",
+    "confidence": 0.33
+   },
+   "color_twins": [],
+   "x_min": 33.4249,
+   "x_max": 1140.2528,
+   "y_min": 0.4878,
+   "y_max": 2.3948,
+   "points": [
+    {
+     "x": 33.4249,
+     "y": 0.4878,
+     "px": [
+      190.71,
+      491.55
+     ],
+     "confidence": 0.92,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-682c651efafb8303",
+     "source_instance_id": "src-5893b99310e9e2c4"
+    },
+    {
+     "x": 37.1055,
+     "y": 0.5443,
+     "px": [
+      192.31,
+      483.04
+     ],
+     "confidence": 0.5,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-459c58129f9e8aa7",
+     "source_instance_id": "src-dccf2015b31a9284"
+    },
+    {
+     "x": 39.4135,
+     "y": 0.5878,
+     "px": [
+      193.31,
+      476.48
+     ],
+     "confidence": 0.97,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-97d3c2bd8a6dd9e0",
+     "source_instance_id": "src-b1f57cb1226149ce"
+    },
+    {
+     "x": 53.6568,
+     "y": 0.7502,
+     "px": [
+      199.5,
+      452.0
+     ],
+     "confidence": 0.97,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-218d360f3351a998",
+     "source_instance_id": "src-97bb9c29c609464f"
+    },
+    {
+     "x": 60.0338,
+     "y": 0.8342,
+     "px": [
+      202.27,
+      439.35
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-07c0596a2f8998e4",
+     "source_instance_id": "src-8d443869ecc86240"
+    },
+    {
+     "x": 268.3457,
+     "y": 1.8061,
+     "px": [
+      292.73,
+      292.86
+     ],
+     "confidence": 0.97,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-445fc077b06d9031",
+     "source_instance_id": "src-d88c6a9053968955"
+    },
+    {
+     "x": 331.2991,
+     "y": 1.9039,
+     "px": [
+      320.07,
+      278.12
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-19374ba5000fcdf6",
+     "source_instance_id": "src-0d1df4770837562f"
+    },
+    {
+     "x": 400.0882,
+     "y": 1.9774,
+     "px": [
+      349.94,
+      267.05
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-e3b879c5930178e3",
+     "source_instance_id": "src-6a4db579edadc60e"
+    },
+    {
+     "x": 467.4663,
+     "y": 2.0417,
+     "px": [
+      379.2,
+      257.36
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-e5f7ebfee985975e",
+     "source_instance_id": "src-3fc2d2befe3d84b9"
+    },
+    {
+     "x": 535.2931,
+     "y": 2.0894,
+     "px": [
+      408.65,
+      250.17
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-b08858e565a761a2",
+     "source_instance_id": "src-e3160950adec6f00"
+    },
+    {
+     "x": 599.7313,
+     "y": 2.1337,
+     "px": [
+      436.63,
+      243.49
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-00b41acc764303c7",
+     "source_instance_id": "src-be848b6df8abaf98"
+    },
+    {
+     "x": 667.2387,
+     "y": 2.1762,
+     "px": [
+      465.95,
+      237.08
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-671476b9cdcba88e",
+     "source_instance_id": "src-24d667a0d754d51a"
+    },
+    {
+     "x": 734.1391,
+     "y": 2.2139,
+     "px": [
+      495.0,
+      231.41
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-8c66cc4c68d567de",
+     "source_instance_id": "src-2178887ed41449bf"
+    },
+    {
+     "x": 800.2384,
+     "y": 2.2471,
+     "px": [
+      523.7,
+      226.41
+     ],
+     "confidence": 0.97,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-08d76841fde85fba",
+     "source_instance_id": "src-820a46407d69b456"
+    },
+    {
+     "x": 866.1446,
+     "y": 2.2784,
+     "px": [
+      552.32,
+      221.68
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-e3a780c12c1997b8",
+     "source_instance_id": "src-b8af3b91f377aa90"
+    },
+    {
+     "x": 934.9356,
+     "y": 2.3082,
+     "px": [
+      582.2,
+      217.2
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-f7fec7017f269b35",
+     "source_instance_id": "src-c7f712d169b592fa"
+    },
+    {
+     "x": 1012.9717,
+     "y": 2.3473,
+     "px": [
+      616.08,
+      211.31
+     ],
+     "confidence": 0.97,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-5ea79ae35f03fddd",
+     "source_instance_id": "src-b6ca537e5171f1d5"
+    },
+    {
+     "x": 1067.3105,
+     "y": 2.3729,
+     "px": [
+      639.68,
+      207.44
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-05734fccb2492d67",
+     "source_instance_id": "src-9c082527bbfcf74b"
+    },
+    {
+     "x": 1140.2528,
+     "y": 2.3948,
+     "px": [
+      671.36,
+      204.14
+     ],
+     "confidence": 0.98,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-c813d45177dc8bbb",
+     "source_instance_id": "src-6ffa99b99ef1125c"
+    }
+   ],
+   "series_id": "figp1b:b:co2-323k-c5e1f4c4"
+  },
+  {
+   "label": "CO2 333K",
+   "n_points": 19,
+   "marker_radius_px": 6.4,
+   "extract": true,
+   "gas": "CO2",
+   "color_lab": [
+    77.0,
+    158.0,
+    70.0
+   ],
+   "marker_glyph": {
+    "shape": "circle",
+    "fill": "open",
+    "color_hex": "#3a3691",
+    "fill_hex": null,
+    "edge_hex": "#8287ba",
+    "polygon": [
+     [
+      1.0,
+      0.0
+     ],
+     [
+      0.924,
+      0.383
+     ],
+     [
+      0.707,
+      0.707
+     ],
+     [
+      0.383,
+      0.924
+     ],
+     [
+      0.0,
+      1.0
+     ],
+     [
+      -0.383,
+      0.924
+     ],
+     [
+      -0.707,
+      0.707
+     ],
+     [
+      -0.924,
+      0.383
+     ],
+     [
+      -1.0,
+      0.0
+     ],
+     [
+      -0.924,
+      -0.383
+     ],
+     [
+      -0.707,
+      -0.707
+     ],
+     [
+      -0.383,
+      -0.924
+     ],
+     [
+      -0.0,
+      -1.0
+     ],
+     [
+      0.383,
+      -0.924
+     ],
+     [
+      0.707,
+      -0.707
+     ],
+     [
+      0.924,
+      -0.383
+     ]
+    ],
+    "size_px": 9.56,
+    "vertices": 7,
+    "source": "raster",
+    "confidence": 0.5
+   },
+   "color_twins": [],
+   "x_min": 13.6547,
+   "x_max": 1139.7319,
+   "y_min": 0.1455,
+   "y_max": 2.2355,
+   "points": [
+    {
+     "x": 13.6547,
+     "y": 0.1455,
+     "px": [
+      182.13,
+      543.15
+     ],
+     "confidence": 0.98,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-0f12910bfb6c48f9",
+     "source_instance_id": "src-c674b7f3ee7accb5"
+    },
+    {
+     "x": 30.9805,
+     "y": 0.3273,
+     "px": [
+      189.65,
+      515.74
+     ],
+     "confidence": 0.96,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-72e74629424aefc2",
+     "source_instance_id": "src-fbe94eed75b66485"
+    },
+    {
+     "x": 63.7224,
+     "y": 0.6517,
+     "px": [
+      203.87,
+      466.85
+     ],
+     "confidence": 0.98,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-c2ed99ad714f3f29",
+     "source_instance_id": "src-0442207d53d79852"
+    },
+    {
+     "x": 133.9853,
+     "y": 1.1459,
+     "px": [
+      234.38,
+      392.37
+     ],
+     "confidence": 0.7,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-b37390e8163a50ce",
+     "source_instance_id": "src-6ed0056b799519cf"
+    },
+    {
+     "x": 197.6381,
+     "y": 1.4059,
+     "px": [
+      262.02,
+      353.18
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-f439e413dabb0ab7",
+     "source_instance_id": "src-73b5c941a0637654"
+    },
+    {
+     "x": 266.4115,
+     "y": 1.5886,
+     "px": [
+      291.89,
+      325.65
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-17e5be4e04cb041d",
+     "source_instance_id": "src-187577258fd3e669"
+    },
+    {
+     "x": 331.3323,
+     "y": 1.7147,
+     "px": [
+      320.08,
+      306.64
+     ],
+     "confidence": 0.97,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-feb8721f045a5447",
+     "source_instance_id": "src-ef93f2551de03cd5"
+    },
+    {
+     "x": 398.3567,
+     "y": 1.7997,
+     "px": [
+      349.19,
+      293.83
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-bb4cf9edd951091c",
+     "source_instance_id": "src-16caecfa88e7ca62"
+    },
+    {
+     "x": 463.2205,
+     "y": 1.878,
+     "px": [
+      377.35,
+      282.02
+     ],
+     "confidence": 0.99,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-b33587df148c3ae9",
+     "source_instance_id": "src-962298196cbf2532"
+    },
+    {
+     "x": 535.484,
+     "y": 1.9356,
+     "px": [
+      408.73,
+      273.35
+     ],
+     "confidence": 0.97,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-30d0c76a3d722861",
+     "source_instance_id": "src-6716c9f1948a0141"
+    },
+    {
+     "x": 599.4243,
+     "y": 1.9877,
+     "px": [
+      436.5,
+      265.5
+     ],
+     "confidence": 0.99,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-d79ffd906ce8b72c",
+     "source_instance_id": "src-40c751d88d0d6895"
+    },
+    {
+     "x": 666.206,
+     "y": 2.0326,
+     "px": [
+      465.5,
+      258.74
+     ],
+     "confidence": 0.98,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-6e3c30e1d1ffbe47",
+     "source_instance_id": "src-63369be662f29f91"
+    },
+    {
+     "x": 735.1445,
+     "y": 2.0674,
+     "px": [
+      495.44,
+      253.48
+     ],
+     "confidence": 0.95,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-f20aa6e1d78d4ef6",
+     "source_instance_id": "src-a66b77e5aa68ca7e"
+    },
+    {
+     "x": 799.7355,
+     "y": 2.1031,
+     "px": [
+      523.49,
+      248.11
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-b4ab4b7366859cc3",
+     "source_instance_id": "src-6e748e3ef4b58c7e"
+    },
+    {
+     "x": 868.549,
+     "y": 2.1347,
+     "px": [
+      553.37,
+      243.34
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-af154b6b56e40cc2",
+     "source_instance_id": "src-437151fffff7c8fc"
+    },
+    {
+     "x": 933.9928,
+     "y": 2.1566,
+     "px": [
+      581.79,
+      240.05
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-907db526dde16ab7",
+     "source_instance_id": "src-8baa7dfa8245e578"
+    },
+    {
+     "x": 1011.5616,
+     "y": 2.2022,
+     "px": [
+      615.47,
+      233.16
+     ],
+     "confidence": 0.96,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-4bbdd1c21c07ad55",
+     "source_instance_id": "src-f566bedd4adf67fe"
+    },
+    {
+     "x": 1068.5554,
+     "y": 2.2166,
+     "px": [
+      640.22,
+      231.0
+     ],
+     "confidence": 0.98,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-a7228214f37751d1",
+     "source_instance_id": "src-a1de7875782ade70"
+    },
+    {
+     "x": 1139.7319,
+     "y": 2.2355,
+     "px": [
+      671.13,
+      228.15
+     ],
+     "confidence": 0.98,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-acea2e43c5da1dcb",
+     "source_instance_id": "src-010dd9c5b4cce3a1"
+    }
+   ],
+   "series_id": "figp1b:b:co2-333k-94a1f9ba"
+  },
+  {
+   "label": "CO2 353K",
+   "n_points": 18,
+   "marker_radius_px": 5.8,
+   "extract": true,
+   "gas": "CO2",
+   "color_lab": [
+    102.5,
+    189.0,
+    103.0
+   ],
+   "marker_glyph": {
+    "shape": "hexagon",
+    "fill": "filled",
+    "color_hex": "#d13ea1",
+    "fill_hex": "#cc3c9d",
+    "edge_hex": "#b2348c",
+    "polygon": [
+     [
+      -0.218,
+      -1.418
+     ],
+     [
+      -0.735,
+      -0.642
+     ],
+     [
+      -0.735,
+      0.867
+     ],
+     [
+      -0.002,
+      1.384
+     ],
+     [
+      0.774,
+      0.608
+     ],
+     [
+      0.774,
+      -0.642
+     ],
+     [
+      0.429,
+      -1.159
+     ]
+    ],
+    "size_px": 3.87,
+    "vertices": 6,
+    "source": "raster",
+    "confidence": 0.36
+   },
+   "color_twins": [],
+   "x_min": 34.0829,
+   "x_max": 1140.5561,
+   "y_min": 0.1763,
+   "y_max": 1.9286,
+   "points": [
+    {
+     "x": 34.0829,
+     "y": 0.1763,
+     "px": [
+      191.0,
+      538.5
+     ],
+     "confidence": 0.98,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-0c0e0115a7a06d73",
+     "source_instance_id": "src-345c6058f2fa940c"
+    },
+    {
+     "x": 66.4199,
+     "y": 0.3321,
+     "px": [
+      205.04,
+      515.03
+     ],
+     "confidence": 0.96,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-affa4a656afe9cea",
+     "source_instance_id": "src-96ed2488dfcb556b"
+    },
+    {
+     "x": 132.2525,
+     "y": 0.6359,
+     "px": [
+      233.63,
+      469.23
+     ],
+     "confidence": 0.96,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-08894e25c84579b3",
+     "source_instance_id": "src-5e7542c50111a6ed"
+    },
+    {
+     "x": 194.1466,
+     "y": 0.8781,
+     "px": [
+      260.51,
+      432.73
+     ],
+     "confidence": 0.96,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-e1fe2b88d7782b09",
+     "source_instance_id": "src-b497af9c7df93326"
+    },
+    {
+     "x": 264.0441,
+     "y": 1.0795,
+     "px": [
+      290.86,
+      402.37
+     ],
+     "confidence": 0.96,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-2546ab1cf959eda8",
+     "source_instance_id": "src-510a6dda88fb49f3"
+    },
+    {
+     "x": 330.3863,
+     "y": 1.2474,
+     "px": [
+      319.67,
+      377.06
+     ],
+     "confidence": 0.96,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-38fbbc2f68873b2f",
+     "source_instance_id": "src-77953a9c2ed555bd"
+    },
+    {
+     "x": 399.2677,
+     "y": 1.364,
+     "px": [
+      349.58,
+      359.5
+     ],
+     "confidence": 0.99,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-1efb63d611f897c2",
+     "source_instance_id": "src-d8dd03deb01dd43f"
+    },
+    {
+     "x": 467.393,
+     "y": 1.4571,
+     "px": [
+      379.17,
+      345.46
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-f41261de8de97b0a",
+     "source_instance_id": "src-c63bbd59baa77523"
+    },
+    {
+     "x": 528.9502,
+     "y": 1.5431,
+     "px": [
+      405.9,
+      332.51
+     ],
+     "confidence": 0.96,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-7394a3fd49adb344",
+     "source_instance_id": "src-ef19676717c84f4e"
+    },
+    {
+     "x": 600.9876,
+     "y": 1.6093,
+     "px": [
+      437.18,
+      322.53
+     ],
+     "confidence": 0.95,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-2d6f0fc32fd9f5a6",
+     "source_instance_id": "src-f92efe34e7a37ae3"
+    },
+    {
+     "x": 666.0796,
+     "y": 1.6644,
+     "px": [
+      465.45,
+      314.23
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-09a624b2de4fad3e",
+     "source_instance_id": "src-d5ef91966a1f33ee"
+    },
+    {
+     "x": 734.5695,
+     "y": 1.718,
+     "px": [
+      495.19,
+      306.14
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-d766bce6609893a0",
+     "source_instance_id": "src-b8c3b5d8dcb29473"
+    },
+    {
+     "x": 800.7745,
+     "y": 1.7554,
+     "px": [
+      523.94,
+      300.5
+     ],
+     "confidence": 0.96,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-f6771de1948395d7",
+     "source_instance_id": "src-229f03c3ca1f9a43"
+    },
+    {
+     "x": 866.1098,
+     "y": 1.7906,
+     "px": [
+      552.31,
+      295.2
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-f2a5dbc383969432",
+     "source_instance_id": "src-2b009046b182639c"
+    },
+    {
+     "x": 934.7236,
+     "y": 1.829,
+     "px": [
+      582.1,
+      289.42
+     ],
+     "confidence": 0.96,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-ea3fc27a4c1f8490",
+     "source_instance_id": "src-9395a628b7b94e16"
+    },
+    {
+     "x": 1000.5433,
+     "y": 1.864,
+     "px": [
+      610.69,
+      284.14
+     ],
+     "confidence": 0.94,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-f6978f2431cf12dc",
+     "source_instance_id": "src-70323093e476981b"
+    },
+    {
+     "x": 1069.1488,
+     "y": 1.9,
+     "px": [
+      640.48,
+      278.72
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-1eab939de545065c",
+     "source_instance_id": "src-1902c2e9f5d29715"
+    },
+    {
+     "x": 1140.5561,
+     "y": 1.9286,
+     "px": [
+      671.49,
+      274.4
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-e0a9244a3dd36339",
+     "source_instance_id": "src-9bf108b392856175"
+    }
+   ],
+   "series_id": "figp1b:b:co2-353k-c3530734"
+  },
+  {
+   "label": "CO2 373K",
+   "n_points": 26,
+   "marker_radius_px": 5.6,
+   "extract": true,
+   "gas": "CO2",
+   "color_lab": [
+    3.0,
+    128.0,
+    128.0
+   ],
+   "marker_glyph": {
+    "shape": "diamond",
+    "fill": "filled",
+    "color_hex": "#060707",
+    "fill_hex": "#0a0a0a",
+    "edge_hex": "#727272",
+    "polygon": [
+     [
+      -0.176,
+      -1.203
+     ],
+     [
+      -1.291,
+      0.045
+     ],
+     [
+      -0.574,
+      0.523
+     ],
+     [
+      -0.176,
+      1.161
+     ],
+     [
+      0.276,
+      1.161
+     ],
+     [
+      0.276,
+      0.922
+     ],
+     [
+      1.232,
+      0.205
+     ],
+     [
+      1.232,
+      -0.088
+     ],
+     [
+      0.515,
+      -0.566
+     ],
+     [
+      0.116,
+      -1.203
+     ]
+    ],
+    "size_px": 6.27,
+    "vertices": 4,
+    "source": "raster",
+    "confidence": 0.91
+   },
+   "color_twins": [],
+   "x_min": 16.8812,
+   "x_max": 1133.5626,
+   "y_min": 0.0428,
+   "y_max": 1.5523,
+   "points": [
+    {
+     "x": 16.8812,
+     "y": 0.0428,
+     "px": [
+      183.53,
+      558.62
+     ],
+     "confidence": 0.75,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-4c6e05cd006f64ea",
+     "source_instance_id": "src-42d497383a7bd7dc"
+    },
+    {
+     "x": 40.7782,
+     "y": 0.0975,
+     "px": [
+      193.91,
+      550.38
+     ],
+     "confidence": 0.71,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-bfec8f9fb210cc79",
+     "source_instance_id": "src-34f654ae2c84b59d"
+    },
+    {
+     "x": 57.372,
+     "y": 0.1382,
+     "px": [
+      201.11,
+      544.24
+     ],
+     "confidence": 0.71,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-06f7a01f80387b5d",
+     "source_instance_id": "src-82b3993545336b79"
+    },
+    {
+     "x": 75.463,
+     "y": 0.1867,
+     "px": [
+      208.97,
+      536.93
+     ],
+     "confidence": 0.67,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-0f8a479d7589a428",
+     "source_instance_id": "src-f2dbd690c509ee11"
+    },
+    {
+     "x": 96.6566,
+     "y": 0.2393,
+     "px": [
+      218.17,
+      529.01
+     ],
+     "confidence": 0.67,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-46303aaa849a1e55",
+     "source_instance_id": "src-36675b0ae50d5b77"
+    },
+    {
+     "x": 126.3342,
+     "y": 0.3116,
+     "px": [
+      231.06,
+      518.12
+     ],
+     "confidence": 0.71,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-1d182363aad537d3",
+     "source_instance_id": "src-460431eeb1951b92"
+    },
+    {
+     "x": 140.2191,
+     "y": 0.3448,
+     "px": [
+      237.09,
+      513.1
+     ],
+     "confidence": 0.71,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-68a6d00afaf810f5",
+     "source_instance_id": "src-d2f107070cc8d5ec"
+    },
+    {
+     "x": 162.7555,
+     "y": 0.3986,
+     "px": [
+      246.88,
+      505.0
+     ],
+     "confidence": 0.71,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-8dc994e6e008771f",
+     "source_instance_id": "src-4d1209c26439f73c"
+    },
+    {
+     "x": 183.7819,
+     "y": 0.4505,
+     "px": [
+      256.01,
+      497.18
+     ],
+     "confidence": 0.71,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-1fbb22a50cae30e9",
+     "source_instance_id": "src-2df248500bfcad9f"
+    },
+    {
+     "x": 207.9029,
+     "y": 0.5046,
+     "px": [
+      266.48,
+      489.02
+     ],
+     "confidence": 0.62,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-85ccc43a210c712d",
+     "source_instance_id": "src-f2d3ce6e63fb9258"
+    },
+    {
+     "x": 222.9102,
+     "y": 0.5381,
+     "px": [
+      273.0,
+      483.97
+     ],
+     "confidence": 0.71,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-9cc2953c98f20b09",
+     "source_instance_id": "src-fc25a627bdf00ff5"
+    },
+    {
+     "x": 250.7401,
+     "y": 0.5978,
+     "px": [
+      285.08,
+      474.98
+     ],
+     "confidence": 0.75,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-e3b1a5a63748a505",
+     "source_instance_id": "src-a61ae7e9d525f2f6"
+    },
+    {
+     "x": 262.5912,
+     "y": 0.6308,
+     "px": [
+      290.23,
+      470.0
+     ],
+     "confidence": 0.83,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-f378c6e90a7d0d48",
+     "source_instance_id": "src-6d4d51cc5b8df233"
+    },
+    {
+     "x": 333.778,
+     "y": 0.7624,
+     "px": [
+      321.14,
+      450.16
+     ],
+     "confidence": 0.95,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-5208a9f9ff3e2626",
+     "source_instance_id": "src-509d109bd65568bb"
+    },
+    {
+     "x": 396.7765,
+     "y": 0.873,
+     "px": [
+      348.5,
+      433.5
+     ],
+     "confidence": 0.97,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-0f2ceda9b9cb3582",
+     "source_instance_id": "src-1206343560c272ba"
+    },
+    {
+     "x": 465.8609,
+     "y": 0.9791,
+     "px": [
+      378.5,
+      417.5
+     ],
+     "confidence": 0.97,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-b34cae5a480ff9e4",
+     "source_instance_id": "src-41442b4a68298970"
+    },
+    {
+     "x": 533.794,
+     "y": 1.0687,
+     "px": [
+      408.0,
+      404.0
+     ],
+     "confidence": 0.65,
+     "overlap_flag": true,
+     "assigned_by": "color",
+     "point_id": "pt-123e04a0a821837a",
+     "source_instance_id": "src-ecb2637313f7893c"
+    },
+    {
+     "x": 600.2281,
+     "y": 1.1507,
+     "px": [
+      436.85,
+      391.64
+     ],
+     "confidence": 0.97,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-277b424e04782313",
+     "source_instance_id": "src-c5a29874dff57a4c"
+    },
+    {
+     "x": 667.0098,
+     "y": 1.2237,
+     "px": [
+      465.85,
+      380.64
+     ],
+     "confidence": 0.97,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-1e4aecae0ba17f6a",
+     "source_instance_id": "src-8380fab544083f92"
+    },
+    {
+     "x": 734.468,
+     "y": 1.2821,
+     "px": [
+      495.14,
+      371.84
+     ],
+     "confidence": 0.95,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-662e1a576ddf475a",
+     "source_instance_id": "src-ddbd16d4c8b6f799"
+    },
+    {
+     "x": 797.4665,
+     "y": 1.3441,
+     "px": [
+      522.5,
+      362.5
+     ],
+     "confidence": 0.97,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-8c4828c34a3017be",
+     "source_instance_id": "src-0a31557d81b1c911"
+    },
+    {
+     "x": 869.1864,
+     "y": 1.3916,
+     "px": [
+      553.64,
+      355.33
+     ],
+     "confidence": 0.95,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-25dab0f98954ee56",
+     "source_instance_id": "src-1b28ec38b5e6de93"
+    },
+    {
+     "x": 932.091,
+     "y": 1.4336,
+     "px": [
+      580.96,
+      349.01
+     ],
+     "confidence": 0.96,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-3889674a12d0d059",
+     "source_instance_id": "src-3b2d5fd8a2c44ee0"
+    },
+    {
+     "x": 1008.2177,
+     "y": 1.4865,
+     "px": [
+      614.02,
+      341.04
+     ],
+     "confidence": 0.99,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-a6ce77e87084bf0c",
+     "source_instance_id": "src-7edb430758b76f7d"
+    },
+    {
+     "x": 1066.896,
+     "y": 1.5166,
+     "px": [
+      639.5,
+      336.5
+     ],
+     "confidence": 0.97,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-2abb773ec68cda2a",
+     "source_instance_id": "src-b452a0b0f75088ac"
+    },
+    {
+     "x": 1133.5626,
+     "y": 1.5523,
+     "px": [
+      668.45,
+      331.12
+     ],
+     "confidence": 0.93,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-38d4a4220a512d1b",
+     "source_instance_id": "src-3beb9794612b47ae"
+    }
+   ],
+   "series_id": "figp1b:b:co2-373k-9f2f766d"
+  }
+ ],
+ "unresolved_slots": {
+  "total": 21,
+  "by_series": {
+   "CO2 303K": 8,
+   "CO2 313K": 3,
+   "CO2 323K": 4,
+   "CO2 333K": 1,
+   "CO2 353K": 2,
+   "CO2 373K": 3
+  },
+  "slots": [
+   {
+    "series_label": "CO2 303K",
+    "series_index": 0,
+    "column_index": 0,
+    "column_px": 182.83,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 313K",
+    "series_index": 1,
+    "column_index": 0,
+    "column_px": 182.83,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 323K",
+    "series_index": 2,
+    "column_index": 0,
+    "column_px": 182.83,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 353K",
+    "series_index": 4,
+    "column_index": 0,
+    "column_px": 182.83,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 373K",
+    "series_index": 5,
+    "column_index": 0,
+    "column_px": 182.83,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 303K",
+    "series_index": 0,
+    "column_index": 1,
+    "column_px": 192.93,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 303K",
+    "series_index": 0,
+    "column_index": 2,
+    "column_px": 203.81,
+    "predicted_y_px": 360.78,
+    "state": "unresolved",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 0,
+    "rival_coverage": 0.46
+   },
+   {
+    "series_label": "CO2 303K",
+    "series_index": 0,
+    "column_index": 3,
+    "column_px": 235.38,
+    "predicted_y_px": 314.21,
+    "state": "unresolved",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 0,
+    "rival_coverage": 0.34
+   },
+   {
+    "series_label": "CO2 323K",
+    "series_index": 2,
+    "column_index": 3,
+    "column_px": 235.38,
+    "predicted_y_px": 385.73,
+    "state": "unresolved",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 0,
+    "rival_coverage": 0.34
+   },
+   {
+    "series_label": "CO2 303K",
+    "series_index": 0,
+    "column_index": 4,
+    "column_px": 260.14,
+    "predicted_y_px": 277.69,
+    "state": "unresolved",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 0,
+    "rival_coverage": 0.4
+   },
+   {
+    "series_label": "CO2 323K",
+    "series_index": 2,
+    "column_index": 4,
+    "column_px": 260.14,
+    "predicted_y_px": 345.63,
+    "state": "unresolved",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 0,
+    "rival_coverage": 0.36
+   },
+   {
+    "series_label": "CO2 303K",
+    "series_index": 0,
+    "column_index": 18,
+    "column_px": 671.23,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 313K",
+    "series_index": 1,
+    "column_index": 18,
+    "column_px": 671.23,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 333K",
+    "series_index": 3,
+    "column_index": 18,
+    "column_px": 671.23,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 373K",
+    "series_index": 5,
+    "column_index": 18,
+    "column_px": 671.23,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 303K",
+    "series_index": 0,
+    "column_index": 0,
+    "column_px": 182.83,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 1
+   },
+   {
+    "series_label": "CO2 313K",
+    "series_index": 1,
+    "column_index": 0,
+    "column_px": 182.83,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 1
+   },
+   {
+    "series_label": "CO2 323K",
+    "series_index": 2,
+    "column_index": 0,
+    "column_px": 182.83,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 1
+   },
+   {
+    "series_label": "CO2 353K",
+    "series_index": 4,
+    "column_index": 0,
+    "column_px": 182.83,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 1
+   },
+   {
+    "series_label": "CO2 373K",
+    "series_index": 5,
+    "column_index": 0,
+    "column_px": 182.83,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 1
+   },
+   {
+    "series_label": "CO2 303K",
+    "series_index": 0,
+    "column_index": 1,
+    "column_px": 192.93,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 1
+   }
+  ]
+ },
+ "excluded_series_context": {
+  "total": 0,
+  "by_series": {},
+  "slots": []
+ },
+ "unresolved_total": 21,
+ "proposal_quality": {
+  "review_required": true,
+  "warnings": [
+   {
+    "check": "marker_count",
+    "series": "CO2 303K",
+    "detail": "detected 15 of about 50 expected markers"
+   },
+   {
+    "check": "marker_count",
+    "series": "CO2 313K",
+    "detail": "detected 20 of about 50 expected markers"
+   },
+   {
+    "check": "marker_count",
+    "series": "CO2 323K",
+    "detail": "detected 19 of about 50 expected markers"
+   },
+   {
+    "check": "marker_count",
+    "series": "CO2 333K",
+    "detail": "detected 19 of about 50 expected markers"
+   },
+   {
+    "check": "marker_count",
+    "series": "CO2 353K",
+    "detail": "detected 18 of about 50 expected markers"
+   },
+   {
+    "check": "marker_count",
+    "series": "CO2 373K",
+    "detail": "detected 26 of about 50 expected markers"
+   }
+  ]
+ }
+}

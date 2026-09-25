@@ -1,0 +1,466 @@
+{
+ "series_counts": {
+  "CO2 195K": 41
+ },
+ "calibration": {
+  "px_per_unit_x": 484.5735062893082,
+  "px_per_unit_y": 2.8559712380158397,
+  "unit_per_px_x": 0.0020636703967941723,
+  "unit_per_px_y": 0.3501435822213465,
+  "axis_models": {
+   "x": {
+    "scale": "linear",
+    "slope": 0.0020636703967941723,
+    "intercept": -0.3144619166014331
+   },
+   "y": {
+    "scale": "linear",
+    "slope": -0.3501435822213465,
+    "intercept": 163.92601593087616
+   }
+  },
+  "tick_fit_resid_x": 0.0014556825971099863,
+  "tick_fit_resid_y": 0.19988396659110208,
+  "tick_fit_resid_x_px": 0.7053852201259124,
+  "tick_fit_resid_y_px": 0.5708628595247066,
+  "frame_px": [
+   128,
+   68,
+   661,
+   497
+  ],
+  "x_ticks_px": [
+   152,
+   250,
+   346,
+   443,
+   540,
+   637
+  ],
+  "y_ticks_px": [
+   68,
+   126,
+   182,
+   240,
+   297,
+   354,
+   411,
+   468
+  ],
+  "tick_anchors": {
+   "x": [
+    {
+     "pixel_norm": 0.21621621621621623,
+     "value": 0.0
+    },
+    {
+     "pixel_norm": 0.35561877667140823,
+     "value": 0.2
+    },
+    {
+     "pixel_norm": 0.492176386913229,
+     "value": 0.4
+    },
+    {
+     "pixel_norm": 0.6301564722617354,
+     "value": 0.6
+    },
+    {
+     "pixel_norm": 0.7681365576102418,
+     "value": 0.8
+    },
+    {
+     "pixel_norm": 0.9061166429587483,
+     "value": 1.0
+    }
+   ],
+   "y": [
+    {
+     "pixel_norm": 0.1098546042003231,
+     "value": 140.0
+    },
+    {
+     "pixel_norm": 0.2035541195476575,
+     "value": 120.0
+    },
+    {
+     "pixel_norm": 0.2940226171243942,
+     "value": 100.0
+    },
+    {
+     "pixel_norm": 0.3877221324717286,
+     "value": 80.0
+    },
+    {
+     "pixel_norm": 0.4798061389337641,
+     "value": 60.0
+    },
+    {
+     "pixel_norm": 0.5718901453957996,
+     "value": 40.0
+    },
+    {
+     "pixel_norm": 0.6639741518578353,
+     "value": 20.0
+    },
+    {
+     "pixel_norm": 0.7560581583198708,
+     "value": 0.0
+    }
+   ]
+  },
+  "color_tolerance_lab": 45.0,
+  "color_tolerance_per_series": [
+   24.0,
+   24.0
+  ],
+  "base_color_passes": 3,
+  "complex_region_passes": 3,
+  "complex_region_count": 2,
+  "legend_reader": "declared_colors_direct_labels",
+  "sample_colors": [
+   {
+    "label": "CO2 195K",
+    "sample_px": [
+     395.1,
+     115.1
+    ],
+    "legend_lab": [
+     132.0,
+     166.0,
+     53.0
+    ],
+    "sample_lab": [
+     131.0,
+     168.0,
+     52.0
+    ],
+    "distance": 2.4,
+    "result": "sample color used"
+   },
+   {
+    "label": "N2 77K",
+    "sample_px": [
+     395.1,
+     465.5
+    ],
+    "legend_lab": [
+     161.0,
+     186.0,
+     158.0
+    ],
+    "sample_lab": [
+     158.0,
+     186.5,
+     156.0
+    ],
+    "distance": 3.6,
+    "result": "sample color used"
+   }
+  ],
+  "twins_split_by_lines": 0,
+  "line_split_enabled": false,
+  "color_ambiguity_groups": [],
+  "series_assignment_margin": 0.12,
+  "reclaimed_points": 0,
+  "dense_region_resolver": {
+   "roi_px": [
+    [
+     145.0,
+     140.0,
+     203.0,
+     475.0
+    ]
+   ],
+   "columns": 1,
+   "native_supported_additions": 0
+  },
+  "region_strategies": [
+   {
+    "strategy": "ignore",
+    "bbox_px": [
+     251,
+     172,
+     520,
+     390
+    ],
+    "series": []
+   }
+  ],
+  "x_grid_columns": 0,
+  "x_grid_supported_columns": 0,
+  "exact_duplicates_dropped": {
+   "CO2 195K": 0
+  },
+  "series_assignment": {
+   "actions": {},
+   "groups": []
+  },
+  "series_gate_moves": [
+   {
+    "from": "CO2 195K",
+    "to": "None",
+    "points": 2
+   },
+   {
+    "from": "N2 77K",
+    "to": "None",
+    "points": 7
+   }
+  ],
+  "template_fill": {
+   "template_fit": null,
+   "template_fill": null
+  },
+  "complex_regions": {
+   "accepted": 2,
+   "rejected": 0
+  },
+  "detail": "full per-candidate audit in python_audit.json"
+ },
+ "proposal_quality": {
+  "review_required": true,
+  "warnings": [
+   {
+    "check": "marker_count",
+    "series": "CO2 195K",
+    "detail": "detected 41 of about 75 expected markers"
+   }
+  ]
+ },
+ "color_ambiguity_groups": [],
+ "unresolved_slots": {
+  "total": 0,
+  "by_series": {},
+  "slots": []
+ },
+ "complex_regions": [
+  {
+   "bbox_norm": [
+    0.20626,
+    0.22617,
+    0.28876,
+    0.76737
+   ],
+   "kind": "dense_markers",
+   "python_passes": 3
+  },
+  {
+   "bbox_norm": [
+    0.35846,
+    0.27895,
+    0.73969,
+    0.63005
+   ],
+   "kind": "inset",
+   "python_passes": 2
+  }
+ ],
+ "legend_marker_check": [],
+ "source_integrity": {
+  "path": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_02\\fig3a\\panel.png",
+  "exists": true,
+  "sha256": "8d23f39b7d35d843c947d7bb970dbb802a6b7870d055a9e117ca38f8dac9f053",
+  "width": 703,
+  "height": 619
+ },
+ "count_check": [
+  {
+   "label": "CO2 195K",
+   "x_from": 0,
+   "x_to": 0.06,
+   "expected": 45,
+   "found": 23,
+   "shortfall": 22
+  },
+  {
+   "label": "CO2 195K",
+   "x_from": 0.06,
+   "x_to": 0.3,
+   "expected": 15,
+   "found": 12,
+   "shortfall": 3
+  },
+  {
+   "label": "CO2 195K",
+   "x_from": 0.3,
+   "x_to": 1,
+   "expected": 15,
+   "found": 5,
+   "shortfall": 10
+  },
+  {
+   "label": "N2 77K",
+   "x_from": 0,
+   "x_to": 0.9,
+   "expected": 30,
+   "found": 0,
+   "shortfall": 30
+  },
+  {
+   "label": "N2 77K",
+   "x_from": 0.9,
+   "x_to": 1,
+   "expected": 3,
+   "found": 0,
+   "shortfall": 3
+  }
+ ],
+ "sample_colors": [
+  {
+   "label": "CO2 195K",
+   "sample_px": [
+    395.1,
+    115.1
+   ],
+   "legend_lab": [
+    132.0,
+    166.0,
+    53.0
+   ],
+   "sample_lab": [
+    131.0,
+    168.0,
+    52.0
+   ],
+   "distance": 2.4,
+   "result": "sample color used"
+  },
+  {
+   "label": "N2 77K",
+   "sample_px": [
+    395.1,
+    465.5
+   ],
+   "legend_lab": [
+    161.0,
+    186.0,
+    158.0
+   ],
+   "sample_lab": [
+    158.0,
+    186.5,
+    156.0
+   ],
+   "distance": 3.6,
+   "result": "sample color used"
+  }
+ ],
+ "region_strategies": [
+  {
+   "strategy": "ignore",
+   "bbox_px": [
+    251,
+    172,
+    520,
+    390
+   ],
+   "series": []
+  }
+ ],
+ "hard_checks": {
+  "stage": "python",
+  "passed": true,
+  "problems": [],
+  "axis_range": {
+   "passed": true,
+   "problems": [],
+   "margin": 0.05,
+   "max_frame_overhang_steps": 1.0,
+   "x": {
+    "unit": "P/P₀",
+    "scale": "linear",
+    "printed": [
+     0.0,
+     1.0
+    ],
+    "data": [
+     -0.0018,
+     0.543
+    ],
+    "points_outside": 0,
+    "passed": true,
+    "frame": [
+     -0.05031210581177903,
+     1.0496242156795148
+    ],
+    "frame_overhang_steps": [
+     0.25,
+     0.25
+    ],
+    "allowed": [
+     -0.05031210581177903,
+     1.05
+    ]
+   },
+   "y": {
+    "unit": "cm³ g⁻¹",
+    "scale": "linear",
+    "printed": [
+     0.0,
+     140.0
+    ],
+    "data": [
+     3.035,
+     123.8346
+    ],
+    "points_outside": 0,
+    "passed": true,
+    "frame": [
+     -10.09534443313305,
+     140.1162523398246
+    ],
+    "frame_overhang_steps": [
+     0.5,
+     0.01
+    ],
+    "allowed": [
+     -10.09534443313305,
+     147.0
+    ]
+   }
+  },
+  "redraw": {
+   "available": true,
+   "series": {
+    "CO2 195K": {
+     "points": 41,
+     "precision": 1.0,
+     "recall": 0.883,
+     "missed_marker_equivalents": 4.7,
+     "same_color_group": [
+      "CO2 195K"
+     ]
+    }
+   },
+   "recall": 0.883,
+   "precision": 1.0
+  },
+  "physics": {
+   "verdict": "review",
+   "flags": {
+    "CO2 195K": [
+     {
+      "check": "monotonic",
+      "detail": "ads: uptake decreases at [(np.float64(0.004), np.float64(3.035)), (np.float64(0.006), np.float64(8.988)), (np.float64(0.035), np.float64(66.411)), (np.float64(0.042), np.float64(82.168)), (np.float64(0.219), np.float64(121.384))]"
+     },
+     {
+      "check": "smoothness",
+      "level": "warn",
+      "detail": "ads: local outliers (P,q,resid) [(np.float64(0.006), np.float64(8.988), -5.466), (np.float64(0.011), np.float64(35.948), -3.29), (np.float64(0.013), np.float64(46.803), 3.357), (np.float64(0.035), np.float64(73.064), 4.72), (np.float64(0.035), np.float64(66.411), -4.672)]"
+     },
+     {
+      "check": "monotonic",
+      "detail": "des: uptake decreases at [(np.float64(0.002), np.float64(19.842)), (np.float64(0.015), np.float64(55.206)), (np.float64(0.042), np.float64(91.972)), (np.float64(0.116), np.float64(121.033))]"
+     },
+     {
+      "check": "smoothness",
+      "level": "warn",
+      "detail": "des: local outliers (P,q,resid) [(np.float64(0.002), np.float64(19.842), -17.921), (np.float64(0.004), np.float64(26.144), -7.505), (np.float64(0.006), np.float64(39.1), 4.07), (np.float64(0.015), np.float64(59.758), 2.698), (np.float64(0.015), np.float64(55.206), -4.105)]"
+     }
+    ]
+   },
+   "cross_series": []
+  }
+ }
+}

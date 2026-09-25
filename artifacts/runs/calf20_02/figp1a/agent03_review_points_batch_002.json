@@ -1,0 +1,296 @@
+{
+ "reasoning": "I inspected every attached native tile and each separately listed native box. The contested CO2 303K, 323K, 333K, 343K, and 353K claims have source-pixel support; the two template-fit claims (CO2 323K at panel pixel approximately (482,387) and CO2 353K at approximately (351,564)) also coincide with visible native glyphs and should be retained. The crowded native crops do not provide sufficiently separable evidence for additional omitted markers, ownership changes, or defensible centre corrections, so no mechanical operations are issued. The global Python shortfalls for CO2 313K and CO2 323K remain unresolved rather than being filled from expected counts or curve appearance.",
+ "verdict": "review",
+ "series": [
+  {
+   "label": "CO2 273K",
+   "coverage": "uncertain",
+   "final_count": 39,
+   "comment": "No native evidence for this series was included in this batch; no edit applied."
+  },
+  {
+   "label": "CO2 283K",
+   "coverage": "uncertain",
+   "final_count": 35,
+   "comment": "No native evidence for this series was included in this batch; no edit applied."
+  },
+  {
+   "label": "CO2 293K",
+   "coverage": "uncertain",
+   "final_count": 44,
+   "comment": "No native evidence for this series was included in this batch; no edit applied."
+  },
+  {
+   "label": "CO2 303K",
+   "coverage": "complete",
+   "final_count": 45,
+   "comment": "All four contested CO2 303K claims inspected in native crops are supported, including overlaps with CO2 313K."
+  },
+  {
+   "label": "CO2 313K",
+   "coverage": "incomplete",
+   "final_count": 15,
+   "comment": "The native crops support the displayed magenta claims, but the known low-pressure shortfall is not resolvable from the supplied evidence without adding points from interpolation or expected counts."
+  },
+  {
+   "label": "CO2 323K",
+   "coverage": "incomplete",
+   "final_count": 21,
+   "comment": "All inspected olive claims, including the template-fit claim, have native support; the broader low-pressure shortfall remains unresolved."
+  },
+  {
+   "label": "CO2 333K",
+   "coverage": "complete",
+   "final_count": 37,
+   "comment": "All inspected dark-blue diamond claims are visibly supported in native crops."
+  },
+  {
+   "label": "CO2 343K",
+   "coverage": "complete",
+   "final_count": 35,
+   "comment": "All inspected red pentagon claims are visibly supported in native crops."
+  },
+  {
+   "label": "CO2 353K",
+   "coverage": "complete",
+   "final_count": 35,
+   "comment": "All inspected magenta hexagon claims, including the template-fit claim, are supported by native pixels."
+  },
+  {
+   "label": "CO2 363K",
+   "coverage": "uncertain",
+   "final_count": 34,
+   "comment": "No additional CO2 363K edit is supported by the supplied native boxes; broader coverage was not resolved in this batch."
+  },
+  {
+   "label": "CO2 373K",
+   "coverage": "uncertain",
+   "final_count": 32,
+   "comment": "No additional CO2 373K edit is supported by the supplied native boxes; the reported unresolved slots remain open."
+  }
+ ],
+ "operations": [],
+ "uncertainties": [
+  "The attached native evidence confirms the reviewed claims but does not expose enough isolated glyph structure to recover the missing low-pressure CO2 313K and CO2 323K markers safely.",
+  "No point was deleted or reassigned because overlap alone did not establish false detection or series ownership.",
+  "The global CO2 373K unresolved slots were not represented by separately attached native evidence in this batch."
+ ],
+ "coverage": [
+  {
+   "item_id": "tile:marker_03",
+   "item_type": "tile",
+   "status": "reviewed",
+   "detail": "Inspected all eight native source regions; contested claims were compared against native pixels."
+  },
+  {
+   "item_id": "box:marker_03:17",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native teal CO2 303K and magenta CO2 313K overlap supports the claimed CO2 303K centre; no edit."
+  },
+  {
+   "item_id": "box:marker_03:18",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native teal and magenta overlap supports the claimed CO2 303K marker; no edit."
+  },
+  {
+   "item_id": "box:marker_03:19",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native teal glyph supports the claimed CO2 303K marker despite adjacent magenta pixels; no edit."
+  },
+  {
+   "item_id": "box:marker_03:20",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native teal down-triangle fragment supports the claimed CO2 303K marker; no edit."
+  },
+  {
+   "item_id": "box:marker_03:21",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native teal marker fragment supports the claimed CO2 303K marker; no edit."
+  },
+  {
+   "item_id": "box:marker_03:22",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native crowded low-pressure crop contains source support for the claimed olive CO2 323K fragment; no edit."
+  },
+  {
+   "item_id": "box:marker_03:23",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native crowded low-pressure crop supports the claimed olive CO2 323K fragment; no edit."
+  },
+  {
+   "item_id": "box:marker_03:24",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native olive CO2 323K glyph is visible among overlapping curves; no edit."
+  },
+  {
+   "item_id": "tile:marker_04",
+   "item_type": "tile",
+   "status": "reviewed",
+   "detail": "Inspected all eight native source regions; no source-backed correction found."
+  },
+  {
+   "item_id": "box:marker_04:25",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native olive triangle-right glyph supports the claimed CO2 323K marker."
+  },
+  {
+   "item_id": "box:marker_04:26",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native olive triangle-right glyph supports the template-fit CO2 323K claim; retained."
+  },
+  {
+   "item_id": "box:marker_04:27",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native dark-blue CO2 333K diamond is visible in the crowded crop; no edit."
+  },
+  {
+   "item_id": "box:marker_04:28",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native dark-blue CO2 333K diamond is visible; no edit."
+  },
+  {
+   "item_id": "box:marker_04:29",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native dark-blue CO2 333K diamond is visible; no edit."
+  },
+  {
+   "item_id": "box:marker_04:30",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native dark-blue CO2 333K diamond supports the claim; no edit."
+  },
+  {
+   "item_id": "box:marker_04:31",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native red CO2 343K pentagon is visible despite overlap; no edit."
+  },
+  {
+   "item_id": "box:marker_04:32",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native red CO2 343K pentagon is visible; no edit."
+  },
+  {
+   "item_id": "tile:marker_05",
+   "item_type": "tile",
+   "status": "reviewed",
+   "detail": "Inspected all eight native source regions; all contested red-series claims had native support."
+  },
+  {
+   "item_id": "box:marker_05:33",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native red CO2 343K pentagon is clearly visible; no edit."
+  },
+  {
+   "item_id": "box:marker_05:34",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native red CO2 343K pentagon is clearly visible; no edit."
+  },
+  {
+   "item_id": "box:marker_05:35",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native red CO2 343K pentagon is visible; no edit."
+  },
+  {
+   "item_id": "box:marker_05:36",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native red CO2 343K marker is visible as a partially overlapped pentagon; no edit."
+  },
+  {
+   "item_id": "box:marker_05:37",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native red CO2 343K pentagon is visible; no edit."
+  },
+  {
+   "item_id": "box:marker_05:38",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native red CO2 343K pentagon is visible; no edit."
+  },
+  {
+   "item_id": "box:marker_05:39",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native red CO2 343K pentagon is visible; no edit."
+  },
+  {
+   "item_id": "box:marker_05:40",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native red CO2 343K pentagon is visible; no edit."
+  },
+  {
+   "item_id": "tile:marker_06",
+   "item_type": "tile",
+   "status": "reviewed",
+   "detail": "Inspected all eight native source regions; no safe source-backed correction found."
+  },
+  {
+   "item_id": "box:marker_06:41",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native red CO2 343K pentagon supports the claim; no edit."
+  },
+  {
+   "item_id": "box:marker_06:42",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native red CO2 343K pentagon supports the claim; no edit."
+  },
+  {
+   "item_id": "box:marker_06:43",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native red CO2 343K pentagon supports the claim; no edit."
+  },
+  {
+   "item_id": "box:marker_06:44",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native crowded crop supports the claimed magenta CO2 353K fragment; no edit."
+  },
+  {
+   "item_id": "box:marker_06:45",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native magenta CO2 353K hexagon fragment is supported; no edit."
+  },
+  {
+   "item_id": "box:marker_06:46",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native magenta CO2 353K hexagon fragment is supported; no edit."
+  },
+  {
+   "item_id": "box:marker_06:47",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native magenta CO2 353K hexagon fragment is supported; no edit."
+  },
+  {
+   "item_id": "box:marker_06:48",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native magenta CO2 353K marker is visible and supports the template-fit claim; retained."
+  }
+ ]
+}

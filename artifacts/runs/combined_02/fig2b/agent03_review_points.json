@@ -1,0 +1,489 @@
+{
+ "reasoning": "The source confirms that the Python proposal contains many detections on the thick black connecting stroke and several CO2 333K assignments that are visibly orange-square or green-triangle pixels. Two proposed CO2 353K points are visibly blue pentagons and must be reassigned. The magenta 353K diamonds at the high-pressure end are clearly visible but were missed. Low-pressure markers obscured by thick curves cannot be added without sufficiently distinct native marker pixels.",
+ "verdict": "review",
+ "series": [
+  {
+   "label": "CO2 303K",
+   "coverage": "incomplete",
+   "final_count": 14,
+   "comment": "The 14 retained red circles are supported, but several low-pressure red markers remain unresolved beneath the thick red curve."
+  },
+  {
+   "label": "CO2 313K",
+   "coverage": "complete",
+   "final_count": 18,
+   "comment": "Orange square trajectory is fully represented by the proposal."
+  },
+  {
+   "label": "CO2 323K",
+   "coverage": "complete",
+   "final_count": 19,
+   "comment": "Green triangle trajectory is represented; no definite correction is required here."
+  },
+  {
+   "label": "CO2 333K",
+   "coverage": "incomplete",
+   "final_count": 9,
+   "comment": "Several proposed points are visibly orange or green and were removed; two blue pentagons were recovered by reassignment, but additional blue pentagons are not represented with sufficient point-level certainty."
+  },
+  {
+   "label": "CO2 353K",
+   "coverage": "incomplete",
+   "final_count": 17,
+   "comment": "Two magenta assignments were corrected to blue, and seven clearly visible high-pressure magenta diamonds were added; low-pressure overlap remains incomplete."
+  },
+  {
+   "label": "CO2 373K",
+   "coverage": "incomplete",
+   "final_count": 13,
+   "comment": "The dense detections along the thick black stroke were removed. The retained plus markers are visible, but obscured low-pressure markers cannot be safely reconstructed."
+  }
+ ],
+ "operations": [
+  {
+   "operation_id": "op-333-del-01",
+   "action": "delete",
+   "point_id": "pt-d833f061e0134171",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "This proposal is not a blue pentagon; the native pixel region shows the orange-square trajectory/connecting ink.",
+   "source_evidence": "Native marker evidence near pixel (202,325) shows orange/curve ink rather than a blue pentagon."
+  },
+  {
+   "operation_id": "op-333-del-02",
+   "action": "delete",
+   "point_id": "pt-d432da7b79a400b5",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False CO2 333K assignment; visible native marker is an orange square.",
+   "source_evidence": "Native tile box 4 at pixel (300,208) shows orange filled squares, not a blue pentagon."
+  },
+  {
+   "operation_id": "op-333-del-03",
+   "action": "delete",
+   "point_id": "pt-0a0dcaf9ded6e065",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False blue-series assignment on the orange/green marker region.",
+   "source_evidence": "Native tile box 5 near pixel (325,213) shows orange square and green triangle markers, with no blue pentagon at the proposed centre."
+  },
+  {
+   "operation_id": "op-333-del-04",
+   "action": "delete",
+   "point_id": "pt-6cbe76e981a294e6",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False CO2 333K assignment; the visible marker is green, not blue.",
+   "source_evidence": "Native tile box 6 near pixel (332,202) shows a green filled triangle/orange square region."
+  },
+  {
+   "operation_id": "op-333-del-05",
+   "action": "delete",
+   "point_id": "pt-ef27825005c2c2a6",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False blue-series assignment.",
+   "source_evidence": "Native tile box 7 near pixel (355,202) shows the green triangle trajectory and orange squares, not a blue pentagon."
+  },
+  {
+   "operation_id": "op-333-del-06",
+   "action": "delete",
+   "point_id": "pt-60432df156ae95ab",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False CO2 333K assignment on a non-blue marker.",
+   "source_evidence": "Native tile box 8 near pixel (361,193) shows orange/green marker pixels rather than a blue pentagon."
+  },
+  {
+   "operation_id": "op-333-del-07",
+   "action": "delete",
+   "point_id": "pt-def3c3575b42ea71",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "No visible blue pentagon at the proposed centre; this is connecting-line/neighbor-series ink.",
+   "source_evidence": "Native source around pixel (385,193) contains the orange/green trajectories and no blue pentagon centre."
+  },
+  {
+   "operation_id": "op-333-del-08",
+   "action": "delete",
+   "point_id": "pt-0e3ad176042906fe",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "No visible blue pentagon supports this proposal.",
+   "source_evidence": "Native source around pixel (414,185) shows neighboring orange/green marker rows, not a blue pentagon."
+  },
+  {
+   "operation_id": "op-333-del-09",
+   "action": "delete",
+   "point_id": "pt-c65f81f2b3540c59",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False assignment to CO2 333K.",
+   "source_evidence": "Native tile box 9 near pixel (442,179) shows orange square and green triangle markers, not blue."
+  },
+  {
+   "operation_id": "op-333-del-10",
+   "action": "delete",
+   "point_id": "pt-982ae0ab92a35b88",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "No blue pentagon is visible at this proposed location.",
+   "source_evidence": "Native source around pixel (472,173) shows the orange/green rows and no blue marker core."
+  },
+  {
+   "operation_id": "op-333-del-11",
+   "action": "delete",
+   "point_id": "pt-7eb1b4ff1a51cc44",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False assignment to the blue series.",
+   "source_evidence": "Native tile box 10 near pixel (501,167) shows orange square and green triangle markers, not a blue pentagon."
+  },
+  {
+   "operation_id": "op-333-del-12",
+   "action": "delete",
+   "point_id": "pt-ca3c44948c2cffd1",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False assignment to the blue series.",
+   "source_evidence": "Native tile box 11 near pixel (530,161) shows orange/green marker pixels and no blue pentagon."
+  },
+  {
+   "operation_id": "op-333-del-13",
+   "action": "delete",
+   "point_id": "pt-220d013672ddcac9",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": false,
+   "reason": "Impossible high-y false detection for CO2 333K; no blue pentagon is present at the top border.",
+   "source_evidence": "Native source near pixel (680,54) is the top frame/white region, not a blue 333K marker."
+  },
+  {
+   "operation_id": "op-333-reassign-01",
+   "action": "reassign",
+   "point_id": "pt-e8af3b503563b332",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The native marker is a blue filled pentagon, not a magenta diamond.",
+   "source_evidence": "Native tile box 12 at pixel (255,299) visibly contains a blue pentagon on the blue trajectory."
+  },
+  {
+   "operation_id": "op-333-reassign-02",
+   "action": "reassign",
+   "point_id": "pt-5c5c9cc65b9294d7",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The native marker is blue and pentagonal, not magenta.",
+   "source_evidence": "Native tile box 13 at pixel (285,275) visibly contains a blue filled pentagon."
+  },
+  {
+   "operation_id": "op-353-add-01",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 353K",
+   "x_norm": 0.65591,
+   "y_norm": 0.41085,
+   "overlap": false,
+   "reason": "Visible high-pressure magenta diamond missed by Python.",
+   "source_evidence": "Filled magenta diamond visible near native pixel (488,265)."
+  },
+  {
+   "operation_id": "op-353-add-02",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 353K",
+   "x_norm": 0.69489,
+   "y_norm": 0.3969,
+   "overlap": false,
+   "reason": "Visible high-pressure magenta diamond missed by Python.",
+   "source_evidence": "Filled magenta diamond visible near native pixel (517,256)."
+  },
+  {
+   "operation_id": "op-353-add-03",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 353K",
+   "x_norm": 0.73253,
+   "y_norm": 0.3845,
+   "overlap": false,
+   "reason": "Visible high-pressure magenta diamond missed by Python.",
+   "source_evidence": "Filled magenta diamond visible near native pixel (545,248)."
+  },
+  {
+   "operation_id": "op-353-add-04",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 353K",
+   "x_norm": 0.77151,
+   "y_norm": 0.37364,
+   "overlap": false,
+   "reason": "Visible high-pressure magenta diamond missed by Python.",
+   "source_evidence": "Filled magenta diamond visible near native pixel (574,241)."
+  },
+  {
+   "operation_id": "op-353-add-05",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 353K",
+   "x_norm": 0.81855,
+   "y_norm": 0.36434,
+   "overlap": false,
+   "reason": "Visible high-pressure magenta diamond missed by Python.",
+   "source_evidence": "Filled magenta diamond visible near native pixel (609,235)."
+  },
+  {
+   "operation_id": "op-353-add-06",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 353K",
+   "x_norm": 0.85081,
+   "y_norm": 0.35969,
+   "overlap": false,
+   "reason": "Visible high-pressure magenta diamond missed by Python.",
+   "source_evidence": "Filled magenta diamond visible near native pixel (633,232)."
+  },
+  {
+   "operation_id": "op-353-add-07",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 353K",
+   "x_norm": 0.89247,
+   "y_norm": 0.35349,
+   "overlap": false,
+   "reason": "Visible high-pressure magenta diamond missed by Python.",
+   "source_evidence": "Filled magenta diamond visible near native pixel (664,228)."
+  },
+  {
+   "operation_id": "op-373-del-01",
+   "action": "delete",
+   "point_id": "pt-e592e3d25a3ffa34",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "Detection lies on the thick black connecting stroke, not a distinct plus marker.",
+   "source_evidence": "Native source near pixel (176.53,508.62) shows black stroke ink without a separable plus-marker centre."
+  },
+  {
+   "operation_id": "op-373-del-02",
+   "action": "delete",
+   "point_id": "pt-5215e3d25a3ffa34",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "Stroke pixel falsely interpreted as a plus marker.",
+   "source_evidence": "Native source near pixel (184.44,502.05) shows the thick black line only."
+  },
+  {
+   "operation_id": "op-373-del-03",
+   "action": "delete",
+   "point_id": "pt-bb5654413ac8e339",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False black-line detection.",
+   "source_evidence": "Native source near pixel (194.09,494.22) contains connecting-stroke ink without a distinct plus."
+  },
+  {
+   "operation_id": "op-373-del-04",
+   "action": "delete",
+   "point_id": "pt-574f6bbfbbe4fc9c",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False black-line detection.",
+   "source_evidence": "Native source near pixel (196.83,491.19) is part of the thick diagonal stroke."
+  },
+  {
+   "operation_id": "op-373-del-05",
+   "action": "delete",
+   "point_id": "pt-e332ca4ced7ef299",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False black-line detection.",
+   "source_evidence": "Native source near pixel (202.07,486.89) shows no separable plus-marker arms."
+  },
+  {
+   "operation_id": "op-373-del-06",
+   "action": "delete",
+   "point_id": "pt-0c716a7daa9d0556",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False black-line detection.",
+   "source_evidence": "Native source near pixel (211.16,479.0) is continuous connecting stroke."
+  },
+  {
+   "operation_id": "op-373-del-07",
+   "action": "delete",
+   "point_id": "pt-b22d93ba28612cfc",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False black-line detection.",
+   "source_evidence": "Native source near pixel (215.08,475.89) shows the black stroke, not a distinct plus."
+  },
+  {
+   "operation_id": "op-373-del-08",
+   "action": "delete",
+   "point_id": "pt-567190f734b873b4",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False black-line detection.",
+   "source_evidence": "Native source near pixel (224.06,468.12) is continuous black line ink."
+  },
+  {
+   "operation_id": "op-373-del-09",
+   "action": "delete",
+   "point_id": "pt-50974f0e54ec9cc1",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False black-line detection.",
+   "source_evidence": "Native source near pixel (231.1,462.28) has no distinct plus-marker centre."
+  },
+  {
+   "operation_id": "op-373-del-10",
+   "action": "delete",
+   "point_id": "pt-3787819379f2ac8b",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False black-line detection.",
+   "source_evidence": "Native source near pixel (234.05,459.85) is part of the thick black connecting stroke."
+  },
+  {
+   "operation_id": "op-373-del-11",
+   "action": "delete",
+   "point_id": "pt-9871216d8f0cf9aa",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False black-line detection.",
+   "source_evidence": "Native source near pixel (239.89,455.0) shows continuous black stroke ink."
+  },
+  {
+   "operation_id": "op-373-del-12",
+   "action": "delete",
+   "point_id": "pt-b9cb76b7151bdcf2",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False black-line detection.",
+   "source_evidence": "Native source near pixel (249.01,447.18) lacks a separable plus marker."
+  },
+  {
+   "operation_id": "op-373-del-13",
+   "action": "delete",
+   "point_id": "pt-97979611e6a6ea68",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False black-line detection.",
+   "source_evidence": "Native source near pixel (255.93,441.94) is only the thick connecting stroke."
+  },
+  {
+   "operation_id": "op-373-del-14",
+   "action": "delete",
+   "point_id": "pt-0278378eb6ab1fc4",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False black-line detection.",
+   "source_evidence": "Native source near pixel (262.02,437.02) shows no distinct plus-marker arms."
+  },
+  {
+   "operation_id": "op-373-del-15",
+   "action": "delete",
+   "point_id": "pt-6b11f568470a7225",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False black-line detection.",
+   "source_evidence": "Native source near pixel (266.0,433.97) is continuous black stroke ink."
+  },
+  {
+   "operation_id": "op-373-del-16",
+   "action": "delete",
+   "point_id": "pt-4098e138c76927e7",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False black-line detection.",
+   "source_evidence": "Native source near pixel (271.15,429.97) lacks a separable plus marker."
+  },
+  {
+   "operation_id": "op-373-del-17",
+   "action": "delete",
+   "point_id": "pt-1a1e8358928ed304",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False black-line detection.",
+   "source_evidence": "Native source near pixel (278.1,424.98) is part of the thick diagonal line."
+  },
+  {
+   "operation_id": "op-373-del-18",
+   "action": "delete",
+   "point_id": "pt-dc9f57962f1ec51a",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False black-line detection.",
+   "source_evidence": "Native source near pixel (283.49,420.07) shows only continuous stroke ink."
+  }
+ ],
+ "uncertainties": [
+  "The low-pressure CO2 303K markers are obscured by the thick red connecting curve; the unresolved Python slots do not provide distinct marker-core evidence.",
+  "Several low-pressure CO2 333K and CO2 353K markers overlap the thick red/green/black curves, so they were not added from trajectory interpolation.",
+  "The low-pressure CO2 373K plus markers cannot be separated reliably from the thick black connecting stroke."
+ ]
+}

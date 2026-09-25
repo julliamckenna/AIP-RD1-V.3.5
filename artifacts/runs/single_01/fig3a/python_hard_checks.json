@@ -1,0 +1,102 @@
+{
+ "stage": "python",
+ "passed": true,
+ "problems": [],
+ "axis_range": {
+  "passed": true,
+  "problems": [],
+  "margin": 0.05,
+  "max_frame_overhang_steps": 1.0,
+  "x": {
+   "unit": "dimensionless",
+   "scale": "linear",
+   "printed": [
+    0.0,
+    1.0
+   ],
+   "data": [
+    -0.0006,
+    0.9902
+   ],
+   "points_outside": 0,
+   "passed": true,
+   "frame": [
+    -0.050264988092907026,
+    1.046831197215572
+   ],
+   "frame_overhang_steps": [
+    0.25,
+    0.23
+   ],
+   "allowed": [
+    -0.050264988092907026,
+    1.05
+   ]
+  },
+  "y": {
+   "unit": "cm³ g⁻¹",
+   "scale": "linear",
+   "printed": [
+    0.0,
+    140.0
+   ],
+   "data": [
+    1.6154,
+    126.3389
+   ],
+   "points_outside": 0,
+   "passed": true,
+   "frame": [
+    -9.553906949426022,
+    140.14312841070443
+   ],
+   "frame_overhang_steps": [
+    0.48,
+    0.01
+   ],
+   "allowed": [
+    -9.553906949426022,
+    147.0
+   ]
+  }
+ },
+ "redraw": {
+  "available": true,
+  "series": {
+   "CO2 195K": {
+    "points": 35,
+    "precision": 1.0,
+    "recall": 0.744,
+    "missed_marker_equivalents": 6.2,
+    "same_color_group": [
+     "CO2 195K"
+    ]
+   }
+  },
+  "recall": 0.744,
+  "precision": 1.0
+ },
+ "physics": {
+  "verdict": "review",
+  "flags": {
+   "CO2 195K": [
+    {
+     "check": "monotonic",
+     "detail": "ads: uptake decreases at [(np.float64(0.01), np.float64(42.696))]"
+    },
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "des: local outliers (P,q,resid) [(np.float64(0.01), np.float64(53.039), -13.242), (np.float64(0.061), np.float64(117.356), 8.757)]"
+    }
+   ]
+  },
+  "cross_series": []
+ },
+ "limitations": {
+  "unresolved_slots": 1,
+  "dense_regions_with_no_distinct_centres": 1,
+  "note": "ink coverage is not marker completeness; unresolved dense evidence requires review"
+ },
+ "accepted_extraction": false
+}

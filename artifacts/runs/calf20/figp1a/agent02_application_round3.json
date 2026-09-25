@@ -1,0 +1,15 @@
+{
+ "round": 3,
+ "max_rounds": 3,
+ "checked": true,
+ "state": "unexecuted_retry_limit",
+ "reason": "bounded_retry_limit_reached; spec and points remain from prior extraction",
+ "proposed": {
+  "extraction_settings": 8,
+  "region_strategies": 0,
+  "shared_x_columns": 0,
+  "complex_regions": 3
+ },
+ "applied": false,
+ "unexecuted": true
+}

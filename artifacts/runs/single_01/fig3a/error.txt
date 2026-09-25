@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\src\workflow\rerun.py", line 130, in _run_selected
+    await steps["03"].run_panel(panel_run, panel)
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\src\workflow\steps\agent03_review_points.py", line 285, in run_panel
+    answer = await self.agent.ask(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\src\workflow\agents.py", line 257, in ask
+    raise ValueError(f"{self.config.name} answer does not match {self.config.schema}: {details}")
+ValueError: agent03-extraction answer does not match schemas/agent03_review_points.schema.json: <root>: 'coverage' is a required property

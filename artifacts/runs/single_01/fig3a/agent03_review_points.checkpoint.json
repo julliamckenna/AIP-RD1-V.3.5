@@ -1,0 +1,9 @@
+{
+ "schema_version": "1.0",
+ "manifest_fingerprint": "2ac5b32533c80eb9a20c5c532124eed35e5da8c8942228816ca57f412c0bdf33",
+ "batch_count": 2,
+ "batch_files": [
+  "agent03_review_points_batch_001.json",
+  "agent03_review_points_batch_002.json"
+ ]
+}

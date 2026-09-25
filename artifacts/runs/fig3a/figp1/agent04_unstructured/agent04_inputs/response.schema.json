@@ -1,0 +1,339 @@
+{
+  "title": "agent04_final_check_response",
+  "description": "Agent 04 file report accompanying its complete replacement CSV; this is not a response format.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "reasoning",
+    "axis_check",
+    "independent_read",
+    "verdict",
+    "series",
+    "uncertainties",
+    "row_count",
+    "calibration",
+    "unresolved_slots",
+    "changes"
+  ],
+  "properties": {
+    "reasoning": {
+      "type": "string"
+    },
+    "axis_check": {
+      "description": "Numbers check that only a reader of the image can do: the printed tick range, and whether the re-plotted curves sit at the same values as the source. Python checks the extracted value range against the axes itself.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "x",
+        "y"
+      ],
+      "properties": {
+        "x": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "printed_min",
+            "printed_max",
+            "data_min",
+            "data_max",
+            "result",
+            "reason"
+          ],
+          "properties": {
+            "printed_min": {
+              "type": "number",
+              "description": "Lowest printed tick label you read in the source image."
+            },
+            "printed_max": {
+              "type": "number",
+              "description": "Highest printed tick label you read in the source image."
+            },
+            "data_min": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "description": "Lowest extracted value on this axis (copy it from the numbers you were given; null when there are none)."
+            },
+            "data_max": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "reason": {
+              "type": "string"
+            },
+            "result": {
+              "type": "string",
+              "enum": [
+                "pass",
+                "fail"
+              ],
+              "description": "fail only for a shifted or stretched axis or wrongly read tick labels: the re-plot puts the curves at other values than the source against its ticks. Python checks the value range with tolerance itself; a value slightly past the outer tick is not a fail."
+            }
+          }
+        },
+        "y": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "printed_min",
+            "printed_max",
+            "data_min",
+            "data_max",
+            "result",
+            "reason"
+          ],
+          "properties": {
+            "printed_min": {
+              "type": "number",
+              "description": "Lowest printed tick label you read in the source image."
+            },
+            "printed_max": {
+              "type": "number",
+              "description": "Highest printed tick label you read in the source image."
+            },
+            "data_min": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "description": "Lowest extracted value on this axis (copy it from the numbers you were given; null when there are none)."
+            },
+            "data_max": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "reason": {
+              "type": "string"
+            },
+            "result": {
+              "type": "string",
+              "enum": [
+                "pass",
+                "fail"
+              ],
+              "description": "fail only for a shifted or stretched axis or wrongly read tick labels: the re-plot puts the curves at other values than the source against its ticks. Python checks the value range with tolerance itself; a value slightly past the outer tick is not a fail."
+            }
+          }
+        }
+      }
+    },
+    "independent_read": {
+      "description": "Filled from the source panel alone, before looking at the candidate.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "x_axis",
+        "y_axis",
+        "series",
+        "visual_risks"
+      ],
+      "properties": {
+        "x_axis": {
+          "type": "string"
+        },
+        "y_axis": {
+          "type": "string"
+        },
+        "series": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "label",
+              "marker",
+              "marker_fill",
+              "visible_markers_estimate",
+              "notes"
+            ],
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "marker": {
+                "description": "Marker outline as drawn in the legend. Triangles are named by the direction their apex points.",
+                "type": "string",
+                "enum": [
+                  "circle",
+                  "square",
+                  "diamond",
+                  "triangle_up",
+                  "triangle_down",
+                  "triangle_left",
+                  "triangle_right",
+                  "pentagon",
+                  "hexagon",
+                  "star",
+                  "plus",
+                  "cross",
+                  "none"
+                ]
+              },
+              "marker_fill": {
+                "type": "string",
+                "enum": [
+                  "open",
+                  "filled"
+                ]
+              },
+              "visible_markers_estimate": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "notes": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "visual_risks": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "verdict": {
+      "type": "string",
+      "enum": [
+        "accept",
+        "review",
+        "reject"
+      ]
+    },
+    "series": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "label",
+          "coverage",
+          "final_count",
+          "comment"
+        ],
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "coverage": {
+            "type": "string",
+            "enum": [
+              "complete",
+              "incomplete",
+              "uncertain"
+            ]
+          },
+          "final_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "comment": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "uncertainties": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "row_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "calibration": {
+      "type": "object",
+      "required": [
+        "axis_models",
+        "frame_px"
+      ],
+      "description": "Full final calibration in the candidate JSON format; independently verify or correct native tick anchors."
+    },
+    "unresolved_slots": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "total",
+        "by_series",
+        "slots"
+      ],
+      "properties": {
+        "total": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "by_series": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "slots": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "series_label",
+              "reason"
+            ],
+            "properties": {
+              "series_label": {
+                "type": "string",
+                "minLength": 1
+              },
+              "reason": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "changes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "action",
+          "point_id",
+          "reason",
+          "source_evidence"
+        ],
+        "properties": {
+          "action": {
+            "enum": [
+              "add",
+              "move",
+              "delete",
+              "reassign"
+            ]
+          },
+          "point_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_evidence": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  }
+}

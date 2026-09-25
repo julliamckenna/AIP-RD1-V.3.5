@@ -1,0 +1,690 @@
+{
+ "calibration": {
+  "px_per_unit_x": 194.14888398332107,
+  "px_per_unit_y": 1.1423071912454406,
+  "unit_per_px_x": 0.0051506863160022485,
+  "unit_per_px_y": 0.8754212594159675,
+  "axis_models": {
+   "x": {
+    "scale": "linear",
+    "slope": 0.0051506863160022485,
+    "intercept": -0.43141577547707344
+   },
+   "y": {
+    "scale": "linear",
+    "slope": -0.8754212594159675,
+    "intercept": 181.2879276032549
+   }
+  },
+  "tick_fit_resid_x": 0.003032044924799082,
+  "tick_fit_resid_y": 0.5303164221318468,
+  "tick_fit_resid_x_px": 0.5886681383370345,
+  "tick_fit_resid_y_px": 0.6057842626367613,
+  "frame_px": [
+   74,
+   47,
+   287,
+   218
+  ],
+  "x_ticks_px": [
+   84,
+   122,
+   162,
+   200,
+   239,
+   278
+  ],
+  "y_ticks_px": [
+   47,
+   70,
+   93,
+   116,
+   138,
+   162,
+   184,
+   207
+  ],
+  "tick_anchors": {
+   "x": [
+    {
+     "pixel_norm": 0.27009646302250806,
+     "value": 0.0
+    },
+    {
+     "pixel_norm": 0.39228295819935693,
+     "value": 0.2
+    },
+    {
+     "pixel_norm": 0.5209003215434084,
+     "value": 0.4
+    },
+    {
+     "pixel_norm": 0.6430868167202572,
+     "value": 0.6
+    },
+    {
+     "pixel_norm": 0.7684887459807074,
+     "value": 0.8
+    },
+    {
+     "pixel_norm": 0.8938906752411575,
+     "value": 1.0
+    }
+   ],
+   "y": [
+    {
+     "pixel_norm": 0.7446043165467626,
+     "value": 0.0
+    },
+    {
+     "pixel_norm": 0.6618705035971223,
+     "value": 20.0
+    },
+    {
+     "pixel_norm": 0.5827338129496403,
+     "value": 40.0
+    },
+    {
+     "pixel_norm": 0.49640287769784175,
+     "value": 60.0
+    },
+    {
+     "pixel_norm": 0.4172661870503597,
+     "value": 80.0
+    },
+    {
+     "pixel_norm": 0.3345323741007194,
+     "value": 100.0
+    },
+    {
+     "pixel_norm": 0.2517985611510791,
+     "value": 120.0
+    },
+    {
+     "pixel_norm": 0.16906474820143885,
+     "value": 140.0
+    }
+   ]
+  },
+  "color_tolerance_lab": 45.0,
+  "color_tolerance_per_series": [
+   45.0,
+   45.0
+  ],
+  "base_color_passes": 3,
+  "complex_region_passes": 2,
+  "complex_region_count": 1,
+  "complex_regions_accepted": [
+   {
+    "bbox_px": [
+     100.0,
+     90.0,
+     234.0,
+     171.0
+    ],
+    "data_x": [
+     0.08365285612315143,
+     0.7738448224674525
+    ],
+    "bbox_norm": [
+     0.3215434083601286,
+     0.3237410071942446,
+     0.7524115755627009,
+     0.6151079136690647
+    ],
+    "kind": "inset",
+    "python_passes": 2
+   }
+  ],
+  "complex_regions_rejected": [],
+  "legend_reader": "declared_colors_direct_labels",
+  "sample_colors": [],
+  "legend_markers": [],
+  "twins_split_by_lines": 0,
+  "line_split_enabled": false,
+  "series_gate": [],
+  "color_ambiguity_groups": [],
+  "series_assignment_audit": {
+   "groups": [],
+   "candidates": []
+  },
+  "series_assignment_margin": 0.12,
+  "reclaimed_points": 0,
+  "dense_circle_detector": {
+   "regions": [],
+   "native_supported_additions": 0,
+   "unresolved_fused_regions": 0
+  },
+  "dense_region_resolver": {
+   "roi_px": [
+    [
+     74.0,
+     64.0,
+     105.95,
+     199.93
+    ]
+   ],
+   "columns": 0,
+   "native_supported_additions": 0
+  },
+  "region_strategies": [
+   {
+    "strategy": "ignore",
+    "bbox_px": [
+     100,
+     90,
+     234,
+     171
+    ],
+    "series": []
+   }
+  ],
+  "x_grid_columns": 0,
+  "x_grid_supported_columns": 0,
+  "exact_duplicates_dropped": {
+   "CO2 195K": 0
+  }
+ },
+ "series": [
+  {
+   "label": "CO2 195K",
+   "n_points": 34,
+   "marker_radius_px": 4.0,
+   "extract": true,
+   "gas": "CO2",
+   "color_lab": [
+    142.0,
+    161.0,
+    59.0
+   ],
+   "marker_glyph": null,
+   "color_twins": [],
+   "x_min": 0.0012,
+   "x_max": 0.967,
+   "y_min": 1.0912,
+   "y_max": 125.6987,
+   "points": [
+    {
+     "x": 0.0012,
+     "y": 1.0912,
+     "px": [
+      84.0,
+      205.84
+     ],
+     "confidence": 0.62,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-4f62de10b3346e65",
+     "source_instance_id": "src-48b9e6137c81bfb9"
+    },
+    {
+     "x": 0.0012,
+     "y": 11.4212,
+     "px": [
+      84.0,
+      194.04
+     ],
+     "confidence": 0.85,
+     "overlap_flag": true,
+     "assigned_by": "agent03_review_points",
+     "source": "agent03_review_points",
+     "point_id": "pt-2cc770557e8343db",
+     "source_instance_id": "src-d4e8c10372cf40a9"
+    },
+    {
+     "x": 0.0028,
+     "y": 15.7983,
+     "px": [
+      84.31,
+      189.04
+     ],
+     "confidence": 0.85,
+     "overlap_flag": true,
+     "assigned_by": "agent03_review_points",
+     "source": "agent03_review_points",
+     "point_id": "pt-3c71377f4aca926d",
+     "source_instance_id": "src-f48f76a9938df06b"
+    },
+    {
+     "x": 0.0036,
+     "y": 23.0205,
+     "px": [
+      84.45,
+      180.79
+     ],
+     "confidence": 0.62,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-2928bf13af0abf2e",
+     "source_instance_id": "src-830d61204f221d8b"
+    },
+    {
+     "x": 0.0039,
+     "y": 20.1929,
+     "px": [
+      84.51,
+      184.02
+     ],
+     "confidence": 0.62,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-b98d8e0aa3736507",
+     "source_instance_id": "src-5490c78e454e2e87"
+    },
+    {
+     "x": 0.0047,
+     "y": 25.2528,
+     "px": [
+      84.68,
+      178.24
+     ],
+     "confidence": 0.62,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-a40a0c827afa4590",
+     "source_instance_id": "src-4253e50090d7bb34"
+    },
+    {
+     "x": 0.0064,
+     "y": 32.3438,
+     "px": [
+      85.0,
+      170.14
+     ],
+     "confidence": 0.85,
+     "overlap_flag": true,
+     "assigned_by": "agent03_review_points",
+     "source": "agent03_review_points",
+     "point_id": "pt-0633961308fd260f",
+     "source_instance_id": "src-234b7658a12a99c0"
+    },
+    {
+     "x": 0.0085,
+     "y": 39.4084,
+     "px": [
+      85.4,
+      162.07
+     ],
+     "confidence": 0.85,
+     "overlap_flag": true,
+     "assigned_by": "agent03_review_points",
+     "source": "agent03_review_points",
+     "point_id": "pt-87dfcc361d45fe48",
+     "source_instance_id": "src-47a9f1a8a6298895"
+    },
+    {
+     "x": 0.0107,
+     "y": 45.4926,
+     "px": [
+      85.84,
+      155.12
+     ],
+     "confidence": 0.85,
+     "overlap_flag": true,
+     "assigned_by": "agent03_review_points",
+     "source": "agent03_review_points",
+     "point_id": "pt-b4a3e6367a92e96b",
+     "source_instance_id": "src-e8bffdec35131c45"
+    },
+    {
+     "x": 0.0141,
+     "y": 51.2879,
+     "px": [
+      86.5,
+      148.5
+     ],
+     "confidence": 0.55,
+     "overlap_flag": true,
+     "assigned_by": "color",
+     "point_id": "pt-2c8265e9b8e57771",
+     "source_instance_id": "src-c2b9145da93b2705"
+    },
+    {
+     "x": 0.0166,
+     "y": 57.8973,
+     "px": [
+      86.99,
+      140.95
+     ],
+     "confidence": 0.85,
+     "overlap_flag": true,
+     "assigned_by": "agent03_review_points",
+     "source": "agent03_review_points",
+     "point_id": "pt-792dd3855bc0399f",
+     "source_instance_id": "src-3421698b5f26ab3d"
+    },
+    {
+     "x": 0.0208,
+     "y": 64.962,
+     "px": [
+      87.8,
+      132.88
+     ],
+     "confidence": 0.85,
+     "overlap_flag": true,
+     "assigned_by": "agent03_review_points",
+     "source": "agent03_review_points",
+     "point_id": "pt-5a3f7b44ca53ff16",
+     "source_instance_id": "src-9418ec4b20dc0811"
+    },
+    {
+     "x": 0.0259,
+     "y": 71.7727,
+     "px": [
+      88.79,
+      125.1
+     ],
+     "confidence": 0.85,
+     "overlap_flag": true,
+     "assigned_by": "agent03_review_points",
+     "source": "agent03_review_points",
+     "point_id": "pt-f817269899d0007e",
+     "source_instance_id": "src-4ac23b717315cb49"
+    },
+    {
+     "x": 0.0321,
+     "y": 78.8286,
+     "px": [
+      90.0,
+      117.04
+     ],
+     "confidence": 0.85,
+     "overlap_flag": true,
+     "assigned_by": "agent03_review_points",
+     "source": "agent03_review_points",
+     "point_id": "pt-733142a82fb5e8fb",
+     "source_instance_id": "src-c674b7d928976c55"
+    },
+    {
+     "x": 0.0392,
+     "y": 82.6542,
+     "px": [
+      91.36,
+      112.67
+     ],
+     "confidence": 0.67,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-d2f3152cc0252783",
+     "source_instance_id": "src-88785811359a024d"
+    },
+    {
+     "x": 0.0408,
+     "y": 84.7815,
+     "px": [
+      91.68,
+      110.24
+     ],
+     "confidence": 0.62,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-6bd2e1a1bc64e9c8",
+     "source_instance_id": "src-f462699402c3080f"
+    },
+    {
+     "x": 0.043,
+     "y": 93.8596,
+     "px": [
+      92.11,
+      99.87
+     ],
+     "confidence": 0.62,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-657934db3255a634",
+     "source_instance_id": "src-6ce82d081bf0f6a1"
+    },
+    {
+     "x": 0.045,
+     "y": 98.0529,
+     "px": [
+      92.49,
+      95.08
+     ],
+     "confidence": 0.85,
+     "overlap_flag": true,
+     "assigned_by": "agent03_review_points",
+     "source": "agent03_review_points",
+     "point_id": "pt-04cc1c5478f8062d",
+     "source_instance_id": "src-454a14b505290356"
+    },
+    {
+     "x": 0.0475,
+     "y": 101.7034,
+     "px": [
+      92.99,
+      90.91
+     ],
+     "confidence": 0.85,
+     "overlap_flag": true,
+     "assigned_by": "agent03_review_points",
+     "source": "agent03_review_points",
+     "point_id": "pt-31b8b5031e6f34f5",
+     "source_instance_id": "src-8c1e2dba003d9cfd"
+    },
+    {
+     "x": 0.0529,
+     "y": 107.7876,
+     "px": [
+      94.02,
+      83.96
+     ],
+     "confidence": 0.85,
+     "overlap_flag": true,
+     "assigned_by": "agent03_review_points",
+     "source": "agent03_review_points",
+     "point_id": "pt-616d0047adfd6ad4",
+     "source_instance_id": "src-cded6c05f4778879"
+    },
+    {
+     "x": 0.058,
+     "y": 112.9,
+     "px": [
+      95.01,
+      78.12
+     ],
+     "confidence": 0.85,
+     "overlap_flag": true,
+     "assigned_by": "agent03_review_points",
+     "source": "agent03_review_points",
+     "point_id": "pt-f71c0ef56e11bb12",
+     "source_instance_id": "src-ccc64edff00ca2a9"
+    },
+    {
+     "x": 0.0631,
+     "y": 115.5788,
+     "px": [
+      96.01,
+      75.06
+     ],
+     "confidence": 0.85,
+     "overlap_flag": true,
+     "assigned_by": "agent03_review_points",
+     "source": "agent03_review_points",
+     "point_id": "pt-e89d25f4ac85a050",
+     "source_instance_id": "src-cfc17fd39ecad01f"
+    },
+    {
+     "x": 0.0709,
+     "y": 118.1701,
+     "px": [
+      97.52,
+      72.1
+     ],
+     "confidence": 0.89,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-afc18d6f830819db",
+     "source_instance_id": "src-da0b78edc2b02deb"
+    },
+    {
+     "x": 0.077,
+     "y": 119.9559,
+     "px": [
+      98.71,
+      70.06
+     ],
+     "confidence": 0.85,
+     "overlap_flag": true,
+     "assigned_by": "agent03_review_points",
+     "source": "agent03_review_points",
+     "point_id": "pt-84a96fccba1ff1a0",
+     "source_instance_id": "src-bf5572cc8d7cfd2a"
+    },
+    {
+     "x": 0.0883,
+     "y": 120.5862,
+     "px": [
+      100.91,
+      69.34
+     ],
+     "confidence": 0.67,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-9b538d3ed8ef9af0",
+     "source_instance_id": "src-01ec1be1d895b941"
+    },
+    {
+     "x": 0.1136,
+     "y": 121.1903,
+     "px": [
+      105.81,
+      68.65
+     ],
+     "confidence": 0.97,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-aabe108efd14b7c7",
+     "source_instance_id": "src-8ac07430be0cf8f6"
+    },
+    {
+     "x": 0.1714,
+     "y": 121.6192,
+     "px": [
+      117.04,
+      68.16
+     ],
+     "confidence": 0.96,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-9c290a05967939cb",
+     "source_instance_id": "src-a1c572822458bc99"
+    },
+    {
+     "x": 0.2212,
+     "y": 122.4421,
+     "px": [
+      126.7,
+      67.22
+     ],
+     "confidence": 0.98,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-20684039ea6432ab",
+     "source_instance_id": "src-7abc2f64683fc6e0"
+    },
+    {
+     "x": 0.2665,
+     "y": 122.6347,
+     "px": [
+      135.5,
+      67.0
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-04092880a299227a",
+     "source_instance_id": "src-567138d061382bd6"
+    },
+    {
+     "x": 0.4457,
+     "y": 123.4226,
+     "px": [
+      170.3,
+      66.1
+     ],
+     "confidence": 0.97,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-5e513378792217fc",
+     "source_instance_id": "src-0ebebe4952ff9b82"
+    },
+    {
+     "x": 0.5987,
+     "y": 124.3418,
+     "px": [
+      200.0,
+      65.05
+     ],
+     "confidence": 0.85,
+     "overlap_flag": false,
+     "assigned_by": "agent03_review_points",
+     "source": "agent03_review_points",
+     "point_id": "pt-9d7e649b4ce9451f",
+     "source_instance_id": "src-9f96457452e1c2bd"
+    },
+    {
+     "x": 0.8917,
+     "y": 124.867,
+     "px": [
+      256.88,
+      64.45
+     ],
+     "confidence": 0.6,
+     "overlap_flag": true,
+     "assigned_by": "color",
+     "point_id": "pt-aade45cd28cc6a67",
+     "source_instance_id": "src-bd6729c102466800"
+    },
+    {
+     "x": 0.9164,
+     "y": 125.1559,
+     "px": [
+      261.67,
+      64.12
+     ],
+     "confidence": 1.0,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-0b8786b1734fd26e",
+     "source_instance_id": "src-e61328a70b7db192"
+    },
+    {
+     "x": 0.967,
+     "y": 125.6987,
+     "px": [
+      271.5,
+      63.5
+     ],
+     "confidence": 0.95,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-30c417427d82718c",
+     "source_instance_id": "src-0f7fe46d65caebd7"
+    }
+   ],
+   "series_id": "fig3a:a:co2-195k-d3fd5c48"
+  }
+ ],
+ "unresolved_slots": {
+  "total": 0,
+  "by_series": {},
+  "slots": []
+ },
+ "excluded_series_context": {
+  "total": 0,
+  "by_series": {},
+  "slots": []
+ },
+ "unresolved_total": 0,
+ "proposal_quality": {
+  "review_required": true,
+  "warnings": [
+   {
+    "check": "marker_count",
+    "series": "CO2 195K",
+    "detail": "detected 18 of about 34 expected markers"
+   }
+  ]
+ }
+}

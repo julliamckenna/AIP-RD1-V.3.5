@@ -1,0 +1,966 @@
+{
+ "reasoning": "The axis calibration is correct: the source has linear P ticks from 0 to 1200 mbar and loading ticks from 0 to 5 mmol/g, and the re-plotted curves occupy the same ranges. The extraction is not yet acceptable because the low-pressure marker fan is substantially under-covered, several same or near-same color series are confused, CO2 273K and CO2 293K are severely undercounted, CO2 373K has poor recall and false assignments, and CO2 323K is overfilled. The legend shows CO2 283K as a hexagon rather than a diamond, CO2 363K as a star rather than a pentagon, and N2 373K as a circle rather than a diamond.",
+ "axis_check": {
+  "x": {
+   "printed_min": 0,
+   "printed_max": 1200,
+   "data_min": -4.569,
+   "data_max": 1196.6601,
+   "reason": "The source x-axis is linear with printed ticks 0, 200, 400, 600, 800, 1000, and 1200 mbar. The extracted values re-plot against these ticks without a shift or stretch; the small negative minimum is an ordinary marker-centre/axis-line tolerance.",
+   "result": "pass"
+  },
+  "y": {
+   "printed_min": 0,
+   "printed_max": 5,
+   "data_min": 0.0736,
+   "data_max": 4.9322,
+   "reason": "The source y-axis is linear with printed ticks 0 through 5 mmol/g. The extracted range re-plots at the same curve heights relative to those ticks, with the highest points just below 5.",
+   "result": "pass"
+  }
+ },
+ "satisfied": false,
+ "issues": [
+  "Low-pressure dense marker fan is incompletely extracted, especially for CO2 273K, CO2 293K, CO2 303K, CO2 333K, and CO2 373K.",
+  "Same-color or near-same-color series are being assigned to one another; use curve position and y-bands to separate CO2 from excluded N2 twins.",
+  "CO2 273K has only 5 of about 42 markers and CO2 293K only 9 of about 42.",
+  "CO2 373K has only 21 markers with recall 0.429 and substantial false assignment to CO2 293K and CO2 333K.",
+  "CO2 323K is overfilled at 55 points versus about 42, indicating template or crowded-strip false positives.",
+  "Legend declaration corrections are required: CO2 283K is a hexagon, CO2 363K is a star, and N2 373K is a circle."
+ ],
+ "structure_ok": true,
+ "chart_title": "",
+ "x_axis": {
+  "title": "P",
+  "unit": "mbar",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 1200,
+  "boundary_limits_confirmed": true,
+  "ticks": [
+   0,
+   200,
+   400,
+   600,
+   800,
+   1000,
+   1200
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.1501706485,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.2491467577,
+    "value": 200
+   },
+   {
+    "pixel_norm": 0.3470989761,
+    "value": 400
+   },
+   {
+    "pixel_norm": 0.4457337884,
+    "value": 600
+   },
+   {
+    "pixel_norm": 0.5447098976,
+    "value": 800
+   },
+   {
+    "pixel_norm": 0.6416382253,
+    "value": 1000
+   },
+   {
+    "pixel_norm": 0.7395904437,
+    "value": 1200
+   }
+  ]
+ },
+ "y_axis": {
+  "title": "CO2 Loading",
+  "unit": "mmol/g",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 5,
+  "boundary_limits_confirmed": true,
+  "ticks": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.7678958785,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.6334056399,
+    "value": 1
+   },
+   {
+    "pixel_norm": 0.4978308026,
+    "value": 2
+   },
+   {
+    "pixel_norm": 0.3644251627,
+    "value": 3
+   },
+   {
+    "pixel_norm": 0.2299349241,
+    "value": 4
+   },
+   {
+    "pixel_norm": 0.0932754881,
+    "value": 5
+   }
+  ]
+ },
+ "legend_bbox_norm": [
+  0.7556313993,
+  0,
+  1,
+  0.8449023861
+ ],
+ "total_series": 17,
+ "series": [
+  {
+   "label": "CO2 273K",
+   "marker": "square",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#030303",
+   "notes": "Same near-black color as N2 313K; separate by square shape and high CO2 curve."
+  },
+  {
+   "label": "CO2 283K",
+   "marker": "hexagon",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#f1231f",
+   "notes": "Legend glyph is a filled hexagon, not a diamond."
+  },
+  {
+   "label": "CO2 293K",
+   "marker": "triangle_up",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#384ca8",
+   "notes": "Same blue family as N2 353K; use the high curve y-band."
+  },
+  {
+   "label": "CO2 303K",
+   "marker": "triangle_down",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#0d7d75",
+   "notes": "Near-same teal family as N2 373K; use the high curve y-band."
+  },
+  {
+   "label": "CO2 313K",
+   "marker": "triangle_left",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#b94fa3",
+   "notes": "Distinct magenta left triangles."
+  },
+  {
+   "label": "CO2 323K",
+   "marker": "triangle_right",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#76792b",
+   "notes": "Corrected to the measured olive legend color; disable crowded-strip overfill."
+  },
+  {
+   "label": "CO2 333K",
+   "marker": "diamond",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#282372",
+   "notes": "Near-same dark blue family as CO2 373K; use the intermediate curve y-band."
+  },
+  {
+   "label": "CO2 343K",
+   "marker": "pentagon",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#7b0f13",
+   "notes": "Corrected to the measured dark red legend color."
+  },
+  {
+   "label": "CO2 353K",
+   "marker": "hexagon",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#f31f74",
+   "notes": "Bright pink filled hexagons."
+  },
+  {
+   "label": "CO2 363K",
+   "marker": "star",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#197b35",
+   "notes": "Source legend symbol is a star; the raster glyph measurement misclassified it as a pentagon."
+  },
+  {
+   "label": "CO2 373K",
+   "marker": "circle",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#2a2b86",
+   "notes": "Corrected to the measured dark blue color; same-color separation from CO2 333K and CO2 293K is required."
+  },
+  {
+   "label": "N2 273K",
+   "marker": "hexagon",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#79237a",
+   "notes": "Excluded N2 series."
+  },
+  {
+   "label": "N2 293K",
+   "marker": "triangle_up",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#664ca2",
+   "notes": "Excluded N2 series."
+  },
+  {
+   "label": "N2 313K",
+   "marker": "triangle_down",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#020202",
+   "notes": "Excluded near-black twin of CO2 273K."
+  },
+  {
+   "label": "N2 333K",
+   "marker": "triangle_left",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#f72120",
+   "notes": "Excluded red twin of CO2 283K."
+  },
+  {
+   "label": "N2 353K",
+   "marker": "triangle_right",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#3b4baa",
+   "notes": "Excluded blue twin of CO2 293K."
+  },
+  {
+   "label": "N2 373K",
+   "marker": "circle",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#057e7b",
+   "notes": "Excluded teal circle; source legend is a circle, not a diamond."
+  }
+ ],
+ "branches": "adsorption_only",
+ "complex_regions": [
+  {
+   "bbox_norm": [
+    0.1017,
+    0.318,
+    0.199,
+    0.772
+   ],
+   "kind": "dense_markers",
+   "python_passes": 4
+  },
+  {
+   "bbox_norm": [
+    0.145,
+    0.45,
+    0.34,
+    0.78
+   ],
+   "kind": "overlapping_markers",
+   "python_passes": 3
+  }
+ ],
+ "extraction_settings": [
+  {
+   "label": "CO2 273K",
+   "color_tolerance": 20,
+   "separate_from": [
+    "N2 313K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 10,
+     "y_min": 0.3,
+     "y_max": 2.4
+    },
+    {
+     "x_from": 10,
+     "x_to": 100,
+     "y_min": 1.5,
+     "y_max": 3.5
+    },
+    {
+     "x_from": 100,
+     "x_to": 1200,
+     "y_min": 3.0,
+     "y_max": 5.2
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Severely undercounted and same near-black color as N2 313K; constrain to the upper square curve.",
+   "sample_marker_norm": [
+    0.687,
+    0.103
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 20,
+     "count": 12
+    },
+    {
+     "x_from": 20,
+     "x_to": 200,
+     "count": 10
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "count": 20
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 1,
+     "y": 1.2
+    },
+    {
+     "x": 5,
+     "y": 2.0
+    },
+    {
+     "x": 10,
+     "y": 2.7
+    },
+    {
+     "x": 25,
+     "y": 3.5
+    },
+    {
+     "x": 50,
+     "y": 3.9
+    },
+    {
+     "x": 100,
+     "y": 4.25
+    },
+    {
+     "x": 200,
+     "y": 4.55
+    },
+    {
+     "x": 400,
+     "y": 4.75
+    },
+    {
+     "x": 800,
+     "y": 4.95
+    },
+    {
+     "x": 1200,
+     "y": 5.05
+    }
+   ]
+  },
+  {
+   "label": "CO2 283K",
+   "color_tolerance": 20,
+   "separate_from": [
+    "N2 333K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 20,
+     "y_min": 0.2,
+     "y_max": 2.2
+    },
+    {
+     "x_from": 20,
+     "x_to": 200,
+     "y_min": 1.5,
+     "y_max": 3.3
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "y_min": 3.2,
+     "y_max": 4.7
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Red CO2 and N2 curves are color-neighbours; use the upper red hexagon curve.",
+   "sample_marker_norm": [
+    0.74,
+    0.16
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 20,
+     "count": 12
+    },
+    {
+     "x_from": 20,
+     "x_to": 200,
+     "count": 10
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "count": 20
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 1,
+     "y": 0.9
+    },
+    {
+     "x": 5,
+     "y": 1.6
+    },
+    {
+     "x": 10,
+     "y": 2.1
+    },
+    {
+     "x": 25,
+     "y": 2.7
+    },
+    {
+     "x": 50,
+     "y": 3.0
+    },
+    {
+     "x": 100,
+     "y": 3.3
+    },
+    {
+     "x": 200,
+     "y": 3.55
+    },
+    {
+     "x": 400,
+     "y": 3.85
+    },
+    {
+     "x": 800,
+     "y": 4.25
+    },
+    {
+     "x": 1200,
+     "y": 4.5
+    }
+   ]
+  },
+  {
+   "label": "CO2 293K",
+   "color_tolerance": 20,
+   "separate_from": [
+    "N2 293K",
+    "N2 353K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 20,
+     "y_min": 0.2,
+     "y_max": 2.0
+    },
+    {
+     "x_from": 20,
+     "x_to": 200,
+     "y_min": 1.8,
+     "y_max": 3.0
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "y_min": 2.8,
+     "y_max": 4.2
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Only 9 markers detected; distinguish the upper blue triangles from lower N2 blue curves using trajectory.",
+   "sample_marker_norm": [
+    0.738,
+    0.221
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 20,
+     "count": 12
+    },
+    {
+     "x_from": 20,
+     "x_to": 200,
+     "count": 10
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "count": 20
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 1,
+     "y": 0.8
+    },
+    {
+     "x": 5,
+     "y": 1.5
+    },
+    {
+     "x": 10,
+     "y": 2.0
+    },
+    {
+     "x": 25,
+     "y": 2.45
+    },
+    {
+     "x": 50,
+     "y": 2.7
+    },
+    {
+     "x": 100,
+     "y": 2.9
+    },
+    {
+     "x": 200,
+     "y": 3.15
+    },
+    {
+     "x": 400,
+     "y": 3.45
+    },
+    {
+     "x": 800,
+     "y": 3.8
+    },
+    {
+     "x": 1200,
+     "y": 4.08
+    }
+   ]
+  },
+  {
+   "label": "CO2 303K",
+   "color_tolerance": 20,
+   "separate_from": [
+    "N2 373K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 20,
+     "y_min": 0.1,
+     "y_max": 1.8
+    },
+    {
+     "x_from": 20,
+     "x_to": 200,
+     "y_min": 1.5,
+     "y_max": 2.8
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "y_min": 2.6,
+     "y_max": 3.8
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Teal CO2 curve is well detected at higher pressure but overlaps the low-pressure N2 fan.",
+   "sample_marker_norm": [
+    0.74,
+    0.35
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 20,
+     "count": 12
+    },
+    {
+     "x_from": 20,
+     "x_to": 200,
+     "count": 10
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "count": 20
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 1,
+     "y": 0.6
+    },
+    {
+     "x": 5,
+     "y": 1.2
+    },
+    {
+     "x": 10,
+     "y": 1.7
+    },
+    {
+     "x": 25,
+     "y": 2.1
+    },
+    {
+     "x": 50,
+     "y": 2.35
+    },
+    {
+     "x": 100,
+     "y": 2.55
+    },
+    {
+     "x": 200,
+     "y": 2.8
+    },
+    {
+     "x": 400,
+     "y": 3.0
+    },
+    {
+     "x": 800,
+     "y": 3.35
+    },
+    {
+     "x": 1200,
+     "y": 3.62
+    }
+   ]
+  },
+  {
+   "label": "CO2 323K",
+   "color_tolerance": 18,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 20,
+     "y_min": 0.1,
+     "y_max": 1.5
+    },
+    {
+     "x_from": 20,
+     "x_to": 200,
+     "y_min": 1.2,
+     "y_max": 2.3
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "y_min": 2.3,
+     "y_max": 3.3
+    }
+   ],
+   "template_fill": "off",
+   "reason": "Detected 55 versus about 42; turn off template filling to remove crowded-strip false positives.",
+   "sample_marker_norm": [
+    0.74,
+    0.48
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 20,
+     "count": 12
+    },
+    {
+     "x_from": 20,
+     "x_to": 200,
+     "count": 10
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "count": 20
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 1,
+     "y": 0.5
+    },
+    {
+     "x": 5,
+     "y": 1.0
+    },
+    {
+     "x": 10,
+     "y": 1.4
+    },
+    {
+     "x": 25,
+     "y": 1.8
+    },
+    {
+     "x": 50,
+     "y": 2.1
+    },
+    {
+     "x": 100,
+     "y": 2.3
+    },
+    {
+     "x": 200,
+     "y": 2.5
+    },
+    {
+     "x": 400,
+     "y": 2.7
+    },
+    {
+     "x": 800,
+     "y": 2.95
+    },
+    {
+     "x": 1200,
+     "y": 3.14
+    }
+   ]
+  },
+  {
+   "label": "CO2 333K",
+   "color_tolerance": 18,
+   "separate_from": [
+    "CO2 373K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 20,
+     "y_min": 0.1,
+     "y_max": 1.2
+    },
+    {
+     "x_from": 20,
+     "x_to": 200,
+     "y_min": 1.0,
+     "y_max": 2.0
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "y_min": 2.0,
+     "y_max": 3.0
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Dark blue diamond curve is confused with CO2 373K circles; use the intermediate trajectory and diamond shape.",
+   "sample_marker_norm": [
+    0.74,
+    0.535
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 20,
+     "count": 12
+    },
+    {
+     "x_from": 20,
+     "x_to": 200,
+     "count": 10
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "count": 20
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 1,
+     "y": 0.4
+    },
+    {
+     "x": 5,
+     "y": 0.8
+    },
+    {
+     "x": 10,
+     "y": 1.1
+    },
+    {
+     "x": 25,
+     "y": 1.5
+    },
+    {
+     "x": 50,
+     "y": 1.8
+    },
+    {
+     "x": 100,
+     "y": 2.0
+    },
+    {
+     "x": 200,
+     "y": 2.25
+    },
+    {
+     "x": 400,
+     "y": 2.5
+    },
+    {
+     "x": 800,
+     "y": 2.7
+    },
+    {
+     "x": 1200,
+     "y": 2.9
+    }
+   ]
+  },
+  {
+   "label": "CO2 373K",
+   "color_tolerance": 18,
+   "separate_from": [
+    "CO2 293K",
+    "CO2 333K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 20,
+     "y_min": 0.05,
+     "y_max": 0.8
+    },
+    {
+     "x_from": 20,
+     "x_to": 200,
+     "y_min": 0.5,
+     "y_max": 1.5
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "y_min": 1.2,
+     "y_max": 2.2
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Low recall and many assignments to blue twins; use the lowest high-CO2 circle trajectory and circular shape.",
+   "sample_marker_norm": [
+    0.74,
+    0.65
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 20,
+     "count": 12
+    },
+    {
+     "x_from": 20,
+     "x_to": 200,
+     "count": 10
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "count": 20
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 1,
+     "y": 0.2
+    },
+    {
+     "x": 5,
+     "y": 0.5
+    },
+    {
+     "x": 10,
+     "y": 0.8
+    },
+    {
+     "x": 25,
+     "y": 1.05
+    },
+    {
+     "x": 50,
+     "y": 1.25
+    },
+    {
+     "x": 100,
+     "y": 1.45
+    },
+    {
+     "x": 200,
+     "y": 1.65
+    },
+    {
+     "x": 400,
+     "y": 1.8
+    },
+    {
+     "x": 800,
+     "y": 1.95
+    },
+    {
+     "x": 1200,
+     "y": 2.04
+    }
+   ]
+  }
+ ],
+ "notes": "Excluded N2 curves remain in the legend but are not extraction targets. Preserve the source legend order. Use the dense low-pressure region for trajectory-based assignment rather than color alone.",
+ "region_strategies": [],
+ "shared_x_columns": []
+}

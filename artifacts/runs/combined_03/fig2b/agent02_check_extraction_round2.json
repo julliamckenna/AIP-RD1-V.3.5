@@ -1,0 +1,483 @@
+{
+ "reasoning": "The axis calibration is correct: the re-plotted curves align with the source against the 0–120 kPa and 0–3 mmol/g ticks. The legend order and most styles are correct, but the measured legend glyphs for the green, blue, magenta and black entries are unreliable because of rasterization and line overlap; the source visibly shows triangle-up, pentagon, diamond and plus respectively. Coverage is not acceptable: the 303K series is short by about seven low-pressure markers, while template filling creates spurious points along the thick low-pressure connecting strokes, especially for 323K and 373K. The low-pressure thick-line region needs another targeted pass.",
+ "axis_check": {
+  "x": {
+   "printed_min": 0,
+   "printed_max": 120,
+   "data_min": 1.4863,
+   "data_max": 114.1177,
+   "reason": "The source x-axis is printed from 0 to 120 kPa, and the extracted/re-plotted x positions use the same linear calibration without a visible shift or stretch.",
+   "result": "pass"
+  },
+  "y": {
+   "printed_min": 0,
+   "printed_max": 3,
+   "data_min": 0.0417,
+   "data_max": 2.928,
+   "reason": "The source y-axis is printed from 0 to 3 mmol/g, and the extracted curves occupy the same values relative to those ticks; the highest point remains just below 3.",
+   "result": "pass"
+  }
+ },
+ "satisfied": false,
+ "issues": [
+  "CO2 303K has only 14 detected markers versus about 21 visible, with the shortfall concentrated in the dense low-pressure/thick-line region.",
+  "Template-filled candidates along the thick low-pressure strokes produce false or ambiguous additions, particularly for CO2 323K and CO2 373K.",
+  "The legend measurement incorrectly reports CO2 323K as a pentagon, CO2 333K as an open circle, CO2 353K as a hexagon, and CO2 373K as a diamond; the source legend shows triangle_up, pentagon filled, diamond filled, and plus respectively.",
+  "The existing complex-region handling needs a targeted low-pressure extraction pass rather than relying on generic template filling."
+ ],
+ "structure_ok": true,
+ "chart_title": "",
+ "x_axis": {
+  "title": "Pressure",
+  "unit": "kPa",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 120,
+  "boundary_limits_confirmed": false,
+  "ticks": [
+   0,
+   40,
+   80,
+   120
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.225,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.457,
+    "value": 40
+   },
+   {
+    "pixel_norm": 0.689,
+    "value": 80
+   },
+   {
+    "pixel_norm": 0.919,
+    "value": 120
+   }
+  ]
+ },
+ "y_axis": {
+  "title": "CO2 Loading",
+  "unit": "mmol/g",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 3,
+  "boundary_limits_confirmed": false,
+  "ticks": [
+   0,
+   0.5,
+   1,
+   1.5,
+   2,
+   2.5,
+   3
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.81,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.694,
+    "value": 0.5
+   },
+   {
+    "pixel_norm": 0.576,
+    "value": 1
+   },
+   {
+    "pixel_norm": 0.46,
+    "value": 1.5
+   },
+   {
+    "pixel_norm": 0.344,
+    "value": 2
+   },
+   {
+    "pixel_norm": 0.227,
+    "value": 2.5
+   },
+   {
+    "pixel_norm": 0.109,
+    "value": 3
+   }
+  ]
+ },
+ "legend_bbox_norm": [
+  0.5513,
+  0.5832,
+  0.9134,
+  0.8025
+ ],
+ "total_series": 6,
+ "series": [
+  {
+   "label": "CO2 303K",
+   "marker": "circle",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#e52525",
+   "notes": "Red filled circles."
+  },
+  {
+   "label": "CO2 313K",
+   "marker": "square",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#f39c12",
+   "notes": "Orange filled squares."
+  },
+  {
+   "label": "CO2 323K",
+   "marker": "triangle_up",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#219653",
+   "notes": "Green filled upward triangles; raster measurement of the crowded legend glyph is unreliable."
+  },
+  {
+   "label": "CO2 333K",
+   "marker": "pentagon",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#29459b",
+   "notes": "Blue filled pentagons."
+  },
+  {
+   "label": "CO2 353K",
+   "marker": "diamond",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#d32c93",
+   "notes": "Magenta filled diamonds."
+  },
+  {
+   "label": "CO2 373K",
+   "marker": "plus",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#111111",
+   "notes": "Black plus markers; apparent diamond shape in the measured legend raster is caused by overlap/thickening."
+  }
+ ],
+ "branches": "adsorption_only",
+ "complex_regions": [
+  {
+   "bbox_norm": [
+    0.22,
+    0.1,
+    0.43,
+    0.81
+   ],
+   "kind": "thick_connecting_lines",
+   "python_passes": 5
+  },
+  {
+   "bbox_norm": [
+    0.225,
+    0.57,
+    0.36,
+    0.81
+   ],
+   "kind": "dense_markers",
+   "python_passes": 4
+  }
+ ],
+ "extraction_settings": [
+  {
+   "label": "CO2 303K",
+   "color_tolerance": 34,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 5,
+     "y_min": 0,
+     "y_max": 1.55
+    },
+    {
+     "x_from": 5,
+     "x_to": 30,
+     "y_min": 0.9,
+     "y_max": 2.35
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "y_min": 2.15,
+     "y_max": 3.05
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Recover the missing red low-pressure circles using the steep trajectory, while avoiding arbitrary filling away from the curve.",
+   "sample_marker_norm": [
+    0.689,
+    0.168
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 5,
+     "count": 6
+    },
+    {
+     "x_from": 5,
+     "x_to": 30,
+     "count": 5
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "count": 10
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 1,
+     "y": 0.55
+    },
+    {
+     "x": 3,
+     "y": 1.05
+    },
+    {
+     "x": 5,
+     "y": 1.45
+    },
+    {
+     "x": 8,
+     "y": 1.75
+    },
+    {
+     "x": 12,
+     "y": 1.95
+    },
+    {
+     "x": 20,
+     "y": 2.15
+    },
+    {
+     "x": 30,
+     "y": 2.3
+    },
+    {
+     "x": 50,
+     "y": 2.52
+    },
+    {
+     "x": 80,
+     "y": 2.75
+    },
+    {
+     "x": 100,
+     "y": 2.88
+    },
+    {
+     "x": 115,
+     "y": 2.96
+    }
+   ]
+  },
+  {
+   "label": "CO2 323K",
+   "color_tolerance": 34,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 5,
+     "y_min": 0,
+     "y_max": 1.05
+    },
+    {
+     "x_from": 5,
+     "x_to": 30,
+     "y_min": 0.75,
+     "y_max": 1.9
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "y_min": 1.75,
+     "y_max": 2.5
+    }
+   ],
+   "template_fill": "off",
+   "reason": "The source has about 21 green triangle markers; generic template filling overcounts ink in the thick green low-pressure stroke.",
+   "sample_marker_norm": [
+    0.689,
+    0.285
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 5,
+     "count": 6
+    },
+    {
+     "x_from": 5,
+     "x_to": 30,
+     "count": 5
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "count": 10
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 1,
+     "y": 0.35
+    },
+    {
+     "x": 3,
+     "y": 0.72
+    },
+    {
+     "x": 5,
+     "y": 1.0
+    },
+    {
+     "x": 8,
+     "y": 1.3
+    },
+    {
+     "x": 12,
+     "y": 1.55
+    },
+    {
+     "x": 20,
+     "y": 1.75
+    },
+    {
+     "x": 30,
+     "y": 1.9
+    },
+    {
+     "x": 50,
+     "y": 2.1
+    },
+    {
+     "x": 80,
+     "y": 2.27
+    },
+    {
+     "x": 100,
+     "y": 2.35
+    },
+    {
+     "x": 115,
+     "y": 2.42
+    }
+   ]
+  },
+  {
+   "label": "CO2 373K",
+   "color_tolerance": 34,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 5,
+     "y_min": 0,
+     "y_max": 0.65
+    },
+    {
+     "x_from": 5,
+     "x_to": 30,
+     "y_min": 0.55,
+     "y_max": 1.4
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "y_min": 0.7,
+     "y_max": 1.7
+    }
+   ],
+   "template_fill": "off",
+   "reason": "The black thick low-pressure connecting stroke is not a sequence of 32 black plus markers; disable template filling and use the visible plus-marker trajectory to avoid stroke artifacts.",
+   "sample_marker_norm": [
+    0.689,
+    0.496
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 30,
+     "count": 5
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "count": 13
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 3,
+     "y": 0.25
+    },
+    {
+     "x": 6,
+     "y": 0.55
+    },
+    {
+     "x": 10,
+     "y": 0.78
+    },
+    {
+     "x": 15,
+     "y": 0.98
+    },
+    {
+     "x": 22,
+     "y": 1.18
+    },
+    {
+     "x": 30,
+     "y": 1.35
+    },
+    {
+     "x": 45,
+     "y": 1.55
+    },
+    {
+     "x": 60,
+     "y": 1.68
+    },
+    {
+     "x": 80,
+     "y": 1.82
+    },
+    {
+     "x": 100,
+     "y": 1.95
+    },
+    {
+     "x": 115,
+     "y": 2.02
+    }
+   ]
+  }
+ ],
+ "notes": "All six series are single adsorption branches. Preserve the declared source marker shapes rather than low-confidence raster glyph classifications; use trajectory and marker geometry to distinguish true points from thick connecting strokes.",
+ "region_strategies": [],
+ "shared_x_columns": []
+}

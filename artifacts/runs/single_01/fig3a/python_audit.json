@@ -1,0 +1,120 @@
+{
+ "series_assignment_audit": {
+  "groups": [],
+  "candidates": []
+ },
+ "series_gate": [
+  {
+   "from": "CO2 195K",
+   "to": "CO2 195K",
+   "x": 0.0038,
+   "y": 27.2138,
+   "reason": "within_pixel_derived_y_band_margin",
+   "y_margin": 4.3771
+  },
+  {
+   "from": "CO2 195K",
+   "x": 0.0332,
+   "y": 67.2369,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 195K",
+   "x": 0.0345,
+   "y": 69.4149,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 195K",
+   "x": 0.0357,
+   "y": 71.6507,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 195K",
+   "x": 0.0406,
+   "y": 85.4712,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 195K",
+   "x": 0.0408,
+   "y": 84.782,
+   "reason": "outside own y_bands",
+   "to": null
+  }
+ ],
+ "template_fill": {
+  "template_fit": 0,
+  "template_fill": 0,
+  "slots": []
+ },
+ "complex_regions_accepted": [
+  {
+   "bbox_px": [
+    74.02,
+    177.92,
+    107.29,
+    214.06
+   ],
+   "data_x": [
+    -0.05017227573921901,
+    0.12122711279838772
+   ],
+   "bbox_norm": [
+    0.238,
+    0.64,
+    0.345,
+    0.77
+   ],
+   "kind": "dense_markers",
+   "python_passes": 6
+  },
+  {
+   "bbox_px": [
+    74.02,
+    72.28,
+    99.83,
+    208.5
+   ],
+   "data_x": [
+    -0.05017227573921901,
+    0.08278239013574706
+   ],
+   "bbox_norm": [
+    0.238,
+    0.26,
+    0.321,
+    0.75
+   ],
+   "kind": "thick_connecting_lines",
+   "python_passes": 6
+  },
+  {
+   "bbox_px": [
+    100.0,
+    90.0,
+    234.0,
+    171.0
+   ],
+   "data_x": [
+    0.08365285612315143,
+    0.7738448224674525
+   ],
+   "bbox_norm": [
+    0.3215434083601286,
+    0.3237410071942447,
+    0.7524115755627009,
+    0.6151079136690647
+   ],
+   "kind": "inset",
+   "python_passes": 2
+  }
+ ],
+ "complex_regions_rejected": [],
+ "legend_markers": []
+}

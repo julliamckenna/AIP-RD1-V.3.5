@@ -1,0 +1,25 @@
+{
+ "agent_name": "agent03-extraction",
+ "agent_version": "4",
+ "response_id": "resp_0391e1a345b61280006ab693bad5ec8193acca0da160687dee",
+ "usage": {
+  "input_tokens": 63208,
+  "input_tokens_details": {
+   "cache_write_tokens": 63205,
+   "cached_tokens": 0
+  },
+  "output_tokens": 3144,
+  "output_tokens_details": {
+   "reasoning_tokens": 1174
+  },
+  "total_tokens": 66352
+ },
+ "created_at": "2026-09-25T15:31:42.319843+00:00",
+ "dry_run": false,
+ "normalizations": [
+  {
+   "action": "missing_top_level_default",
+   "key": "coverage"
+  }
+ ]
+}

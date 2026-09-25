@@ -1,0 +1,116 @@
+{
+ "series_assignment_audit": {
+  "groups": [],
+  "candidates": []
+ },
+ "series_gate": [
+  {
+   "from": "CO2 195K",
+   "x": 0.0023,
+   "y": -0.1163,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 195K",
+   "x": 0.0291,
+   "y": 63.6099,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "N2 77K",
+   "x": 0.1264,
+   "y": -0.1176,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "N2 77K",
+   "x": 0.1979,
+   "y": -0.1871,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "N2 77K",
+   "x": 0.2388,
+   "y": -0.4897,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "N2 77K",
+   "x": 0.3738,
+   "y": -0.1163,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "N2 77K",
+   "x": 0.5476,
+   "y": -0.7314,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "N2 77K",
+   "x": 0.6252,
+   "y": -1.2485,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "N2 77K",
+   "x": 0.9392,
+   "y": -0.4664,
+   "reason": "outside own y_bands",
+   "to": null
+  }
+ ],
+ "template_fill": null,
+ "complex_regions_accepted": [
+  {
+   "bbox_px": [
+    145.0,
+    140.0,
+    203.0,
+    475.0
+   ],
+   "data_x": [
+    -0.015228099403368611,
+    0.10445962443470147
+   ],
+   "bbox_norm": [
+    0.20626,
+    0.22617,
+    0.28876,
+    0.76737
+   ],
+   "kind": "dense_markers",
+   "python_passes": 3
+  },
+  {
+   "bbox_px": [
+    252.0,
+    172.67,
+    520.0,
+    390.0
+   ],
+   "data_x": [
+    0.20557761657425877,
+    0.7586509615292578
+   ],
+   "bbox_norm": [
+    0.35846,
+    0.27895,
+    0.73969,
+    0.63005
+   ],
+   "kind": "inset",
+   "python_passes": 2
+  }
+ ],
+ "complex_regions_rejected": [],
+ "legend_markers": []
+}

@@ -1,0 +1,162 @@
+{
+ "schema_version": "1.0",
+ "actor": "agent03_review_points",
+ "requested": 14,
+ "applied": 14,
+ "operations": [
+  {
+   "operation_index": 0,
+   "operation_id": "op-1",
+   "action": "delete",
+   "point_id": "pt-08afdc39ab531d49",
+   "series_label": null,
+   "reason": "Duplicate or stroke artifact near the visible green marker at approximately (198.6,377.5).",
+   "source_evidence": "Native tile marker_01 box 3 shows one green marker in this overlap; no separate green marker center is visible at native pixel (199.19,381.53).",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 1,
+   "operation_id": "op-2",
+   "action": "delete",
+   "point_id": "pt-b3811a15f6532a34",
+   "series_label": null,
+   "reason": "Near-duplicate of the adjacent visible 333K pentagon.",
+   "source_evidence": "Native tile marker_01 box 4 shows the neighboring blue pentagon pattern but no distinct second center at native pixel (613.07,190.41).",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 2,
+   "operation_id": "op-3",
+   "action": "delete",
+   "point_id": "pt-56f3ced100bb1896",
+   "series_label": null,
+   "reason": "Duplicate detection of the single magenta diamond in the crowded low-pressure overlap.",
+   "source_evidence": "Native tile marker_01 box 5 shows one magenta diamond near native pixel (198,470), not two distinct diamonds separated by 2 pixels.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 3,
+   "operation_id": "op-4",
+   "action": "delete",
+   "point_id": "pt-9c233d27f2011b29",
+   "series_label": null,
+   "reason": "Duplicate low-confidence detection of the visible magenta diamond near 13.5 kPa.",
+   "source_evidence": "Native tile marker_01 box 6 shows one magenta diamond around native pixel (227,425); no separate marker center is visible at (227.21,424.27).",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 4,
+   "operation_id": "op-5",
+   "action": "delete",
+   "point_id": "pt-aed8b3680ce66777",
+   "series_label": null,
+   "reason": "Duplicate low-confidence detection of the visible magenta diamond near 19.5 kPa.",
+   "source_evidence": "Native tile marker_01 box 7 shows one magenta diamond around native pixel (253,391), not a second marker at (253.17,392.39).",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 5,
+   "operation_id": "op-6",
+   "action": "delete",
+   "point_id": "pt-68daa47b5dff657b",
+   "series_label": null,
+   "reason": "False detection on the thick black connecting stroke; no distinct plus marker is visible.",
+   "source_evidence": "Native source pixels around (176.86,514.84) contain only the black stroke emerging from the origin, without a separable plus glyph.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 6,
+   "operation_id": "op-7",
+   "action": "delete",
+   "point_id": "pt-87a549d3f9f6f398",
+   "series_label": null,
+   "reason": "False detection on the thick black connecting stroke; no distinct plus marker is visible.",
+   "source_evidence": "Native source pixels around (184.16,509.40) show continuous black line ink only, with no separable plus center.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 7,
+   "operation_id": "op-8",
+   "action": "delete",
+   "point_id": "pt-b11b2607579e0ed5",
+   "series_label": null,
+   "reason": "False detection on the thick black connecting stroke; no distinct plus marker is visible.",
+   "source_evidence": "Native source pixels around (189.37,505.18) are part of the continuous black low-pressure stroke, not a visible plus glyph.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 8,
+   "operation_id": "op-9",
+   "action": "delete",
+   "point_id": "pt-64b950e7ef982660",
+   "series_label": null,
+   "reason": "False detection on the thick black connecting stroke; no distinct plus marker is visible.",
+   "source_evidence": "Native tile marker_01 box 8 shows only the broad black connecting stroke near native pixel (236.00,466.00), with no separable black plus.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 9,
+   "operation_id": "op-10",
+   "action": "delete",
+   "point_id": "pt-b7c5fee9ccca5dc8",
+   "series_label": null,
+   "reason": "False detection on the thick black connecting stroke; no distinct plus marker is visible.",
+   "source_evidence": "Native source pixels around (261.94,443.96) lie within continuous black line ink and do not show a distinct plus marker.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 10,
+   "operation_id": "op-11",
+   "action": "delete",
+   "point_id": "pt-3c65cd34da3bab76",
+   "series_label": null,
+   "reason": "False detection on the thick black connecting stroke; no distinct plus marker is visible.",
+   "source_evidence": "Native source pixels around (266.62,440.65) show the same uninterrupted black stroke, without a separable plus center.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 11,
+   "operation_id": "op-12",
+   "action": "delete",
+   "point_id": "pt-9a1729bb4bba7cde",
+   "series_label": null,
+   "reason": "False detection on the thick black connecting stroke; no distinct plus marker is visible.",
+   "source_evidence": "Native source pixels around (272.44,435.96) are covered by the thick black connecting line, with no visible plus glyph.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 12,
+   "operation_id": "op-13",
+   "action": "delete",
+   "point_id": "pt-3f6a083d0a0a2eae",
+   "series_label": null,
+   "reason": "False detection on the thick black connecting stroke; no distinct plus marker is visible.",
+   "source_evidence": "Native source pixels around (278.10,431.98) contain only the continuous black stroke and no distinct marker center.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 13,
+   "operation_id": "op-14",
+   "action": "delete",
+   "point_id": "pt-3e0e0844816e6ac3",
+   "series_label": null,
+   "reason": "False detection on the thick black connecting stroke; no distinct plus marker is visible.",
+   "source_evidence": "Native source pixels around (283.21,427.61) remain within the broad black stroke; the first clearly separable plus is farther right near 33 kPa.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  }
+ ]
+}

@@ -1,0 +1,390 @@
+{
+ "reasoning": "Inspected all attached native tiles and the three native complex-region crops. The template-fill CO2 373K claims at panel pixels (238.44,732.28) and (261.29,711.21) have no source-visible circle markers and are deleted. The template-fit claims in the crowded 353K and 363K strips coincide with identifiable colored marker glyphs or fragments in the native crops; they are retained with source-supported centers and uncertainty. The native evidence does not safely resolve all omitted low-pressure 313K and 323K markers, so those series remain incomplete rather than being filled from expected counts.",
+ "verdict": "review",
+ "series": [
+  {
+   "label": "CO2 273K",
+   "coverage": "complete",
+   "final_count": 39,
+   "comment": "No source-supported edits in this batch."
+  },
+  {
+   "label": "CO2 283K",
+   "coverage": "complete",
+   "final_count": 35,
+   "comment": "No source-supported edits in this batch."
+  },
+  {
+   "label": "CO2 293K",
+   "coverage": "complete",
+   "final_count": 44,
+   "comment": "No source-supported edits in this batch."
+  },
+  {
+   "label": "CO2 303K",
+   "coverage": "complete",
+   "final_count": 45,
+   "comment": "No source-supported edits in this batch."
+  },
+  {
+   "label": "CO2 313K",
+   "coverage": "incomplete",
+   "final_count": 15,
+   "comment": "Native complex-region evidence does not safely identify all of the apparent low-pressure omissions."
+  },
+  {
+   "label": "CO2 323K",
+   "coverage": "incomplete",
+   "final_count": 21,
+   "comment": "Native evidence confirms the extracted olive markers but does not safely support adding every apparent omitted low-pressure point."
+  },
+  {
+   "label": "CO2 333K",
+   "coverage": "complete",
+   "final_count": 37,
+   "comment": "Native overlapping-region inspection found no definite additional or false CO2 diamond."
+  },
+  {
+   "label": "CO2 343K",
+   "coverage": "complete",
+   "final_count": 35,
+   "comment": "Native overlapping-region inspection found no definite additional or false CO2 pentagon."
+  },
+  {
+   "label": "CO2 353K",
+   "coverage": "complete",
+   "final_count": 35,
+   "comment": "Crowded template-fit claims were tied to visible magenta hexagon pixels and retained at source-supported centers."
+  },
+  {
+   "label": "CO2 363K",
+   "coverage": "complete",
+   "final_count": 34,
+   "comment": "Crowded template-fit claims were tied to visible green star pixels and retained at source-supported centers."
+  },
+  {
+   "label": "CO2 373K",
+   "coverage": "incomplete",
+   "final_count": 30,
+   "comment": "Two template-fill claims below the plotted baseline have no native circle evidence and were deleted; remaining native circles are retained."
+  }
+ ],
+ "operations": [
+  {
+   "operation_id": "op-353-template-1",
+   "action": "move",
+   "point_id": "pt-3aba28d550df9700",
+   "series_label": "CO2 353K",
+   "x_norm": 0.170096,
+   "y_norm": 0.726177,
+   "overlap": true,
+   "reason": "The native crowded crop shows a supported magenta hexagon fragment at the proposed low-pressure location, overlapping the neighboring green star; replace the unsupported template placement with the fragment-supported center.",
+   "source_evidence": "Magenta filled hexagon pixels are visible around full-panel pixel (248,663), with green-star overlap immediately below/right; the center estimate is fragment-based.",
+   "evidence_kind": "partial_marker",
+   "uncertainty_px": 4.5,
+   "evidence_ref": "box:marker_07:55"
+  },
+  {
+   "operation_id": "op-353-template-2",
+   "action": "move",
+   "point_id": "pt-9cb1521a1cb6b5c2",
+   "series_label": "CO2 353K",
+   "x_norm": 0.240741,
+   "y_norm": 0.617744,
+   "overlap": true,
+   "reason": "The native dense-region crop shows the magenta 353K marker at this location; the template-fit label is replaced by a source-supported center.",
+   "source_evidence": "Visible magenta filled-hexagon body and connecting line are centered near full-panel pixel (351,564), partly crowded with adjacent curves.",
+   "evidence_kind": "partial_marker",
+   "uncertainty_px": 4.0,
+   "evidence_ref": "tile:region_01"
+  },
+  {
+   "operation_id": "op-363-template-1",
+   "action": "move",
+   "point_id": "pt-b1c6ef922f803ce6",
+   "series_label": "CO2 363K",
+   "x_norm": 0.252401,
+   "y_norm": 0.643045,
+   "overlap": true,
+   "reason": "The native crop contains a visible green star at the template-fit location amid the 353K and 373K curves.",
+   "source_evidence": "Green star-shaped pixels are visible near full-panel pixel (368,587), with partial occlusion by neighboring colored curves.",
+   "evidence_kind": "partial_marker",
+   "uncertainty_px": 4.5,
+   "evidence_ref": "box:marker_07:56"
+  },
+  {
+   "operation_id": "op-363-template-2",
+   "action": "move",
+   "point_id": "pt-05b1309967d787a0",
+   "series_label": "CO2 363K",
+   "x_norm": 0.331276,
+   "y_norm": 0.578313,
+   "overlap": true,
+   "reason": "The native crop shows the green star glyph at this crowded point, supporting the retained series assignment and center.",
+   "source_evidence": "Visible green star arms and green connecting line support a center near full-panel pixel (483,528).",
+   "evidence_kind": "partial_marker",
+   "uncertainty_px": 4.0,
+   "evidence_ref": "box:marker_08:57"
+  },
+  {
+   "operation_id": "op-363-template-3",
+   "action": "move",
+   "point_id": "pt-08127ead96f0960d",
+   "series_label": "CO2 363K",
+   "x_norm": 0.373114,
+   "y_norm": 0.552574,
+   "overlap": true,
+   "reason": "The native crop shows a green star fragment on the 363K curve rather than an unsupported template-only placement.",
+   "source_evidence": "Green star-shaped marker pixels are visible near full-panel pixel (544,505), partly blended with the magenta curve above.",
+   "evidence_kind": "partial_marker",
+   "uncertainty_px": 4.5,
+   "evidence_ref": "box:marker_08:58"
+  },
+  {
+   "operation_id": "op-363-template-4",
+   "action": "move",
+   "point_id": "pt-d5dc4adfadee271a",
+   "series_label": "CO2 363K",
+   "x_norm": 0.403292,
+   "y_norm": 0.537788,
+   "overlap": true,
+   "reason": "The native crop contains a visible green star at this location, so the template-fit claim can be anchored to source pixels.",
+   "source_evidence": "Green star body and connecting green line are visible around full-panel pixel (588,491).",
+   "evidence_kind": "partial_marker",
+   "uncertainty_px": 4.0,
+   "evidence_ref": "box:marker_08:60"
+  },
+  {
+   "operation_id": "op-373-template-fill-1",
+   "action": "delete",
+   "point_id": "pt-209cd5b2ad1b9513",
+   "series_label": "CO2 373K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": false,
+   "reason": "The native crop at the proposed below-axis position shows only crowded neighboring series and no identifiable filled blue circle; this was a template fill without source pixel support.",
+   "source_evidence": "No blue CO2 373K circle or circle arc is visible at full-panel pixel (238.44,732.28); the source is occupied by other low-baseline series.",
+   "evidence_kind": "native_absence",
+   "uncertainty_px": null,
+   "evidence_ref": "box:marker_08:64"
+  },
+  {
+   "operation_id": "op-373-template-fill-2",
+   "action": "delete",
+   "point_id": "pt-175694a25d82abfe",
+   "series_label": "CO2 373K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": false,
+   "reason": "The native crop shows no identifiable blue circle at this below-baseline template-fill location.",
+   "source_evidence": "No blue filled circle or circle fragment is visible at full-panel pixel (261.29,711.21); only neighboring low-baseline colored curves are present.",
+   "evidence_kind": "native_absence",
+   "uncertainty_px": null,
+   "evidence_ref": "box:marker_09:65"
+  }
+ ],
+ "uncertainties": [
+  "The dense low-pressure 313K and 323K regions contain overlaps whose native pixels do not safely establish every omitted marker or series ownership.",
+  "Several retained 353K and 363K centers are fragment-based because neighboring colored glyphs overlap them; the reported uncertainties reflect that ambiguity."
+ ],
+ "coverage": [
+  {
+   "item_id": "tile:marker_07",
+   "item_type": "tile",
+   "status": "reviewed",
+   "detail": "Inspected all native subregions; template and overlap claims were checked against source pixels."
+  },
+  {
+   "item_id": "box:marker_07:49",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Magenta hexagon fragment supports retained/moved 353K point."
+  },
+  {
+   "item_id": "box:marker_07:50",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Magenta hexagon fragment supports retained proposal; no additional safe edit."
+  },
+  {
+   "item_id": "box:marker_07:51",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native magenta hexagon is visible; no additional safe edit."
+  },
+  {
+   "item_id": "box:marker_07:52",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native magenta hexagon is visible; no additional safe edit."
+  },
+  {
+   "item_id": "box:marker_07:53",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native magenta marker is visible near the proposed center; no additional safe edit."
+  },
+  {
+   "item_id": "box:marker_07:54",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native magenta marker is visible near the proposed center; no additional safe edit."
+  },
+  {
+   "item_id": "box:marker_07:55",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Template-fit 353K claim resolved by move to visible overlapping magenta fragment."
+  },
+  {
+   "item_id": "box:marker_07:56",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Template-fit 363K claim resolved by move to visible green-star fragment."
+  },
+  {
+   "item_id": "tile:marker_08",
+   "item_type": "tile",
+   "status": "reviewed",
+   "detail": "Inspected all native subregions; green-star and below-axis claims were resolved."
+  },
+  {
+   "item_id": "box:marker_08:57",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Template-fit 363K claim resolved by move to visible green star."
+  },
+  {
+   "item_id": "box:marker_08:58",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Template-fit 363K claim resolved by move to visible green-star fragment."
+  },
+  {
+   "item_id": "box:marker_08:59",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native green star is visible; no additional safe edit."
+  },
+  {
+   "item_id": "box:marker_08:60",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Template-fit 363K claim resolved by move to visible green star."
+  },
+  {
+   "item_id": "box:marker_08:61",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native green star is visible; no additional safe edit."
+  },
+  {
+   "item_id": "box:marker_08:62",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native green star is visible; no additional safe edit."
+  },
+  {
+   "item_id": "box:marker_08:63",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native green star is visible; no additional safe edit."
+  },
+  {
+   "item_id": "box:marker_08:64",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Template-fill 373K claim rejected and deleted because native source lacks a circle."
+  },
+  {
+   "item_id": "tile:marker_09",
+   "item_type": "tile",
+   "status": "reviewed",
+   "detail": "Inspected all native subregions; low-pressure blue-circle claims were checked."
+  },
+  {
+   "item_id": "box:marker_09:65",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Template-fill 373K claim rejected and deleted because native source lacks a circle."
+  },
+  {
+   "item_id": "box:marker_09:66",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native 373K circle is visible amid overlap; retained."
+  },
+  {
+   "item_id": "box:marker_09:67",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native 373K circle is visible amid overlap; retained."
+  },
+  {
+   "item_id": "box:marker_09:68",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native 373K circle is visible; retained."
+  },
+  {
+   "item_id": "box:marker_09:69",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native 373K circle is visible; retained."
+  },
+  {
+   "item_id": "box:marker_09:70",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native 373K circle is visible; retained."
+  },
+  {
+   "item_id": "box:marker_09:71",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native 373K circle is visible; retained."
+  },
+  {
+   "item_id": "box:marker_09:72",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Native 373K circle is visible; retained."
+  },
+  {
+   "item_id": "tile:region_01",
+   "item_type": "tile",
+   "status": "reviewed",
+   "detail": "Native dense low-pressure region inspected; 353K template-fit point anchored to visible magenta pixels; no safe additions."
+  },
+  {
+   "item_id": "tile:region_02",
+   "item_type": "tile",
+   "status": "reviewed",
+   "detail": "Native 353K, 363K and 373K overlapping curves inspected; no definite omitted or false markers beyond listed edits."
+  },
+  {
+   "item_id": "tile:region_03",
+   "item_type": "tile",
+   "status": "reviewed",
+   "detail": "Native 323K, 333K and 343K crossing region inspected; no safe ownership corrections or additions."
+  },
+  {
+   "item_id": "evidence:dense_roi_line_suppressed.png",
+   "item_type": "evidence",
+   "status": "reviewed",
+   "detail": "Compared diagnostic suggestions with native regions; diagnostic was not used as marker evidence."
+  },
+  {
+   "item_id": "evidence:dense_roi_series_likelihood.png",
+   "item_type": "evidence",
+   "status": "reviewed",
+   "detail": "Compared likelihood suggestions with native regions; unsupported suggestions were not converted into edits."
+  },
+  {
+   "item_id": "evidence:dense_roi_proposed_assignments.png",
+   "item_type": "evidence",
+   "status": "reviewed",
+   "detail": "Compared proposed assignments with native regions; unresolved crowded claims were left unchanged."
+  }
+ ]
+}

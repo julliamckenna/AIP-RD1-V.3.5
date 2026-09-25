@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\src\workflow\steps\base.py", line 62, in handle
+    route = await self.run_panel(run, panel) or CONTINUE
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\src\workflow\steps\agent02_check_extraction.py", line 273, in run_panel
+    answer = await self.agent.ask(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\src\workflow\agents.py", line 257, in ask
+    raise ValueError(f"{self.config.name} answer does not match {self.config.schema}: {details}")
+ValueError: agent02-calibration answer does not match schemas/agent02_check_extraction.schema.json: <root>: Additional properties are not allowed ('description', 'title' were unexpected)

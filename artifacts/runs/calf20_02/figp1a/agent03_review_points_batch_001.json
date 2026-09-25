@@ -1,0 +1,286 @@
+{
+ "reasoning": "The native crops support the proposed visible markers in the contested boxes, including the black square at panel pixel (360.6,275.3), but the template-filled CO2 283K claim at (253.0,566.0) has no red hexagonal marker in the untouched source; the visible structures there belong to other overlapping series. The crowded-strip slot claims for CO2 313K, CO2 323K, and CO2 373K do not show a sufficiently identifiable native glyph core, so I made no additions from those slots. The batch therefore remains incomplete and requires another native-resolution pass for the unresolved low-pressure series.",
+ "verdict": "review",
+ "series": [
+  {
+   "label": "CO2 273K",
+   "coverage": "complete",
+   "final_count": 39,
+   "comment": "Contested black-square marker in box 1 is visibly present; no edit."
+  },
+  {
+   "label": "CO2 283K",
+   "coverage": "uncertain",
+   "final_count": 34,
+   "comment": "Deleted the unsupported template-filled point at (253,566); remaining crowded ownership is not fully resolved."
+  },
+  {
+   "label": "CO2 293K",
+   "coverage": "complete",
+   "final_count": 44,
+   "comment": "Reviewed all supplied native contested boxes; visible triangle markers are retained."
+  },
+  {
+   "label": "CO2 303K",
+   "coverage": "complete",
+   "final_count": 45,
+   "comment": "Reviewed supplied native boxes and crowded regions; no source-supported correction."
+  },
+  {
+   "label": "CO2 313K",
+   "coverage": "incomplete",
+   "final_count": 15,
+   "comment": "Native slots do not support safe additions; the supplied extraction remains short in the dense low-pressure region."
+  },
+  {
+   "label": "CO2 323K",
+   "coverage": "incomplete",
+   "final_count": 21,
+   "comment": "Native slots do not support safe additions; the supplied extraction remains short in the dense low-pressure region."
+  },
+  {
+   "label": "CO2 333K",
+   "coverage": "complete",
+   "final_count": 37,
+   "comment": "Reviewed the overlapping native regions; no safe correction."
+  },
+  {
+   "label": "CO2 343K",
+   "coverage": "complete",
+   "final_count": 35,
+   "comment": "Reviewed the overlapping native regions; no safe correction."
+  },
+  {
+   "label": "CO2 353K",
+   "coverage": "uncertain",
+   "final_count": 35,
+   "comment": "Reviewed supplied crowded evidence, but ownership of some overlapping fragments remains uncertain."
+  },
+  {
+   "label": "CO2 363K",
+   "coverage": "uncertain",
+   "final_count": 34,
+   "comment": "Reviewed supplied crowded evidence; no safe positional correction."
+  },
+  {
+   "label": "CO2 373K",
+   "coverage": "incomplete",
+   "final_count": 32,
+   "comment": "Two supplied slots lack identifiable native circle cores, so no unsupported additions were made."
+  }
+ ],
+ "operations": [
+  {
+   "operation_id": "op-delete-283-template-001",
+   "action": "delete",
+   "point_id": "pt-12232a36d4dfcd68",
+   "series_label": "CO2 283K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The Python row is template_fill. In the untouched native crop, the claimed centre at panel pixel (253.0,566.0) has no identifiable red filled hexagon; the nearby visible glyphs are overlapping markers from other CO2 series.",
+   "source_evidence": "At full-panel pixel (253.0,566.0), the native crop shows overlapping olive, blue, teal and magenta structures but no red CO2 283K hexagonal marker core or supported red hexagonal fragment.",
+   "evidence_kind": "native_absence",
+   "uncertainty_px": null,
+   "evidence_ref": "box:marker_01:2"
+  }
+ ],
+ "uncertainties": [
+  "The CO2 313K, CO2 323K and CO2 373K slot locations were inspected in native crowded strips but do not provide a sufficiently identifiable glyph core for safe positional edits.",
+  "Several overlapping native fragments cannot be assigned uniquely among neighboring CO2 series without higher-resolution crops; overlap alone was not treated as evidence for deletion."
+ ],
+ "coverage": [
+  {
+   "item_id": "crowded_strip:01",
+   "item_type": "evidence",
+   "status": "reviewed",
+   "detail": "Inspected the full native low-pressure strip; visible markers were retained and no unsupported additions were made."
+  },
+  {
+   "item_id": "slot:0014",
+   "item_type": "slot",
+   "status": "reviewed",
+   "detail": "No native CO2 313K marker core supports the proposed slot; no edit."
+  },
+  {
+   "item_id": "crowded_strip:02",
+   "item_type": "evidence",
+   "status": "reviewed",
+   "detail": "Inspected the full native low-pressure strip; the unsupported CO2 283K template claim was rejected and other ambiguous fragments retained."
+  },
+  {
+   "item_id": "slot:0003",
+   "item_type": "slot",
+   "status": "reviewed",
+   "detail": "No safely identifiable native CO2 313K glyph at the proposed location; no edit."
+  },
+  {
+   "item_id": "slot:0004",
+   "item_type": "slot",
+   "status": "reviewed",
+   "detail": "No safely identifiable native CO2 313K glyph at the proposed location; no edit."
+  },
+  {
+   "item_id": "slot:0005",
+   "item_type": "slot",
+   "status": "reviewed",
+   "detail": "No safely identifiable native CO2 373K circle core at the proposed location; no edit."
+  },
+  {
+   "item_id": "slot:0006",
+   "item_type": "slot",
+   "status": "reviewed",
+   "detail": "No safely identifiable native CO2 313K glyph at the proposed location; no edit."
+  },
+  {
+   "item_id": "slot:0007",
+   "item_type": "slot",
+   "status": "reviewed",
+   "detail": "No safely identifiable native CO2 313K glyph at the proposed location; no edit."
+  },
+  {
+   "item_id": "slot:0008",
+   "item_type": "slot",
+   "status": "reviewed",
+   "detail": "No safely identifiable native CO2 373K circle core at the proposed location; no edit."
+  },
+  {
+   "item_id": "slot:0009",
+   "item_type": "slot",
+   "status": "reviewed",
+   "detail": "No safely identifiable native CO2 313K glyph at the proposed location; no edit."
+  },
+  {
+   "item_id": "slot:0010",
+   "item_type": "slot",
+   "status": "reviewed",
+   "detail": "No safely identifiable native CO2 323K glyph at the proposed location; no edit."
+  },
+  {
+   "item_id": "slot:0011",
+   "item_type": "slot",
+   "status": "reviewed",
+   "detail": "No safely identifiable native CO2 313K glyph at the proposed location; no edit."
+  },
+  {
+   "item_id": "slot:0012",
+   "item_type": "slot",
+   "status": "reviewed",
+   "detail": "No safely identifiable native CO2 323K glyph at the proposed location; no edit."
+  },
+  {
+   "item_id": "slot:0013",
+   "item_type": "slot",
+   "status": "reviewed",
+   "detail": "No safely identifiable native CO2 323K glyph at the proposed location; no edit."
+  },
+  {
+   "item_id": "tile:marker_01",
+   "item_type": "tile",
+   "status": "reviewed",
+   "detail": "All eight native boxes inspected."
+  },
+  {
+   "item_id": "box:marker_01:1",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Black square is visibly present at the proposed centre; retained."
+  },
+  {
+   "item_id": "box:marker_01:2",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Unsupported CO2 283K template-filled claim deleted."
+  },
+  {
+   "item_id": "box:marker_01:3",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Red hexagonal marker is visibly present; retained."
+  },
+  {
+   "item_id": "box:marker_01:4",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Overlapping red/blue region inspected; no safe correction."
+  },
+  {
+   "item_id": "box:marker_01:5",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Red hexagonal marker is visibly present; retained."
+  },
+  {
+   "item_id": "box:marker_01:6",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Blue triangle marker is visibly present; retained."
+  },
+  {
+   "item_id": "box:marker_01:7",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Blue triangle marker is visibly present; retained."
+  },
+  {
+   "item_id": "box:marker_01:8",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Overlapping blue triangle and neighboring markers inspected; retained."
+  },
+  {
+   "item_id": "tile:marker_02",
+   "item_type": "tile",
+   "status": "reviewed",
+   "detail": "All eight native boxes inspected."
+  },
+  {
+   "item_id": "box:marker_02:9",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Overlapping markers inspected; no safe correction."
+  },
+  {
+   "item_id": "box:marker_02:10",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Blue triangle marker is visibly present; retained."
+  },
+  {
+   "item_id": "box:marker_02:11",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Blue triangle marker is visibly present; retained."
+  },
+  {
+   "item_id": "box:marker_02:12",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Edge-region teal marker fragment is source-visible; retained."
+  },
+  {
+   "item_id": "box:marker_02:13",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Crowded teal/olive/blue region inspected; no safe correction."
+  },
+  {
+   "item_id": "box:marker_02:14",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Olive triangle-right marker is source-visible; retained."
+  },
+  {
+   "item_id": "box:marker_02:15",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Crowded teal/magenta region inspected; no safe correction."
+  },
+  {
+   "item_id": "box:marker_02:16",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Crowded teal/magenta/olive region inspected; no safe correction."
+  }
+ ]
+}

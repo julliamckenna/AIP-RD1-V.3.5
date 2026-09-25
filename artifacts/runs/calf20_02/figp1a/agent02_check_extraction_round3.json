@@ -1,0 +1,540 @@
+{
+ "reasoning": "The axis calibration is correct: the source visibly runs from 0 to 1200 mbar horizontally and 0 to 5 mmol/g vertically, and the re-plotted curves occupy the same values against those ticks. Legend identity is correct except CO2 363K: the source glyph is a star, while the raster measurement incorrectly classified it as a pentagon. CO2 313K and CO2 323K remain substantially under-extracted, especially throughout the dense low-pressure fan; their trajectory constraints need to be strengthened for another extraction pass.",
+ "axis_check": {
+  "x": {
+   "printed_min": 0,
+   "printed_max": 1200,
+   "data_min": -4.5489,
+   "data_max": 1140.0921,
+   "reason": "The source x-axis is printed from 0 to 1200 mbar. The extracted range follows the same linear calibration; the small negative minimum is an origin-line tolerance effect and the maximum remains within the plotted frame.",
+   "result": "pass"
+  },
+  "y": {
+   "printed_min": 0,
+   "printed_max": 5,
+   "data_min": -0.1942,
+   "data_max": 5.0091,
+   "reason": "The source y-axis is printed from 0 to 5 mmol/g. Extracted values align with these ticks; the slight negative and just-over-5 values are marker-centre/frame tolerance effects rather than a shifted scale.",
+   "result": "pass"
+  }
+ },
+ "satisfied": false,
+ "issues": [
+  "CO2 313K has only 15 of about 34 markers, with nearly all markers missing below 300 mbar.",
+  "CO2 323K has only 21 of about 34 markers, with severe shortfalls in the low-pressure ranges.",
+  "The CO2 363K legend marker is a star in the source, not a pentagon; correct the declaration so marker identity is preserved.",
+  "Crowded and overlapping marker regions require another targeted extraction pass."
+ ],
+ "structure_ok": true,
+ "chart_title": "",
+ "x_axis": {
+  "title": "P",
+  "unit": "mbar",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 1200,
+  "boundary_limits_confirmed": true,
+  "ticks": [
+   0,
+   200,
+   400,
+   600,
+   800,
+   1000,
+   1200
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.146776,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.245542,
+    "value": 200
+   },
+   {
+    "pixel_norm": 0.344307,
+    "value": 400
+   },
+   {
+    "pixel_norm": 0.443073,
+    "value": 600
+   },
+   {
+    "pixel_norm": 0.542524,
+    "value": 800
+   },
+   {
+    "pixel_norm": 0.639232,
+    "value": 1000
+   },
+   {
+    "pixel_norm": 0.738683,
+    "value": 1200
+   }
+  ]
+ },
+ "y_axis": {
+  "title": "CO2 Loading",
+  "unit": "mmol/g",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 5,
+  "boundary_limits_confirmed": true,
+  "ticks": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.775466,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.639649,
+    "value": 1
+   },
+   {
+    "pixel_norm": 0.502738,
+    "value": 2
+   },
+   {
+    "pixel_norm": 0.367799,
+    "value": 3
+   },
+   {
+    "pixel_norm": 0.232202,
+    "value": 4
+   },
+   {
+    "pixel_norm": 0.094195,
+    "value": 5
+   }
+  ]
+ },
+ "legend_bbox_norm": [
+  0.729767,
+  0,
+  0.999314,
+  0.879518
+ ],
+ "total_series": 17,
+ "series": [
+  {
+   "label": "CO2 273K",
+   "marker": "square",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#080808",
+   "notes": ""
+  },
+  {
+   "label": "CO2 283K",
+   "marker": "hexagon",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#ed2f31",
+   "notes": ""
+  },
+  {
+   "label": "CO2 293K",
+   "marker": "triangle_up",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#3c5096",
+   "notes": ""
+  },
+  {
+   "label": "CO2 303K",
+   "marker": "triangle_down",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#198e8a",
+   "notes": ""
+  },
+  {
+   "label": "CO2 313K",
+   "marker": "triangle_left",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#bd4f9b",
+   "notes": "Dense and partially overlapping with the adjacent CO2 curves at low pressure."
+  },
+  {
+   "label": "CO2 323K",
+   "marker": "triangle_right",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#8b8d31",
+   "notes": "Dense and partially overlapping with the adjacent CO2 curves at low pressure."
+  },
+  {
+   "label": "CO2 333K",
+   "marker": "diamond",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#293678",
+   "notes": ""
+  },
+  {
+   "label": "CO2 343K",
+   "marker": "pentagon",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#9c2527",
+   "notes": ""
+  },
+  {
+   "label": "CO2 353K",
+   "marker": "hexagon",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#e72b73",
+   "notes": ""
+  },
+  {
+   "label": "CO2 363K",
+   "marker": "star",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#258c46",
+   "notes": "Source legend and plotted markers are star-shaped; raster glyph measurement incorrectly classified the legend symbol as a pentagon."
+  },
+  {
+   "label": "CO2 373K",
+   "marker": "circle",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#2a2b86",
+   "notes": ""
+  },
+  {
+   "label": "N2 273K",
+   "marker": "hexagon",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#92278f",
+   "notes": "Excluded from requested CO2 extraction."
+  },
+  {
+   "label": "N2 293K",
+   "marker": "triangle_up",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#5b4a91",
+   "notes": "Excluded from requested CO2 extraction."
+  },
+  {
+   "label": "N2 313K",
+   "marker": "triangle_down",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#111111",
+   "notes": "Excluded from requested CO2 extraction."
+  },
+  {
+   "label": "N2 333K",
+   "marker": "triangle_left",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#ed3b35",
+   "notes": "Excluded from requested CO2 extraction."
+  },
+  {
+   "label": "N2 353K",
+   "marker": "triangle_right",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#3f6595",
+   "notes": "Excluded from requested CO2 extraction."
+  },
+  {
+   "label": "N2 373K",
+   "marker": "circle",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#168b89",
+   "notes": "Excluded from requested CO2 extraction."
+  }
+ ],
+ "branches": "adsorption_only",
+ "complex_regions": [
+  {
+   "bbox_norm": [
+    0.14,
+    0.03,
+    0.267,
+    0.845
+   ],
+   "kind": "dense_markers",
+   "python_passes": 6
+  },
+  {
+   "bbox_norm": [
+    0.265,
+    0.3,
+    0.75,
+    0.76
+   ],
+   "kind": "overlapping_markers",
+   "python_passes": 6
+  },
+  {
+   "bbox_norm": [
+    0.265,
+    0.33,
+    0.75,
+    0.48
+   ],
+   "kind": "crossing",
+   "python_passes": 6
+  }
+ ],
+ "extraction_settings": [
+  {
+   "label": "CO2 313K",
+   "color_tolerance": 20,
+   "separate_from": [
+    "CO2 303K",
+    "CO2 323K",
+    "N2 333K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 25,
+     "y_min": 0,
+     "y_max": 1.8
+    },
+    {
+     "x_from": 25,
+     "x_to": 100,
+     "y_min": 1.1,
+     "y_max": 2.75
+    },
+    {
+     "x_from": 100,
+     "x_to": 300,
+     "y_min": 2.15,
+     "y_max": 3.05
+    },
+    {
+     "x_from": 300,
+     "x_to": 700,
+     "y_min": 2.75,
+     "y_max": 3.35
+    },
+    {
+     "x_from": 700,
+     "x_to": 1200,
+     "y_min": 3.05,
+     "y_max": 3.6
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "The magenta left-pointing CO2 313K curve is visually present but severely under-extracted, especially in the dense low-pressure fan. Use its trajectory, marker shape, and position between the teal CO2 303K and olive CO2 323K curves; do not prune low-pressure candidates by the expected-count cap.",
+   "sample_marker_norm": [
+    0.443073,
+    0.347754
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 25,
+     "count": 10
+    },
+    {
+     "x_from": 25,
+     "x_to": 100,
+     "count": 8
+    },
+    {
+     "x_from": 100,
+     "x_to": 300,
+     "count": 6
+    },
+    {
+     "x_from": 300,
+     "x_to": 1200,
+     "count": 10
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 5,
+     "y": 0.45
+    },
+    {
+     "x": 10,
+     "y": 0.9
+    },
+    {
+     "x": 25,
+     "y": 1.45
+    },
+    {
+     "x": 50,
+     "y": 1.9
+    },
+    {
+     "x": 100,
+     "y": 2.35
+    },
+    {
+     "x": 200,
+     "y": 2.7
+    },
+    {
+     "x": 300,
+     "y": 2.9
+    },
+    {
+     "x": 400,
+     "y": 3.0
+    },
+    {
+     "x": 600,
+     "y": 3.18
+    },
+    {
+     "x": 800,
+     "y": 3.3
+    },
+    {
+     "x": 1200,
+     "y": 3.48
+    }
+   ]
+  },
+  {
+   "label": "CO2 323K",
+   "color_tolerance": 20,
+   "separate_from": [
+    "CO2 313K",
+    "CO2 333K",
+    "N2 353K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 25,
+     "y_min": 0,
+     "y_max": 1.55
+    },
+    {
+     "x_from": 25,
+     "x_to": 100,
+     "y_min": 0.9,
+     "y_max": 2.3
+    },
+    {
+     "x_from": 100,
+     "x_to": 300,
+     "y_min": 1.75,
+     "y_max": 2.6
+    },
+    {
+     "x_from": 300,
+     "x_to": 700,
+     "y_min": 2.35,
+     "y_max": 3.05
+    },
+    {
+     "x_from": 700,
+     "x_to": 1200,
+     "y_min": 2.7,
+     "y_max": 3.25
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "The olive right-pointing CO2 323K curve is short in the extraction despite being clearly visible in the source. Use its trajectory below CO2 313K and above CO2 333K, with the clean olive marker sample and stronger low-pressure spatial ownership.",
+   "sample_marker_norm": [
+    0.443073,
+    0.387979
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 25,
+     "count": 10
+    },
+    {
+     "x_from": 25,
+     "x_to": 100,
+     "count": 8
+    },
+    {
+     "x_from": 100,
+     "x_to": 300,
+     "count": 6
+    },
+    {
+     "x_from": 300,
+     "x_to": 1200,
+     "count": 10
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 5,
+     "y": 0.35
+    },
+    {
+     "x": 10,
+     "y": 0.7
+    },
+    {
+     "x": 25,
+     "y": 1.15
+    },
+    {
+     "x": 50,
+     "y": 1.55
+    },
+    {
+     "x": 100,
+     "y": 1.95
+    },
+    {
+     "x": 200,
+     "y": 2.3
+    },
+    {
+     "x": 300,
+     "y": 2.5
+    },
+    {
+     "x": 400,
+     "y": 2.65
+    },
+    {
+     "x": 600,
+     "y": 2.85
+    },
+    {
+     "x": 800,
+     "y": 2.98
+    },
+    {
+     "x": 1200,
+     "y": 3.16
+    }
+   ]
+  }
+ ],
+ "notes": "Axes and all series order are retained from the source. The principal remaining structural problem is recovery of the magenta and olive CO2 curves in the dense low-pressure and overlapping regions; individual ambiguous points can remain for agent 03 after this pass.",
+ "region_strategies": [],
+ "shared_x_columns": []
+}

@@ -1,0 +1,417 @@
+{
+ "reasoning": "The source-only read shows eleven filled-marker CO2 isotherms on linear axes, ordered monotonically by temperature at high pressure. Axis calibration in the re-plot is correct, but the extraction is not complete or clean: CO2 293K omits its low-pressure section, CO2 273K contains a run of CO2 283K markers, and the crowded CO2 323K, CO2 333K, and CO2 373K sets contain substantial neighboring-series contamination. The listed operations correct only assignments supported clearly by marker position and trajectory; no points are added merely to smooth curves.",
+ "axis_check": {
+  "x": {
+   "printed_min": 0,
+   "printed_max": 1200,
+   "data_min": 0.2516,
+   "data_max": 1183.2742,
+   "reason": "The source has a linear pressure axis from 0 to 1200 mbar. The recreated trajectories have the same horizontal placement and spacing against those ticks.",
+   "result": "pass"
+  },
+  "y": {
+   "printed_min": 0,
+   "printed_max": 5,
+   "data_min": 0.2714,
+   "data_max": 5.0091,
+   "reason": "The source has a linear loading axis with printed ticks from 0 to 5 mmol/g. The recreated high-pressure endpoints and vertical spacing use the same calibration.",
+   "result": "pass"
+  }
+ },
+ "independent_read": {
+  "x_axis": "P / mbar, linear, printed ticks 0-1200",
+  "y_axis": "CO2 Loading [mmol/g], linear, printed ticks 0-5",
+  "series": [
+   {
+    "label": "CO2 273K",
+    "marker": "square",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 38,
+    "notes": "Black uppermost CO2 isotherm."
+   },
+   {
+    "label": "CO2 283K",
+    "marker": "hexagon",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 40,
+    "notes": "Red isotherm immediately below 273K."
+   },
+   {
+    "label": "CO2 293K",
+    "marker": "triangle_up",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 38,
+    "notes": "Blue upward triangles."
+   },
+   {
+    "label": "CO2 303K",
+    "marker": "triangle_down",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 39,
+    "notes": "Teal downward triangles."
+   },
+   {
+    "label": "CO2 313K",
+    "marker": "triangle_left",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 38,
+    "notes": "Magenta left-pointing triangles."
+   },
+   {
+    "label": "CO2 323K",
+    "marker": "triangle_right",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 39,
+    "notes": "Olive right-pointing triangles."
+   },
+   {
+    "label": "CO2 333K",
+    "marker": "diamond",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 38,
+    "notes": "Dark-blue diamonds."
+   },
+   {
+    "label": "CO2 343K",
+    "marker": "pentagon",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 37,
+    "notes": "Brown pentagonal markers."
+   },
+   {
+    "label": "CO2 353K",
+    "marker": "hexagon",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 36,
+    "notes": "Pink markers."
+   },
+   {
+    "label": "CO2 363K",
+    "marker": "star",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 36,
+    "notes": "Green stars."
+   },
+   {
+    "label": "CO2 373K",
+    "marker": "circle",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 36,
+    "notes": "Dark-blue lowest CO2 trajectory."
+   }
+  ],
+  "visual_risks": [
+   "Strong marker overlap in the low-pressure fan near the y axis.",
+   "Neighboring middle and lower CO2 curves use closely spaced trajectories, making same-series assignment difficult where markers overlap.",
+   "CO2 and low-loading N2 ink share the panel near the baseline, although the reviewed CO2 curves are generally above that region."
+  ]
+ },
+ "verdict": "review",
+ "series": [
+  {
+   "label": "CO2 273K",
+   "coverage": "incomplete",
+   "final_count": 12,
+   "comment": "Ten mid-pressure points are reassigned to CO2 283K; the remaining sparse set does not fully cover the source curve."
+  },
+  {
+   "label": "CO2 283K",
+   "coverage": "uncertain",
+   "final_count": 47,
+   "comment": "Receives ten clearly misplaced points from CO2 273K, but overlap may leave duplicates or unresolved assignments."
+  },
+  {
+   "label": "CO2 293K",
+   "coverage": "incomplete",
+   "final_count": 31,
+   "comment": "Three points are recovered from CO2 323K, but the candidate still lacks the source low-pressure section below about 249 mbar."
+  },
+  {
+   "label": "CO2 303K",
+   "coverage": "uncertain",
+   "final_count": 53,
+   "comment": "Two middle-curve points are received from CO2 323K and two high-pressure points are reassigned to CO2 323K; crowded low-pressure assignments remain uncertain."
+  },
+  {
+   "label": "CO2 313K",
+   "coverage": "uncertain",
+   "final_count": 39,
+   "comment": "Most visible trajectory is represented, but the low-pressure fan prevents a confident completeness finding."
+  },
+  {
+   "label": "CO2 323K",
+   "coverage": "incomplete",
+   "final_count": 78,
+   "comment": "Several points belong to upper neighboring curves; low redraw recall and the excessive scatter indicate additional unresolved contamination and missed marker ink."
+  },
+  {
+   "label": "CO2 333K",
+   "coverage": "incomplete",
+   "final_count": 90,
+   "comment": "Two high-pressure points are removed to lower-temperature trajectories, but substantial same-color/neighboring-curve contamination remains."
+  },
+  {
+   "label": "CO2 343K",
+   "coverage": "complete",
+   "final_count": 37,
+   "comment": "The candidate closely follows the visible source trajectory, with near-complete redraw coverage."
+  },
+  {
+   "label": "CO2 353K",
+   "coverage": "complete",
+   "final_count": 35,
+   "comment": "The visible trajectory is well covered; one high-pressure point is recovered from CO2 333K."
+  },
+  {
+   "label": "CO2 363K",
+   "coverage": "uncertain",
+   "final_count": 38,
+   "comment": "Three lower-trajectory points are recovered, but residual overlap and a few questionable centers remain."
+  },
+  {
+   "label": "CO2 373K",
+   "coverage": "incomplete",
+   "final_count": 65,
+   "comment": "Two points visibly follow CO2 363K and are reassigned; the low redraw recall and excessive count show unresolved contamination."
+  }
+ ],
+ "operations": [
+  {
+   "operation_id": "op-1",
+   "action": "reassign",
+   "point_id": "pt-db9f342f219ee86e",
+   "series_label": "CO2 283K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "At this pressure the point lies on the red 283K trajectory, well below the black 273K trajectory.",
+   "source_evidence": "Native center (400,286) coincides with the CO2 283K marker run near 249 mbar and 3.40 mmol/g."
+  },
+  {
+   "operation_id": "op-2",
+   "action": "reassign",
+   "point_id": "pt-707b0effe74f3710",
+   "series_label": "CO2 283K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The center continues the 283K trajectory rather than the upper 273K curve.",
+   "source_evidence": "Native center (425,277) lies on the red marker sequence near 284 mbar and 3.47 mmol/g."
+  },
+  {
+   "operation_id": "op-3",
+   "action": "reassign",
+   "point_id": "pt-49a2083056c27559",
+   "series_label": "CO2 283K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The point is on the red 283K curve and is far below the black 273K curve.",
+   "source_evidence": "Native center (449,268) matches the visible 283K marker near 317 mbar and 3.54 mmol/g."
+  },
+  {
+   "operation_id": "op-4",
+   "action": "reassign",
+   "point_id": "pt-4d18306449b7eaaf",
+   "series_label": "CO2 283K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The source position follows the 283K series.",
+   "source_evidence": "Native center (477,258) lies on the red trajectory near 356 mbar and 3.62 mmol/g."
+  },
+  {
+   "operation_id": "op-5",
+   "action": "reassign",
+   "point_id": "pt-7dec8fb8d634d5aa",
+   "series_label": "CO2 283K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "This center belongs to the same red 283K run, not CO2 273K.",
+   "source_evidence": "Native center (456,261) is on visible CO2 283K ink near 327 mbar and 3.60 mmol/g."
+  },
+  {
+   "operation_id": "op-6",
+   "action": "reassign",
+   "point_id": "pt-94081ffae5d0a33c",
+   "series_label": "CO2 283K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The point follows the 283K trajectory and is vertically separated from 273K.",
+   "source_evidence": "Native center (491,252) matches the red marker sequence near 375 mbar and 3.67 mmol/g."
+  },
+  {
+   "operation_id": "op-7",
+   "action": "reassign",
+   "point_id": "pt-62b44134fcef3913",
+   "series_label": "CO2 283K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The visible marker is on CO2 283K.",
+   "source_evidence": "Native center (505,247) lies on the red curve near 395 mbar and 3.71 mmol/g."
+  },
+  {
+   "operation_id": "op-8",
+   "action": "reassign",
+   "point_id": "pt-414acb129fabf745",
+   "series_label": "CO2 283K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The point continues the red 283K markers rather than the black upper curve.",
+   "source_evidence": "Native center (512,237) coincides with CO2 283K ink near 405 mbar and 3.79 mmol/g."
+  },
+  {
+   "operation_id": "op-9",
+   "action": "reassign",
+   "point_id": "pt-a917a97308174b36",
+   "series_label": "CO2 283K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The point lies at the 283K loading at this pressure.",
+   "source_evidence": "Native center (568,221) is on the red trajectory near 482 mbar and 3.92 mmol/g."
+  },
+  {
+   "operation_id": "op-10",
+   "action": "reassign",
+   "point_id": "pt-6f8758cc98e9ed33",
+   "series_label": "CO2 283K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The point belongs to the red 283K curve.",
+   "source_evidence": "Native center (615,206) coincides with a 283K marker near 548 mbar and 4.04 mmol/g."
+  },
+  {
+   "operation_id": "op-11",
+   "action": "reassign",
+   "point_id": "pt-b4d2570e2f0d5bad",
+   "series_label": "CO2 293K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The center is on the blue upward-triangle trajectory, above CO2 323K.",
+   "source_evidence": "Native center (453.1,287.56) matches CO2 293K near 323 mbar and 3.38 mmol/g."
+  },
+  {
+   "operation_id": "op-12",
+   "action": "reassign",
+   "point_id": "pt-a1328e6a2ca54c01",
+   "series_label": "CO2 293K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The point lies on the upper 293K trajectory rather than CO2 323K.",
+   "source_evidence": "Native center (366.89,328.96) is associated with the visible 293K marker sequence near 203 mbar and 3.05 mmol/g."
+  },
+  {
+   "operation_id": "op-13",
+   "action": "reassign",
+   "point_id": "pt-8ef6fae49fcefed2",
+   "series_label": "CO2 293K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The marker follows CO2 293K and is far above the 323K trajectory.",
+   "source_evidence": "Native center (429,325) lies on the upward-triangle curve near 289 mbar and 3.08 mmol/g."
+  },
+  {
+   "operation_id": "op-14",
+   "action": "reassign",
+   "point_id": "pt-15c9a7f99b6f2794",
+   "series_label": "CO2 303K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The source center follows the teal 303K curve, not CO2 323K.",
+   "source_evidence": "Native center (559.54,307.06) coincides with the CO2 303K trajectory near 471 mbar and 3.23 mmol/g."
+  },
+  {
+   "operation_id": "op-15",
+   "action": "reassign",
+   "point_id": "pt-37d7523ca1cf453a",
+   "series_label": "CO2 303K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The point is on the neighboring 303K trajectory.",
+   "source_evidence": "Native center (568.51,307.54) lies on visible CO2 303K ink near 483 mbar and 3.22 mmol/g."
+  },
+  {
+   "operation_id": "op-16",
+   "action": "reassign",
+   "point_id": "pt-00335b7642a09d03",
+   "series_label": "CO2 323K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": false,
+   "reason": "At high pressure this loading matches the olive 323K endpoint, not CO2 303K.",
+   "source_evidence": "Native center (1040.87,321.94) lies on the CO2 323K high-pressure trajectory near 1139 mbar and 3.11 mmol/g."
+  },
+  {
+   "operation_id": "op-17",
+   "action": "reassign",
+   "point_id": "pt-b8dd743d5994ef1b",
+   "series_label": "CO2 323K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The point follows the 323K high-pressure curve below CO2 303K.",
+   "source_evidence": "Native center (1001.05,324.87) coincides with CO2 323K ink near 1084 mbar and 3.08 mmol/g."
+  },
+  {
+   "operation_id": "op-18",
+   "action": "reassign",
+   "point_id": "pt-a73c96dc48d003e9",
+   "series_label": "CO2 353K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The point is on the pink 353K high-pressure trajectory, well below CO2 333K.",
+   "source_evidence": "Native center (1016.6,416.19) follows the CO2 353K marker run near 1106 mbar and 2.35 mmol/g."
+  },
+  {
+   "operation_id": "op-19",
+   "action": "reassign",
+   "point_id": "pt-94b802a2c04dbd11",
+   "series_label": "CO2 363K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The loading is on the green 363K region rather than the much higher 333K curve.",
+   "source_evidence": "Native center (927.26,423.46) coincides with the lower CO2 trajectory near 981 mbar and 2.29 mmol/g."
+  },
+  {
+   "operation_id": "op-20",
+   "action": "reassign",
+   "point_id": "pt-6b0d90fe87b485d3",
+   "series_label": "CO2 363K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "This point is above the 373K trajectory and follows the neighboring 363K curve.",
+   "source_evidence": "Native center (360,585) lies on the lower green trajectory near 193 mbar and 0.99 mmol/g."
+  },
+  {
+   "operation_id": "op-21",
+   "action": "reassign",
+   "point_id": "pt-388777f94cc2edc3",
+   "series_label": "CO2 363K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The center follows CO2 363K rather than the lower CO2 373K trajectory.",
+   "source_evidence": "Native center (378.52,563.23) lies on the neighboring lower curve near 219 mbar and 1.17 mmol/g."
+  }
+ ],
+ "uncertainties": [
+  "The dense low-pressure fan contains real markers whose exact series identity is obscured by overlap; no additions were made without a distinct source marker.",
+  "CO2 323K, CO2 333K, and CO2 373K retain excessive counts, poor redraw recall, and visible cross-trajectory scatter after the defensible reassignments.",
+  "Several suspect low-pressure points could belong to adjacent CO2 temperatures, but their marker color or outline is not distinct enough in the native panel to justify reassignment or deletion.",
+  "Reassignments may create duplicate centers where the destination series already contains an extraction of the same overlapped marker; duplicate resolution requires point-level native-pixel inspection."
+ ]
+}

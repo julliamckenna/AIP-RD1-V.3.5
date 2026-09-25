@@ -1,0 +1,1457 @@
+{
+ "calibration": {
+  "px_per_unit_x": 484.28711897738464,
+  "px_per_unit_y": 2.8559712380158397,
+  "unit_per_px_x": 0.0020648907658572233,
+  "unit_per_px_y": 0.3501435822213465,
+  "axis_models": {
+   "x": {
+    "scale": "linear",
+    "slope": 0.0020648907658572233,
+    "intercept": -0.30874888329407885
+   },
+   "y": {
+    "scale": "linear",
+    "slope": -0.3501435822213465,
+    "intercept": 163.92601593087616
+   }
+  },
+  "tick_fit_resid_x": 0.0009847315845046278,
+  "tick_fit_resid_y": 0.19988396659110208,
+  "tick_fit_resid_x_px": 0.4768928220257812,
+  "tick_fit_resid_y_px": 0.5708628595247066,
+  "frame_px": [
+   125,
+   68,
+   658,
+   497
+  ],
+  "x_ticks_px": [
+   150,
+   246,
+   343,
+   440,
+   537,
+   634
+  ],
+  "y_ticks_px": [
+   68,
+   126,
+   182,
+   240,
+   297,
+   354,
+   411,
+   468
+  ],
+  "tick_anchors": {
+   "x": [
+    {
+     "pixel_norm": 0.2129,
+     "value": 0.0
+    },
+    {
+     "pixel_norm": 0.3514,
+     "value": 0.2
+    },
+    {
+     "pixel_norm": 0.49,
+     "value": 0.4
+    },
+    {
+     "pixel_norm": 0.6286,
+     "value": 0.6
+    },
+    {
+     "pixel_norm": 0.7671,
+     "value": 0.8
+    },
+    {
+     "pixel_norm": 0.9057,
+     "value": 1.0
+    }
+   ],
+   "y": [
+    {
+     "pixel_norm": 0.1137,
+     "value": 140.0
+    },
+    {
+     "pixel_norm": 0.2076,
+     "value": 120.0
+    },
+    {
+     "pixel_norm": 0.3015,
+     "value": 100.0
+    },
+    {
+     "pixel_norm": 0.3954,
+     "value": 80.0
+    },
+    {
+     "pixel_norm": 0.488,
+     "value": 60.0
+    },
+    {
+     "pixel_norm": 0.5848,
+     "value": 40.0
+    },
+    {
+     "pixel_norm": 0.6787,
+     "value": 20.0
+    },
+    {
+     "pixel_norm": 0.7727,
+     "value": 0.0
+    }
+   ]
+  },
+  "color_tolerance_lab": 45.0,
+  "color_tolerance_per_series": [
+   26.0,
+   28.0
+  ],
+  "base_color_passes": 3,
+  "complex_region_passes": 5,
+  "complex_region_count": 3,
+  "complex_regions_accepted": [
+   {
+    "bbox_px": [
+     143.5,
+     68.0,
+     203.0,
+     470.43
+    ],
+    "data_x": [
+     -0.01243705839356729,
+     0.1104239421749375
+    ],
+    "bbox_norm": [
+     0.205,
+     0.11,
+     0.29,
+     0.775
+    ],
+    "kind": "dense_markers",
+    "python_passes": 5
+   },
+   {
+    "bbox_px": [
+     248.5,
+     173.6,
+     517.3,
+     390.91
+    ],
+    "data_x": [
+     0.2043764720214411,
+     0.7594191098838627
+    ],
+    "bbox_norm": [
+     0.355,
+     0.286,
+     0.739,
+     0.644
+    ],
+    "kind": "inset",
+    "python_passes": 3
+   },
+   {
+    "bbox_px": [
+     455.0,
+     115.03,
+     658.0,
+     461.02
+    ],
+    "data_x": [
+     0.6307764151709578,
+     1.0499492406399742
+    ],
+    "bbox_norm": [
+     0.65,
+     0.1895,
+     0.94,
+     0.7595
+    ],
+    "kind": "annotation",
+    "python_passes": 3
+   }
+  ],
+  "complex_regions_rejected": [],
+  "legend_reader": "declared_colors_direct_labels",
+  "sample_colors": [
+   {
+    "label": "CO2 195K",
+    "sample_px": [
+     557.9,
+     111.7
+    ],
+    "legend_lab": [
+     136.0,
+     156.0,
+     61.0
+    ],
+    "sample_lab": [
+     125.0,
+     170.0,
+     50.0
+    ],
+    "distance": 20.9,
+    "result": "sample color used"
+   },
+   {
+    "label": "N2 77K",
+    "sample_px": [
+     585.9,
+     466.8
+    ],
+    "legend_lab": [
+     159.0,
+     180.0,
+     156.0
+    ],
+    "sample_lab": [
+     161.0,
+     185.0,
+     156.0
+    ],
+    "distance": 5.4,
+    "result": "sample color used"
+   }
+  ],
+  "legend_markers": [],
+  "twins_split_by_lines": 0,
+  "line_split_enabled": false,
+  "series_gate": [
+   {
+    "from": "CO2 195K",
+    "x": 0.0275,
+    "y": 63.3131,
+    "reason": "outside own y_bands",
+    "to": null
+   },
+   {
+    "from": "CO2 195K",
+    "x": 0.0334,
+    "y": 66.3254,
+    "reason": "outside own y_bands",
+    "to": null
+   },
+   {
+    "from": "CO2 195K",
+    "to": "CO2 195K",
+    "x": 0.0347,
+    "y": 69.4772,
+    "reason": "within_pixel_derived_y_band_margin",
+    "y_margin": 3.0638
+   },
+   {
+    "from": "N2 77K",
+    "to": "N2 77K",
+    "x": 0.0867,
+    "y": 2.102,
+    "reason": "within_pixel_derived_y_band_margin",
+    "y_margin": 2.1009
+   },
+   {
+    "from": "N2 77K",
+    "to": "N2 77K",
+    "x": 0.1261,
+    "y": -0.1176,
+    "reason": "within_pixel_derived_y_band_margin",
+    "y_margin": 2.1009
+   },
+   {
+    "from": "N2 77K",
+    "to": "N2 77K",
+    "x": 0.1977,
+    "y": -0.1871,
+    "reason": "within_pixel_derived_y_band_margin",
+    "y_margin": 2.1009
+   },
+   {
+    "from": "N2 77K",
+    "to": "N2 77K",
+    "x": 0.2387,
+    "y": -0.4897,
+    "reason": "within_pixel_derived_y_band_margin",
+    "y_margin": 2.1009
+   },
+   {
+    "from": "N2 77K",
+    "to": "N2 77K",
+    "x": 0.2693,
+    "y": -0.3383,
+    "reason": "within_pixel_derived_y_band_margin",
+    "y_margin": 2.1009
+   },
+   {
+    "from": "N2 77K",
+    "to": "N2 77K",
+    "x": 0.2999,
+    "y": -0.0842,
+    "reason": "within_pixel_derived_y_band_margin",
+    "y_margin": 2.1009
+   },
+   {
+    "from": "N2 77K",
+    "to": "N2 77K",
+    "x": 0.5491,
+    "y": -0.8707,
+    "reason": "within_pixel_derived_y_band_margin",
+    "y_margin": 2.1009
+   },
+   {
+    "from": "N2 77K",
+    "to": "N2 77K",
+    "x": 0.5544,
+    "y": -1.0859,
+    "reason": "within_pixel_derived_y_band_margin",
+    "y_margin": 2.1009
+   },
+   {
+    "from": "N2 77K",
+    "to": "N2 77K",
+    "x": 0.5771,
+    "y": -0.0033,
+    "reason": "within_pixel_derived_y_band_margin",
+    "y_margin": 2.1009
+   },
+   {
+    "from": "N2 77K",
+    "to": "N2 77K",
+    "x": 0.5842,
+    "y": -0.9564,
+    "reason": "within_pixel_derived_y_band_margin",
+    "y_margin": 2.1009
+   },
+   {
+    "from": "N2 77K",
+    "to": "N2 77K",
+    "x": 0.5898,
+    "y": -1.2185,
+    "reason": "within_pixel_derived_y_band_margin",
+    "y_margin": 2.1009
+   },
+   {
+    "from": "N2 77K",
+    "to": "N2 77K",
+    "x": 0.6107,
+    "y": -0.0292,
+    "reason": "within_pixel_derived_y_band_margin",
+    "y_margin": 2.1009
+   },
+   {
+    "from": "N2 77K",
+    "to": "N2 77K",
+    "x": 0.6201,
+    "y": -1.1787,
+    "reason": "within_pixel_derived_y_band_margin",
+    "y_margin": 2.1009
+   },
+   {
+    "from": "N2 77K",
+    "to": "N2 77K",
+    "x": 0.6496,
+    "y": -0.6058,
+    "reason": "within_pixel_derived_y_band_margin",
+    "y_margin": 2.1009
+   },
+   {
+    "from": "N2 77K",
+    "to": "N2 77K",
+    "x": 0.6847,
+    "y": -0.6058,
+    "reason": "within_pixel_derived_y_band_margin",
+    "y_margin": 2.1009
+   },
+   {
+    "from": "N2 77K",
+    "to": "N2 77K",
+    "x": 0.719,
+    "y": -0.4089,
+    "reason": "within_pixel_derived_y_band_margin",
+    "y_margin": 2.1009
+   },
+   {
+    "from": "N2 77K",
+    "to": "N2 77K",
+    "x": 0.7521,
+    "y": -0.1142,
+    "reason": "within_pixel_derived_y_band_margin",
+    "y_margin": 2.1009
+   },
+   {
+    "from": "N2 77K",
+    "to": "N2 77K",
+    "x": 0.7585,
+    "y": -1.1957,
+    "reason": "within_pixel_derived_y_band_margin",
+    "y_margin": 2.1009
+   },
+   {
+    "from": "N2 77K",
+    "to": "N2 77K",
+    "x": 0.7938,
+    "y": -1.25,
+    "reason": "within_pixel_derived_y_band_margin",
+    "y_margin": 2.1009
+   },
+   {
+    "from": "N2 77K",
+    "to": "N2 77K",
+    "x": 0.8218,
+    "y": -0.2824,
+    "reason": "within_pixel_derived_y_band_margin",
+    "y_margin": 2.1009
+   },
+   {
+    "from": "N2 77K",
+    "to": "N2 77K",
+    "x": 0.8599,
+    "y": -1.0334,
+    "reason": "within_pixel_derived_y_band_margin",
+    "y_margin": 2.1009
+   },
+   {
+    "from": "N2 77K",
+    "to": "N2 77K",
+    "x": 0.9395,
+    "y": -0.1163,
+    "reason": "within_pixel_derived_y_band_margin",
+    "y_margin": 2.1009
+   }
+  ],
+  "color_ambiguity_groups": [],
+  "series_assignment_audit": {
+   "groups": [],
+   "candidates": []
+  },
+  "series_assignment_margin": 0.12,
+  "reclaimed_points": 0,
+  "dense_circle_detector": {
+   "regions": [
+    {
+     "series_label": "CO2 195K",
+     "roi_px": [
+      143.5,
+      68.0,
+      203.0,
+      470.43
+     ],
+     "template_source": "isolated_native_rings",
+     "searches": 1,
+     "validated_centers": 19,
+     "roi_ink_pixels": 3370,
+     "rejected": {
+      "outside_roi": 22,
+      "boundary": 0,
+      "coverage": 1,
+      "flat_response": 0,
+      "solid_core": 47
+     },
+     "matched_existing": 2,
+     "native_supported_additions": 17
+    },
+    {
+     "series_label": "N2 77K",
+     "roi_px": [
+      143.5,
+      68.0,
+      203.0,
+      470.43
+     ],
+     "template_source": "declared_circle_geometry",
+     "searches": 1,
+     "validated_centers": 1,
+     "roi_ink_pixels": 249,
+     "rejected": {
+      "outside_roi": 3,
+      "boundary": 0,
+      "coverage": 0,
+      "flat_response": 0,
+      "solid_core": 1
+     },
+     "matched_existing": 1,
+     "native_supported_additions": 0
+    }
+   ],
+   "native_supported_additions": 17,
+   "unresolved_fused_regions": 2
+  },
+  "dense_region_resolver": {
+   "roi_px": [
+    [
+     143.5,
+     68.0,
+     149.52,
+     470.43
+    ],
+    [
+     149.52,
+     68.0,
+     246.38,
+     497.0
+    ]
+   ],
+   "low_pressure_strip_px": [
+    149.52,
+    68.0,
+    246.38,
+    497.0
+   ],
+   "columns": 1,
+   "native_supported_additions": 1
+  },
+  "global_spatial_ownership": {
+   "enabled": false,
+   "branches": "adsorption_only",
+   "multi_series": true,
+   "all_filled": false,
+   "ambiguity_group_count": 0,
+   "crowded_region_count": 1,
+   "reason": "guard_not_satisfied",
+   "distance_fraction": 0.8,
+   "confidence_margin": 0.08,
+   "candidate_count": 0,
+   "overlap_components": 0,
+   "deduplicated": 0,
+   "unresolved": 0,
+   "components": [],
+   "global_twin_pool": false,
+   "joint_assignment_candidate_source": "raw_candidates",
+   "rescore_single_source": false,
+   "expected_count_pruning": {
+    "enabled": false,
+    "tolerance_fraction": 0.15,
+    "minimum_tolerance": 2,
+    "series": [],
+    "removed": 0
+   }
+  },
+  "template_fill": {
+   "template_fit": 0,
+   "template_fill": 0,
+   "slots": []
+  },
+  "region_strategies": [
+   {
+    "strategy": "ignore",
+    "bbox_px": [
+     248,
+     173,
+     517,
+     391
+    ],
+    "series": []
+   },
+   {
+    "strategy": "ignore",
+    "bbox_px": [
+     455,
+     115,
+     658,
+     461
+    ],
+    "series": []
+   }
+  ],
+  "x_grid_columns": 0,
+  "x_grid_supported_columns": 0,
+  "exact_duplicates_dropped": {
+   "CO2 195K": 0
+  }
+ },
+ "series": [
+  {
+   "label": "CO2 195K",
+   "n_points": 58,
+   "marker_radius_px": 7.0,
+   "extract": true,
+   "gas": "CO2",
+   "color_lab": [
+    125.0,
+    170.0,
+    50.0
+   ],
+   "marker_glyph": null,
+   "color_twins": [],
+   "x_min": -0.0003,
+   "x_max": 0.9963,
+   "y_min": 0.486,
+   "y_max": 126.1105,
+   "points": [
+    {
+     "x": -0.0003,
+     "y": 0.486,
+     "px": [
+      149.36,
+      466.78
+     ],
+     "confidence": 0.92,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-e4a09585bf56103e",
+     "source_instance_id": "src-34654aa1e4af7473"
+    },
+    {
+     "x": -0.0002,
+     "y": 8.2907,
+     "px": [
+      149.41,
+      444.49
+     ],
+     "confidence": 0.75,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-5e5dbbeb23e6c72f",
+     "source_instance_id": "src-fc8b8cd8e1f8932f"
+    },
+    {
+     "x": 0.001,
+     "y": 9.8628,
+     "px": [
+      150.0,
+      440.0
+     ],
+     "confidence": 0.58,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-9e647f1eeb60d96b",
+     "source_instance_id": "src-a9b3d396bef3d927"
+    },
+    {
+     "x": 0.0016,
+     "y": 4.9503,
+     "px": [
+      150.32,
+      454.03
+     ],
+     "confidence": 0.58,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-f68232b25287af75",
+     "source_instance_id": "src-5e651b971442f6bb"
+    },
+    {
+     "x": 0.0017,
+     "y": 12.4784,
+     "px": [
+      150.35,
+      432.53
+     ],
+     "confidence": 0.62,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-e9f7ac22bc304e8e",
+     "source_instance_id": "src-6376d4449da6651b"
+    },
+    {
+     "x": 0.0017,
+     "y": 14.5793,
+     "px": [
+      150.35,
+      426.53
+     ],
+     "confidence": 0.62,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-c895da0f3617cde2",
+     "source_instance_id": "src-9235f69840d86178"
+    },
+    {
+     "x": 0.0028,
+     "y": 25.8889,
+     "px": [
+      150.87,
+      394.23
+     ],
+     "confidence": 0.62,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-e607bd9c7216f39f",
+     "source_instance_id": "src-361e41561274c929"
+    },
+    {
+     "x": 0.0034,
+     "y": 19.8209,
+     "px": [
+      151.17,
+      411.56
+     ],
+     "confidence": 0.71,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-3b5efc67860d29db",
+     "source_instance_id": "src-f90f2e01979341e5"
+    },
+    {
+     "x": 0.0034,
+     "y": 22.0198,
+     "px": [
+      151.15,
+      405.28
+     ],
+     "confidence": 0.54,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-765c9d477125a719",
+     "source_instance_id": "src-20461aa26d462794"
+    },
+    {
+     "x": 0.0044,
+     "y": 28.9562,
+     "px": [
+      151.65,
+      385.47
+     ],
+     "confidence": 0.62,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-c77ac63e504e3f71",
+     "source_instance_id": "src-369cbf99970111eb"
+    },
+    {
+     "x": 0.0051,
+     "y": 31.2216,
+     "px": [
+      152.0,
+      379.0
+     ],
+     "confidence": 0.58,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-35a78415c28b5ab6",
+     "source_instance_id": "src-01fd90a93d833905"
+    },
+    {
+     "x": 0.0058,
+     "y": 33.8372,
+     "px": [
+      152.35,
+      371.53
+     ],
+     "confidence": 0.62,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-8cfedd8ae2852e8c",
+     "source_instance_id": "src-c39c4c382e013a86"
+    },
+    {
+     "x": 0.0071,
+     "y": 40.3393,
+     "px": [
+      152.94,
+      352.96
+     ],
+     "confidence": 0.75,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-a8c94ed563b49066",
+     "source_instance_id": "src-e971c47542de3d6e"
+    },
+    {
+     "x": 0.0072,
+     "y": 37.8078,
+     "px": [
+      153.0,
+      360.19
+     ],
+     "confidence": 0.62,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-b10a4d47d5c19897",
+     "source_instance_id": "src-ad6475e3f7b22bd1"
+    },
+    {
+     "x": 0.0076,
+     "y": 42.9934,
+     "px": [
+      153.21,
+      345.38
+     ],
+     "confidence": 0.67,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-511ab26662e4320c",
+     "source_instance_id": "src-e7bef670245b51f7"
+    },
+    {
+     "x": 0.0094,
+     "y": 47.3107,
+     "px": [
+      154.06,
+      333.05
+     ],
+     "confidence": 0.71,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-8797e2a66b8d854e",
+     "source_instance_id": "src-8af7ccf544fc94f9"
+    },
+    {
+     "x": 0.0108,
+     "y": 51.2708,
+     "px": [
+      154.77,
+      321.74
+     ],
+     "confidence": 0.71,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-a97be4a3f4be0cab",
+     "source_instance_id": "src-241720818c2112fa"
+    },
+    {
+     "x": 0.0128,
+     "y": 54.9508,
+     "px": [
+      155.71,
+      311.23
+     ],
+     "confidence": 0.71,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-c05f3233987c3ba5",
+     "source_instance_id": "src-bb025f0164a88758"
+    },
+    {
+     "x": 0.0146,
+     "y": 58.2317,
+     "px": [
+      156.59,
+      301.86
+     ],
+     "confidence": 0.7,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-1a628e890f5555d8",
+     "source_instance_id": "src-7d80c39d7b07562d"
+    },
+    {
+     "x": 0.0347,
+     "y": 69.4783,
+     "px": [
+      166.35,
+      269.74
+     ],
+     "confidence": 0.7,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-c4353a4f95c926ec",
+     "source_instance_id": "src-9386bdf2870fc054"
+    },
+    {
+     "x": 0.0363,
+     "y": 72.493,
+     "px": [
+      167.1,
+      261.13
+     ],
+     "confidence": 0.69,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-2e05fe341d817d22",
+     "source_instance_id": "src-ee54c52d23d0214a"
+    },
+    {
+     "x": 0.0372,
+     "y": 75.3117,
+     "px": [
+      167.55,
+      253.08
+     ],
+     "confidence": 0.7,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-c3900e3f0006b3e4",
+     "source_instance_id": "src-45de67c94f110348"
+    },
+    {
+     "x": 0.0382,
+     "y": 77.8607,
+     "px": [
+      168.0,
+      245.8
+     ],
+     "confidence": 0.69,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-8239b50cccd299aa",
+     "source_instance_id": "src-2d520b382b4ca8c1"
+    },
+    {
+     "x": 0.0396,
+     "y": 80.5743,
+     "px": [
+      168.71,
+      238.05
+     ],
+     "confidence": 0.69,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-27159fcc1f612dea",
+     "source_instance_id": "src-cf744b5981f39408"
+    },
+    {
+     "x": 0.0401,
+     "y": 83.0884,
+     "px": [
+      168.93,
+      230.87
+     ],
+     "confidence": 0.69,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-5d865b2a00d4e84f",
+     "source_instance_id": "src-5dba6c91c384647b"
+    },
+    {
+     "x": 0.0406,
+     "y": 85.6479,
+     "px": [
+      169.17,
+      223.56
+     ],
+     "confidence": 0.68,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-3a232761c88e7810",
+     "source_instance_id": "src-8c30ffbb5ec8491d"
+    },
+    {
+     "x": 0.0407,
+     "y": 88.1374,
+     "px": [
+      169.21,
+      216.45
+     ],
+     "confidence": 0.54,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-2d00d33bb156ac7b",
+     "source_instance_id": "src-5fd03a3ef008c7ae"
+    },
+    {
+     "x": 0.0426,
+     "y": 91.7789,
+     "px": [
+      170.14,
+      206.05
+     ],
+     "confidence": 0.79,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-a3bfc25574ae341c",
+     "source_instance_id": "src-c7f1f96bcc885b63"
+    },
+    {
+     "x": 0.0433,
+     "y": 94.9757,
+     "px": [
+      170.5,
+      196.92
+     ],
+     "confidence": 0.71,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-5b4630d31a562af7",
+     "source_instance_id": "src-5cc86b4902c93f7d"
+    },
+    {
+     "x": 0.0449,
+     "y": 103.2181,
+     "px": [
+      171.25,
+      173.38
+     ],
+     "confidence": 0.78,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-4e90fdc947c4bebf",
+     "source_instance_id": "src-5a058484141e0413"
+    },
+    {
+     "x": 0.0588,
+     "y": 117.7071,
+     "px": [
+      178.0,
+      132.0
+     ],
+     "confidence": 0.778,
+     "overlap_flag": true,
+     "assigned_by": "agent03_review_points",
+     "source": "agent03_review_points",
+     "evidence_kind": "native_visible",
+     "uncertainty_px": 2.0,
+     "evidence_ref": "panel.png",
+     "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (178,132).",
+     "point_id": "pt-0dea3084b08f44f7",
+     "source_instance_id": "src-17f913df72904339"
+    },
+    {
+     "x": 0.0727,
+     "y": 119.0761,
+     "px": [
+      184.71,
+      128.09
+     ],
+     "confidence": 0.69,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-bdd6add311eab2b9",
+     "source_instance_id": "src-836e0fe7c177cb4f"
+    },
+    {
+     "x": 0.0898,
+     "y": 121.2085,
+     "px": [
+      193.0,
+      122.0
+     ],
+     "confidence": 0.778,
+     "overlap_flag": true,
+     "assigned_by": "agent03_review_points",
+     "source": "agent03_review_points",
+     "evidence_kind": "native_visible",
+     "uncertainty_px": 2.0,
+     "evidence_ref": "panel.png",
+     "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (193,122).",
+     "point_id": "pt-69be2d1ca319f5e0",
+     "source_instance_id": "src-91efa73037b891ea"
+    },
+    {
+     "x": 0.118,
+     "y": 120.7708,
+     "px": [
+      206.68,
+      123.25
+     ],
+     "confidence": 0.92,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-316f740eead8605f",
+     "source_instance_id": "src-8b7ab0bae8c5deb1"
+    },
+    {
+     "x": 0.1445,
+     "y": 121.7337,
+     "px": [
+      219.5,
+      120.5
+     ],
+     "confidence": 0.55,
+     "overlap_flag": true,
+     "assigned_by": "color",
+     "point_id": "pt-f7346e8e44e11dcd",
+     "source_instance_id": "src-b0cd50eae91f127b"
+    },
+    {
+     "x": 0.1691,
+     "y": 121.317,
+     "px": [
+      231.4,
+      121.69
+     ],
+     "confidence": 0.94,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-f116418bcaabb33d",
+     "source_instance_id": "src-0e458235d8d16196"
+    },
+    {
+     "x": 0.1961,
+     "y": 122.0839,
+     "px": [
+      244.5,
+      119.5
+     ],
+     "confidence": 0.55,
+     "overlap_flag": true,
+     "assigned_by": "color",
+     "point_id": "pt-f9bc7749e016caf4",
+     "source_instance_id": "src-971e551e73ac2692"
+    },
+    {
+     "x": 0.2188,
+     "y": 121.7337,
+     "px": [
+      255.5,
+      120.5
+     ],
+     "confidence": 0.55,
+     "overlap_flag": true,
+     "assigned_by": "color",
+     "point_id": "pt-1e62113212de0b18",
+     "source_instance_id": "src-1956c1072682b25f"
+    },
+    {
+     "x": 0.2446,
+     "y": 122.6091,
+     "px": [
+      268.0,
+      118.0
+     ],
+     "confidence": 0.778,
+     "overlap_flag": true,
+     "assigned_by": "agent03_review_points",
+     "source": "agent03_review_points",
+     "evidence_kind": "native_visible",
+     "uncertainty_px": 2.0,
+     "evidence_ref": "panel.png",
+     "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (268,118).",
+     "point_id": "pt-0c85245f964dbf91",
+     "source_instance_id": "src-f56119e33401eb5b"
+    },
+    {
+     "x": 0.2676,
+     "y": 121.8458,
+     "px": [
+      279.13,
+      120.18
+     ],
+     "confidence": 0.89,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-d82b3d7a247a86b8",
+     "source_instance_id": "src-371a4c7c25d4631b"
+    },
+    {
+     "x": 0.2994,
+     "y": 122.7841,
+     "px": [
+      294.5,
+      117.5
+     ],
+     "confidence": 0.55,
+     "overlap_flag": true,
+     "assigned_by": "color",
+     "point_id": "pt-4aa6e64aef16eb32",
+     "source_instance_id": "src-ed5986b3d1dd5640"
+    },
+    {
+     "x": 0.3448,
+     "y": 123.1343,
+     "px": [
+      316.5,
+      116.5
+     ],
+     "confidence": 0.55,
+     "overlap_flag": true,
+     "assigned_by": "color",
+     "point_id": "pt-5ac769e33a354548",
+     "source_instance_id": "src-d4e690f4b0319b31"
+    },
+    {
+     "x": 0.3933,
+     "y": 123.3094,
+     "px": [
+      340.0,
+      116.0
+     ],
+     "confidence": 0.778,
+     "overlap_flag": true,
+     "assigned_by": "agent03_review_points",
+     "source": "agent03_review_points",
+     "evidence_kind": "native_visible",
+     "uncertainty_px": 2.0,
+     "evidence_ref": "panel.png",
+     "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (340,116).",
+     "point_id": "pt-017000d0b5047d46",
+     "source_instance_id": "src-2432e7904f2ff327"
+    },
+    {
+     "x": 0.4439,
+     "y": 123.1343,
+     "px": [
+      364.5,
+      116.5
+     ],
+     "confidence": 0.55,
+     "overlap_flag": true,
+     "assigned_by": "color",
+     "point_id": "pt-77cea0f6caaf8291",
+     "source_instance_id": "src-13b73a070689e3e9"
+    },
+    {
+     "x": 0.4914,
+     "y": 123.4844,
+     "px": [
+      387.5,
+      115.5
+     ],
+     "confidence": 0.55,
+     "overlap_flag": true,
+     "assigned_by": "color",
+     "point_id": "pt-2ed9118a2c942a93",
+     "source_instance_id": "src-9c9d137537f4bdb3"
+    },
+    {
+     "x": 0.543,
+     "y": 123.4844,
+     "px": [
+      412.5,
+      115.5
+     ],
+     "confidence": 0.55,
+     "overlap_flag": true,
+     "assigned_by": "color",
+     "point_id": "pt-7458188f23cda025",
+     "source_instance_id": "src-fae1093053cedabd"
+    },
+    {
+     "x": 0.5905,
+     "y": 124.1847,
+     "px": [
+      435.5,
+      113.5
+     ],
+     "confidence": 0.55,
+     "overlap_flag": true,
+     "assigned_by": "color",
+     "point_id": "pt-c4f707dc2720b330",
+     "source_instance_id": "src-767e0d83ee7f1a2f"
+    },
+    {
+     "x": 0.6452,
+     "y": 124.0096,
+     "px": [
+      462.0,
+      114.0
+     ],
+     "confidence": 0.778,
+     "overlap_flag": true,
+     "assigned_by": "agent03_review_points",
+     "source": "agent03_review_points",
+     "evidence_kind": "native_visible",
+     "uncertainty_px": 2.0,
+     "evidence_ref": "panel.png",
+     "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (462,114).",
+     "point_id": "pt-8d856d9d89819acf",
+     "source_instance_id": "src-84115794d16ab965"
+    },
+    {
+     "x": 0.6948,
+     "y": 124.0096,
+     "px": [
+      486.0,
+      114.0
+     ],
+     "confidence": 0.778,
+     "overlap_flag": true,
+     "assigned_by": "agent03_review_points",
+     "source": "agent03_review_points",
+     "evidence_kind": "native_visible",
+     "uncertainty_px": 2.0,
+     "evidence_ref": "panel.png",
+     "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (486,114).",
+     "point_id": "pt-8d22bd55886c511c",
+     "source_instance_id": "src-6376ff458762417b"
+    },
+    {
+     "x": 0.7443,
+     "y": 124.0096,
+     "px": [
+      510.0,
+      114.0
+     ],
+     "confidence": 0.778,
+     "overlap_flag": true,
+     "assigned_by": "agent03_review_points",
+     "source": "agent03_review_points",
+     "evidence_kind": "native_visible",
+     "uncertainty_px": 2.0,
+     "evidence_ref": "panel.png",
+     "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (510,114).",
+     "point_id": "pt-c76cab3efde7db45",
+     "source_instance_id": "src-df972396c4b2b2fa"
+    },
+    {
+     "x": 0.7939,
+     "y": 124.3598,
+     "px": [
+      534.0,
+      113.0
+     ],
+     "confidence": 0.778,
+     "overlap_flag": true,
+     "assigned_by": "agent03_review_points",
+     "source": "agent03_review_points",
+     "evidence_kind": "native_visible",
+     "uncertainty_px": 2.0,
+     "evidence_ref": "panel.png",
+     "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (534,113).",
+     "point_id": "pt-e8d13883df296f37",
+     "source_instance_id": "src-26efb451288f66bb"
+    },
+    {
+     "x": 0.8435,
+     "y": 124.7099,
+     "px": [
+      558.0,
+      112.0
+     ],
+     "confidence": 0.778,
+     "overlap_flag": true,
+     "assigned_by": "agent03_review_points",
+     "source": "agent03_review_points",
+     "evidence_kind": "native_visible",
+     "uncertainty_px": 2.0,
+     "evidence_ref": "panel.png",
+     "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (558,112).",
+     "point_id": "pt-2de4e1009eb8043e",
+     "source_instance_id": "src-2cb7078e33c80e57"
+    },
+    {
+     "x": 0.892,
+     "y": 124.5349,
+     "px": [
+      581.5,
+      112.5
+     ],
+     "confidence": 0.55,
+     "overlap_flag": true,
+     "assigned_by": "color",
+     "point_id": "pt-3b59a8efade9616e",
+     "source_instance_id": "src-894fa8f9a90e1e11"
+    },
+    {
+     "x": 0.9178,
+     "y": 124.7099,
+     "px": [
+      594.0,
+      112.0
+     ],
+     "confidence": 0.778,
+     "overlap_flag": true,
+     "assigned_by": "agent03_review_points",
+     "source": "agent03_review_points",
+     "evidence_kind": "native_visible",
+     "uncertainty_px": 2.0,
+     "evidence_ref": "panel.png",
+     "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (594,112).",
+     "point_id": "pt-62a1c09b34631e50",
+     "source_instance_id": "src-add614d2ff84a871"
+    },
+    {
+     "x": 0.9395,
+     "y": 124.885,
+     "px": [
+      604.5,
+      111.5
+     ],
+     "confidence": 0.55,
+     "overlap_flag": true,
+     "assigned_by": "color",
+     "point_id": "pt-bb247b55cb90a685",
+     "source_instance_id": "src-2d23976749c1bcef"
+    },
+    {
+     "x": 0.9591,
+     "y": 125.4102,
+     "px": [
+      614.0,
+      110.0
+     ],
+     "confidence": 0.737,
+     "overlap_flag": true,
+     "assigned_by": "agent03_review_points",
+     "source": "agent03_review_points",
+     "evidence_kind": "native_visible",
+     "uncertainty_px": 2.5,
+     "evidence_ref": "panel.png",
+     "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (614,110).",
+     "point_id": "pt-784d718722b3c0ee",
+     "source_instance_id": "src-96a173d2345290a8"
+    },
+    {
+     "x": 0.9809,
+     "y": 125.8619,
+     "px": [
+      624.58,
+      108.71
+     ],
+     "confidence": 0.75,
+     "overlap_flag": false,
+     "assigned_by": "color",
+     "point_id": "pt-9bec7aed15e76df8",
+     "source_instance_id": "src-18d2600209fb403e"
+    },
+    {
+     "x": 0.9963,
+     "y": 126.1105,
+     "px": [
+      632.0,
+      108.0
+     ],
+     "confidence": 0.737,
+     "overlap_flag": true,
+     "assigned_by": "agent03_review_points",
+     "source": "agent03_review_points",
+     "evidence_kind": "native_visible",
+     "uncertainty_px": 2.5,
+     "evidence_ref": "panel.png",
+     "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (632,108).",
+     "point_id": "pt-22cc3929ea960f63",
+     "source_instance_id": "src-e99595c52cfe7ef1"
+    }
+   ],
+   "series_id": "figp1:x:co2-195k-d3fd5c48"
+  }
+ ],
+ "unresolved_slots": {
+  "total": 1,
+  "by_series": {
+   "CO2 195K": 1
+  },
+  "slots": [
+   {
+    "series_label": "CO2 195K",
+    "series_index": 0,
+    "state": "unresolved",
+    "reason": "dense_ring_search_fused_native_ink",
+    "roi_px": [
+     143.5,
+     68.0,
+     203.0,
+     470.43
+    ]
+   }
+  ]
+ },
+ "excluded_series_context": {
+  "total": 1,
+  "by_series": {
+   "N2 77K": 1
+  },
+  "slots": [
+   {
+    "series_label": "N2 77K",
+    "series_index": 1,
+    "state": "unresolved",
+    "reason": "dense_ring_search_fused_native_ink",
+    "roi_px": [
+     143.5,
+     68.0,
+     203.0,
+     470.43
+    ]
+   }
+  ]
+ },
+ "unresolved_total": 1,
+ "proposal_quality": {
+  "review_required": true,
+  "warnings": [
+   {
+    "check": "marker_count",
+    "series": "CO2 195K",
+    "detail": "detected 46 of about 80 expected markers"
+   },
+   {
+    "check": "weak_marker_coverage",
+    "series": "CO2 195K",
+    "detail": "16 of 46 markers are low-confidence or overlapping; maximum is 25%"
+   }
+  ]
+ }
+}

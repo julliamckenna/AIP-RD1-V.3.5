@@ -1,0 +1,55 @@
+{
+ "reasoning": "The source-only read shows one blue CO2 195K isotherm drawn with open circles, with a densely overlapping low-pressure rise followed by a plateau near 120–127 cm³ g⁻¹. The recreated curve has the same calibration, rise, plateau, and endpoint as the source. The six smoothness-flagged points all correspond to visible blue marker rings in the crowded near-vertical region, so none should be deleted or reassigned merely for being local outliers. Coverage is high but not demonstrably complete: the redraw-difference image retains isolated red marker ink on the plateau, while dense fused rings prevent a reliable final inventory. No additional point is proposed without an unambiguous uncovered marker centre.",
+ "axis_check": {
+  "x": {
+   "printed_min": 0,
+   "printed_max": 1,
+   "data_min": -0.0008,
+   "data_max": 0.9898,
+   "reason": "The recreated rise and plateau markers occupy the same relative-pressure positions as the source against the printed 0.0–1.0 ticks; there is no visible horizontal shift or stretch.",
+   "result": "pass"
+  },
+  "y": {
+   "printed_min": 0,
+   "printed_max": 140,
+   "data_min": 0.6471,
+   "data_max": 126.4572,
+   "reason": "The recreated curve begins near zero, rises through the same uptake levels, and ends near 126–127 cm³ g⁻¹, matching the source against the 0–140 scale.",
+   "result": "pass"
+  }
+ },
+ "independent_read": {
+  "x_axis": "Relative Pressure (P/P₀), linear 0.0–1.0",
+  "y_axis": "Uptake (cm³ g⁻¹), linear 0–140",
+  "series": [
+   {
+    "label": "CO2 195K",
+    "marker": "circle",
+    "marker_fill": "open",
+    "visible_markers_estimate": 70,
+    "notes": "Blue open circles; adsorption and desorption markers are densely superposed on the steep low-pressure rise and merge visually in places."
+   }
+  ],
+  "visual_risks": [
+   "Many blue rings overlap or fuse along the near-vertical low-pressure section.",
+   "The inset overlaps part of the main plotting area but represents an enlargement rather than another CO2 series.",
+   "Closely spaced plateau-tail rings are difficult to count individually at native resolution.",
+   "The red N2 77K open-circle series is present but excluded from this CO2-only extraction."
+  ]
+ },
+ "verdict": "review",
+ "series": [
+  {
+   "label": "CO2 195K",
+   "coverage": "uncertain",
+   "final_count": 65,
+   "comment": "The extracted curve is correctly calibrated and all six flagged dense-region points sit on visible CO2 marker ink. High recall is achieved, but isolated uncovered plateau ink and fused rings prevent confirming completeness."
+  }
+ ],
+ "operations": [],
+ "uncertainties": [
+  "The dense low-pressure strip contains partially fused blue rings whose individual centres cannot be separated reliably.",
+  "Isolated red marker ink remains on the plateau in the redraw-difference image, but the supplied views do not establish every missing centre with enough certainty for a concrete add operation.",
+  "The exact count of closely spaced right-tail rings remains uncertain because adjacent open-circle outlines overlap."
+ ]
+}

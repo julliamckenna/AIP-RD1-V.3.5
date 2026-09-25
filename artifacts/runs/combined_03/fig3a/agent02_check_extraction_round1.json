@@ -1,0 +1,372 @@
+{
+ "reasoning": "The source has a linear relative-pressure axis with printed ticks 0 through 1.0 and a linear uptake axis with printed ticks 0 through 140. The supplied axis values and series identities are broadly correct, but Python failed because the inset frame interfered with grayscale axis detection. The inset must be excluded from extraction and the measured tick anchors supplied explicitly. The main plot contains two open-circle solid blue/red adsorption curves; the inset is an annotation region rather than additional data.",
+ "axis_check": {
+  "x": {
+   "printed_min": 0,
+   "printed_max": 1,
+   "data_min": 0.02,
+   "data_max": 1,
+   "reason": "The extracted pressure range corresponds to the main plot's 0-1.0 printed ticks; the frame extends slightly beyond the outer ticks.",
+   "result": "pass"
+  },
+  "y": {
+   "printed_min": 0,
+   "printed_max": 140,
+   "data_min": 0,
+   "data_max": 127,
+   "reason": "The extracted uptake values match the 0-140 printed scale; the blue plateau reaches about 127, below the 140 tick, while the red curve remains near zero.",
+   "result": "pass"
+  }
+ },
+ "satisfied": false,
+ "issues": [
+  "Python axis detection failed because the embedded inset introduced a second rectangular frame and conflicting grayscale tick candidates.",
+  "The inset should be ignored during marker extraction so its duplicated blue markers are not counted as main-panel data.",
+  "The dense low-pressure blue marker strip needs an additional extraction pass for coverage."
+ ],
+ "structure_ok": true,
+ "chart_title": "",
+ "x_axis": {
+  "title": "Relative Pressure (P/P0)",
+  "unit": "dimensionless",
+  "scale": "linear",
+  "minimum": -0.05,
+  "maximum": 1.05,
+  "boundary_limits_confirmed": true,
+  "ticks": [
+   0,
+   0.2,
+   0.4,
+   0.6,
+   0.8,
+   1
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.2164,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.2849,
+    "value": 0.2
+   },
+   {
+    "pixel_norm": 0.3536,
+    "value": 0.4
+   },
+   {
+    "pixel_norm": 0.4218,
+    "value": 0.6
+   },
+   {
+    "pixel_norm": 0.4908,
+    "value": 0.8
+   },
+   {
+    "pixel_norm": 0.9,
+    "value": 1
+   }
+  ]
+ },
+ "y_axis": {
+  "title": "Uptake",
+  "unit": "cm³ g⁻¹",
+  "scale": "linear",
+  "minimum": -10,
+  "maximum": 140,
+  "boundary_limits_confirmed": true,
+  "ticks": [
+   0,
+   20,
+   40,
+   60,
+   80,
+   100,
+   120,
+   140
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.771,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.676,
+    "value": 20
+   },
+   {
+    "pixel_norm": 0.583,
+    "value": 40
+   },
+   {
+    "pixel_norm": 0.489,
+    "value": 60
+   },
+   {
+    "pixel_norm": 0.395,
+    "value": 80
+   },
+   {
+    "pixel_norm": 0.303,
+    "value": 100
+   },
+   {
+    "pixel_norm": 0.207,
+    "value": 120
+   },
+   {
+    "pixel_norm": 0.114,
+    "value": 140
+   }
+  ]
+ },
+ "legend_bbox_norm": [
+  0.6301,
+  0.1895,
+  0.9095,
+  0.7694
+ ],
+ "total_series": 2,
+ "series": [
+  {
+   "label": "CO2 195K",
+   "marker": "circle",
+   "marker_fill": "open",
+   "line_style": "solid",
+   "color_hex": "#536DFE",
+   "notes": "Blue open-circle adsorption isotherm; steep rise at low relative pressure and plateau near 120-127 cm³ g⁻¹."
+  },
+  {
+   "label": "N2 77K",
+   "marker": "circle",
+   "marker_fill": "open",
+   "line_style": "solid",
+   "color_hex": "#FF6868",
+   "notes": "Red open-circle adsorption isotherm near zero uptake, ending around 2.5 cm³ g⁻¹."
+  }
+ ],
+ "branches": "adsorption_only",
+ "complex_regions": [
+  {
+   "bbox_norm": [
+    0.197,
+    0.195,
+    0.318,
+    0.775
+   ],
+   "kind": "dense_markers",
+   "python_passes": 3
+  },
+  {
+   "bbox_norm": [
+    0.353,
+    0.287,
+    0.736,
+    0.642
+   ],
+   "kind": "inset",
+   "python_passes": 2
+  }
+ ],
+ "extraction_settings": [
+  {
+   "label": "CO2 195K",
+   "color_tolerance": null,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.06,
+     "y_min": 0,
+     "y_max": 120
+    },
+    {
+     "x_from": 0.06,
+     "x_to": 0.3,
+     "y_min": 115,
+     "y_max": 126
+    },
+    {
+     "x_from": 0.3,
+     "x_to": 1.02,
+     "y_min": 120,
+     "y_max": 130
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "The blue curve has a very dense, steep low-pressure marker strip; use the curve constraint to recover markers without treating the inset as main-panel data.",
+   "sample_marker_norm": [
+    0.447,
+    0.184
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 0.06,
+     "count": 35
+    },
+    {
+     "x_from": 0.06,
+     "x_to": 0.3,
+     "count": 15
+    },
+    {
+     "x_from": 0.3,
+     "x_to": 1.02,
+     "count": 20
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 0.005,
+     "y": 20
+    },
+    {
+     "x": 0.01,
+     "y": 45
+    },
+    {
+     "x": 0.015,
+     "y": 70
+    },
+    {
+     "x": 0.02,
+     "y": 95
+    },
+    {
+     "x": 0.03,
+     "y": 112
+    },
+    {
+     "x": 0.05,
+     "y": 117
+    },
+    {
+     "x": 0.08,
+     "y": 120
+    },
+    {
+     "x": 0.15,
+     "y": 122
+    },
+    {
+     "x": 0.3,
+     "y": 123
+    },
+    {
+     "x": 0.6,
+     "y": 125
+    },
+    {
+     "x": 1,
+     "y": 127
+    }
+   ]
+  },
+  {
+   "label": "N2 77K",
+   "color_tolerance": null,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.08,
+     "y_min": 0,
+     "y_max": 3
+    },
+    {
+     "x_from": 0.08,
+     "x_to": 0.9,
+     "y_min": 0,
+     "y_max": 2
+    },
+    {
+     "x_from": 0.9,
+     "x_to": 1.02,
+     "y_min": 0,
+     "y_max": 3.5
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Keep the low-contrast red open circles constrained to the near-zero curve and exclude the inset.",
+   "sample_marker_norm": [
+    0.794,
+    0.769
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 0.08,
+     "count": 12
+    },
+    {
+     "x_from": 0.08,
+     "x_to": 0.9,
+     "count": 42
+    },
+    {
+     "x_from": 0.9,
+     "x_to": 1.02,
+     "count": 16
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 0.02,
+     "y": 1.2
+    },
+    {
+     "x": 0.05,
+     "y": 1.5
+    },
+    {
+     "x": 0.1,
+     "y": 1.2
+    },
+    {
+     "x": 0.3,
+     "y": 1.1
+    },
+    {
+     "x": 0.6,
+     "y": 1
+    },
+    {
+     "x": 0.9,
+     "y": 0.9
+    },
+    {
+     "x": 0.98,
+     "y": 1.5
+    },
+    {
+     "x": 1,
+     "y": 2.5
+    }
+   ]
+  }
+ ],
+ "notes": "Use the outer main-panel frame, not the inset frame, for calibration. The inset contains a magnified portion of the blue curve and an arrow annotation.",
+ "region_strategies": [
+  {
+   "bbox_norm": [
+    0.353,
+    0.287,
+    0.736,
+    0.642
+   ],
+   "series_labels": [],
+   "strategy": "ignore",
+   "reason": "Embedded magnified inset with duplicated blue markers, inset axes, labels, and arrows; it is not an additional data region."
+  }
+ ],
+ "shared_x_columns": []
+}

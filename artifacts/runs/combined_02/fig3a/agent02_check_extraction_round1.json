@@ -1,0 +1,368 @@
+{
+ "reasoning": "The source has a linear relative-pressure axis with printed ticks 0 through 1.0 and a linear uptake axis with printed ticks 0 through 140. The current structure has no pixel tick anchors, so Python could not calibrate and returned no extraction. The two plotted series are open blue and open red circles, with a dense low-pressure blue region and a duplicated inset that must be ignored during main-panel extraction.",
+ "axis_check": {
+  "x": {
+   "printed_min": 0,
+   "printed_max": 1,
+   "data_min": 0.02,
+   "data_max": 0.99,
+   "reason": "The visible main-panel tick labels run from 0 to 1.0. The source curves occupy approximately 0.02 to 0.99 on this axis, and the corrected anchors map those values to the same horizontal positions.",
+   "result": "pass"
+  },
+  "y": {
+   "printed_min": 0,
+   "printed_max": 140,
+   "data_min": 0.7,
+   "data_max": 127,
+   "reason": "The visible uptake ticks run from 0 to 140 cm³ g⁻¹. The red curve remains near 1-3 and the blue curve reaches about 127, matching the source against the corrected y calibration.",
+   "result": "pass"
+  }
+ },
+ "satisfied": false,
+ "issues": [
+  "Python produced no points because axis/tick calibration failed.",
+  "Pixel tick anchors and explicit axis boundaries were missing from the prior structure.",
+  "The inset duplicates plotted data and must be excluded from main-panel extraction.",
+  "The low-pressure blue marker cluster is dense and needs a dedicated extraction pass."
+ ],
+ "structure_ok": true,
+ "chart_title": "(a)",
+ "x_axis": {
+  "title": "Relative Pressure (P/P₀)",
+  "unit": "P/P₀",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 1,
+  "boundary_limits_confirmed": true,
+  "ticks": [
+   0,
+   0.2,
+   0.4,
+   0.6,
+   0.8,
+   1
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.21764,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.35562,
+    "value": 0.2
+   },
+   {
+    "pixel_norm": 0.4936,
+    "value": 0.4
+   },
+   {
+    "pixel_norm": 0.63158,
+    "value": 0.6
+   },
+   {
+    "pixel_norm": 0.76814,
+    "value": 0.8
+   },
+   {
+    "pixel_norm": 0.90612,
+    "value": 1
+   }
+  ]
+ },
+ "y_axis": {
+  "title": "Uptake",
+  "unit": "cm³ g⁻¹",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 140,
+  "boundary_limits_confirmed": true,
+  "ticks": [
+   0,
+   20,
+   40,
+   60,
+   80,
+   100,
+   120,
+   140
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.66804,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.66559,
+    "value": 20
+   },
+   {
+    "pixel_norm": 0.56549,
+    "value": 40
+   },
+   {
+    "pixel_norm": 0.47657,
+    "value": 60
+   },
+   {
+    "pixel_norm": 0.38288,
+    "value": 80
+   },
+   {
+    "pixel_norm": 0.29402,
+    "value": 100
+   },
+   {
+    "pixel_norm": 0.20355,
+    "value": 120
+   },
+   {
+    "pixel_norm": 0.11147,
+    "value": 140
+   }
+  ]
+ },
+ "legend_bbox_norm": [
+  0.62447,
+  0.18417,
+  0.90043,
+  0.7399
+ ],
+ "total_series": 2,
+ "series": [
+  {
+   "label": "CO2 195K",
+   "marker": "circle",
+   "marker_fill": "open",
+   "line_style": "solid",
+   "color_hex": "#586CFF",
+   "notes": "Upper blue isotherm; label is printed inside the upper-right of the main panel."
+  },
+  {
+   "label": "N2 77K",
+   "marker": "circle",
+   "marker_fill": "open",
+   "line_style": "solid",
+   "color_hex": "#FF6666",
+   "notes": "Lower red isotherm; label is printed inside the lower-right of the main panel."
+  }
+ ],
+ "branches": "adsorption_only",
+ "complex_regions": [
+  {
+   "bbox_norm": [
+    0.20626,
+    0.22617,
+    0.28876,
+    0.76737
+   ],
+   "kind": "dense_markers",
+   "python_passes": 3
+  },
+  {
+   "bbox_norm": [
+    0.35846,
+    0.27895,
+    0.73969,
+    0.63005
+   ],
+   "kind": "inset",
+   "python_passes": 2
+  }
+ ],
+ "extraction_settings": [
+  {
+   "label": "CO2 195K",
+   "color_tolerance": 24,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.02,
+     "y_min": 0,
+     "y_max": 75
+    },
+    {
+     "x_from": 0.02,
+     "x_to": 0.06,
+     "y_min": 65,
+     "y_max": 120
+    },
+    {
+     "x_from": 0.06,
+     "x_to": 0.3,
+     "y_min": 115,
+     "y_max": 125
+    },
+    {
+     "x_from": 0.3,
+     "x_to": 1,
+     "y_min": 120,
+     "y_max": 130
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "The blue curve has a very dense steep low-pressure cluster; use curve guidance and avoid counting the duplicate inset.",
+   "sample_marker_norm": [
+    0.562,
+    0.186
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 0.06,
+     "count": 45
+    },
+    {
+     "x_from": 0.06,
+     "x_to": 0.3,
+     "count": 15
+    },
+    {
+     "x_from": 0.3,
+     "x_to": 1,
+     "count": 15
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 0.005,
+     "y": 10
+    },
+    {
+     "x": 0.01,
+     "y": 28
+    },
+    {
+     "x": 0.015,
+     "y": 48
+    },
+    {
+     "x": 0.02,
+     "y": 72
+    },
+    {
+     "x": 0.03,
+     "y": 103
+    },
+    {
+     "x": 0.05,
+     "y": 117
+    },
+    {
+     "x": 0.08,
+     "y": 120
+    },
+    {
+     "x": 0.15,
+     "y": 122
+    },
+    {
+     "x": 0.3,
+     "y": 123
+    },
+    {
+     "x": 0.6,
+     "y": 125
+    },
+    {
+     "x": 1,
+     "y": 127
+    }
+   ]
+  },
+  {
+   "label": "N2 77K",
+   "color_tolerance": 24,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.9,
+     "y_min": 0,
+     "y_max": 2
+    },
+    {
+     "x_from": 0.9,
+     "x_to": 1,
+     "y_min": 0,
+     "y_max": 4
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "The red series is a low-uptake curve with a small upturn near the high-pressure endpoint; keep it separate from the blue steep-rise curve.",
+   "sample_marker_norm": [
+    0.562,
+    0.752
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 0.9,
+     "count": 30
+    },
+    {
+     "x_from": 0.9,
+     "x_to": 1,
+     "count": 3
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 0.02,
+     "y": 1.2
+    },
+    {
+     "x": 0.1,
+     "y": 1.1
+    },
+    {
+     "x": 0.3,
+     "y": 0.9
+    },
+    {
+     "x": 0.6,
+     "y": 0.8
+    },
+    {
+     "x": 0.85,
+     "y": 0.8
+    },
+    {
+     "x": 0.93,
+     "y": 1.1
+    },
+    {
+     "x": 0.97,
+     "y": 2
+    },
+    {
+     "x": 1,
+     "y": 3
+    }
+   ]
+  }
+ ],
+ "notes": "Use the outer main-panel frame for calibration. The inset occupies the central plot area and contains duplicate blue data plus annotations; it is not an additional series or main-panel branch.",
+ "region_strategies": [
+  {
+   "bbox_norm": [
+    0.35846,
+    0.27895,
+    0.73969,
+    0.63005
+   ],
+   "series_labels": [],
+   "strategy": "ignore",
+   "reason": "The boxed central inset contains duplicate data and annotation arrows/text; exclude it from the main-panel marker extraction."
+  }
+ ],
+ "shared_x_columns": []
+}

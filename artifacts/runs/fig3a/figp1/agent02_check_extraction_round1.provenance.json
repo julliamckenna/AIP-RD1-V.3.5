@@ -1,0 +1,19 @@
+{
+ "agent_name": "agent02-calibration",
+ "agent_version": "4",
+ "response_id": "resp_02f8dd179807b3ea006ab6b230bf788193be79e07a584fa47f",
+ "usage": {
+  "input_tokens": 10448,
+  "input_tokens_details": {
+   "cache_write_tokens": 10445,
+   "cached_tokens": 0
+  },
+  "output_tokens": 3176,
+  "output_tokens_details": {
+   "reasoning_tokens": 1422
+  },
+  "total_tokens": 13624
+ },
+ "created_at": "2026-09-25T17:41:26.380476+00:00",
+ "dry_run": false
+}

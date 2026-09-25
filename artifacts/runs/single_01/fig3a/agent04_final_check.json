@@ -1,0 +1,53 @@
+{
+ "reasoning": "The source shows one blue open-circle CO2 195K isotherm with a dense, nearly vertical low-pressure rise followed by a plateau near 120-127 cm³ g⁻¹. The recreated series has the correct calibration, overall shape, ordering, and terminal value, but it is visibly under-sampled relative to the source, especially through the steep rise and at several plateau positions. The flagged lowest-pressure point is retained because a CO2 marker is visible at the lower end of the rise, although it overlaps the near-zero N2 trace.",
+ "axis_check": {
+  "x": {
+   "printed_min": 0,
+   "printed_max": 1,
+   "data_min": 0.0012,
+   "data_max": 0.967,
+   "reason": "The source and recreated plots both use a linear 0.0-1.0 relative-pressure axis; the steep rise and plateau points occur at matching horizontal values.",
+   "result": "pass"
+  },
+  "y": {
+   "printed_min": 0,
+   "printed_max": 140,
+   "data_min": 1.0912,
+   "data_max": 125.6987,
+   "reason": "The recreated rise and approximately 126 cm³ g⁻¹ endpoint align with the source against the linear 0-140 uptake ticks.",
+   "result": "pass"
+  }
+ },
+ "independent_read": {
+  "x_axis": "Relative Pressure (P/P₀), linear 0.0-1.0",
+  "y_axis": "Uptake (cm³ g⁻¹), linear 0-140",
+  "series": [
+   {
+    "label": "CO2 195K",
+    "marker": "circle",
+    "marker_fill": "open",
+    "visible_markers_estimate": 52,
+    "notes": "Blue open circles; many markers are tightly packed along the low-pressure rise, followed by a densely sampled plateau near 120-127 cm³ g⁻¹. The inset is not part of the main-panel extraction."
+   }
+  ],
+  "visual_risks": [
+   "Many CO2 markers overlap or nearly overlap along the steep low-pressure rise.",
+   "The lowest CO2 marker overlaps the near-zero N2 trace.",
+   "The inset contains a separate magnified rendering that must not be counted as main-panel points."
+  ]
+ },
+ "verdict": "review",
+ "series": [
+  {
+   "label": "CO2 195K",
+   "coverage": "incomplete",
+   "final_count": 34,
+   "comment": "The principal isotherm shape is correct, but visible source markers remain uncovered in the dense rise and along the plateau."
+  }
+ ],
+ "operations": [],
+ "uncertainties": [
+  "The exact number and centers of the omitted markers in the nearly vertical low-pressure cluster are difficult to resolve because of heavy overlap.",
+  "Additional plateau markers are visibly absent, but no native-pixel coordinates for safe point additions were provided; points should not be invented merely to smooth or densify the curve."
+ ]
+}

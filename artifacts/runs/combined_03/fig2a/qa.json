@@ -1,0 +1,223 @@
+{
+ "series": {
+  "CO2 273K": {
+   "flags": [],
+   "toth": null,
+   "low_confidence_points": 0
+  },
+  "CO2 283K": {
+   "flags": [
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "ads: local outliers (P,q,resid) [(np.float64(15.755), np.float64(1.737), -0.132), (np.float64(174.947), np.float64(3.151), 0.092)]"
+    }
+   ],
+   "toth": {
+    "qm": 25.9192502287913,
+    "K": 770.7019431700696,
+    "t": 0.1118846630092472,
+    "rmse": 0.032632541231852705
+   },
+   "low_confidence_points": 2
+  },
+  "CO2 293K": {
+   "flags": [],
+   "toth": {
+    "qm": 24.693973661816855,
+    "K": 999.9978112173616,
+    "t": 0.10909341104090141,
+    "rmse": 0.00842196295587409
+   },
+   "low_confidence_points": 3
+  },
+  "CO2 303K": {
+   "flags": [
+    {
+     "check": "monotonic",
+     "detail": "ads: uptake decreases at [(np.float64(658.175), np.float64(2.82))]"
+    },
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "ads: local outliers (P,q,resid) [(np.float64(594.979), np.float64(2.793), -0.06), (np.float64(637.42), np.float64(2.866), 0.061), (np.float64(658.175), np.float64(2.82), -0.049)]"
+    },
+    {
+     "check": "monotonic",
+     "detail": "des: uptake decreases at [(np.float64(655.73), np.float64(3.227))]"
+    },
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "des: local outliers (P,q,resid) [(np.float64(557.873), np.float64(3.184), 0.057), (np.float64(592.881), np.float64(3.171), -0.075), (np.float64(634.141), np.float64(3.253), 0.054)]"
+    }
+   ],
+   "toth": {
+    "qm": 3.609431144268532,
+    "K": 0.01530969143409727,
+    "t": 0.7327845301993403,
+    "rmse": 0.026304348955974857
+   },
+   "low_confidence_points": 4
+  },
+  "CO2 313K": {
+   "flags": [],
+   "toth": {
+    "qm": 4.419099093705913,
+    "K": 0.03699869536498524,
+    "t": 0.5157670656128345,
+    "rmse": 0.03712875547856383
+   },
+   "low_confidence_points": 0
+  },
+  "CO2 323K": {
+   "flags": [
+    {
+     "check": "monotonic",
+     "detail": "ads: uptake decreases at [(np.float64(595.507), np.float64(2.539)), (np.float64(859.64), np.float64(2.772))]"
+    },
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "ads: local outliers (P,q,resid) [(np.float64(117.336), np.float64(1.395), -0.155), (np.float64(526.351), np.float64(2.52), -0.276), (np.float64(574.043), np.float64(2.698), 0.163), (np.float64(595.507), np.float64(2.539), -0.089), (np.float64(650.673), np.float64(2.597), 0.139)]"
+    },
+    {
+     "check": "monotonic",
+     "detail": "des: uptake decreases at [(np.float64(151.677), np.float64(2.202)), (np.float64(228.14), np.float64(2.45)), (np.float64(381.65), np.float64(2.72)), (np.float64(909.93), np.float64(2.896))]"
+    },
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "des: local outliers (P,q,resid) [(np.float64(17.839), np.float64(1.496), -0.081), (np.float64(78.048), np.float64(2.232), 0.121), (np.float64(151.677), np.float64(2.202), -0.404), (np.float64(205.94), np.float64(2.765), 0.381), (np.float64(228.14), np.float64(2.45), -0.419)]"
+    }
+   ],
+   "toth": {
+    "qm": 3.301964026707738,
+    "K": 0.006418162641796648,
+    "t": 0.9968812776916909,
+    "rmse": 0.05304163074004675
+   },
+   "low_confidence_points": 10
+  },
+  "CO2 333K": {
+   "flags": [
+    {
+     "check": "monotonic",
+     "detail": "ads: uptake decreases at [(np.float64(187.714), np.float64(1.654)), (np.float64(689.363), np.float64(2.329))]"
+    },
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "ads: local outliers (P,q,resid) [(np.float64(179.462), np.float64(1.864), 0.17), (np.float64(187.714), np.float64(1.654), -0.232), (np.float64(681.611), np.float64(2.542), 0.159), (np.float64(689.363), np.float64(2.329), -0.14)]"
+    },
+    {
+     "check": "monotonic",
+     "detail": "des: uptake decreases at [(np.float64(272.248), np.float64(2.286)), (np.float64(330.887), np.float64(2.302)), (np.float64(358.63), np.float64(2.35)), (np.float64(534.367), np.float64(2.525)), (np.float64(637.781), np.float64(2.641))]"
+    },
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "des: local outliers (P,q,resid) [(np.float64(205.746), np.float64(2.378), 0.305), (np.float64(272.248), np.float64(2.286), -0.287), (np.float64(330.887), np.float64(2.302), -0.086), (np.float64(341.515), np.float64(2.424), 0.101), (np.float64(358.63), np.float64(2.35), -0.153)]"
+    }
+   ],
+   "toth": {
+    "qm": 2.66615435829654,
+    "K": 0.010017830584174315,
+    "t": 1.1560682891702498,
+    "rmse": 0.0874853798688995
+   },
+   "low_confidence_points": 2
+  },
+  "CO2 343K": {
+   "flags": [],
+   "toth": {
+    "qm": 2.9071518148864466,
+    "K": 0.0041564051702514555,
+    "t": 1.3027010215111845,
+    "rmse": 0.013458472509273
+   },
+   "low_confidence_points": 1
+  },
+  "CO2 353K": {
+   "flags": [],
+   "toth": {
+    "qm": 2.67659702462255,
+    "K": 0.002831389762758455,
+    "t": 1.553511373424788,
+    "rmse": 0.006796336025500299
+   },
+   "low_confidence_points": 2
+  },
+  "CO2 363K": {
+   "flags": [],
+   "toth": {
+    "qm": 2.6837198285057307,
+    "K": 0.002016376031076051,
+    "t": 1.5251248947252254,
+    "rmse": 0.010355273148921628
+   },
+   "low_confidence_points": 5
+  },
+  "CO2 373K": {
+   "flags": [
+    {
+     "check": "monotonic",
+     "detail": "ads: uptake decreases at [(np.float64(264.899), np.float64(1.292)), (np.float64(357.672), np.float64(1.236)), (np.float64(383.108), np.float64(1.346)), (np.float64(574.71), np.float64(1.655)), (np.float64(949.037), np.float64(1.881))]"
+    },
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "ads: local outliers (P,q,resid) [(np.float64(124.532), np.float64(1.286), -0.146), (np.float64(224.598), np.float64(1.524), 0.164), (np.float64(264.899), np.float64(1.292), -0.188), (np.float64(339.681), np.float64(1.533), 0.242), (np.float64(357.672), np.float64(1.236), -0.296)]"
+    },
+    {
+     "check": "monotonic",
+     "detail": "des: uptake decreases at [(np.float64(281.292), np.float64(1.717)), (np.float64(451.278), np.float64(2.07)), (np.float64(496.191), np.float64(1.833)), (np.float64(623.722), np.float64(2.041))]"
+    },
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "des: local outliers (P,q,resid) [(np.float64(270.692), np.float64(1.981), 0.197), (np.float64(281.292), np.float64(1.717), -0.13), (np.float64(302.7), np.float64(1.735), -0.266), (np.float64(344.627), np.float64(2.165), 0.16), (np.float64(451.278), np.float64(2.07), -0.092)]"
+    }
+   ],
+   "toth": {
+    "qm": 6.306886505839829,
+    "K": 0.13216776025747667,
+    "t": 0.2368146593492968,
+    "rmse": 0.12283204188160685
+   },
+   "low_confidence_points": 15
+  }
+ },
+ "cross": [
+  {
+   "check": "t_ordering",
+   "detail": "CO2 313K exceeds CO2 303K at some pressures — series colors may be swapped"
+  },
+  {
+   "check": "t_ordering",
+   "detail": "CO2 333K exceeds CO2 323K at some pressures — series colors may be swapped"
+  },
+  {
+   "check": "t_ordering",
+   "detail": "CO2 343K exceeds CO2 333K at some pressures — series colors may be swapped"
+  },
+  {
+   "check": "t_ordering",
+   "detail": "CO2 373K exceeds CO2 363K at some pressures — series colors may be swapped"
+  }
+ ],
+ "verdict": "review",
+ "role": "supporting_diagnostics_only",
+ "agent04_verdict": "review",
+ "rows": {
+  "python": 541,
+  "agent03": 525,
+  "agent04": 525
+ },
+ "final_operations_applied": 21,
+ "hard_checks": {
+  "passed": true,
+  "problems": [],
+  "summary": "PASS: x printed 0-1200, data 0.2516-1183 mbar; y printed 0-5, data 0.2714-5.009 mmol/g; redraw recall 0.71, precision 0.94"
+ }
+}

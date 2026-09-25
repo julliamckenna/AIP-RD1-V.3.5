@@ -1,0 +1,267 @@
+{
+  "reasoning": "Inspected unchanged panel.png first, then reviewed the complete candidate ledger and every adjudication review item. The figure contains one extractable CO2 series, CO2 195K, drawn as blue open circles connected by a solid line; the red N2 series and inset are context only. Native inspection of the top plateau found six complete blue open-circle markers omitted by the candidate ledger at approximately (339.5,116.5), (461.5,113.5), (485.5,113.5), (508.5,113.5), (532.5,112.5), and (557.5,112.5) panel pixels. These are added using full-panel normalized coordinates. I did not add hidden or interpolated points. The crowded low-pressure strip and all other native regions were searched; no further source-supported omissions or reassignment were established. The slot at the far-left outside the plotted domain remains unresolved without an inferred point.",
+  "verdict": "review",
+  "series": [
+    {
+      "label": "CO2 195K",
+      "coverage": "complete",
+      "final_count": 52,
+      "comment": "46 candidate instances retained plus six native-visible plateau markers added. Native search covered the full panel and crowded low-pressure strip; complete/partial source glyphs were considered, but perfect occlusions were not inferred."
+    }
+  ],
+  "operations": [
+    {
+      "operation_id": "add_plateau_01",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 195K",
+      "x_norm": 0.485,
+      "y_norm": 0.19192751235584843,
+      "overlap": false,
+      "reason": "Distinct open blue circular marker center visible in unchanged plateau strip at native panel pixel (339.5, 116.5); absent from candidate ledger.",
+      "source_evidence": "Native panel shows a complete blue open-circle glyph centered near (339.5, 116.5) px, with blue outline, white fill, and connecting line continuity.",
+      "evidence_kind": "native_visible",
+      "uncertainty_px": 1.5,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_plateau_02",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 195K",
+      "x_norm": 0.6592857142857143,
+      "y_norm": 0.18698517298187808,
+      "overlap": false,
+      "reason": "Distinct open blue circular marker center visible in unchanged plateau strip at native panel pixel (461.5, 113.5); absent from candidate ledger.",
+      "source_evidence": "Native panel shows a complete blue open-circle glyph centered near (461.5, 113.5) px, with blue outline, white fill, and connecting line continuity.",
+      "evidence_kind": "native_visible",
+      "uncertainty_px": 1.5,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_plateau_03",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 195K",
+      "x_norm": 0.6935714285714286,
+      "y_norm": 0.18698517298187808,
+      "overlap": false,
+      "reason": "Distinct open blue circular marker center visible in unchanged plateau strip at native panel pixel (485.5, 113.5); absent from candidate ledger.",
+      "source_evidence": "Native panel shows a complete blue open-circle glyph centered near (485.5, 113.5) px, with blue outline, white fill, and connecting line continuity.",
+      "evidence_kind": "native_visible",
+      "uncertainty_px": 1.5,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_plateau_04",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 195K",
+      "x_norm": 0.7264285714285714,
+      "y_norm": 0.18698517298187808,
+      "overlap": false,
+      "reason": "Distinct open blue circular marker center visible in unchanged plateau strip at native panel pixel (508.5, 113.5); absent from candidate ledger.",
+      "source_evidence": "Native panel shows a complete blue open-circle glyph centered near (508.5, 113.5) px, with blue outline, white fill, and connecting line continuity.",
+      "evidence_kind": "native_visible",
+      "uncertainty_px": 1.5,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_plateau_05",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 195K",
+      "x_norm": 0.7607142857142857,
+      "y_norm": 0.18533772652388797,
+      "overlap": false,
+      "reason": "Distinct open blue circular marker center visible in unchanged plateau strip at native panel pixel (532.5, 112.5); absent from candidate ledger.",
+      "source_evidence": "Native panel shows a complete blue open-circle glyph centered near (532.5, 112.5) px, with blue outline, white fill, and connecting line continuity.",
+      "evidence_kind": "native_visible",
+      "uncertainty_px": 1.5,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_plateau_06",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 195K",
+      "x_norm": 0.7964285714285714,
+      "y_norm": 0.18533772652388797,
+      "overlap": false,
+      "reason": "Distinct open blue circular marker center visible in unchanged plateau strip at native panel pixel (557.5, 112.5); absent from candidate ledger.",
+      "source_evidence": "Native panel shows a complete blue open-circle glyph centered near (557.5, 112.5) px, with blue outline, white fill, and connecting line continuity.",
+      "evidence_kind": "native_visible",
+      "uncertainty_px": 1.5,
+      "evidence_ref": "panel.png"
+    }
+  ],
+  "uncertainties": [
+    "Added-marker center uncertainty is estimated as 1.5 native panel pixels from the visible ring geometry and anti-aliased outline.",
+    "Numeric calibration is inherited by the canonical rebuild from the plot axes; no scientific-value conversion or fabricated measurement uncertainty is supplied.",
+    "The far-left slot crop is outside the calibrated plotting domain and remains unresolved."
+  ],
+  "coverage": [
+    {
+      "item_id": "crowded_strip:01",
+      "item_type": "evidence",
+      "status": "reviewed",
+      "detail": "Reviewed unchanged native source crop against candidate instances; no further source-supported edit required."
+    },
+    {
+      "item_id": "tile:marker_01",
+      "item_type": "tile",
+      "status": "reviewed",
+      "detail": "Reviewed unchanged native source crop against candidate instances; no further source-supported edit required."
+    },
+    {
+      "item_id": "box:marker_01:1",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Reviewed unchanged native source crop against candidate instances; no further source-supported edit required."
+    },
+    {
+      "item_id": "box:marker_01:2",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Reviewed unchanged native source crop against candidate instances; no further source-supported edit required."
+    },
+    {
+      "item_id": "box:marker_01:3",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Reviewed unchanged native source crop against candidate instances; no further source-supported edit required."
+    },
+    {
+      "item_id": "box:marker_01:4",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Reviewed unchanged native source crop against candidate instances; no further source-supported edit required."
+    },
+    {
+      "item_id": "box:marker_01:5",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Reviewed unchanged native source crop against candidate instances; no further source-supported edit required."
+    },
+    {
+      "item_id": "box:marker_01:6",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Reviewed unchanged native source crop against candidate instances; no further source-supported edit required."
+    },
+    {
+      "item_id": "box:marker_01:7",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Reviewed unchanged native source crop against candidate instances; no further source-supported edit required."
+    },
+    {
+      "item_id": "box:marker_01:8",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Reviewed unchanged native source crop against candidate instances; no further source-supported edit required."
+    },
+    {
+      "item_id": "tile:marker_02",
+      "item_type": "tile",
+      "status": "reviewed",
+      "detail": "Reviewed unchanged native source crop against candidate instances; no further source-supported edit required."
+    },
+    {
+      "item_id": "box:marker_02:9",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Reviewed unchanged native source crop against candidate instances; no further source-supported edit required."
+    },
+    {
+      "item_id": "box:marker_02:10",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Reviewed unchanged native source crop against candidate instances; no further source-supported edit required."
+    },
+    {
+      "item_id": "box:marker_02:11",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Reviewed unchanged native source crop against candidate instances; no further source-supported edit required."
+    },
+    {
+      "item_id": "box:marker_02:12",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Reviewed unchanged native source crop against candidate instances; no further source-supported edit required."
+    },
+    {
+      "item_id": "box:marker_02:13",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Reviewed unchanged native source crop against candidate instances; no further source-supported edit required."
+    },
+    {
+      "item_id": "box:marker_02:14",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Reviewed unchanged native source crop against candidate instances; no further source-supported edit required."
+    },
+    {
+      "item_id": "box:marker_02:15",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Reviewed unchanged native source crop against candidate instances; no further source-supported edit required."
+    },
+    {
+      "item_id": "box:marker_02:16",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Reviewed unchanged native source crop against candidate instances; no further source-supported edit required."
+    },
+    {
+      "item_id": "tile:region_01",
+      "item_type": "tile",
+      "status": "reviewed",
+      "detail": "Reviewed unchanged native source crop against candidate instances; no further source-supported edit required."
+    },
+    {
+      "item_id": "tile:region_03",
+      "item_type": "tile",
+      "status": "reviewed",
+      "detail": "Reviewed native right/lower region; no additional CO2 experimental markers beyond the visible plateau and red excluded series were supported."
+    },
+    {
+      "item_id": "tile:region_04",
+      "item_type": "tile",
+      "status": "reviewed",
+      "detail": "Reviewed unchanged native source crop against candidate instances; no further source-supported edit required."
+    },
+    {
+      "item_id": "tile:region_05",
+      "item_type": "tile",
+      "status": "reviewed",
+      "detail": "Reviewed native low y strip; blue CO2 markers are not supported there; red N2 context is excluded."
+    },
+    {
+      "item_id": "evidence:dense_roi_line_suppressed.png",
+      "item_type": "evidence",
+      "status": "reviewed",
+      "detail": "Reviewed as a derived diagnostic only; no edit was based on it, and native panel pixels were used for marker decisions."
+    },
+    {
+      "item_id": "evidence:dense_roi_series_likelihood.png",
+      "item_type": "evidence",
+      "status": "reviewed",
+      "detail": "Reviewed as a derived diagnostic only; no edit was based on it, and native panel pixels were used for marker decisions."
+    },
+    {
+      "item_id": "evidence:dense_roi_proposed_assignments.png",
+      "item_type": "evidence",
+      "status": "reviewed",
+      "detail": "Reviewed as a derived diagnostic only; no edit was based on it, and native panel pixels were used for marker decisions."
+    },
+    {
+      "item_id": "slot:0001",
+      "item_type": "slot",
+      "status": "unresolved",
+      "detail": "Reviewed native slot crop; it is outside the plotted x-domain/left of the y-axis and contains no source-supported CO2 marker. No point inferred."
+    }
+  ]
+}

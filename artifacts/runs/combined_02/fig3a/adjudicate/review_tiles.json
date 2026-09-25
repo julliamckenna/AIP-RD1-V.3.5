@@ -1,0 +1,23 @@
+{
+ "schema_version": "1.0",
+ "authority": "supporting_evidence_only",
+ "native_image": "panel.png",
+ "legend": "legend.png",
+ "tiles": [
+  {
+   "tile_id": "region_01",
+   "native_tile": "region_01_native.png",
+   "candidate_tile": "region_01_candidate.png",
+   "boxes": [],
+   "reason": "Agent 02 complex-region search"
+  }
+ ],
+ "dense_region_evidence": [
+  "dense_roi_native.png",
+  "dense_roi_line_suppressed.png",
+  "dense_roi_series_likelihood.png",
+  "dense_roi_proposed_assignments.png"
+ ],
+ "ambiguity_native_evidence_tiles": [],
+ "instructions": "Native tiles are source truth. Candidate tiles identify Python proposals only. Search every complex-region native tile for missed CO2 markers; never use an annotated ring or count as coordinate evidence."
+}

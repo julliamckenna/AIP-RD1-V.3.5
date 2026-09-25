@@ -1,0 +1,562 @@
+{
+ "reasoning": "The source uses linear 0–1200 mbar and 0–5 mmol/g axes, and the recreated chart is calibrated to the same tick positions. However, the extraction is substantially incomplete, especially for CO2 273K, CO2 313K, CO2 333K, and CO2 343K. A large block labelled CO2 313K actually follows the dark-blue CO2 333K trajectory. Several crowded low-pressure detections also belong to neighboring CO2 series. These listed identity errors can be corrected by reassignment, but the many missing markers cannot safely be reconstructed by smoothing or interpolation, so the result requires review rather than acceptance.",
+ "axis_check": {
+  "x": {
+   "printed_min": 0,
+   "printed_max": 1200,
+   "data_min": 2.3857,
+   "data_max": 1190.1705,
+   "reason": "The recreated pressure positions align with the source's linear 0–1200 mbar ticks; there is no visible horizontal shift or stretch.",
+   "result": "pass"
+  },
+  "y": {
+   "printed_min": 0,
+   "printed_max": 5,
+   "data_min": 0.0045,
+   "data_max": 5.0104,
+   "reason": "The recreated uptake levels align with the source's linear 0–5 mmol/g ticks, including the upper black trajectory ending at about 5.0.",
+   "result": "pass"
+  }
+ },
+ "independent_read": {
+  "x_axis": "P / mbar, linear, printed ticks 0–1200",
+  "y_axis": "CO2 Loading [mmol/g], linear, printed ticks 0–5",
+  "series": [
+   {
+    "label": "CO2 273K",
+    "marker": "square",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 48,
+    "notes": "Black upper trajectory; many markers are densely packed at low pressure."
+   },
+   {
+    "label": "CO2 283K",
+    "marker": "hexagon",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 40,
+    "notes": "Red trajectory immediately below CO2 273K."
+   },
+   {
+    "label": "CO2 293K",
+    "marker": "triangle_up",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 37,
+    "notes": "Blue upward triangles."
+   },
+   {
+    "label": "CO2 303K",
+    "marker": "triangle_down",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 35,
+    "notes": "Teal downward triangles."
+   },
+   {
+    "label": "CO2 313K",
+    "marker": "triangle_left",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 34,
+    "notes": "Magenta left-pointing triangles."
+   },
+   {
+    "label": "CO2 323K",
+    "marker": "triangle_right",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 33,
+    "notes": "Olive right-pointing triangles."
+   },
+   {
+    "label": "CO2 333K",
+    "marker": "diamond",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 32,
+    "notes": "Dark-blue diamonds."
+   },
+   {
+    "label": "CO2 343K",
+    "marker": "pentagon",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 31,
+    "notes": "Dark-red pentagons."
+   },
+   {
+    "label": "CO2 353K",
+    "marker": "diamond",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 31,
+    "notes": "Pink diamonds."
+   },
+   {
+    "label": "CO2 363K",
+    "marker": "star",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 30,
+    "notes": "Green stars."
+   },
+   {
+    "label": "CO2 373K",
+    "marker": "hexagon",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 29,
+    "notes": "Dark-blue lowermost CO2 trajectory."
+   }
+  ],
+  "visual_risks": [
+   "CO2 trajectories and markers strongly overlap below roughly 100 mbar.",
+   "Several CO2 colors are similar, especially the blue and magenta series.",
+   "The low-pressure CO2 markers overlap the near-zero N2 trajectories.",
+   "Connecting lines can be mistaken for marker centers in the densely sampled regions."
+  ]
+ },
+ "verdict": "review",
+ "series": [
+  {
+   "label": "CO2 273K",
+   "coverage": "incomplete",
+   "final_count": 9,
+   "comment": "Only a small high-pressure subset of the visibly much longer black-square trajectory is present."
+  },
+  {
+   "label": "CO2 283K",
+   "coverage": "uncertain",
+   "final_count": 29,
+   "comment": "The trajectory is recognizable, but low-pressure and intermediate markers remain underrepresented."
+  },
+  {
+   "label": "CO2 293K",
+   "coverage": "uncertain",
+   "final_count": 28,
+   "comment": "Five crowded low-pressure points were assigned to neighboring CO2 trajectories."
+  },
+  {
+   "label": "CO2 303K",
+   "coverage": "uncertain",
+   "final_count": 26,
+   "comment": "The main trajectory is represented, but some points appear to fall on lines or neighboring markers."
+  },
+  {
+   "label": "CO2 313K",
+   "coverage": "incomplete",
+   "final_count": 4,
+   "comment": "Most proposed points followed other trajectories, principally CO2 333K, leaving this magenta left-triangle series severely incomplete."
+  },
+  {
+   "label": "CO2 323K",
+   "coverage": "uncertain",
+   "final_count": 38,
+   "comment": "One low-pressure point was reassigned out and one neighboring low-pressure marker was reassigned in; dense overlap prevents a completeness claim."
+  },
+  {
+   "label": "CO2 333K",
+   "coverage": "incomplete",
+   "final_count": 29,
+   "comment": "A substantial run was recovered from points incorrectly labelled CO2 313K, but low-pressure coverage remains uncertain."
+  },
+  {
+   "label": "CO2 343K",
+   "coverage": "incomplete",
+   "final_count": 7,
+   "comment": "Only a few unambiguous dark-red pentagons are represented."
+  },
+  {
+   "label": "CO2 353K",
+   "coverage": "uncertain",
+   "final_count": 41,
+   "comment": "Three crowded low-pressure points were reassigned into this series; duplicate or overlapping detections remain possible."
+  },
+  {
+   "label": "CO2 363K",
+   "coverage": "uncertain",
+   "final_count": 33,
+   "comment": "High redraw recall, but low-pressure overlap and a few off-ink candidates prevent confirmation of completeness."
+  },
+  {
+   "label": "CO2 373K",
+   "coverage": "uncertain",
+   "final_count": 24,
+   "comment": "The flagged points are consistent with the lower CO2 trajectory, but several are only partially visible in the crowded region."
+  }
+ ],
+ "operations": [
+  {
+   "operation_id": "op-1",
+   "action": "reassign",
+   "point_id": "pt-4c3ae6ad41d0b7ea",
+   "series_label": "CO2 343K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The point is far from the CO2 293K trajectory and is associated with the neighboring CO2 343K marker path.",
+   "source_evidence": "Partially visible marker at native pixel (254, 568)."
+  },
+  {
+   "operation_id": "op-2",
+   "action": "reassign",
+   "point_id": "pt-94fa31fc29a8e632",
+   "series_label": "CO2 353K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "This crowded low-pressure point follows CO2 353K rather than CO2 313K.",
+   "source_evidence": "Partially visible marker at native pixel (261, 593)."
+  },
+  {
+   "operation_id": "op-3",
+   "action": "reassign",
+   "point_id": "pt-e51bee04f53c1540",
+   "series_label": "CO2 353K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "This crowded low-pressure point follows CO2 353K rather than CO2 313K.",
+   "source_evidence": "Partially visible marker at native pixel (250, 615)."
+  },
+  {
+   "operation_id": "op-4",
+   "action": "reassign",
+   "point_id": "pt-ac2a04b1eade4510",
+   "series_label": "CO2 343K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The point is off CO2 293K and lies on the neighboring CO2 343K marker path.",
+   "source_evidence": "Partially visible marker at native pixel (273, 519)."
+  },
+  {
+   "operation_id": "op-5",
+   "action": "reassign",
+   "point_id": "pt-cc1722eee271e91b",
+   "series_label": "CO2 353K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The point belongs with the low-pressure CO2 353K trajectory, not CO2 313K.",
+   "source_evidence": "Partially visible marker at native pixel (249, 609)."
+  },
+  {
+   "operation_id": "op-6",
+   "action": "reassign",
+   "point_id": "pt-b328bd4083eb331a",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The marker is off CO2 293K and follows the CO2 333K trajectory.",
+   "source_evidence": "Partially visible marker at native pixel (303, 467)."
+  },
+  {
+   "operation_id": "op-7",
+   "action": "reassign",
+   "point_id": "pt-062280ae0a7cf8f9",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The marker is off CO2 293K and is associated with CO2 333K in the crowded low-pressure fan.",
+   "source_evidence": "Partially visible marker at native pixel (261, 495)."
+  },
+  {
+   "operation_id": "op-8",
+   "action": "reassign",
+   "point_id": "pt-1a06f27b53c811cc",
+   "series_label": "CO2 323K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The point does not follow CO2 293K and lies with the CO2 323K trajectory.",
+   "source_evidence": "Partially visible marker at native pixel (249, 512)."
+  },
+  {
+   "operation_id": "op-9",
+   "action": "reassign",
+   "point_id": "pt-afecabea27fe74ee",
+   "series_label": "CO2 343K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "This point is displaced from CO2 313K and follows CO2 343K.",
+   "source_evidence": "Partially visible marker at native pixel (385, 460)."
+  },
+  {
+   "operation_id": "op-10",
+   "action": "reassign",
+   "point_id": "pt-87c3d1458ec38cfe",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The visible marker lies on CO2 333K rather than the lower CO2 353K curve.",
+   "source_evidence": "Visible marker centered near native pixel (289.98, 485.84)."
+  },
+  {
+   "operation_id": "op-11",
+   "action": "reassign",
+   "point_id": "pt-0b86b82a04db04ad",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": false,
+   "reason": "At high pressure this marker follows the dark-blue CO2 333K endpoint, not CO2 313K.",
+   "source_evidence": "Visible marker centered near native pixel (1070.04, 351.03)."
+  },
+  {
+   "operation_id": "op-12",
+   "action": "reassign",
+   "point_id": "pt-5819a3eee68ce0e5",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": false,
+   "reason": "The marker lies on the CO2 333K high-pressure trajectory.",
+   "source_evidence": "Visible marker centered near native pixel (1033.83, 352.9)."
+  },
+  {
+   "operation_id": "op-13",
+   "action": "reassign",
+   "point_id": "pt-b32cd7cb69f40195",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": false,
+   "reason": "The marker lies on CO2 333K rather than the higher CO2 313K curve.",
+   "source_evidence": "Visible marker centered near native pixel (991.22, 354.3)."
+  },
+  {
+   "operation_id": "op-14",
+   "action": "reassign",
+   "point_id": "pt-c1d29ce7656a6901",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": false,
+   "reason": "The marker follows the dark-blue CO2 333K run.",
+   "source_evidence": "Visible marker at native pixel (734, 378)."
+  },
+  {
+   "operation_id": "op-15",
+   "action": "reassign",
+   "point_id": "pt-1475c3f1b1bbe062",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The partially visible marker lies on CO2 333K rather than CO2 313K.",
+   "source_evidence": "Partially visible marker centered near native pixel (947.92, 359.28)."
+  },
+  {
+   "operation_id": "op-16",
+   "action": "reassign",
+   "point_id": "pt-3f28983ba79ea166",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": false,
+   "reason": "The visible marker belongs to the CO2 333K trajectory.",
+   "source_evidence": "Visible marker centered near native pixel (904, 362.86)."
+  },
+  {
+   "operation_id": "op-17",
+   "action": "reassign",
+   "point_id": "pt-f8394ab68933f963",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The marker is part of the CO2 333K run duplicated near this pressure.",
+   "source_evidence": "Partially visible marker centered near native pixel (733.12, 377.34)."
+  },
+  {
+   "operation_id": "op-18",
+   "action": "reassign",
+   "point_id": "pt-a838a03911df5273",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": false,
+   "reason": "The visible marker follows CO2 333K, not CO2 313K.",
+   "source_evidence": "Visible marker centered near native pixel (773.07, 373.08)."
+  },
+  {
+   "operation_id": "op-19",
+   "action": "reassign",
+   "point_id": "pt-9da9d434465dee1c",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": false,
+   "reason": "The marker lies on the dark-blue CO2 333K trajectory.",
+   "source_evidence": "Visible marker centered near native pixel (859.59, 364.7)."
+  },
+  {
+   "operation_id": "op-20",
+   "action": "reassign",
+   "point_id": "pt-cec85affd9461816",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": false,
+   "reason": "The marker lies on CO2 333K rather than the magenta CO2 313K trajectory.",
+   "source_evidence": "Visible marker centered near native pixel (816.4, 368.26)."
+  },
+  {
+   "operation_id": "op-21",
+   "action": "reassign",
+   "point_id": "pt-4164e95567cc2a25",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The point follows the CO2 333K curve and is substantially below CO2 313K.",
+   "source_evidence": "Partially visible marker at native pixel (429, 435)."
+  },
+  {
+   "operation_id": "op-22",
+   "action": "reassign",
+   "point_id": "pt-b8d82a34bc1c772c",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The partially visible marker belongs to CO2 333K.",
+   "source_evidence": "Partially visible marker centered near native pixel (935.41, 356.8)."
+  },
+  {
+   "operation_id": "op-23",
+   "action": "reassign",
+   "point_id": "pt-96712642a3af784e",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": false,
+   "reason": "The visible point is on the CO2 333K trajectory.",
+   "source_evidence": "Visible marker centered near native pixel (686.06, 381.92)."
+  },
+  {
+   "operation_id": "op-24",
+   "action": "reassign",
+   "point_id": "pt-e2705ac17f4d2788",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": false,
+   "reason": "The visible point follows CO2 333K rather than CO2 313K.",
+   "source_evidence": "Visible marker centered near native pixel (880.99, 359.73)."
+  },
+  {
+   "operation_id": "op-25",
+   "action": "reassign",
+   "point_id": "pt-d6d44ccb56d3bb69",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": false,
+   "reason": "This marker continues the CO2 333K dark-blue curve.",
+   "source_evidence": "Visible marker centered near native pixel (515.72, 410.32)."
+  },
+  {
+   "operation_id": "op-26",
+   "action": "reassign",
+   "point_id": "pt-b3f8564a732c56e5",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": false,
+   "reason": "The visible marker belongs to CO2 333K rather than CO2 313K.",
+   "source_evidence": "Visible marker centered near native pixel (473.16, 421.33)."
+  },
+  {
+   "operation_id": "op-27",
+   "action": "reassign",
+   "point_id": "pt-6ce797a820310e14",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The partially visible marker lies on CO2 333K.",
+   "source_evidence": "Partially visible marker centered near native pixel (554.29, 403.21)."
+  },
+  {
+   "operation_id": "op-28",
+   "action": "reassign",
+   "point_id": "pt-7d411bf5d0906b5e",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": false,
+   "reason": "The visible marker follows the CO2 333K trajectory.",
+   "source_evidence": "Visible marker centered near native pixel (838.39, 362.79)."
+  },
+  {
+   "operation_id": "op-29",
+   "action": "reassign",
+   "point_id": "pt-0ee2b688cfb51600",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": false,
+   "reason": "The visible marker belongs to the CO2 333K run.",
+   "source_evidence": "Visible marker centered near native pixel (642.31, 387.72)."
+  },
+  {
+   "operation_id": "op-30",
+   "action": "reassign",
+   "point_id": "pt-34985668a923ecfd",
+   "series_label": "CO2 343K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The crowded low-pressure marker is associated with CO2 343K rather than CO2 323K.",
+   "source_evidence": "Partially visible marker centered near native pixel (264.31, 539.83)."
+  },
+  {
+   "operation_id": "op-31",
+   "action": "reassign",
+   "point_id": "pt-e1eabc43400f4212",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The partially visible marker lies on the CO2 333K trajectory.",
+   "source_evidence": "Partially visible marker centered near native pixel (786.13, 366.97)."
+  },
+  {
+   "operation_id": "op-32",
+   "action": "reassign",
+   "point_id": "pt-0e051878d5d9f181",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": false,
+   "reason": "The visible marker belongs to CO2 333K rather than CO2 313K.",
+   "source_evidence": "Visible marker centered near native pixel (598.7, 394.53)."
+  },
+  {
+   "operation_id": "op-33",
+   "action": "reassign",
+   "point_id": "pt-b155c5ce4d6a9866",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": false,
+   "reason": "The visible marker follows CO2 333K.",
+   "source_evidence": "Visible marker centered near native pixel (673.04, 379.91)."
+  },
+  {
+   "operation_id": "op-34",
+   "action": "reassign",
+   "point_id": "pt-aea06c124bf87ac2",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": false,
+   "reason": "The visible marker lies on CO2 333K rather than CO2 313K.",
+   "source_evidence": "Visible marker centered near native pixel (452.3, 422.42)."
+  }
+ ],
+ "uncertainties": [
+  "Exact centers and series identities are difficult to separate in the low-pressure fan where multiple CO2 trajectories and near-zero N2 curves overlap.",
+  "CO2 273K is visibly far more densely sampled than its nine extracted points, but missing square centers cannot be safely added from the connecting curve.",
+  "CO2 333K and CO2 343K remain incomplete even after reassignment; no points were invented to fill their trajectories.",
+  "The flagged CO2 373K points were retained because their positions are consistent with the source's lowest CO2 curve despite partial marker visibility.",
+  "Some CO2 353K detections may be duplicates or overlap neighboring curves, so its post-reassignment count should not be interpreted as confirmed completeness."
+ ]
+}

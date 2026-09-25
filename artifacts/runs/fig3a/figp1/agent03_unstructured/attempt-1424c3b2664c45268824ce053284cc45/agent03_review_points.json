@@ -1,0 +1,364 @@
+{
+  "reasoning": "Reviewed the unchanged 700x607 panel first, then the complete candidate table and every adjudication review item. The extractable series is the blue open-circle CO2 195K curve; the coral N2 77K curve is excluded by spec and was not edited. The native plateau crop shows multiple clearly visible blue open-circle markers omitted from the 46-row candidate table, so I added only centres supported by native ring geometry. The dense low-pressure rise was inspected at enlarged native scale; several glyphs are fused and their centres are not defensibly separable, so I did not infer points from expected spacing or smoothness.",
+  "verdict": "review",
+  "series": [
+    {
+      "label": "CO2 195K",
+      "coverage": "incomplete",
+      "final_count": 59,
+      "comment": "46 candidate points plus 13 native-visible plateau additions. Dense low-pressure fused fragments remain unresolved; no N2 coordinates created."
+    }
+  ],
+  "operations": [
+    {
+      "operation_id": "add_co2_plateau_01",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 195K",
+      "x_norm": 0.2542857142857143,
+      "y_norm": 0.21746293245469522,
+      "overlap": true,
+      "reason": "Visible blue open-circle glyph at native panel pixel (178,132) in the long plateau; omitted from the candidate table.",
+      "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (178,132).",
+      "evidence_kind": "native_visible",
+      "uncertainty_px": 2.0,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_co2_plateau_02",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 195K",
+      "x_norm": 0.2757142857142857,
+      "y_norm": 0.20098846787479407,
+      "overlap": true,
+      "reason": "Visible blue open-circle glyph at native panel pixel (193,122) in the long plateau; omitted from the candidate table.",
+      "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (193,122).",
+      "evidence_kind": "native_visible",
+      "uncertainty_px": 2.0,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_co2_plateau_03",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 195K",
+      "x_norm": 0.2914285714285714,
+      "y_norm": 0.19934102141680396,
+      "overlap": true,
+      "reason": "Visible blue open-circle glyph at native panel pixel (204,121) in the long plateau; omitted from the candidate table.",
+      "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (204,121).",
+      "evidence_kind": "native_visible",
+      "uncertainty_px": 2.0,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_co2_plateau_04",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 195K",
+      "x_norm": 0.38285714285714284,
+      "y_norm": 0.19439868204283361,
+      "overlap": true,
+      "reason": "Visible blue open-circle glyph at native panel pixel (268,118) in the long plateau; omitted from the candidate table.",
+      "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (268,118).",
+      "evidence_kind": "native_visible",
+      "uncertainty_px": 2.0,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_co2_plateau_05",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 195K",
+      "x_norm": 0.4857142857142857,
+      "y_norm": 0.19110378912685339,
+      "overlap": true,
+      "reason": "Visible blue open-circle glyph at native panel pixel (340,116) in the long plateau; omitted from the candidate table.",
+      "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (340,116).",
+      "evidence_kind": "native_visible",
+      "uncertainty_px": 2.0,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_co2_plateau_06",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 195K",
+      "x_norm": 0.66,
+      "y_norm": 0.18780889621087316,
+      "overlap": true,
+      "reason": "Visible blue open-circle glyph at native panel pixel (462,114) in the long plateau; omitted from the candidate table.",
+      "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (462,114).",
+      "evidence_kind": "native_visible",
+      "uncertainty_px": 2.0,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_co2_plateau_07",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 195K",
+      "x_norm": 0.6942857142857143,
+      "y_norm": 0.18780889621087316,
+      "overlap": true,
+      "reason": "Visible blue open-circle glyph at native panel pixel (486,114) in the long plateau; omitted from the candidate table.",
+      "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (486,114).",
+      "evidence_kind": "native_visible",
+      "uncertainty_px": 2.0,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_co2_plateau_08",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 195K",
+      "x_norm": 0.7285714285714285,
+      "y_norm": 0.18780889621087316,
+      "overlap": true,
+      "reason": "Visible blue open-circle glyph at native panel pixel (510,114) in the long plateau; omitted from the candidate table.",
+      "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (510,114).",
+      "evidence_kind": "native_visible",
+      "uncertainty_px": 2.0,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_co2_plateau_09",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 195K",
+      "x_norm": 0.7628571428571429,
+      "y_norm": 0.18616144975288304,
+      "overlap": true,
+      "reason": "Visible blue open-circle glyph at native panel pixel (534,113) in the long plateau; omitted from the candidate table.",
+      "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (534,113).",
+      "evidence_kind": "native_visible",
+      "uncertainty_px": 2.0,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_co2_plateau_10",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 195K",
+      "x_norm": 0.7971428571428572,
+      "y_norm": 0.18451400329489293,
+      "overlap": true,
+      "reason": "Visible blue open-circle glyph at native panel pixel (558,112) in the long plateau; omitted from the candidate table.",
+      "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (558,112).",
+      "evidence_kind": "native_visible",
+      "uncertainty_px": 2.0,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_co2_plateau_11",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 195K",
+      "x_norm": 0.8485714285714285,
+      "y_norm": 0.18451400329489293,
+      "overlap": true,
+      "reason": "Visible blue open-circle glyph at native panel pixel (594,112) in the long plateau; omitted from the candidate table.",
+      "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (594,112).",
+      "evidence_kind": "native_visible",
+      "uncertainty_px": 2.0,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_co2_plateau_12",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 195K",
+      "x_norm": 0.8771428571428571,
+      "y_norm": 0.1812191103789127,
+      "overlap": true,
+      "reason": "Visible blue open-circle glyph at native panel pixel (614,110) in the long plateau; omitted from the candidate table.",
+      "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (614,110).",
+      "evidence_kind": "native_visible",
+      "uncertainty_px": 2.5,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_co2_plateau_13",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 195K",
+      "x_norm": 0.9028571428571428,
+      "y_norm": 0.17792421746293247,
+      "overlap": true,
+      "reason": "Visible blue open-circle glyph at native panel pixel (632,108) in the long plateau; omitted from the candidate table.",
+      "source_evidence": "Native blue open-circle centre supported by ring symmetry and surrounding blue line at panel pixel (632,108).",
+      "evidence_kind": "native_visible",
+      "uncertainty_px": 2.5,
+      "evidence_ref": "panel.png"
+    }
+  ],
+  "uncertainties": [
+    "Added plateau centres have 2.0\u20132.5 px native positional uncertainty from ring diameter, antialiasing, and local overlap; no existing point was moved or deleted.",
+    "The low-pressure strip near x=149\u2013171 px and final crowded plateau cluster were searched in native crops; fused fragments remain uncertain."
+  ],
+  "coverage": [
+    {
+      "item_id": "crowded_strip:01",
+      "item_type": "evidence",
+      "status": "unresolved",
+      "detail": "Inspected native crop. Dense low-pressure blue rings contain fused/partially visible glyph fragments; existing points were retained, but exact centres of additional fragments are not sufficiently separable for a defensible positional edit."
+    },
+    {
+      "item_id": "tile:marker_01",
+      "item_type": "tile",
+      "status": "reviewed",
+      "detail": "Inspected native dense-rise crop; overlapping blue ring ink checked against candidates. No non-duplicate centre was added from ambiguous fused fragments."
+    },
+    {
+      "item_id": "box:marker_01:1",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected unchanged native crop against panel.png; no edit beyond the explicitly cited plateau additions."
+    },
+    {
+      "item_id": "box:marker_01:2",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected unchanged native crop against panel.png; no edit beyond the explicitly cited plateau additions."
+    },
+    {
+      "item_id": "box:marker_01:3",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected unchanged native crop against panel.png; no edit beyond the explicitly cited plateau additions."
+    },
+    {
+      "item_id": "box:marker_01:4",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected unchanged native crop against panel.png; no edit beyond the explicitly cited plateau additions."
+    },
+    {
+      "item_id": "box:marker_01:5",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected unchanged native crop against panel.png; no edit beyond the explicitly cited plateau additions."
+    },
+    {
+      "item_id": "box:marker_01:6",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected unchanged native crop against panel.png; no edit beyond the explicitly cited plateau additions."
+    },
+    {
+      "item_id": "box:marker_01:7",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected unchanged native crop against panel.png; no edit beyond the explicitly cited plateau additions."
+    },
+    {
+      "item_id": "box:marker_01:8",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected unchanged native crop against panel.png; no edit beyond the explicitly cited plateau additions."
+    },
+    {
+      "item_id": "tile:marker_02",
+      "item_type": "tile",
+      "status": "reviewed",
+      "detail": "Inspected unchanged native crop against panel.png; no edit beyond the explicitly cited plateau additions."
+    },
+    {
+      "item_id": "box:marker_02:9",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected unchanged native crop against panel.png; no edit beyond the explicitly cited plateau additions."
+    },
+    {
+      "item_id": "box:marker_02:10",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected unchanged native crop against panel.png; no edit beyond the explicitly cited plateau additions."
+    },
+    {
+      "item_id": "box:marker_02:11",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected unchanged native crop against panel.png; no edit beyond the explicitly cited plateau additions."
+    },
+    {
+      "item_id": "box:marker_02:12",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected unchanged native crop against panel.png; no edit beyond the explicitly cited plateau additions."
+    },
+    {
+      "item_id": "box:marker_02:13",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected unchanged native crop against panel.png; no edit beyond the explicitly cited plateau additions."
+    },
+    {
+      "item_id": "box:marker_02:14",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected unchanged native crop against panel.png; no edit beyond the explicitly cited plateau additions."
+    },
+    {
+      "item_id": "box:marker_02:15",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected unchanged native crop against panel.png; no edit beyond the explicitly cited plateau additions."
+    },
+    {
+      "item_id": "box:marker_02:16",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected unchanged native crop against panel.png; no edit beyond the explicitly cited plateau additions."
+    },
+    {
+      "item_id": "tile:region_01",
+      "item_type": "tile",
+      "status": "reviewed",
+      "detail": "Inspected native dense-rise crop; overlapping blue ring ink checked against candidates. No non-duplicate centre was added from ambiguous fused fragments."
+    },
+    {
+      "item_id": "tile:region_03",
+      "item_type": "tile",
+      "status": "reviewed",
+      "detail": "Inspected unchanged native crop against panel.png; no edit beyond the explicitly cited plateau additions."
+    },
+    {
+      "item_id": "tile:region_04",
+      "item_type": "tile",
+      "status": "reviewed",
+      "detail": "Inspected native plateau crop; native-visible omitted rings are addressed by operations add_co2_plateau_01 through add_co2_plateau_13."
+    },
+    {
+      "item_id": "tile:region_05",
+      "item_type": "tile",
+      "status": "reviewed",
+      "detail": "Inspected unchanged native crop against panel.png; no edit beyond the explicitly cited plateau additions."
+    },
+    {
+      "item_id": "evidence:dense_roi_line_suppressed.png",
+      "item_type": "evidence",
+      "status": "unresolved",
+      "detail": "Derived diagnostic inspected only as a search aid; not treated as source evidence. Native source was reviewed separately."
+    },
+    {
+      "item_id": "evidence:dense_roi_series_likelihood.png",
+      "item_type": "evidence",
+      "status": "unresolved",
+      "detail": "Derived diagnostic inspected only as a search aid; not treated as source evidence. Native source was reviewed separately."
+    },
+    {
+      "item_id": "evidence:dense_roi_proposed_assignments.png",
+      "item_type": "evidence",
+      "status": "unresolved",
+      "detail": "Derived diagnostic inspected only as a search aid; not treated as source evidence. Native source was reviewed separately."
+    },
+    {
+      "item_id": "slot:0001",
+      "item_type": "slot",
+      "status": "unresolved",
+      "detail": "Inspected native crop. Dense low-pressure blue rings contain fused/partially visible glyph fragments; existing points were retained, but exact centres of additional fragments are not sufficiently separable for a defensible positional edit."
+    }
+  ]
+}

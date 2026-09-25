@@ -1,0 +1,209 @@
+{
+ "reasoning": "The source-only read shows six linear-pressure CO2 isotherms with filled red circles, orange squares, green upward triangles, blue pentagons, magenta diamonds, and black stars. The re-plot uses the correct axis calibration, but its CO2 333K and CO2 353K identities are substantially mixed: all eight listed CO2 353K suspects lie on visible blue pentagons and should be reassigned to CO2 333K. The two low-pressure CO2 313K suspects coincide with visible orange squares and are retained. Even after reassignment, the 333K extraction remains uncertain and the 353K series is incomplete; no points are added merely to reconstruct or smooth the trajectories.",
+ "axis_check": {
+  "x": {
+   "printed_min": 0,
+   "printed_max": 120,
+   "data_min": 1.4272,
+   "data_max": 114.0411,
+   "reason": "The source and re-plot both use a linear 0-120 kPa pressure axis, and corresponding marker columns have the same horizontal placement and spacing.",
+   "result": "pass"
+  },
+  "y": {
+   "printed_min": 0,
+   "printed_max": 3,
+   "data_min": 0.0428,
+   "data_max": 2.924,
+   "reason": "The re-plotted endpoints and correctly identified series occupy the same uptake values against the linear 0-3.0 mmol/g ticks; the conspicuous deviations arise from series misassignment rather than axis scaling.",
+   "result": "pass"
+  }
+ },
+ "independent_read": {
+  "x_axis": "Pressure [kPa], linear 0-120",
+  "y_axis": "CO2 Loading [mmol/g], linear 0-3.0",
+  "series": [
+   {
+    "label": "CO2 303K",
+    "marker": "circle",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 14,
+    "notes": "Red circles are clearly countable mainly beyond the thick low-pressure curve."
+   },
+   {
+    "label": "CO2 313K",
+    "marker": "square",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 18,
+    "notes": "Orange squares, including distinct low-pressure markers."
+   },
+   {
+    "label": "CO2 323K",
+    "marker": "triangle_up",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 19,
+    "notes": "Green upward triangles; some low-pressure symbols overlap the thick curve."
+   },
+   {
+    "label": "CO2 333K",
+    "marker": "pentagon",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 19,
+    "notes": "Blue pentagons distributed along the fourth isotherm."
+   },
+   {
+    "label": "CO2 353K",
+    "marker": "diamond",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 17,
+    "notes": "Magenta diamonds; several are small and close to other curves at low pressure."
+   },
+   {
+    "label": "CO2 373K",
+    "marker": "star",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 14,
+    "notes": "Black four-point star-like markers on the lowest isotherm."
+   }
+  ],
+  "visual_risks": [
+   "The thick red, green, and black low-pressure strokes obscure or merge with marker cores.",
+   "Several series are tightly spaced below about 10 kPa, increasing the risk of color and identity swaps.",
+   "The thin black star markers have little marker ink, so pixel-recall measurements can understate their coverage."
+  ]
+ },
+ "verdict": "review",
+ "series": [
+  {
+   "label": "CO2 303K",
+   "coverage": "uncertain",
+   "final_count": 14,
+   "comment": "The clearly separated red circles are covered, but additional low-pressure centers cannot be distinguished reliably from the thick red stroke."
+  },
+  {
+   "label": "CO2 313K",
+   "coverage": "complete",
+   "final_count": 18,
+   "comment": "Both flagged low-pressure points coincide with native orange square markers and are retained."
+  },
+  {
+   "label": "CO2 323K",
+   "coverage": "complete",
+   "final_count": 19,
+   "comment": "The extracted green triangles closely match the visible source series."
+  },
+  {
+   "label": "CO2 333K",
+   "coverage": "uncertain",
+   "final_count": 15,
+   "comment": "Eight visible blue pentagons are recovered by reassignment from 353K, but the original seven 333K rows have poor source-series recall and cannot all be validated from the supplied suspect IDs."
+  },
+  {
+   "label": "CO2 353K",
+   "coverage": "incomplete",
+   "final_count": 9,
+   "comment": "After removing eight blue-pentagon misassignments, multiple visible magenta diamonds remain uncovered; they are not added without exact native-pixel centers."
+  },
+  {
+   "label": "CO2 373K",
+   "coverage": "complete",
+   "final_count": 14,
+   "comment": "The points follow the visible black-star trajectory; low redraw recall is consistent with the marker's sparse thin ink."
+  }
+ ],
+ "operations": [
+  {
+   "operation_id": "op-1",
+   "action": "reassign",
+   "point_id": "pt-f48897c63ad01add",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": false,
+   "reason": "The point is a blue pentagon on the 333K trajectory, not a magenta 353K diamond.",
+   "source_evidence": "Visible blue pentagon centered near native pixel (313, 257)."
+  },
+  {
+   "operation_id": "op-2",
+   "action": "reassign",
+   "point_id": "pt-fbaf7ca876ab6d8c",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": false,
+   "reason": "The native marker belongs to the blue-pentagon 333K isotherm.",
+   "source_evidence": "Visible blue pentagon centered near native pixel (370, 231)."
+  },
+  {
+   "operation_id": "op-3",
+   "action": "reassign",
+   "point_id": "pt-5b0068d61a22451e",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": false,
+   "reason": "The point sits on a blue pentagon rather than on the lower magenta-diamond series.",
+   "source_evidence": "Visible blue pentagon centered near native pixel (342, 244)."
+  },
+  {
+   "operation_id": "op-4",
+   "action": "reassign",
+   "point_id": "pt-bdb3d0eb5073bb98",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": false,
+   "reason": "The source symbol and trajectory identify this as CO2 333K.",
+   "source_evidence": "Visible blue pentagon centered near native pixel (402, 223)."
+  },
+  {
+   "operation_id": "op-5",
+   "action": "reassign",
+   "point_id": "pt-33b111102d681103",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": false,
+   "reason": "This low-pressure point coincides with a blue pentagon on the 333K curve.",
+   "source_evidence": "Visible blue pentagon centered near native pixel (228, 343)."
+  },
+  {
+   "operation_id": "op-6",
+   "action": "reassign",
+   "point_id": "pt-8f30748b282b57df",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": false,
+   "reason": "The native symbol is a blue 333K pentagon, not a magenta diamond.",
+   "source_evidence": "Visible blue pentagon centered near native pixel (429, 215)."
+  },
+  {
+   "operation_id": "op-7",
+   "action": "reassign",
+   "point_id": "pt-71813bb7b9cbc83b",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": false,
+   "reason": "The point lies on the blue-pentagon 333K sequence.",
+   "source_evidence": "Visible blue pentagon centered near native pixel (459, 209)."
+  },
+  {
+   "operation_id": "op-8",
+   "action": "reassign",
+   "point_id": "pt-db82ea296d6146bc",
+   "series_label": "CO2 333K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "Despite nearby low-pressure curves, the centered native symbol is the blue pentagon of CO2 333K.",
+   "source_evidence": "Blue pentagon marker core visible at native pixel (197, 417), overlapping the crowded low-pressure region."
+  }
+ ],
+ "uncertainties": [
+  "Low-pressure CO2 303K markers cannot be separated confidently from the thick red connecting stroke.",
+  "The seven pre-existing CO2 333K rows have zero measured recall for blue-marker ink and include apparent detections on other curves, but their point IDs were not supplied for individual correction.",
+  "Several visible CO2 353K magenta diamonds remain uncovered after reassignment; exact centers were not inferred from trajectory interpolation.",
+  "Low-pressure CO2 323K, CO2 353K, and CO2 373K symbols partially merge with thick neighboring strokes."
+ ]
+}

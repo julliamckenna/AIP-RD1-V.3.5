@@ -1,0 +1,453 @@
+{
+ "reasoning": "The axis calibration is correct: the source has a linear relative-pressure axis from 0 to 1 and an uptake axis labeled 0 to 140 cm³ g⁻¹, and the extracted CO2 values re-plot at the same positions. The CO2 series identity and open-circle styling are correct, but coverage remains incomplete, especially across the dense low-pressure rise and the long plateau. The clearly visible coral open-circle N2 series is still absent from Python's extracted result because it is disabled by the current structure, so it must be enabled and extracted with near-axis y-bands.",
+ "axis_check": {
+  "x": {
+   "printed_min": 0,
+   "printed_max": 1,
+   "data_min": -0.0003,
+   "data_max": 0.981,
+   "reason": "The re-plotted pressure positions align with the source's 0.0–1.0 linear relative-pressure ticks; the slight negative minimum is a marker-centre tolerance effect at the origin.",
+   "result": "pass"
+  },
+  "y": {
+   "printed_min": 0,
+   "printed_max": 140,
+   "data_min": 0.487,
+   "data_max": 125.8631,
+   "reason": "The re-plotted uptake values align with the source's 0–140 cm³ g⁻¹ ticks. The extracted CO2 plateau near 124–126 is at the same height as the source, and the first point is near the zero axis as expected.",
+   "result": "pass"
+  }
+ },
+ "satisfied": false,
+ "issues": [
+  "Python detects only 46 of about 80 visible CO2 open-circle markers; substantial native marker ink remains unextracted in the dense low-pressure strip and on the plateau.",
+  "The coral N2 77K open-circle series is visibly present in the source but has zero extracted markers because it was disabled in the current structure.",
+  "The broad annotation-ignore region should not suppress the near-axis N2 series; retain annotation exclusion only for the annotation/text area and explicitly enable N2 extraction."
+ ],
+ "structure_ok": true,
+ "chart_title": "",
+ "x_axis": {
+  "title": "Relative Pressure (P/P₀)",
+  "unit": "dimensionless",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 1,
+  "boundary_limits_confirmed": true,
+  "ticks": [
+   0,
+   0.2,
+   0.4,
+   0.6,
+   0.8,
+   1
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.2129,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.3514,
+    "value": 0.2
+   },
+   {
+    "pixel_norm": 0.49,
+    "value": 0.4
+   },
+   {
+    "pixel_norm": 0.6286,
+    "value": 0.6
+   },
+   {
+    "pixel_norm": 0.7671,
+    "value": 0.8
+   },
+   {
+    "pixel_norm": 0.9057,
+    "value": 1
+   }
+  ]
+ },
+ "y_axis": {
+  "title": "Uptake",
+  "unit": "cm³ g⁻¹",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 140,
+  "boundary_limits_confirmed": true,
+  "ticks": [
+   0,
+   20,
+   40,
+   60,
+   80,
+   100,
+   120,
+   140
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.1137,
+    "value": 140
+   },
+   {
+    "pixel_norm": 0.2076,
+    "value": 120
+   },
+   {
+    "pixel_norm": 0.3015,
+    "value": 100
+   },
+   {
+    "pixel_norm": 0.3954,
+    "value": 80
+   },
+   {
+    "pixel_norm": 0.488,
+    "value": 60
+   },
+   {
+    "pixel_norm": 0.5848,
+    "value": 40
+   },
+   {
+    "pixel_norm": 0.6787,
+    "value": 20
+   },
+   {
+    "pixel_norm": 0.7727,
+    "value": 0
+   }
+  ]
+ },
+ "legend_bbox_norm": [
+  0.64,
+  0.1779,
+  0.95,
+  0.769
+ ],
+ "total_series": 2,
+ "series": [
+  {
+   "label": "CO2 195K",
+   "marker": "circle",
+   "marker_fill": "open",
+   "line_style": "solid",
+   "color_hex": "#5875F3",
+   "notes": "Blue open-circle adsorption isotherm; direct plot annotation reads CO₂@195 K."
+  },
+  {
+   "label": "N2 77K",
+   "marker": "circle",
+   "marker_fill": "open",
+   "line_style": "solid",
+   "color_hex": "#F36B67",
+   "notes": "Coral open-circle near-zero-uptake adsorption isotherm; direct plot annotation reads N₂@77 K. Enable extraction; markers lie close to the y=0 axis with a small rise at the final points."
+  }
+ ],
+ "branches": "adsorption_only",
+ "complex_regions": [
+  {
+   "bbox_norm": [
+    0.205,
+    0.11,
+    0.29,
+    0.775
+   ],
+   "kind": "dense_markers",
+   "python_passes": 6
+  },
+  {
+   "bbox_norm": [
+    0.355,
+    0.286,
+    0.739,
+    0.644
+   ],
+   "kind": "inset",
+   "python_passes": 3
+  },
+  {
+   "bbox_norm": [
+    0.65,
+    0.1895,
+    0.94,
+    0.7595
+   ],
+   "kind": "annotation",
+   "python_passes": 4
+  },
+  {
+   "bbox_norm": [
+    0.205,
+    0.18,
+    0.94,
+    0.23
+   ],
+   "kind": "dense_markers",
+   "python_passes": 5
+  },
+  {
+   "bbox_norm": [
+    0.205,
+    0.755,
+    0.94,
+    0.79
+   ],
+   "kind": "overlapping_markers",
+   "python_passes": 5
+  }
+ ],
+ "extraction_settings": [
+  {
+   "label": "CO2 195K",
+   "color_tolerance": 26,
+   "separate_from": [
+    "N2 77K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.02,
+     "y_min": 0,
+     "y_max": 110
+    },
+    {
+     "x_from": 0.02,
+     "x_to": 0.06,
+     "y_min": 70,
+     "y_max": 123
+    },
+    {
+     "x_from": 0.06,
+     "x_to": 0.3,
+     "y_min": 115,
+     "y_max": 126
+    },
+    {
+     "x_from": 0.3,
+     "x_to": 0.85,
+     "y_min": 118,
+     "y_max": 127
+    },
+    {
+     "x_from": 0.85,
+     "x_to": 1,
+     "y_min": 120,
+     "y_max": 130
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Many blue open rings remain visible in the dense low-pressure rise and along the long plateau. Use the curve-guided dense-circle detector and preserve open-ring geometry; do not assign near-zero coral markers to this series.",
+   "sample_marker_norm": [
+    0.797,
+    0.194
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 0.02,
+     "count": 20
+    },
+    {
+     "x_from": 0.02,
+     "x_to": 0.06,
+     "count": 20
+    },
+    {
+     "x_from": 0.06,
+     "x_to": 0.3,
+     "count": 20
+    },
+    {
+     "x_from": 0.3,
+     "x_to": 1,
+     "count": 20
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 0.003,
+     "y": 20
+    },
+    {
+     "x": 0.006,
+     "y": 42
+    },
+    {
+     "x": 0.01,
+     "y": 65
+    },
+    {
+     "x": 0.014,
+     "y": 88
+    },
+    {
+     "x": 0.02,
+     "y": 104
+    },
+    {
+     "x": 0.03,
+     "y": 116
+    },
+    {
+     "x": 0.05,
+     "y": 120
+    },
+    {
+     "x": 0.1,
+     "y": 122
+    },
+    {
+     "x": 0.2,
+     "y": 123
+    },
+    {
+     "x": 0.4,
+     "y": 123.5
+    },
+    {
+     "x": 0.7,
+     "y": 124.5
+    },
+    {
+     "x": 0.9,
+     "y": 125
+    },
+    {
+     "x": 1,
+     "y": 128
+    }
+   ]
+  },
+  {
+   "label": "N2 77K",
+   "color_tolerance": 28,
+   "separate_from": [
+    "CO2 195K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.8,
+     "y_min": -1,
+     "y_max": 2.5
+    },
+    {
+     "x_from": 0.8,
+     "x_to": 0.97,
+     "y_min": -1,
+     "y_max": 2.5
+    },
+    {
+     "x_from": 0.97,
+     "x_to": 1,
+     "y_min": -1,
+     "y_max": 5
+    }
+   ],
+   "template_fill": "off",
+   "reason": "The coral open-circle series is clearly visible along the zero-uptake axis and at the final rising points, but the current structure disables it. Use the clean coral endpoint color and narrow near-axis bands.",
+   "sample_marker_norm": [
+    0.837,
+    0.769
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 0.8,
+     "count": 20
+    },
+    {
+     "x_from": 0.8,
+     "x_to": 0.97,
+     "count": 7
+    },
+    {
+     "x_from": 0.97,
+     "x_to": 1,
+     "count": 2
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0.5
+    },
+    {
+     "x": 0.1,
+     "y": 0.8
+    },
+    {
+     "x": 0.3,
+     "y": 0.7
+    },
+    {
+     "x": 0.5,
+     "y": 0.7
+    },
+    {
+     "x": 0.7,
+     "y": 0.8
+    },
+    {
+     "x": 0.85,
+     "y": 0.9
+    },
+    {
+     "x": 0.95,
+     "y": 1.2
+    },
+    {
+     "x": 1,
+     "y": 3
+    }
+   ]
+  }
+ ],
+ "notes": "Axes and series styles are confirmed from the source. Re-extract both series, with special attention to blue open rings in the dense low-pressure and plateau regions and coral open rings along y≈0.",
+ "region_strategies": [
+  {
+   "bbox_norm": [
+    0.355,
+    0.286,
+    0.739,
+    0.644
+   ],
+   "series_labels": [],
+   "strategy": "ignore",
+   "reason": "Central inset containing a separate log-pressure presentation of the CO2 curve; do not count inset markers as panel markers."
+  },
+  {
+   "bbox_norm": [
+    0.65,
+    0.1895,
+    0.94,
+    0.7595
+   ],
+   "series_labels": [
+    "CO2 195K"
+   ],
+   "strategy": "ignore",
+   "reason": "Large upper-right annotation/text region overlaps the blue plateau and label; ignore annotation ink for CO2, but do not suppress the coral near-axis N2 series."
+  },
+  {
+   "bbox_norm": [
+    0.205,
+    0.11,
+    0.29,
+    0.775
+   ],
+   "series_labels": [
+    "CO2 195K"
+   ],
+   "strategy": "sample_band_at_columns",
+   "reason": "The low-pressure blue open-circle markers are densely packed and partly fused into a thick-looking strip; use column-guided recovery while retaining only curve-supported marker centres."
+  }
+ ],
+ "shared_x_columns": []
+}

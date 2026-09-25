@@ -1,0 +1,43 @@
+{
+ "series": {
+  "CO2 195K": {
+   "flags": [
+    {
+     "check": "monotonic",
+     "detail": "ads: uptake decreases at [(np.float64(0.004), np.float64(3.035)), (np.float64(0.037), np.float64(69.562)), (np.float64(0.219), np.float64(121.384)), (np.float64(0.297), np.float64(122.434))]"
+    },
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "ads: local outliers (P,q,resid) [(np.float64(0.006), np.float64(8.988), -6.322), (np.float64(0.006), np.float64(14.94), 5.25), (np.float64(0.035), np.float64(66.411), -5.401), (np.float64(0.035), np.float64(73.064), 7.456), (np.float64(0.037), np.float64(69.562), -3.794)]"
+    },
+    {
+     "check": "monotonic",
+     "detail": "des: uptake decreases at [(np.float64(0.002), np.float64(19.842)), (np.float64(0.004), np.float64(26.144)), (np.float64(0.042), np.float64(91.972)), (np.float64(0.116), np.float64(121.033))]"
+    },
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "des: local outliers (P,q,resid) [(np.float64(0.002), np.float64(42.251), 23.763), (np.float64(0.004), np.float64(26.144), -7.505), (np.float64(0.006), np.float64(39.1), 7.352), (np.float64(0.037), np.float64(95.123), 5.012), (np.float64(0.042), np.float64(91.972), -7.305)]"
+    }
+   ],
+   "toth": null,
+   "low_confidence_points": 0
+  }
+ },
+ "cross": [],
+ "verdict": "review",
+ "role": "supporting_diagnostics_only",
+ "agent04_verdict": "review",
+ "rows": {
+  "python": 41,
+  "agent03": 52,
+  "agent04": 52
+ },
+ "final_operations_applied": 0,
+ "hard_checks": {
+  "passed": true,
+  "problems": [],
+  "summary": "PASS: x printed 0-1, data -0.0018-0.9938 P/P₀; y printed 0-140, data 3.035-126.8 cm³ g⁻¹; redraw recall 0.88, precision 0.79"
+ }
+}

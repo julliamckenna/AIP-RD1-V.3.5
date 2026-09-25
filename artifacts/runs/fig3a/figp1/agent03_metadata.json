@@ -1,0 +1,1411 @@
+{
+ "schema_version": "4.0",
+ "stage": "agent03",
+ "figure_id": "figp1",
+ "panel_id": "x",
+ "source_pdf": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\data\\input\\fig3a.png",
+ "image_sha256": "bf347a3f0c2469e3b4571353ea115c3aeba493bc936c4c01b0086cfe52c26471",
+ "status": "agent03_adjusted",
+ "plot_bbox": [
+  125,
+  68,
+  658,
+  497
+ ],
+ "series": [
+  {
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "series_name": "CO2 195K",
+   "species": "CO2",
+   "export_eligible": true,
+   "species_evidence": "Direct upper-right plot annotation 'CO2@195 K' adjacent to the blue high-uptake series.",
+   "marker_shape": "circle",
+   "marker_fill": "open",
+   "marker_glyph": null,
+   "color_hex": "#5462fb",
+   "line_style": "solid",
+   "axis_x_id": "x",
+   "axis_y_id": "y",
+   "quantity_type": "co2_uptake",
+   "loading_basis": "per gram of adsorbent"
+  }
+ ],
+ "axes": [
+  {
+   "axis_id": "x",
+   "scale": "linear",
+   "unit": "dimensionless",
+   "quantity_type": "Relative Pressure (P/P\u2080)",
+   "calibration_status": "valid",
+   "a": 0.0020648907658572233,
+   "b": -0.30874888329407885,
+   "anchors": [
+    {
+     "pixel": 150.0,
+     "value": 0.0
+    },
+    {
+     "pixel": 246.0,
+     "value": 0.2
+    },
+    {
+     "pixel": 343.0,
+     "value": 0.4
+    },
+    {
+     "pixel": 440.0,
+     "value": 0.6
+    },
+    {
+     "pixel": 537.0,
+     "value": 0.8
+    },
+    {
+     "pixel": 634.0,
+     "value": 1.0
+    }
+   ],
+   "equation": "value=a*pixel+b"
+  },
+  {
+   "axis_id": "y",
+   "scale": "linear",
+   "unit": "cm\u00b3 g\u207b\u00b9",
+   "quantity_type": "Uptake",
+   "calibration_status": "valid",
+   "a": -0.3501435822213465,
+   "b": 163.92601593087616,
+   "anchors": [
+    {
+     "pixel": 68.0,
+     "value": 140.0
+    },
+    {
+     "pixel": 126.0,
+     "value": 120.0
+    },
+    {
+     "pixel": 182.0,
+     "value": 100.0
+    },
+    {
+     "pixel": 240.0,
+     "value": 80.0
+    },
+    {
+     "pixel": 297.0,
+     "value": 60.0
+    },
+    {
+     "pixel": 354.0,
+     "value": 40.0
+    },
+    {
+     "pixel": 411.0,
+     "value": 20.0
+    },
+    {
+     "pixel": 468.0,
+     "value": 0.0
+    }
+   ],
+   "equation": "value=a*pixel+b"
+  }
+ ],
+ "instances": [
+  {
+   "source_instance_id": "src-34654aa1e4af7473",
+   "point_id": "pt-e4a09585bf56103e",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 149.36,
+   "source_pixel_y": 466.78,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-fc8b8cd8e1f8932f",
+   "point_id": "pt-5e5dbbeb23e6c72f",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 149.41,
+   "source_pixel_y": 444.49,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-a9b3d396bef3d927",
+   "point_id": "pt-9e647f1eeb60d96b",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 150.0,
+   "source_pixel_y": 440.0,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-5e651b971442f6bb",
+   "point_id": "pt-f68232b25287af75",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 150.32,
+   "source_pixel_y": 454.03,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-6376d4449da6651b",
+   "point_id": "pt-e9f7ac22bc304e8e",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 150.35,
+   "source_pixel_y": 432.53,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-9235f69840d86178",
+   "point_id": "pt-c895da0f3617cde2",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 150.35,
+   "source_pixel_y": 426.53,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-361e41561274c929",
+   "point_id": "pt-e607bd9c7216f39f",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 150.87,
+   "source_pixel_y": 394.23,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-f90f2e01979341e5",
+   "point_id": "pt-3b5efc67860d29db",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 151.17,
+   "source_pixel_y": 411.56,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-20461aa26d462794",
+   "point_id": "pt-765c9d477125a719",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 151.15,
+   "source_pixel_y": 405.28,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-369cbf99970111eb",
+   "point_id": "pt-c77ac63e504e3f71",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 151.65,
+   "source_pixel_y": 385.47,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-01fd90a93d833905",
+   "point_id": "pt-35a78415c28b5ab6",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 152.0,
+   "source_pixel_y": 379.0,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-c39c4c382e013a86",
+   "point_id": "pt-8cfedd8ae2852e8c",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 152.35,
+   "source_pixel_y": 371.53,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-e971c47542de3d6e",
+   "point_id": "pt-a8c94ed563b49066",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 152.94,
+   "source_pixel_y": 352.96,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-ad6475e3f7b22bd1",
+   "point_id": "pt-b10a4d47d5c19897",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 153.0,
+   "source_pixel_y": 360.19,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-e7bef670245b51f7",
+   "point_id": "pt-511ab26662e4320c",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 153.21,
+   "source_pixel_y": 345.38,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-8af7ccf544fc94f9",
+   "point_id": "pt-8797e2a66b8d854e",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 154.06,
+   "source_pixel_y": 333.05,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-241720818c2112fa",
+   "point_id": "pt-a97be4a3f4be0cab",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 154.77,
+   "source_pixel_y": 321.74,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-bb025f0164a88758",
+   "point_id": "pt-c05f3233987c3ba5",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 155.71,
+   "source_pixel_y": 311.23,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-7d80c39d7b07562d",
+   "point_id": "pt-1a628e890f5555d8",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 156.59,
+   "source_pixel_y": 301.86,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-57b7497a866adbed",
+   "point_id": "pt-d8c34d6037a51a3e",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 158.5,
+   "source_pixel_y": 291.5,
+   "evidence_type": "partially_visible_marker",
+   "evidence_kind": "partial_marker",
+   "uncertainty_px": 3.0,
+   "evidence_ref": "crowded_strip:01",
+   "evidence": "Blue open-circle contour centered near native panel pixel (158.5, 291.5); distinct from adjacent candidate markers.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-870fbac724ebcb9f",
+   "point_id": "pt-f2c54d4c752f557f",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 160.5,
+   "source_pixel_y": 282.5,
+   "evidence_type": "partially_visible_marker",
+   "evidence_kind": "partial_marker",
+   "uncertainty_px": 3.0,
+   "evidence_ref": "crowded_strip:01",
+   "evidence": "Blue open-circle contour centered near native panel pixel (160.5, 282.5); distinct from adjacent candidate markers.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-9386bdf2870fc054",
+   "point_id": "pt-c4353a4f95c926ec",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 166.35,
+   "source_pixel_y": 269.74,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-ee54c52d23d0214a",
+   "point_id": "pt-2e05fe341d817d22",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 167.1,
+   "source_pixel_y": 261.13,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-45de67c94f110348",
+   "point_id": "pt-c3900e3f0006b3e4",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 167.55,
+   "source_pixel_y": 253.08,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-2d520b382b4ca8c1",
+   "point_id": "pt-8239b50cccd299aa",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 168.0,
+   "source_pixel_y": 245.8,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-cf744b5981f39408",
+   "point_id": "pt-27159fcc1f612dea",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 168.71,
+   "source_pixel_y": 238.05,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-5dba6c91c384647b",
+   "point_id": "pt-5d865b2a00d4e84f",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 168.93,
+   "source_pixel_y": 230.87,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-8c30ffbb5ec8491d",
+   "point_id": "pt-3a232761c88e7810",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 169.17,
+   "source_pixel_y": 223.56,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-5fd03a3ef008c7ae",
+   "point_id": "pt-2d00d33bb156ac7b",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 169.21,
+   "source_pixel_y": 216.45,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-c7f1f96bcc885b63",
+   "point_id": "pt-a3bfc25574ae341c",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 170.14,
+   "source_pixel_y": 206.05,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-5cc86b4902c93f7d",
+   "point_id": "pt-5b4630d31a562af7",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 170.5,
+   "source_pixel_y": 196.92,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-5a058484141e0413",
+   "point_id": "pt-4e90fdc947c4bebf",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 171.25,
+   "source_pixel_y": 173.38,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-836e0fe7c177cb4f",
+   "point_id": "pt-bdd6add311eab2b9",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 184.71,
+   "source_pixel_y": 128.09,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-8b7ab0bae8c5deb1",
+   "point_id": "pt-316f740eead8605f",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 206.68,
+   "source_pixel_y": 123.25,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-b0cd50eae91f127b",
+   "point_id": "pt-f7346e8e44e11dcd",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 219.5,
+   "source_pixel_y": 120.5,
+   "evidence_type": "partially_visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-0e458235d8d16196",
+   "point_id": "pt-f116418bcaabb33d",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 231.4,
+   "source_pixel_y": 121.69,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-971e551e73ac2692",
+   "point_id": "pt-f9bc7749e016caf4",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 244.5,
+   "source_pixel_y": 119.5,
+   "evidence_type": "partially_visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-1956c1072682b25f",
+   "point_id": "pt-1e62113212de0b18",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 255.5,
+   "source_pixel_y": 120.5,
+   "evidence_type": "partially_visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-371a4c7c25d4631b",
+   "point_id": "pt-d82b3d7a247a86b8",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 279.13,
+   "source_pixel_y": 120.18,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-ed5986b3d1dd5640",
+   "point_id": "pt-4aa6e64aef16eb32",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 294.5,
+   "source_pixel_y": 117.5,
+   "evidence_type": "partially_visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-d4e690f4b0319b31",
+   "point_id": "pt-5ac769e33a354548",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 316.5,
+   "source_pixel_y": 116.5,
+   "evidence_type": "partially_visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-8d5656b53c78476f",
+   "point_id": "pt-5f8c8ba370693d6f",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 340.5,
+   "source_pixel_y": 116.5,
+   "evidence_type": "visible_marker",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.0,
+   "evidence_ref": "tile:region_04",
+   "evidence": "Blue open-circle contour centered near native panel pixel (340.5, 116.5); distinct from adjacent candidate markers.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-13b73a070689e3e9",
+   "point_id": "pt-77cea0f6caaf8291",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 364.5,
+   "source_pixel_y": 116.5,
+   "evidence_type": "partially_visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-9c9d137537f4bdb3",
+   "point_id": "pt-2ed9118a2c942a93",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 387.5,
+   "source_pixel_y": 115.5,
+   "evidence_type": "partially_visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-fae1093053cedabd",
+   "point_id": "pt-7458188f23cda025",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 412.5,
+   "source_pixel_y": 115.5,
+   "evidence_type": "partially_visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-767e0d83ee7f1a2f",
+   "point_id": "pt-c4f707dc2720b330",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 435.5,
+   "source_pixel_y": 113.5,
+   "evidence_type": "partially_visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-3bc6de73c6ebcd20",
+   "point_id": "pt-28963070b2dc8735",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 461.5,
+   "source_pixel_y": 113.5,
+   "evidence_type": "visible_marker",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.0,
+   "evidence_ref": "tile:region_04",
+   "evidence": "Blue open-circle contour centered near native panel pixel (461.5, 113.5); distinct from adjacent candidate markers.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-a91c74ce808d8c3e",
+   "point_id": "pt-9b0279d67c916410",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 485.5,
+   "source_pixel_y": 113.5,
+   "evidence_type": "visible_marker",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.0,
+   "evidence_ref": "tile:region_04",
+   "evidence": "Blue open-circle contour centered near native panel pixel (485.5, 113.5); distinct from adjacent candidate markers.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-74231295187a8332",
+   "point_id": "pt-d3b916f0cbd32e4b",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 510.5,
+   "source_pixel_y": 113.5,
+   "evidence_type": "visible_marker",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.0,
+   "evidence_ref": "tile:region_04",
+   "evidence": "Blue open-circle contour centered near native panel pixel (510.5, 113.5); distinct from adjacent candidate markers.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-70f3f17758326cdb",
+   "point_id": "pt-44b00731968feb30",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 535.5,
+   "source_pixel_y": 113.5,
+   "evidence_type": "visible_marker",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.0,
+   "evidence_ref": "tile:region_04",
+   "evidence": "Blue open-circle contour centered near native panel pixel (535.5, 113.5); distinct from adjacent candidate markers.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-06d3e83ae962f810",
+   "point_id": "pt-cf32fb860d010b0b",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 557.5,
+   "source_pixel_y": 111.5,
+   "evidence_type": "visible_marker",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.0,
+   "evidence_ref": "tile:region_04",
+   "evidence": "Blue open-circle contour centered near native panel pixel (557.5, 111.5); distinct from adjacent candidate markers.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-894fa8f9a90e1e11",
+   "point_id": "pt-3b59a8efade9616e",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 581.5,
+   "source_pixel_y": 112.5,
+   "evidence_type": "partially_visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-2d23976749c1bcef",
+   "point_id": "pt-bb247b55cb90a685",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 604.5,
+   "source_pixel_y": 111.5,
+   "evidence_type": "partially_visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-fb28355e09d604c3",
+   "point_id": "pt-1e8a5fbb0de7db11",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 615.5,
+   "source_pixel_y": 110.5,
+   "evidence_type": "visible_marker",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.0,
+   "evidence_ref": "tile:region_04",
+   "evidence": "Blue open-circle contour centered near native panel pixel (615.5, 110.5); distinct from adjacent candidate markers.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-18d2600209fb403e",
+   "point_id": "pt-9bec7aed15e76df8",
+   "series_id": "figp1:x:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 624.58,
+   "source_pixel_y": 108.71,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  }
+ ],
+ "coverage": [
+  {
+   "bbox": [
+    125,
+    68,
+    658,
+    497
+   ],
+   "inspected": false
+  }
+ ],
+ "limitations": [
+  "agent03 remains subject to downstream or human review."
+ ],
+ "rejected_masked_points": 0,
+ "unresolved_slots": {
+  "total": 1,
+  "by_series": {
+   "CO2 195K": 1
+  },
+  "slots": [
+   {
+    "series_label": "CO2 195K",
+    "series_index": 0,
+    "state": "unresolved",
+    "reason": "dense_ring_search_fused_native_ink",
+    "roi_px": [
+     143.5,
+     68.0,
+     203.0,
+     470.43
+    ]
+   }
+  ]
+ },
+ "unresolved_accounting_valid": true,
+ "row_count": 55,
+ "agent_report": {
+  "reasoning": "batch 1: Independent inspection of panel.png confirms a 700x607 panel with a linear main x axis (Relative Pressure, 0\u20131) and linear y axis (Uptake, 0\u2013140 cm\u00b3 g\u207b\u00b9). Tick fits agree with the supplied calibration to about 0.48 px in x and 0.57 px in y. The eligible series is the blue open-circle CO2 195K curve; the coral open-circle N2 77K curve and the embedded inset are excluded. The candidate CO2 rows have correct ownership but omit several native plateau rings and supported fragments in the crowded low-pressure rise. I added only centres supported by visible blue ring contours/fragments in the unchanged source. The crowded rise still contains fused ink for which a distinct centre cannot be defended, so coverage is incomplete and the result requires review.",
+  "verdict": "review",
+  "series": [
+   {
+    "label": "CO2 195K",
+    "coverage": "incomplete",
+    "final_count": 55,
+    "comment": "46 supplied CO2 candidates plus 9 source-supported additions. Plateau additions are distinct native open rings; two low-pressure additions are partial/fused but have visible blue marker structure. Further fused low-pressure ink remains unresolved."
+   },
+   {
+    "label": "N2 77K",
+    "coverage": "complete",
+    "final_count": 0,
+    "comment": "Excluded non-CO2 series; its coral open circles were used only to distinguish ownership and were not exported."
+   }
+  ],
+  "operations": [
+   {
+    "operation_id": "batch-001-add-co2-native-01",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "x_norm": 0.48642857142857143,
+    "y_norm": 0.19192751235584843,
+    "overlap": false,
+    "reason": "A distinct blue open ring is visible on the main-plot plateau at this column; the candidate list skips this native marker and the nearby line is not being used as the point evidence.",
+    "source_evidence": "Blue open-circle contour centered near native panel pixel (340.5, 116.5); distinct from adjacent candidate markers.",
+    "evidence_kind": "native_visible",
+    "uncertainty_px": 2.0,
+    "evidence_ref": "tile:region_04"
+   },
+   {
+    "operation_id": "batch-001-add-co2-native-02",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "x_norm": 0.6592857142857143,
+    "y_norm": 0.18698517298187808,
+    "overlap": false,
+    "reason": "A distinct blue open ring is visible on the main-plot plateau at this column; the candidate list skips this native marker and the nearby line is not being used as the point evidence.",
+    "source_evidence": "Blue open-circle contour centered near native panel pixel (461.5, 113.5); distinct from adjacent candidate markers.",
+    "evidence_kind": "native_visible",
+    "uncertainty_px": 2.0,
+    "evidence_ref": "tile:region_04"
+   },
+   {
+    "operation_id": "batch-001-add-co2-native-03",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "x_norm": 0.6935714285714286,
+    "y_norm": 0.18698517298187808,
+    "overlap": false,
+    "reason": "A distinct blue open ring is visible on the main-plot plateau at this column; the candidate list skips this native marker and the nearby line is not being used as the point evidence.",
+    "source_evidence": "Blue open-circle contour centered near native panel pixel (485.5, 113.5); distinct from adjacent candidate markers.",
+    "evidence_kind": "native_visible",
+    "uncertainty_px": 2.0,
+    "evidence_ref": "tile:region_04"
+   },
+   {
+    "operation_id": "batch-001-add-co2-native-04",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "x_norm": 0.7292857142857143,
+    "y_norm": 0.18698517298187808,
+    "overlap": false,
+    "reason": "A distinct blue open ring is visible on the main-plot plateau at this column; the candidate list skips this native marker and the nearby line is not being used as the point evidence.",
+    "source_evidence": "Blue open-circle contour centered near native panel pixel (510.5, 113.5); distinct from adjacent candidate markers.",
+    "evidence_kind": "native_visible",
+    "uncertainty_px": 2.0,
+    "evidence_ref": "tile:region_04"
+   },
+   {
+    "operation_id": "batch-001-add-co2-native-05",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "x_norm": 0.765,
+    "y_norm": 0.18698517298187808,
+    "overlap": false,
+    "reason": "A distinct blue open ring is visible on the main-plot plateau at this column; the candidate list skips this native marker and the nearby line is not being used as the point evidence.",
+    "source_evidence": "Blue open-circle contour centered near native panel pixel (535.5, 113.5); distinct from adjacent candidate markers.",
+    "evidence_kind": "native_visible",
+    "uncertainty_px": 2.0,
+    "evidence_ref": "tile:region_04"
+   },
+   {
+    "operation_id": "batch-001-add-co2-native-06",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "x_norm": 0.7964285714285714,
+    "y_norm": 0.18369028006589785,
+    "overlap": false,
+    "reason": "A distinct blue open ring is visible on the main-plot plateau at this column; the candidate list skips this native marker and the nearby line is not being used as the point evidence.",
+    "source_evidence": "Blue open-circle contour centered near native panel pixel (557.5, 111.5); distinct from adjacent candidate markers.",
+    "evidence_kind": "native_visible",
+    "uncertainty_px": 2.0,
+    "evidence_ref": "tile:region_04"
+   },
+   {
+    "operation_id": "batch-001-add-co2-native-07",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "x_norm": 0.8792857142857143,
+    "y_norm": 0.18204283360790774,
+    "overlap": false,
+    "reason": "A distinct blue open ring is visible on the main-plot plateau at this column; the candidate list skips this native marker and the nearby line is not being used as the point evidence.",
+    "source_evidence": "Blue open-circle contour centered near native panel pixel (615.5, 110.5); distinct from adjacent candidate markers.",
+    "evidence_kind": "native_visible",
+    "uncertainty_px": 2.0,
+    "evidence_ref": "tile:region_04"
+   },
+   {
+    "operation_id": "batch-001-add-co2-native-08",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "x_norm": 0.22642857142857142,
+    "y_norm": 0.4802306425041186,
+    "overlap": false,
+    "reason": "A supported blue marker fragment/white interior is visible in the crowded low-pressure strip at this native position, separate from the adjacent rings; centre is reported with uncertainty because overlapping strokes fuse the contour.",
+    "source_evidence": "Blue open-circle contour centered near native panel pixel (158.5, 291.5); distinct from adjacent candidate markers.",
+    "evidence_kind": "partial_marker",
+    "uncertainty_px": 3.0,
+    "evidence_ref": "crowded_strip:01"
+   },
+   {
+    "operation_id": "batch-001-add-co2-native-09",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "x_norm": 0.2292857142857143,
+    "y_norm": 0.46540362438220756,
+    "overlap": false,
+    "reason": "A supported blue marker fragment/white interior is visible in the crowded low-pressure strip at this native position, separate from the adjacent rings; centre is reported with uncertainty because overlapping strokes fuse the contour.",
+    "source_evidence": "Blue open-circle contour centered near native panel pixel (160.5, 282.5); distinct from adjacent candidate markers.",
+    "evidence_kind": "partial_marker",
+    "uncertainty_px": 3.0,
+    "evidence_ref": "crowded_strip:01"
+   }
+  ],
+  "uncertainties": [
+   "Crowded low-pressure strip around native x\u2248158\u2013166 px and y\u2248275\u2013350 px contains overlapping blue open-circle contours; some fragments cannot be assigned distinct centres without relying on expected spacing or interpolation.",
+   "The source plateau near native x\u2248590\u2013625 px has tightly overlapping rings; only centres with a visible separate contour were edited. The inset at approximately [247,173,517,391] is excluded and was not used for CO2 points.",
+   "Calibration is source-supported by printed ticks; residuals are sub-pixel, but the dense-marker centre uncertainty is several native pixels.",
+   "Unresolved review item crowded_strip:01: Inspected unchanged full-height native crop; blue CO2 marker fragments are present, including two added centres, but additional fused strokes remain non-separable.",
+   "Unresolved review item slot:0001: Inspected native slot crop; dense blue ink is present but no additional distinct centre can be defended beyond the reported partial markers."
+  ],
+  "coverage": [
+   {
+    "item_id": "crowded_strip:01",
+    "item_type": "evidence",
+    "status": "unresolved",
+    "detail": "Inspected unchanged full-height native crop; blue CO2 marker fragments are present, including two added centres, but additional fused strokes remain non-separable."
+   },
+   {
+    "item_id": "tile:marker_01",
+    "item_type": "tile",
+    "status": "reviewed",
+    "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+   },
+   {
+    "item_id": "box:marker_01:1",
+    "item_type": "box",
+    "status": "reviewed",
+    "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+   },
+   {
+    "item_id": "box:marker_01:2",
+    "item_type": "box",
+    "status": "reviewed",
+    "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+   },
+   {
+    "item_id": "box:marker_01:3",
+    "item_type": "box",
+    "status": "reviewed",
+    "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+   },
+   {
+    "item_id": "box:marker_01:4",
+    "item_type": "box",
+    "status": "reviewed",
+    "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+   },
+   {
+    "item_id": "box:marker_01:5",
+    "item_type": "box",
+    "status": "reviewed",
+    "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+   },
+   {
+    "item_id": "box:marker_01:6",
+    "item_type": "box",
+    "status": "reviewed",
+    "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+   },
+   {
+    "item_id": "box:marker_01:7",
+    "item_type": "box",
+    "status": "reviewed",
+    "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+   },
+   {
+    "item_id": "box:marker_01:8",
+    "item_type": "box",
+    "status": "reviewed",
+    "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+   },
+   {
+    "item_id": "tile:marker_02",
+    "item_type": "tile",
+    "status": "reviewed",
+    "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+   },
+   {
+    "item_id": "box:marker_02:9",
+    "item_type": "box",
+    "status": "reviewed",
+    "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+   },
+   {
+    "item_id": "box:marker_02:10",
+    "item_type": "box",
+    "status": "reviewed",
+    "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+   },
+   {
+    "item_id": "box:marker_02:11",
+    "item_type": "box",
+    "status": "reviewed",
+    "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+   },
+   {
+    "item_id": "box:marker_02:12",
+    "item_type": "box",
+    "status": "reviewed",
+    "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+   },
+   {
+    "item_id": "box:marker_02:13",
+    "item_type": "box",
+    "status": "reviewed",
+    "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+   },
+   {
+    "item_id": "box:marker_02:14",
+    "item_type": "box",
+    "status": "reviewed",
+    "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+   },
+   {
+    "item_id": "box:marker_02:15",
+    "item_type": "box",
+    "status": "reviewed",
+    "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+   },
+   {
+    "item_id": "box:marker_02:16",
+    "item_type": "box",
+    "status": "reviewed",
+    "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+   },
+   {
+    "item_id": "tile:region_01",
+    "item_type": "tile",
+    "status": "reviewed",
+    "detail": "Inspected unchanged native tile; candidate and source were compared, with supported omissions added where native blue ring contours were distinct."
+   },
+   {
+    "item_id": "tile:region_03",
+    "item_type": "tile",
+    "status": "reviewed",
+    "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+   },
+   {
+    "item_id": "tile:region_04",
+    "item_type": "tile",
+    "status": "reviewed",
+    "detail": "Inspected unchanged native tile; candidate and source were compared, with supported omissions added where native blue ring contours were distinct."
+   },
+   {
+    "item_id": "tile:region_05",
+    "item_type": "tile",
+    "status": "reviewed",
+    "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+   },
+   {
+    "item_id": "evidence:dense_roi_line_suppressed.png",
+    "item_type": "evidence",
+    "status": "reviewed",
+    "detail": "Inspected native or identified as derived diagnostic; derived diagnostics were not used as marker authority."
+   },
+   {
+    "item_id": "evidence:dense_roi_series_likelihood.png",
+    "item_type": "evidence",
+    "status": "reviewed",
+    "detail": "Inspected native or identified as derived diagnostic; derived diagnostics were not used as marker authority."
+   },
+   {
+    "item_id": "evidence:dense_roi_proposed_assignments.png",
+    "item_type": "evidence",
+    "status": "reviewed",
+    "detail": "Inspected native or identified as derived diagnostic; derived diagnostics were not used as marker authority."
+   },
+   {
+    "item_id": "slot:0001",
+    "item_type": "slot",
+    "status": "unresolved",
+    "detail": "Inspected native slot crop; dense blue ink is present but no additional distinct centre can be defended beyond the reported partial markers."
+   }
+  ]
+ },
+ "edit_audit": {
+  "schema_version": "1.0",
+  "actor": "agent03_review_points",
+  "requested": 9,
+  "applied": 9,
+  "operations": [
+   {
+    "operation_index": 0,
+    "operation_id": "batch-001-add-co2-native-01",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "reason": "A distinct blue open ring is visible on the main-plot plateau at this column; the candidate list skips this native marker and the nearby line is not being used as the point evidence.",
+    "source_evidence": "Blue open-circle contour centered near native panel pixel (340.5, 116.5); distinct from adjacent candidate markers.",
+    "evidence_kind": "native_visible",
+    "uncertainty_px": 2.0,
+    "evidence_ref": "tile:region_04",
+    "actor": "agent03_review_points",
+    "status": "applied",
+    "source_pixel": [
+     340.5,
+     116.5
+    ]
+   },
+   {
+    "operation_index": 1,
+    "operation_id": "batch-001-add-co2-native-02",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "reason": "A distinct blue open ring is visible on the main-plot plateau at this column; the candidate list skips this native marker and the nearby line is not being used as the point evidence.",
+    "source_evidence": "Blue open-circle contour centered near native panel pixel (461.5, 113.5); distinct from adjacent candidate markers.",
+    "evidence_kind": "native_visible",
+    "uncertainty_px": 2.0,
+    "evidence_ref": "tile:region_04",
+    "actor": "agent03_review_points",
+    "status": "applied",
+    "source_pixel": [
+     461.5,
+     113.5
+    ]
+   },
+   {
+    "operation_index": 2,
+    "operation_id": "batch-001-add-co2-native-03",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "reason": "A distinct blue open ring is visible on the main-plot plateau at this column; the candidate list skips this native marker and the nearby line is not being used as the point evidence.",
+    "source_evidence": "Blue open-circle contour centered near native panel pixel (485.5, 113.5); distinct from adjacent candidate markers.",
+    "evidence_kind": "native_visible",
+    "uncertainty_px": 2.0,
+    "evidence_ref": "tile:region_04",
+    "actor": "agent03_review_points",
+    "status": "applied",
+    "source_pixel": [
+     485.5,
+     113.5
+    ]
+   },
+   {
+    "operation_index": 3,
+    "operation_id": "batch-001-add-co2-native-04",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "reason": "A distinct blue open ring is visible on the main-plot plateau at this column; the candidate list skips this native marker and the nearby line is not being used as the point evidence.",
+    "source_evidence": "Blue open-circle contour centered near native panel pixel (510.5, 113.5); distinct from adjacent candidate markers.",
+    "evidence_kind": "native_visible",
+    "uncertainty_px": 2.0,
+    "evidence_ref": "tile:region_04",
+    "actor": "agent03_review_points",
+    "status": "applied",
+    "source_pixel": [
+     510.5,
+     113.5
+    ]
+   },
+   {
+    "operation_index": 4,
+    "operation_id": "batch-001-add-co2-native-05",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "reason": "A distinct blue open ring is visible on the main-plot plateau at this column; the candidate list skips this native marker and the nearby line is not being used as the point evidence.",
+    "source_evidence": "Blue open-circle contour centered near native panel pixel (535.5, 113.5); distinct from adjacent candidate markers.",
+    "evidence_kind": "native_visible",
+    "uncertainty_px": 2.0,
+    "evidence_ref": "tile:region_04",
+    "actor": "agent03_review_points",
+    "status": "applied",
+    "source_pixel": [
+     535.5,
+     113.5
+    ]
+   },
+   {
+    "operation_index": 5,
+    "operation_id": "batch-001-add-co2-native-06",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "reason": "A distinct blue open ring is visible on the main-plot plateau at this column; the candidate list skips this native marker and the nearby line is not being used as the point evidence.",
+    "source_evidence": "Blue open-circle contour centered near native panel pixel (557.5, 111.5); distinct from adjacent candidate markers.",
+    "evidence_kind": "native_visible",
+    "uncertainty_px": 2.0,
+    "evidence_ref": "tile:region_04",
+    "actor": "agent03_review_points",
+    "status": "applied",
+    "source_pixel": [
+     557.5,
+     111.5
+    ]
+   },
+   {
+    "operation_index": 6,
+    "operation_id": "batch-001-add-co2-native-07",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "reason": "A distinct blue open ring is visible on the main-plot plateau at this column; the candidate list skips this native marker and the nearby line is not being used as the point evidence.",
+    "source_evidence": "Blue open-circle contour centered near native panel pixel (615.5, 110.5); distinct from adjacent candidate markers.",
+    "evidence_kind": "native_visible",
+    "uncertainty_px": 2.0,
+    "evidence_ref": "tile:region_04",
+    "actor": "agent03_review_points",
+    "status": "applied",
+    "source_pixel": [
+     615.5,
+     110.5
+    ]
+   },
+   {
+    "operation_index": 7,
+    "operation_id": "batch-001-add-co2-native-08",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "reason": "A supported blue marker fragment/white interior is visible in the crowded low-pressure strip at this native position, separate from the adjacent rings; centre is reported with uncertainty because overlapping strokes fuse the contour.",
+    "source_evidence": "Blue open-circle contour centered near native panel pixel (158.5, 291.5); distinct from adjacent candidate markers.",
+    "evidence_kind": "partial_marker",
+    "uncertainty_px": 3.0,
+    "evidence_ref": "crowded_strip:01",
+    "actor": "agent03_review_points",
+    "status": "applied",
+    "source_pixel": [
+     158.5,
+     291.5
+    ]
+   },
+   {
+    "operation_index": 8,
+    "operation_id": "batch-001-add-co2-native-09",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "reason": "A supported blue marker fragment/white interior is visible in the crowded low-pressure strip at this native position, separate from the adjacent rings; centre is reported with uncertainty because overlapping strokes fuse the contour.",
+    "source_evidence": "Blue open-circle contour centered near native panel pixel (160.5, 282.5); distinct from adjacent candidate markers.",
+    "evidence_kind": "partial_marker",
+    "uncertainty_px": 3.0,
+    "evidence_ref": "crowded_strip:01",
+    "actor": "agent03_review_points",
+    "status": "applied",
+    "source_pixel": [
+     160.5,
+     282.5
+    ]
+   }
+  ]
+ }
+}

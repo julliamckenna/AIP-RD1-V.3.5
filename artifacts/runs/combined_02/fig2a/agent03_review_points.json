@@ -1,0 +1,168 @@
+{
+ "reasoning": "The source panel shows complete CO2 trajectories, but the proposal omits the CO2 333K and CO2 343K curves entirely and contains a few detections placed on connecting lines or neighboring trajectories. I added only clearly visible, separated dark-blue diamond and dark-red pentagon markers from the native panel, reassigned one native marker from the teal trajectory to the olive CO2 323K trajectory, and deleted one unsupported CO2 303K point. Dense low-pressure overlaps and the many remaining omissions are not safe to synthesize from curve shape alone.",
+ "verdict": "review",
+ "series": [
+  {
+   "label": "CO2 273K",
+   "coverage": "incomplete",
+   "final_count": 9,
+   "comment": "Upper black-square curve is visibly present, but most low-pressure markers are missing from the proposal."
+  },
+  {
+   "label": "CO2 283K",
+   "coverage": "uncertain",
+   "final_count": 29,
+   "comment": "Most red hexagons are present; several low-pressure markers remain crowded with neighboring curves."
+  },
+  {
+   "label": "CO2 293K",
+   "coverage": "uncertain",
+   "final_count": 33,
+   "comment": "Blue triangle-up detections largely follow the visible curve, but crowded low-pressure assignments remain uncertain."
+  },
+  {
+   "label": "CO2 303K",
+   "coverage": "incomplete",
+   "final_count": 27,
+   "comment": "One unsupported intermediate-height detection was deleted; remaining teal downward-triangle coverage is incomplete."
+  },
+  {
+   "label": "CO2 313K",
+   "coverage": "uncertain",
+   "final_count": 31,
+   "comment": "Magenta left-triangle detections are mostly visible, but overlap-region completeness cannot be established."
+  },
+  {
+   "label": "CO2 323K",
+   "coverage": "uncertain",
+   "final_count": 38,
+   "comment": "One point was reassigned from the teal trajectory to the visible olive right-triangle trajectory; dense-region identity remains partly uncertain."
+  },
+  {
+   "label": "CO2 333K",
+   "coverage": "incomplete",
+   "final_count": 3,
+   "comment": "The proposal had no points; three clearly separated dark-blue diamonds were added, but the full curve remains undercounted."
+  },
+  {
+   "label": "CO2 343K",
+   "coverage": "incomplete",
+   "final_count": 3,
+   "comment": "The proposal had no points; three clearly separated dark-red pentagons were added, but the full curve remains undercounted."
+  },
+  {
+   "label": "CO2 353K",
+   "coverage": "uncertain",
+   "final_count": 38,
+   "comment": "Pink hexagon detections follow the visible curve, with some crowded markers and possible duplicates."
+  },
+  {
+   "label": "CO2 363K",
+   "coverage": "uncertain",
+   "final_count": 33,
+   "comment": "Green star-like/pentagon detections are visible, but some template-fit and overlap-region assignments remain uncertain."
+  },
+  {
+   "label": "CO2 373K",
+   "coverage": "incomplete",
+   "final_count": 24,
+   "comment": "Lower dark-blue circle curve is substantially undercounted in the crowded low-pressure region."
+  }
+ ],
+ "operations": [
+  {
+   "operation_id": "op-01",
+   "action": "delete",
+   "point_id": "pt-512915be23f5849b",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The proposed point is not centered on a visible CO2 303K downward triangle; it lies between the teal and magenta trajectories on connecting-line ink.",
+   "source_evidence": "Native marker tile box 51 at source pixel (932.0,293.0) shows the teal downward-triangle curve above and the magenta left-triangle curve below, with no teal marker at the proposed center."
+  },
+  {
+   "operation_id": "op-02",
+   "action": "reassign",
+   "point_id": "pt-dae43f2a44a889e1",
+   "series_label": "CO2 323K",
+   "x_norm": 0.30013779,
+   "y_norm": 0.397071584,
+   "overlap": true,
+   "reason": "The marker at this location follows the olive CO2 323K right-triangle trajectory rather than the teal CO2 303K trajectory.",
+   "source_evidence": "Native marker tile box 46 at source pixel (440.0,366.0) shows the olive right-triangle trajectory at the proposed center; the teal downward triangles are visibly higher."
+  },
+  {
+   "operation_id": "op-03",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 333K",
+   "x_norm": 0.342428376,
+   "y_norm": 0.437093275,
+   "overlap": false,
+   "reason": "Visible dark-blue diamond marker omitted by Python.",
+   "source_evidence": "Native panel visibly shows a filled dark-blue diamond centered near source pixel (502,403), on the CO2 333K curve below the olive curve and above the brown curve."
+  },
+  {
+   "operation_id": "op-04",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 333K",
+   "x_norm": 0.46521146,
+   "y_norm": 0.410845987,
+   "overlap": false,
+   "reason": "Visible dark-blue diamond marker omitted by Python.",
+   "source_evidence": "Native panel visibly shows a filled dark-blue diamond centered near source pixel (682,379), on the CO2 333K curve."
+  },
+  {
+   "operation_id": "op-05",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 333K",
+   "x_norm": 0.587995907,
+   "y_norm": 0.392624729,
+   "overlap": false,
+   "reason": "Visible dark-blue diamond marker omitted by Python.",
+   "source_evidence": "Native panel visibly shows a filled dark-blue diamond centered near source pixel (862,362), on the CO2 333K curve."
+  },
+  {
+   "operation_id": "op-06",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 343K",
+   "x_norm": 0.342428376,
+   "y_norm": 0.471800434,
+   "overlap": false,
+   "reason": "Visible dark-red pentagon marker omitted by Python.",
+   "source_evidence": "Native panel visibly shows a filled dark-red pentagon centered near source pixel (502,435), on the CO2 343K curve below the dark-blue diamonds."
+  },
+  {
+   "operation_id": "op-07",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 343K",
+   "x_norm": 0.46521146,
+   "y_norm": 0.438178308,
+   "overlap": false,
+   "reason": "Visible dark-red pentagon marker omitted by Python.",
+   "source_evidence": "Native panel visibly shows a filled dark-red pentagon centered near source pixel (682,404), on the CO2 343K curve."
+  },
+  {
+   "operation_id": "op-08",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 343K",
+   "x_norm": 0.587995907,
+   "y_norm": 0.417570499,
+   "overlap": false,
+   "reason": "Visible dark-red pentagon marker omitted by Python.",
+   "source_evidence": "Native panel visibly shows a filled dark-red pentagon centered near source pixel (862,385), on the CO2 343K curve."
+  }
+ ],
+ "uncertainties": [
+  "The source contains dense low-pressure overlaps among CO2 and excluded N2 curves; no additional points were added without a distinct visible marker core.",
+  "The CO2 273K low-pressure black-square fan is visibly underrepresented, but exact centers are too crowded with black N2 downward triangles for unsupported bulk additions.",
+  "CO2 333K and CO2 343K each require many more points than the three unambiguous mid/high-pressure markers added here.",
+  "The CO2 363K template-fit row was not edited because a green marker is visibly present near its proposed native center, but its exact center is partly overlapped by the neighboring dark-blue curve."
+ ]
+}

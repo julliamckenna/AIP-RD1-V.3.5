@@ -1,0 +1,230 @@
+{
+ "schema_version": "4.0",
+ "stage": "agent04",
+ "figure_id": "fig1",
+ "panel_id": "a",
+ "source_pdf": "",
+ "image_sha256": "c8fd15336e0847aa0aeb00726df449a2ba149d044bf70fce463e4291672c58b1",
+ "status": "complete_against_reviewed_evidence",
+ "plot_bbox": [
+  0,
+  0,
+  100,
+  100
+ ],
+ "series": [
+  {
+   "series_id": "fig1:a:co2-273k-78e92393",
+   "series_name": "CO2 273K",
+   "species": "CO2",
+   "export_eligible": true,
+   "species_evidence": "",
+   "marker_shape": "circle",
+   "marker_fill": "filled",
+   "marker_glyph": null,
+   "color_hex": "#2028dc",
+   "line_style": "solid",
+   "axis_x_id": "x",
+   "axis_y_id": "y",
+   "quantity_type": "Uptake",
+   "loading_basis": "unknown"
+  },
+  {
+   "series_id": "fig1:a:co2-298k-438baf4c",
+   "series_name": "CO2 298K",
+   "species": "CO2",
+   "export_eligible": true,
+   "species_evidence": "",
+   "marker_shape": "square",
+   "marker_fill": "filled",
+   "marker_glyph": null,
+   "color_hex": "#dc2a1e",
+   "line_style": "solid",
+   "axis_x_id": "x",
+   "axis_y_id": "y",
+   "quantity_type": "Uptake",
+   "loading_basis": "unknown"
+  }
+ ],
+ "axes": [
+  {
+   "axis_id": "x",
+   "scale": "linear",
+   "unit": "kPa",
+   "quantity_type": "Pressure",
+   "calibration_status": "unresolved",
+   "a": 1,
+   "b": 0,
+   "anchors": [],
+   "equation": "value=a*pixel+b"
+  },
+  {
+   "axis_id": "y",
+   "scale": "linear",
+   "unit": "mmol/g",
+   "quantity_type": "Uptake",
+   "calibration_status": "unresolved",
+   "a": -1,
+   "b": 100,
+   "anchors": [],
+   "equation": "value=a*pixel+b"
+  }
+ ],
+ "instances": [
+  {
+   "source_instance_id": "src-b96cbf9e57a89181",
+   "point_id": "a-1",
+   "series_id": "fig1:a:co2-273k-78e92393",
+   "state": "resolved",
+   "source_pixel_x": 22.0,
+   "source_pixel_y": 80.0,
+   "evidence_type": "visible_marker",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 1.0,
+   "evidence_ref": "panel.png",
+   "evidence": "native marker at (22, 80)",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-d7bd12a22d07e816",
+   "point_id": "pt-eb303d982a23cb72",
+   "series_id": "fig1:a:co2-273k-78e92393",
+   "state": "resolved",
+   "source_pixel_x": 40.0,
+   "source_pixel_y": 60.0,
+   "evidence_type": "visible_marker",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 1.0,
+   "evidence_ref": "panel.png",
+   "evidence": "native marker at (40, 60)",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-ef11fd9b69c36209",
+   "point_id": "b-1",
+   "series_id": "fig1:a:co2-273k-78e92393",
+   "state": "resolved",
+   "source_pixel_x": 80,
+   "source_pixel_y": 70,
+   "evidence_type": "visible_marker",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": null,
+   "evidence_ref": "panel.png",
+   "evidence": "marker shape identifies series",
+   "review_only": false
+  }
+ ],
+ "coverage": [
+  {
+   "bbox": [
+    0,
+    0,
+    100,
+    100
+   ],
+   "inspected": false
+  }
+ ],
+ "limitations": [],
+ "rejected_masked_points": 0,
+ "unresolved_slots": {
+  "total": 0,
+  "by_series": {},
+  "slots": []
+ },
+ "unresolved_accounting_valid": true,
+ "row_count": 3,
+ "agent_report": {
+  "verdict": "accept",
+  "series": [
+   {
+    "label": "CO2 273K",
+    "coverage": "complete",
+    "final_count": 3,
+    "comment": ""
+   },
+   {
+    "label": "CO2 298K",
+    "coverage": "complete",
+    "final_count": 0,
+    "comment": ""
+   }
+  ]
+ },
+ "edit_audit": {
+  "schema_version": "1.0",
+  "actor": "agent04_final_check",
+  "requested": 4,
+  "applied": 4,
+  "operations": [
+   {
+    "operation_index": 0,
+    "operation_id": "add",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 273K",
+    "reason": "",
+    "source_evidence": "native marker at (40, 60)",
+    "evidence_kind": "native_visible",
+    "uncertainty_px": 1.0,
+    "evidence_ref": "panel.png",
+    "actor": "agent04_final_check",
+    "status": "applied",
+    "source_pixel": [
+     40.0,
+     60.0
+    ]
+   },
+   {
+    "operation_index": 1,
+    "operation_id": "move",
+    "action": "move",
+    "point_id": "a-1",
+    "series_label": null,
+    "reason": "",
+    "source_evidence": "native marker at (22, 80)",
+    "evidence_kind": "native_visible",
+    "uncertainty_px": 1.0,
+    "evidence_ref": "panel.png",
+    "actor": "agent04_final_check",
+    "status": "applied",
+    "source_pixel": [
+     22.0,
+     80.0
+    ]
+   },
+   {
+    "operation_index": 2,
+    "operation_id": "delete",
+    "action": "delete",
+    "point_id": "a-2",
+    "series_label": null,
+    "reason": "",
+    "source_evidence": "no marker at (70, 20)",
+    "evidence_kind": "native_absence",
+    "uncertainty_px": null,
+    "evidence_ref": "panel.png",
+    "actor": "agent04_final_check",
+    "status": "applied"
+   },
+   {
+    "operation_index": 3,
+    "operation_id": "reassign",
+    "action": "reassign",
+    "point_id": "b-1",
+    "series_label": "CO2 273K",
+    "reason": "",
+    "source_evidence": "marker shape identifies series",
+    "evidence_kind": "native_visible",
+    "uncertainty_px": null,
+    "evidence_ref": "panel.png",
+    "actor": "agent04_final_check",
+    "status": "applied",
+    "source_pixel": [
+     80,
+     70
+    ]
+   }
+  ]
+ }
+}

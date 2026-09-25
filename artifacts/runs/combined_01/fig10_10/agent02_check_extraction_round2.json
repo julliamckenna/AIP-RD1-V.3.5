@@ -1,0 +1,233 @@
+{
+ "reasoning": "Python's overlay sits on every marker; the x ticks map correctly but the low-pressure corner still needs an extra dense-marker pass.",
+ "axis_check": {
+  "x": {
+   "printed_min": 0,
+   "printed_max": 100,
+   "data_min": 0.4,
+   "data_max": 99.1,
+   "result": "pass",
+   "reason": "Re-plotted x axis runs 0-100 kPa like the source; all values inside."
+  },
+  "y": {
+   "printed_min": 0,
+   "printed_max": 4,
+   "data_min": 0.05,
+   "data_max": 3.62,
+   "result": "pass",
+   "reason": "Values match the printed 0-4 mmol/g range; the top point sits just under the 4 tick as in the source."
+  }
+ },
+ "satisfied": false,
+ "issues": [
+  "Several CO2 273 K markers below 5 kPa are missing from the overlay."
+ ],
+ "structure_ok": true,
+ "chart_title": "",
+ "x_axis": {
+  "title": "Pressure",
+  "unit": "kPa",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 100,
+  "boundary_limits_confirmed": false,
+  "ticks": [
+   0,
+   20,
+   40,
+   60,
+   80,
+   100
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.12,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.93,
+    "value": 100
+   }
+  ]
+ },
+ "y_axis": {
+  "title": "CO2 uptake",
+  "unit": "mmol/g",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 4,
+  "boundary_limits_confirmed": false,
+  "ticks": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.88,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.08,
+    "value": 4
+   }
+  ]
+ },
+ "legend_bbox_norm": [
+  0.14,
+  0.08,
+  0.42,
+  0.3
+ ],
+ "total_series": 3,
+ "series": [
+  {
+   "label": "CO2 273 K",
+   "marker": "circle",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#1f4e9c",
+   "notes": ""
+  },
+  {
+   "label": "CO2 298 K",
+   "marker": "square",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#c0392b",
+   "notes": ""
+  },
+  {
+   "label": "N2 298 K",
+   "marker": "triangle_up",
+   "marker_fill": "open",
+   "line_style": "none",
+   "color_hex": "#7f7f7f",
+   "notes": "Excluded gas."
+  }
+ ],
+ "branches": "adsorption_only",
+ "complex_regions": [
+  {
+   "bbox_norm": [
+    0.12,
+    0.55,
+    0.3,
+    0.88
+   ],
+   "kind": "dense_markers",
+   "python_passes": 3
+  }
+ ],
+ "extraction_settings": [
+  {
+   "label": "CO2 273 K",
+   "color_tolerance": 24,
+   "separate_from": [
+    "N2 298 K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 5,
+     "x_to": 20,
+     "y_min": 0.8,
+     "y_max": 2.2
+    },
+    {
+     "x_from": 20,
+     "x_to": 100,
+     "y_min": 1.5,
+     "y_max": 4.0
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Grey N2 triangles near the axis were taken as CO2 273 K; the CO2 curve runs above 1.5 mmol/g beyond 20 kPa.",
+   "sample_marker_norm": [
+    0.61,
+    0.27
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 5,
+     "count": 6
+    },
+    {
+     "x_from": 5,
+     "x_to": 100,
+     "count": 14
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.5,
+     "y": 0.3
+    },
+    {
+     "x": 1,
+     "y": 0.6
+    },
+    {
+     "x": 2,
+     "y": 1.0
+    },
+    {
+     "x": 5,
+     "y": 1.6
+    },
+    {
+     "x": 10,
+     "y": 2.1
+    },
+    {
+     "x": 20,
+     "y": 2.6
+    },
+    {
+     "x": 50,
+     "y": 3.2
+    },
+    {
+     "x": 100,
+     "y": 3.6
+    }
+   ]
+  }
+ ],
+ "notes": "",
+ "region_strategies": [
+  {
+   "bbox_norm": [
+    0.12,
+    0.55,
+    0.2,
+    0.88
+   ],
+   "series_labels": [
+    "CO2 273 K"
+   ],
+   "strategy": "sample_band_at_columns",
+   "reason": "Below 3 kPa the 273 K markers fuse into a solid line; the 298 K markers show the shared pressure columns."
+  },
+  {
+   "bbox_norm": [
+    0.6,
+    0.5,
+    0.9,
+    0.7
+   ],
+   "series_labels": [],
+   "strategy": "ignore",
+   "reason": "Text annotation with a blue arrow inside the plot."
+  }
+ ],
+ "shared_x_columns": [
+  0.5,
+  1,
+  1.5,
+  2,
+  3
+ ]
+}

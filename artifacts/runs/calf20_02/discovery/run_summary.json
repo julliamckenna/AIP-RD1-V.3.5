@@ -1,0 +1,129 @@
+{
+ "source": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\data\\input\\calf20_02.png",
+ "title": "calf20_02",
+ "run_id": "recovered-calf20_02",
+ "note": "Rerun agent 04 (only this stage). Downstream artifacts were left unchanged; run with --all to refresh the final output.",
+ "panels": [
+  {
+   "folder": "figp1a",
+   "figure": {
+    "page": 1,
+    "kind": "image",
+    "file": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\calf20_02\\discovery\\python_inventory\\figure.png",
+    "source_id": "image",
+    "figure_number": null,
+    "caption": null,
+    "caption_candidates": [],
+    "references": []
+   },
+   "discovery": {
+    "reasoning": "The candidate contains five distinct physical axis frames labeled A-E, but no printed figure number or caption is visible. Panel A plots CO2 loading against pressure at multiple temperatures and also includes N2 series. Panel B plots CO2 loading against pressure at multiple temperatures. Panel C is N2 loading only, while panels D and E show H2O loading and are excluded. No supplementary table information or experimental-method details are provided in the available evidence.",
+    "figure_number": null,
+    "matched_caption": "",
+    "figure_is_relevant": true,
+    "si_has_tabulated_data": "unknown",
+    "panels": [
+     {
+      "panel": "A",
+      "is_co2_isotherm": true,
+      "reason": "CO2 loading in mmol/g is plotted against pressure in mbar at 273-373 K; the same axis also contains N2 series.",
+      "bbox_norm": [
+       0.02,
+       0.0,
+       0.98,
+       0.41
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+     },
+     {
+      "panel": "B",
+      "is_co2_isotherm": true,
+      "reason": "CO2 loading in mmol/g is plotted against pressure in kPa at 303, 313, 323, 333, 353, and 373 K.",
+      "bbox_norm": [
+       0.02,
+       0.42,
+       0.49,
+       0.68
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+     },
+     {
+      "panel": "C",
+      "is_co2_isotherm": false,
+      "reason": "This panel plots N2 loading against pressure, not CO2 uptake.",
+      "bbox_norm": [
+       0.52,
+       0.42,
+       0.99,
+       0.68
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+     },
+     {
+      "panel": "D",
+      "is_co2_isotherm": false,
+      "reason": "This panel plots H2O loading against pressure.",
+      "bbox_norm": [
+       0.02,
+       0.7,
+       0.49,
+       0.99
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+     },
+     {
+      "panel": "E",
+      "is_co2_isotherm": false,
+      "reason": "This panel plots H2O loading against relative humidity for several adsorbents, including CALF-20.",
+      "bbox_norm": [
+       0.52,
+       0.7,
+       0.99,
+       0.99
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+     }
+    ],
+    "context": {
+     "adsorbent": "CALF-20 appears in panel E and in the document identifier; the available image provides no explicit material label within panels A-C.",
+     "sample_form": "Not reported in the available evidence.",
+     "activation": "Not reported in the available evidence.",
+     "instrument": "Not reported in the available evidence.",
+     "measurement_notes": "Panel A shows CO2 isotherms from 273 to 373 K over approximately 0-1200 mbar and N2 isotherms at selected temperatures. Panel B shows CO2 isotherms at 303, 313, 323, 333, 353, and 373 K over approximately 0-120 kPa.",
+     "other_parameters": "Loading is reported in mmol/g. Panels D and E concern water adsorption and are not eligible CO2 isotherms."
+    }
+   },
+   "panel": {
+    "panel": "A",
+    "is_co2_isotherm": true,
+    "reason": "CO2 loading in mmol/g is plotted against pressure in mbar at 273-373 K; the same axis also contains N2 series.",
+    "bbox_norm": [
+     0.02,
+     0.0,
+     0.98,
+     0.41
+    ],
+    "has_inset": false,
+    "inset_bbox_norm": null
+   },
+   "figure_id": "figp1a",
+   "panel_id": "a",
+   "status": "review",
+   "message": "rerun agent 04: DefaultAzureCredential failed to retrieve a token from the included credentials.\nAttempted credentials:\n\tEnvironmentCredential: EnvironmentCredential authentication unavailable. Environment variables are not fully configured.\nVisit https://aka.ms/azsdk/python/identity/environmentcredential/troubleshoot to troubleshoot this issue.\n\tWorkloadIdentityCredential: WorkloadIdentityCredential authentication unavailable. The workload options are not fully configured. See the troubleshooting guide for more information: https://aka.ms/azsdk/python/identity/workloadidentitycredential/troubleshoot. Missing required arguments: 'tenant_id', 'client_id', 'token_file_path'.\n\tManagedIdentityCredential: ManagedIdentityCredential authentication unavailable, no response from the IMDS endpoint.\n\tSharedTokenCacheCredential: SharedTokenCacheCredential authentication unavailable. No accounts were found in the cache.\n\tVisualStudioCodeCredential: VisualStudioCodeCredential requires the 'azure-identity-broker' package to be installed. You must also ensure you have the Azure Resources extension installed and have signed in to Azure via Visual Studio Code.\n\tAzureCliCredential: Azure CLI not found on path\n\tAzurePowerShellCredential: Failed to execute \"cmd\".\nTo mitigate this issue, please refer to the troubleshooting guidelines here at https://aka.ms/azsdk/python/identity/powershellcredential/troubleshoot.\n\tAzureDeveloperCliCredential: Failed to execute 'C:\\Users\\jmckenna\\AppData\\Local\\Programs\\Azure Dev CLI\\azd.EXE'\nTo mitigate this issue, please refer to the troubleshooting guidelines here at https://aka.ms/azsdk/python/identity/defaultazurecredential/troubleshoot.; Visible marker centres use a nominal 2.5-pixel radial uncertainty; crowded/weak partial glyphs use 4.5 pixels, projected into axis units in uncertainty_x/y.; Low-pressure overlap prevents complete source-supported enumeration for every series; no expected-count completion was attempted.; Colour-distance and distance-transform detections were used only as search aids and were visually checked in the reloaded native overlay.; Native plot regions represented by unresolved_slots may contain additional wholly hidden markers that are intentionally absent from the CSV.",
+   "check_rounds": 3,
+   "extract_error": "",
+   "needs_review": true,
+   "rows": {
+    "python": 372,
+    "agent03": 382,
+    "agent04": 324
+   },
+   "verdict": "review"
+  }
+ ]
+}

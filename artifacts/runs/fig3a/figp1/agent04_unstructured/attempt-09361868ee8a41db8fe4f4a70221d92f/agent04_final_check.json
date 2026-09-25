@@ -1,0 +1,745 @@
+{
+  "reasoning": "I read panel.png at unchanged native resolution before consulting candidate files. The only eligible series is the blue CO2 195K open-circle/solid-line curve; the coral N2 77K series and the masked inset are excluded from coordinate export. Native tick centres agree with the supplied linear calibration to within its reported sub-pixel residuals, so the calibration was preserved and all final data values were recomputed from source pixels. Row-by-row overlay review found three omitted, clearly ring-supported CO2 centres near (157,292), (160,285), and (163,277), one partial ring needing recentering near (150,404), and thirteen automatic candidate centres inside fully fused blue bands without a separable centre or uniquely attributable arc. Those unsupported rows were deleted rather than justified from expected counts or interpolation. The CSV was written, reloaded, and used to generate a reconstruction and native overlay; the retained/added centres align with visible rings, while two fused low-pressure regions remain unresolved.",
+  "axis_check": {
+    "x": {
+      "printed_min": 0.0,
+      "printed_max": 1.0,
+      "data_min": -0.0003,
+      "data_max": 0.9963,
+      "result": "pass",
+      "reason": "Native x ticks read 0.0 to 1.0 at approximately 150, 246, 343, 440, 537, and 634 px. Reloaded points overlay the source at the same relative-pressure positions; the slight negative minimum is the calibrated centre of the x≈0 marker."
+    },
+    "y": {
+      "printed_min": 0.0,
+      "printed_max": 140.0,
+      "data_min": 0.486,
+      "data_max": 126.1105,
+      "result": "pass",
+      "reason": "Native y ticks read 0 to 140 cm³ g⁻¹ at approximately 468, 411, 354, 297, 240, 182, 126, and 68 px. The reloaded reconstruction places the rise and plateau at the source values, about 0–126 cm³ g⁻¹."
+    }
+  },
+  "independent_read": {
+    "x_axis": "Relative Pressure (P/P₀), dimensionless, linear; printed major ticks 0.0, 0.2, 0.4, 0.6, 0.8, 1.0.",
+    "y_axis": "Uptake (cm³ g⁻¹), linear; printed major ticks 0, 20, 40, 60, 80, 100, 120, 140.",
+    "series": [
+      {
+        "label": "CO2 195K",
+        "marker": "circle",
+        "marker_fill": "open",
+        "visible_markers_estimate": 48,
+        "notes": "Blue/violet open circles joined by a solid blue line. Approximately 48 centres are separately visible or supported by identifiable partial rings; additional low-pressure ink is fused and not countable as distinct centres."
+      },
+      {
+        "label": "N2 77K",
+        "marker": "circle",
+        "marker_fill": "open",
+        "visible_markers_estimate": 29,
+        "notes": "Coral/red open circles joined by a solid coral line near zero uptake; excluded because the target policy/spec permits only CO2 rows."
+      }
+    ],
+    "visual_risks": [
+      "The CO2 low-pressure rise contains vertically fused open circles; large native regions have no separable centre despite abundant blue pixels.",
+      "The first CO2 point overlaps the excluded N2 series near the origin.",
+      "The inset duplicates/contextualizes part of the curve and contains red highlighted markers; its mask [247,173,540,440] was inspected only as excluded context.",
+      "The upper-right and lower-right direct labels overlap nearby plot space but do not obscure the accepted plateau centres."
+    ]
+  },
+  "verdict": "review",
+  "series": [
+    {
+      "label": "CO2 195K",
+      "coverage": "incomplete",
+      "final_count": 48,
+      "comment": "48 source-supported visible or partial CO2 centres. Two native fused low-pressure regions remain unresolved; no wholly hidden points were exported."
+    }
+  ],
+  "uncertainties": [
+    "Added native-visible centres at (157,292), (160,285), and (163,277) carry 1.5–1.75 px radial uncertainty, projected into uncertainty_x/y with the preserved calibration.",
+    "Moved partial centre at (150,404) carries 2.5 px radial uncertainty because only a white-centre sliver and partial ring arc remain visible.",
+    "Some unchanged candidate rows in overlapping but still identifiable rings retain their prior evidence metadata; no expected-count or interpolation-only rows were added.",
+    "Temporary reconstruction and overlay were generated from the reloaded /mnt/data/agent04_points.csv and visually checked against panel.png."
+  ],
+  "row_count": 48,
+  "calibration": {
+    "px_per_unit_x": 484.28711897738464,
+    "px_per_unit_y": 2.8559712380158397,
+    "unit_per_px_x": 0.0020648907658572233,
+    "unit_per_px_y": 0.3501435822213465,
+    "axis_models": {
+      "x": {
+        "scale": "linear",
+        "slope": 0.0020648907658572233,
+        "intercept": -0.30874888329407885
+      },
+      "y": {
+        "scale": "linear",
+        "slope": -0.3501435822213465,
+        "intercept": 163.92601593087616
+      }
+    },
+    "tick_fit_resid_x": 0.0009847315845046278,
+    "tick_fit_resid_y": 0.19988396659110208,
+    "tick_fit_resid_x_px": 0.4768928220257812,
+    "tick_fit_resid_y_px": 0.5708628595247066,
+    "frame_px": [
+      125,
+      68,
+      658,
+      497
+    ],
+    "x_ticks_px": [
+      150,
+      246,
+      343,
+      440,
+      537,
+      634
+    ],
+    "y_ticks_px": [
+      68,
+      126,
+      182,
+      240,
+      297,
+      354,
+      411,
+      468
+    ],
+    "tick_anchors": {
+      "x": [
+        {
+          "pixel_norm": 0.2129,
+          "value": 0.0
+        },
+        {
+          "pixel_norm": 0.3514,
+          "value": 0.2
+        },
+        {
+          "pixel_norm": 0.49,
+          "value": 0.4
+        },
+        {
+          "pixel_norm": 0.6286,
+          "value": 0.6
+        },
+        {
+          "pixel_norm": 0.7671,
+          "value": 0.8
+        },
+        {
+          "pixel_norm": 0.9057,
+          "value": 1.0
+        }
+      ],
+      "y": [
+        {
+          "pixel_norm": 0.1137,
+          "value": 140.0
+        },
+        {
+          "pixel_norm": 0.2076,
+          "value": 120.0
+        },
+        {
+          "pixel_norm": 0.3015,
+          "value": 100.0
+        },
+        {
+          "pixel_norm": 0.3954,
+          "value": 80.0
+        },
+        {
+          "pixel_norm": 0.488,
+          "value": 60.0
+        },
+        {
+          "pixel_norm": 0.5848,
+          "value": 40.0
+        },
+        {
+          "pixel_norm": 0.6787,
+          "value": 20.0
+        },
+        {
+          "pixel_norm": 0.7727,
+          "value": 0.0
+        }
+      ]
+    },
+    "color_tolerance_lab": 45.0,
+    "color_tolerance_per_series": [
+      26.0,
+      28.0
+    ],
+    "base_color_passes": 3,
+    "complex_region_passes": 5,
+    "complex_region_count": 3,
+    "complex_regions_accepted": [
+      {
+        "bbox_px": [
+          143.5,
+          68.0,
+          203.0,
+          470.43
+        ],
+        "data_x": [
+          -0.01243705839356729,
+          0.1104239421749375
+        ],
+        "bbox_norm": [
+          0.205,
+          0.11,
+          0.29,
+          0.775
+        ],
+        "kind": "dense_markers",
+        "python_passes": 5
+      },
+      {
+        "bbox_px": [
+          248.5,
+          173.6,
+          517.3,
+          390.91
+        ],
+        "data_x": [
+          0.2043764720214411,
+          0.7594191098838627
+        ],
+        "bbox_norm": [
+          0.355,
+          0.286,
+          0.739,
+          0.644
+        ],
+        "kind": "inset",
+        "python_passes": 3
+      },
+      {
+        "bbox_px": [
+          455.0,
+          115.03,
+          658.0,
+          461.02
+        ],
+        "data_x": [
+          0.6307764151709578,
+          1.0499492406399742
+        ],
+        "bbox_norm": [
+          0.65,
+          0.1895,
+          0.94,
+          0.7595
+        ],
+        "kind": "annotation",
+        "python_passes": 3
+      }
+    ],
+    "complex_regions_rejected": [],
+    "legend_reader": "declared_colors_direct_labels",
+    "sample_colors": [
+      {
+        "label": "CO2 195K",
+        "sample_px": [
+          557.9,
+          111.7
+        ],
+        "legend_lab": [
+          136.0,
+          156.0,
+          61.0
+        ],
+        "sample_lab": [
+          125.0,
+          170.0,
+          50.0
+        ],
+        "distance": 20.9,
+        "result": "sample color used"
+      },
+      {
+        "label": "N2 77K",
+        "sample_px": [
+          585.9,
+          466.8
+        ],
+        "legend_lab": [
+          159.0,
+          180.0,
+          156.0
+        ],
+        "sample_lab": [
+          161.0,
+          185.0,
+          156.0
+        ],
+        "distance": 5.4,
+        "result": "sample color used"
+      }
+    ],
+    "legend_markers": [],
+    "twins_split_by_lines": 0,
+    "line_split_enabled": false,
+    "series_gate": [
+      {
+        "from": "CO2 195K",
+        "x": 0.0275,
+        "y": 63.3131,
+        "reason": "outside own y_bands",
+        "to": null
+      },
+      {
+        "from": "CO2 195K",
+        "x": 0.0334,
+        "y": 66.3254,
+        "reason": "outside own y_bands",
+        "to": null
+      },
+      {
+        "from": "CO2 195K",
+        "to": "CO2 195K",
+        "x": 0.0347,
+        "y": 69.4772,
+        "reason": "within_pixel_derived_y_band_margin",
+        "y_margin": 3.0638
+      },
+      {
+        "from": "N2 77K",
+        "to": "N2 77K",
+        "x": 0.0867,
+        "y": 2.102,
+        "reason": "within_pixel_derived_y_band_margin",
+        "y_margin": 2.1009
+      },
+      {
+        "from": "N2 77K",
+        "to": "N2 77K",
+        "x": 0.1261,
+        "y": -0.1176,
+        "reason": "within_pixel_derived_y_band_margin",
+        "y_margin": 2.1009
+      },
+      {
+        "from": "N2 77K",
+        "to": "N2 77K",
+        "x": 0.1977,
+        "y": -0.1871,
+        "reason": "within_pixel_derived_y_band_margin",
+        "y_margin": 2.1009
+      },
+      {
+        "from": "N2 77K",
+        "to": "N2 77K",
+        "x": 0.2387,
+        "y": -0.4897,
+        "reason": "within_pixel_derived_y_band_margin",
+        "y_margin": 2.1009
+      },
+      {
+        "from": "N2 77K",
+        "to": "N2 77K",
+        "x": 0.2693,
+        "y": -0.3383,
+        "reason": "within_pixel_derived_y_band_margin",
+        "y_margin": 2.1009
+      },
+      {
+        "from": "N2 77K",
+        "to": "N2 77K",
+        "x": 0.2999,
+        "y": -0.0842,
+        "reason": "within_pixel_derived_y_band_margin",
+        "y_margin": 2.1009
+      },
+      {
+        "from": "N2 77K",
+        "to": "N2 77K",
+        "x": 0.5491,
+        "y": -0.8707,
+        "reason": "within_pixel_derived_y_band_margin",
+        "y_margin": 2.1009
+      },
+      {
+        "from": "N2 77K",
+        "to": "N2 77K",
+        "x": 0.5544,
+        "y": -1.0859,
+        "reason": "within_pixel_derived_y_band_margin",
+        "y_margin": 2.1009
+      },
+      {
+        "from": "N2 77K",
+        "to": "N2 77K",
+        "x": 0.5771,
+        "y": -0.0033,
+        "reason": "within_pixel_derived_y_band_margin",
+        "y_margin": 2.1009
+      },
+      {
+        "from": "N2 77K",
+        "to": "N2 77K",
+        "x": 0.5842,
+        "y": -0.9564,
+        "reason": "within_pixel_derived_y_band_margin",
+        "y_margin": 2.1009
+      },
+      {
+        "from": "N2 77K",
+        "to": "N2 77K",
+        "x": 0.5898,
+        "y": -1.2185,
+        "reason": "within_pixel_derived_y_band_margin",
+        "y_margin": 2.1009
+      },
+      {
+        "from": "N2 77K",
+        "to": "N2 77K",
+        "x": 0.6107,
+        "y": -0.0292,
+        "reason": "within_pixel_derived_y_band_margin",
+        "y_margin": 2.1009
+      },
+      {
+        "from": "N2 77K",
+        "to": "N2 77K",
+        "x": 0.6201,
+        "y": -1.1787,
+        "reason": "within_pixel_derived_y_band_margin",
+        "y_margin": 2.1009
+      },
+      {
+        "from": "N2 77K",
+        "to": "N2 77K",
+        "x": 0.6496,
+        "y": -0.6058,
+        "reason": "within_pixel_derived_y_band_margin",
+        "y_margin": 2.1009
+      },
+      {
+        "from": "N2 77K",
+        "to": "N2 77K",
+        "x": 0.6847,
+        "y": -0.6058,
+        "reason": "within_pixel_derived_y_band_margin",
+        "y_margin": 2.1009
+      },
+      {
+        "from": "N2 77K",
+        "to": "N2 77K",
+        "x": 0.719,
+        "y": -0.4089,
+        "reason": "within_pixel_derived_y_band_margin",
+        "y_margin": 2.1009
+      },
+      {
+        "from": "N2 77K",
+        "to": "N2 77K",
+        "x": 0.7521,
+        "y": -0.1142,
+        "reason": "within_pixel_derived_y_band_margin",
+        "y_margin": 2.1009
+      },
+      {
+        "from": "N2 77K",
+        "to": "N2 77K",
+        "x": 0.7585,
+        "y": -1.1957,
+        "reason": "within_pixel_derived_y_band_margin",
+        "y_margin": 2.1009
+      },
+      {
+        "from": "N2 77K",
+        "to": "N2 77K",
+        "x": 0.7938,
+        "y": -1.25,
+        "reason": "within_pixel_derived_y_band_margin",
+        "y_margin": 2.1009
+      },
+      {
+        "from": "N2 77K",
+        "to": "N2 77K",
+        "x": 0.8218,
+        "y": -0.2824,
+        "reason": "within_pixel_derived_y_band_margin",
+        "y_margin": 2.1009
+      },
+      {
+        "from": "N2 77K",
+        "to": "N2 77K",
+        "x": 0.8599,
+        "y": -1.0334,
+        "reason": "within_pixel_derived_y_band_margin",
+        "y_margin": 2.1009
+      },
+      {
+        "from": "N2 77K",
+        "to": "N2 77K",
+        "x": 0.9395,
+        "y": -0.1163,
+        "reason": "within_pixel_derived_y_band_margin",
+        "y_margin": 2.1009
+      }
+    ],
+    "color_ambiguity_groups": [],
+    "series_assignment_audit": {
+      "groups": [],
+      "candidates": []
+    },
+    "series_assignment_margin": 0.12,
+    "reclaimed_points": 0,
+    "dense_circle_detector": {
+      "regions": [
+        {
+          "series_label": "CO2 195K",
+          "roi_px": [
+            143.5,
+            68.0,
+            203.0,
+            470.43
+          ],
+          "template_source": "isolated_native_rings",
+          "searches": 1,
+          "validated_centers": 19,
+          "roi_ink_pixels": 3370,
+          "rejected": {
+            "outside_roi": 22,
+            "boundary": 0,
+            "coverage": 1,
+            "flat_response": 0,
+            "solid_core": 47
+          },
+          "matched_existing": 2,
+          "native_supported_additions": 17
+        },
+        {
+          "series_label": "N2 77K",
+          "roi_px": [
+            143.5,
+            68.0,
+            203.0,
+            470.43
+          ],
+          "template_source": "declared_circle_geometry",
+          "searches": 1,
+          "validated_centers": 1,
+          "roi_ink_pixels": 249,
+          "rejected": {
+            "outside_roi": 3,
+            "boundary": 0,
+            "coverage": 0,
+            "flat_response": 0,
+            "solid_core": 1
+          },
+          "matched_existing": 1,
+          "native_supported_additions": 0
+        }
+      ],
+      "native_supported_additions": 17,
+      "unresolved_fused_regions": 2
+    },
+    "dense_region_resolver": {
+      "roi_px": [
+        [
+          143.5,
+          68.0,
+          149.52,
+          470.43
+        ],
+        [
+          149.52,
+          68.0,
+          246.38,
+          497.0
+        ]
+      ],
+      "low_pressure_strip_px": [
+        149.52,
+        68.0,
+        246.38,
+        497.0
+      ],
+      "columns": 1,
+      "native_supported_additions": 1
+    },
+    "global_spatial_ownership": {
+      "enabled": false,
+      "branches": "adsorption_only",
+      "multi_series": true,
+      "all_filled": false,
+      "ambiguity_group_count": 0,
+      "crowded_region_count": 1,
+      "reason": "guard_not_satisfied",
+      "distance_fraction": 0.8,
+      "confidence_margin": 0.08,
+      "candidate_count": 0,
+      "overlap_components": 0,
+      "deduplicated": 0,
+      "unresolved": 0,
+      "components": [],
+      "global_twin_pool": false,
+      "joint_assignment_candidate_source": "raw_candidates",
+      "rescore_single_source": false,
+      "expected_count_pruning": {
+        "enabled": false,
+        "tolerance_fraction": 0.15,
+        "minimum_tolerance": 2,
+        "series": [],
+        "removed": 0
+      }
+    },
+    "template_fill": {
+      "template_fit": 0,
+      "template_fill": 0,
+      "slots": []
+    },
+    "region_strategies": [
+      {
+        "strategy": "ignore",
+        "bbox_px": [
+          248,
+          173,
+          517,
+          391
+        ],
+        "series": []
+      },
+      {
+        "strategy": "ignore",
+        "bbox_px": [
+          455,
+          115,
+          658,
+          461
+        ],
+        "series": []
+      }
+    ],
+    "x_grid_columns": 0,
+    "x_grid_supported_columns": 0,
+    "exact_duplicates_dropped": {
+      "CO2 195K": 0
+    }
+  },
+  "unresolved_slots": {
+    "total": 2,
+    "by_series": {
+      "CO2 195K": 2
+    },
+    "slots": [
+      {
+        "series_label": "CO2 195K",
+        "reason": "panel.png native region x=143–158 px, y=407–458 px is a continuous vertically fused blue band below the partial ring at (150,404); no additional individual open-circle centres or ownership-specific arcs can be resolved."
+      },
+      {
+        "series_label": "CO2 195K",
+        "reason": "panel.png native region x=145–160 px, y=340–400 px is a continuous saturated blue band between visible rings near y=333 and y=404; individual marker centres are wholly hidden by overlap."
+      }
+    ]
+  },
+  "changes": [
+    {
+      "action": "delete",
+      "point_id": "pt-f68232b25287af75",
+      "reason": "Candidate centre is not independently supported by a separable source glyph; retaining it would treat a wholly fused marker hypothesis as an observed point.",
+      "source_evidence": "panel.png native crop around (150.32,454.03) shows continuous overlapping blue ink with no distinct white centre and no uniquely attributable circular arc at that location."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-5e5dbbeb23e6c72f",
+      "reason": "Candidate centre is not independently supported by a separable source glyph; retaining it would treat a wholly fused marker hypothesis as an observed point.",
+      "source_evidence": "panel.png native crop around (149.41,444.49) shows continuous overlapping blue ink with no distinct white centre and no uniquely attributable circular arc at that location."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-9e647f1eeb60d96b",
+      "reason": "Candidate centre is not independently supported by a separable source glyph; retaining it would treat a wholly fused marker hypothesis as an observed point.",
+      "source_evidence": "panel.png native crop around (150.00,440.00) shows continuous overlapping blue ink with no distinct white centre and no uniquely attributable circular arc at that location."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-e9f7ac22bc304e8e",
+      "reason": "Candidate centre is not independently supported by a separable source glyph; retaining it would treat a wholly fused marker hypothesis as an observed point.",
+      "source_evidence": "panel.png native crop around (150.35,432.53) shows continuous overlapping blue ink with no distinct white centre and no uniquely attributable circular arc at that location."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-c895da0f3617cde2",
+      "reason": "Candidate centre is not independently supported by a separable source glyph; retaining it would treat a wholly fused marker hypothesis as an observed point.",
+      "source_evidence": "panel.png native crop around (150.35,426.53) shows continuous overlapping blue ink with no distinct white centre and no uniquely attributable circular arc at that location."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-3b5efc67860d29db",
+      "reason": "Candidate centre is not independently supported by a separable source glyph; retaining it would treat a wholly fused marker hypothesis as an observed point.",
+      "source_evidence": "panel.png native crop around (151.17,411.56) shows continuous overlapping blue ink with no distinct white centre and no uniquely attributable circular arc at that location."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-e607bd9c7216f39f",
+      "reason": "Candidate centre is not independently supported by a separable source glyph; retaining it would treat a wholly fused marker hypothesis as an observed point.",
+      "source_evidence": "panel.png native crop around (150.87,394.23) shows continuous overlapping blue ink with no distinct white centre and no uniquely attributable circular arc at that location."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-c77ac63e504e3f71",
+      "reason": "Candidate centre is not independently supported by a separable source glyph; retaining it would treat a wholly fused marker hypothesis as an observed point.",
+      "source_evidence": "panel.png native crop around (151.65,385.47) shows continuous overlapping blue ink with no distinct white centre and no uniquely attributable circular arc at that location."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-35a78415c28b5ab6",
+      "reason": "Candidate centre is not independently supported by a separable source glyph; retaining it would treat a wholly fused marker hypothesis as an observed point.",
+      "source_evidence": "panel.png native crop around (152.00,379.00) shows continuous overlapping blue ink with no distinct white centre and no uniquely attributable circular arc at that location."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-8cfedd8ae2852e8c",
+      "reason": "Candidate centre is not independently supported by a separable source glyph; retaining it would treat a wholly fused marker hypothesis as an observed point.",
+      "source_evidence": "panel.png native crop around (152.35,371.53) shows continuous overlapping blue ink with no distinct white centre and no uniquely attributable circular arc at that location."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-b10a4d47d5c19897",
+      "reason": "Candidate centre is not independently supported by a separable source glyph; retaining it would treat a wholly fused marker hypothesis as an observed point.",
+      "source_evidence": "panel.png native crop around (153.00,360.19) shows continuous overlapping blue ink with no distinct white centre and no uniquely attributable circular arc at that location."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-a8c94ed563b49066",
+      "reason": "Candidate centre is not independently supported by a separable source glyph; retaining it would treat a wholly fused marker hypothesis as an observed point.",
+      "source_evidence": "panel.png native crop around (152.94,352.96) shows continuous overlapping blue ink with no distinct white centre and no uniquely attributable circular arc at that location."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-511ab26662e4320c",
+      "reason": "Candidate centre is not independently supported by a separable source glyph; retaining it would treat a wholly fused marker hypothesis as an observed point.",
+      "source_evidence": "panel.png native crop around (153.21,345.38) shows continuous overlapping blue ink with no distinct white centre and no uniquely attributable circular arc at that location."
+    },
+    {
+      "action": "move",
+      "point_id": "pt-765c9d477125a719",
+      "reason": "Recentered the only identifiable partial ring in this fused segment on its white-centre sliver and symmetric outer arc.",
+      "source_evidence": "panel.png at native (150,404) shows a partial blue open circle; the prior centre (151.15,405.28) was low and right of the visible ring symmetry."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-249432da9e269971",
+      "reason": "Distinct omitted CO2 open-circle centre recovered in the enlarged native low-pressure-rise crop.",
+      "source_evidence": "Blue open-circle with a distinct white centre and surrounding blue ring at native pixel (157,292) on the low-pressure rise."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-313abf99fab24f32",
+      "reason": "Distinct omitted CO2 open-circle centre recovered in the enlarged native low-pressure-rise crop.",
+      "source_evidence": "Blue open-circle with a distinct white centre and surrounding blue ring at native pixel (160,285) on the low-pressure rise."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-4d1b97dfff08fc7f",
+      "reason": "Distinct omitted CO2 open-circle centre recovered in the enlarged native low-pressure-rise crop.",
+      "source_evidence": "Blue open-circle with a distinct white centre and surrounding blue ring at native pixel (163,277) on the low-pressure rise."
+    }
+  ]
+}

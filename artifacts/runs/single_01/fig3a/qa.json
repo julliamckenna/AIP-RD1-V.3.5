@@ -1,0 +1,39 @@
+{
+ "series": {
+  "CO2 195K": {
+   "flags": [
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "ads: local outliers (P,q,resid) [(np.float64(0.043), np.float64(93.86), 6.9)]"
+    },
+    {
+     "check": "monotonic",
+     "detail": "des: uptake decreases at [(np.float64(0.004), np.float64(20.193))]"
+    },
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "des: local outliers (P,q,resid) [(np.float64(0.005), np.float64(25.253), -5.922)]"
+    }
+   ],
+   "toth": null,
+   "low_confidence_points": 1
+  }
+ },
+ "cross": [],
+ "verdict": "review",
+ "role": "supporting_diagnostics_only",
+ "agent04_verdict": "review",
+ "rows": {
+  "python": 18,
+  "agent03": 34,
+  "agent04": 34
+ },
+ "final_operations_applied": 0,
+ "hard_checks": {
+  "passed": true,
+  "problems": [],
+  "summary": "PASS: x printed 0-1, data 0.0012-0.967 dimensionless; y printed 0-140, data 1.091-125.7 cm³ g⁻¹; redraw recall 0.88, precision 0.91"
+ }
+}

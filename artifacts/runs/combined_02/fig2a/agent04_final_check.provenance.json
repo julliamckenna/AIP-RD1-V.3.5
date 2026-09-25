@@ -1,0 +1,19 @@
+{
+ "agent_name": "agent04-qa",
+ "agent_version": "4",
+ "response_id": "resp_05e7ecced67c960b006ab58d4eab4c8196b83c191e34cf72d2",
+ "usage": {
+  "input_tokens": 13791,
+  "input_tokens_details": {
+   "cache_write_tokens": 13788,
+   "cached_tokens": 0
+  },
+  "output_tokens": 6872,
+  "output_tokens_details": {
+   "reasoning_tokens": 2404
+  },
+  "total_tokens": 20663
+ },
+ "created_at": "2026-09-24T20:52:13.815345+00:00",
+ "dry_run": false
+}

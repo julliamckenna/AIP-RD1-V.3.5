@@ -1,0 +1,518 @@
+{
+ "schema_version": "1.0",
+ "actor": "agent04_final_check",
+ "requested": 34,
+ "applied": 34,
+ "operations": [
+  {
+   "operation_index": 0,
+   "operation_id": "op-1",
+   "action": "reassign",
+   "point_id": "pt-4c3ae6ad41d0b7ea",
+   "series_label": "CO2 343K",
+   "reason": "The point is far from the CO2 293K trajectory and is associated with the neighboring CO2 343K marker path.",
+   "source_evidence": "Partially visible marker at native pixel (254, 568).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    254.0,
+    568.0
+   ]
+  },
+  {
+   "operation_index": 1,
+   "operation_id": "op-2",
+   "action": "reassign",
+   "point_id": "pt-94fa31fc29a8e632",
+   "series_label": "CO2 353K",
+   "reason": "This crowded low-pressure point follows CO2 353K rather than CO2 313K.",
+   "source_evidence": "Partially visible marker at native pixel (261, 593).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    261.0,
+    593.0
+   ]
+  },
+  {
+   "operation_index": 2,
+   "operation_id": "op-3",
+   "action": "reassign",
+   "point_id": "pt-e51bee04f53c1540",
+   "series_label": "CO2 353K",
+   "reason": "This crowded low-pressure point follows CO2 353K rather than CO2 313K.",
+   "source_evidence": "Partially visible marker at native pixel (250, 615).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    250.0,
+    615.0
+   ]
+  },
+  {
+   "operation_index": 3,
+   "operation_id": "op-4",
+   "action": "reassign",
+   "point_id": "pt-ac2a04b1eade4510",
+   "series_label": "CO2 343K",
+   "reason": "The point is off CO2 293K and lies on the neighboring CO2 343K marker path.",
+   "source_evidence": "Partially visible marker at native pixel (273, 519).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    273.0,
+    519.0
+   ]
+  },
+  {
+   "operation_index": 4,
+   "operation_id": "op-5",
+   "action": "reassign",
+   "point_id": "pt-cc1722eee271e91b",
+   "series_label": "CO2 353K",
+   "reason": "The point belongs with the low-pressure CO2 353K trajectory, not CO2 313K.",
+   "source_evidence": "Partially visible marker at native pixel (249, 609).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    249.0,
+    609.0
+   ]
+  },
+  {
+   "operation_index": 5,
+   "operation_id": "op-6",
+   "action": "reassign",
+   "point_id": "pt-b328bd4083eb331a",
+   "series_label": "CO2 333K",
+   "reason": "The marker is off CO2 293K and follows the CO2 333K trajectory.",
+   "source_evidence": "Partially visible marker at native pixel (303, 467).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    303.0,
+    467.0
+   ]
+  },
+  {
+   "operation_index": 6,
+   "operation_id": "op-7",
+   "action": "reassign",
+   "point_id": "pt-062280ae0a7cf8f9",
+   "series_label": "CO2 333K",
+   "reason": "The marker is off CO2 293K and is associated with CO2 333K in the crowded low-pressure fan.",
+   "source_evidence": "Partially visible marker at native pixel (261, 495).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    261.0,
+    495.0
+   ]
+  },
+  {
+   "operation_index": 7,
+   "operation_id": "op-8",
+   "action": "reassign",
+   "point_id": "pt-1a06f27b53c811cc",
+   "series_label": "CO2 323K",
+   "reason": "The point does not follow CO2 293K and lies with the CO2 323K trajectory.",
+   "source_evidence": "Partially visible marker at native pixel (249, 512).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    249.0,
+    512.0
+   ]
+  },
+  {
+   "operation_index": 8,
+   "operation_id": "op-9",
+   "action": "reassign",
+   "point_id": "pt-afecabea27fe74ee",
+   "series_label": "CO2 343K",
+   "reason": "This point is displaced from CO2 313K and follows CO2 343K.",
+   "source_evidence": "Partially visible marker at native pixel (385, 460).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    385.0,
+    460.0
+   ]
+  },
+  {
+   "operation_index": 9,
+   "operation_id": "op-10",
+   "action": "reassign",
+   "point_id": "pt-87c3d1458ec38cfe",
+   "series_label": "CO2 333K",
+   "reason": "The visible marker lies on CO2 333K rather than the lower CO2 353K curve.",
+   "source_evidence": "Visible marker centered near native pixel (289.98, 485.84).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    289.98,
+    485.84
+   ]
+  },
+  {
+   "operation_index": 10,
+   "operation_id": "op-11",
+   "action": "reassign",
+   "point_id": "pt-0b86b82a04db04ad",
+   "series_label": "CO2 333K",
+   "reason": "At high pressure this marker follows the dark-blue CO2 333K endpoint, not CO2 313K.",
+   "source_evidence": "Visible marker centered near native pixel (1070.04, 351.03).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    1070.04,
+    351.03
+   ]
+  },
+  {
+   "operation_index": 11,
+   "operation_id": "op-12",
+   "action": "reassign",
+   "point_id": "pt-5819a3eee68ce0e5",
+   "series_label": "CO2 333K",
+   "reason": "The marker lies on the CO2 333K high-pressure trajectory.",
+   "source_evidence": "Visible marker centered near native pixel (1033.83, 352.9).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    1033.83,
+    352.9
+   ]
+  },
+  {
+   "operation_index": 12,
+   "operation_id": "op-13",
+   "action": "reassign",
+   "point_id": "pt-b32cd7cb69f40195",
+   "series_label": "CO2 333K",
+   "reason": "The marker lies on CO2 333K rather than the higher CO2 313K curve.",
+   "source_evidence": "Visible marker centered near native pixel (991.22, 354.3).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    991.22,
+    354.3
+   ]
+  },
+  {
+   "operation_index": 13,
+   "operation_id": "op-14",
+   "action": "reassign",
+   "point_id": "pt-c1d29ce7656a6901",
+   "series_label": "CO2 333K",
+   "reason": "The marker follows the dark-blue CO2 333K run.",
+   "source_evidence": "Visible marker at native pixel (734, 378).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    734.0,
+    378.0
+   ]
+  },
+  {
+   "operation_index": 14,
+   "operation_id": "op-15",
+   "action": "reassign",
+   "point_id": "pt-1475c3f1b1bbe062",
+   "series_label": "CO2 333K",
+   "reason": "The partially visible marker lies on CO2 333K rather than CO2 313K.",
+   "source_evidence": "Partially visible marker centered near native pixel (947.92, 359.28).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    947.92,
+    359.28
+   ]
+  },
+  {
+   "operation_index": 15,
+   "operation_id": "op-16",
+   "action": "reassign",
+   "point_id": "pt-3f28983ba79ea166",
+   "series_label": "CO2 333K",
+   "reason": "The visible marker belongs to the CO2 333K trajectory.",
+   "source_evidence": "Visible marker centered near native pixel (904, 362.86).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    904.0,
+    362.86
+   ]
+  },
+  {
+   "operation_index": 16,
+   "operation_id": "op-17",
+   "action": "reassign",
+   "point_id": "pt-f8394ab68933f963",
+   "series_label": "CO2 333K",
+   "reason": "The marker is part of the CO2 333K run duplicated near this pressure.",
+   "source_evidence": "Partially visible marker centered near native pixel (733.12, 377.34).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    733.12,
+    377.34
+   ]
+  },
+  {
+   "operation_index": 17,
+   "operation_id": "op-18",
+   "action": "reassign",
+   "point_id": "pt-a838a03911df5273",
+   "series_label": "CO2 333K",
+   "reason": "The visible marker follows CO2 333K, not CO2 313K.",
+   "source_evidence": "Visible marker centered near native pixel (773.07, 373.08).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    773.07,
+    373.08
+   ]
+  },
+  {
+   "operation_index": 18,
+   "operation_id": "op-19",
+   "action": "reassign",
+   "point_id": "pt-9da9d434465dee1c",
+   "series_label": "CO2 333K",
+   "reason": "The marker lies on the dark-blue CO2 333K trajectory.",
+   "source_evidence": "Visible marker centered near native pixel (859.59, 364.7).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    859.59,
+    364.7
+   ]
+  },
+  {
+   "operation_index": 19,
+   "operation_id": "op-20",
+   "action": "reassign",
+   "point_id": "pt-cec85affd9461816",
+   "series_label": "CO2 333K",
+   "reason": "The marker lies on CO2 333K rather than the magenta CO2 313K trajectory.",
+   "source_evidence": "Visible marker centered near native pixel (816.4, 368.26).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    816.4,
+    368.26
+   ]
+  },
+  {
+   "operation_index": 20,
+   "operation_id": "op-21",
+   "action": "reassign",
+   "point_id": "pt-4164e95567cc2a25",
+   "series_label": "CO2 333K",
+   "reason": "The point follows the CO2 333K curve and is substantially below CO2 313K.",
+   "source_evidence": "Partially visible marker at native pixel (429, 435).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    429.0,
+    435.0
+   ]
+  },
+  {
+   "operation_index": 21,
+   "operation_id": "op-22",
+   "action": "reassign",
+   "point_id": "pt-b8d82a34bc1c772c",
+   "series_label": "CO2 333K",
+   "reason": "The partially visible marker belongs to CO2 333K.",
+   "source_evidence": "Partially visible marker centered near native pixel (935.41, 356.8).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    935.41,
+    356.8
+   ]
+  },
+  {
+   "operation_index": 22,
+   "operation_id": "op-23",
+   "action": "reassign",
+   "point_id": "pt-96712642a3af784e",
+   "series_label": "CO2 333K",
+   "reason": "The visible point is on the CO2 333K trajectory.",
+   "source_evidence": "Visible marker centered near native pixel (686.06, 381.92).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    686.06,
+    381.92
+   ]
+  },
+  {
+   "operation_index": 23,
+   "operation_id": "op-24",
+   "action": "reassign",
+   "point_id": "pt-e2705ac17f4d2788",
+   "series_label": "CO2 333K",
+   "reason": "The visible point follows CO2 333K rather than CO2 313K.",
+   "source_evidence": "Visible marker centered near native pixel (880.99, 359.73).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    880.99,
+    359.73
+   ]
+  },
+  {
+   "operation_index": 24,
+   "operation_id": "op-25",
+   "action": "reassign",
+   "point_id": "pt-d6d44ccb56d3bb69",
+   "series_label": "CO2 333K",
+   "reason": "This marker continues the CO2 333K dark-blue curve.",
+   "source_evidence": "Visible marker centered near native pixel (515.72, 410.32).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    515.72,
+    410.32
+   ]
+  },
+  {
+   "operation_index": 25,
+   "operation_id": "op-26",
+   "action": "reassign",
+   "point_id": "pt-b3f8564a732c56e5",
+   "series_label": "CO2 333K",
+   "reason": "The visible marker belongs to CO2 333K rather than CO2 313K.",
+   "source_evidence": "Visible marker centered near native pixel (473.16, 421.33).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    473.16,
+    421.33
+   ]
+  },
+  {
+   "operation_index": 26,
+   "operation_id": "op-27",
+   "action": "reassign",
+   "point_id": "pt-6ce797a820310e14",
+   "series_label": "CO2 333K",
+   "reason": "The partially visible marker lies on CO2 333K.",
+   "source_evidence": "Partially visible marker centered near native pixel (554.29, 403.21).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    554.29,
+    403.21
+   ]
+  },
+  {
+   "operation_index": 27,
+   "operation_id": "op-28",
+   "action": "reassign",
+   "point_id": "pt-7d411bf5d0906b5e",
+   "series_label": "CO2 333K",
+   "reason": "The visible marker follows the CO2 333K trajectory.",
+   "source_evidence": "Visible marker centered near native pixel (838.39, 362.79).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    838.39,
+    362.79
+   ]
+  },
+  {
+   "operation_index": 28,
+   "operation_id": "op-29",
+   "action": "reassign",
+   "point_id": "pt-0ee2b688cfb51600",
+   "series_label": "CO2 333K",
+   "reason": "The visible marker belongs to the CO2 333K run.",
+   "source_evidence": "Visible marker centered near native pixel (642.31, 387.72).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    642.31,
+    387.72
+   ]
+  },
+  {
+   "operation_index": 29,
+   "operation_id": "op-30",
+   "action": "reassign",
+   "point_id": "pt-34985668a923ecfd",
+   "series_label": "CO2 343K",
+   "reason": "The crowded low-pressure marker is associated with CO2 343K rather than CO2 323K.",
+   "source_evidence": "Partially visible marker centered near native pixel (264.31, 539.83).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    264.31,
+    539.83
+   ]
+  },
+  {
+   "operation_index": 30,
+   "operation_id": "op-31",
+   "action": "reassign",
+   "point_id": "pt-e1eabc43400f4212",
+   "series_label": "CO2 333K",
+   "reason": "The partially visible marker lies on the CO2 333K trajectory.",
+   "source_evidence": "Partially visible marker centered near native pixel (786.13, 366.97).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    786.13,
+    366.97
+   ]
+  },
+  {
+   "operation_index": 31,
+   "operation_id": "op-32",
+   "action": "reassign",
+   "point_id": "pt-0e051878d5d9f181",
+   "series_label": "CO2 333K",
+   "reason": "The visible marker belongs to CO2 333K rather than CO2 313K.",
+   "source_evidence": "Visible marker centered near native pixel (598.7, 394.53).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    598.7,
+    394.53
+   ]
+  },
+  {
+   "operation_index": 32,
+   "operation_id": "op-33",
+   "action": "reassign",
+   "point_id": "pt-b155c5ce4d6a9866",
+   "series_label": "CO2 333K",
+   "reason": "The visible marker follows CO2 333K.",
+   "source_evidence": "Visible marker centered near native pixel (673.04, 379.91).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    673.04,
+    379.91
+   ]
+  },
+  {
+   "operation_index": 33,
+   "operation_id": "op-34",
+   "action": "reassign",
+   "point_id": "pt-aea06c124bf87ac2",
+   "series_label": "CO2 333K",
+   "reason": "The visible marker lies on CO2 333K rather than CO2 313K.",
+   "source_evidence": "Visible marker centered near native pixel (452.3, 422.42).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    452.3,
+    422.42
+   ]
+  }
+ ]
+}

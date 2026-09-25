@@ -1,0 +1,493 @@
+{
+  "title": "agent03_review_points_response",
+  "description": "Agent 03 corrections to the Python proposal, applied mechanically by src/tools/stage_edits.py.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "reasoning",
+    "verdict",
+    "series",
+    "operations",
+    "uncertainties",
+    "coverage"
+  ],
+  "properties": {
+    "reasoning": {
+      "type": "string"
+    },
+    "verdict": {
+      "type": "string",
+      "enum": [
+        "accept",
+        "review",
+        "reject"
+      ]
+    },
+    "series": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "label",
+          "coverage",
+          "final_count",
+          "comment"
+        ],
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "coverage": {
+            "type": "string",
+            "enum": [
+              "complete",
+              "incomplete",
+              "uncertain"
+            ]
+          },
+          "final_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "comment": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "operations": {
+      "type": "array",
+      "items": {
+        "description": "A source-backed extraction edit. Add uses a null point_id, nonblank series_label, and numeric coordinates. Move uses a nonblank existing point_id and numeric coordinates. Delete uses a nonblank existing point_id and null coordinates. Reassign uses a nonblank existing point_id and nonblank series_label with either both coordinates or neither. Every operation cites source_evidence and evidence_ref. Positional operations report nonnegative uncertainty_px in native panel pixels; nonpositional operations use null.",
+        "anyOf": [
+          {
+            "title": "add_point_operation",
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "operation_id",
+              "action",
+              "point_id",
+              "series_label",
+              "x_norm",
+              "y_norm",
+              "overlap",
+              "reason",
+              "source_evidence",
+              "evidence_kind",
+              "uncertainty_px",
+              "evidence_ref"
+            ],
+            "properties": {
+              "operation_id": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "action": {
+                "type": "string",
+                "const": "add"
+              },
+              "point_id": {
+                "type": "null"
+              },
+              "series_label": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "x_norm": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "y_norm": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "overlap": {
+                "type": "boolean"
+              },
+              "reason": {
+                "type": "string"
+              },
+              "source_evidence": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "evidence_kind": {
+                "type": "string",
+                "enum": [
+                  "native_visible",
+                  "partial_marker"
+                ]
+              },
+              "uncertainty_px": {
+                "type": "number",
+                "minimum": 0.1,
+                "description": "Radius of positional uncertainty in native source-panel pixels. Estimate from the visible marker or fragment; do not use zero to imply certainty."
+              },
+              "evidence_ref": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S",
+                "description": "panel.png or the exact native evidence item_id that supports this operation."
+              }
+            }
+          },
+          {
+            "title": "move_point_operation",
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "operation_id",
+              "action",
+              "point_id",
+              "series_label",
+              "x_norm",
+              "y_norm",
+              "overlap",
+              "reason",
+              "source_evidence",
+              "evidence_kind",
+              "uncertainty_px",
+              "evidence_ref"
+            ],
+            "properties": {
+              "operation_id": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "action": {
+                "type": "string",
+                "const": "move"
+              },
+              "point_id": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "series_label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "x_norm": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "y_norm": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "overlap": {
+                "type": "boolean"
+              },
+              "reason": {
+                "type": "string"
+              },
+              "source_evidence": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "evidence_kind": {
+                "type": "string",
+                "enum": [
+                  "native_visible",
+                  "partial_marker"
+                ]
+              },
+              "uncertainty_px": {
+                "type": "number",
+                "minimum": 0.1
+              },
+              "evidence_ref": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              }
+            }
+          },
+          {
+            "title": "delete_point_operation",
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "operation_id",
+              "action",
+              "point_id",
+              "series_label",
+              "x_norm",
+              "y_norm",
+              "overlap",
+              "reason",
+              "source_evidence",
+              "evidence_kind",
+              "uncertainty_px",
+              "evidence_ref"
+            ],
+            "properties": {
+              "operation_id": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "action": {
+                "type": "string",
+                "const": "delete"
+              },
+              "point_id": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "series_label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "x_norm": {
+                "type": "null"
+              },
+              "y_norm": {
+                "type": "null"
+              },
+              "overlap": {
+                "type": "boolean"
+              },
+              "reason": {
+                "type": "string"
+              },
+              "source_evidence": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "evidence_kind": {
+                "type": "string",
+                "enum": [
+                  "native_visible",
+                  "partial_marker",
+                  "native_absence"
+                ]
+              },
+              "uncertainty_px": {
+                "type": "null",
+                "description": "Delete has no replacement position."
+              },
+              "evidence_ref": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              }
+            }
+          },
+          {
+            "title": "reassign_point_operation_with_position",
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "operation_id",
+              "action",
+              "point_id",
+              "series_label",
+              "x_norm",
+              "y_norm",
+              "overlap",
+              "reason",
+              "source_evidence",
+              "evidence_kind",
+              "uncertainty_px",
+              "evidence_ref"
+            ],
+            "properties": {
+              "operation_id": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "action": {
+                "type": "string",
+                "const": "reassign"
+              },
+              "point_id": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "series_label": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "x_norm": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "y_norm": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "overlap": {
+                "type": "boolean"
+              },
+              "reason": {
+                "type": "string"
+              },
+              "source_evidence": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "evidence_kind": {
+                "type": "string",
+                "enum": [
+                  "native_visible",
+                  "partial_marker"
+                ]
+              },
+              "uncertainty_px": {
+                "type": "number",
+                "minimum": 0.1
+              },
+              "evidence_ref": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              }
+            }
+          },
+          {
+            "title": "reassign_point_operation_without_position",
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "operation_id",
+              "action",
+              "point_id",
+              "series_label",
+              "x_norm",
+              "y_norm",
+              "overlap",
+              "reason",
+              "source_evidence",
+              "evidence_kind",
+              "uncertainty_px",
+              "evidence_ref"
+            ],
+            "properties": {
+              "operation_id": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "action": {
+                "type": "string",
+                "const": "reassign"
+              },
+              "point_id": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "series_label": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "x_norm": {
+                "type": "null"
+              },
+              "y_norm": {
+                "type": "null"
+              },
+              "overlap": {
+                "type": "boolean"
+              },
+              "reason": {
+                "type": "string"
+              },
+              "source_evidence": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "evidence_kind": {
+                "type": "string",
+                "enum": [
+                  "native_visible",
+                  "partial_marker"
+                ]
+              },
+              "uncertainty_px": {
+                "type": "null",
+                "description": "No replacement position was supplied."
+              },
+              "evidence_ref": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "uncertainties": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "coverage": {
+      "description": "Explicit disposition for every tile, contested box, ambiguity crop and unresolved slot presented in this review batch.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "item_id",
+          "item_type",
+          "status",
+          "detail"
+        ],
+        "properties": {
+          "item_id": {
+            "type": "string"
+          },
+          "item_type": {
+            "type": "string",
+            "enum": [
+              "tile",
+              "box",
+              "evidence",
+              "ambiguity",
+              "slot"
+            ]
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "reviewed",
+              "unresolved"
+            ]
+          },
+          "detail": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

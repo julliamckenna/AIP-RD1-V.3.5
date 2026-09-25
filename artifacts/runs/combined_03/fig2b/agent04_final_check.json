@@ -1,0 +1,115 @@
+{
+ "reasoning": "The source-only read shows six filled-marker CO2 isotherms on linear 0–120 kPa and 0–3.0 mmol/g axes. The candidate reproduces the isolated marker sequences, their ordering, spacing and high-pressure endpoints. The uncovered low-pressure red, green and black ink is predominantly thick connecting-line ink without separately resolvable marker centres, so points must not be added to trace it. Each listed suspect point coincides with visible marker ink; the low-pressure fit warnings arise from steep/crowded branches, while the 373K warnings arise because its first resolvable star is near 33 kPa. No corrective operation is supported.",
+ "axis_check": {
+  "x": {
+   "printed_min": 0,
+   "printed_max": 120,
+   "data_min": 1.5124,
+   "data_max": 114.1171,
+   "reason": "The recreated markers occupy the same pressure positions and spacing as the source against the 0–120 kPa ticks; there is no horizontal shift or stretch.",
+   "result": "pass"
+  },
+  "y": {
+   "printed_min": 0,
+   "printed_max": 3,
+   "data_min": 0.1446,
+   "data_max": 2.9272,
+   "reason": "The recreated curves have the same vertical ordering and endpoint levels as the source, including approximately 2.93 mmol/g for 303K and 1.55 mmol/g for 373K.",
+   "result": "pass"
+  }
+ },
+ "independent_read": {
+  "x_axis": "Pressure [kPa], linear 0–120",
+  "y_axis": "CO2 Loading [mmol/g], linear 0–3.0",
+  "series": [
+   {
+    "label": "CO2 303K",
+    "marker": "circle",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 14,
+    "notes": "Red circles; separately resolved markers begin near 27 kPa, above a thick low-pressure stroke."
+   },
+   {
+    "label": "CO2 313K",
+    "marker": "square",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 19,
+    "notes": "Orange squares; several low-pressure markers are crowded into the steep branch."
+   },
+   {
+    "label": "CO2 323K",
+    "marker": "triangle_up",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 22,
+    "notes": "Green upward triangles; crowded at low pressure."
+   },
+   {
+    "label": "CO2 333K",
+    "marker": "pentagon",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 19,
+    "notes": "Blue pentagons; some low-pressure centres are close to neighboring series."
+   },
+   {
+    "label": "CO2 353K",
+    "marker": "diamond",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 18,
+    "notes": "Magenta diamonds."
+   },
+   {
+    "label": "CO2 373K",
+    "marker": "star",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 13,
+    "notes": "Black four-point star-like markers; the thick segment below about 30 kPa has no separately resolved glyphs."
+   }
+  ],
+  "visual_risks": [
+   "Strong marker and connecting-line overlap on the steep low-pressure branches.",
+   "The low-pressure 303K and 373K strokes contain substantial line ink without separately visible marker centres.",
+   "The 323K and 333K markers approach or overlap at high pressure."
+  ]
+ },
+ "verdict": "accept",
+ "series": [
+  {
+   "label": "CO2 303K",
+   "coverage": "complete",
+   "final_count": 14,
+   "comment": "All separately visible red circle centres are represented; no points are added along the unresolved thick branch."
+  },
+  {
+   "label": "CO2 313K",
+   "coverage": "complete",
+   "final_count": 19,
+   "comment": "The crowded low-pressure square centres and the high-pressure sequence are represented."
+  },
+  {
+   "label": "CO2 323K",
+   "coverage": "complete",
+   "final_count": 22,
+   "comment": "The visible green triangle sequence is represented."
+  },
+  {
+   "label": "CO2 333K",
+   "coverage": "complete",
+   "final_count": 19,
+   "comment": "The visible blue pentagon sequence is represented."
+  },
+  {
+   "label": "CO2 353K",
+   "coverage": "complete",
+   "final_count": 18,
+   "comment": "The visible magenta diamond sequence is represented."
+  },
+  {
+   "label": "CO2 373K",
+   "coverage": "complete",
+   "final_count": 13,
+   "comment": "All separately visible black star centres from approximately 33 kPa onward are represented; the lower-pressure stroke is not treated as extra markers."
+  }
+ ],
+ "operations": [],
+ "uncertainties": []
+}

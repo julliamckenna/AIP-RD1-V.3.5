@@ -1,0 +1,182 @@
+{
+ "reasoning": "The source panel has a linear pressure axis with printed ticks 0, 40, 80, and 120 kPa, and a linear loading axis with printed ticks from 0 to 3.0 mmol/g in 0.5 increments. The supplied structure has the correct axis values, but Python failed because the axis frame/tick calibration was not represented in the structure. The legend contains six filled solid-line series in the stated top-to-bottom order. The 373K legend marker is a plus, not a star. Low-pressure connecting curves are thick and crowded, so that region should receive an additional extraction pass.",
+ "axis_check": {
+  "x": {
+   "printed_min": 0,
+   "printed_max": 120,
+   "data_min": 0,
+   "data_max": 113,
+   "reason": "The source x-axis is labeled 0-120 kPa. The extracted setpoints span 0-113 kPa and therefore sit within the printed range with the rightmost markers just left of the 120 tick.",
+   "result": "pass"
+  },
+  "y": {
+   "printed_min": 0,
+   "printed_max": 3,
+   "data_min": 0,
+   "data_max": 2.94,
+   "reason": "The source y-axis is labeled 0-3.0 mmol/g. The extracted curves span 0-2.94 mmol/g, matching the plotted curves below the 3.0 tick.",
+   "result": "pass"
+  }
+ },
+ "satisfied": false,
+ "issues": [
+  "Python failed axis/tick detection because calibrated tick anchors were absent from the structure.",
+  "The 373K legend marker is a plus rather than a star.",
+  "The low-pressure region contains thick connecting lines and crowded markers requiring a focused extraction pass."
+ ],
+ "structure_ok": true,
+ "chart_title": "",
+ "x_axis": {
+  "title": "Pressure",
+  "unit": "kPa",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 120,
+  "boundary_limits_confirmed": false,
+  "ticks": [
+   0,
+   40,
+   80,
+   120
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.225,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.457,
+    "value": 40
+   },
+   {
+    "pixel_norm": 0.689,
+    "value": 80
+   },
+   {
+    "pixel_norm": 0.919,
+    "value": 120
+   }
+  ]
+ },
+ "y_axis": {
+  "title": "CO2 Loading",
+  "unit": "mmol/g",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 3,
+  "boundary_limits_confirmed": false,
+  "ticks": [
+   0,
+   0.5,
+   1,
+   1.5,
+   2,
+   2.5,
+   3
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.81,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.694,
+    "value": 0.5
+   },
+   {
+    "pixel_norm": 0.576,
+    "value": 1
+   },
+   {
+    "pixel_norm": 0.46,
+    "value": 1.5
+   },
+   {
+    "pixel_norm": 0.344,
+    "value": 2
+   },
+   {
+    "pixel_norm": 0.227,
+    "value": 2.5
+   },
+   {
+    "pixel_norm": 0.109,
+    "value": 3
+   }
+  ]
+ },
+ "legend_bbox_norm": [
+  0.562,
+  0.594,
+  0.903,
+  0.793
+ ],
+ "total_series": 6,
+ "series": [
+  {
+   "label": "CO2 303K",
+   "marker": "circle",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#e52525",
+   "notes": "Filled red circles."
+  },
+  {
+   "label": "CO2 313K",
+   "marker": "square",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#f39c12",
+   "notes": "Filled orange squares."
+  },
+  {
+   "label": "CO2 323K",
+   "marker": "triangle_up",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#219653",
+   "notes": "Filled green upward triangles."
+  },
+  {
+   "label": "CO2 333K",
+   "marker": "pentagon",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#29459b",
+   "notes": "Filled blue pentagons."
+  },
+  {
+   "label": "CO2 353K",
+   "marker": "diamond",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#d32c93",
+   "notes": "Filled magenta diamonds."
+  },
+  {
+   "label": "CO2 373K",
+   "marker": "plus",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#111111",
+   "notes": "Black plus markers; the legend glyph is a plus, not a star."
+  }
+ ],
+ "branches": "adsorption_only",
+ "complex_regions": [
+  {
+   "bbox_norm": [
+    0.22,
+    0.1,
+    0.43,
+    0.81
+   ],
+   "kind": "thick_connecting_lines",
+   "python_passes": 3
+  }
+ ],
+ "extraction_settings": [],
+ "notes": "Axis frame and tick anchors are read from the visible plot frame: x approximately pixels 169-690 and y approximately pixels 70-521 in the 751x643 image. The frame coincides with the outer printed ticks, so boundary limits are not confirmed as extending beyond them.",
+ "region_strategies": [],
+ "shared_x_columns": []
+}

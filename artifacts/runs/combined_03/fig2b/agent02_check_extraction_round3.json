@@ -1,0 +1,408 @@
+{
+ "reasoning": "The axis calibration is correct: the recreated curves align with the source against the printed 0-120 kPa and 0-3.0 mmol/g ticks. Legend identity is correct as declared; the measured pentagon/circle/hexagon/diamond glyphs are unreliable raster readings caused by nearby legend content, while the source visibly shows a green upward triangle, blue pentagon, magenta diamond, and black plus. The remaining fixable problem is low-pressure coverage: the thick connecting strokes fuse or obscure red 303K and black 373K marker centres, producing unresolved slots and very poor black redraw recall. The crowded low-pressure region should be sampled at the visible shared pressure columns rather than treated as ordinary isolated markers.",
+ "axis_check": {
+  "x": {
+   "printed_min": 0,
+   "printed_max": 120,
+   "data_min": 1.5115,
+   "data_max": 114.1177,
+   "reason": "The source x-axis is printed from 0 to 120 kPa. Python's extracted range is within that range and the recreated curves have the same horizontal positions relative to the ticks; there is no shift or stretch.",
+   "result": "pass"
+  },
+  "y": {
+   "printed_min": 0,
+   "printed_max": 3,
+   "data_min": 0.0469,
+   "data_max": 2.9272,
+   "reason": "The source y-axis is printed from 0 to 3.0 mmol/g. Python's extracted range matches the source curves relative to the y ticks; the highest marker remains just below 3.0.",
+   "result": "pass"
+  }
+ },
+ "satisfied": false,
+ "issues": [
+  "CO2 303K is substantially undercounted in the low-pressure region, with 14 detected versus about 21 visible markers and eight unresolved low-pressure slots.",
+  "CO2 373K has poor native-ink recall (0.633; about 9.6 marker equivalents missed), because the thick black low-pressure stroke is mistaken for or suppresses plus-marker centres.",
+  "The low-pressure thick-line region needs explicit column sampling for the red and black series; ordinary marker detection should remain disabled there to avoid line-artifact overcounting."
+ ],
+ "structure_ok": true,
+ "chart_title": "",
+ "x_axis": {
+  "title": "Pressure",
+  "unit": "kPa",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 120,
+  "boundary_limits_confirmed": false,
+  "ticks": [
+   0,
+   40,
+   80,
+   120
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.225,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.457,
+    "value": 40
+   },
+   {
+    "pixel_norm": 0.689,
+    "value": 80
+   },
+   {
+    "pixel_norm": 0.919,
+    "value": 120
+   }
+  ]
+ },
+ "y_axis": {
+  "title": "CO2 Loading",
+  "unit": "mmol/g",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 3,
+  "boundary_limits_confirmed": false,
+  "ticks": [
+   0,
+   0.5,
+   1,
+   1.5,
+   2,
+   2.5,
+   3
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.81,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.694,
+    "value": 0.5
+   },
+   {
+    "pixel_norm": 0.576,
+    "value": 1
+   },
+   {
+    "pixel_norm": 0.46,
+    "value": 1.5
+   },
+   {
+    "pixel_norm": 0.344,
+    "value": 2
+   },
+   {
+    "pixel_norm": 0.227,
+    "value": 2.5
+   },
+   {
+    "pixel_norm": 0.109,
+    "value": 3
+   }
+  ]
+ },
+ "legend_bbox_norm": [
+  0.5406,
+  0.5723,
+  0.9228,
+  0.8118
+ ],
+ "total_series": 6,
+ "series": [
+  {
+   "label": "CO2 303K",
+   "marker": "circle",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#e52525",
+   "notes": "Red filled circles; low-pressure circles are partly fused with the thick red connecting stroke."
+  },
+  {
+   "label": "CO2 313K",
+   "marker": "square",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#f39c12",
+   "notes": "Orange filled squares."
+  },
+  {
+   "label": "CO2 323K",
+   "marker": "triangle_up",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#219653",
+   "notes": "Green filled upward triangles; the raster legend measurement of pentagon is incorrect."
+  },
+  {
+   "label": "CO2 333K",
+   "marker": "pentagon",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#29459b",
+   "notes": "Blue filled pentagons; the raster legend measurement of an open circle is incorrect."
+  },
+  {
+   "label": "CO2 353K",
+   "marker": "diamond",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#d32c93",
+   "notes": "Magenta filled diamonds; the raster legend measurement of hexagon is incorrect."
+  },
+  {
+   "label": "CO2 373K",
+   "marker": "plus",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#111111",
+   "notes": "Black plus markers; the apparent diamond in the enlarged raster glyph is a low-confidence measurement, while the source legend and plot show plus symbols. Thick black low-pressure connecting stroke obscures several centres."
+  }
+ ],
+ "branches": "adsorption_only",
+ "complex_regions": [
+  {
+   "bbox_norm": [
+    0.22,
+    0.1,
+    0.43,
+    0.81
+   ],
+   "kind": "thick_connecting_lines",
+   "python_passes": 6
+  },
+  {
+   "bbox_norm": [
+    0.225,
+    0.57,
+    0.36,
+    0.81
+   ],
+   "kind": "dense_markers",
+   "python_passes": 6
+  }
+ ],
+ "extraction_settings": [
+  {
+   "label": "CO2 303K",
+   "color_tolerance": 34,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 5,
+     "y_min": 0,
+     "y_max": 1.55
+    },
+    {
+     "x_from": 5,
+     "x_to": 30,
+     "y_min": 0.9,
+     "y_max": 2.35
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "y_min": 2.15,
+     "y_max": 3.05
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Recover the red low-pressure circle columns from the visible trajectory while avoiding unconstrained filling away from the red curve; use explicit shared-column sampling in the fused stroke region.",
+   "sample_marker_norm": [
+    0.689,
+    0.168
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 5,
+     "count": 6
+    },
+    {
+     "x_from": 5,
+     "x_to": 30,
+     "count": 5
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "count": 10
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 1,
+     "y": 0.55
+    },
+    {
+     "x": 3,
+     "y": 1.05
+    },
+    {
+     "x": 5,
+     "y": 1.45
+    },
+    {
+     "x": 8,
+     "y": 1.75
+    },
+    {
+     "x": 12,
+     "y": 1.95
+    },
+    {
+     "x": 20,
+     "y": 2.15
+    },
+    {
+     "x": 30,
+     "y": 2.3
+    },
+    {
+     "x": 50,
+     "y": 2.52
+    },
+    {
+     "x": 80,
+     "y": 2.75
+    },
+    {
+     "x": 100,
+     "y": 2.88
+    },
+    {
+     "x": 115,
+     "y": 2.96
+    }
+   ]
+  },
+  {
+   "label": "CO2 373K",
+   "color_tolerance": 34,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 5,
+     "y_min": 0,
+     "y_max": 0.65
+    },
+    {
+     "x_from": 5,
+     "x_to": 30,
+     "y_min": 0.55,
+     "y_max": 1.4
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "y_min": 0.7,
+     "y_max": 1.7
+    }
+   ],
+   "template_fill": "off",
+   "reason": "The black low-pressure connecting stroke generates false plus candidates and suppresses true centres; sample the visible black trajectory at the shared pressure columns and do not fill the stroke as markers.",
+   "sample_marker_norm": [
+    0.689,
+    0.496
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 30,
+     "count": 5
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "count": 13
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 3,
+     "y": 0.25
+    },
+    {
+     "x": 6,
+     "y": 0.55
+    },
+    {
+     "x": 10,
+     "y": 0.78
+    },
+    {
+     "x": 15,
+     "y": 0.98
+    },
+    {
+     "x": 22,
+     "y": 1.18
+    },
+    {
+     "x": 30,
+     "y": 1.35
+    },
+    {
+     "x": 45,
+     "y": 1.55
+    },
+    {
+     "x": 60,
+     "y": 1.68
+    },
+    {
+     "x": 80,
+     "y": 1.82
+    },
+    {
+     "x": 100,
+     "y": 1.95
+    },
+    {
+     "x": 115,
+     "y": 2.02
+    }
+   ]
+  }
+ ],
+ "notes": "Axes and curve values pass. Review is limited to marker completeness in the thick low-pressure strokes; isolated markers at moderate and high pressure are already well aligned.",
+ "region_strategies": [
+  {
+   "bbox_norm": [
+    0.22,
+    0.1,
+    0.43,
+    0.81
+   ],
+   "series_labels": [
+    "CO2 303K",
+    "CO2 373K"
+   ],
+   "strategy": "sample_band_at_columns",
+   "reason": "The red 303K and black 373K low-pressure branches are visibly fused with thick connecting strokes. Sample one trajectory point at each shared pressure column instead of counting stroke pixels as independent markers."
+  }
+ ],
+ "shared_x_columns": [
+  0,
+  3,
+  5,
+  8,
+  10,
+  15,
+  20,
+  27
+ ]
+}

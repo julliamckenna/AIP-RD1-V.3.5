@@ -1,0 +1,543 @@
+{
+ "schema_version": "4.0",
+ "stage": "python",
+ "figure_id": "fig10_11",
+ "panel_id": "x",
+ "source_pdf": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\data\\input\\combined_01.pdf",
+ "image_sha256": "1515d4d19fac98e26dfb2f078ffe864f9a72e4060116078c2dda272b86f5730e",
+ "status": "python_proposal",
+ "plot_bbox": [
+  90,
+  0,
+  899,
+  598
+ ],
+ "series": [
+  {
+   "series_id": "fig10_11:x:co2-273k-78e92393",
+   "series_name": "CO2 273K",
+   "species": "CO2",
+   "export_eligible": true,
+   "species_evidence": "",
+   "marker_shape": "circle",
+   "marker_fill": "filled",
+   "marker_glyph": {
+    "shape": "hexagon",
+    "fill": "open",
+    "color_hex": "#dc605a",
+    "fill_hex": null,
+    "edge_hex": "#e5887d",
+    "polygon": [
+     [
+      0.048,
+      -1.216
+     ],
+     [
+      -0.322,
+      -1.111
+     ],
+     [
+      -0.779,
+      -0.548
+     ],
+     [
+      -0.884,
+      0.455
+     ],
+     [
+      -0.462,
+      1.088
+     ],
+     [
+      0.364,
+      1.088
+     ],
+     [
+      0.786,
+      0.666
+     ],
+     [
+      0.786,
+      -0.794
+     ]
+    ],
+    "size_px": 9.48,
+    "vertices": 6,
+    "source": "raster",
+    "confidence": 0.42
+   },
+   "color_hex": "#dc605a",
+   "line_style": "solid",
+   "axis_x_id": "x",
+   "axis_y_id": "y",
+   "quantity_type": "CO2 uptake",
+   "loading_basis": "unknown"
+  },
+  {
+   "series_id": "fig10_11:x:co2-298k-438baf4c",
+   "series_name": "CO2 298K",
+   "species": "CO2",
+   "export_eligible": true,
+   "species_evidence": "",
+   "marker_shape": "circle",
+   "marker_fill": "filled",
+   "marker_glyph": {
+    "shape": "hexagon",
+    "fill": "open",
+    "color_hex": "#e26058",
+    "fill_hex": null,
+    "edge_hex": "#ea8582",
+    "polygon": [
+     [
+      -0.305,
+      -1.145
+     ],
+     [
+      -0.725,
+      -0.689
+     ],
+     [
+      -0.831,
+      0.625
+     ],
+     [
+      -0.41,
+      1.151
+     ],
+     [
+      0.309,
+      1.151
+     ],
+     [
+      0.729,
+      0.695
+     ],
+     [
+      0.834,
+      -0.619
+     ],
+     [
+      0.414,
+      -1.145
+     ]
+    ],
+    "size_px": 9.51,
+    "vertices": 6,
+    "source": "raster",
+    "confidence": 0.43
+   },
+   "color_hex": "#e26058",
+   "line_style": "solid",
+   "axis_x_id": "x",
+   "axis_y_id": "y",
+   "quantity_type": "CO2 uptake",
+   "loading_basis": "unknown"
+  }
+ ],
+ "axes": [
+  {
+   "axis_id": "x",
+   "scale": "linear",
+   "unit": "kPa",
+   "quantity_type": "Pressure",
+   "calibration_status": "valid",
+   "a": 0.1730519533765096,
+   "b": -25.594861633305257,
+   "anchors": [
+    {
+     "pixel": 148.0,
+     "value": 0.0
+    },
+    {
+     "pixel": 264.0,
+     "value": 20.0
+    },
+    {
+     "pixel": 378.0,
+     "value": 40.0
+    },
+    {
+     "pixel": 495.0,
+     "value": 60.0
+    },
+    {
+     "pixel": 610.0,
+     "value": 80.0
+    },
+    {
+     "pixel": 726.0,
+     "value": 100.0
+    }
+   ],
+   "equation": "value=a*pixel+b"
+  },
+  {
+   "axis_id": "y",
+   "scale": "linear",
+   "unit": "mmol/g",
+   "quantity_type": "CO2 uptake",
+   "calibration_status": "valid",
+   "a": -0.010060239988340651,
+   "b": 4.502987709099154,
+   "anchors": [
+    {
+     "pixel": 50.0,
+     "value": 4.0
+    },
+    {
+     "pixel": 150.0,
+     "value": 3.0
+    },
+    {
+     "pixel": 248.0,
+     "value": 2.0
+    },
+    {
+     "pixel": 348.0,
+     "value": 1.0
+    },
+    {
+     "pixel": 448.0,
+     "value": 0.0
+    }
+   ],
+   "equation": "value=a*pixel+b"
+  }
+ ],
+ "instances": [
+  {
+   "source_instance_id": "src-2eaf2c0498cfda6e",
+   "point_id": "pt-488ca3e0dc034add",
+   "series_id": "fig10_11:x:co2-273k-78e92393",
+   "state": "resolved",
+   "source_pixel_x": 228.4,
+   "source_pixel_y": 223.25,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-262511b6a63ad578",
+   "point_id": "pt-06990eb607343d29",
+   "series_id": "fig10_11:x:co2-273k-78e92393",
+   "state": "resolved",
+   "source_pixel_x": 395.41,
+   "source_pixel_y": 112.78,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-3e54af46ee52ef0f",
+   "point_id": "pt-a0981e41c4c71dc9",
+   "series_id": "fig10_11:x:co2-273k-78e92393",
+   "state": "resolved",
+   "source_pixel_x": 400.43,
+   "source_pixel_y": 113.89,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-a5131ebd53b1c6ba",
+   "point_id": "pt-61f6d7fa9b29c002",
+   "series_id": "fig10_11:x:co2-273k-78e92393",
+   "state": "resolved",
+   "source_pixel_x": 427.5,
+   "source_pixel_y": 100.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-b2647fe77f10ae1f",
+   "point_id": "pt-82e18dce5c739229",
+   "series_id": "fig10_11:x:co2-273k-78e92393",
+   "state": "resolved",
+   "source_pixel_x": 431.5,
+   "source_pixel_y": 101.19,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-5abf0bfb2d1f2388",
+   "point_id": "pt-fd7027d0ce1eadc2",
+   "series_id": "fig10_11:x:co2-273k-78e92393",
+   "state": "resolved",
+   "source_pixel_x": 477.64,
+   "source_pixel_y": 85.49,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-de35b782da4f50d4",
+   "point_id": "pt-72e93c4c952c69a8",
+   "series_id": "fig10_11:x:co2-273k-78e92393",
+   "state": "resolved",
+   "source_pixel_x": 494.0,
+   "source_pixel_y": 82.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-47ff0fc88c2c38ec",
+   "point_id": "pt-d488871fdee67a72",
+   "series_id": "fig10_11:x:co2-273k-78e92393",
+   "state": "resolved",
+   "source_pixel_x": 497.26,
+   "source_pixel_y": 81.28,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-1b72bbc3bf113971",
+   "point_id": "pt-8449cf82df6a9688",
+   "series_id": "fig10_11:x:co2-273k-78e92393",
+   "state": "resolved",
+   "source_pixel_x": 556.68,
+   "source_pixel_y": 62.84,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-8d8e276b34c4983a",
+   "point_id": "pt-8cb7ab9ea2727b01",
+   "series_id": "fig10_11:x:co2-273k-78e92393",
+   "state": "resolved",
+   "source_pixel_x": 565.32,
+   "source_pixel_y": 58.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-3ef2970e94e87489",
+   "point_id": "pt-61fbbf0aa4e9f364",
+   "series_id": "fig10_11:x:co2-273k-78e92393",
+   "state": "resolved",
+   "source_pixel_x": 633.23,
+   "source_pixel_y": 44.64,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-5b77993318540162",
+   "point_id": "pt-6b85b0384dd741a4",
+   "series_id": "fig10_11:x:co2-273k-78e92393",
+   "state": "resolved",
+   "source_pixel_x": 755.39,
+   "source_pixel_y": 14.11,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-8c0898a4f16a1995",
+   "point_id": "pt-691c3f7c1583322f",
+   "series_id": "fig10_11:x:co2-273k-78e92393",
+   "state": "resolved",
+   "source_pixel_x": 756.96,
+   "source_pixel_y": 18.25,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-89da5b3d2576e977",
+   "point_id": "pt-d699aa16e4501fe7",
+   "series_id": "fig10_11:x:co2-298k-438baf4c",
+   "state": "resolved",
+   "source_pixel_x": 166.69,
+   "source_pixel_y": 355.42,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-c5ba32b401a6653c",
+   "point_id": "pt-210be573b16c5da4",
+   "series_id": "fig10_11:x:co2-298k-438baf4c",
+   "state": "resolved",
+   "source_pixel_x": 172.04,
+   "source_pixel_y": 351.53,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-d2d0ade5cb5575c4",
+   "point_id": "pt-e321f5cfdf74e62f",
+   "series_id": "fig10_11:x:co2-298k-438baf4c",
+   "state": "resolved",
+   "source_pixel_x": 188.89,
+   "source_pixel_y": 300.79,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-8c075a6ae33acbe1",
+   "point_id": "pt-f57d901264ce09c6",
+   "series_id": "fig10_11:x:co2-298k-438baf4c",
+   "state": "resolved",
+   "source_pixel_x": 233.73,
+   "source_pixel_y": 224.08,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-f1105f57d1ddbba4",
+   "point_id": "pt-c9492596664b3bff",
+   "series_id": "fig10_11:x:co2-298k-438baf4c",
+   "state": "resolved",
+   "source_pixel_x": 435.51,
+   "source_pixel_y": 352.49,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-77dab042332065dc",
+   "point_id": "pt-e41054a9df7de5c5",
+   "series_id": "fig10_11:x:co2-298k-438baf4c",
+   "state": "resolved",
+   "source_pixel_x": 487.13,
+   "source_pixel_y": 337.46,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-cc2a00a72aa88b8e",
+   "point_id": "pt-fb5f71e4519a5fa9",
+   "series_id": "fig10_11:x:co2-298k-438baf4c",
+   "state": "resolved",
+   "source_pixel_x": 856.0,
+   "source_pixel_y": 261.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  }
+ ],
+ "coverage": [
+  {
+   "bbox": [
+    90,
+    0,
+    899,
+    598
+   ],
+   "inspected": false
+  }
+ ],
+ "limitations": [
+  "python remains subject to downstream or human review."
+ ],
+ "rejected_masked_points": 0,
+ "unresolved_slots": {
+  "total": 0,
+  "by_series": {},
+  "slots": []
+ },
+ "unresolved_accounting_valid": true,
+ "row_count": 20,
+ "agent_report": {},
+ "edit_audit": {},
+ "dense_region_evidence": {
+  "native": "dense_roi_native.png",
+  "line_suppressed": "dense_roi_line_suppressed.png",
+  "series_likelihood": "dense_roi_series_likelihood.png",
+  "proposed_assignments": "dense_roi_proposed_assignments.png",
+  "ambiguity_native_tiles": [
+   "ambiguity_001_native.png",
+   "ambiguity_002_native.png",
+   "ambiguity_003_native.png",
+   "ambiguity_004_native.png",
+   "ambiguity_005_native.png",
+   "ambiguity_006_native.png",
+   "ambiguity_007_native.png",
+   "ambiguity_008_native.png",
+   "ambiguity_009_native.png",
+   "ambiguity_010_native.png",
+   "ambiguity_011_native.png",
+   "ambiguity_012_native.png",
+   "ambiguity_013_native.png",
+   "ambiguity_014_native.png",
+   "ambiguity_015_native.png",
+   "ambiguity_016_native.png",
+   "ambiguity_017_native.png",
+   "ambiguity_018_native.png",
+   "ambiguity_019_native.png",
+   "ambiguity_020_native.png",
+   "ambiguity_021_native.png",
+   "ambiguity_022_native.png",
+   "ambiguity_023_native.png",
+   "ambiguity_024_native.png",
+   "ambiguity_025_native.png",
+   "ambiguity_026_native.png",
+   "ambiguity_027_native.png",
+   "ambiguity_028_native.png",
+   "ambiguity_029_native.png",
+   "ambiguity_030_native.png",
+   "ambiguity_031_native.png",
+   "ambiguity_032_native.png",
+   "ambiguity_033_native.png",
+   "ambiguity_034_native.png",
+   "ambiguity_035_native.png",
+   "ambiguity_036_native.png",
+   "ambiguity_037_native.png",
+   "ambiguity_038_native.png",
+   "ambiguity_039_native.png",
+   "ambiguity_040_native.png",
+   "ambiguity_041_native.png",
+   "ambiguity_042_native.png",
+   "ambiguity_043_native.png",
+   "ambiguity_044_native.png",
+   "ambiguity_045_native.png",
+   "ambiguity_046_native.png",
+   "ambiguity_047_native.png",
+   "ambiguity_048_native.png",
+   "ambiguity_049_native.png",
+   "ambiguity_050_native.png",
+   "ambiguity_051_native.png",
+   "ambiguity_052_native.png",
+   "ambiguity_053_native.png",
+   "ambiguity_054_native.png",
+   "ambiguity_055_native.png",
+   "ambiguity_056_native.png",
+   "ambiguity_057_native.png",
+   "ambiguity_058_native.png",
+   "ambiguity_059_native.png",
+   "ambiguity_060_native.png",
+   "ambiguity_061_native.png",
+   "ambiguity_062_native.png",
+   "ambiguity_063_native.png",
+   "ambiguity_064_native.png",
+   "ambiguity_065_native.png",
+   "ambiguity_066_native.png",
+   "ambiguity_067_native.png",
+   "ambiguity_068_native.png",
+   "ambiguity_069_native.png",
+   "ambiguity_070_native.png",
+   "ambiguity_071_native.png",
+   "ambiguity_072_native.png",
+   "ambiguity_073_native.png",
+   "ambiguity_074_native.png",
+   "ambiguity_075_native.png",
+   "ambiguity_076_native.png",
+   "ambiguity_077_native.png",
+   "ambiguity_078_native.png",
+   "ambiguity_079_native.png",
+   "ambiguity_080_native.png"
+  ],
+  "ambiguity_assignment_scores": "ambiguity_assignment_scores.png",
+  "assignment_diagnostics": "assignment_diagnostics.json"
+ }
+}

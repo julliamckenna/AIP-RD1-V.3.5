@@ -1,0 +1,20 @@
+{
+ "pdf": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\data\\input\\single_01.png",
+ "title": "single_01",
+ "producer": "image",
+ "page_count": 1,
+ "pages": [],
+ "captions": [],
+ "figures": [
+  {
+   "page": 1,
+   "kind": "image",
+   "file": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\single_01\\discovery\\python_inventory\\figure.png",
+   "source_id": "image",
+   "figure_number": null,
+   "caption": null,
+   "caption_candidates": [],
+   "references": []
+  }
+ ]
+}

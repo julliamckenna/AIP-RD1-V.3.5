@@ -1,0 +1,413 @@
+{
+ "calibration": {
+  "px_per_unit_x": 4.45,
+  "px_per_unit_y": 71.70041841004173,
+  "unit_per_px_x": 0.2247191011235955,
+  "unit_per_px_y": 0.013946920006535815,
+  "axis_models": {
+   "x": {
+    "scale": "linear",
+    "slope": 0.2247191011235955,
+    "intercept": -27.19101123595508
+   },
+   "y": {
+    "scale": "linear",
+    "slope": -0.013946920006535815,
+    "intercept": 21.241170841016803
+   }
+  },
+  "tick_fit_resid_x": 2.842170943040401e-14,
+  "tick_fit_resid_y": 0.005578768002621359,
+  "tick_fit_resid_x_px": 1.2647660696529784e-13,
+  "tick_fit_resid_y_px": 0.4000000000005043,
+  "frame_px": [
+   76,
+   1164,
+   610,
+   1594
+  ],
+  "x_ticks_px": [
+   121,
+   210,
+   299,
+   388,
+   477,
+   566
+  ],
+  "y_ticks_px": [
+   1236,
+   1308,
+   1380,
+   1451,
+   1523
+  ],
+  "tick_anchors": {
+   "x": [],
+   "y": []
+  },
+  "color_tolerance_lab": 44.51361846923828,
+  "color_tolerance_per_series": [
+   45.0,
+   45.0,
+   44.51361846923828
+  ],
+  "base_color_passes": 3,
+  "complex_region_passes": 0,
+  "complex_region_count": 0,
+  "complex_regions_accepted": [],
+  "complex_regions_rejected": [],
+  "legend_reader": "blobs",
+  "sample_colors": [],
+  "legend_markers": [
+   {
+    "label": "CO2 273K",
+    "legend_box_px": [
+     211,
+     169,
+     470,
+     358
+    ],
+    "shape": "hexagon",
+    "fill": "filled",
+    "color_hex": "#6273fb",
+    "fill_hex": "#5f72ff",
+    "edge_hex": "#5f72ff",
+    "polygon": [
+     [
+      -0.315,
+      -1.06
+     ],
+     [
+      -0.93,
+      -0.444
+     ],
+     [
+      -0.93,
+      0.454
+     ],
+     [
+      -0.161,
+      1.069
+     ],
+     [
+      0.429,
+      1.069
+     ],
+     [
+      0.891,
+      0.761
+     ],
+     [
+      0.891,
+      -0.136
+     ],
+     [
+      0.583,
+      -0.367
+     ],
+     [
+      0.737,
+      -0.854
+     ],
+     [
+      0.583,
+      -1.06
+     ]
+    ],
+    "size_px": 6.5,
+    "vertices": 6,
+    "source": "raster",
+    "confidence": 0.46
+   },
+   {
+    "label": "CO2 298K",
+    "legend_box_px": [
+     316,
+     397,
+     387,
+     413
+    ],
+    "shape": "cross",
+    "fill": "filled",
+    "color_hex": "#080908",
+    "fill_hex": "#2a2a2a",
+    "edge_hex": "#262626",
+    "polygon": [
+     [
+      -0.994,
+      -0.951
+     ],
+     [
+      -0.763,
+      0.087
+     ],
+     [
+      0.391,
+      0.51
+     ],
+     [
+      -0.994,
+      0.433
+     ],
+     [
+      -0.994,
+      0.857
+     ],
+     [
+      0.814,
+      1.087
+     ],
+     [
+      0.814,
+      -0.182
+     ],
+     [
+      -0.34,
+      -0.605
+     ],
+     [
+      0.737,
+      -0.528
+     ],
+     [
+      0.583,
+      -1.182
+     ]
+    ],
+    "size_px": 4.33,
+    "vertices": 4,
+    "source": "raster",
+    "confidence": 0.34
+   },
+   {
+    "label": "N2 298K",
+    "legend_box_px": [
+     134,
+     427,
+     594,
+     454
+    ],
+    "shape": "plus",
+    "fill": "open",
+    "color_hex": "#f66f72",
+    "fill_hex": null,
+    "edge_hex": "#f88689",
+    "polygon": [
+     [
+      5.578,
+      -0.177
+     ],
+     [
+      -5.778,
+      0.118
+     ]
+    ],
+    "size_px": 40.23,
+    "vertices": 2,
+    "source": "raster",
+    "confidence": 0.12
+   }
+  ],
+  "twins_split_by_lines": 0,
+  "line_split_enabled": false,
+  "series_gate": [],
+  "color_ambiguity_groups": [],
+  "series_assignment_audit": {
+   "groups": [],
+   "candidates": []
+  },
+  "series_assignment_margin": 0.12,
+  "reclaimed_points": 0,
+  "dense_region_resolver": {
+   "roi_px": [
+    [
+     76.0,
+     1164.0,
+     156.1,
+     1594.0
+    ]
+   ],
+   "columns": 0,
+   "native_supported_additions": 0
+  },
+  "region_strategies": [],
+  "x_grid_columns": 0,
+  "x_grid_supported_columns": 0,
+  "exact_duplicates_dropped": {
+   "CO2 273K": 0,
+   "CO2 298K": 0
+  }
+ },
+ "series": [
+  {
+   "label": "CO2 273K",
+   "n_points": 0,
+   "marker_radius_px": 14.4,
+   "extract": true,
+   "gas": "CO2",
+   "color_lab": [
+    137.0,
+    162.0,
+    58.0
+   ],
+   "marker_glyph": {
+    "shape": "hexagon",
+    "fill": "filled",
+    "color_hex": "#6273fb",
+    "fill_hex": "#5f72ff",
+    "edge_hex": "#5f72ff",
+    "polygon": [
+     [
+      -0.315,
+      -1.06
+     ],
+     [
+      -0.93,
+      -0.444
+     ],
+     [
+      -0.93,
+      0.454
+     ],
+     [
+      -0.161,
+      1.069
+     ],
+     [
+      0.429,
+      1.069
+     ],
+     [
+      0.891,
+      0.761
+     ],
+     [
+      0.891,
+      -0.136
+     ],
+     [
+      0.583,
+      -0.367
+     ],
+     [
+      0.737,
+      -0.854
+     ],
+     [
+      0.583,
+      -1.06
+     ]
+    ],
+    "size_px": 6.5,
+    "vertices": 6,
+    "source": "raster",
+    "confidence": 0.46
+   },
+   "color_twins": [],
+   "x_min": null,
+   "x_max": null,
+   "y_min": null,
+   "y_max": null,
+   "points": [],
+   "series_id": "fig10_3:x:co2-273k-78e92393"
+  },
+  {
+   "label": "CO2 298K",
+   "n_points": 0,
+   "marker_radius_px": 3.5,
+   "extract": true,
+   "gas": "CO2",
+   "color_lab": [
+    5.5,
+    128.0,
+    128.0
+   ],
+   "marker_glyph": {
+    "shape": "cross",
+    "fill": "filled",
+    "color_hex": "#080908",
+    "fill_hex": "#2a2a2a",
+    "edge_hex": "#262626",
+    "polygon": [
+     [
+      -0.994,
+      -0.951
+     ],
+     [
+      -0.763,
+      0.087
+     ],
+     [
+      0.391,
+      0.51
+     ],
+     [
+      -0.994,
+      0.433
+     ],
+     [
+      -0.994,
+      0.857
+     ],
+     [
+      0.814,
+      1.087
+     ],
+     [
+      0.814,
+      -0.182
+     ],
+     [
+      -0.34,
+      -0.605
+     ],
+     [
+      0.737,
+      -0.528
+     ],
+     [
+      0.583,
+      -1.182
+     ]
+    ],
+    "size_px": 4.33,
+    "vertices": 4,
+    "source": "raster",
+    "confidence": 0.34
+   },
+   "color_twins": [],
+   "x_min": null,
+   "x_max": null,
+   "y_min": null,
+   "y_max": null,
+   "points": [],
+   "series_id": "fig10_3:x:co2-298k-438baf4c"
+  }
+ ],
+ "unresolved_slots": {
+  "total": 0,
+  "by_series": {},
+  "slots": []
+ },
+ "excluded_series_context": {
+  "total": 0,
+  "by_series": {},
+  "slots": []
+ },
+ "unresolved_total": 0,
+ "proposal_quality": {
+  "review_required": true,
+  "warnings": [
+   {
+    "check": "marker_count",
+    "series": "CO2 273K",
+    "detail": "detected 0 of about 12 expected markers"
+   },
+   {
+    "check": "marker_count",
+    "series": "CO2 298K",
+    "detail": "detected 0 of about 12 expected markers"
+   }
+  ]
+ }
+}

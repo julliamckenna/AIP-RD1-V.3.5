@@ -1,0 +1,70 @@
+[
+ {
+  "candidate_id": "image",
+  "figure": {
+   "page": 1,
+   "kind": "image",
+   "file": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\fig3a\\discovery\\python_inventory\\figure.png",
+   "source_id": "image",
+   "figure_number": null,
+   "caption": null,
+   "caption_candidates": [],
+   "references": []
+  },
+  "answer": {
+   "reasoning": "The extracted graphic contains one main physical axis frame plotting uptake against relative pressure. The blue series is explicitly labeled CO2@195 K, while the red series is labeled N2@77 K, so the main frame contains an eligible CO2 adsorption isotherm. A smaller embedded uptake-versus-relative-pressure chart is an inset and must be masked. Although “(a)” is visible as a panel label, no printed figure number or caption is available, so no figure number can be assigned.",
+   "figure_number": null,
+   "matched_caption": "",
+   "figure_is_relevant": true,
+   "si_has_tabulated_data": "unknown",
+   "panels": [
+    {
+     "panel": "x",
+     "is_co2_isotherm": true,
+     "reason": "The main axis directly plots uptake (cm³ g⁻¹) versus relative pressure (P/P0), including a series explicitly labeled CO2@195 K; the accompanying N2 series does not affect eligibility.",
+     "bbox_norm": [
+      0.02,
+      0.01,
+      0.98,
+      0.99
+     ],
+     "has_inset": true,
+     "inset_bbox_norm": [
+      0.36,
+      0.29,
+      0.76,
+      0.72
+     ]
+    }
+   ],
+   "context": {
+    "adsorbent": "Not identified in the available image or source context.",
+    "sample_form": "Not reported.",
+    "activation": "Not reported.",
+    "instrument": "Not reported.",
+    "measurement_notes": "CO2 uptake is plotted at 195 K against relative pressure P/P0, with uptake reported in cm³ g⁻¹. The same main frame also shows N2 at 77 K. The inset is an embedded uptake-versus-relative-pressure chart and is excluded from extraction.",
+    "other_parameters": "The inset marks relative-pressure points P/P0 = 0.017 and 0.030, but inset measurements are source context only. Adsorption/desorption branch assignments are not explicitly identified."
+   }
+  },
+  "provenance": {
+   "agent_name": "agent00-discovery",
+   "agent_version": "6",
+   "response_id": "resp_00a7fc7a16c4385b006ab6b20f8dcc8196b2f1e651b23a624b",
+   "usage": {
+    "input_tokens": 3221,
+    "input_tokens_details": {
+     "cache_write_tokens": 3218,
+     "cached_tokens": 0
+    },
+    "output_tokens": 615,
+    "output_tokens_details": {
+     "reasoning_tokens": 232
+    },
+    "total_tokens": 3836
+   },
+   "created_at": "2026-09-25T17:40:33.269962+00:00",
+   "dry_run": false
+  },
+  "input_fingerprint": "48c71be79ccf80308c9df8ee6965a6cbf2dea663829662058073628b3432cdf0"
+ }
+]

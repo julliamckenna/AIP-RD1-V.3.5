@@ -1,0 +1,419 @@
+{
+ "reasoning": "The axis calibration is correct: the source has linear relative-pressure ticks from 0 to 1 and uptake ticks from 0 to 140, and the extracted ranges replot against those ticks at the correct values. The blue CO2 curve is positioned correctly, but only 47 of roughly 80 blue open-circle markers were recovered, especially across the plateau. The coral N2 series is visibly present across the bottom axis but was not extracted at all because it was disabled. The dense low-pressure blue strip and the inset require additional targeted passes, while the inset and text annotations must remain excluded.",
+ "axis_check": {
+  "x": {
+   "printed_min": 0,
+   "printed_max": 1,
+   "data_min": -0.0003,
+   "data_max": 0.981,
+   "reason": "The source x axis is printed from 0 to 1 in relative pressure. The extracted values replot with the same linear placement against the endpoint ticks; the tiny negative minimum is an axis-line/centre tolerance issue, not a shifted calibration.",
+   "result": "pass"
+  },
+  "y": {
+   "printed_min": 0,
+   "printed_max": 140,
+   "data_min": 0.487,
+   "data_max": 125.8631,
+   "reason": "The source y axis is printed from 0 to 140 cm³ g⁻¹. The extracted blue plateau and low-pressure rise sit at the same uptake values relative to the printed ticks.",
+   "result": "pass"
+  }
+ },
+ "satisfied": false,
+ "issues": [
+  "CO2 195K coverage is substantially incomplete: 47 of about 80 markers were detected, with major shortfalls on the plateau and in the intermediate-pressure region.",
+  "The coral N2 77K open-circle series is visible in the source but was disabled and yielded no extracted series points.",
+  "The low-pressure blue marker strip contains fused and overlapping rings and needs more dense-marker passes.",
+  "The inset and annotation boxes must remain excluded from main-plot extraction."
+ ],
+ "structure_ok": true,
+ "chart_title": "",
+ "x_axis": {
+  "title": "Relative Pressure (P/P₀)",
+  "unit": "dimensionless",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 1,
+  "boundary_limits_confirmed": true,
+  "ticks": [
+   0,
+   0.2,
+   0.4,
+   0.6,
+   0.8,
+   1
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.2129,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.3514,
+    "value": 0.2
+   },
+   {
+    "pixel_norm": 0.49,
+    "value": 0.4
+   },
+   {
+    "pixel_norm": 0.6286,
+    "value": 0.6
+   },
+   {
+    "pixel_norm": 0.7671,
+    "value": 0.8
+   },
+   {
+    "pixel_norm": 0.9057,
+    "value": 1
+   }
+  ]
+ },
+ "y_axis": {
+  "title": "Uptake",
+  "unit": "cm³ g⁻¹",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 140,
+  "boundary_limits_confirmed": true,
+  "ticks": [
+   0,
+   20,
+   40,
+   60,
+   80,
+   100,
+   120,
+   140
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.1137,
+    "value": 140
+   },
+   {
+    "pixel_norm": 0.2076,
+    "value": 120
+   },
+   {
+    "pixel_norm": 0.3015,
+    "value": 100
+   },
+   {
+    "pixel_norm": 0.3954,
+    "value": 80
+   },
+   {
+    "pixel_norm": 0.488,
+    "value": 60
+   },
+   {
+    "pixel_norm": 0.5848,
+    "value": 40
+   },
+   {
+    "pixel_norm": 0.6787,
+    "value": 20
+   },
+   {
+    "pixel_norm": 0.7727,
+    "value": 0
+   }
+  ]
+ },
+ "legend_bbox_norm": [
+  0.65,
+  0.1895,
+  0.94,
+  0.7595
+ ],
+ "total_series": 2,
+ "series": [
+  {
+   "label": "CO2 195K",
+   "marker": "circle",
+   "marker_fill": "open",
+   "line_style": "solid",
+   "color_hex": "#5875F3",
+   "notes": "Blue open circles; upper high-uptake adsorption curve labeled CO₂@195 K in the plot."
+  },
+  {
+   "label": "N2 77K",
+   "marker": "circle",
+   "marker_fill": "open",
+   "line_style": "solid",
+   "color_hex": "#F36B67",
+   "notes": "Coral open circles; near-zero-uptake adsorption curve labeled N₂@77 K in the plot. This series must be extracted."
+  }
+ ],
+ "branches": "adsorption_only",
+ "complex_regions": [
+  {
+   "bbox_norm": [
+    0.205,
+    0.11,
+    0.29,
+    0.775
+   ],
+   "kind": "dense_markers",
+   "python_passes": 5
+  },
+  {
+   "bbox_norm": [
+    0.355,
+    0.286,
+    0.739,
+    0.644
+   ],
+   "kind": "inset",
+   "python_passes": 3
+  },
+  {
+   "bbox_norm": [
+    0.65,
+    0.1895,
+    0.94,
+    0.7595
+   ],
+   "kind": "annotation",
+   "python_passes": 3
+  }
+ ],
+ "extraction_settings": [
+  {
+   "label": "CO2 195K",
+   "color_tolerance": 26,
+   "separate_from": [
+    "N2 77K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.02,
+     "y_min": 0,
+     "y_max": 110
+    },
+    {
+     "x_from": 0.02,
+     "x_to": 0.06,
+     "y_min": 70,
+     "y_max": 123
+    },
+    {
+     "x_from": 0.06,
+     "x_to": 0.3,
+     "y_min": 115,
+     "y_max": 126
+    },
+    {
+     "x_from": 0.3,
+     "x_to": 0.85,
+     "y_min": 118,
+     "y_max": 127
+    },
+    {
+     "x_from": 0.85,
+     "x_to": 1,
+     "y_min": 120,
+     "y_max": 130
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "The blue curve is correct in value but many open rings are missed, particularly in the dense low-pressure strip and the long plateau. Use curve guidance and the clean plateau color while excluding the inset and annotations.",
+   "sample_marker_norm": [
+    0.797,
+    0.184
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 0.02,
+     "count": 20
+    },
+    {
+     "x_from": 0.02,
+     "x_to": 0.06,
+     "count": 20
+    },
+    {
+     "x_from": 0.06,
+     "x_to": 0.3,
+     "count": 20
+    },
+    {
+     "x_from": 0.3,
+     "x_to": 1,
+     "count": 20
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 0.003,
+     "y": 20
+    },
+    {
+     "x": 0.006,
+     "y": 42
+    },
+    {
+     "x": 0.01,
+     "y": 65
+    },
+    {
+     "x": 0.014,
+     "y": 88
+    },
+    {
+     "x": 0.02,
+     "y": 104
+    },
+    {
+     "x": 0.03,
+     "y": 116
+    },
+    {
+     "x": 0.05,
+     "y": 120
+    },
+    {
+     "x": 0.1,
+     "y": 122
+    },
+    {
+     "x": 0.2,
+     "y": 123
+    },
+    {
+     "x": 0.4,
+     "y": 123.5
+    },
+    {
+     "x": 0.7,
+     "y": 124.5
+    },
+    {
+     "x": 0.9,
+     "y": 125
+    },
+    {
+     "x": 1,
+     "y": 128
+    }
+   ]
+  },
+  {
+   "label": "N2 77K",
+   "color_tolerance": 28,
+   "separate_from": [
+    "CO2 195K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.8,
+     "y_min": 0,
+     "y_max": 2
+    },
+    {
+     "x_from": 0.8,
+     "x_to": 0.97,
+     "y_min": 0,
+     "y_max": 2
+    },
+    {
+     "x_from": 0.97,
+     "x_to": 1,
+     "y_min": 0,
+     "y_max": 4
+    }
+   ],
+   "template_fill": "off",
+   "reason": "The coral open-circle series runs along the zero-uptake axis and rises slightly only at the final points. It is clearly present but was disabled in the prior structure; extract it using the clean coral sample and narrow near-axis bands.",
+   "sample_marker_norm": [
+    0.837,
+    0.769
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 0.8,
+     "count": 20
+    },
+    {
+     "x_from": 0.8,
+     "x_to": 0.97,
+     "count": 7
+    },
+    {
+     "x_from": 0.97,
+     "x_to": 1,
+     "count": 2
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0.5
+    },
+    {
+     "x": 0.1,
+     "y": 0.8
+    },
+    {
+     "x": 0.3,
+     "y": 0.7
+    },
+    {
+     "x": 0.5,
+     "y": 0.7
+    },
+    {
+     "x": 0.7,
+     "y": 0.8
+    },
+    {
+     "x": 0.85,
+     "y": 0.9
+    },
+    {
+     "x": 0.95,
+     "y": 1.2
+    },
+    {
+     "x": 1,
+     "y": 3
+    }
+   ]
+  }
+ ],
+ "notes": "Both plotted series are open circles with solid connecting lines and adsorption-only behavior. The source annotations are not a conventional legend; use the declared plot labels and colors for identity. Do not extract the inset as main-panel data.",
+ "region_strategies": [
+  {
+   "bbox_norm": [
+    0.355,
+    0.286,
+    0.739,
+    0.644
+   ],
+   "series_labels": [],
+   "strategy": "ignore",
+   "reason": "Inset plot with its own axes and blue markers; exclude from the main-panel series."
+  },
+  {
+   "bbox_norm": [
+    0.65,
+    0.1895,
+    0.94,
+    0.7595
+   ],
+   "series_labels": [],
+   "strategy": "ignore",
+   "reason": "Plot annotations and label text around the upper-right and lower-right curves; exclude text from marker extraction."
+  }
+ ],
+ "shared_x_columns": []
+}

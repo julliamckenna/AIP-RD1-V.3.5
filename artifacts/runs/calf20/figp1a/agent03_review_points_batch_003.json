@@ -1,0 +1,82 @@
+{
+ "reasoning": "The native ambiguity crops show genuine overlaps among CO2 markers and excluded N2 traces, but they do not provide enough unambiguous pixel evidence to identify specific Python point IDs or safely place additional marker centres. I therefore made no mechanical edits. The proposal remains incomplete for CO2 313K and CO2 373K, and coverage is uncertain for several color-ambiguous series; the visible native evidence supports review rather than acceptance.",
+ "verdict": "review",
+ "series": [
+  {
+   "label": "CO2 273K",
+   "coverage": "uncertain",
+   "final_count": 37,
+   "comment": "Count is retained, but the black CO2 and excluded black N2 traces overlap in the native panel; no safe point-level correction identified."
+  },
+  {
+   "label": "CO2 283K",
+   "coverage": "uncertain",
+   "final_count": 36,
+   "comment": "Count is retained; red CO2 and excluded red N2 markers overlap in crowded regions and no safe point-level edit is supported."
+  },
+  {
+   "label": "CO2 293K",
+   "coverage": "uncertain",
+   "final_count": 33,
+   "comment": "Count is retained; blue color ambiguity with other series prevents confirming complete marker accounting from the supplied native crops."
+  },
+  {
+   "label": "CO2 303K",
+   "coverage": "uncertain",
+   "final_count": 29,
+   "comment": "The teal down-triangle trajectory is visible, including crowded overlaps, but the supplied crops do not safely identify missed centres or point IDs."
+  },
+  {
+   "label": "CO2 313K",
+   "coverage": "incomplete",
+   "final_count": 22,
+   "comment": "The proposal is visibly short, especially in the low-pressure fan and above 200 mbar; no unambiguous additional centres could be tied to point IDs or safely added from the supplied evidence."
+  },
+  {
+   "label": "CO2 323K",
+   "coverage": "uncertain",
+   "final_count": 37,
+   "comment": "Nominal count is retained, but right-triangle markers are heavily overlapped with adjacent trajectories and centre accuracy cannot be confirmed for all claims."
+  },
+  {
+   "label": "CO2 333K",
+   "coverage": "uncertain",
+   "final_count": 35,
+   "comment": "Dark-blue diamond markers overlap the CO2 373K and other blue traces; no safe reassignments or additions were identifiable."
+  },
+  {
+   "label": "CO2 343K",
+   "coverage": "complete",
+   "final_count": 34,
+   "comment": "The maroon pentagon trajectory is consistently visible and no source-backed correction was found."
+  },
+  {
+   "label": "CO2 353K",
+   "coverage": "complete",
+   "final_count": 31,
+   "comment": "The pink hexagon trajectory is visible without a safe native-pixel correction required."
+  },
+  {
+   "label": "CO2 363K",
+   "coverage": "complete",
+   "final_count": 30,
+   "comment": "The green star trajectory is visible; no point-level edit is supported by the supplied evidence."
+  },
+  {
+   "label": "CO2 373K",
+   "coverage": "incomplete",
+   "final_count": 23,
+   "comment": "The dark-blue circle trajectory is visibly short, particularly below 200 mbar and in the crowded mid/high-pressure region; no safe additions could be placed from the supplied native crops."
+  }
+ ],
+ "operations": [],
+ "uncertainties": [
+  "The supplied native ambiguity crops show overlapping CO2 and excluded N2 markers without point IDs or crop-to-panel coordinate metadata, so specific reassignments cannot be made safely.",
+  "CO2 313K has substantial visible undercoverage in the Python proposal.",
+  "CO2 373K has substantial visible undercoverage in the Python proposal.",
+  "CO2 323K and the blue/black/red ambiguity groups require a further registered native-pixel pass before claiming complete coverage.",
+  "No template-filled or template-fit point was edited because the supplied evidence did not identify a corresponding marker centre with sufficient certainty.",
+  "ambiguity_008_native.png through ambiguity_017_native.png contain overlap evidence but do not support safe mechanical edits to a named Python row."
+ ],
+ "coverage": []
+}

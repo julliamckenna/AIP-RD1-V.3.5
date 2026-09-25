@@ -1,0 +1,79 @@
+Traceback (most recent call last):
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\src\workflow\rerun.py", line 273, in _run_selected
+    await _run_stage(steps["04"], panel_run, panel)
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\src\workflow\rerun.py", line 225, in _run_stage
+    return await step.run_panel(panel_run, panel)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\src\workflow\steps\agent04_final_check.py", line 136, in run_panel
+    result = await self.agent.ask_artifacts(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\src\workflow\agents.py", line 246, in ask_artifacts
+    return await ask_artifacts(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\src\workflow\artifact_agent.py", line 264, in ask_artifacts
+    await _with_progress(invoke(), agent.config.name, agent.config.timeout_seconds)
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\src\workflow\artifact_agent.py", line 101, in _with_progress
+    return await task
+           ^^^^^^^^^^
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\src\workflow\artifact_agent.py", line 203, in invoke
+    base = await project.agents.get_version(agent_name=agent.agent_name, agent_version=agent.agent_version)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\.venv\Lib\site-packages\azure\core\tracing\decorator_async.py", line 119, in wrapper_use_tracer
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\.venv\Lib\site-packages\azure\ai\projects\aio\operations\_operations.py", line 982, in get_version
+    pipeline_response: PipelineResponse = await self._client._pipeline.run(  # pylint: disable=protected-access
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\.venv\Lib\site-packages\azure\core\pipeline\_base_async.py", line 229, in run
+    return await first_node.send(pipeline_request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\.venv\Lib\site-packages\azure\core\pipeline\_base_async.py", line 77, in send
+    response = await self.next.send(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\.venv\Lib\site-packages\azure\core\pipeline\_base_async.py", line 77, in send
+    response = await self.next.send(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\.venv\Lib\site-packages\azure\core\pipeline\_base_async.py", line 77, in send
+    response = await self.next.send(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\.venv\Lib\site-packages\azure\core\pipeline\policies\_redirect_async.py", line 76, in send
+    response = await self.next.send(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\.venv\Lib\site-packages\azure\core\pipeline\policies\_retry_async.py", line 178, in send
+    response = await self.next.send(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\.venv\Lib\site-packages\azure\core\pipeline\policies\_authentication_async.py", line 105, in send
+    await await_result(self.on_request, request)
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\.venv\Lib\site-packages\azure\core\pipeline\_tools_async.py", line 56, in await_result
+    return await result
+           ^^^^^^^^^^^^
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\.venv\Lib\site-packages\azure\core\pipeline\policies\_authentication_async.py", line 76, in on_request
+    await self._request_token(*self._scopes)
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\.venv\Lib\site-packages\azure\core\pipeline\policies\_authentication_async.py", line 225, in _request_token
+    self._token = await self._get_token(*scopes, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\.venv\Lib\site-packages\azure\core\pipeline\policies\_authentication_async.py", line 207, in _get_token
+    return await await_result(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\.venv\Lib\site-packages\azure\core\pipeline\_tools_async.py", line 56, in await_result
+    return await result
+           ^^^^^^^^^^^^
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\.venv\Lib\site-packages\azure\identity\aio\_credentials\default.py", line 326, in get_token_info
+    token_info = await cast(AsyncSupportsTokenInfo, super()).get_token_info(*scopes, options=options)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmckenna\dev-ai\AIP-RD1-V.3.5\.venv\Lib\site-packages\azure\identity\aio\_credentials\chained.py", line 192, in get_token_info
+    raise ClientAuthenticationError(message=message)
+azure.core.exceptions.ClientAuthenticationError: DefaultAzureCredential failed to retrieve a token from the included credentials.
+Attempted credentials:
+	EnvironmentCredential: EnvironmentCredential authentication unavailable. Environment variables are not fully configured.
+Visit https://aka.ms/azsdk/python/identity/environmentcredential/troubleshoot to troubleshoot this issue.
+	WorkloadIdentityCredential: WorkloadIdentityCredential authentication unavailable. The workload options are not fully configured. See the troubleshooting guide for more information: https://aka.ms/azsdk/python/identity/workloadidentitycredential/troubleshoot. Missing required arguments: 'tenant_id', 'client_id', 'token_file_path'.
+	ManagedIdentityCredential: ManagedIdentityCredential authentication unavailable, no response from the IMDS endpoint.
+	SharedTokenCacheCredential: SharedTokenCacheCredential authentication unavailable. No accounts were found in the cache.
+	VisualStudioCodeCredential: VisualStudioCodeCredential requires the 'azure-identity-broker' package to be installed. You must also ensure you have the Azure Resources extension installed and have signed in to Azure via Visual Studio Code.
+	AzureCliCredential: Azure CLI not found on path
+	AzurePowerShellCredential: Failed to execute "cmd".
+To mitigate this issue, please refer to the troubleshooting guidelines here at https://aka.ms/azsdk/python/identity/powershellcredential/troubleshoot.
+	AzureDeveloperCliCredential: Failed to execute 'C:\Users\jmckenna\AppData\Local\Programs\Azure Dev CLI\azd.EXE'
+To mitigate this issue, please refer to the troubleshooting guidelines here at https://aka.ms/azsdk/python/identity/defaultazurecredential/troubleshoot.

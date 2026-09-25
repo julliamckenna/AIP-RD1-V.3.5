@@ -1,0 +1,343 @@
+{
+  "reasoning": "Independent inspection of panel.png confirms a linear main-panel calibration from frame/tick anchors: x=0 at about pixel 150 and x=1 at about 634, and y=0 at about 468 with 20-unit spacing of about 57 pixels. The eligible series is the blue open-circle CO2 195K curve; the coral open-circle N2 77K curve is excluded. I inspected the full candidate CSV (46 rows), all review items and their native tiles, and the entire main panel, including the crowded low-pressure strip and plateau. Ten omitted plateau/intermediate CO2 rings are natively visible and were added. The candidate's final rightmost point was moved to the visible center of the rightmost ring. The inset rings, black text/arrow ink, and coral N2 markers were not treated as CO2 points. The crowded strip remains intrinsically overlapped at native resolution, so the result is source-backed but retained for review rather than silently promoted to unconditional acceptance.",
+  "verdict": "review",
+  "series": [
+    {
+      "label": "CO2 195K",
+      "coverage": "complete",
+      "final_count": 56,
+      "comment": "Post-edit count is 46 candidate rows plus 10 source-supported additions; one rightmost plateau row was repositioned. Main-panel blue open-circle coverage is complete to the visible native markers, with positive pixel uncertainty retained for crowded/anti-aliased centers."
+    },
+    {
+      "label": "N2 77K",
+      "coverage": "complete",
+      "final_count": 0,
+      "comment": "Excluded non-CO2 series; coral near-zero markers were inspected only to prevent misassignment and are not included."
+    }
+  ],
+  "operations": [
+    {
+      "operation_id": "add_01",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 195K",
+      "x_norm": 0.2757142857142857,
+      "y_norm": 0.2026359143327842,
+      "overlap": false,
+      "reason": "Native panel shows a distinct blue open-circle marker open ring centered at approximately (193,123), between native rings at (184,128) and (207,123); it is omitted from the candidate rows and is not an inset, annotation, grid mark, or N2 ink.",
+      "source_evidence": "Blue open-circle contour and white interior visible at native panel pixels (193,123); neighboring marker spacing and contour are separately visible.",
+      "evidence_kind": "native_visible",
+      "uncertainty_px": 2.5,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_02",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 195K",
+      "x_norm": 0.3842857142857143,
+      "y_norm": 0.19604612850082373,
+      "overlap": false,
+      "reason": "Native panel shows a distinct blue open-circle marker open ring centered at approximately (269,119), between native rings at (256,121) and (280,120); it is omitted from the candidate rows and is not an inset, annotation, grid mark, or N2 ink.",
+      "source_evidence": "Blue open-circle contour and white interior visible at native panel pixels (269,119); neighboring marker spacing and contour are separately visible.",
+      "evidence_kind": "native_visible",
+      "uncertainty_px": 2.5,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_03",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 195K",
+      "x_norm": 0.4857142857142857,
+      "y_norm": 0.1927512355848435,
+      "overlap": false,
+      "reason": "Native panel shows a distinct blue open-circle marker open ring centered at approximately (340,117), between native rings at (316,117) and (365,116); it is omitted from the candidate rows and is not an inset, annotation, grid mark, or N2 ink.",
+      "source_evidence": "Blue open-circle contour and white interior visible at native panel pixels (340,117); neighboring marker spacing and contour are separately visible.",
+      "evidence_kind": "native_visible",
+      "uncertainty_px": 2.5,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_04",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 195K",
+      "x_norm": 0.6585714285714286,
+      "y_norm": 0.18780889621087316,
+      "overlap": false,
+      "reason": "Native panel shows a distinct blue open-circle marker open ring centered at approximately (461,114), between native rings at (436,115) and (486,114); it is omitted from the candidate rows and is not an inset, annotation, grid mark, or N2 ink.",
+      "source_evidence": "Blue open-circle contour and white interior visible at native panel pixels (461,114); neighboring marker spacing and contour are separately visible.",
+      "evidence_kind": "native_visible",
+      "uncertainty_px": 2.5,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_05",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 195K",
+      "x_norm": 0.6942857142857143,
+      "y_norm": 0.18780889621087316,
+      "overlap": false,
+      "reason": "Native panel shows a distinct blue open-circle marker open ring centered at approximately (486,114), between native rings at (461,114) and (510,113); it is omitted from the candidate rows and is not an inset, annotation, grid mark, or N2 ink.",
+      "source_evidence": "Blue open-circle contour and white interior visible at native panel pixels (486,114); neighboring marker spacing and contour are separately visible.",
+      "evidence_kind": "native_visible",
+      "uncertainty_px": 2.5,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_06",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 195K",
+      "x_norm": 0.7285714285714285,
+      "y_norm": 0.18616144975288304,
+      "overlap": false,
+      "reason": "Native panel shows a distinct blue open-circle marker open ring centered at approximately (510,113), between native rings at (486,114) and (534,113); it is omitted from the candidate rows and is not an inset, annotation, grid mark, or N2 ink.",
+      "source_evidence": "Blue open-circle contour and white interior visible at native panel pixels (510,113); neighboring marker spacing and contour are separately visible.",
+      "evidence_kind": "native_visible",
+      "uncertainty_px": 2.5,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_07",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 195K",
+      "x_norm": 0.7628571428571429,
+      "y_norm": 0.18616144975288304,
+      "overlap": false,
+      "reason": "Native panel shows a distinct blue open-circle marker open ring centered at approximately (534,113), between native rings at (510,113) and (558,113); it is omitted from the candidate rows and is not an inset, annotation, grid mark, or N2 ink.",
+      "source_evidence": "Blue open-circle contour and white interior visible at native panel pixels (534,113); neighboring marker spacing and contour are separately visible.",
+      "evidence_kind": "native_visible",
+      "uncertainty_px": 2.5,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_08",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 195K",
+      "x_norm": 0.7971428571428572,
+      "y_norm": 0.18616144975288304,
+      "overlap": false,
+      "reason": "Native panel shows a distinct blue open-circle marker open ring centered at approximately (558,113), between native rings at (534,113) and (582,112); it is omitted from the candidate rows and is not an inset, annotation, grid mark, or N2 ink.",
+      "source_evidence": "Blue open-circle contour and white interior visible at native panel pixels (558,113); neighboring marker spacing and contour are separately visible.",
+      "evidence_kind": "native_visible",
+      "uncertainty_px": 2.5,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_09",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 195K",
+      "x_norm": 0.8471428571428572,
+      "y_norm": 0.1828665568369028,
+      "overlap": false,
+      "reason": "Native panel shows a distinct blue open-circle marker open ring centered at approximately (593,111), between native rings at (582,112) and (605,111); it is omitted from the candidate rows and is not an inset, annotation, grid mark, or N2 ink.",
+      "source_evidence": "Blue open-circle contour and white interior visible at native panel pixels (593,111); neighboring marker spacing and contour are separately visible.",
+      "evidence_kind": "native_visible",
+      "uncertainty_px": 2.5,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_10",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 195K",
+      "x_norm": 0.8814285714285715,
+      "y_norm": 0.1812191103789127,
+      "overlap": false,
+      "reason": "Native panel shows a distinct blue open-circle marker open ring centered at approximately (617,110), between native rings at (605,111) and (631,107); it is omitted from the candidate rows and is not an inset, annotation, grid mark, or N2 ink.",
+      "source_evidence": "Blue open-circle contour and white interior visible at native panel pixels (617,110); neighboring marker spacing and contour are separately visible.",
+      "evidence_kind": "native_visible",
+      "uncertainty_px": 2.5,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "move_01",
+      "action": "move",
+      "point_id": "pt-9bec7aed15e76df8",
+      "series_label": "CO2 195K",
+      "x_norm": 0.9014285714285715,
+      "y_norm": 0.17627677100494235,
+      "overlap": false,
+      "reason": "The native final plateau ring is centered near (631,107), not the candidate position (624.58,108.71); the blue open-circle contour is visibly centered at the rightmost marker.",
+      "source_evidence": "Rightmost blue open-circle contour in the main panel has its white center near native pixels (631,107); nearby black annotation is separate ink.",
+      "evidence_kind": "native_visible",
+      "uncertainty_px": 2.0,
+      "evidence_ref": "panel.png"
+    }
+  ],
+  "uncertainties": [
+    "Blue markers in the dense low-pressure strip overlap heavily; their existence is supported by visible arcs/white interiors, but individual centers have approximately 2.5 native-panel-pixel uncertainty.",
+    "Several plateau rings are close to connected blue line segments; additions were made only where a distinct open-circle contour and interior are visible in panel.png.",
+    "Axis tick-fit residuals are sub-pixel to about 0.6 pixel in the supplied calibration, so no material axis disagreement was found; this report does not replace downstream calibration."
+  ],
+  "coverage": [
+    {
+      "item_id": "crowded_strip:01",
+      "item_type": "evidence",
+      "status": "reviewed",
+      "detail": "Inspected the unchanged native panel evidence. This derived diagnostic was treated as fallible and not used as marker proof."
+    },
+    {
+      "item_id": "tile:marker_01",
+      "item_type": "tile",
+      "status": "reviewed",
+      "detail": "Inspected the unchanged native panel evidence. The native tile was inspected before candidate/diagnostic views; visible CO2 markers and excluded inset/annotation ink were distinguished."
+    },
+    {
+      "item_id": "box:marker_01:1",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected the unchanged native panel evidence. The native marker fragment/contour was compared with the candidate; nearby overlap was resolved against the distinct blue open-circle geometry."
+    },
+    {
+      "item_id": "box:marker_01:2",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected the unchanged native panel evidence. The native marker fragment/contour was compared with the candidate; nearby overlap was resolved against the distinct blue open-circle geometry."
+    },
+    {
+      "item_id": "box:marker_01:3",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected the unchanged native panel evidence. The native marker fragment/contour was compared with the candidate; nearby overlap was resolved against the distinct blue open-circle geometry."
+    },
+    {
+      "item_id": "box:marker_01:4",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected the unchanged native panel evidence. The native marker fragment/contour was compared with the candidate; nearby overlap was resolved against the distinct blue open-circle geometry."
+    },
+    {
+      "item_id": "box:marker_01:5",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected the unchanged native panel evidence. The native marker fragment/contour was compared with the candidate; nearby overlap was resolved against the distinct blue open-circle geometry."
+    },
+    {
+      "item_id": "box:marker_01:6",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected the unchanged native panel evidence. The native marker fragment/contour was compared with the candidate; nearby overlap was resolved against the distinct blue open-circle geometry."
+    },
+    {
+      "item_id": "box:marker_01:7",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected the unchanged native panel evidence. The native marker fragment/contour was compared with the candidate; nearby overlap was resolved against the distinct blue open-circle geometry."
+    },
+    {
+      "item_id": "box:marker_01:8",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected the unchanged native panel evidence. The native marker fragment/contour was compared with the candidate; nearby overlap was resolved against the distinct blue open-circle geometry."
+    },
+    {
+      "item_id": "tile:marker_02",
+      "item_type": "tile",
+      "status": "reviewed",
+      "detail": "Inspected the unchanged native panel evidence. The native tile was inspected before candidate/diagnostic views; visible CO2 markers and excluded inset/annotation ink were distinguished."
+    },
+    {
+      "item_id": "box:marker_02:9",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected the unchanged native panel evidence. The native marker fragment/contour was compared with the candidate; nearby overlap was resolved against the distinct blue open-circle geometry."
+    },
+    {
+      "item_id": "box:marker_02:10",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected the unchanged native panel evidence. The native marker fragment/contour was compared with the candidate; nearby overlap was resolved against the distinct blue open-circle geometry."
+    },
+    {
+      "item_id": "box:marker_02:11",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected the unchanged native panel evidence. The native marker fragment/contour was compared with the candidate; nearby overlap was resolved against the distinct blue open-circle geometry."
+    },
+    {
+      "item_id": "box:marker_02:12",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected the unchanged native panel evidence. The native marker fragment/contour was compared with the candidate; nearby overlap was resolved against the distinct blue open-circle geometry."
+    },
+    {
+      "item_id": "box:marker_02:13",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected the unchanged native panel evidence. The native marker fragment/contour was compared with the candidate; nearby overlap was resolved against the distinct blue open-circle geometry."
+    },
+    {
+      "item_id": "box:marker_02:14",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected the unchanged native panel evidence. The native marker fragment/contour was compared with the candidate; nearby overlap was resolved against the distinct blue open-circle geometry."
+    },
+    {
+      "item_id": "box:marker_02:15",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected the unchanged native panel evidence. The native marker fragment/contour was compared with the candidate; nearby overlap was resolved against the distinct blue open-circle geometry."
+    },
+    {
+      "item_id": "box:marker_02:16",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected the unchanged native panel evidence. The native marker fragment/contour was compared with the candidate; nearby overlap was resolved against the distinct blue open-circle geometry."
+    },
+    {
+      "item_id": "tile:region_01",
+      "item_type": "tile",
+      "status": "reviewed",
+      "detail": "Inspected the unchanged native panel evidence. The native tile was inspected before candidate/diagnostic views; visible CO2 markers and excluded inset/annotation ink were distinguished."
+    },
+    {
+      "item_id": "tile:region_03",
+      "item_type": "tile",
+      "status": "reviewed",
+      "detail": "Inspected the unchanged native panel evidence. The native tile was inspected before candidate/diagnostic views; visible CO2 markers and excluded inset/annotation ink were distinguished."
+    },
+    {
+      "item_id": "tile:region_04",
+      "item_type": "tile",
+      "status": "reviewed",
+      "detail": "Inspected the unchanged native panel evidence. The native tile was inspected before candidate/diagnostic views; visible CO2 markers and excluded inset/annotation ink were distinguished."
+    },
+    {
+      "item_id": "tile:region_05",
+      "item_type": "tile",
+      "status": "reviewed",
+      "detail": "Inspected the unchanged native panel evidence. The native tile was inspected before candidate/diagnostic views; visible CO2 markers and excluded inset/annotation ink were distinguished."
+    },
+    {
+      "item_id": "evidence:dense_roi_line_suppressed.png",
+      "item_type": "evidence",
+      "status": "reviewed",
+      "detail": "Inspected the unchanged native panel evidence. This derived diagnostic was treated as fallible and not used as marker proof."
+    },
+    {
+      "item_id": "evidence:dense_roi_series_likelihood.png",
+      "item_type": "evidence",
+      "status": "reviewed",
+      "detail": "Inspected the unchanged native panel evidence. This derived diagnostic was treated as fallible and not used as marker proof."
+    },
+    {
+      "item_id": "evidence:dense_roi_proposed_assignments.png",
+      "item_type": "evidence",
+      "status": "reviewed",
+      "detail": "Inspected the unchanged native panel evidence. This derived diagnostic was treated as fallible and not used as marker proof."
+    },
+    {
+      "item_id": "slot:0001",
+      "item_type": "slot",
+      "status": "reviewed",
+      "detail": "Inspected the unchanged native panel evidence. The native slot contains no additional supported CO2 marker beyond the crowded-strip review."
+    }
+  ]
+}

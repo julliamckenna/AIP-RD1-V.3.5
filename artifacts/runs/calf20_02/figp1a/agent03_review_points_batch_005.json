@@ -1,0 +1,186 @@
+{
+ "reasoning": "I inspected all 15 attached native ambiguity crops. The template-filled CO2 283K claim at panel pixel approximately (253,566) has no source-visible red hexagon; the native crop instead shows overlapping markers from other series, so that unsupported point is deleted. The high-pressure red/blue and low-pressure red/teal overlaps were retained where the native pixels support existing markers or do not safely resolve ownership. The black CO2 273K versus N2 313K crops contain fused black glyphs and lines that do not permit a safe series-specific addition. No omitted CO2 marker can be added from these crops without relying on expected counts or interpolation. The source legend also confirms CO2 363K uses a star, but legend metadata is outside the point-edit operation schema and no point operation is warranted here.",
+ "verdict": "review",
+ "series": [
+  {
+   "label": "CO2 273K",
+   "coverage": "uncertain",
+   "final_count": 39,
+   "comment": "Existing points retained; black square versus excluded black N2 triangle overlaps remain unresolved in the inspected low-loading crops."
+  },
+  {
+   "label": "CO2 283K",
+   "coverage": "uncertain",
+   "final_count": 34,
+   "comment": "Deleted the unsupported template-filled point near (253,566); other inspected red overlaps were retained, but the batch does not establish complete-panel coverage."
+  },
+  {
+   "label": "CO2 293K",
+   "coverage": "uncertain",
+   "final_count": 44,
+   "comment": "Inspected overlapping blue/teal/magenta regions; no source-supported correction was established."
+  },
+  {
+   "label": "CO2 303K",
+   "coverage": "uncertain",
+   "final_count": 45,
+   "comment": "Inspected overlapping native regions; no safe correction was established."
+  },
+  {
+   "label": "CO2 313K",
+   "coverage": "incomplete",
+   "final_count": 15,
+   "comment": "The supplied native evidence does not recover the reported low-pressure shortfall; no additions are made without identifiable glyph support."
+  },
+  {
+   "label": "CO2 323K",
+   "coverage": "incomplete",
+   "final_count": 21,
+   "comment": "The supplied native evidence does not recover the reported low-pressure shortfall; no additions are made without identifiable glyph support."
+  },
+  {
+   "label": "CO2 333K",
+   "coverage": "uncertain",
+   "final_count": 37,
+   "comment": "Inspected crowded overlap evidence; no safe point correction was established."
+  },
+  {
+   "label": "CO2 343K",
+   "coverage": "uncertain",
+   "final_count": 35,
+   "comment": "No source-supported edit was established in this batch."
+  },
+  {
+   "label": "CO2 353K",
+   "coverage": "uncertain",
+   "final_count": 35,
+   "comment": "No source-supported edit was established in this batch."
+  },
+  {
+   "label": "CO2 363K",
+   "coverage": "uncertain",
+   "final_count": 34,
+   "comment": "No point edit was established; the native legend identifies the series marker as a star."
+  },
+  {
+   "label": "CO2 373K",
+   "coverage": "uncertain",
+   "final_count": 32,
+   "comment": "No source-supported edit was established in this batch."
+  }
+ ],
+ "operations": [
+  {
+   "operation_id": "op-delete-283-template-023",
+   "action": "delete",
+   "point_id": "pt-12232a36d4dfcd68",
+   "series_label": "CO2 283K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The Python row is explicitly a template_fill claim. In the native crop around panel pixel (253,566), no red filled hexagon or identifiable red hexagon fragment is present; the visible crowded glyphs belong to other colored series. Delete rather than preserve an unsupported marker.",
+   "source_evidence": "Native crop source bbox [221,534]-[286,599] contains overlapping blue, teal, magenta, olive and dark-blue glyphs around (253,566), but no source-visible red CO2 283K hexagon.",
+   "evidence_kind": "native_absence",
+   "uncertainty_px": null,
+   "evidence_ref": "ambiguity:ambiguity_023_native.png"
+  }
+ ],
+ "uncertainties": [
+  "The black glyphs in ambiguity_015 through ambiguity_022 are fused with the excluded N2 313K series, so ownership of individual CO2 273K squares cannot be established safely.",
+  "The supplied batch does not include native tiles covering the reported CO2 313K and CO2 323K low-pressure omissions; those expected-count warnings are not sufficient evidence for additions.",
+  "The overlapping red/blue/teal/magenta regions in ambiguity_024 through ambiguity_027 do not support additional unambiguous CO2 markers beyond the retained proposal rows.",
+  "The low-loading red features in ambiguity_028 and ambiguity_029 are attributable to the excluded N2 333K triangle-left series rather than identifiable CO2 283K hexagons."
+ ],
+ "coverage": [
+  {
+   "item_id": "ambiguity:ambiguity_015_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "Inspected native crop; black square and black triangle-down glyphs are fused, so CO2 273K ownership cannot be safely decided."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_016_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "Inspected native crop; black CO2/N2 overlap does not support a safe added or reassigned CO2 point."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_017_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "Inspected native crop; fused black markers remain ambiguous between CO2 273K and excluded N2 313K."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_018_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "Inspected native crop; no separable black square supports a safe edit."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_019_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "Inspected native crop; black overlap remains ownership-ambiguous."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_020_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "Inspected native crop; no safely attributable CO2 273K square addition or correction."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_021_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "Inspected native crop; fused black glyphs cannot be assigned safely to CO2 rather than excluded N2."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_022_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "Inspected native crop; black square/triangle overlap remains unresolved."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_023_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop and rejected the template-filled CO2 283K point at approximately panel pixel (253,566); no red hexagon support is visible."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_024_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; retained the existing supported overlap and made no additional edit because ownership of any obscured fragment is not resolvable."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_025_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; retained the existing candidate markers and made no unsupported addition or move."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_026_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; overlapping colored glyphs do not establish a further safe CO2 correction."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_027_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; retained supported existing assignments, with no safely attributable omitted CO2 marker."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_028_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; visible low-loading red feature is consistent with excluded N2 333K triangle-left markers, not a supported CO2 283K hexagon."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_029_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; no identifiable CO2 283K hexagon supports an edit; visible red low-loading overlap is excluded N2 evidence."
+  }
+ ]
+}

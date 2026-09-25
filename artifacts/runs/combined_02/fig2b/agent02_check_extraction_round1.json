@@ -1,0 +1,182 @@
+{
+ "reasoning": "The Python result is empty because the supplied structure used a nonconforming axis representation and lacked calibrated normalized tick anchors. The source has a linear 0-120 kPa pressure axis and a linear 0-3.0 mmol/g loading axis. The six legend entries are filled solid-line series in the stated temperature order; the 373K legend glyph is a plus rather than a star. The low-pressure region contains thick connecting curves and crowded markers, so it should receive an additional extraction pass after calibration.",
+ "axis_check": {
+  "x": {
+   "printed_min": 0,
+   "printed_max": 120,
+   "data_min": 0,
+   "data_max": 114,
+   "reason": "The source prints 0, 40, 80, and 120 kPa. The extracted/setpoint pressure range reaches from the origin to about 114 kPa and is consistent with the plotted marker columns within the 0-120 kPa frame.",
+   "result": "pass"
+  },
+  "y": {
+   "printed_min": 0,
+   "printed_max": 3,
+   "data_min": 0,
+   "data_max": 2.93,
+   "reason": "The source prints 0.0 through 3.0 mmol/g in 0.5 increments. The highest plotted loading is just below 3.0, and the curves begin at the origin.",
+   "result": "pass"
+  }
+ },
+ "satisfied": false,
+ "issues": [
+  "Python could not calibrate because the previous structure did not provide the required normalized axis tick anchors.",
+  "The crowded low-pressure portion has thick connecting lines and overlapping marker ink that needs an additional extraction pass.",
+  "The 373K legend marker is a plus, not a star."
+ ],
+ "structure_ok": true,
+ "chart_title": "",
+ "x_axis": {
+  "title": "Pressure",
+  "unit": "kPa",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 120,
+  "boundary_limits_confirmed": false,
+  "ticks": [
+   0,
+   40,
+   80,
+   120
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.2285,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.4597,
+    "value": 40
+   },
+   {
+    "pixel_norm": 0.6949,
+    "value": 80
+   },
+   {
+    "pixel_norm": 0.9288,
+    "value": 120
+   }
+  ]
+ },
+ "y_axis": {
+  "title": "CO2 Loading",
+  "unit": "mmol/g",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 3,
+  "boundary_limits_confirmed": false,
+  "ticks": [
+   0,
+   0.5,
+   1,
+   1.5,
+   2,
+   2.5,
+   3
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.8,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.6822,
+    "value": 0.5
+   },
+   {
+    "pixel_norm": 0.5643,
+    "value": 1
+   },
+   {
+    "pixel_norm": 0.4481,
+    "value": 1.5
+   },
+   {
+    "pixel_norm": 0.3318,
+    "value": 2
+   },
+   {
+    "pixel_norm": 0.2155,
+    "value": 2.5
+   },
+   {
+    "pixel_norm": 0.0992,
+    "value": 3
+   }
+  ]
+ },
+ "legend_bbox_norm": [
+  0.5685,
+  0.5814,
+  0.9126,
+  0.7829
+ ],
+ "total_series": 6,
+ "series": [
+  {
+   "label": "CO2 303K",
+   "marker": "circle",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#e52623",
+   "notes": "Red filled circles."
+  },
+  {
+   "label": "CO2 313K",
+   "marker": "square",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#f5a623",
+   "notes": "Orange filled squares."
+  },
+  {
+   "label": "CO2 323K",
+   "marker": "triangle_up",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#249b55",
+   "notes": "Green filled upward triangles."
+  },
+  {
+   "label": "CO2 333K",
+   "marker": "pentagon",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#3155a4",
+   "notes": "Blue filled pentagons."
+  },
+  {
+   "label": "CO2 353K",
+   "marker": "diamond",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#cf2b91",
+   "notes": "Magenta filled diamonds."
+  },
+  {
+   "label": "CO2 373K",
+   "marker": "plus",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#111111",
+   "notes": "Black plus markers; the legend glyph is a plus, not a star."
+  }
+ ],
+ "branches": "adsorption_only",
+ "complex_regions": [
+  {
+   "bbox_norm": [
+    0.222,
+    0.095,
+    0.423,
+    0.802
+   ],
+   "kind": "thick_connecting_lines",
+   "python_passes": 2
+  }
+ ],
+ "extraction_settings": [],
+ "notes": "The plot frame spans approximately x=170-691 px and y=63-516 px in the 744x645 image. Use the measured tick anchors rather than equally spaced inferred positions. There are approximately 19 marker columns, including the crowded origin/low-pressure columns.",
+ "region_strategies": [],
+ "shared_x_columns": []
+}

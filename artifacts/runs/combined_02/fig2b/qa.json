@@ -1,0 +1,79 @@
+{
+ "series": {
+  "CO2 303K": {
+   "flags": [],
+   "toth": {
+    "qm": 13.50097686033054,
+    "K": 999.9999562048721,
+    "t": 0.12982457822741533,
+    "rmse": 0.013627727779984649
+   },
+   "low_confidence_points": 0
+  },
+  "CO2 313K": {
+   "flags": [],
+   "toth": {
+    "qm": 3.1867700764811677,
+    "K": 0.25371288171372275,
+    "t": 0.6061802501335541,
+    "rmse": 0.030639357026654636
+   },
+   "low_confidence_points": 0
+  },
+  "CO2 323K": {
+   "flags": [],
+   "toth": {
+    "qm": 2.6030588524800584,
+    "K": 0.07097959829091134,
+    "t": 1.05564901309007,
+    "rmse": 0.025486372808813447
+   },
+   "low_confidence_points": 1
+  },
+  "CO2 333K": {
+   "flags": [],
+   "toth": {
+    "qm": 2.913375618070185,
+    "K": 0.07705941627422748,
+    "t": 0.7459405739998322,
+    "rmse": 0.02580274621187424
+   },
+   "low_confidence_points": 1
+  },
+  "CO2 353K": {
+   "flags": [],
+   "toth": {
+    "qm": 3.438898139673243,
+    "K": 0.04711659467563483,
+    "t": 0.5613226199135094,
+    "rmse": 0.010514982574696777
+   },
+   "low_confidence_points": 0
+  },
+  "CO2 373K": {
+   "flags": [],
+   "toth": {
+    "qm": 2.036914835670786,
+    "K": 0.013006262528148994,
+    "t": 1.5866552840774653,
+    "rmse": 0.0034075542422896095
+   },
+   "low_confidence_points": 0
+  }
+ },
+ "cross": [],
+ "verdict": "auto_accept",
+ "role": "supporting_diagnostics_only",
+ "agent04_verdict": "review",
+ "rows": {
+  "python": 112,
+  "agent03": 89,
+  "agent04": 89
+ },
+ "final_operations_applied": 8,
+ "hard_checks": {
+  "passed": true,
+  "problems": [],
+  "summary": "PASS: x printed 0-120, data 1.427-114 kPa; y printed 0-3, data 0.0428-2.924 mmol/g; redraw recall 0.58, precision 0.88"
+ }
+}

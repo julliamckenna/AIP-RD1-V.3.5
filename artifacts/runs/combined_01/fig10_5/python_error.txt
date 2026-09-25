@@ -1,0 +1,1 @@
+axis/tick detection failed through grayscale threshold 190: degenerate axis frame: left=113, top=1971, right=117, bottom=1983

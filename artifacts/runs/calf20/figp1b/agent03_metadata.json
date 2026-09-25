@@ -1,0 +1,2496 @@
+{
+ "schema_version": "4.0",
+ "stage": "agent03",
+ "figure_id": "figp1b",
+ "panel_id": "b",
+ "source_pdf": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\data\\input\\calf20.png",
+ "image_sha256": "810a088a9a1133fba11d8884e55623869aaa1d254389cdecec2d9189728cc759",
+ "status": "agent03_adjusted",
+ "plot_bbox": [
+  176,
+  96,
+  697,
+  565
+ ],
+ "series": [
+  {
+   "series_id": "figp1b:b:co2-303k-bc2a4dd1",
+   "series_name": "CO2 303K",
+   "species": "CO2",
+   "export_eligible": true,
+   "species_evidence": "Legend is headed 'CO2' and its red-circle entry is labeled '303K'.",
+   "marker_shape": "circle",
+   "marker_fill": "filled",
+   "marker_glyph": {
+    "shape": "circle",
+    "fill": "filled",
+    "color_hex": "#f21f26",
+    "fill_hex": "#ea2326",
+    "edge_hex": "#d42129",
+    "polygon": [
+     [
+      1.0,
+      0.0
+     ],
+     [
+      0.924,
+      0.383
+     ],
+     [
+      0.707,
+      0.707
+     ],
+     [
+      0.383,
+      0.924
+     ],
+     [
+      0.0,
+      1.0
+     ],
+     [
+      -0.383,
+      0.924
+     ],
+     [
+      -0.707,
+      0.707
+     ],
+     [
+      -0.924,
+      0.383
+     ],
+     [
+      -1.0,
+      0.0
+     ],
+     [
+      -0.924,
+      -0.383
+     ],
+     [
+      -0.707,
+      -0.707
+     ],
+     [
+      -0.383,
+      -0.924
+     ],
+     [
+      -0.0,
+      -1.0
+     ],
+     [
+      0.383,
+      -0.924
+     ],
+     [
+      0.707,
+      -0.707
+     ],
+     [
+      0.924,
+      -0.383
+     ]
+    ],
+    "size_px": 5.15,
+    "vertices": 5,
+    "source": "raster",
+    "confidence": 0.49
+   },
+   "color_hex": "#eb2125",
+   "line_style": "solid",
+   "axis_x_id": "x",
+   "axis_y_id": "y",
+   "quantity_type": "co2_loading",
+   "loading_basis": "per gram of sorbent"
+  },
+  {
+   "series_id": "figp1b:b:co2-313k-21d87380",
+   "series_name": "CO2 313K",
+   "species": "CO2",
+   "export_eligible": true,
+   "species_evidence": "Legend is headed 'CO2' and its orange-square entry is labeled '313K'.",
+   "marker_shape": "square",
+   "marker_fill": "filled",
+   "marker_glyph": {
+    "shape": "square",
+    "fill": "filled",
+    "color_hex": "#f5ab1e",
+    "fill_hex": "#f2a924",
+    "edge_hex": "#e99e2a",
+    "polygon": [
+     [
+      -0.721,
+      -0.911
+     ],
+     [
+      -0.89,
+      -0.743
+     ],
+     [
+      -0.89,
+      0.743
+     ],
+     [
+      -0.721,
+      0.911
+     ],
+     [
+      0.765,
+      0.911
+     ],
+     [
+      0.933,
+      0.575
+     ],
+     [
+      0.765,
+      -0.911
+     ]
+    ],
+    "size_px": 5.94,
+    "vertices": 4,
+    "source": "raster",
+    "confidence": 0.6
+   },
+   "color_hex": "#f3ac26",
+   "line_style": "solid",
+   "axis_x_id": "x",
+   "axis_y_id": "y",
+   "quantity_type": "co2_loading",
+   "loading_basis": "per gram of sorbent"
+  },
+  {
+   "series_id": "figp1b:b:co2-323k-c5e1f4c4",
+   "series_name": "CO2 323K",
+   "species": "CO2",
+   "export_eligible": true,
+   "species_evidence": "Legend is headed 'CO2' and its green upward-triangle entry is labeled '323K'.",
+   "marker_shape": "triangle_up",
+   "marker_fill": "filled",
+   "marker_glyph": {
+    "shape": "pentagon",
+    "fill": "filled",
+    "color_hex": "#248d43",
+    "fill_hex": "#278942",
+    "edge_hex": "#668e70",
+    "polygon": [
+     [
+      -0.428,
+      -1.506
+     ],
+     [
+      -1.501,
+      0.334
+     ],
+     [
+      -0.606,
+      -0.458
+     ],
+     [
+      -0.581,
+      0.564
+     ],
+     [
+      -1.501,
+      0.769
+     ],
+     [
+      1.387,
+      0.922
+     ],
+     [
+      1.54,
+      0.487
+     ],
+     [
+      0.62,
+      0.564
+     ],
+     [
+      0.467,
+      -0.381
+     ],
+     [
+      1.233,
+      -0.075
+     ],
+     [
+      0.467,
+      -1.301
+     ],
+     [
+      -0.376,
+      -0.739
+     ]
+    ],
+    "size_px": 6.52,
+    "vertices": 4,
+    "source": "raster",
+    "confidence": 0.33
+   },
+   "color_hex": "#238b45",
+   "line_style": "solid",
+   "axis_x_id": "x",
+   "axis_y_id": "y",
+   "quantity_type": "co2_loading",
+   "loading_basis": "per gram of sorbent"
+  },
+  {
+   "series_id": "figp1b:b:co2-333k-94a1f9ba",
+   "series_name": "CO2 333K",
+   "species": "CO2",
+   "export_eligible": true,
+   "species_evidence": "Legend is headed 'CO2' and its blue polygon-marker entry is labeled '333K'.",
+   "marker_shape": "hexagon",
+   "marker_fill": "filled",
+   "marker_glyph": {
+    "shape": "circle",
+    "fill": "open",
+    "color_hex": "#3a3691",
+    "fill_hex": null,
+    "edge_hex": "#8287ba",
+    "polygon": [
+     [
+      1.0,
+      0.0
+     ],
+     [
+      0.924,
+      0.383
+     ],
+     [
+      0.707,
+      0.707
+     ],
+     [
+      0.383,
+      0.924
+     ],
+     [
+      0.0,
+      1.0
+     ],
+     [
+      -0.383,
+      0.924
+     ],
+     [
+      -0.707,
+      0.707
+     ],
+     [
+      -0.924,
+      0.383
+     ],
+     [
+      -1.0,
+      0.0
+     ],
+     [
+      -0.924,
+      -0.383
+     ],
+     [
+      -0.707,
+      -0.707
+     ],
+     [
+      -0.383,
+      -0.924
+     ],
+     [
+      -0.0,
+      -1.0
+     ],
+     [
+      0.383,
+      -0.924
+     ],
+     [
+      0.707,
+      -0.707
+     ],
+     [
+      0.924,
+      -0.383
+     ]
+    ],
+    "size_px": 9.56,
+    "vertices": 7,
+    "source": "raster",
+    "confidence": 0.5
+   },
+   "color_hex": "#293ca3",
+   "line_style": "solid",
+   "axis_x_id": "x",
+   "axis_y_id": "y",
+   "quantity_type": "co2_loading",
+   "loading_basis": "per gram of sorbent"
+  },
+  {
+   "series_id": "figp1b:b:co2-353k-c3530734",
+   "series_name": "CO2 353K",
+   "species": "CO2",
+   "export_eligible": true,
+   "species_evidence": "Legend is headed 'CO2' and its magenta-diamond entry is labeled '353K'.",
+   "marker_shape": "diamond",
+   "marker_fill": "filled",
+   "marker_glyph": {
+    "shape": "hexagon",
+    "fill": "filled",
+    "color_hex": "#d13ea1",
+    "fill_hex": "#cc3c9d",
+    "edge_hex": "#b2348c",
+    "polygon": [
+     [
+      -0.218,
+      -1.418
+     ],
+     [
+      -0.735,
+      -0.642
+     ],
+     [
+      -0.735,
+      0.867
+     ],
+     [
+      -0.002,
+      1.384
+     ],
+     [
+      0.774,
+      0.608
+     ],
+     [
+      0.774,
+      -0.642
+     ],
+     [
+      0.429,
+      -1.159
+     ]
+    ],
+    "size_px": 3.87,
+    "vertices": 6,
+    "source": "raster",
+    "confidence": 0.36
+   },
+   "color_hex": "#a72488",
+   "line_style": "solid",
+   "axis_x_id": "x",
+   "axis_y_id": "y",
+   "quantity_type": "co2_loading",
+   "loading_basis": "per gram of sorbent"
+  },
+  {
+   "series_id": "figp1b:b:co2-373k-9f2f766d",
+   "series_name": "CO2 373K",
+   "species": "CO2",
+   "export_eligible": true,
+   "species_evidence": "Legend is headed 'CO2' and its black-star entry is labeled '373K'.",
+   "marker_shape": "diamond",
+   "marker_fill": "filled",
+   "marker_glyph": {
+    "shape": "diamond",
+    "fill": "filled",
+    "color_hex": "#060707",
+    "fill_hex": "#0a0a0a",
+    "edge_hex": "#727272",
+    "polygon": [
+     [
+      -0.176,
+      -1.203
+     ],
+     [
+      -1.291,
+      0.045
+     ],
+     [
+      -0.574,
+      0.523
+     ],
+     [
+      -0.176,
+      1.161
+     ],
+     [
+      0.276,
+      1.161
+     ],
+     [
+      0.276,
+      0.922
+     ],
+     [
+      1.232,
+      0.205
+     ],
+     [
+      1.232,
+      -0.088
+     ],
+     [
+      0.515,
+      -0.566
+     ],
+     [
+      0.116,
+      -1.203
+     ]
+    ],
+    "size_px": 6.27,
+    "vertices": 4,
+    "source": "raster",
+    "confidence": 0.91
+   },
+   "color_hex": "#040404",
+   "line_style": "solid",
+   "axis_x_id": "x",
+   "axis_y_id": "y",
+   "quantity_type": "co2_loading",
+   "loading_basis": "per gram of sorbent"
+  }
+ ],
+ "axes": [
+  {
+   "axis_id": "x",
+   "scale": "linear",
+   "unit": "mbar",
+   "quantity_type": "P",
+   "calibration_status": "valid",
+   "a": 2.3028163762459934,
+   "b": -405.7550523254382,
+   "anchors": [
+    {
+     "pixel": 176.0,
+     "value": 0.0
+    },
+    {
+     "pixel": 350.0,
+     "value": 400.0
+    },
+    {
+     "pixel": 524.0,
+     "value": 800.0
+    },
+    {
+     "pixel": 697.0,
+     "value": 1200.0
+    }
+   ],
+   "equation": "value=a*pixel+b"
+  },
+  {
+   "axis_id": "y",
+   "scale": "linear",
+   "unit": "mmol/g",
+   "quantity_type": "CO2 Loading",
+   "calibration_status": "valid",
+   "a": -0.0066350532062086475,
+   "b": 3.7492830369047323,
+   "anchors": [
+    {
+     "pixel": 113.0,
+     "value": 3.0
+    },
+    {
+     "pixel": 188.0,
+     "value": 2.5
+    },
+    {
+     "pixel": 264.0,
+     "value": 2.0
+    },
+    {
+     "pixel": 339.0,
+     "value": 1.5
+    },
+    {
+     "pixel": 414.0,
+     "value": 1.0
+    },
+    {
+     "pixel": 490.0,
+     "value": 0.5
+    },
+    {
+     "pixel": 565.0,
+     "value": 0.0
+    }
+   ],
+   "equation": "value=a*pixel+b"
+  }
+ ],
+ "instances": [
+  {
+   "source_instance_id": "src-766cac82e132774b",
+   "point_id": "pt-e8b19f65894df2cf",
+   "series_id": "figp1b:b:co2-303k-bc2a4dd1",
+   "state": "resolved",
+   "source_pixel_x": 292.41,
+   "source_pixel_y": 230.09,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-c00c4807b61191a3",
+   "point_id": "pt-0388c9352d59a87d",
+   "series_id": "figp1b:b:co2-303k-bc2a4dd1",
+   "state": "resolved",
+   "source_pixel_x": 320.24,
+   "source_pixel_y": 217.9,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-c791ee70d9ffbf4e",
+   "point_id": "pt-81c50fd0c8a42c98",
+   "series_id": "figp1b:b:co2-303k-bc2a4dd1",
+   "state": "resolved",
+   "source_pixel_x": 349.85,
+   "source_pixel_y": 206.08,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-420d03b9c34ebd3f",
+   "point_id": "pt-adbc7736931c6649",
+   "series_id": "figp1b:b:co2-303k-bc2a4dd1",
+   "state": "resolved",
+   "source_pixel_x": 378.82,
+   "source_pixel_y": 196.4,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-642ee54941eb29e7",
+   "point_id": "pt-3f6a503e6458b820",
+   "series_id": "figp1b:b:co2-303k-bc2a4dd1",
+   "state": "resolved",
+   "source_pixel_x": 407.94,
+   "source_pixel_y": 186.97,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-f7d7462f7c10ab58",
+   "point_id": "pt-2bdf42b551a5b6ec",
+   "series_id": "figp1b:b:co2-303k-bc2a4dd1",
+   "state": "resolved",
+   "source_pixel_x": 436.96,
+   "source_pixel_y": 178.59,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-5dcc1c2e768365d8",
+   "point_id": "pt-c1a4013b0a9fff39",
+   "series_id": "figp1b:b:co2-303k-bc2a4dd1",
+   "state": "resolved",
+   "source_pixel_x": 465.69,
+   "source_pixel_y": 170.5,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-2e9c84c375c34b12",
+   "point_id": "pt-e0258771cde4a569",
+   "series_id": "figp1b:b:co2-303k-bc2a4dd1",
+   "state": "resolved",
+   "source_pixel_x": 494.75,
+   "source_pixel_y": 162.55,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-f47110472cf0ba69",
+   "point_id": "pt-1f7c86322399a4c1",
+   "series_id": "figp1b:b:co2-303k-bc2a4dd1",
+   "state": "resolved",
+   "source_pixel_x": 523.5,
+   "source_pixel_y": 155.56,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-7131a396a6a3e879",
+   "point_id": "pt-ddb8455faf3d6b8b",
+   "series_id": "figp1b:b:co2-303k-bc2a4dd1",
+   "state": "resolved",
+   "source_pixel_x": 552.23,
+   "source_pixel_y": 148.98,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-f20df5b54f6b9ded",
+   "point_id": "pt-91a138bfe8fbe8fa",
+   "series_id": "figp1b:b:co2-303k-bc2a4dd1",
+   "state": "resolved",
+   "source_pixel_x": 581.94,
+   "source_pixel_y": 141.97,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-15c273b72a4d71cb",
+   "point_id": "pt-88c408e76c678495",
+   "series_id": "figp1b:b:co2-303k-bc2a4dd1",
+   "state": "resolved",
+   "source_pixel_x": 616.13,
+   "source_pixel_y": 133.95,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-49d9c2c87e2c295d",
+   "point_id": "pt-de6e03bb583d33c4",
+   "series_id": "figp1b:b:co2-303k-bc2a4dd1",
+   "state": "resolved",
+   "source_pixel_x": 640.45,
+   "source_pixel_y": 129.76,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-97c326e3009ea0e8",
+   "point_id": "pt-51c6b5c588bf2d44",
+   "series_id": "figp1b:b:co2-303k-bc2a4dd1",
+   "state": "resolved",
+   "source_pixel_x": 670.41,
+   "source_pixel_y": 124.12,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-20896e9a6bfeadeb",
+   "point_id": "pt-bc522dd87c283b33",
+   "series_id": "figp1b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 188.0,
+   "source_pixel_y": 445.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-a59675d1fb440d95",
+   "point_id": "pt-8dd4d43bc126f90c",
+   "series_id": "figp1b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 206.74,
+   "source_pixel_y": 423.41,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-f6a524756d6e1cc4",
+   "point_id": "pt-b3cbaeb6c7bd1d13",
+   "series_id": "figp1b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 208.59,
+   "source_pixel_y": 417.12,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-4c77ea0ba2a403df",
+   "point_id": "pt-e351fc70686c5ece",
+   "series_id": "figp1b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 214.08,
+   "source_pixel_y": 401.54,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-5d5c85e13875288c",
+   "point_id": "pt-f1bf70cb874ba3cc",
+   "series_id": "figp1b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 235.0,
+   "source_pixel_y": 303.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-92664446ec7b1494",
+   "point_id": "pt-4003b1acef73dca6",
+   "series_id": "figp1b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 262.0,
+   "source_pixel_y": 276.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-28b8ac4173a37ffa",
+   "point_id": "pt-20b338e45c94c4b5",
+   "series_id": "figp1b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 293.75,
+   "source_pixel_y": 256.32,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-e637b4212b59f890",
+   "point_id": "pt-5688b1a78c6c207d",
+   "series_id": "figp1b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 319.0,
+   "source_pixel_y": 245.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-f527d313b497e46a",
+   "point_id": "pt-8d75544b4dbac6de",
+   "series_id": "figp1b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 350.0,
+   "source_pixel_y": 234.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-5bb0526e76bf6cde",
+   "point_id": "pt-f91935fb4dfa0ee8",
+   "series_id": "figp1b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 378.24,
+   "source_pixel_y": 225.7,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-3a701c886c0ef14b",
+   "point_id": "pt-ac865fd0db6133d2",
+   "series_id": "figp1b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 407.0,
+   "source_pixel_y": 217.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-bb1856fd7a864214",
+   "point_id": "pt-0f1c6aca83b95e9e",
+   "series_id": "figp1b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 436.5,
+   "source_pixel_y": 210.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-2a3c3108383608d7",
+   "point_id": "pt-b78a8ab5829361cd",
+   "series_id": "figp1b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 466.0,
+   "source_pixel_y": 204.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-1848217911acef6a",
+   "point_id": "pt-f94ed228724dcfc0",
+   "series_id": "figp1b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 495.0,
+   "source_pixel_y": 198.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-e3153f9c034d730a",
+   "point_id": "pt-c316cc75a21af3c0",
+   "series_id": "figp1b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 524.0,
+   "source_pixel_y": 192.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-e23a7f0099756447",
+   "point_id": "pt-b10d39053338fe98",
+   "series_id": "figp1b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 552.5,
+   "source_pixel_y": 186.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-69fc9dcdb5c60a8a",
+   "point_id": "pt-ebc0b3731dc492fd",
+   "series_id": "figp1b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 581.64,
+   "source_pixel_y": 180.7,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-d84e15d741d74d0b",
+   "point_id": "pt-bb89e733a62bc4bc",
+   "series_id": "figp1b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 616.0,
+   "source_pixel_y": 174.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-40be122d2147c6c1",
+   "point_id": "pt-ee49e7917598203c",
+   "series_id": "figp1b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 640.0,
+   "source_pixel_y": 170.5,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-935baed8071d6b15",
+   "point_id": "pt-3544e6ba952be927",
+   "series_id": "figp1b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 670.64,
+   "source_pixel_y": 165.76,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-5893b99310e9e2c4",
+   "point_id": "pt-682c651efafb8303",
+   "series_id": "figp1b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 190.71,
+   "source_pixel_y": 491.55,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-dccf2015b31a9284",
+   "point_id": "pt-459c58129f9e8aa7",
+   "series_id": "figp1b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 192.31,
+   "source_pixel_y": 483.04,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-b1f57cb1226149ce",
+   "point_id": "pt-97d3c2bd8a6dd9e0",
+   "series_id": "figp1b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 193.31,
+   "source_pixel_y": 476.48,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-97bb9c29c609464f",
+   "point_id": "pt-218d360f3351a998",
+   "series_id": "figp1b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 199.5,
+   "source_pixel_y": 452.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-8d443869ecc86240",
+   "point_id": "pt-07c0596a2f8998e4",
+   "series_id": "figp1b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 202.27,
+   "source_pixel_y": 439.35,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-d88c6a9053968955",
+   "point_id": "pt-445fc077b06d9031",
+   "series_id": "figp1b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 292.73,
+   "source_pixel_y": 292.86,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-0d1df4770837562f",
+   "point_id": "pt-19374ba5000fcdf6",
+   "series_id": "figp1b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 320.07,
+   "source_pixel_y": 278.12,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-6a4db579edadc60e",
+   "point_id": "pt-e3b879c5930178e3",
+   "series_id": "figp1b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 349.94,
+   "source_pixel_y": 267.05,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-3fc2d2befe3d84b9",
+   "point_id": "pt-e5f7ebfee985975e",
+   "series_id": "figp1b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 379.2,
+   "source_pixel_y": 257.36,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-e3160950adec6f00",
+   "point_id": "pt-b08858e565a761a2",
+   "series_id": "figp1b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 408.65,
+   "source_pixel_y": 250.17,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-be848b6df8abaf98",
+   "point_id": "pt-00b41acc764303c7",
+   "series_id": "figp1b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 436.63,
+   "source_pixel_y": 243.49,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-24d667a0d754d51a",
+   "point_id": "pt-671476b9cdcba88e",
+   "series_id": "figp1b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 465.95,
+   "source_pixel_y": 237.08,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-2178887ed41449bf",
+   "point_id": "pt-8c66cc4c68d567de",
+   "series_id": "figp1b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 495.0,
+   "source_pixel_y": 231.41,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-820a46407d69b456",
+   "point_id": "pt-08d76841fde85fba",
+   "series_id": "figp1b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 523.7,
+   "source_pixel_y": 226.41,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-b8af3b91f377aa90",
+   "point_id": "pt-e3a780c12c1997b8",
+   "series_id": "figp1b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 552.32,
+   "source_pixel_y": 221.68,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-c7f712d169b592fa",
+   "point_id": "pt-f7fec7017f269b35",
+   "series_id": "figp1b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 582.2,
+   "source_pixel_y": 217.2,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-b6ca537e5171f1d5",
+   "point_id": "pt-5ea79ae35f03fddd",
+   "series_id": "figp1b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 616.08,
+   "source_pixel_y": 211.31,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-9c082527bbfcf74b",
+   "point_id": "pt-05734fccb2492d67",
+   "series_id": "figp1b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 639.68,
+   "source_pixel_y": 207.44,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-6ffa99b99ef1125c",
+   "point_id": "pt-c813d45177dc8bbb",
+   "series_id": "figp1b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 671.36,
+   "source_pixel_y": 204.14,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-c674b7f3ee7accb5",
+   "point_id": "pt-0f12910bfb6c48f9",
+   "series_id": "figp1b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 182.13,
+   "source_pixel_y": 543.15,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-fbe94eed75b66485",
+   "point_id": "pt-72e74629424aefc2",
+   "series_id": "figp1b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 189.65,
+   "source_pixel_y": 515.74,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-0442207d53d79852",
+   "point_id": "pt-c2ed99ad714f3f29",
+   "series_id": "figp1b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 203.87,
+   "source_pixel_y": 466.85,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-6ed0056b799519cf",
+   "point_id": "pt-b37390e8163a50ce",
+   "series_id": "figp1b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 234.38,
+   "source_pixel_y": 392.37,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-73b5c941a0637654",
+   "point_id": "pt-f439e413dabb0ab7",
+   "series_id": "figp1b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 262.02,
+   "source_pixel_y": 353.18,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-187577258fd3e669",
+   "point_id": "pt-17e5be4e04cb041d",
+   "series_id": "figp1b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 291.89,
+   "source_pixel_y": 325.65,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-ef93f2551de03cd5",
+   "point_id": "pt-feb8721f045a5447",
+   "series_id": "figp1b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 320.08,
+   "source_pixel_y": 306.64,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-16caecfa88e7ca62",
+   "point_id": "pt-bb4cf9edd951091c",
+   "series_id": "figp1b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 349.19,
+   "source_pixel_y": 293.83,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-962298196cbf2532",
+   "point_id": "pt-b33587df148c3ae9",
+   "series_id": "figp1b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 377.35,
+   "source_pixel_y": 282.02,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-6716c9f1948a0141",
+   "point_id": "pt-30d0c76a3d722861",
+   "series_id": "figp1b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 408.73,
+   "source_pixel_y": 273.35,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-40c751d88d0d6895",
+   "point_id": "pt-d79ffd906ce8b72c",
+   "series_id": "figp1b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 436.5,
+   "source_pixel_y": 265.5,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-63369be662f29f91",
+   "point_id": "pt-6e3c30e1d1ffbe47",
+   "series_id": "figp1b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 465.5,
+   "source_pixel_y": 258.74,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-a66b77e5aa68ca7e",
+   "point_id": "pt-f20aa6e1d78d4ef6",
+   "series_id": "figp1b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 495.44,
+   "source_pixel_y": 253.48,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-6e748e3ef4b58c7e",
+   "point_id": "pt-b4ab4b7366859cc3",
+   "series_id": "figp1b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 523.49,
+   "source_pixel_y": 248.11,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-437151fffff7c8fc",
+   "point_id": "pt-af154b6b56e40cc2",
+   "series_id": "figp1b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 553.37,
+   "source_pixel_y": 243.34,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-8baa7dfa8245e578",
+   "point_id": "pt-907db526dde16ab7",
+   "series_id": "figp1b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 581.79,
+   "source_pixel_y": 240.05,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-f566bedd4adf67fe",
+   "point_id": "pt-4bbdd1c21c07ad55",
+   "series_id": "figp1b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 615.47,
+   "source_pixel_y": 233.16,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-a1de7875782ade70",
+   "point_id": "pt-a7228214f37751d1",
+   "series_id": "figp1b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 640.22,
+   "source_pixel_y": 231.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-010dd9c5b4cce3a1",
+   "point_id": "pt-acea2e43c5da1dcb",
+   "series_id": "figp1b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 671.13,
+   "source_pixel_y": 228.15,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-345c6058f2fa940c",
+   "point_id": "pt-0c0e0115a7a06d73",
+   "series_id": "figp1b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 191.0,
+   "source_pixel_y": 538.5,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-96ed2488dfcb556b",
+   "point_id": "pt-affa4a656afe9cea",
+   "series_id": "figp1b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 205.04,
+   "source_pixel_y": 515.03,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-5e7542c50111a6ed",
+   "point_id": "pt-08894e25c84579b3",
+   "series_id": "figp1b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 233.63,
+   "source_pixel_y": 469.23,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-b497af9c7df93326",
+   "point_id": "pt-e1fe2b88d7782b09",
+   "series_id": "figp1b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 260.51,
+   "source_pixel_y": 432.73,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-510a6dda88fb49f3",
+   "point_id": "pt-2546ab1cf959eda8",
+   "series_id": "figp1b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 290.86,
+   "source_pixel_y": 402.37,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-77953a9c2ed555bd",
+   "point_id": "pt-38fbbc2f68873b2f",
+   "series_id": "figp1b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 319.67,
+   "source_pixel_y": 377.06,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-d8dd03deb01dd43f",
+   "point_id": "pt-1efb63d611f897c2",
+   "series_id": "figp1b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 349.58,
+   "source_pixel_y": 359.5,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-c63bbd59baa77523",
+   "point_id": "pt-f41261de8de97b0a",
+   "series_id": "figp1b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 379.17,
+   "source_pixel_y": 345.46,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-ef19676717c84f4e",
+   "point_id": "pt-7394a3fd49adb344",
+   "series_id": "figp1b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 405.9,
+   "source_pixel_y": 332.51,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-f92efe34e7a37ae3",
+   "point_id": "pt-2d6f0fc32fd9f5a6",
+   "series_id": "figp1b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 437.18,
+   "source_pixel_y": 322.53,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-d5ef91966a1f33ee",
+   "point_id": "pt-09a624b2de4fad3e",
+   "series_id": "figp1b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 465.45,
+   "source_pixel_y": 314.23,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-b8c3b5d8dcb29473",
+   "point_id": "pt-d766bce6609893a0",
+   "series_id": "figp1b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 495.19,
+   "source_pixel_y": 306.14,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-229f03c3ca1f9a43",
+   "point_id": "pt-f6771de1948395d7",
+   "series_id": "figp1b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 523.94,
+   "source_pixel_y": 300.5,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-2b009046b182639c",
+   "point_id": "pt-f2a5dbc383969432",
+   "series_id": "figp1b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 552.31,
+   "source_pixel_y": 295.2,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-9395a628b7b94e16",
+   "point_id": "pt-ea3fc27a4c1f8490",
+   "series_id": "figp1b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 582.1,
+   "source_pixel_y": 289.42,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-70323093e476981b",
+   "point_id": "pt-f6978f2431cf12dc",
+   "series_id": "figp1b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 610.69,
+   "source_pixel_y": 284.14,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-1902c2e9f5d29715",
+   "point_id": "pt-1eab939de545065c",
+   "series_id": "figp1b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 640.48,
+   "source_pixel_y": 278.72,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-9bf108b392856175",
+   "point_id": "pt-e0a9244a3dd36339",
+   "series_id": "figp1b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 671.49,
+   "source_pixel_y": 274.4,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-f2d3ce6e63fb9258",
+   "point_id": "pt-85ccc43a210c712d",
+   "series_id": "figp1b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 266.48,
+   "source_pixel_y": 489.02,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-509d109bd65568bb",
+   "point_id": "pt-5208a9f9ff3e2626",
+   "series_id": "figp1b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 321.14,
+   "source_pixel_y": 450.16,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-1206343560c272ba",
+   "point_id": "pt-0f2ceda9b9cb3582",
+   "series_id": "figp1b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 348.5,
+   "source_pixel_y": 433.5,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-41442b4a68298970",
+   "point_id": "pt-b34cae5a480ff9e4",
+   "series_id": "figp1b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 378.5,
+   "source_pixel_y": 417.5,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-ecb2637313f7893c",
+   "point_id": "pt-123e04a0a821837a",
+   "series_id": "figp1b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 408.0,
+   "source_pixel_y": 404.0,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-c5a29874dff57a4c",
+   "point_id": "pt-277b424e04782313",
+   "series_id": "figp1b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 436.85,
+   "source_pixel_y": 391.64,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-8380fab544083f92",
+   "point_id": "pt-1e4aecae0ba17f6a",
+   "series_id": "figp1b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 465.85,
+   "source_pixel_y": 380.64,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-ddbd16d4c8b6f799",
+   "point_id": "pt-662e1a576ddf475a",
+   "series_id": "figp1b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 495.14,
+   "source_pixel_y": 371.84,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-0a31557d81b1c911",
+   "point_id": "pt-8c4828c34a3017be",
+   "series_id": "figp1b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 522.5,
+   "source_pixel_y": 362.5,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-1b28ec38b5e6de93",
+   "point_id": "pt-25dab0f98954ee56",
+   "series_id": "figp1b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 553.64,
+   "source_pixel_y": 355.33,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-3b2d5fd8a2c44ee0",
+   "point_id": "pt-3889674a12d0d059",
+   "series_id": "figp1b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 580.96,
+   "source_pixel_y": 349.01,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-7edb430758b76f7d",
+   "point_id": "pt-a6ce77e87084bf0c",
+   "series_id": "figp1b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 614.02,
+   "source_pixel_y": 341.04,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-b452a0b0f75088ac",
+   "point_id": "pt-2abb773ec68cda2a",
+   "series_id": "figp1b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 639.5,
+   "source_pixel_y": 336.5,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-3beb9794612b47ae",
+   "point_id": "pt-38d4a4220a512d1b",
+   "series_id": "figp1b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 668.45,
+   "source_pixel_y": 331.12,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  }
+ ],
+ "coverage": [
+  {
+   "bbox": [
+    176,
+    96,
+    697,
+    565
+   ],
+   "inspected": false
+  }
+ ],
+ "limitations": [
+  "agent03 remains subject to downstream or human review."
+ ],
+ "rejected_masked_points": 0,
+ "unresolved_slots": {
+  "total": 21,
+  "by_series": {
+   "CO2 303K": 8,
+   "CO2 313K": 3,
+   "CO2 323K": 4,
+   "CO2 333K": 1,
+   "CO2 353K": 2,
+   "CO2 373K": 3
+  },
+  "slots": [
+   {
+    "series_label": "CO2 303K",
+    "series_index": 0,
+    "column_index": 0,
+    "column_px": 182.83,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 313K",
+    "series_index": 1,
+    "column_index": 0,
+    "column_px": 182.83,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 323K",
+    "series_index": 2,
+    "column_index": 0,
+    "column_px": 182.83,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 353K",
+    "series_index": 4,
+    "column_index": 0,
+    "column_px": 182.83,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 373K",
+    "series_index": 5,
+    "column_index": 0,
+    "column_px": 182.83,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 303K",
+    "series_index": 0,
+    "column_index": 1,
+    "column_px": 192.93,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 303K",
+    "series_index": 0,
+    "column_index": 2,
+    "column_px": 203.81,
+    "predicted_y_px": 360.78,
+    "state": "unresolved",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 0,
+    "rival_coverage": 0.46
+   },
+   {
+    "series_label": "CO2 303K",
+    "series_index": 0,
+    "column_index": 3,
+    "column_px": 235.38,
+    "predicted_y_px": 314.21,
+    "state": "unresolved",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 0,
+    "rival_coverage": 0.34
+   },
+   {
+    "series_label": "CO2 323K",
+    "series_index": 2,
+    "column_index": 3,
+    "column_px": 235.38,
+    "predicted_y_px": 385.73,
+    "state": "unresolved",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 0,
+    "rival_coverage": 0.34
+   },
+   {
+    "series_label": "CO2 303K",
+    "series_index": 0,
+    "column_index": 4,
+    "column_px": 260.14,
+    "predicted_y_px": 277.69,
+    "state": "unresolved",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 0,
+    "rival_coverage": 0.4
+   },
+   {
+    "series_label": "CO2 323K",
+    "series_index": 2,
+    "column_index": 4,
+    "column_px": 260.14,
+    "predicted_y_px": 345.63,
+    "state": "unresolved",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 0,
+    "rival_coverage": 0.36
+   },
+   {
+    "series_label": "CO2 303K",
+    "series_index": 0,
+    "column_index": 18,
+    "column_px": 671.23,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 313K",
+    "series_index": 1,
+    "column_index": 18,
+    "column_px": 671.23,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 333K",
+    "series_index": 3,
+    "column_index": 18,
+    "column_px": 671.23,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 373K",
+    "series_index": 5,
+    "column_index": 18,
+    "column_px": 671.23,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 303K",
+    "series_index": 0,
+    "column_index": 0,
+    "column_px": 182.83,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 1
+   },
+   {
+    "series_label": "CO2 313K",
+    "series_index": 1,
+    "column_index": 0,
+    "column_px": 182.83,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 1
+   },
+   {
+    "series_label": "CO2 323K",
+    "series_index": 2,
+    "column_index": 0,
+    "column_px": 182.83,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 1
+   },
+   {
+    "series_label": "CO2 353K",
+    "series_index": 4,
+    "column_index": 0,
+    "column_px": 182.83,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 1
+   },
+   {
+    "series_label": "CO2 373K",
+    "series_index": 5,
+    "column_index": 0,
+    "column_px": 182.83,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 1
+   },
+   {
+    "series_label": "CO2 303K",
+    "series_index": 0,
+    "column_index": 1,
+    "column_px": 192.93,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 1
+   }
+  ]
+ },
+ "unresolved_accounting_valid": true,
+ "row_count": 104,
+ "agent_report": {
+  "reasoning": "batch 1: Native pixels support deletion of one red low-branch detection and twelve black detections that lie on the continuous thick black connecting stroke without distinct star centers. The orange, green, blue, magenta, and remaining black markers are visibly supported. The unresolved dense-region slots do not provide safe native-pixel evidence for additions, so coverage remains subject to review rather than acceptance.",
+  "verdict": "review",
+  "series": [
+   {
+    "label": "CO2 303K",
+    "coverage": "incomplete",
+    "final_count": 14,
+    "comment": "Removed the low-branch red point at native (195,374), which is only thick red line ink; the remaining red circles are visible."
+   },
+   {
+    "label": "CO2 313K",
+    "coverage": "incomplete",
+    "final_count": 20,
+    "comment": "All proposed orange squares are visibly supported in the native panel, including the crowded low-pressure squares."
+   },
+   {
+    "label": "CO2 323K",
+    "coverage": "incomplete",
+    "final_count": 19,
+    "comment": "All proposed green triangles have visible native marker ink, including the low-pressure fan."
+   },
+   {
+    "label": "CO2 333K",
+    "coverage": "incomplete",
+    "final_count": 19,
+    "comment": "All proposed blue pentagons are visibly supported by native pixels."
+   },
+   {
+    "label": "CO2 353K",
+    "coverage": "incomplete",
+    "final_count": 18,
+    "comment": "All proposed magenta diamonds are visibly supported by native pixels."
+   },
+   {
+    "label": "CO2 373K",
+    "coverage": "incomplete",
+    "final_count": 14,
+    "comment": "Removed black detections without distinct star centers along the thick low-pressure stroke; retained the first clearly visible star and the remaining star row, while dense slots remain unresolved."
+   }
+  ],
+  "operations": [
+   {
+    "operation_id": "batch-001-op-delete-red-stroke",
+    "action": "delete",
+    "point_id": "pt-55d92ac7e23ba306",
+    "series_label": null,
+    "x_norm": null,
+    "y_norm": null,
+    "overlap": true,
+    "reason": "False detection on the thick red connecting stroke, not a distinct red circle marker.",
+    "source_evidence": "Native marker_01 box 1 at source pixel (195,374) shows continuous red stroke ink without a circular marker core."
+   },
+   {
+    "operation_id": "batch-001-op-delete-black-stroke-01",
+    "action": "delete",
+    "point_id": "pt-4c6e05cd006f64ea",
+    "series_label": null,
+    "x_norm": null,
+    "y_norm": null,
+    "overlap": true,
+    "reason": "Black line pixel interpreted as a star; no distinct native star center is visible.",
+    "source_evidence": "Native source at (184,559) is the beginning of the continuous thick black low-pressure stroke."
+   },
+   {
+    "operation_id": "batch-001-op-delete-black-stroke-02",
+    "action": "delete",
+    "point_id": "pt-bfec8f9fb210cc79",
+    "series_label": null,
+    "x_norm": null,
+    "y_norm": null,
+    "overlap": true,
+    "reason": "False black marker placed on the thick connecting stroke.",
+    "source_evidence": "Native source at (194,550) shows only continuous black stroke ink, without a separable star."
+   },
+   {
+    "operation_id": "batch-001-op-delete-black-stroke-03",
+    "action": "delete",
+    "point_id": "pt-06f7a01f80387b5d",
+    "series_label": null,
+    "x_norm": null,
+    "y_norm": null,
+    "overlap": true,
+    "reason": "False black marker placed on the thick connecting stroke.",
+    "source_evidence": "Native source at (201,544) shows the uninterrupted black diagonal stroke, not a distinct star center."
+   },
+   {
+    "operation_id": "batch-001-op-delete-black-stroke-04",
+    "action": "delete",
+    "point_id": "pt-0f8a479d7589a428",
+    "series_label": null,
+    "x_norm": null,
+    "y_norm": null,
+    "overlap": true,
+    "reason": "False black marker placed on line ink.",
+    "source_evidence": "Native source at (209,537) contains continuous black stroke pixels without a visible star shape."
+   },
+   {
+    "operation_id": "batch-001-op-delete-black-stroke-05",
+    "action": "delete",
+    "point_id": "pt-46303aaa849a1e55",
+    "series_label": null,
+    "x_norm": null,
+    "y_norm": null,
+    "overlap": true,
+    "reason": "False detection from the thick black stroke.",
+    "source_evidence": "Native source at (218,529) shows only the broad diagonal black connecting line."
+   },
+   {
+    "operation_id": "batch-001-op-delete-black-stroke-06",
+    "action": "delete",
+    "point_id": "pt-1d182363aad537d3",
+    "series_label": null,
+    "x_norm": null,
+    "y_norm": null,
+    "overlap": true,
+    "reason": "No separable black star is visible at this proposed center.",
+    "source_evidence": "Native source at (231,518) is continuous thick black line ink."
+   },
+   {
+    "operation_id": "batch-001-op-delete-black-stroke-07",
+    "action": "delete",
+    "point_id": "pt-68a6d00afaf810f5",
+    "series_label": null,
+    "x_norm": null,
+    "y_norm": null,
+    "overlap": true,
+    "reason": "False detection on the black connecting stroke.",
+    "source_evidence": "Native source at (237,513) shows uninterrupted black stroke pixels, not a distinct star."
+   },
+   {
+    "operation_id": "batch-001-op-delete-black-stroke-08",
+    "action": "delete",
+    "point_id": "pt-8dc994e6e008771f",
+    "series_label": null,
+    "x_norm": null,
+    "y_norm": null,
+    "overlap": true,
+    "reason": "False detection on line ink.",
+    "source_evidence": "Native source at (247,505) contains only the continuous thick black low-pressure line."
+   },
+   {
+    "operation_id": "batch-001-op-delete-black-stroke-09",
+    "action": "delete",
+    "point_id": "pt-1fbb22a50cae30e9",
+    "series_label": null,
+    "x_norm": null,
+    "y_norm": null,
+    "overlap": true,
+    "reason": "False black point generated from the connecting stroke rather than a native star center.",
+    "source_evidence": "Native source at (256,497) shows broad black stroke ink without a distinct star."
+   },
+   {
+    "operation_id": "batch-001-op-delete-black-stroke-10",
+    "action": "delete",
+    "point_id": "pt-9cc2953c98f20b09",
+    "series_label": null,
+    "x_norm": null,
+    "y_norm": null,
+    "overlap": true,
+    "reason": "False detection on the thick black stroke.",
+    "source_evidence": "Native source at (273,484) does not show a separable star marker at the proposed center."
+   },
+   {
+    "operation_id": "batch-001-op-delete-black-stroke-11",
+    "action": "delete",
+    "point_id": "pt-e3b1a5a63748a505",
+    "series_label": null,
+    "x_norm": null,
+    "y_norm": null,
+    "overlap": true,
+    "reason": "False detection from continuous black line ink.",
+    "source_evidence": "Native source at (285,475) shows the thick connecting stroke without a distinct star."
+   },
+   {
+    "operation_id": "batch-001-op-delete-black-stroke-12",
+    "action": "delete",
+    "point_id": "pt-f378c6e90a7d0d48",
+    "series_label": null,
+    "x_norm": null,
+    "y_norm": null,
+    "overlap": true,
+    "reason": "False detection on the black connecting stroke.",
+    "source_evidence": "Native source at (290,470) contains uninterrupted black stroke pixels and no distinct star center."
+   }
+  ],
+  "uncertainties": [
+   "The dense native low-pressure fan does not safely resolve the unresolved slots at x\u2248183, x\u2248193, x\u2248204, x\u2248235, x\u2248260, or the right-edge x\u2248671 positions; no additions are made from trajectory interpolation.",
+   "The first retained black star near native (266,489) is close to the end of the thick stroke but has a distinct star-shaped native center; further black detections on the stroke were removed.",
+   "The proposed counts are not sufficient to establish complete marker accounting in the dense overlap region.",
+   "The native source supports the visually read green triangle, blue pentagon, and black star marker identities despite raster measurement artifacts.",
+   "No ambiguity contact sheets were supplied in this batch.",
+   "No excluded series or inset points were considered.",
+   "No safe native-pixel evidence supports adding any of the 21 unresolved slots.",
+   "The source panel contains heavy line-marker overlap near the origin, limiting definitive completeness assessment.",
+   "The review remains non-accepting because unresolved slots cannot be safely dispositioned.",
+   "The orange low-pressure markers are crowded against the red and green strokes but remain visibly identifiable.",
+   "The black stroke can mimic star silhouettes at low pressure, so line pixels were not treated as markers.",
+   "The remaining proposed points were kept because their marker shapes and colors are visible in native pixels.",
+   "The red low-pressure proposal at (195,374) was specifically inspected and rejected as line ink.",
+   "Native evidence was inspected before relying on proposal coordinates.",
+   "Unresolved review item tile:marker_01: not returned by the review batch",
+   "Unresolved review item box:marker_01:1: not returned by the review batch",
+   "Unresolved review item box:marker_01:2: not returned by the review batch",
+   "Unresolved review item box:marker_01:3: not returned by the review batch",
+   "Unresolved review item box:marker_01:4: not returned by the review batch",
+   "Unresolved review item box:marker_01:5: not returned by the review batch",
+   "Unresolved review item box:marker_01:6: not returned by the review batch",
+   "Unresolved review item tile:region_01: not returned by the review batch",
+   "Unresolved review item tile:region_02: not returned by the review batch",
+   "Unresolved review item evidence:dense_roi_native.png: not returned by the review batch",
+   "Unresolved review item evidence:dense_roi_line_suppressed.png: not returned by the review batch",
+   "Unresolved review item evidence:dense_roi_series_likelihood.png: not returned by the review batch",
+   "Unresolved review item evidence:dense_roi_proposed_assignments.png: not returned by the review batch",
+   "Unresolved review item slot:0001: not returned by the review batch",
+   "Unresolved review item slot:0002: not returned by the review batch",
+   "Unresolved review item slot:0003: not returned by the review batch",
+   "Unresolved review item slot:0004: not returned by the review batch",
+   "Unresolved review item slot:0005: not returned by the review batch",
+   "Unresolved review item slot:0006: not returned by the review batch",
+   "Unresolved review item slot:0007: not returned by the review batch",
+   "Unresolved review item slot:0008: not returned by the review batch",
+   "Unresolved review item slot:0009: not returned by the review batch",
+   "Unresolved review item slot:0010: not returned by the review batch",
+   "Unresolved review item slot:0011: not returned by the review batch",
+   "Unresolved review item slot:0012: not returned by the review batch",
+   "Unresolved review item slot:0013: not returned by the review batch",
+   "Unresolved review item slot:0014: not returned by the review batch",
+   "Unresolved review item slot:0015: not returned by the review batch",
+   "Unresolved review item slot:0016: not returned by the review batch",
+   "Unresolved review item slot:0017: not returned by the review batch",
+   "Unresolved review item slot:0018: not returned by the review batch",
+   "Unresolved review item slot:0019: not returned by the review batch",
+   "Unresolved review item slot:0020: not returned by the review batch",
+   "Unresolved review item slot:0021: not returned by the review batch"
+  ],
+  "coverage": [
+   {
+    "item_id": "tile:marker_01",
+    "item_type": "tile",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   },
+   {
+    "item_id": "box:marker_01:1",
+    "item_type": "box",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   },
+   {
+    "item_id": "box:marker_01:2",
+    "item_type": "box",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   },
+   {
+    "item_id": "box:marker_01:3",
+    "item_type": "box",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   },
+   {
+    "item_id": "box:marker_01:4",
+    "item_type": "box",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   },
+   {
+    "item_id": "box:marker_01:5",
+    "item_type": "box",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   },
+   {
+    "item_id": "box:marker_01:6",
+    "item_type": "box",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   },
+   {
+    "item_id": "tile:region_01",
+    "item_type": "tile",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   },
+   {
+    "item_id": "tile:region_02",
+    "item_type": "tile",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   },
+   {
+    "item_id": "evidence:dense_roi_native.png",
+    "item_type": "evidence",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   },
+   {
+    "item_id": "evidence:dense_roi_line_suppressed.png",
+    "item_type": "evidence",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   },
+   {
+    "item_id": "evidence:dense_roi_series_likelihood.png",
+    "item_type": "evidence",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   },
+   {
+    "item_id": "evidence:dense_roi_proposed_assignments.png",
+    "item_type": "evidence",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   },
+   {
+    "item_id": "slot:0001",
+    "item_type": "slot",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   },
+   {
+    "item_id": "slot:0002",
+    "item_type": "slot",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   },
+   {
+    "item_id": "slot:0003",
+    "item_type": "slot",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   },
+   {
+    "item_id": "slot:0004",
+    "item_type": "slot",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   },
+   {
+    "item_id": "slot:0005",
+    "item_type": "slot",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   },
+   {
+    "item_id": "slot:0006",
+    "item_type": "slot",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   },
+   {
+    "item_id": "slot:0007",
+    "item_type": "slot",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   },
+   {
+    "item_id": "slot:0008",
+    "item_type": "slot",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   },
+   {
+    "item_id": "slot:0009",
+    "item_type": "slot",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   },
+   {
+    "item_id": "slot:0010",
+    "item_type": "slot",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   },
+   {
+    "item_id": "slot:0011",
+    "item_type": "slot",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   },
+   {
+    "item_id": "slot:0012",
+    "item_type": "slot",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   },
+   {
+    "item_id": "slot:0013",
+    "item_type": "slot",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   },
+   {
+    "item_id": "slot:0014",
+    "item_type": "slot",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   },
+   {
+    "item_id": "slot:0015",
+    "item_type": "slot",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   },
+   {
+    "item_id": "slot:0016",
+    "item_type": "slot",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   },
+   {
+    "item_id": "slot:0017",
+    "item_type": "slot",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   },
+   {
+    "item_id": "slot:0018",
+    "item_type": "slot",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   },
+   {
+    "item_id": "slot:0019",
+    "item_type": "slot",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   },
+   {
+    "item_id": "slot:0020",
+    "item_type": "slot",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   },
+   {
+    "item_id": "slot:0021",
+    "item_type": "slot",
+    "status": "unresolved",
+    "detail": "not returned by the review batch"
+   }
+  ]
+ },
+ "edit_audit": {
+  "schema_version": "1.0",
+  "actor": "agent03_review_points",
+  "requested": 13,
+  "applied": 13,
+  "operations": [
+   {
+    "operation_index": 0,
+    "operation_id": "batch-001-op-delete-red-stroke",
+    "action": "delete",
+    "point_id": "pt-55d92ac7e23ba306",
+    "series_label": null,
+    "reason": "False detection on the thick red connecting stroke, not a distinct red circle marker.",
+    "source_evidence": "Native marker_01 box 1 at source pixel (195,374) shows continuous red stroke ink without a circular marker core.",
+    "actor": "agent03_review_points",
+    "status": "applied"
+   },
+   {
+    "operation_index": 1,
+    "operation_id": "batch-001-op-delete-black-stroke-01",
+    "action": "delete",
+    "point_id": "pt-4c6e05cd006f64ea",
+    "series_label": null,
+    "reason": "Black line pixel interpreted as a star; no distinct native star center is visible.",
+    "source_evidence": "Native source at (184,559) is the beginning of the continuous thick black low-pressure stroke.",
+    "actor": "agent03_review_points",
+    "status": "applied"
+   },
+   {
+    "operation_index": 2,
+    "operation_id": "batch-001-op-delete-black-stroke-02",
+    "action": "delete",
+    "point_id": "pt-bfec8f9fb210cc79",
+    "series_label": null,
+    "reason": "False black marker placed on the thick connecting stroke.",
+    "source_evidence": "Native source at (194,550) shows only continuous black stroke ink, without a separable star.",
+    "actor": "agent03_review_points",
+    "status": "applied"
+   },
+   {
+    "operation_index": 3,
+    "operation_id": "batch-001-op-delete-black-stroke-03",
+    "action": "delete",
+    "point_id": "pt-06f7a01f80387b5d",
+    "series_label": null,
+    "reason": "False black marker placed on the thick connecting stroke.",
+    "source_evidence": "Native source at (201,544) shows the uninterrupted black diagonal stroke, not a distinct star center.",
+    "actor": "agent03_review_points",
+    "status": "applied"
+   },
+   {
+    "operation_index": 4,
+    "operation_id": "batch-001-op-delete-black-stroke-04",
+    "action": "delete",
+    "point_id": "pt-0f8a479d7589a428",
+    "series_label": null,
+    "reason": "False black marker placed on line ink.",
+    "source_evidence": "Native source at (209,537) contains continuous black stroke pixels without a visible star shape.",
+    "actor": "agent03_review_points",
+    "status": "applied"
+   },
+   {
+    "operation_index": 5,
+    "operation_id": "batch-001-op-delete-black-stroke-05",
+    "action": "delete",
+    "point_id": "pt-46303aaa849a1e55",
+    "series_label": null,
+    "reason": "False detection from the thick black stroke.",
+    "source_evidence": "Native source at (218,529) shows only the broad diagonal black connecting line.",
+    "actor": "agent03_review_points",
+    "status": "applied"
+   },
+   {
+    "operation_index": 6,
+    "operation_id": "batch-001-op-delete-black-stroke-06",
+    "action": "delete",
+    "point_id": "pt-1d182363aad537d3",
+    "series_label": null,
+    "reason": "No separable black star is visible at this proposed center.",
+    "source_evidence": "Native source at (231,518) is continuous thick black line ink.",
+    "actor": "agent03_review_points",
+    "status": "applied"
+   },
+   {
+    "operation_index": 7,
+    "operation_id": "batch-001-op-delete-black-stroke-07",
+    "action": "delete",
+    "point_id": "pt-68a6d00afaf810f5",
+    "series_label": null,
+    "reason": "False detection on the black connecting stroke.",
+    "source_evidence": "Native source at (237,513) shows uninterrupted black stroke pixels, not a distinct star.",
+    "actor": "agent03_review_points",
+    "status": "applied"
+   },
+   {
+    "operation_index": 8,
+    "operation_id": "batch-001-op-delete-black-stroke-08",
+    "action": "delete",
+    "point_id": "pt-8dc994e6e008771f",
+    "series_label": null,
+    "reason": "False detection on line ink.",
+    "source_evidence": "Native source at (247,505) contains only the continuous thick black low-pressure line.",
+    "actor": "agent03_review_points",
+    "status": "applied"
+   },
+   {
+    "operation_index": 9,
+    "operation_id": "batch-001-op-delete-black-stroke-09",
+    "action": "delete",
+    "point_id": "pt-1fbb22a50cae30e9",
+    "series_label": null,
+    "reason": "False black point generated from the connecting stroke rather than a native star center.",
+    "source_evidence": "Native source at (256,497) shows broad black stroke ink without a distinct star.",
+    "actor": "agent03_review_points",
+    "status": "applied"
+   },
+   {
+    "operation_index": 10,
+    "operation_id": "batch-001-op-delete-black-stroke-10",
+    "action": "delete",
+    "point_id": "pt-9cc2953c98f20b09",
+    "series_label": null,
+    "reason": "False detection on the thick black stroke.",
+    "source_evidence": "Native source at (273,484) does not show a separable star marker at the proposed center.",
+    "actor": "agent03_review_points",
+    "status": "applied"
+   },
+   {
+    "operation_index": 11,
+    "operation_id": "batch-001-op-delete-black-stroke-11",
+    "action": "delete",
+    "point_id": "pt-e3b1a5a63748a505",
+    "series_label": null,
+    "reason": "False detection from continuous black line ink.",
+    "source_evidence": "Native source at (285,475) shows the thick connecting stroke without a distinct star.",
+    "actor": "agent03_review_points",
+    "status": "applied"
+   },
+   {
+    "operation_index": 12,
+    "operation_id": "batch-001-op-delete-black-stroke-12",
+    "action": "delete",
+    "point_id": "pt-f378c6e90a7d0d48",
+    "series_label": null,
+    "reason": "False detection on the black connecting stroke.",
+    "source_evidence": "Native source at (290,470) contains uninterrupted black stroke pixels and no distinct star center.",
+    "actor": "agent03_review_points",
+    "status": "applied"
+   }
+  ]
+ }
+}

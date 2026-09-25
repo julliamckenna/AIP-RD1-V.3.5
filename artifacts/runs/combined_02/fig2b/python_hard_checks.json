@@ -1,0 +1,147 @@
+{
+ "stage": "python",
+ "passed": true,
+ "problems": [],
+ "axis_range": {
+  "passed": true,
+  "problems": [],
+  "margin": 0.05,
+  "max_frame_overhang_steps": 1.0,
+  "x": {
+   "unit": "kPa",
+   "scale": "linear",
+   "printed": [
+    0.0,
+    120.0
+   ],
+   "data": [
+    1.4272,
+    117.6382
+   ],
+   "points_outside": 0,
+   "passed": true,
+   "frame": [
+    0.046347486973076,
+    119.953652513027
+   ],
+   "frame_overhang_steps": [
+    -0.0,
+    -0.0
+   ],
+   "allowed": [
+    -6.0,
+    126.0
+   ]
+  },
+  "y": {
+   "unit": "mmol/g",
+   "scale": "linear",
+   "printed": [
+    0.0,
+    3.0
+   ],
+   "data": [
+    0.0428,
+    3.0614
+   ],
+   "points_outside": 0,
+   "passed": true,
+   "frame": [
+    0.00047797539684557577,
+    3.112317929108702
+   ],
+   "frame_overhang_steps": [
+    -0.0,
+    0.22
+   ],
+   "allowed": [
+    -0.15000000000000002,
+    3.15
+   ]
+  }
+ },
+ "redraw": {
+  "available": true,
+  "series": {
+   "CO2 303K": {
+    "points": 14,
+    "precision": 1.0,
+    "recall": 0.981,
+    "missed_marker_equivalents": 0.3,
+    "same_color_group": [
+     "CO2 303K"
+    ]
+   },
+   "CO2 313K": {
+    "points": 18,
+    "precision": 1.0,
+    "recall": 1.0,
+    "missed_marker_equivalents": 0.0,
+    "same_color_group": [
+     "CO2 313K"
+    ]
+   },
+   "CO2 323K": {
+    "points": 19,
+    "precision": 1.0,
+    "recall": 0.961,
+    "missed_marker_equivalents": 0.7,
+    "same_color_group": [
+     "CO2 323K"
+    ]
+   },
+   "CO2 333K": {
+    "points": 18,
+    "precision": 0.333,
+    "recall": 0.022,
+    "missed_marker_equivalents": 19.1,
+    "same_color_group": [
+     "CO2 333K"
+    ]
+   },
+   "CO2 353K": {
+    "points": 12,
+    "precision": 1.0,
+    "recall": 0.378,
+    "missed_marker_equivalents": 19.6,
+    "same_color_group": [
+     "CO2 353K"
+    ]
+   },
+   "CO2 373K": {
+    "points": 31,
+    "precision": 1.0,
+    "recall": 0.922,
+    "missed_marker_equivalents": 2.2,
+    "same_color_group": [
+     "CO2 373K"
+    ]
+   }
+  },
+  "recall": 0.711,
+  "precision": 0.889
+ },
+ "physics": {
+  "verdict": "review",
+  "flags": {
+   "CO2 303K": [],
+   "CO2 313K": [],
+   "CO2 323K": [],
+   "CO2 333K": [],
+   "CO2 353K": [
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "ads: local outliers (P,q,resid) [(np.float64(13.576), np.float64(1.144), 0.084)]"
+    }
+   ],
+   "CO2 373K": []
+  },
+  "cross_series": [
+   {
+    "check": "t_ordering",
+    "detail": "CO2 353K exceeds CO2 333K at some pressures — series colors may be swapped"
+   }
+  ]
+ }
+}

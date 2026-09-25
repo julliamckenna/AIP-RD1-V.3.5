@@ -1,0 +1,627 @@
+{
+ "reasoning": "The printed axes are calibrated correctly: the source runs from 0 to 1200 mbar on x and 0 to 5 mmol/g on y, with the plot frame extending slightly beyond the outer ticks. The main extraction is spatially aligned, but coverage is incomplete for CO2 313K and CO2 323K, especially in the crowded low-pressure fan, and CO2 373K is affected by same-color ownership conflicts. The legend declarations need correction for the measured 323K, 343K, 363K and 373K glyph colors/shape. The source shows adsorption curves only; no separable desorption branch is present.",
+ "axis_check": {
+  "x": {
+   "printed_min": 0,
+   "printed_max": 1200,
+   "data_min": -3.7402,
+   "data_max": 1197.0525,
+   "reason": "The re-plotted curves use the same linear 0-1200 mbar scale as the source and align with the printed x ticks; the small negative value is an origin/marker-centre tolerance effect.",
+   "result": "pass"
+  },
+  "y": {
+   "printed_min": 0,
+   "printed_max": 5,
+   "data_min": 0.275,
+   "data_max": 5.0501,
+   "reason": "The re-plotted curves use the same linear 0-5 mmol/g scale as the source. The highest point is just above the 5 tick, matching the source, and the low-pressure points remain near the origin.",
+   "result": "pass"
+  }
+ },
+ "satisfied": false,
+ "issues": [
+  "CO2 313K is substantially under-extracted: 25 detected versus about 38 expected and recall is only 0.48.",
+  "CO2 323K is under-extracted in the crowded low-pressure region: 29 detected versus about 38 expected and recall is only 0.561.",
+  "CO2 373K has only 24 detected markers and is confused with the similarly colored CO2 293K and CO2 333K series.",
+  "Several CO2 303K/313K markers overlap or cross in the middle-pressure region and need spatial curve guidance.",
+  "Legend declarations have incorrect color for CO2 323K, CO2 343K and CO2 373K, and CO2 363K is a star rather than a pentagon."
+ ],
+ "structure_ok": true,
+ "chart_title": "",
+ "x_axis": {
+  "title": "P",
+  "unit": "mbar",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 1200,
+  "boundary_limits_confirmed": true,
+  "ticks": [
+   0,
+   200,
+   400,
+   600,
+   800,
+   1000,
+   1200
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.149355,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.247794,
+    "value": 200
+   },
+   {
+    "pixel_norm": 0.345553,
+    "value": 400
+   },
+   {
+    "pixel_norm": 0.443313,
+    "value": 600
+   },
+   {
+    "pixel_norm": 0.541072,
+    "value": 800
+   },
+   {
+    "pixel_norm": 0.638153,
+    "value": 1000
+   },
+   {
+    "pixel_norm": 0.735234,
+    "value": 1200
+   }
+  ]
+ },
+ "y_axis": {
+  "title": "CO2 Loading",
+  "unit": "mmol/g",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 5,
+  "boundary_limits_confirmed": true,
+  "ticks": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.803633,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.662883,
+    "value": 1
+   },
+   {
+    "pixel_norm": 0.522134,
+    "value": 2
+   },
+   {
+    "pixel_norm": 0.381385,
+    "value": 3
+   },
+   {
+    "pixel_norm": 0.240636,
+    "value": 4
+   },
+   {
+    "pixel_norm": 0.097616,
+    "value": 5
+   }
+  ]
+ },
+ "legend_bbox_norm": [
+  0.745417,
+  0,
+  0.997963,
+  0.884222
+ ],
+ "total_series": 17,
+ "series": [
+  {
+   "label": "CO2 273K",
+   "marker": "square",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#050505",
+   "notes": ""
+  },
+  {
+   "label": "CO2 283K",
+   "marker": "hexagon",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#ed2929",
+   "notes": ""
+  },
+  {
+   "label": "CO2 293K",
+   "marker": "triangle_up",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#3b55a0",
+   "notes": ""
+  },
+  {
+   "label": "CO2 303K",
+   "marker": "triangle_down",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#258f8b",
+   "notes": ""
+  },
+  {
+   "label": "CO2 313K",
+   "marker": "triangle_left",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#bd5795",
+   "notes": ""
+  },
+  {
+   "label": "CO2 323K",
+   "marker": "triangle_right",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#76792b",
+   "notes": "Corrected to the olive color measured from the legend glyph."
+  },
+  {
+   "label": "CO2 333K",
+   "marker": "diamond",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#303778",
+   "notes": ""
+  },
+  {
+   "label": "CO2 343K",
+   "marker": "pentagon",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#7b0f13",
+   "notes": "Corrected to the dark red color measured from the legend glyph."
+  },
+  {
+   "label": "CO2 353K",
+   "marker": "diamond",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#ed2b77",
+   "notes": ""
+  },
+  {
+   "label": "CO2 363K",
+   "marker": "star",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#197b35",
+   "notes": "Corrected from pentagon to the green star shown in the source legend."
+  },
+  {
+   "label": "CO2 373K",
+   "marker": "circle",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#2a2b86",
+   "notes": "Corrected to the dark blue color measured from the legend glyph."
+  },
+  {
+   "label": "N2 273K",
+   "marker": "hexagon",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#8d2a88",
+   "notes": "Excluded N2 series; retained in legend order."
+  },
+  {
+   "label": "N2 293K",
+   "marker": "triangle_up",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#63559c",
+   "notes": "Excluded N2 series; retained in legend order."
+  },
+  {
+   "label": "N2 313K",
+   "marker": "triangle_down",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#111111",
+   "notes": "Excluded N2 series; retained in legend order."
+  },
+  {
+   "label": "N2 333K",
+   "marker": "triangle_left",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#ef3d36",
+   "notes": "Excluded N2 series; retained in legend order."
+  },
+  {
+   "label": "N2 353K",
+   "marker": "triangle_right",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#496caa",
+   "notes": "Excluded N2 series; retained in legend order."
+  },
+  {
+   "label": "N2 373K",
+   "marker": "diamond",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#238c85",
+   "notes": "Excluded N2 series; retained in legend order; the small source glyph is read as a diamond despite raster measurement ambiguity."
+  }
+ ],
+ "branches": "adsorption_only",
+ "complex_regions": [
+  {
+   "bbox_norm": [
+    0.101,
+    0.52,
+    0.198,
+    0.783
+   ],
+   "kind": "dense_markers",
+   "python_passes": 4
+  },
+  {
+   "bbox_norm": [
+    0.32,
+    0.32,
+    0.53,
+    0.43
+   ],
+   "kind": "overlapping_markers",
+   "python_passes": 3
+  }
+ ],
+ "extraction_settings": [
+  {
+   "label": "CO2 313K",
+   "color_tolerance": 28,
+   "separate_from": [
+    "CO2 303K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 20,
+     "y_min": 0,
+     "y_max": 1.8
+    },
+    {
+     "x_from": 20,
+     "x_to": 150,
+     "y_min": 1.4,
+     "y_max": 2.7
+    },
+    {
+     "x_from": 150,
+     "x_to": 450,
+     "y_min": 2.4,
+     "y_max": 3.05
+    },
+    {
+     "x_from": 450,
+     "x_to": 1200,
+     "y_min": 2.95,
+     "y_max": 3.55
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "The triangle-left CO2 313K curve is crowded with CO2 303K at low and intermediate pressure; use its curve position and shape to recover missing markers without accepting rival-color points.",
+   "sample_marker_norm": [
+    0.638,
+    0.337
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 20,
+     "count": 8
+    },
+    {
+     "x_from": 20,
+     "x_to": 150,
+     "count": 8
+    },
+    {
+     "x_from": 150,
+     "x_to": 450,
+     "count": 9
+    },
+    {
+     "x_from": 450,
+     "x_to": 1200,
+     "count": 13
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 5,
+     "y": 0.45
+    },
+    {
+     "x": 10,
+     "y": 0.95
+    },
+    {
+     "x": 20,
+     "y": 1.45
+    },
+    {
+     "x": 50,
+     "y": 2.05
+    },
+    {
+     "x": 100,
+     "y": 2.4
+    },
+    {
+     "x": 200,
+     "y": 2.7
+    },
+    {
+     "x": 400,
+     "y": 2.95
+    },
+    {
+     "x": 600,
+     "y": 3.12
+    },
+    {
+     "x": 800,
+     "y": 3.25
+    },
+    {
+     "x": 1000,
+     "y": 3.38
+    },
+    {
+     "x": 1200,
+     "y": 3.47
+    }
+   ]
+  },
+  {
+   "label": "CO2 323K",
+   "color_tolerance": 24,
+   "separate_from": [
+    "CO2 333K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 20,
+     "y_min": 0,
+     "y_max": 1.5
+    },
+    {
+     "x_from": 20,
+     "x_to": 150,
+     "y_min": 1.1,
+     "y_max": 2.3
+    },
+    {
+     "x_from": 150,
+     "x_to": 450,
+     "y_min": 2.15,
+     "y_max": 2.75
+    },
+    {
+     "x_from": 450,
+     "x_to": 1200,
+     "y_min": 2.7,
+     "y_max": 3.2
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Many triangle-right markers are lost in the dense low-pressure fan and among the nearby CO2 333K diamonds; use the corrected olive color and curve band.",
+   "sample_marker_norm": [
+    0.638,
+    0.38
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 20,
+     "count": 8
+    },
+    {
+     "x_from": 20,
+     "x_to": 150,
+     "count": 8
+    },
+    {
+     "x_from": 150,
+     "x_to": 450,
+     "count": 9
+    },
+    {
+     "x_from": 450,
+     "x_to": 1200,
+     "count": 13
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 5,
+     "y": 0.35
+    },
+    {
+     "x": 10,
+     "y": 0.75
+    },
+    {
+     "x": 20,
+     "y": 1.15
+    },
+    {
+     "x": 50,
+     "y": 1.7
+    },
+    {
+     "x": 100,
+     "y": 2.0
+    },
+    {
+     "x": 200,
+     "y": 2.35
+    },
+    {
+     "x": 400,
+     "y": 2.65
+    },
+    {
+     "x": 600,
+     "y": 2.82
+    },
+    {
+     "x": 800,
+     "y": 2.98
+    },
+    {
+     "x": 1000,
+     "y": 3.08
+    },
+    {
+     "x": 1200,
+     "y": 3.12
+    }
+   ]
+  },
+  {
+   "label": "CO2 373K",
+   "color_tolerance": 22,
+   "separate_from": [
+    "CO2 293K",
+    "CO2 333K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 20,
+     "y_min": 0,
+     "y_max": 0.65
+    },
+    {
+     "x_from": 20,
+     "x_to": 150,
+     "y_min": 0.35,
+     "y_max": 1.25
+    },
+    {
+     "x_from": 150,
+     "x_to": 450,
+     "y_min": 0.8,
+     "y_max": 1.55
+    },
+    {
+     "x_from": 450,
+     "x_to": 1200,
+     "y_min": 1.35,
+     "y_max": 2.1
+    }
+   ],
+   "template_fill": "off",
+   "reason": "The dark-blue circles are confused with the blue CO2 293K triangles and CO2 333K diamonds; use shape, corrected color and the low curve band rather than broad color ownership.",
+   "sample_marker_norm": [
+    0.638,
+    0.535
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 20,
+     "count": 8
+    },
+    {
+     "x_from": 20,
+     "x_to": 150,
+     "count": 8
+    },
+    {
+     "x_from": 150,
+     "x_to": 450,
+     "count": 9
+    },
+    {
+     "x_from": 450,
+     "x_to": 1200,
+     "count": 13
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 5,
+     "y": 0.2
+    },
+    {
+     "x": 10,
+     "y": 0.4
+    },
+    {
+     "x": 20,
+     "y": 0.65
+    },
+    {
+     "x": 50,
+     "y": 0.9
+    },
+    {
+     "x": 100,
+     "y": 1.15
+    },
+    {
+     "x": 200,
+     "y": 1.4
+    },
+    {
+     "x": 400,
+     "y": 1.65
+    },
+    {
+     "x": 600,
+     "y": 1.8
+    },
+    {
+     "x": 800,
+     "y": 1.9
+    },
+    {
+     "x": 1000,
+     "y": 2.0
+    },
+    {
+     "x": 1200,
+     "y": 2.05
+    }
+   ]
+  }
+ ],
+ "notes": "Calibration passed. Retain excluded N2 legend series but extract only the CO2 series. The low-pressure fan and the CO2 303K/313K crossing region require additional spatial ownership passes.",
+ "region_strategies": [],
+ "shared_x_columns": []
+}

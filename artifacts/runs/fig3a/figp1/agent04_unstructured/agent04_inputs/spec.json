@@ -1,0 +1,769 @@
+{
+ "image": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\fig3a\\figp1\\panel.png",
+ "panel_bbox": [
+  0,
+  0,
+  700,
+  607
+ ],
+ "x": {
+  "title": "Relative Pressure (P/P₀)",
+  "unit": "dimensionless",
+  "scale": "linear",
+  "ticks": [
+   0,
+   0.2,
+   0.4,
+   0.6,
+   0.8,
+   1
+  ],
+  "x_setpoints_visible": [
+   0,
+   0.03,
+   0.06,
+   0.1,
+   0.13,
+   0.17,
+   0.2,
+   0.24,
+   0.27,
+   0.31,
+   0.35,
+   0.39,
+   0.43,
+   0.47,
+   0.51,
+   0.55,
+   0.59,
+   0.63,
+   0.67,
+   0.71,
+   0.75,
+   0.79,
+   0.83,
+   0.87,
+   0.91,
+   0.94,
+   0.97,
+   1
+  ],
+  "grid": [
+   0,
+   0.03,
+   0.06,
+   0.1,
+   0.13,
+   0.17,
+   0.2,
+   0.24,
+   0.27,
+   0.31,
+   0.35,
+   0.39,
+   0.43,
+   0.47,
+   0.51,
+   0.55,
+   0.59,
+   0.63,
+   0.67,
+   0.71,
+   0.75,
+   0.79,
+   0.83,
+   0.87,
+   0.91,
+   0.94,
+   0.97,
+   1
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.2129,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.3514,
+    "value": 0.2
+   },
+   {
+    "pixel_norm": 0.49,
+    "value": 0.4
+   },
+   {
+    "pixel_norm": 0.6286,
+    "value": 0.6
+   },
+   {
+    "pixel_norm": 0.7671,
+    "value": 0.8
+   },
+   {
+    "pixel_norm": 0.9057,
+    "value": 1
+   }
+  ],
+  "minimum": 0,
+  "maximum": 1,
+  "boundary_limits_confirmed": true
+ },
+ "y": {
+  "title": "Uptake",
+  "unit": "cm³ g⁻¹",
+  "scale": "linear",
+  "ticks": [
+   0,
+   20,
+   40,
+   60,
+   80,
+   100,
+   120,
+   140
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.1137,
+    "value": 140
+   },
+   {
+    "pixel_norm": 0.2076,
+    "value": 120
+   },
+   {
+    "pixel_norm": 0.3015,
+    "value": 100
+   },
+   {
+    "pixel_norm": 0.3954,
+    "value": 80
+   },
+   {
+    "pixel_norm": 0.488,
+    "value": 60
+   },
+   {
+    "pixel_norm": 0.5848,
+    "value": 40
+   },
+   {
+    "pixel_norm": 0.6787,
+    "value": 20
+   },
+   {
+    "pixel_norm": 0.7727,
+    "value": 0
+   }
+  ],
+  "minimum": 0,
+  "maximum": 140,
+  "boundary_limits_confirmed": true
+ },
+ "legend_bbox": [
+  448,
+  108,
+  665,
+  467
+ ],
+ "legend_position": "right side inside plot, with separate upper-right and lower-right direct labels",
+ "series": [
+  {
+   "label": "CO2 195K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Direct upper-right plot annotation 'CO2@195 K' adjacent to the blue high-uptake series.",
+   "marker": "circle",
+   "marker_fill": "open",
+   "line_style": "solid",
+   "color_hex": "#5875F3",
+   "quantity_type": "co2_uptake",
+   "loading_basis": "per gram of adsorbent",
+   "y_at_xmax": 128,
+   "y_anchors": {
+    "p25": 123,
+    "p50": 124,
+    "p75": 125,
+    "p100": 128
+   },
+   "n_markers_estimate": 80,
+   "color_tolerance": 26.0,
+   "separate_from": [
+    "N2 77K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.02,
+     "y_min": 0,
+     "y_max": 110
+    },
+    {
+     "x_from": 0.02,
+     "x_to": 0.06,
+     "y_min": 70,
+     "y_max": 123
+    },
+    {
+     "x_from": 0.06,
+     "x_to": 0.3,
+     "y_min": 115,
+     "y_max": 126
+    },
+    {
+     "x_from": 0.3,
+     "x_to": 0.85,
+     "y_min": 118,
+     "y_max": 127
+    },
+    {
+     "x_from": 0.85,
+     "x_to": 1,
+     "y_min": 120,
+     "y_max": 130
+    }
+   ],
+   "template_fill": "fit_only",
+   "setting_reason": "The blue curve is correct in value but many open rings are missed, particularly in the dense low-pressure strip and the long plateau. Use curve guidance and the clean plateau color while excluding the inset and annotations.",
+   "sample_px": [
+    557.9,
+    111.7
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 0.02,
+     "count": 20
+    },
+    {
+     "x_from": 0.02,
+     "x_to": 0.06,
+     "count": 20
+    },
+    {
+     "x_from": 0.06,
+     "x_to": 0.3,
+     "count": 20
+    },
+    {
+     "x_from": 0.3,
+     "x_to": 1,
+     "count": 20
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 0.003,
+     "y": 20.0
+    },
+    {
+     "x": 0.006,
+     "y": 42.0
+    },
+    {
+     "x": 0.01,
+     "y": 65.0
+    },
+    {
+     "x": 0.014,
+     "y": 88.0
+    },
+    {
+     "x": 0.02,
+     "y": 104.0
+    },
+    {
+     "x": 0.03,
+     "y": 116.0
+    },
+    {
+     "x": 0.05,
+     "y": 120.0
+    },
+    {
+     "x": 0.1,
+     "y": 122.0
+    },
+    {
+     "x": 0.2,
+     "y": 123.0
+    },
+    {
+     "x": 0.4,
+     "y": 123.5
+    },
+    {
+     "x": 0.7,
+     "y": 124.5
+    },
+    {
+     "x": 0.9,
+     "y": 125.0
+    },
+    {
+     "x": 1.0,
+     "y": 128.0
+    }
+   ]
+  },
+  {
+   "label": "N2 77K",
+   "extract": false,
+   "gas": "N2",
+   "species_evidence": "Direct lower-right plot annotation 'N2@77 K' adjacent to the coral near-zero-uptake series.",
+   "marker": "circle",
+   "marker_fill": "open",
+   "line_style": "solid",
+   "color_hex": "#F36B67",
+   "quantity_type": "n2_uptake",
+   "loading_basis": "per gram of adsorbent",
+   "y_at_xmax": 3,
+   "y_anchors": {
+    "p25": 1,
+    "p50": 0.5,
+    "p75": 0.4,
+    "p100": 3
+   },
+   "n_markers_estimate": 29,
+   "color_tolerance": 28.0,
+   "separate_from": [
+    "CO2 195K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.8,
+     "y_min": 0,
+     "y_max": 2
+    },
+    {
+     "x_from": 0.8,
+     "x_to": 0.97,
+     "y_min": 0,
+     "y_max": 2
+    },
+    {
+     "x_from": 0.97,
+     "x_to": 1,
+     "y_min": 0,
+     "y_max": 4
+    }
+   ],
+   "template_fill": "off",
+   "setting_reason": "The coral open-circle series runs along the zero-uptake axis and rises slightly only at the final points. It is clearly present but was disabled in the prior structure; extract it using the clean coral sample and narrow near-axis bands.",
+   "sample_px": [
+    585.9,
+    466.8
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 0.8,
+     "count": 20
+    },
+    {
+     "x_from": 0.8,
+     "x_to": 0.97,
+     "count": 7
+    },
+    {
+     "x_from": 0.97,
+     "x_to": 1,
+     "count": 2
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.5
+    },
+    {
+     "x": 0.1,
+     "y": 0.8
+    },
+    {
+     "x": 0.3,
+     "y": 0.7
+    },
+    {
+     "x": 0.5,
+     "y": 0.7
+    },
+    {
+     "x": 0.7,
+     "y": 0.8
+    },
+    {
+     "x": 0.85,
+     "y": 0.9
+    },
+    {
+     "x": 0.95,
+     "y": 1.2
+    },
+    {
+     "x": 1.0,
+     "y": 3.0
+    }
+   ]
+  }
+ ],
+ "mask_bboxes": [
+  [
+   247,
+   173,
+   540,
+   440
+  ]
+ ],
+ "context": {
+  "adsorbent": "Not identified in the available image or source context.",
+  "sample_form": "Not reported.",
+  "activation": "Not reported.",
+  "instrument": "Not reported.",
+  "measurement_notes": "CO2 uptake is plotted at 195 K against relative pressure P/P0, with uptake reported in cm³ g⁻¹. The same main frame also shows N2 at 77 K. The inset is an embedded uptake-versus-relative-pressure chart and is excluded from extraction.",
+  "other_parameters": "The inset marks relative-pressure points P/P0 = 0.017 and 0.030, but inset measurements are source context only. Adsorption/desorption branch assignments are not explicitly identified."
+ },
+ "panel_info": {
+  "panel": "x",
+  "is_co2_isotherm": true,
+  "reason": "The main axis directly plots uptake (cm³ g⁻¹) versus relative pressure (P/P0), including a series explicitly labeled CO2@195 K; the accompanying N2 series does not affect eligibility.",
+  "bbox_norm": [
+   0.02,
+   0.01,
+   0.98,
+   0.99
+  ],
+  "has_inset": true,
+  "inset_bbox_norm": [
+   0.36,
+   0.29,
+   0.76,
+   0.72
+  ]
+ },
+ "panel_mapping": {
+  "runtime_panel_id": "x",
+  "layout_panel_id": "x",
+  "canonical_panel_id": "x"
+ },
+ "llm_spec": {
+  "reasoning": "The main linear axis contains two directly annotated uptake isotherms. The upper blue open-circle series is bound to CO2 by the annotation 'CO2@195 K' and is eligible for extraction; the lower coral open-circle series is explicitly 'N2@77 K' and is retained only for series discrimination. The embedded log-pressure inset is excluded from all readings. Closely overlapping points at low relative pressure make branch assignment uncertain.",
+  "x": {
+   "title": "Relative Pressure (P/P₀)",
+   "unit": "dimensionless",
+   "scale": "linear",
+   "ticks": [
+    0,
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1
+   ],
+   "x_setpoints_visible": [
+    0,
+    0.03,
+    0.06,
+    0.1,
+    0.13,
+    0.17,
+    0.2,
+    0.24,
+    0.27,
+    0.31,
+    0.35,
+    0.39,
+    0.43,
+    0.47,
+    0.51,
+    0.55,
+    0.59,
+    0.63,
+    0.67,
+    0.71,
+    0.75,
+    0.79,
+    0.83,
+    0.87,
+    0.91,
+    0.94,
+    0.97,
+    1
+   ],
+   "grid": [
+    0,
+    0.03,
+    0.06,
+    0.1,
+    0.13,
+    0.17,
+    0.2,
+    0.24,
+    0.27,
+    0.31,
+    0.35,
+    0.39,
+    0.43,
+    0.47,
+    0.51,
+    0.55,
+    0.59,
+    0.63,
+    0.67,
+    0.71,
+    0.75,
+    0.79,
+    0.83,
+    0.87,
+    0.91,
+    0.94,
+    0.97,
+    1
+   ],
+   "tick_anchors": [
+    {
+     "pixel_norm": 0.2129,
+     "value": 0
+    },
+    {
+     "pixel_norm": 0.3514,
+     "value": 0.2
+    },
+    {
+     "pixel_norm": 0.49,
+     "value": 0.4
+    },
+    {
+     "pixel_norm": 0.6286,
+     "value": 0.6
+    },
+    {
+     "pixel_norm": 0.7671,
+     "value": 0.8
+    },
+    {
+     "pixel_norm": 0.9057,
+     "value": 1
+    }
+   ],
+   "minimum": 0,
+   "maximum": 1,
+   "boundary_limits_confirmed": true
+  },
+  "y": {
+   "title": "Uptake",
+   "unit": "cm³ g⁻¹",
+   "scale": "linear",
+   "ticks": [
+    0,
+    20,
+    40,
+    60,
+    80,
+    100,
+    120,
+    140
+   ],
+   "tick_anchors": [
+    {
+     "pixel_norm": 0.1137,
+     "value": 140
+    },
+    {
+     "pixel_norm": 0.2076,
+     "value": 120
+    },
+    {
+     "pixel_norm": 0.3015,
+     "value": 100
+    },
+    {
+     "pixel_norm": 0.3954,
+     "value": 80
+    },
+    {
+     "pixel_norm": 0.488,
+     "value": 60
+    },
+    {
+     "pixel_norm": 0.5848,
+     "value": 40
+    },
+    {
+     "pixel_norm": 0.6787,
+     "value": 20
+    },
+    {
+     "pixel_norm": 0.7727,
+     "value": 0
+    }
+   ],
+   "minimum": 0,
+   "maximum": 140,
+   "boundary_limits_confirmed": true
+  },
+  "legend_position": "right side inside plot, with separate upper-right and lower-right direct labels",
+  "series": [
+   {
+    "label": "CO2 195K",
+    "gas": "CO2",
+    "species_evidence": "Direct upper-right plot annotation 'CO2@195 K' adjacent to the blue high-uptake series.",
+    "temperature_k": 195,
+    "color_name": "blue",
+    "color_hex": "#5875F3",
+    "marker": "circle",
+    "marker_fill": "open",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "co2_uptake",
+    "loading_basis": "per gram of adsorbent",
+    "extract": true,
+    "y_anchors": {
+     "p25": 123,
+     "p50": 124,
+     "p75": 125,
+     "p100": 128
+    },
+    "n_markers_estimate": 80
+   },
+   {
+    "label": "N2 77K",
+    "gas": "N2",
+    "species_evidence": "Direct lower-right plot annotation 'N2@77 K' adjacent to the coral near-zero-uptake series.",
+    "temperature_k": 77,
+    "color_name": "coral red",
+    "color_hex": "#F36B67",
+    "marker": "circle",
+    "marker_fill": "open",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "n2_uptake",
+    "loading_basis": "per gram of adsorbent",
+    "extract": false,
+    "y_anchors": {
+     "p25": 1,
+     "p50": 0.5,
+     "p75": 0.4,
+     "p100": 3
+    },
+    "n_markers_estimate": 29
+   }
+  ],
+  "branches": "adsorption_only",
+  "notes": "An embedded inset occupies approximately [0.35, 0.28, 0.74, 0.65] of the image and uses a logarithmic relative-pressure axis; it is excluded from ticks, setpoints, marker counts, anchors, and extraction. The inset labels P/P0 = 0.017 and 0.030 are context only. No error bars or dual y-axis are visible. Both main-panel series use open circles with connecting solid lines; possible overlapping adsorption/desorption traces cannot be assigned confidently.",
+  "chart_title": "",
+  "complex_regions": [
+   {
+    "bbox_norm": [
+     0.205,
+     0.11,
+     0.29,
+     0.775
+    ],
+    "kind": "dense_markers",
+    "python_passes": 5
+   },
+   {
+    "bbox_norm": [
+     0.355,
+     0.286,
+     0.739,
+     0.644
+    ],
+    "kind": "inset",
+    "python_passes": 3
+   },
+   {
+    "bbox_norm": [
+     0.65,
+     0.1895,
+     0.94,
+     0.7595
+    ],
+    "kind": "annotation",
+    "python_passes": 3
+   }
+  ],
+  "legend_bbox_norm": [
+   0.65,
+   0.1895,
+   0.94,
+   0.7595
+  ]
+ },
+ "vector_marks": null,
+ "region_strategies": [
+  {
+   "bbox_norm": [
+    0.355,
+    0.286,
+    0.739,
+    0.644
+   ],
+   "series_labels": [],
+   "strategy": "ignore",
+   "reason": "Inset plot with its own axes and blue markers; exclude from the main-panel series.",
+   "bbox_px": [
+    248,
+    173,
+    517,
+    391
+   ]
+  },
+  {
+   "bbox_norm": [
+    0.65,
+    0.1895,
+    0.94,
+    0.7595
+   ],
+   "series_labels": [],
+   "strategy": "ignore",
+   "reason": "Plot annotations and label text around the upper-right and lower-right curves; exclude text from marker extraction.",
+   "bbox_px": [
+    455,
+    115,
+    658,
+    461
+   ]
+  }
+ ],
+ "shared_x_columns": [],
+ "complex_regions": [
+  {
+   "bbox_norm": [
+    0.205,
+    0.11,
+    0.29,
+    0.775
+   ],
+   "kind": "dense_markers",
+   "python_passes": 5
+  },
+  {
+   "bbox_norm": [
+    0.355,
+    0.286,
+    0.739,
+    0.644
+   ],
+   "kind": "inset",
+   "python_passes": 3
+  },
+  {
+   "bbox_norm": [
+    0.65,
+    0.1895,
+    0.94,
+    0.7595
+   ],
+   "kind": "annotation",
+   "python_passes": 3
+  }
+ ]
+}

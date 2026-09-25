@@ -1,0 +1,373 @@
+{
+ "reasoning": "The native ambiguity crops show source-supported magenta left-triangle and olive right-triangle CO2 marker glyphs in the crowded low-pressure region that were not represented by Python point rows. I added one supported marker of each series in each of ambiguity crops 001-007, using broad uncertainties because the glyphs are overlapped. Crops 008-011 confirm the black CO2 273K square sequence without a supported positional correction. Crops 012-014 show black N2 313K triangles in the low band rather than omitted CO2 markers, so no CO2 additions are made there. The CO2 313K and 323K series remain incomplete because this batch does not expose enough unambiguous native marker centers to recover all of the reported shortfall.",
+ "verdict": "review",
+ "series": [
+  {
+   "label": "CO2 273K",
+   "coverage": "complete",
+   "final_count": 39,
+   "comment": "Native crops 001-011 were checked; the black square sequence is supported and no safe edit is required."
+  },
+  {
+   "label": "CO2 283K",
+   "coverage": "complete",
+   "final_count": 35,
+   "comment": "No source-supported correction was found in the reviewed ambiguity regions."
+  },
+  {
+   "label": "CO2 293K",
+   "coverage": "complete",
+   "final_count": 44,
+   "comment": "No source-supported correction was found in the reviewed ambiguity regions."
+  },
+  {
+   "label": "CO2 303K",
+   "coverage": "complete",
+   "final_count": 45,
+   "comment": "No source-supported correction was found in the reviewed ambiguity regions."
+  },
+  {
+   "label": "CO2 313K",
+   "coverage": "incomplete",
+   "final_count": 22,
+   "comment": "Added seven native-supported magenta left-triangle markers, but other low-pressure markers remain unresolved."
+  },
+  {
+   "label": "CO2 323K",
+   "coverage": "incomplete",
+   "final_count": 28,
+   "comment": "Added seven native-supported olive right-triangle markers, but other low-pressure markers remain unresolved."
+  },
+  {
+   "label": "CO2 333K",
+   "coverage": "complete",
+   "final_count": 37,
+   "comment": "No source-supported correction was found in the reviewed ambiguity regions."
+  },
+  {
+   "label": "CO2 343K",
+   "coverage": "complete",
+   "final_count": 35,
+   "comment": "No source-supported correction was found in the reviewed ambiguity regions."
+  },
+  {
+   "label": "CO2 353K",
+   "coverage": "complete",
+   "final_count": 35,
+   "comment": "No source-supported correction was found in the reviewed ambiguity regions."
+  },
+  {
+   "label": "CO2 363K",
+   "coverage": "complete",
+   "final_count": 34,
+   "comment": "No source-supported correction was found in the reviewed ambiguity regions."
+  },
+  {
+   "label": "CO2 373K",
+   "coverage": "complete",
+   "final_count": 32,
+   "comment": "No source-supported correction was found in the reviewed ambiguity regions."
+  }
+ ],
+ "operations": [
+  {
+   "operation_id": "op-add-313-001",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 313K",
+   "x_norm": 0.174897,
+   "y_norm": 0.563526,
+   "overlap": true,
+   "reason": "Visible magenta filled left-triangle glyph in the crowded low-pressure crop; its color and left-pointing silhouette support a CO2 313K marker.",
+   "source_evidence": "At approximately panel pixel (255,515), a magenta filled left-triangle marker is visibly distinct from the adjacent teal and blue glyphs.",
+   "evidence_kind": "partial_marker",
+   "uncertainty_px": 4.5,
+   "evidence_ref": "ambiguity:ambiguity_001_native.png"
+  },
+  {
+   "operation_id": "op-add-323-001",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 323K",
+   "x_norm": 0.184499,
+   "y_norm": 0.58598,
+   "overlap": true,
+   "reason": "Visible olive filled right-triangle fragment in the same crowded crop supports an omitted CO2 323K marker.",
+   "source_evidence": "At approximately panel pixel (269,535), the olive right-pointing marker body and adjoining line are visible at the crop's right side.",
+   "evidence_kind": "partial_marker",
+   "uncertainty_px": 5.5,
+   "evidence_ref": "ambiguity:ambiguity_001_native.png"
+  },
+  {
+   "operation_id": "op-add-313-002",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 313K",
+   "x_norm": 0.185871,
+   "y_norm": 0.524644,
+   "overlap": true,
+   "reason": "Visible magenta filled left-triangle glyph supports an omitted CO2 313K point despite overlap with neighboring curves.",
+   "source_evidence": "At approximately panel pixel (271,479), a magenta left-pointing triangular glyph is visible in the native crop.",
+   "evidence_kind": "partial_marker",
+   "uncertainty_px": 4.5,
+   "evidence_ref": "ambiguity:ambiguity_002_native.png"
+  },
+  {
+   "operation_id": "op-add-323-002",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 323K",
+   "x_norm": 0.193416,
+   "y_norm": 0.54655,
+   "overlap": true,
+   "reason": "Visible olive filled right-triangle fragment supports an omitted CO2 323K point.",
+   "source_evidence": "At approximately panel pixel (282,499), the olive right-triangle fragment is visible along the right side of the native crop.",
+   "evidence_kind": "partial_marker",
+   "uncertainty_px": 5.5,
+   "evidence_ref": "ambiguity:ambiguity_002_native.png"
+  },
+  {
+   "operation_id": "op-add-313-003",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 313K",
+   "x_norm": 0.1893,
+   "y_norm": 0.531216,
+   "overlap": true,
+   "reason": "Native magenta left-triangle pixels form a supported marker center in the overlapping low-pressure strip.",
+   "source_evidence": "At approximately panel pixel (276,486), the magenta filled left-pointing glyph is visible between the blue and teal curves.",
+   "evidence_kind": "partial_marker",
+   "uncertainty_px": 4.5,
+   "evidence_ref": "ambiguity:ambiguity_003_native.png"
+  },
+  {
+   "operation_id": "op-add-323-003",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 323K",
+   "x_norm": 0.196159,
+   "y_norm": 0.552574,
+   "overlap": true,
+   "reason": "Native olive right-triangle pixels support an omitted CO2 323K marker.",
+   "source_evidence": "At approximately panel pixel (286,505), an olive right-pointing triangular fragment and its line are visible.",
+   "evidence_kind": "partial_marker",
+   "uncertainty_px": 5.5,
+   "evidence_ref": "ambiguity:ambiguity_003_native.png"
+  },
+  {
+   "operation_id": "op-add-313-004",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 313K",
+   "x_norm": 0.192729,
+   "y_norm": 0.50931,
+   "overlap": true,
+   "reason": "Visible magenta filled left-triangle glyph supports a CO2 313K marker in the native overlap.",
+   "source_evidence": "At approximately panel pixel (281,466), the magenta left-pointing marker body is visible above the olive curve.",
+   "evidence_kind": "partial_marker",
+   "uncertainty_px": 4.5,
+   "evidence_ref": "ambiguity:ambiguity_004_native.png"
+  },
+  {
+   "operation_id": "op-add-323-004",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 323K",
+   "x_norm": 0.201646,
+   "y_norm": 0.533406,
+   "overlap": true,
+   "reason": "Visible olive right-triangle fragment supports an omitted CO2 323K marker.",
+   "source_evidence": "At approximately panel pixel (293,487), the olive right-pointing glyph is visible in the lower-right overlap.",
+   "evidence_kind": "partial_marker",
+   "uncertainty_px": 5.5,
+   "evidence_ref": "ambiguity:ambiguity_004_native.png"
+  },
+  {
+   "operation_id": "op-add-313-005",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 313K",
+   "x_norm": 0.209877,
+   "y_norm": 0.479737,
+   "overlap": true,
+   "reason": "Native crop shows a supported magenta filled left-triangle marker amid the red, teal, and blue curves.",
+   "source_evidence": "At approximately panel pixel (306,438), the magenta left-triangle glyph is visible with a continuous magenta line.",
+   "evidence_kind": "partial_marker",
+   "uncertainty_px": 4.5,
+   "evidence_ref": "ambiguity:ambiguity_005_native.png"
+  },
+  {
+   "operation_id": "op-add-323-005",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 323K",
+   "x_norm": 0.219479,
+   "y_norm": 0.503834,
+   "overlap": true,
+   "reason": "Native olive right-triangle fragment supports an omitted CO2 323K marker.",
+   "source_evidence": "At approximately panel pixel (320,460), the olive right-pointing marker fragment and line are visible at the lower-right of the crop.",
+   "evidence_kind": "partial_marker",
+   "uncertainty_px": 5.5,
+   "evidence_ref": "ambiguity:ambiguity_005_native.png"
+  },
+  {
+   "operation_id": "op-add-313-006",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 313K",
+   "x_norm": 0.21262,
+   "y_norm": 0.476451,
+   "overlap": true,
+   "reason": "Visible magenta filled left-triangle glyph supports a separate CO2 313K marker in the adjacent native crop.",
+   "source_evidence": "At approximately panel pixel (310,435), the magenta triangular marker and its connected stroke are visible despite overlap.",
+   "evidence_kind": "partial_marker",
+   "uncertainty_px": 4.5,
+   "evidence_ref": "ambiguity:ambiguity_006_native.png"
+  },
+  {
+   "operation_id": "op-add-323-006",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 323K",
+   "x_norm": 0.222222,
+   "y_norm": 0.501643,
+   "overlap": true,
+   "reason": "Visible olive right-triangle fragment supports a CO2 323K marker.",
+   "source_evidence": "At approximately panel pixel (324,458), an olive right-pointing marker fragment is visible below the magenta curve.",
+   "evidence_kind": "partial_marker",
+   "uncertainty_px": 5.5,
+   "evidence_ref": "ambiguity:ambiguity_006_native.png"
+  },
+  {
+   "operation_id": "op-add-313-007",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 313K",
+   "x_norm": 0.219479,
+   "y_norm": 0.473166,
+   "overlap": true,
+   "reason": "Native crop shows a magenta filled left-triangle marker with a supported center in the crowded strip.",
+   "source_evidence": "At approximately panel pixel (320,432), the magenta left-pointing glyph is visible and follows the magenta CO2 313K line.",
+   "evidence_kind": "partial_marker",
+   "uncertainty_px": 4.5,
+   "evidence_ref": "ambiguity:ambiguity_007_native.png"
+  },
+  {
+   "operation_id": "op-add-323-007",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 323K",
+   "x_norm": 0.229081,
+   "y_norm": 0.499452,
+   "overlap": true,
+   "reason": "Native olive right-triangle fragment supports an omitted CO2 323K marker.",
+   "source_evidence": "At approximately panel pixel (334,456), the olive right-pointing marker fragment is visible at the crop's right edge.",
+   "evidence_kind": "partial_marker",
+   "uncertainty_px": 5.5,
+   "evidence_ref": "ambiguity:ambiguity_007_native.png"
+  }
+ ],
+ "uncertainties": [
+  "The low-pressure magenta and olive markers are substantially overlapped; the reported centers are fragment-based estimates with 4.5-5.5 native-pixel uncertainty.",
+  "The remaining CO2 313K and CO2 323K count shortfalls cannot be safely filled from expected counts or curve continuity.",
+  "The bottom-band native crops 012-014 contain excluded N2 313K glyphs and do not establish omitted CO2 markers."
+ ],
+ "coverage": [
+  {
+   "item_id": "evidence:ambiguity_assignment_scores.png",
+   "item_type": "evidence",
+   "status": "reviewed",
+   "detail": "Compared the diagnostic claims against each attached native ambiguity crop; diagnostic used only for navigation."
+  },
+  {
+   "item_id": "evidence:assignment_diagnostics.json",
+   "item_type": "evidence",
+   "status": "reviewed",
+   "detail": "Compared assignment leads with native pixels; no diagnostic-only claim was accepted."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_001_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Added one supported CO2 313K magenta fragment and one CO2 323K olive fragment."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_002_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Added one supported CO2 313K magenta fragment and one CO2 323K olive fragment."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_003_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Added one supported CO2 313K magenta fragment and one CO2 323K olive fragment."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_004_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Added one supported CO2 313K magenta fragment and one CO2 323K olive fragment."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_005_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Added one supported CO2 313K magenta fragment and one CO2 323K olive fragment."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_006_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Added one supported CO2 313K magenta fragment and one CO2 323K olive fragment."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_007_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Added one supported CO2 313K magenta fragment and one CO2 323K olive fragment."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_008_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Black square CO2 273K markers are native-visible and consistent with the proposal; no edit."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_009_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "High-pressure black CO2 273K square sequence inspected; no safe move, deletion, or addition."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_010_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "High-pressure black CO2 273K square sequence inspected; no safe edit."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_011_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "High-pressure black CO2 273K square sequence inspected; no safe edit."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_012_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Native low-band glyphs are attributable to excluded N2 313K; no CO2 operation."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_013_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Native low-band glyphs are attributable to excluded N2 313K; no CO2 operation."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_014_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Native low-band glyphs are attributable to excluded N2 313K; no CO2 operation."
+  }
+ ]
+}

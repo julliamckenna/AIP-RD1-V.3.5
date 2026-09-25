@@ -1,0 +1,175 @@
+{
+ "series": {
+  "CO2 273K": {
+   "flags": [],
+   "toth": {
+    "qm": 5.291945840513124,
+    "K": 0.004046846877930283,
+    "t": 1.6010389461635572,
+    "rmse": 0.00484889177660152
+   },
+   "low_confidence_points": 0
+  },
+  "CO2 283K": {
+   "flags": [
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "ads: local outliers (P,q,resid) [(np.float64(355.332), np.float64(3.598), -0.069)]"
+    }
+   ],
+   "toth": {
+    "qm": 15.112047885092538,
+    "K": 41.91424437064503,
+    "t": 0.14969017041865793,
+    "rmse": 0.028629341574359115
+   },
+   "low_confidence_points": 1
+  },
+  "CO2 293K": {
+   "flags": [],
+   "toth": {
+    "qm": 7.240013544051809,
+    "K": 0.17057784848262816,
+    "t": 0.3080277108134752,
+    "rmse": 0.009961919076640992
+   },
+   "low_confidence_points": 0
+  },
+  "CO2 303K": {
+   "flags": [
+    {
+     "check": "monotonic",
+     "detail": "des: uptake decreases at [(np.float64(325.01), np.float64(2.902)), (np.float64(655.281), np.float64(3.227))]"
+    },
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "des: local outliers (P,q,resid) [(np.float64(558.143), np.float64(3.185), 0.057), (np.float64(593.928), np.float64(3.172), -0.077), (np.float64(633.968), np.float64(3.253), 0.054), (np.float64(712.24), np.float64(3.319), 0.051)]"
+    }
+   ],
+   "toth": null,
+   "low_confidence_points": 0
+  },
+  "CO2 313K": {
+   "flags": [],
+   "toth": null,
+   "low_confidence_points": 1
+  },
+  "CO2 323K": {
+   "flags": [
+    {
+     "check": "monotonic",
+     "detail": "ads: uptake decreases at [(np.float64(420.73), np.float64(2.604)), (np.float64(658.395), np.float64(2.819))]"
+    },
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "ads: local outliers (P,q,resid) [(np.float64(401.975), np.float64(2.658), 0.076), (np.float64(420.73), np.float64(2.604), -0.07)]"
+    }
+   ],
+   "toth": {
+    "qm": 3.6367481647050157,
+    "K": 0.01756294471526982,
+    "t": 0.6968483152181448,
+    "rmse": 0.027070131512329156
+   },
+   "low_confidence_points": 1
+  },
+  "CO2 333K": {
+   "flags": [],
+   "toth": {
+    "qm": 7.089787007649027,
+    "K": 3.155466703351462,
+    "t": 0.19873322323876505,
+    "rmse": 0.011663428200050216
+   },
+   "low_confidence_points": 1
+  },
+  "CO2 343K": {
+   "flags": [
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "ads: local outliers (P,q,resid) [(np.float64(81.631), np.float64(1.522), 0.087)]"
+    },
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "des: local outliers (P,q,resid) [(np.float64(81.631), np.float64(1.522), 0.087)]"
+    }
+   ],
+   "toth": {
+    "qm": 3.334005169907316,
+    "K": 0.02841428750209399,
+    "t": 0.5681918751380959,
+    "rmse": 0.053741613293880365
+   },
+   "low_confidence_points": 0
+  },
+  "CO2 353K": {
+   "flags": [
+    {
+     "check": "monotonic",
+     "detail": "ads: uptake decreases at [(np.float64(414.738), np.float64(1.843))]"
+    },
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "ads: local outliers (P,q,resid) [(np.float64(236.436), np.float64(1.366), -0.087), (np.float64(715.006), np.float64(2.236), 0.063)]"
+    }
+   ],
+   "toth": {
+    "qm": 2.749357841936722,
+    "K": 0.002934499038544408,
+    "t": 1.4343338963660066,
+    "rmse": 0.015334492131598794
+   },
+   "low_confidence_points": 1
+  },
+  "CO2 363K": {
+   "flags": [],
+   "toth": {
+    "qm": 2.6392106440588523,
+    "K": 0.0020236718915339503,
+    "t": 1.5916178526238207,
+    "rmse": 0.0109116119310309
+   },
+   "low_confidence_points": 1
+  },
+  "CO2 373K": {
+   "flags": [],
+   "toth": {
+    "qm": 2.611393864262566,
+    "K": 0.0014325729282682518,
+    "t": 1.5041454757551864,
+    "rmse": 0.006617091945013558
+   },
+   "low_confidence_points": 0
+  }
+ },
+ "cross": [
+  {
+   "check": "t_ordering",
+   "detail": "CO2 283K exceeds CO2 273K at some pressures — series colors may be swapped"
+  },
+  {
+   "check": "t_ordering",
+   "detail": "CO2 333K exceeds CO2 323K at some pressures — series colors may be swapped"
+  }
+ ],
+ "verdict": "review",
+ "role": "supporting_diagnostics_only",
+ "agent04_verdict": "review",
+ "rows": {
+  "python": 262,
+  "agent03": 267,
+  "agent04": 267
+ },
+ "final_operations_applied": 34,
+ "hard_checks": {
+  "passed": true,
+  "problems": [],
+  "summary": "PASS: x printed 0-1200, data 2.386-1190 mbar; y printed 0-5, data 0.0045-5.01 mmol/g; redraw recall 0.53, precision 0.90"
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "series": {
+  "CO2 273K": {
+   "flags": [],
+   "toth": null,
+   "low_confidence_points": 0
+  },
+  "CO2 298K": {
+   "flags": [],
+   "toth": null,
+   "low_confidence_points": 0
+  }
+ },
+ "cross": [],
+ "verdict": "auto_accept",
+ "role": "supporting_diagnostics_only",
+ "agent04_verdict": "accept",
+ "rows": {
+  "agent04": 3
+ },
+ "final_operations_applied": 2,
+ "hard_checks": {
+  "passed": true,
+  "problems": [],
+  "summary": "PASS: x printed 0-100, data 20-80 kPa; y printed 0-100, data 20-50 mmol/g; redraw recall 0.27, precision 1.00"
+ }
+}

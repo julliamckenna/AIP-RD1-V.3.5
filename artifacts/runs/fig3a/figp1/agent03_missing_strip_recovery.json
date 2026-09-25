@@ -1,0 +1,18 @@
+{
+ "enabled": false,
+ "operations": [],
+ "audit": [
+  {
+   "status": "disabled",
+   "detail": "missing-strip recovery is disabled"
+  }
+ ],
+ "application": {
+  "requested_count": 0,
+  "requested_operations": [],
+  "applied_count": 0,
+  "applied_operations": [],
+  "rejected_count": 0,
+  "rejected_operations": []
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "schema_version": "1.0",
+ "manifest_fingerprint": "e761888514b2f6017381596d2f450940f26aa8e0f7954e38df0b3c8e5fbfdc9b",
+ "batch_count": 9,
+ "batches": [
+  "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\calf20_02\\figp1a\\agent03_review_points_batch_001.json",
+  "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\calf20_02\\figp1a\\agent03_review_points_batch_002.json",
+  "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\calf20_02\\figp1a\\agent03_review_points_batch_003.json",
+  "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\calf20_02\\figp1a\\agent03_review_points_batch_004.json",
+  "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\calf20_02\\figp1a\\agent03_review_points_batch_005.json",
+  "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\calf20_02\\figp1a\\agent03_review_points_batch_006.json",
+  "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\calf20_02\\figp1a\\agent03_review_points_batch_007.json",
+  "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\calf20_02\\figp1a\\agent03_review_points_batch_008.json",
+  "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\calf20_02\\figp1a\\agent03_review_points_batch_009.json"
+ ]
+}

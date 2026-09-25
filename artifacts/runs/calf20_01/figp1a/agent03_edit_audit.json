@@ -1,0 +1,52 @@
+{
+ "schema_version": "1.0",
+ "actor": "agent03_review_points",
+ "requested": 4,
+ "applied": 4,
+ "operations": [
+  {
+   "operation_index": 0,
+   "operation_id": "batch-001-op-delete-273-template-300",
+   "action": "delete",
+   "point_id": "pt-c1d70570aaa0b18b",
+   "series_label": "CO2 273K",
+   "reason": "Template fill has no source-supported black square at the proposed centre.",
+   "source_evidence": "Native tile_01 box 1 at panel pixel (300,430) shows teal and magenta curve pixels at the claim, with no visible black filled square marker.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 1,
+   "operation_id": "batch-001-op-delete-273-template-310",
+   "action": "delete",
+   "point_id": "pt-c7f2adf000cc13c1",
+   "series_label": "CO2 273K",
+   "reason": "Template fill has no source-supported black square at the proposed centre.",
+   "source_evidence": "Native tile_01 box 2 at panel pixel (310,431) shows teal/magenta overlap and no visible black filled square marker.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 2,
+   "operation_id": "batch-001-op-delete-283-template-260",
+   "action": "delete",
+   "point_id": "pt-afe52325e567ec3d",
+   "series_label": "CO2 283K",
+   "reason": "Template fill is not located on a visible red hexagon marker.",
+   "source_evidence": "Native tile_01 box 3 at panel pixel (260,566) contains overlapping olive, blue, and magenta pixels but no resolvable red filled hexagon at the proposed centre.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 3,
+   "operation_id": "batch-001-op-delete-283-template-308",
+   "action": "delete",
+   "point_id": "pt-0ab2f5429ce70a40",
+   "series_label": "CO2 283K",
+   "reason": "Template fill is not located on a visible red hexagon marker.",
+   "source_evidence": "Native tile_01 box 4 at panel pixel (308,476) shows magenta/olive/blue overlap; the red CO2 283K curve is not at this proposed centre and no red hexagon is visible there.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  }
+ ]
+}

@@ -1,0 +1,151 @@
+{
+ "schema_version": "1.0",
+ "actor": "agent03_review_points",
+ "requested": 13,
+ "applied": 13,
+ "operations": [
+  {
+   "operation_index": 0,
+   "operation_id": "batch-001-op-delete-red-stroke",
+   "action": "delete",
+   "point_id": "pt-55d92ac7e23ba306",
+   "series_label": null,
+   "reason": "False detection on the thick red connecting stroke, not a distinct red circle marker.",
+   "source_evidence": "Native marker_01 box 1 at source pixel (195,374) shows continuous red stroke ink without a circular marker core.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 1,
+   "operation_id": "batch-001-op-delete-black-stroke-01",
+   "action": "delete",
+   "point_id": "pt-4c6e05cd006f64ea",
+   "series_label": null,
+   "reason": "Black line pixel interpreted as a star; no distinct native star center is visible.",
+   "source_evidence": "Native source at (184,559) is the beginning of the continuous thick black low-pressure stroke.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 2,
+   "operation_id": "batch-001-op-delete-black-stroke-02",
+   "action": "delete",
+   "point_id": "pt-bfec8f9fb210cc79",
+   "series_label": null,
+   "reason": "False black marker placed on the thick connecting stroke.",
+   "source_evidence": "Native source at (194,550) shows only continuous black stroke ink, without a separable star.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 3,
+   "operation_id": "batch-001-op-delete-black-stroke-03",
+   "action": "delete",
+   "point_id": "pt-06f7a01f80387b5d",
+   "series_label": null,
+   "reason": "False black marker placed on the thick connecting stroke.",
+   "source_evidence": "Native source at (201,544) shows the uninterrupted black diagonal stroke, not a distinct star center.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 4,
+   "operation_id": "batch-001-op-delete-black-stroke-04",
+   "action": "delete",
+   "point_id": "pt-0f8a479d7589a428",
+   "series_label": null,
+   "reason": "False black marker placed on line ink.",
+   "source_evidence": "Native source at (209,537) contains continuous black stroke pixels without a visible star shape.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 5,
+   "operation_id": "batch-001-op-delete-black-stroke-05",
+   "action": "delete",
+   "point_id": "pt-46303aaa849a1e55",
+   "series_label": null,
+   "reason": "False detection from the thick black stroke.",
+   "source_evidence": "Native source at (218,529) shows only the broad diagonal black connecting line.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 6,
+   "operation_id": "batch-001-op-delete-black-stroke-06",
+   "action": "delete",
+   "point_id": "pt-1d182363aad537d3",
+   "series_label": null,
+   "reason": "No separable black star is visible at this proposed center.",
+   "source_evidence": "Native source at (231,518) is continuous thick black line ink.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 7,
+   "operation_id": "batch-001-op-delete-black-stroke-07",
+   "action": "delete",
+   "point_id": "pt-68a6d00afaf810f5",
+   "series_label": null,
+   "reason": "False detection on the black connecting stroke.",
+   "source_evidence": "Native source at (237,513) shows uninterrupted black stroke pixels, not a distinct star.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 8,
+   "operation_id": "batch-001-op-delete-black-stroke-08",
+   "action": "delete",
+   "point_id": "pt-8dc994e6e008771f",
+   "series_label": null,
+   "reason": "False detection on line ink.",
+   "source_evidence": "Native source at (247,505) contains only the continuous thick black low-pressure line.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 9,
+   "operation_id": "batch-001-op-delete-black-stroke-09",
+   "action": "delete",
+   "point_id": "pt-1fbb22a50cae30e9",
+   "series_label": null,
+   "reason": "False black point generated from the connecting stroke rather than a native star center.",
+   "source_evidence": "Native source at (256,497) shows broad black stroke ink without a distinct star.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 10,
+   "operation_id": "batch-001-op-delete-black-stroke-10",
+   "action": "delete",
+   "point_id": "pt-9cc2953c98f20b09",
+   "series_label": null,
+   "reason": "False detection on the thick black stroke.",
+   "source_evidence": "Native source at (273,484) does not show a separable star marker at the proposed center.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 11,
+   "operation_id": "batch-001-op-delete-black-stroke-11",
+   "action": "delete",
+   "point_id": "pt-e3b1a5a63748a505",
+   "series_label": null,
+   "reason": "False detection from continuous black line ink.",
+   "source_evidence": "Native source at (285,475) shows the thick connecting stroke without a distinct star.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 12,
+   "operation_id": "batch-001-op-delete-black-stroke-12",
+   "action": "delete",
+   "point_id": "pt-f378c6e90a7d0d48",
+   "series_label": null,
+   "reason": "False detection on the black connecting stroke.",
+   "source_evidence": "Native source at (290,470) contains uninterrupted black stroke pixels and no distinct star center.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  }
+ ]
+}

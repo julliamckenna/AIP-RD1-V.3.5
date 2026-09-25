@@ -1,0 +1,172 @@
+{
+ "reasoning": "The native source confirms the existing CO2 detections on the steep branch and confirms additional blue open-circle markers immediately above the dense low-pressure strip and along the plateau. I added only markers whose rings are visibly separable in the unchanged source. Many further low-pressure rings are fused into a continuous blue strip and cannot be assigned reliable centers from visible pixels alone, so the extraction remains incomplete. The red N2 series and the inset are excluded.",
+ "verdict": "review",
+ "series": [
+  {
+   "label": "CO2 195K",
+   "coverage": "incomplete",
+   "final_count": 55,
+   "comment": "Added 3 visibly separable transition markers and 11 visibly separable plateau markers. The dense low-pressure region still contains unresolved fused markers."
+  }
+ ],
+ "operations": [
+  {
+   "operation_id": "op-add-co2-transition-01",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.2504,
+   "y_norm": 0.2553,
+   "overlap": true,
+   "reason": "Python missed a visibly separable blue open-circle marker on the upper part of the steep low-pressure branch.",
+   "source_evidence": "Blue open-circle ring centered near native pixel (176,158) in the unchanged source panel."
+  },
+  {
+   "operation_id": "op-add-co2-transition-02",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.2532,
+   "y_norm": 0.2359,
+   "overlap": true,
+   "reason": "Python missed a visibly separable blue open-circle marker on the steep branch.",
+   "source_evidence": "Blue open-circle ring centered near native pixel (178,146) in the unchanged source panel."
+  },
+  {
+   "operation_id": "op-add-co2-transition-03",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.256,
+   "y_norm": 0.2229,
+   "overlap": true,
+   "reason": "Python missed a visibly separable blue open-circle marker immediately below the transition to the plateau.",
+   "source_evidence": "Blue open-circle ring centered near native pixel (180,138) in the unchanged source panel."
+  },
+  {
+   "operation_id": "op-add-co2-plateau-01",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.6259,
+   "y_norm": 0.1842,
+   "overlap": false,
+   "reason": "Python missed a clearly visible plateau marker.",
+   "source_evidence": "Blue open-circle ring centered near native pixel (440,114) in the unchanged source panel."
+  },
+  {
+   "operation_id": "op-add-co2-plateau-02",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.6615,
+   "y_norm": 0.1826,
+   "overlap": false,
+   "reason": "Python missed a clearly visible plateau marker.",
+   "source_evidence": "Blue open-circle ring centered near native pixel (465,113) in the unchanged source panel."
+  },
+  {
+   "operation_id": "op-add-co2-plateau-03",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.6956,
+   "y_norm": 0.1826,
+   "overlap": false,
+   "reason": "Python missed a clearly visible plateau marker.",
+   "source_evidence": "Blue open-circle ring centered near native pixel (489,113) in the unchanged source panel."
+  },
+  {
+   "operation_id": "op-add-co2-plateau-04",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.7312,
+   "y_norm": 0.181,
+   "overlap": false,
+   "reason": "Python missed a clearly visible plateau marker.",
+   "source_evidence": "Blue open-circle ring centered near native pixel (514,112) in the unchanged source panel."
+  },
+  {
+   "operation_id": "op-add-co2-plateau-05",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.7639,
+   "y_norm": 0.181,
+   "overlap": false,
+   "reason": "Python missed a clearly visible plateau marker.",
+   "source_evidence": "Blue open-circle ring centered near native pixel (537,112) in the unchanged source panel."
+  },
+  {
+   "operation_id": "op-add-co2-plateau-06",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.7966,
+   "y_norm": 0.181,
+   "overlap": false,
+   "reason": "Python missed a clearly visible plateau marker.",
+   "source_evidence": "Blue open-circle ring centered near native pixel (560,112) in the unchanged source panel."
+  },
+  {
+   "operation_id": "op-add-co2-plateau-07",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.8307,
+   "y_norm": 0.1793,
+   "overlap": false,
+   "reason": "Python missed a clearly visible plateau marker.",
+   "source_evidence": "Blue open-circle ring centered near native pixel (584,111) in the unchanged source panel."
+  },
+  {
+   "operation_id": "op-add-co2-plateau-08",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.8506,
+   "y_norm": 0.1793,
+   "overlap": false,
+   "reason": "Python missed a clearly visible plateau marker.",
+   "source_evidence": "Blue open-circle ring centered near native pixel (598,111) in the unchanged source panel."
+  },
+  {
+   "operation_id": "op-add-co2-plateau-09",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.8649,
+   "y_norm": 0.1777,
+   "overlap": false,
+   "reason": "Python missed a clearly visible plateau marker.",
+   "source_evidence": "Blue open-circle ring centered near native pixel (608,110) in the unchanged source panel."
+  },
+  {
+   "operation_id": "op-add-co2-plateau-10",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.8791,
+   "y_norm": 0.1745,
+   "overlap": false,
+   "reason": "Python missed a clearly visible plateau marker near the high-pressure end.",
+   "source_evidence": "Blue open-circle ring centered near native pixel (618,108) in the unchanged source panel."
+  },
+  {
+   "operation_id": "op-add-co2-plateau-11",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.8905,
+   "y_norm": 0.1712,
+   "overlap": false,
+   "reason": "Python missed the final clearly visible blue plateau marker.",
+   "source_evidence": "Blue open-circle ring centered near native pixel (626,106) in the unchanged source panel."
+  }
+ ],
+ "uncertainties": [
+  "The native dense low-pressure tile shows additional blue open-circle ink, but many rings overlap into a continuous strip and their individual centers are not reliably separable. No coordinates were added for those ambiguous markers.",
+  "The inset is a duplicate enlargement and was not used for primary-panel operations."
+ ]
+}

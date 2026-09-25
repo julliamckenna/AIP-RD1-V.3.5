@@ -1,0 +1,518 @@
+{
+ "reasoning": "The printed axes are correctly calibrated: x runs from 0 to 1200 mbar and y from 0 to 5 mmol/g, with the frame extending slightly beyond the outer ticks. The re-plotted curves occupy the same values as the source. However, coverage is not adequate in the crowded low-pressure fan: CO2 313K and CO2 323K have substantial marker-ink recall loss, and several same-color curves require stronger spatial separation. The legend measurement identifies CO2 283K and CO2 353K as hexagons, CO2 373K as a circle, and the CO2 363K glyph is the star visible in the source despite raster fitting as a pentagon.",
+ "axis_check": {
+  "x": {
+   "printed_min": 0,
+   "printed_max": 1200,
+   "data_min": -4.3897,
+   "data_max": 1197.2997,
+   "reason": "The source x-axis is printed 0 through 1200 mbar. Python's extracted range and re-plot align with these ticks; the slight negative minimum is a normal marker-centre tolerance at the origin.",
+   "result": "pass"
+  },
+  "y": {
+   "printed_min": 0,
+   "printed_max": 5,
+   "data_min": 0.1594,
+   "data_max": 5.0501,
+   "reason": "The source y-axis is printed 0 through 5 mmol/g. Python's re-plot has the same vertical placement relative to the ticks, with the highest point just above the 5 tick as in the source.",
+   "result": "pass"
+  }
+ },
+ "satisfied": false,
+ "issues": [
+  "CO2 313K recall is only 0.512 with 27 extracted points and three unresolved low-pressure slots.",
+  "CO2 323K recall is only 0.590 with 32 extracted points and one unresolved low-pressure slot.",
+  "The low-pressure fan from approximately 0 to 240 mbar is densely overlapping and needs another spatial-ownership pass.",
+  "Several color-ambiguous series need curve-position and y-band guidance to prevent cross-assignment."
+ ],
+ "structure_ok": true,
+ "chart_title": "",
+ "x_axis": {
+  "title": "P",
+  "unit": "mbar",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 1200,
+  "boundary_limits_confirmed": true,
+  "ticks": [
+   0,
+   200,
+   400,
+   600,
+   800,
+   1000,
+   1200
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.146776,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.245542,
+    "value": 200
+   },
+   {
+    "pixel_norm": 0.344307,
+    "value": 400
+   },
+   {
+    "pixel_norm": 0.443073,
+    "value": 600
+   },
+   {
+    "pixel_norm": 0.542524,
+    "value": 800
+   },
+   {
+    "pixel_norm": 0.639232,
+    "value": 1000
+   },
+   {
+    "pixel_norm": 0.738683,
+    "value": 1200
+   }
+  ]
+ },
+ "y_axis": {
+  "title": "CO2 Loading",
+  "unit": "mmol/g",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 5,
+  "boundary_limits_confirmed": true,
+  "ticks": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.775466,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.639649,
+    "value": 1
+   },
+   {
+    "pixel_norm": 0.502738,
+    "value": 2
+   },
+   {
+    "pixel_norm": 0.367799,
+    "value": 3
+   },
+   {
+    "pixel_norm": 0.232202,
+    "value": 4
+   },
+   {
+    "pixel_norm": 0.094195,
+    "value": 5
+   }
+  ]
+ },
+ "legend_bbox_norm": [
+  0.749657,
+  0,
+  1,
+  0.859803
+ ],
+ "total_series": 17,
+ "series": [
+  {
+   "label": "CO2 273K",
+   "marker": "square",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#080808",
+   "notes": ""
+  },
+  {
+   "label": "CO2 283K",
+   "marker": "hexagon",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#ed2f31",
+   "notes": "The red legend glyph is hexagonal rather than circular."
+  },
+  {
+   "label": "CO2 293K",
+   "marker": "triangle_up",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#3c5096",
+   "notes": ""
+  },
+  {
+   "label": "CO2 303K",
+   "marker": "triangle_down",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#198e8a",
+   "notes": ""
+  },
+  {
+   "label": "CO2 313K",
+   "marker": "triangle_left",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#bd4f9b",
+   "notes": ""
+  },
+  {
+   "label": "CO2 323K",
+   "marker": "triangle_right",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#8b8d31",
+   "notes": ""
+  },
+  {
+   "label": "CO2 333K",
+   "marker": "diamond",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#293678",
+   "notes": ""
+  },
+  {
+   "label": "CO2 343K",
+   "marker": "pentagon",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#9c2527",
+   "notes": ""
+  },
+  {
+   "label": "CO2 353K",
+   "marker": "hexagon",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#e72b73",
+   "notes": "The pink legend glyph is hexagonal rather than diamond-shaped."
+  },
+  {
+   "label": "CO2 363K",
+   "marker": "star",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#258c46",
+   "notes": "The source legend shows a star; raster fitting is distorted by the connecting line."
+  },
+  {
+   "label": "CO2 373K",
+   "marker": "circle",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#2a2b86",
+   "notes": "The source glyph is a filled circle; use the measured dark-blue rendered color."
+  },
+  {
+   "label": "N2 273K",
+   "marker": "hexagon",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#92278f",
+   "notes": ""
+  },
+  {
+   "label": "N2 293K",
+   "marker": "triangle_up",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#5b4a91",
+   "notes": ""
+  },
+  {
+   "label": "N2 313K",
+   "marker": "triangle_down",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#111111",
+   "notes": ""
+  },
+  {
+   "label": "N2 333K",
+   "marker": "triangle_left",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#ed3b35",
+   "notes": ""
+  },
+  {
+   "label": "N2 353K",
+   "marker": "triangle_right",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#3f6595",
+   "notes": ""
+  },
+  {
+   "label": "N2 373K",
+   "marker": "circle",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#168b89",
+   "notes": "The teal legend glyph is circular."
+  }
+ ],
+ "branches": "adsorption_only",
+ "complex_regions": [
+  {
+   "bbox_norm": [
+    0.14,
+    0.03,
+    0.267,
+    0.845
+   ],
+   "kind": "dense_markers",
+   "python_passes": 4
+  },
+  {
+   "bbox_norm": [
+    0.265,
+    0.3,
+    0.75,
+    0.76
+   ],
+   "kind": "overlapping_markers",
+   "python_passes": 3
+  }
+ ],
+ "extraction_settings": [
+  {
+   "label": "CO2 313K",
+   "color_tolerance": 24,
+   "separate_from": [
+    "CO2 303K",
+    "CO2 323K",
+    "N2 333K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 25,
+     "y_min": 0,
+     "y_max": 2.25
+    },
+    {
+     "x_from": 25,
+     "x_to": 100,
+     "y_min": 1.35,
+     "y_max": 2.85
+    },
+    {
+     "x_from": 100,
+     "x_to": 300,
+     "y_min": 2.25,
+     "y_max": 3.05
+    },
+    {
+     "x_from": 300,
+     "x_to": 1200,
+     "y_min": 2.8,
+     "y_max": 3.5
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Only 27 points were extracted and three low-pressure slots remain unresolved. The magenta left-pointing curve lies between the teal and olive curves in the crowded fan; use its trajectory and y bands rather than color alone.",
+   "sample_marker_norm": [
+    0.6022,
+    0.3516
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 25,
+     "count": 10
+    },
+    {
+     "x_from": 25,
+     "x_to": 100,
+     "count": 8
+    },
+    {
+     "x_from": 100,
+     "x_to": 300,
+     "count": 6
+    },
+    {
+     "x_from": 300,
+     "x_to": 1200,
+     "count": 10
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 5,
+     "y": 0.45
+    },
+    {
+     "x": 10,
+     "y": 0.9
+    },
+    {
+     "x": 25,
+     "y": 1.45
+    },
+    {
+     "x": 50,
+     "y": 1.9
+    },
+    {
+     "x": 100,
+     "y": 2.35
+    },
+    {
+     "x": 200,
+     "y": 2.7
+    },
+    {
+     "x": 400,
+     "y": 3.0
+    },
+    {
+     "x": 600,
+     "y": 3.18
+    },
+    {
+     "x": 800,
+     "y": 3.3
+    },
+    {
+     "x": 1000,
+     "y": 3.4
+    },
+    {
+     "x": 1200,
+     "y": 3.48
+    }
+   ]
+  },
+  {
+   "label": "CO2 323K",
+   "color_tolerance": 24,
+   "separate_from": [
+    "CO2 313K",
+    "CO2 333K",
+    "N2 353K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 25,
+     "y_min": 0,
+     "y_max": 1.85
+    },
+    {
+     "x_from": 25,
+     "x_to": 100,
+     "y_min": 1.0,
+     "y_max": 2.35
+    },
+    {
+     "x_from": 100,
+     "x_to": 300,
+     "y_min": 1.9,
+     "y_max": 2.7
+    },
+    {
+     "x_from": 300,
+     "x_to": 1200,
+     "y_min": 2.45,
+     "y_max": 3.2
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "One low-pressure slot is unresolved and recall is only 0.590. The olive right-pointing curve is below CO2 313K and above CO2 333K over most of the plot; use that separation in the dense fan.",
+   "sample_marker_norm": [
+    0.6907,
+    0.3965
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 25,
+     "count": 10
+    },
+    {
+     "x_from": 25,
+     "x_to": 100,
+     "count": 8
+    },
+    {
+     "x_from": 100,
+     "x_to": 300,
+     "count": 6
+    },
+    {
+     "x_from": 300,
+     "x_to": 1200,
+     "count": 10
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 5,
+     "y": 0.35
+    },
+    {
+     "x": 10,
+     "y": 0.7
+    },
+    {
+     "x": 25,
+     "y": 1.15
+    },
+    {
+     "x": 50,
+     "y": 1.55
+    },
+    {
+     "x": 100,
+     "y": 1.95
+    },
+    {
+     "x": 200,
+     "y": 2.3
+    },
+    {
+     "x": 400,
+     "y": 2.65
+    },
+    {
+     "x": 600,
+     "y": 2.85
+    },
+    {
+     "x": 800,
+     "y": 2.98
+    },
+    {
+     "x": 1000,
+     "y": 3.08
+    },
+    {
+     "x": 1200,
+     "y": 3.16
+    }
+   ]
+  }
+ ],
+ "notes": "Axes and overall curve values pass. N2 series are visible in the legend but excluded from extraction as intended. Apply extra ownership and template passes in the low-pressure dense fan; do not edit individual ambiguous points.",
+ "region_strategies": [],
+ "shared_x_columns": []
+}

@@ -1,0 +1,107 @@
+{
+ "stage": "python",
+ "passed": true,
+ "problems": [],
+ "axis_range": {
+  "passed": true,
+  "problems": [],
+  "margin": 0.05,
+  "max_frame_overhang_steps": 1.0,
+  "x": {
+   "unit": "dimensionless",
+   "scale": "linear",
+   "printed": [
+    0.0,
+    1.0
+   ],
+   "data": [
+    -0.0003,
+    0.981
+   ],
+   "points_outside": 0,
+   "passed": true,
+   "frame": [
+    -0.050637537561925905,
+    1.0499492406399742
+   ],
+   "frame_overhang_steps": [
+    0.25,
+    0.25
+   ],
+   "allowed": [
+    -0.050637537561925905,
+    1.05
+   ]
+  },
+  "y": {
+   "unit": "cm³ g⁻¹",
+   "scale": "linear",
+   "printed": [
+    0.0,
+    140.0
+   ],
+   "data": [
+    0.487,
+    125.8631
+   ],
+   "points_outside": 0,
+   "passed": true,
+   "frame": [
+    -10.09534443313305,
+    140.1162523398246
+   ],
+   "frame_overhang_steps": [
+    0.5,
+    0.01
+   ],
+   "allowed": [
+    -10.09534443313305,
+    147.0
+   ]
+  }
+ },
+ "redraw": {
+  "available": true,
+  "series": {
+   "CO2 195K": {
+    "points": 46,
+    "precision": 1.0,
+    "recall": 0.757,
+    "missed_marker_equivalents": 12.5,
+    "same_color_group": [
+     "CO2 195K"
+    ]
+   }
+  },
+  "recall": 0.757,
+  "precision": 1.0
+ },
+ "physics": {
+  "verdict": "review",
+  "flags": {
+   "CO2 195K": [
+    {
+     "check": "monotonic",
+     "detail": "ads: uptake decreases at [(np.float64(0.007), np.float64(37.807))]"
+    },
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "ads: local outliers (P,q,resid) [(np.float64(0.002), np.float64(12.479), 11.807), (np.float64(0.003), np.float64(19.821), -3.577), (np.float64(0.004), np.float64(28.955), 3.279), (np.float64(0.006), np.float64(33.838), -2.253), (np.float64(0.007), np.float64(40.34), 2.699)]"
+    },
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "des: local outliers (P,q,resid) [(np.float64(0.008), np.float64(42.993), -6.334), (np.float64(0.043), np.float64(91.78), -5.941), (np.float64(0.045), np.float64(103.218), 6.716), (np.float64(0.073), np.float64(119.078), 4.622)]"
+    }
+   ]
+  },
+  "cross_series": []
+ },
+ "limitations": {
+  "unresolved_slots": 1,
+  "dense_regions_with_no_distinct_centres": 2,
+  "note": "ink coverage is not marker completeness; unresolved dense evidence requires review"
+ },
+ "accepted_extraction": false
+}

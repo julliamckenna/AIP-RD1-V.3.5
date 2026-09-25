@@ -1,0 +1,68 @@
+{
+ "schema_version": "1.0",
+ "actor": "agent03_review_points",
+ "requested": 4,
+ "applied": 4,
+ "operations": [
+  {
+   "operation_index": 0,
+   "operation_id": "op-add-co2-01",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Python skips a distinct plateau marker between the proposed centers near native x=488.5 and x=537.5.",
+   "source_evidence": "Native panel shows a separate blue open-circle ring centered approximately at native pixel (513,113), connected by the blue curve.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    513.49,
+    112.48
+   ]
+  },
+  {
+   "operation_index": 1,
+   "operation_id": "op-add-co2-02",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Visible blue open-circle marker occurs after Python's final proposed center at native x=608.5.",
+   "source_evidence": "Native panel right-tail pixels show a separate blue open ring centered approximately at native pixel (616,110), beyond the last proposed ring.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    615.73,
+    109.99
+   ]
+  },
+  {
+   "operation_index": 2,
+   "operation_id": "op-add-co2-03",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Python misses the next distinct right-tail plateau marker.",
+   "source_evidence": "Native panel shows a separate blue open-circle ring centered approximately at native pixel (624,109), immediately to the right of the added marker near (616,110).",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    624.0,
+    109.02
+   ]
+  },
+  {
+   "operation_index": 3,
+   "operation_id": "op-add-co2-04",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Python misses the final visible blue open-circle marker at the high-pressure tail.",
+   "source_evidence": "Native panel endpoint contains a distinct blue open ring centered approximately at native pixel (632,107), followed by the short blue curve endpoint.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    631.99,
+    107.01
+   ]
+  }
+ ]
+}

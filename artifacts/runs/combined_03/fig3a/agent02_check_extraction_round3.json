@@ -1,0 +1,393 @@
+{
+ "reasoning": "The axis calibration and tick interpretation are correct: the reconstructed curves use the same 0–1 relative-pressure and 0–140 cm³ g⁻¹ uptake scales as the source. The CO2 overlay is largely aligned, but it still misses several native markers, especially in the dense low-pressure region and at the high-pressure tail. The N2 series is visibly present in the source as red open circles along the near-zero baseline, yet Python extracted none because it is disabled and its pale red markers need explicit guidance. The source shows adsorption and desorption branches, with substantial overlap in the dense low-pressure CO2 region.",
+ "axis_check": {
+  "x": {
+   "printed_min": 0,
+   "printed_max": 1,
+   "data_min": -0.0008,
+   "data_max": 0.9413,
+   "reason": "The re-plotted pressure values align with the source's linear 0–1 Relative Pressure axis; the extracted maximum is below the rightmost tick because the final detected marker was not recovered, not because calibration is shifted.",
+   "result": "pass"
+  },
+  "y": {
+   "printed_min": 0,
+   "printed_max": 140,
+   "data_min": 0.6475,
+   "data_max": 125.2352,
+   "reason": "The re-plotted uptake values align with the source's linear 0–140 cm³ g⁻¹ axis. The extracted range is below the upper printed tick, consistent with the plotted CO2 plateau.",
+   "result": "pass"
+  }
+ },
+ "satisfied": false,
+ "issues": [
+  "N2 77K red open-circle series is visible across nearly the entire baseline in the source but was not extracted.",
+  "CO2 195K has a coverage shortfall in the 0.06–0.3 and 0.3–1.02 pressure ranges.",
+  "CO2 low-pressure markers remain crowded and partially fused, requiring another dense-marker pass.",
+  "The chart visibly contains adsorption and desorption branches rather than adsorption only."
+ ],
+ "structure_ok": true,
+ "chart_title": "",
+ "x_axis": {
+  "title": "Relative Pressure (P/P0)",
+  "unit": "dimensionless",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 1,
+  "boundary_limits_confirmed": true,
+  "ticks": [
+   0,
+   0.2,
+   0.4,
+   0.6,
+   0.8,
+   1
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.214992927864215,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.3536067892503536,
+    "value": 0.2
+   },
+   {
+    "pixel_norm": 0.4893917963224894,
+    "value": 0.4
+   },
+   {
+    "pixel_norm": 0.6265912305516266,
+    "value": 0.6
+   },
+   {
+    "pixel_norm": 0.7637906647807637,
+    "value": 0.8
+   },
+   {
+    "pixel_norm": 0.900990099009901,
+    "value": 1
+   }
+  ]
+ },
+ "y_axis": {
+  "title": "Uptake",
+  "unit": "cm³ g⁻¹",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 140,
+  "boundary_limits_confirmed": false,
+  "ticks": [
+   0,
+   20,
+   40,
+   60,
+   80,
+   100,
+   120,
+   140
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.771004942339374,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.6771004942339374,
+    "value": 20
+   },
+   {
+    "pixel_norm": 0.5831960461285008,
+    "value": 40
+   },
+   {
+    "pixel_norm": 0.48929159802306427,
+    "value": 60
+   },
+   {
+    "pixel_norm": 0.3953871499176277,
+    "value": 80
+   },
+   {
+    "pixel_norm": 0.29983525535420097,
+    "value": 100
+   },
+   {
+    "pixel_norm": 0.20757825370675453,
+    "value": 120
+   },
+   {
+    "pixel_norm": 0.11202635914332784,
+    "value": 140
+   }
+  ]
+ },
+ "legend_bbox_norm": [
+  0.6082036775106082,
+  0.16639209225700166,
+  0.929279773691655,
+  0.7887973640856664
+ ],
+ "total_series": 2,
+ "series": [
+  {
+   "label": "CO2 195K",
+   "marker": "circle",
+   "marker_fill": "open",
+   "line_style": "solid",
+   "color_hex": "#536DFE",
+   "notes": "Blue open circles; CO2 isotherm labelled CO2@195 K."
+  },
+  {
+   "label": "N2 77K",
+   "marker": "circle",
+   "marker_fill": "open",
+   "line_style": "solid",
+   "color_hex": "#FF6868",
+   "notes": "Red open circles; near-zero N2 curve labelled N2@77 K. Pale red marker ink requires a dedicated color sample."
+  }
+ ],
+ "branches": "adsorption_and_desorption",
+ "complex_regions": [
+  {
+   "bbox_norm": [
+    0.197,
+    0.195,
+    0.318,
+    0.775
+   ],
+   "kind": "dense_markers",
+   "python_passes": 4
+  },
+  {
+   "bbox_norm": [
+    0.197,
+    0.195,
+    0.318,
+    0.775
+   ],
+   "kind": "overlapping_markers",
+   "python_passes": 3
+  },
+  {
+   "bbox_norm": [
+    0.888,
+    0.195,
+    0.905,
+    0.24
+   ],
+   "kind": "overlapping_markers",
+   "python_passes": 3
+  },
+  {
+   "bbox_norm": [
+    0.353,
+    0.287,
+    0.736,
+    0.642
+   ],
+   "kind": "inset",
+   "python_passes": 3
+  }
+ ],
+ "extraction_settings": [
+  {
+   "label": "CO2 195K",
+   "color_tolerance": 35,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.06,
+     "y_min": 0,
+     "y_max": 120
+    },
+    {
+     "x_from": 0.06,
+     "x_to": 0.3,
+     "y_min": 115,
+     "y_max": 126
+    },
+    {
+     "x_from": 0.3,
+     "x_to": 1.02,
+     "y_min": 120,
+     "y_max": 130
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Recover the shortfall after the steep low-pressure rise and the missed plateau markers, while retaining the existing curve constraint and excluding the inset.",
+   "sample_marker_norm": [
+    0.316,
+    0.183
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 0.06,
+     "count": 35
+    },
+    {
+     "x_from": 0.06,
+     "x_to": 0.3,
+     "count": 15
+    },
+    {
+     "x_from": 0.3,
+     "x_to": 1.02,
+     "count": 20
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 0.005,
+     "y": 20
+    },
+    {
+     "x": 0.01,
+     "y": 45
+    },
+    {
+     "x": 0.015,
+     "y": 70
+    },
+    {
+     "x": 0.02,
+     "y": 95
+    },
+    {
+     "x": 0.03,
+     "y": 112
+    },
+    {
+     "x": 0.05,
+     "y": 117
+    },
+    {
+     "x": 0.08,
+     "y": 120
+    },
+    {
+     "x": 0.15,
+     "y": 122
+    },
+    {
+     "x": 0.3,
+     "y": 123
+    },
+    {
+     "x": 0.6,
+     "y": 125
+    },
+    {
+     "x": 1,
+     "y": 127
+    }
+   ]
+  },
+  {
+   "label": "N2 77K",
+   "color_tolerance": 45,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.08,
+     "y_min": 0,
+     "y_max": 4
+    },
+    {
+     "x_from": 0.08,
+     "x_to": 0.9,
+     "y_min": 0,
+     "y_max": 3
+    },
+    {
+     "x_from": 0.9,
+     "x_to": 1.02,
+     "y_min": 0,
+     "y_max": 5
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "The source contains a pale red open-circle series along the near-zero baseline. Explicitly enable recovery using a clean red marker sample and a narrow near-zero y band; exclude the inset.",
+   "sample_marker_norm": [
+    0.793,
+    0.768
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 0.08,
+     "count": 12
+    },
+    {
+     "x_from": 0.08,
+     "x_to": 0.9,
+     "count": 42
+    },
+    {
+     "x_from": 0.9,
+     "x_to": 1.02,
+     "count": 16
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 0.02,
+     "y": 1.2
+    },
+    {
+     "x": 0.05,
+     "y": 1.5
+    },
+    {
+     "x": 0.1,
+     "y": 1.2
+    },
+    {
+     "x": 0.3,
+     "y": 1.1
+    },
+    {
+     "x": 0.6,
+     "y": 1
+    },
+    {
+     "x": 0.9,
+     "y": 0.9
+    },
+    {
+     "x": 0.98,
+     "y": 1.5
+    },
+    {
+     "x": 1,
+     "y": 2.5
+    }
+   ]
+  }
+ ],
+ "notes": "Axis anchors retained exactly from the measured source ticks. Extract both declared series; the N2 series must not be disabled. The inset is not part of the main-panel extraction.",
+ "region_strategies": [
+  {
+   "bbox_norm": [
+    0.353,
+    0.287,
+    0.736,
+    0.642
+   ],
+   "series_labels": [],
+   "strategy": "ignore",
+   "reason": "Inset with a repeated blue curve and annotations; exclude from main-panel series extraction."
+  }
+ ],
+ "shared_x_columns": []
+}

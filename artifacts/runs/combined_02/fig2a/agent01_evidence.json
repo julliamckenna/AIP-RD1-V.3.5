@@ -1,0 +1,29 @@
+{
+ "input_path": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_02\\discovery\\python_inventory\\p7_img73.png",
+ "preserved_path": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_02\\fig2a\\evidence\\source_original.png",
+ "sha256": "997d2b4cbbfdf6a20c72a25ffb727fc2fed0b2204df3fe2b3195ba9483b899b2",
+ "panel_id": "a",
+ "source_path": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_02\\fig2a\\evidence\\source_original.png",
+ "crop_path": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_02\\fig2a\\panel.png",
+ "source_size_px": [
+  1473,
+  2150
+ ],
+ "bbox_norm": [
+  0.02,
+  0.0,
+  0.99,
+  0.414
+ ],
+ "bbox_px": [
+  7,
+  0,
+  1473,
+  922
+ ],
+ "crop_size_px": [
+  1466,
+  922
+ ],
+ "padding_fraction": 0.015
+}

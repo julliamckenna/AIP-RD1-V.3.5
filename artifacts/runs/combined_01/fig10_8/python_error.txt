@@ -1,0 +1,1 @@
+axis/tick detection failed through grayscale threshold 190: x-tick fit residual 10.90px exceeds 2.50px

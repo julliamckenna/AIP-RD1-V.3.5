@@ -1,0 +1,24 @@
+{
+ "agent_name": "agent03-extraction",
+ "agent_version": "8",
+ "response_id": "resp_06b0923f644387f3006ab6c29d6060819693e68144de871849",
+ "usage": {
+  "input_tokens": 26754,
+  "input_tokens_details": {
+   "cache_write_tokens": 3077,
+   "cached_tokens": 0
+  },
+  "output_tokens": 5408,
+  "output_tokens_details": {
+   "reasoning_tokens": 5337
+  },
+  "total_tokens": 32162
+ },
+ "created_at": "2026-09-25T18:52:28.591421+00:00",
+ "dry_run": false,
+ "response_mode": "artifacts",
+ "request_sha256": "3deb88ef98ff901c4822b71e647e0c53b48963b9e0787f60e42d85cff60d4b47",
+ "request_path": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\fig3a\\figp1\\agent03_unstructured\\attempt-4d8548d62d8e48c489426e2008efa4bd\\request.json",
+ "runtime_agent_name": "chart-review-3e03878c09514acbb6b8",
+ "runtime_agent_version": "1"
+}

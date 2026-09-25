@@ -1,0 +1,754 @@
+{
+ "reasoning": "The calibration is correct: the source axes are linear and printed from 0 to 120 mbar and 0 to 3.0 mmol/g, and the re-plotted curves occupy the same values against those ticks. However, the extraction is not complete in the crowded low-pressure region, especially for CO2 303K, 353K, and 373K, with additional shortfalls for 313K and 333K. The legend declarations for 333K and 373K are also wrong: the source shows a filled pentagon for 333K and a star-like filled marker for 373K, not an open circle and plus. The green 323K source glyph is a filled upward triangle; the raster pentagon measurement is a misread caused by the crowded legend symbol.",
+ "axis_check": {
+  "x": {
+   "printed_min": 0,
+   "printed_max": 120,
+   "data_min": 1.3948,
+   "data_max": 114.0915,
+   "reason": "The source x-axis visibly runs from 0 to 120 mbar, with anchors at 0, 40, 80, and 120. The extracted pressures re-plot on the same linear scale without a shift or stretch.",
+   "result": "pass"
+  },
+  "y": {
+   "printed_min": 0,
+   "printed_max": 3,
+   "data_min": 0.0428,
+   "data_max": 2.925,
+   "reason": "The source y-axis visibly runs from 0 to 3.0 mmol/g. The extracted loadings align with the source curves and remain within the printed range, with the highest point just below 3.",
+   "result": "pass"
+  }
+ },
+ "satisfied": false,
+ "issues": [
+  "CO2 303K has a substantial low-pressure coverage shortfall: 14 detected versus approximately 25 visible markers.",
+  "CO2 353K and CO2 373K also have missed markers, concentrated in crowded low-pressure portions and thick connecting-line regions.",
+  "CO2 313K and CO2 333K are short of the approximately 25 visible markers and need a denser trajectory-guided pass.",
+  "The 333K legend marker is a filled pentagon, not an open circle.",
+  "The 373K legend marker is a filled star-like marker, not a plus.",
+  "The green 323K legend marker is a filled upward triangle; the raster pentagon classification is incorrect."
+ ],
+ "structure_ok": true,
+ "chart_title": "",
+ "x_axis": {
+  "title": "P",
+  "unit": "mbar",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 120,
+  "boundary_limits_confirmed": false,
+  "ticks": [
+   0,
+   40,
+   80,
+   120
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.237,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.471,
+    "value": 40
+   },
+   {
+    "pixel_norm": 0.705,
+    "value": 80
+   },
+   {
+    "pixel_norm": 0.94,
+    "value": 120
+   }
+  ]
+ },
+ "y_axis": {
+  "title": "CO2 Loading",
+  "unit": "mmol/g",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 3,
+  "boundary_limits_confirmed": false,
+  "ticks": [
+   0,
+   0.5,
+   1,
+   1.5,
+   2,
+   2.5,
+   3
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.89,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.774,
+    "value": 0.5
+   },
+   {
+    "pixel_norm": 0.656,
+    "value": 1
+   },
+   {
+    "pixel_norm": 0.54,
+    "value": 1.5
+   },
+   {
+    "pixel_norm": 0.421,
+    "value": 2
+   },
+   {
+    "pixel_norm": 0.304,
+    "value": 2.5
+   },
+   {
+    "pixel_norm": 0.187,
+    "value": 3
+   }
+  ]
+ },
+ "legend_bbox_norm": [
+  0.568,
+  0.662,
+  0.931,
+  0.884
+ ],
+ "total_series": 6,
+ "series": [
+  {
+   "label": "CO2 303K",
+   "marker": "circle",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "color_hex": "#e51c23",
+   "notes": "Filled red circles."
+  },
+  {
+   "label": "CO2 313K",
+   "marker": "square",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "color_hex": "#f4a21b",
+   "notes": "Filled orange squares."
+  },
+  {
+   "label": "CO2 323K",
+   "marker": "triangle_up",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "color_hex": "#198b43",
+   "notes": "Filled green upward triangles; the raster pentagon measurement is a legend-classification error."
+  },
+  {
+   "label": "CO2 333K",
+   "marker": "pentagon",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "color_hex": "#29469d",
+   "notes": "Filled blue pentagons, visibly distinct from the green triangles and not open circles."
+  },
+  {
+   "label": "CO2 353K",
+   "marker": "diamond",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "color_hex": "#c52a86",
+   "notes": "Filled magenta diamonds."
+  },
+  {
+   "label": "CO2 373K",
+   "marker": "star",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "color_hex": "#000000",
+   "notes": "Filled black star-like markers; the plus declaration is incorrect."
+  }
+ ],
+ "branches": "adsorption_only",
+ "complex_regions": [
+  {
+   "bbox_norm": [
+    0.237,
+    0.43,
+    0.475,
+    0.89
+   ],
+   "kind": "dense_markers",
+   "python_passes": 5
+  },
+  {
+   "bbox_norm": [
+    0.237,
+    0.6,
+    0.405,
+    0.89
+   ],
+   "kind": "thick_connecting_lines",
+   "python_passes": 5
+  }
+ ],
+ "extraction_settings": [
+  {
+   "label": "CO2 303K",
+   "color_tolerance": 30,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 6,
+     "y_min": 0,
+     "y_max": 1.8
+    },
+    {
+     "x_from": 6,
+     "x_to": 30,
+     "y_min": 1.2,
+     "y_max": 2.4
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "y_min": 2.0,
+     "y_max": 3.0
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Recover the many missing red circles in the steep low-pressure fan and assign crowded red ink by the trajectory rather than relying only on isolated colour components.",
+   "sample_marker_norm": [
+    0.705,
+    0.256
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 30,
+     "count": 12
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "count": 13
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 1,
+     "y": 0.35
+    },
+    {
+     "x": 2,
+     "y": 0.65
+    },
+    {
+     "x": 4,
+     "y": 1.05
+    },
+    {
+     "x": 6,
+     "y": 1.4
+    },
+    {
+     "x": 10,
+     "y": 1.75
+    },
+    {
+     "x": 20,
+     "y": 2.1
+    },
+    {
+     "x": 30,
+     "y": 2.3
+    },
+    {
+     "x": 50,
+     "y": 2.55
+    },
+    {
+     "x": 80,
+     "y": 2.75
+    },
+    {
+     "x": 100,
+     "y": 2.88
+    },
+    {
+     "x": 114,
+     "y": 2.96
+    }
+   ]
+  },
+  {
+   "label": "CO2 313K",
+   "color_tolerance": 30,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 6,
+     "y_min": 0,
+     "y_max": 1.5
+    },
+    {
+     "x_from": 6,
+     "x_to": 30,
+     "y_min": 1.2,
+     "y_max": 2.2
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "y_min": 1.9,
+     "y_max": 2.75
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Use the orange curve trajectory to recover shortfall markers near the low-pressure cluster and avoid confusing them with adjacent red and green markers.",
+   "sample_marker_norm": [
+    0.705,
+    0.304
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 30,
+     "count": 12
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "count": 13
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 1,
+     "y": 0.3
+    },
+    {
+     "x": 2,
+     "y": 0.6
+    },
+    {
+     "x": 4,
+     "y": 0.95
+    },
+    {
+     "x": 6,
+     "y": 1.25
+    },
+    {
+     "x": 10,
+     "y": 1.55
+    },
+    {
+     "x": 20,
+     "y": 1.9
+    },
+    {
+     "x": 30,
+     "y": 2.1
+    },
+    {
+     "x": 50,
+     "y": 2.35
+    },
+    {
+     "x": 80,
+     "y": 2.52
+    },
+    {
+     "x": 100,
+     "y": 2.6
+    },
+    {
+     "x": 114,
+     "y": 2.66
+    }
+   ]
+  },
+  {
+   "label": "CO2 323K",
+   "color_tolerance": 28,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 6,
+     "y_min": 0,
+     "y_max": 1.3
+    },
+    {
+     "x_from": 6,
+     "x_to": 30,
+     "y_min": 1.0,
+     "y_max": 2.0
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "y_min": 1.75,
+     "y_max": 2.5
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Correct the triangle identity and constrain crowded green candidates to the green isotherm trajectory.",
+   "sample_marker_norm": [
+    0.705,
+    0.365
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 30,
+     "count": 12
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "count": 13
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 1,
+     "y": 0.25
+    },
+    {
+     "x": 2,
+     "y": 0.5
+    },
+    {
+     "x": 4,
+     "y": 0.8
+    },
+    {
+     "x": 6,
+     "y": 1.05
+    },
+    {
+     "x": 10,
+     "y": 1.35
+    },
+    {
+     "x": 20,
+     "y": 1.7
+    },
+    {
+     "x": 30,
+     "y": 1.9
+    },
+    {
+     "x": 50,
+     "y": 2.1
+    },
+    {
+     "x": 80,
+     "y": 2.25
+    },
+    {
+     "x": 100,
+     "y": 2.35
+    },
+    {
+     "x": 114,
+     "y": 2.42
+    }
+   ]
+  },
+  {
+   "label": "CO2 333K",
+   "color_tolerance": 28,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 6,
+     "y_min": 0,
+     "y_max": 1.1
+    },
+    {
+     "x_from": 6,
+     "x_to": 30,
+     "y_min": 0.9,
+     "y_max": 1.75
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "y_min": 1.55,
+     "y_max": 2.35
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Use filled-pentagon shape and the blue trajectory to recover missing markers and prevent assignment to the green series.",
+   "sample_marker_norm": [
+    0.705,
+    0.396
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 30,
+     "count": 12
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "count": 13
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 1,
+     "y": 0.2
+    },
+    {
+     "x": 2,
+     "y": 0.4
+    },
+    {
+     "x": 4,
+     "y": 0.65
+    },
+    {
+     "x": 6,
+     "y": 0.9
+    },
+    {
+     "x": 10,
+     "y": 1.15
+    },
+    {
+     "x": 20,
+     "y": 1.45
+    },
+    {
+     "x": 30,
+     "y": 1.7
+    },
+    {
+     "x": 50,
+     "y": 1.95
+    },
+    {
+     "x": 80,
+     "y": 2.1
+    },
+    {
+     "x": 100,
+     "y": 2.2
+    },
+    {
+     "x": 114,
+     "y": 2.25
+    }
+   ]
+  },
+  {
+   "label": "CO2 353K",
+   "color_tolerance": 32,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 6,
+     "y_min": 0,
+     "y_max": 0.8
+    },
+    {
+     "x_from": 6,
+     "x_to": 30,
+     "y_min": 0.55,
+     "y_max": 1.35
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "y_min": 1.05,
+     "y_max": 2.05
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Recover missed magenta diamonds in the dense low-pressure area and along the thick black-line neighborhood using the separated magenta curve.",
+   "sample_marker_norm": [
+    0.705,
+    0.479
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 30,
+     "count": 12
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "count": 13
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 1,
+     "y": 0.12
+    },
+    {
+     "x": 2,
+     "y": 0.25
+    },
+    {
+     "x": 4,
+     "y": 0.4
+    },
+    {
+     "x": 6,
+     "y": 0.58
+    },
+    {
+     "x": 10,
+     "y": 0.8
+    },
+    {
+     "x": 20,
+     "y": 1.1
+    },
+    {
+     "x": 30,
+     "y": 1.3
+    },
+    {
+     "x": 50,
+     "y": 1.55
+    },
+    {
+     "x": 80,
+     "y": 1.75
+    },
+    {
+     "x": 100,
+     "y": 1.86
+    },
+    {
+     "x": 114,
+     "y": 1.93
+    }
+   ]
+  },
+  {
+   "label": "CO2 373K",
+   "color_tolerance": 25,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 6,
+     "y_min": 0,
+     "y_max": 0.45
+    },
+    {
+     "x_from": 6,
+     "x_to": 30,
+     "y_min": 0.3,
+     "y_max": 0.75
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "y_min": 0.55,
+     "y_max": 1.7
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Recover missed black star markers along the steep low-pressure line and distinguish them from the thick black connecting stroke by marker-centre and trajectory constraints.",
+   "sample_marker_norm": [
+    0.705,
+    0.572
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 30,
+     "count": 12
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "count": 13
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 1,
+     "y": 0.06
+    },
+    {
+     "x": 2,
+     "y": 0.12
+    },
+    {
+     "x": 4,
+     "y": 0.22
+    },
+    {
+     "x": 6,
+     "y": 0.32
+    },
+    {
+     "x": 10,
+     "y": 0.45
+    },
+    {
+     "x": 20,
+     "y": 0.62
+    },
+    {
+     "x": 30,
+     "y": 0.78
+    },
+    {
+     "x": 50,
+     "y": 1.08
+    },
+    {
+     "x": 80,
+     "y": 1.38
+    },
+    {
+     "x": 100,
+     "y": 1.48
+    },
+    {
+     "x": 114,
+     "y": 1.56
+    }
+   ]
+  }
+ ],
+ "notes": "Axis calibration passes. The principal remaining work is marker completeness in the low-pressure fan and proper legend shape declarations.",
+ "region_strategies": [],
+ "shared_x_columns": []
+}

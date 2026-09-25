@@ -1,0 +1,1255 @@
+{
+ "reasoning": "batch 1: Native source crops support deletion of four template-only claims: the two CO2 273K claims at (300,430) and (310,431) fall on teal/magenta overlap with no black square marker, and the two CO2 283K claims at (260,566) and (308,476) do not coincide with visible red hexagon markers. The remaining contested boxes show source-colored marker pixels consistent with their proposed CO2 series, including the dense green-star, pink-diamond, red-pentagon, and low blue-circle markers. The extraction remains incomplete because the native evidence does not establish a complete inventory for the severely underdetected dense CO2 303K, 313K, 323K, and 373K curves; unresolved suggestions are retained rather than inferred or deleted.\nbatch 2: The unchanged panel and native contact sheets confirm that the proposal has substantial low-pressure and overlap-region omissions, particularly for CO2 303K, 313K, 323K, and 373K. However, the supplied material does not include the Python point rows or native crop-to-panel coordinate mapping needed to identify safe point IDs for moves, deletes, or reassignments, and many native crowded pixels do not resolve series ownership independently. I therefore made no speculative edits. The extraction remains incomplete and requires another coordinate-resolved source review.",
+ "verdict": "review",
+ "series": [
+  {
+   "label": "CO2 273K",
+   "coverage": "incomplete",
+   "final_count": 41,
+   "comment": "Count is retained; same-color overlap with N2 313K leaves some ownership uncertain."
+  },
+  {
+   "label": "CO2 283K",
+   "coverage": "incomplete",
+   "final_count": 30,
+   "comment": "Low-pressure fan and same-color overlap with N2 333K remain incompletely resolved."
+  },
+  {
+   "label": "CO2 293K",
+   "coverage": "incomplete",
+   "final_count": 32,
+   "comment": "Some blue overlap with other series remains difficult to assign from native pixels."
+  },
+  {
+   "label": "CO2 303K",
+   "coverage": "incomplete",
+   "final_count": 34,
+   "comment": "Native panel visibly contains missed markers, especially in the low-pressure fan and crowded teal region."
+  },
+  {
+   "label": "CO2 313K",
+   "coverage": "incomplete",
+   "final_count": 21,
+   "comment": "Severe native-marker shortfall remains in the low-pressure and intermediate ranges."
+  },
+  {
+   "label": "CO2 323K",
+   "coverage": "incomplete",
+   "final_count": 24,
+   "comment": "Severe native-marker shortfall remains below approximately 150 mbar and in crowded regions."
+  },
+  {
+   "label": "CO2 333K",
+   "coverage": "incomplete",
+   "final_count": 34,
+   "comment": "Most markers are present, but blue diamond ownership is not fully separable in crowded areas."
+  },
+  {
+   "label": "CO2 343K",
+   "coverage": "incomplete",
+   "final_count": 34,
+   "comment": "Native panel supports the retained pentagon series with no safe source-backed correction identified."
+  },
+  {
+   "label": "CO2 353K",
+   "coverage": "incomplete",
+   "final_count": 31,
+   "comment": "Native panel supports the retained pink diamond series with no safe source-backed correction identified."
+  },
+  {
+   "label": "CO2 363K",
+   "coverage": "incomplete",
+   "final_count": 30,
+   "comment": "Native panel supports the retained green star series with no safe source-backed correction identified."
+  },
+  {
+   "label": "CO2 373K",
+   "coverage": "incomplete",
+   "final_count": 22,
+   "comment": "Native panel visibly contains missed low-pressure and intermediate dark-blue circle markers."
+  }
+ ],
+ "operations": [
+  {
+   "operation_id": "batch-001-op-delete-273-template-300",
+   "action": "delete",
+   "point_id": "pt-c1d70570aaa0b18b",
+   "series_label": "CO2 273K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "Template fill has no source-supported black square at the proposed centre.",
+   "source_evidence": "Native tile_01 box 1 at panel pixel (300,430) shows teal and magenta curve pixels at the claim, with no visible black filled square marker."
+  },
+  {
+   "operation_id": "batch-001-op-delete-273-template-310",
+   "action": "delete",
+   "point_id": "pt-c7f2adf000cc13c1",
+   "series_label": "CO2 273K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "Template fill has no source-supported black square at the proposed centre.",
+   "source_evidence": "Native tile_01 box 2 at panel pixel (310,431) shows teal/magenta overlap and no visible black filled square marker."
+  },
+  {
+   "operation_id": "batch-001-op-delete-283-template-260",
+   "action": "delete",
+   "point_id": "pt-afe52325e567ec3d",
+   "series_label": "CO2 283K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "Template fill is not located on a visible red hexagon marker.",
+   "source_evidence": "Native tile_01 box 3 at panel pixel (260,566) contains overlapping olive, blue, and magenta pixels but no resolvable red filled hexagon at the proposed centre."
+  },
+  {
+   "operation_id": "batch-001-op-delete-283-template-308",
+   "action": "delete",
+   "point_id": "pt-0ab2f5429ce70a40",
+   "series_label": "CO2 283K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "Template fill is not located on a visible red hexagon marker.",
+   "source_evidence": "Native tile_01 box 4 at panel pixel (308,476) shows magenta/olive/blue overlap; the red CO2 283K curve is not at this proposed centre and no red hexagon is visible there."
+  }
+ ],
+ "uncertainties": [
+  "The dense native fan near the left plot boundary does not safely resolve all CO2 series ownership; no unsupported additions are made.",
+  "The native evidence does not provide a safe basis for deleting the remaining overlapping candidates, so they are retained.",
+  "The unresolved low-pressure slots for CO2 283K, 313K, 323K, 343K, 353K, 363K, and 373K are not converted into additions because a slot prediction is not source-pixel evidence.",
+  "CO2 303K, 313K, 323K, and 373K remain incomplete despite the reviewed native tiles.",
+  "The three native region tiles were inspected for source-supported missed markers; no additional marker can be safely isolated from those crops.",
+  "No ambiguity contact-sheet items were supplied in this batch.",
+  "The manifest has no explicit ambiguity-evidence items; the listed slot dispositions remain unresolved rather than treated as markers.",
+  "The remaining template-fit claims for CO2 303K are retained because native crops show teal marker pixels at their proposed locations, although crowded ownership remains difficult.",
+  "The CO2 323K template-like low-pressure claims are retained because native pixels contain olive right-pointing marker evidence, but overlap prevents stronger certainty.",
+  "The CO2 373K low-pressure claim at (281.47,670.13) is retained because the native crop contains the dark-blue low-curve marker region, though overlap prevents a complete fan inventory.",
+  "The CO2 293K contested marker at (352.69,380.14) is retained because native blue triangle pixels are visible at the proposed location.",
+  "The CO2 343K and CO2 353K reviewed crowded claims are retained because their native red-pentagon and pink-diamond marker bodies are visible.",
+  "The CO2 363K reviewed claims are retained because green star-shaped native pixels are visible at each proposed location.",
+  "The native evidence does not justify any reassignments between CO2 series.",
+  "No moves are source-supported by the supplied native crops.",
+  "No additional CO2 markers are added because the native tiles do not isolate a missed marker centre beyond the proposal.",
+  "The three region tiles contain crowded colored line/marker structures without a uniquely attributable additional CO2 marker.",
+  "The 16 diagnostic unresolved slots were compared conceptually against the supplied native dense crop but do not have individually isolating native evidence.",
+  "The plot-level source contains many overlapping series, so curve smoothness and expected counts were not used as edit evidence.",
+  "The deleted 273K and 283K claims were template fills rather than visibly identifiable native markers.",
+  "All operations use native panel-pixel evidence; candidate overlays and diagnostic counts were not treated as authority.",
+  "Coverage below records every supplied review item and separately records each diagnostic slot.",
+  "No excluded N2 series receives an operation.",
+  "Series marked complete are complete only for the reviewed native claims; global completeness is not asserted for the underdetected fan series.",
+  "The absence of a marker in a crowded native crop was used for deletion only where the claimed marker color and shape were directly contradicted by visible native pixels.",
+  "Potential hidden markers behind other colored curves remain unresolved.",
+  "The source legend confirms the CO2 marker identities used when interpreting native pixels.",
+  "No source-backed evidence supports changing coordinates of retained points.",
+  "The final verdict is review because the proposal is not a complete CO2-only inventory.",
+  "Native pixels in the reviewed boxes support keeping the non-deleted proposal points, not adding count-based replacements.",
+  "The region tiles were not used to infer smooth-curve points.",
+  "The source panel axes and calibration are not edited by this point-review response.",
+  "The 273K black curve is visually distinct at many other locations, but the two claimed template centres specifically lack black square pixels.",
+  "The 283K red curve is visually distinct elsewhere, but the two claimed template centres specifically lack red hexagon pixels.",
+  "No point is deleted merely because it overlaps another curve.",
+  "The low-pressure unresolved slots are left unresolved because predicted positions are not native marker evidence.",
+  "The reviewed native crops do not establish whether any additional CO2 point is hidden beneath another series.",
+  "The final counts reflect only the four explicit deletions.",
+  "No operation targets an N2 candidate.",
+  "All contested boxes in marker_01 and marker_02 have an explicit coverage disposition.",
+  "The native panel remains the sole coordinate authority.",
+  "The extraction should undergo another native-pixel pass focused on the left dense fan and intermediate overlaps.",
+  "The proposal's template_fill and template_fit labels were treated as fallible and checked against native crops.",
+  "The proposal point rows and point IDs are absent from the supplied review material, so no safe move, delete, or reassign operation can name an existing candidate.",
+  "The manifest supplies native filenames but no crop locations in panel.png, preventing defensible conversion of newly observed crop markers to panel-normalized coordinates.",
+  "Crowded native pixels frequently show multiple overlapping CO2 and N2 glyphs; overlap alone does not establish ownership.",
+  "The native panel confirms omissions but expected counts and curve templates cannot justify adding markers without individually resolved source centers.",
+  "coverage",
+  "Unresolved review item tile:marker_01: not returned by the review batch",
+  "Unresolved review item box:marker_01:1: not returned by the review batch",
+  "Unresolved review item box:marker_01:2: not returned by the review batch",
+  "Unresolved review item box:marker_01:3: not returned by the review batch",
+  "Unresolved review item box:marker_01:4: not returned by the review batch",
+  "Unresolved review item box:marker_01:5: not returned by the review batch",
+  "Unresolved review item box:marker_01:6: not returned by the review batch",
+  "Unresolved review item box:marker_01:7: not returned by the review batch",
+  "Unresolved review item box:marker_01:8: not returned by the review batch",
+  "Unresolved review item box:marker_01:9: not returned by the review batch",
+  "Unresolved review item box:marker_01:10: not returned by the review batch",
+  "Unresolved review item box:marker_01:11: not returned by the review batch",
+  "Unresolved review item box:marker_01:12: not returned by the review batch",
+  "Unresolved review item box:marker_01:13: not returned by the review batch",
+  "Unresolved review item box:marker_01:14: not returned by the review batch",
+  "Unresolved review item box:marker_01:15: not returned by the review batch",
+  "Unresolved review item box:marker_01:16: not returned by the review batch",
+  "Unresolved review item box:marker_01:17: not returned by the review batch",
+  "Unresolved review item box:marker_01:18: not returned by the review batch",
+  "Unresolved review item box:marker_01:19: not returned by the review batch",
+  "Unresolved review item box:marker_01:20: not returned by the review batch",
+  "Unresolved review item box:marker_01:21: not returned by the review batch",
+  "Unresolved review item box:marker_01:22: not returned by the review batch",
+  "Unresolved review item box:marker_01:23: not returned by the review batch",
+  "Unresolved review item box:marker_01:24: not returned by the review batch",
+  "Unresolved review item box:marker_01:25: not returned by the review batch",
+  "Unresolved review item box:marker_01:26: not returned by the review batch",
+  "Unresolved review item box:marker_01:27: not returned by the review batch",
+  "Unresolved review item box:marker_01:28: not returned by the review batch",
+  "Unresolved review item box:marker_01:29: not returned by the review batch",
+  "Unresolved review item box:marker_01:30: not returned by the review batch",
+  "Unresolved review item box:marker_01:31: not returned by the review batch",
+  "Unresolved review item box:marker_01:32: not returned by the review batch",
+  "Unresolved review item box:marker_01:33: not returned by the review batch",
+  "Unresolved review item box:marker_01:34: not returned by the review batch",
+  "Unresolved review item box:marker_01:35: not returned by the review batch",
+  "Unresolved review item box:marker_01:36: not returned by the review batch",
+  "Unresolved review item box:marker_01:37: not returned by the review batch",
+  "Unresolved review item box:marker_01:38: not returned by the review batch",
+  "Unresolved review item box:marker_01:39: not returned by the review batch",
+  "Unresolved review item box:marker_01:40: not returned by the review batch",
+  "Unresolved review item tile:marker_02: not returned by the review batch",
+  "Unresolved review item box:marker_02:41: not returned by the review batch",
+  "Unresolved review item box:marker_02:42: not returned by the review batch",
+  "Unresolved review item box:marker_02:43: not returned by the review batch",
+  "Unresolved review item box:marker_02:44: not returned by the review batch",
+  "Unresolved review item box:marker_02:45: not returned by the review batch",
+  "Unresolved review item box:marker_02:46: not returned by the review batch",
+  "Unresolved review item box:marker_02:47: not returned by the review batch",
+  "Unresolved review item box:marker_02:48: not returned by the review batch",
+  "Unresolved review item tile:region_01: not returned by the review batch",
+  "Unresolved review item tile:region_02: not returned by the review batch",
+  "Unresolved review item tile:region_03: not returned by the review batch",
+  "Unresolved review item evidence:dense_roi_native.png: not returned by the review batch",
+  "Unresolved review item evidence:dense_roi_line_suppressed.png: not returned by the review batch",
+  "Unresolved review item evidence:dense_roi_series_likelihood.png: not returned by the review batch",
+  "Unresolved review item evidence:dense_roi_proposed_assignments.png: not returned by the review batch",
+  "Unresolved review item evidence:ambiguity_assignment_scores.png: not returned by the review batch",
+  "Unresolved review item evidence:assignment_diagnostics.json: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_001_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_002_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_003_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_004_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_005_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_006_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_007_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_008_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_009_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_010_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_011_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_012_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_013_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_014_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_015_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_016_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_017_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_018_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_019_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_020_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_021_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_022_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_023_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_024_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_025_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_026_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_027_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_028_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_029_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_030_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_031_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_032_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_033_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_034_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_035_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_036_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_037_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_038_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_039_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_040_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_041_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_042_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_043_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_044_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_045_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_046_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_047_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_048_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_049_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_050_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_051_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_052_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_053_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_054_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_055_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_056_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_057_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_058_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_059_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_060_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_061_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_062_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_063_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_064_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_065_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_066_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_067_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_068_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_069_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_070_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_071_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_072_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_073_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_074_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_075_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_076_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_077_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_078_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_079_native.png: not returned by the review batch",
+  "Unresolved review item ambiguity:ambiguity_080_native.png: not returned by the review batch",
+  "Unresolved review item slot:0001: not returned by the review batch",
+  "Unresolved review item slot:0002: not returned by the review batch",
+  "Unresolved review item slot:0003: not returned by the review batch",
+  "Unresolved review item slot:0004: not returned by the review batch",
+  "Unresolved review item slot:0005: not returned by the review batch",
+  "Unresolved review item slot:0006: not returned by the review batch",
+  "Unresolved review item slot:0007: not returned by the review batch",
+  "Unresolved review item slot:0008: not returned by the review batch",
+  "Unresolved review item slot:0009: not returned by the review batch",
+  "Unresolved review item slot:0010: not returned by the review batch",
+  "Unresolved review item slot:0011: not returned by the review batch",
+  "Unresolved review item slot:0012: not returned by the review batch",
+  "Unresolved review item slot:0013: not returned by the review batch",
+  "Unresolved review item slot:0014: not returned by the review batch",
+  "Unresolved review item slot:0015: not returned by the review batch",
+  "Unresolved review item slot:0016: not returned by the review batch"
+ ],
+ "coverage": [
+  {
+   "item_id": "tile:marker_01",
+   "item_type": "tile",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:1",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:2",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:3",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:4",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:5",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:6",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:7",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:8",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:9",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:10",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:11",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:12",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:13",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:14",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:15",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:16",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:17",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:18",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:19",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:20",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:21",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:22",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:23",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:24",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:25",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:26",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:27",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:28",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:29",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:30",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:31",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:32",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:33",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:34",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:35",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:36",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:37",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:38",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:39",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_01:40",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "tile:marker_02",
+   "item_type": "tile",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_02:41",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_02:42",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_02:43",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_02:44",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_02:45",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_02:46",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_02:47",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "box:marker_02:48",
+   "item_type": "box",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "tile:region_01",
+   "item_type": "tile",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "tile:region_02",
+   "item_type": "tile",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "tile:region_03",
+   "item_type": "tile",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "evidence:dense_roi_native.png",
+   "item_type": "evidence",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "evidence:dense_roi_line_suppressed.png",
+   "item_type": "evidence",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "evidence:dense_roi_series_likelihood.png",
+   "item_type": "evidence",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "evidence:dense_roi_proposed_assignments.png",
+   "item_type": "evidence",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "evidence:ambiguity_assignment_scores.png",
+   "item_type": "evidence",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "evidence:assignment_diagnostics.json",
+   "item_type": "evidence",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_001_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_002_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_003_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_004_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_005_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_006_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_007_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_008_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_009_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_010_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_011_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_012_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_013_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_014_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_015_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_016_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_017_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_018_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_019_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_020_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_021_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_022_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_023_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_024_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_025_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_026_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_027_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_028_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_029_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_030_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_031_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_032_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_033_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_034_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_035_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_036_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_037_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_038_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_039_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_040_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_041_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_042_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_043_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_044_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_045_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_046_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_047_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_048_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_049_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_050_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_051_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_052_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_053_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_054_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_055_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_056_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_057_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_058_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_059_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_060_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_061_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_062_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_063_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_064_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_065_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_066_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_067_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_068_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_069_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_070_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_071_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_072_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_073_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_074_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_075_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_076_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_077_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_078_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_079_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "ambiguity:ambiguity_080_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "slot:0001",
+   "item_type": "slot",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "slot:0002",
+   "item_type": "slot",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "slot:0003",
+   "item_type": "slot",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "slot:0004",
+   "item_type": "slot",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "slot:0005",
+   "item_type": "slot",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "slot:0006",
+   "item_type": "slot",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "slot:0007",
+   "item_type": "slot",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "slot:0008",
+   "item_type": "slot",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "slot:0009",
+   "item_type": "slot",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "slot:0010",
+   "item_type": "slot",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "slot:0011",
+   "item_type": "slot",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "slot:0012",
+   "item_type": "slot",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "slot:0013",
+   "item_type": "slot",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "slot:0014",
+   "item_type": "slot",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "slot:0015",
+   "item_type": "slot",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  },
+  {
+   "item_id": "slot:0016",
+   "item_type": "slot",
+   "status": "unresolved",
+   "detail": "not returned by the review batch"
+  }
+ ]
+}

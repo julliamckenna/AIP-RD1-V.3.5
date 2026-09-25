@@ -1,0 +1,124 @@
+{
+ "schema_version": "1.0",
+ "actor": "agent03_review_points",
+ "requested": 8,
+ "applied": 8,
+ "operations": [
+  {
+   "operation_index": 0,
+   "operation_id": "op-01",
+   "action": "delete",
+   "point_id": "pt-512915be23f5849b",
+   "series_label": null,
+   "reason": "The proposed point is not centered on a visible CO2 303K downward triangle; it lies between the teal and magenta trajectories on connecting-line ink.",
+   "source_evidence": "Native marker tile box 51 at source pixel (932.0,293.0) shows the teal downward-triangle curve above and the magenta left-triangle curve below, with no teal marker at the proposed center.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 1,
+   "operation_id": "op-02",
+   "action": "reassign",
+   "point_id": "pt-dae43f2a44a889e1",
+   "series_label": "CO2 323K",
+   "reason": "The marker at this location follows the olive CO2 323K right-triangle trajectory rather than the teal CO2 303K trajectory.",
+   "source_evidence": "Native marker tile box 46 at source pixel (440.0,366.0) shows the olive right-triangle trajectory at the proposed center; the teal downward triangles are visibly higher.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    440.0,
+    366.1
+   ]
+  },
+  {
+   "operation_index": 2,
+   "operation_id": "op-03",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 333K",
+   "reason": "Visible dark-blue diamond marker omitted by Python.",
+   "source_evidence": "Native panel visibly shows a filled dark-blue diamond centered near source pixel (502,403), on the CO2 333K curve below the olive curve and above the brown curve.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    502.0,
+    403.0
+   ]
+  },
+  {
+   "operation_index": 3,
+   "operation_id": "op-04",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 333K",
+   "reason": "Visible dark-blue diamond marker omitted by Python.",
+   "source_evidence": "Native panel visibly shows a filled dark-blue diamond centered near source pixel (682,379), on the CO2 333K curve.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    682.0,
+    378.8
+   ]
+  },
+  {
+   "operation_index": 4,
+   "operation_id": "op-05",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 333K",
+   "reason": "Visible dark-blue diamond marker omitted by Python.",
+   "source_evidence": "Native panel visibly shows a filled dark-blue diamond centered near source pixel (862,362), on the CO2 333K curve.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    862.0,
+    362.0
+   ]
+  },
+  {
+   "operation_index": 5,
+   "operation_id": "op-06",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 343K",
+   "reason": "Visible dark-red pentagon marker omitted by Python.",
+   "source_evidence": "Native panel visibly shows a filled dark-red pentagon centered near source pixel (502,435), on the CO2 343K curve below the dark-blue diamonds.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    502.0,
+    435.0
+   ]
+  },
+  {
+   "operation_index": 6,
+   "operation_id": "op-07",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 343K",
+   "reason": "Visible dark-red pentagon marker omitted by Python.",
+   "source_evidence": "Native panel visibly shows a filled dark-red pentagon centered near source pixel (682,404), on the CO2 343K curve.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    682.0,
+    404.0
+   ]
+  },
+  {
+   "operation_index": 7,
+   "operation_id": "op-08",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 343K",
+   "reason": "Visible dark-red pentagon marker omitted by Python.",
+   "source_evidence": "Native panel visibly shows a filled dark-red pentagon centered near source pixel (862,385), on the CO2 343K curve.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    862.0,
+    385.0
+   ]
+  }
+ ]
+}

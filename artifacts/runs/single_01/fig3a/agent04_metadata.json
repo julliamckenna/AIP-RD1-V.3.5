@@ -1,0 +1,573 @@
+{
+ "schema_version": "4.0",
+ "stage": "agent04",
+ "figure_id": "fig3a",
+ "panel_id": "a",
+ "source_pdf": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\data\\input\\single_01.png",
+ "image_sha256": "ce68f06a35ddd21cfa4c292f99fe5638238f98453a90e1c0d9cb9a557c71bc0e",
+ "status": "partial_review_required",
+ "plot_bbox": [
+  74,
+  47,
+  287,
+  218
+ ],
+ "series": [
+  {
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "series_name": "CO2 195K",
+   "species": "CO2",
+   "export_eligible": true,
+   "species_evidence": "Direct in-plot label \u201cCO2@195 K\u201d; caption states \u201cCO\u2082 adsorption\u2013desorption isotherm at 195 K.\u201d",
+   "marker_shape": "circle",
+   "marker_fill": "open",
+   "marker_glyph": null,
+   "color_hex": "#6878ff",
+   "line_style": "solid",
+   "axis_x_id": "x",
+   "axis_y_id": "y",
+   "quantity_type": "co2_uptake",
+   "loading_basis": "cm\u00b3 per gram of NUM-27a"
+  }
+ ],
+ "axes": [
+  {
+   "axis_id": "x",
+   "scale": "linear",
+   "unit": "dimensionless",
+   "quantity_type": "Relative Pressure (P/P\u2080)",
+   "calibration_status": "valid",
+   "a": 0.0051506863160022485,
+   "b": -0.43141577547707344,
+   "anchors": [
+    {
+     "pixel": 84.0,
+     "value": 0.0
+    },
+    {
+     "pixel": 122.0,
+     "value": 0.2
+    },
+    {
+     "pixel": 162.0,
+     "value": 0.4
+    },
+    {
+     "pixel": 200.0,
+     "value": 0.6
+    },
+    {
+     "pixel": 239.0,
+     "value": 0.8
+    },
+    {
+     "pixel": 278.0,
+     "value": 1.0
+    }
+   ],
+   "equation": "value=a*pixel+b"
+  },
+  {
+   "axis_id": "y",
+   "scale": "linear",
+   "unit": "cm\u00b3 g\u207b\u00b9",
+   "quantity_type": "Uptake",
+   "calibration_status": "valid",
+   "a": -0.8754212594159675,
+   "b": 181.2879276032549,
+   "anchors": [
+    {
+     "pixel": 47.0,
+     "value": 140.0
+    },
+    {
+     "pixel": 70.0,
+     "value": 120.0
+    },
+    {
+     "pixel": 93.0,
+     "value": 100.0
+    },
+    {
+     "pixel": 116.0,
+     "value": 80.0
+    },
+    {
+     "pixel": 138.0,
+     "value": 60.0
+    },
+    {
+     "pixel": 162.0,
+     "value": 40.0
+    },
+    {
+     "pixel": 184.0,
+     "value": 20.0
+    },
+    {
+     "pixel": 207.0,
+     "value": 0.0
+    }
+   ],
+   "equation": "value=a*pixel+b"
+  }
+ ],
+ "instances": [
+  {
+   "source_instance_id": "src-48b9e6137c81bfb9",
+   "point_id": "pt-4f62de10b3346e65",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 84.0,
+   "source_pixel_y": 205.84,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-d4e8c10372cf40a9",
+   "point_id": "pt-2cc770557e8343db",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 84.0,
+   "source_pixel_y": 194.04,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-f48f76a9938df06b",
+   "point_id": "pt-3c71377f4aca926d",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 84.31,
+   "source_pixel_y": 189.04,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-830d61204f221d8b",
+   "point_id": "pt-2928bf13af0abf2e",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 84.45,
+   "source_pixel_y": 180.79,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-5490c78e454e2e87",
+   "point_id": "pt-b98d8e0aa3736507",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 84.51,
+   "source_pixel_y": 184.02,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-4253e50090d7bb34",
+   "point_id": "pt-a40a0c827afa4590",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 84.68,
+   "source_pixel_y": 178.24,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-234b7658a12a99c0",
+   "point_id": "pt-0633961308fd260f",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 85.0,
+   "source_pixel_y": 170.14,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-47a9f1a8a6298895",
+   "point_id": "pt-87dfcc361d45fe48",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 85.4,
+   "source_pixel_y": 162.07,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-e8bffdec35131c45",
+   "point_id": "pt-b4a3e6367a92e96b",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 85.84,
+   "source_pixel_y": 155.12,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-c2b9145da93b2705",
+   "point_id": "pt-2c8265e9b8e57771",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 86.5,
+   "source_pixel_y": 148.5,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-3421698b5f26ab3d",
+   "point_id": "pt-792dd3855bc0399f",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 86.99,
+   "source_pixel_y": 140.95,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-9418ec4b20dc0811",
+   "point_id": "pt-5a3f7b44ca53ff16",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 87.8,
+   "source_pixel_y": 132.88,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-4ac23b717315cb49",
+   "point_id": "pt-f817269899d0007e",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 88.79,
+   "source_pixel_y": 125.1,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-c674b7d928976c55",
+   "point_id": "pt-733142a82fb5e8fb",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 90.0,
+   "source_pixel_y": 117.04,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-88785811359a024d",
+   "point_id": "pt-d2f3152cc0252783",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 91.36,
+   "source_pixel_y": 112.67,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-f462699402c3080f",
+   "point_id": "pt-6bd2e1a1bc64e9c8",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 91.68,
+   "source_pixel_y": 110.24,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-6ce82d081bf0f6a1",
+   "point_id": "pt-657934db3255a634",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 92.11,
+   "source_pixel_y": 99.87,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-454a14b505290356",
+   "point_id": "pt-04cc1c5478f8062d",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 92.49,
+   "source_pixel_y": 95.08,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-8c1e2dba003d9cfd",
+   "point_id": "pt-31b8b5031e6f34f5",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 92.99,
+   "source_pixel_y": 90.91,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-cded6c05f4778879",
+   "point_id": "pt-616d0047adfd6ad4",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 94.02,
+   "source_pixel_y": 83.96,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-ccc64edff00ca2a9",
+   "point_id": "pt-f71c0ef56e11bb12",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 95.01,
+   "source_pixel_y": 78.12,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-cfc17fd39ecad01f",
+   "point_id": "pt-e89d25f4ac85a050",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 96.01,
+   "source_pixel_y": 75.06,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-da0b78edc2b02deb",
+   "point_id": "pt-afc18d6f830819db",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 97.52,
+   "source_pixel_y": 72.1,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-bf5572cc8d7cfd2a",
+   "point_id": "pt-84a96fccba1ff1a0",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 98.71,
+   "source_pixel_y": 70.06,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-01ec1be1d895b941",
+   "point_id": "pt-9b538d3ed8ef9af0",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 100.91,
+   "source_pixel_y": 69.34,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-8ac07430be0cf8f6",
+   "point_id": "pt-aabe108efd14b7c7",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 105.81,
+   "source_pixel_y": 68.65,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-a1c572822458bc99",
+   "point_id": "pt-9c290a05967939cb",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 117.04,
+   "source_pixel_y": 68.16,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-7abc2f64683fc6e0",
+   "point_id": "pt-20684039ea6432ab",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 126.7,
+   "source_pixel_y": 67.22,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-567138d061382bd6",
+   "point_id": "pt-04092880a299227a",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 135.5,
+   "source_pixel_y": 67.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-0ebebe4952ff9b82",
+   "point_id": "pt-5e513378792217fc",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 170.3,
+   "source_pixel_y": 66.1,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-9f96457452e1c2bd",
+   "point_id": "pt-9d7e649b4ce9451f",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 200.0,
+   "source_pixel_y": 65.05,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-bd6729c102466800",
+   "point_id": "pt-aade45cd28cc6a67",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 256.88,
+   "source_pixel_y": 64.45,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-e61328a70b7db192",
+   "point_id": "pt-0b8786b1734fd26e",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 261.67,
+   "source_pixel_y": 64.12,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-0f7fe46d65caebd7",
+   "point_id": "pt-30c417427d82718c",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 271.5,
+   "source_pixel_y": 63.5,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  }
+ ],
+ "coverage": [
+  {
+   "bbox": [
+    74,
+    47,
+    287,
+    218
+   ],
+   "inspected": false
+  }
+ ],
+ "limitations": [
+  "agent04 remains subject to downstream or human review."
+ ],
+ "rejected_masked_points": 0,
+ "unresolved_slots": {
+  "total": 0,
+  "by_series": {},
+  "slots": []
+ },
+ "unresolved_accounting_valid": true,
+ "row_count": 34,
+ "agent_report": {
+  "reasoning": "The source shows one blue open-circle CO2 195K isotherm with a dense, nearly vertical low-pressure rise followed by a plateau near 120-127 cm\u00b3 g\u207b\u00b9. The recreated series has the correct calibration, overall shape, ordering, and terminal value, but it is visibly under-sampled relative to the source, especially through the steep rise and at several plateau positions. The flagged lowest-pressure point is retained because a CO2 marker is visible at the lower end of the rise, although it overlaps the near-zero N2 trace.",
+  "axis_check": {
+   "x": {
+    "printed_min": 0,
+    "printed_max": 1,
+    "data_min": 0.0012,
+    "data_max": 0.967,
+    "reason": "The source and recreated plots both use a linear 0.0-1.0 relative-pressure axis; the steep rise and plateau points occur at matching horizontal values.",
+    "result": "pass"
+   },
+   "y": {
+    "printed_min": 0,
+    "printed_max": 140,
+    "data_min": 1.0912,
+    "data_max": 125.6987,
+    "reason": "The recreated rise and approximately 126 cm\u00b3 g\u207b\u00b9 endpoint align with the source against the linear 0-140 uptake ticks.",
+    "result": "pass"
+   }
+  },
+  "independent_read": {
+   "x_axis": "Relative Pressure (P/P\u2080), linear 0.0-1.0",
+   "y_axis": "Uptake (cm\u00b3 g\u207b\u00b9), linear 0-140",
+   "series": [
+    {
+     "label": "CO2 195K",
+     "marker": "circle",
+     "marker_fill": "open",
+     "visible_markers_estimate": 52,
+     "notes": "Blue open circles; many markers are tightly packed along the low-pressure rise, followed by a densely sampled plateau near 120-127 cm\u00b3 g\u207b\u00b9. The inset is not part of the main-panel extraction."
+    }
+   ],
+   "visual_risks": [
+    "Many CO2 markers overlap or nearly overlap along the steep low-pressure rise.",
+    "The lowest CO2 marker overlaps the near-zero N2 trace.",
+    "The inset contains a separate magnified rendering that must not be counted as main-panel points."
+   ]
+  },
+  "verdict": "review",
+  "series": [
+   {
+    "label": "CO2 195K",
+    "coverage": "incomplete",
+    "final_count": 34,
+    "comment": "The principal isotherm shape is correct, but visible source markers remain uncovered in the dense rise and along the plateau."
+   }
+  ],
+  "operations": [],
+  "uncertainties": [
+   "The exact number and centers of the omitted markers in the nearly vertical low-pressure cluster are difficult to resolve because of heavy overlap.",
+   "Additional plateau markers are visibly absent, but no native-pixel coordinates for safe point additions were provided; points should not be invented merely to smooth or densify the curve."
+  ]
+ },
+ "edit_audit": {
+  "schema_version": "1.0",
+  "actor": "agent04_final_check",
+  "requested": 0,
+  "applied": 0,
+  "operations": []
+ }
+}

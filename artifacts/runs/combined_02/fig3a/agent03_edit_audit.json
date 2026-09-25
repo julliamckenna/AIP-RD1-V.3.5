@@ -1,0 +1,218 @@
+{
+ "schema_version": "1.0",
+ "actor": "agent03_review_points",
+ "requested": 14,
+ "applied": 14,
+ "operations": [
+  {
+   "operation_index": 0,
+   "operation_id": "op-add-co2-transition-01",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Python missed a visibly separable blue open-circle marker on the upper part of the steep low-pressure branch.",
+   "source_evidence": "Blue open-circle ring centered near native pixel (176,158) in the unchanged source panel.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    176.03,
+    158.03
+   ]
+  },
+  {
+   "operation_index": 1,
+   "operation_id": "op-add-co2-transition-02",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Python missed a visibly separable blue open-circle marker on the steep branch.",
+   "source_evidence": "Blue open-circle ring centered near native pixel (178,146) in the unchanged source panel.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    178.0,
+    146.02
+   ]
+  },
+  {
+   "operation_index": 2,
+   "operation_id": "op-add-co2-transition-03",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Python missed a visibly separable blue open-circle marker immediately below the transition to the plateau.",
+   "source_evidence": "Blue open-circle ring centered near native pixel (180,138) in the unchanged source panel.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    179.97,
+    137.98
+   ]
+  },
+  {
+   "operation_index": 3,
+   "operation_id": "op-add-co2-plateau-01",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Python missed a clearly visible plateau marker.",
+   "source_evidence": "Blue open-circle ring centered near native pixel (440,114) in the unchanged source panel.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    440.01,
+    114.02
+   ]
+  },
+  {
+   "operation_index": 4,
+   "operation_id": "op-add-co2-plateau-02",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Python missed a clearly visible plateau marker.",
+   "source_evidence": "Blue open-circle ring centered near native pixel (465,113) in the unchanged source panel.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    465.03,
+    113.03
+   ]
+  },
+  {
+   "operation_index": 5,
+   "operation_id": "op-add-co2-plateau-03",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Python missed a clearly visible plateau marker.",
+   "source_evidence": "Blue open-circle ring centered near native pixel (489,113) in the unchanged source panel.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    489.01,
+    113.03
+   ]
+  },
+  {
+   "operation_index": 6,
+   "operation_id": "op-add-co2-plateau-04",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Python missed a clearly visible plateau marker.",
+   "source_evidence": "Blue open-circle ring centered near native pixel (514,112) in the unchanged source panel.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    514.03,
+    112.04
+   ]
+  },
+  {
+   "operation_index": 7,
+   "operation_id": "op-add-co2-plateau-05",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Python missed a clearly visible plateau marker.",
+   "source_evidence": "Blue open-circle ring centered near native pixel (537,112) in the unchanged source panel.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    537.02,
+    112.04
+   ]
+  },
+  {
+   "operation_index": 8,
+   "operation_id": "op-add-co2-plateau-06",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Python missed a clearly visible plateau marker.",
+   "source_evidence": "Blue open-circle ring centered near native pixel (560,112) in the unchanged source panel.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    560.01,
+    112.04
+   ]
+  },
+  {
+   "operation_index": 9,
+   "operation_id": "op-add-co2-plateau-07",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Python missed a clearly visible plateau marker.",
+   "source_evidence": "Blue open-circle ring centered near native pixel (584,111) in the unchanged source panel.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    583.98,
+    110.99
+   ]
+  },
+  {
+   "operation_index": 10,
+   "operation_id": "op-add-co2-plateau-08",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Python missed a clearly visible plateau marker.",
+   "source_evidence": "Blue open-circle ring centered near native pixel (598,111) in the unchanged source panel.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    597.97,
+    110.99
+   ]
+  },
+  {
+   "operation_index": 11,
+   "operation_id": "op-add-co2-plateau-09",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Python missed a clearly visible plateau marker.",
+   "source_evidence": "Blue open-circle ring centered near native pixel (608,110) in the unchanged source panel.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    608.02,
+    110.0
+   ]
+  },
+  {
+   "operation_index": 12,
+   "operation_id": "op-add-co2-plateau-10",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Python missed a clearly visible plateau marker near the high-pressure end.",
+   "source_evidence": "Blue open-circle ring centered near native pixel (618,108) in the unchanged source panel.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    618.01,
+    108.02
+   ]
+  },
+  {
+   "operation_index": 13,
+   "operation_id": "op-add-co2-plateau-11",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Python missed the final clearly visible blue plateau marker.",
+   "source_evidence": "Blue open-circle ring centered near native pixel (626,106) in the unchanged source panel.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    626.02,
+    105.97
+   ]
+  }
+ ]
+}

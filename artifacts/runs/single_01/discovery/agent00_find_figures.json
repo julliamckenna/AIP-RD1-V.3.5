@@ -1,0 +1,179 @@
+[
+ {
+  "candidate_id": "image",
+  "figure": {
+   "page": 1,
+   "kind": "image",
+   "file": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\single_01\\discovery\\python_inventory\\figure.png",
+   "source_id": "image",
+   "figure_number": null,
+   "caption": null,
+   "caption_candidates": [],
+   "references": []
+  },
+  "answer": {
+   "reasoning": "The printed caption identifies Figure 3 and explicitly states that panel (a) contains the N₂ adsorption–desorption isotherm at 77 K together with the CO₂ adsorption–desorption isotherm at 195 K for NUM-27a. Thus panel (a) is eligible even though it also contains N₂. Panels (b)–(i) concern hydrocarbon isotherms, cycling, kinetics, selectivity, heat of adsorption, or comparison charts and are not eligible CO₂ uptake isotherms. Panels (a) and (b) contain inset charts, which are recorded only for masking. The visible page does not establish that the isotherm data are tabulated in the supplementary information.",
+   "figure_number": "3",
+   "matched_caption": "FIGURE 3 | Gas sorption properties of NUM-27a. (a) N₂ adsorption–desorption isotherm at 77 K and CO₂ adsorption–desorption isotherm at 195 K for NUM-27a. (b) The adsorption isotherms of C₃H₆ and C₃H₈ on NUM-27a at 298 K (Inset: the isotherm is presented in semilogarithmic scale to point out details in the low-pressure region). (c) Cycling test of C₃H₆ adsorption measurements on NUM-27a at 298 K from 0 to 1.0 bar. (d) The adsorption kinetic profiles of C₃H₆ and C₃H₈ on NUM-27a at 298 K. (e) The fitting of the kinetic curve for C₃H₆ at 298 and 313 K. (f) IAST selectivity for equimolar C₃H₆/C₃H₈ mixture at 298 K. (g) Isosteric heat of adsorption of C₃H₆ for NUM-27a. (h) Comparison of the zero-coverage heat of adsorption of C₃H₆ and uptake at 298 K and 0.01 bar with those of typical MOF materials for C₃H₆/C₃H₈ sieving separation. (i) Comparison of C₃H₆ packing density at 298 K and 0.01 bar with those of top-performing MOF materials.",
+   "figure_is_relevant": true,
+   "si_has_tabulated_data": "unknown",
+   "panels": [
+    {
+     "panel": "a",
+     "is_co2_isotherm": true,
+     "reason": "The caption assigns a CO₂ adsorption–desorption isotherm at 195 K to this axis frame; uptake is plotted against relative pressure. The same frame also contains an N₂ isotherm at 77 K.",
+     "bbox_norm": [
+      0.09,
+      0.052,
+      0.365,
+      0.231
+     ],
+     "has_inset": true,
+     "inset_bbox_norm": [
+      0.195,
+      0.102,
+      0.346,
+      0.196
+     ]
+    },
+    {
+     "panel": "b",
+     "is_co2_isotherm": false,
+     "reason": "This panel plots C₃H₆ and C₃H₈ adsorption isotherms at 298 K, not CO₂.",
+     "bbox_norm": [
+      0.393,
+      0.052,
+      0.642,
+      0.231
+     ],
+     "has_inset": true,
+     "inset_bbox_norm": [
+      0.493,
+      0.102,
+      0.624,
+      0.194
+     ]
+    },
+    {
+     "panel": "c",
+     "is_co2_isotherm": false,
+     "reason": "This is a cycling test of C₃H₆ adsorption, not an equilibrium CO₂ isotherm.",
+     "bbox_norm": [
+      0.647,
+      0.052,
+      0.918,
+      0.231
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    },
+    {
+     "panel": "d",
+     "is_co2_isotherm": false,
+     "reason": "This panel shows time-dependent adsorption kinetic profiles for C₃H₆ and C₃H₈.",
+     "bbox_norm": [
+      0.095,
+      0.238,
+      0.365,
+      0.402
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    },
+    {
+     "panel": "e",
+     "is_co2_isotherm": false,
+     "reason": "This panel shows kinetic-curve fitting for C₃H₆ at 298 and 313 K rather than uptake versus pressure.",
+     "bbox_norm": [
+      0.391,
+      0.238,
+      0.644,
+      0.404
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    },
+    {
+     "panel": "f",
+     "is_co2_isotherm": false,
+     "reason": "This is an IAST selectivity plot for a C₃H₆/C₃H₈ mixture, an excluded selectivity metric.",
+     "bbox_norm": [
+      0.648,
+      0.239,
+      0.921,
+      0.404
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    },
+    {
+     "panel": "g",
+     "is_co2_isotherm": false,
+     "reason": "This panel reports the isosteric heat of C₃H₆ adsorption, an excluded heat-of-adsorption metric.",
+     "bbox_norm": [
+      0.095,
+      0.414,
+      0.367,
+      0.579
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    },
+    {
+     "panel": "h",
+     "is_co2_isotherm": false,
+     "reason": "This is a materials-comparison scatter plot involving C₃H₆ uptake and heat of adsorption, not a CO₂ isotherm.",
+     "bbox_norm": [
+      0.39,
+      0.414,
+      0.646,
+      0.581
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    },
+    {
+     "panel": "i",
+     "is_co2_isotherm": false,
+     "reason": "This is a bar chart comparing C₃H₆ packing density among MOFs, not a CO₂ isotherm.",
+     "bbox_norm": [
+      0.649,
+      0.414,
+      0.92,
+      0.579
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    }
+   ],
+   "context": {
+    "adsorbent": "NUM-27a",
+    "sample_form": "Not specified on the visible page.",
+    "activation": "Not specified on the visible page.",
+    "instrument": "Not specified on the visible page.",
+    "measurement_notes": "Panel (a) reports CO₂ adsorption–desorption at 195 K as uptake (cm³ g⁻¹) versus relative pressure (P/P₀), together with N₂ adsorption–desorption at 77 K. The visible discussion describes low-relative-pressure CO₂ uptake and a plateau at higher relative pressure.",
+    "other_parameters": "The visible text identifies CO₂ as a preferred probe because of a significant N₂ diffusion barrier at 77 K. No additional source-reported activation or instrument parameters are visible."
+   }
+  },
+  "provenance": {
+   "agent_name": "agent00-discovery",
+   "agent_version": "6",
+   "response_id": "resp_046ce004a51b3f70006ab5a159d7508193a0c3cb1fd17d83b5",
+   "usage": {
+    "input_tokens": 4309,
+    "input_tokens_details": {
+     "cache_write_tokens": 4306,
+     "cached_tokens": 0
+    },
+    "output_tokens": 2210,
+    "output_tokens_details": {
+     "reasoning_tokens": 829
+    },
+    "total_tokens": 6519
+   },
+   "created_at": "2026-09-24T22:17:03.796764+00:00",
+   "dry_run": false
+  },
+  "input_fingerprint": "aa5c106a52428bf7aa50574d171da5f99d7995128d5ad4b5a56ae43aae7253eb"
+ }
+]

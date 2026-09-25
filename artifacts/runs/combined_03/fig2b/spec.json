@@ -1,0 +1,889 @@
+{
+ "image": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_03\\fig2b\\panel.png",
+ "panel_bbox": [
+  0,
+  0,
+  751,
+  643
+ ],
+ "x": {
+  "title": "Pressure",
+  "unit": "kPa",
+  "scale": "linear",
+  "ticks": [
+   0,
+   40,
+   80,
+   120
+  ],
+  "x_setpoints_visible": [
+   0,
+   3,
+   5,
+   8,
+   10,
+   15,
+   20,
+   27,
+   33,
+   40,
+   47,
+   53,
+   60,
+   67,
+   73,
+   80,
+   87,
+   93,
+   100,
+   107,
+   113
+  ],
+  "grid": [
+   0,
+   3,
+   5,
+   8,
+   10,
+   15,
+   20,
+   27,
+   33,
+   40,
+   47,
+   53,
+   60,
+   67,
+   73,
+   80,
+   87,
+   93,
+   100,
+   107,
+   113
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.225,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.457,
+    "value": 40
+   },
+   {
+    "pixel_norm": 0.689,
+    "value": 80
+   },
+   {
+    "pixel_norm": 0.919,
+    "value": 120
+   }
+  ],
+  "minimum": 0,
+  "maximum": 120,
+  "boundary_limits_confirmed": false
+ },
+ "y": {
+  "title": "CO2 Loading",
+  "unit": "mmol/g",
+  "scale": "linear",
+  "ticks": [
+   0,
+   0.5,
+   1,
+   1.5,
+   2,
+   2.5,
+   3
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.81,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.694,
+    "value": 0.5
+   },
+   {
+    "pixel_norm": 0.576,
+    "value": 1
+   },
+   {
+    "pixel_norm": 0.46,
+    "value": 1.5
+   },
+   {
+    "pixel_norm": 0.344,
+    "value": 2
+   },
+   {
+    "pixel_norm": 0.227,
+    "value": 2.5
+   },
+   {
+    "pixel_norm": 0.109,
+    "value": 3
+   }
+  ],
+  "minimum": 0,
+  "maximum": 3,
+  "boundary_limits_confirmed": false
+ },
+ "legend_bbox": [
+  406,
+  368,
+  693,
+  522
+ ],
+ "legend_position": "lower right inside the plot",
+ "series": [
+  {
+   "label": "CO2 303K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend heading “CO2” binds the 303K entry to CO2; caption states that panel B contains CO2 isotherms from 303 to 373 K.",
+   "marker": "circle",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#e52525",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of structured CALF-20 composite",
+   "y_at_xmax": 2.94,
+   "y_anchors": {
+    "p25": 2.25,
+    "p50": 2.55,
+    "p75": 2.76,
+    "p100": 2.94
+   },
+   "n_markers_estimate": 21,
+   "color_tolerance": 34.0,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 5,
+     "y_min": 0,
+     "y_max": 1.55
+    },
+    {
+     "x_from": 5,
+     "x_to": 30,
+     "y_min": 0.9,
+     "y_max": 2.35
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "y_min": 2.15,
+     "y_max": 3.05
+    }
+   ],
+   "template_fill": "fit_only",
+   "setting_reason": "Recover the missing red low-pressure circles using the steep trajectory, while avoiding arbitrary filling away from the curve.",
+   "sample_px": [
+    517.4,
+    108.0
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 5,
+     "count": 6
+    },
+    {
+     "x_from": 5,
+     "x_to": 30,
+     "count": 5
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "count": 10
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 1.0,
+     "y": 0.55
+    },
+    {
+     "x": 3.0,
+     "y": 1.05
+    },
+    {
+     "x": 5.0,
+     "y": 1.45
+    },
+    {
+     "x": 8.0,
+     "y": 1.75
+    },
+    {
+     "x": 12.0,
+     "y": 1.95
+    },
+    {
+     "x": 20.0,
+     "y": 2.15
+    },
+    {
+     "x": 30.0,
+     "y": 2.3
+    },
+    {
+     "x": 50.0,
+     "y": 2.52
+    },
+    {
+     "x": 80.0,
+     "y": 2.75
+    },
+    {
+     "x": 100.0,
+     "y": 2.88
+    },
+    {
+     "x": 115.0,
+     "y": 2.96
+    }
+   ]
+  },
+  {
+   "label": "CO2 313K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend heading “CO2” binds the 313K entry to CO2; caption states that panel B contains CO2 isotherms from 303 to 373 K.",
+   "marker": "square",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#f39c12",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of structured CALF-20 composite",
+   "y_at_xmax": 2.66,
+   "y_anchors": {
+    "p25": 2.05,
+    "p50": 2.35,
+    "p75": 2.52,
+    "p100": 2.66
+   },
+   "n_markers_estimate": 21
+  },
+  {
+   "label": "CO2 323K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend heading “CO2” binds the 323K entry to CO2; caption states that panel B contains CO2 isotherms from 303 to 373 K.",
+   "marker": "triangle_up",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#219653",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of structured CALF-20 composite",
+   "y_at_xmax": 2.42,
+   "y_anchors": {
+    "p25": 1.82,
+    "p50": 2.12,
+    "p75": 2.3,
+    "p100": 2.42
+   },
+   "n_markers_estimate": 21,
+   "color_tolerance": 34.0,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 5,
+     "y_min": 0,
+     "y_max": 1.05
+    },
+    {
+     "x_from": 5,
+     "x_to": 30,
+     "y_min": 0.75,
+     "y_max": 1.9
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "y_min": 1.75,
+     "y_max": 2.5
+    }
+   ],
+   "template_fill": "off",
+   "setting_reason": "The source has about 21 green triangle markers; generic template filling overcounts ink in the thick green low-pressure stroke.",
+   "sample_px": [
+    517.4,
+    183.3
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 5,
+     "count": 6
+    },
+    {
+     "x_from": 5,
+     "x_to": 30,
+     "count": 5
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "count": 10
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 1.0,
+     "y": 0.35
+    },
+    {
+     "x": 3.0,
+     "y": 0.72
+    },
+    {
+     "x": 5.0,
+     "y": 1.0
+    },
+    {
+     "x": 8.0,
+     "y": 1.3
+    },
+    {
+     "x": 12.0,
+     "y": 1.55
+    },
+    {
+     "x": 20.0,
+     "y": 1.75
+    },
+    {
+     "x": 30.0,
+     "y": 1.9
+    },
+    {
+     "x": 50.0,
+     "y": 2.1
+    },
+    {
+     "x": 80.0,
+     "y": 2.27
+    },
+    {
+     "x": 100.0,
+     "y": 2.35
+    },
+    {
+     "x": 115.0,
+     "y": 2.42
+    }
+   ]
+  },
+  {
+   "label": "CO2 333K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend heading “CO2” binds the 333K entry to CO2; caption states that panel B contains CO2 isotherms from 303 to 373 K.",
+   "marker": "pentagon",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#29459b",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of structured CALF-20 composite",
+   "y_at_xmax": 2.24,
+   "y_anchors": {
+    "p25": 1.58,
+    "p50": 1.98,
+    "p75": 2.14,
+    "p100": 2.24
+   },
+   "n_markers_estimate": 21
+  },
+  {
+   "label": "CO2 353K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend heading “CO2” binds the 353K entry to CO2; caption states that panel B contains CO2 isotherms from 303 to 373 K.",
+   "marker": "diamond",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#d32c93",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of structured CALF-20 composite",
+   "y_at_xmax": 1.93,
+   "y_anchors": {
+    "p25": 1.1,
+    "p50": 1.58,
+    "p75": 1.8,
+    "p100": 1.93
+   },
+   "n_markers_estimate": 20
+  },
+  {
+   "label": "CO2 373K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend heading “CO2” binds the 373K entry to CO2; caption states that panel B contains CO2 isotherms from 303 to 373 K.",
+   "marker": "plus",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#111111",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of structured CALF-20 composite",
+   "y_at_xmax": 1.56,
+   "y_anchors": {
+    "p25": 0.65,
+    "p50": 1.1,
+    "p75": 1.4,
+    "p100": 1.56
+   },
+   "n_markers_estimate": 18,
+   "color_tolerance": 34.0,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 5,
+     "y_min": 0,
+     "y_max": 0.65
+    },
+    {
+     "x_from": 5,
+     "x_to": 30,
+     "y_min": 0.55,
+     "y_max": 1.4
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "y_min": 0.7,
+     "y_max": 1.7
+    }
+   ],
+   "template_fill": "off",
+   "setting_reason": "The black thick low-pressure connecting stroke is not a sequence of 32 black plus markers; disable template filling and use the visible plus-marker trajectory to avoid stroke artifacts.",
+   "sample_px": [
+    517.4,
+    318.9
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 30,
+     "count": 5
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "count": 13
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 3.0,
+     "y": 0.25
+    },
+    {
+     "x": 6.0,
+     "y": 0.55
+    },
+    {
+     "x": 10.0,
+     "y": 0.78
+    },
+    {
+     "x": 15.0,
+     "y": 0.98
+    },
+    {
+     "x": 22.0,
+     "y": 1.18
+    },
+    {
+     "x": 30.0,
+     "y": 1.35
+    },
+    {
+     "x": 45.0,
+     "y": 1.55
+    },
+    {
+     "x": 60.0,
+     "y": 1.68
+    },
+    {
+     "x": 80.0,
+     "y": 1.82
+    },
+    {
+     "x": 100.0,
+     "y": 1.95
+    },
+    {
+     "x": 115.0,
+     "y": 2.02
+    }
+   ]
+  }
+ ],
+ "mask_bboxes": [],
+ "context": {
+  "adsorbent": "CALF-20: pure CALF-20 in panel A and structured CALF-20 in panel B.",
+  "sample_form": "Panel A uses pure CALF-20; panel B uses a structured composite containing 80% CALF-20 MOF and 20% polysulfone.",
+  "activation": "Not specified in the caption or supplied figure-referencing text.",
+  "instrument": "Volumetric gas-sorption measurement; no instrument model is specified.",
+  "measurement_notes": "Panel A contains CO2 and N2 isotherms from 273 to 373 K, plotted to about 1200 mbar. Panel B contains CO2 isotherms from 303 to 373 K, plotted to about 120 kPa. Only the CO2 series are eligible for extraction.",
+  "other_parameters": "The caption states that CO2 and N2 isotherms were measured by volumetry; H2O data in the excluded panels were measured by gravimetry. No supplementary table containing tabulated isotherm data is identified in the supplied evidence."
+ },
+ "panel_info": {
+  "panel": "B",
+  "is_co2_isotherm": true,
+  "reason": "Equilibrium CO2 loading is plotted against pressure for structured CALF-20 at 303, 313, 323, 333, 353, and 373 K.",
+  "bbox_norm": [
+   0.02,
+   0.42,
+   0.5,
+   0.689
+  ],
+  "has_inset": false,
+  "inset_bbox_norm": null
+ },
+ "panel_mapping": {
+  "runtime_panel_id": "b",
+  "layout_panel_id": "B",
+  "canonical_panel_id": "b"
+ },
+ "llm_spec": {
+  "reasoning": "Single linear-axis isotherm panel. The legend heading “CO2” binds all six temperature entries to CO2; the caption independently identifies panel B as CO2 isotherms for structured CALF-20. Each temperature has one adsorption curve with colored filled markers and a solid curve most visible in the crowded low-pressure region. Anchor values and pressure setpoints are rough visual readings only.",
+  "x": {
+   "title": "Pressure",
+   "unit": "kPa",
+   "scale": "linear",
+   "ticks": [
+    0,
+    40,
+    80,
+    120
+   ],
+   "x_setpoints_visible": [
+    0,
+    3,
+    5,
+    8,
+    10,
+    15,
+    20,
+    27,
+    33,
+    40,
+    47,
+    53,
+    60,
+    67,
+    73,
+    80,
+    87,
+    93,
+    100,
+    107,
+    113
+   ],
+   "grid": [
+    0,
+    3,
+    5,
+    8,
+    10,
+    15,
+    20,
+    27,
+    33,
+    40,
+    47,
+    53,
+    60,
+    67,
+    73,
+    80,
+    87,
+    93,
+    100,
+    107,
+    113
+   ],
+   "tick_anchors": [
+    {
+     "pixel_norm": 0.225,
+     "value": 0
+    },
+    {
+     "pixel_norm": 0.457,
+     "value": 40
+    },
+    {
+     "pixel_norm": 0.689,
+     "value": 80
+    },
+    {
+     "pixel_norm": 0.919,
+     "value": 120
+    }
+   ],
+   "minimum": 0,
+   "maximum": 120,
+   "boundary_limits_confirmed": false
+  },
+  "y": {
+   "title": "CO2 Loading",
+   "unit": "mmol/g",
+   "scale": "linear",
+   "ticks": [
+    0,
+    0.5,
+    1,
+    1.5,
+    2,
+    2.5,
+    3
+   ],
+   "tick_anchors": [
+    {
+     "pixel_norm": 0.81,
+     "value": 0
+    },
+    {
+     "pixel_norm": 0.694,
+     "value": 0.5
+    },
+    {
+     "pixel_norm": 0.576,
+     "value": 1
+    },
+    {
+     "pixel_norm": 0.46,
+     "value": 1.5
+    },
+    {
+     "pixel_norm": 0.344,
+     "value": 2
+    },
+    {
+     "pixel_norm": 0.227,
+     "value": 2.5
+    },
+    {
+     "pixel_norm": 0.109,
+     "value": 3
+    }
+   ],
+   "minimum": 0,
+   "maximum": 3,
+   "boundary_limits_confirmed": false
+  },
+  "legend_bbox_norm": [
+   0.5513,
+   0.5832,
+   0.9134,
+   0.8025
+  ],
+  "legend_position": "lower right inside the plot",
+  "series": [
+   {
+    "label": "CO2 303K",
+    "gas": "CO2",
+    "species_evidence": "Legend heading “CO2” binds the 303K entry to CO2; caption states that panel B contains CO2 isotherms from 303 to 373 K.",
+    "temperature_k": 303,
+    "color_name": "red",
+    "color_hex": "#e52525",
+    "marker": "circle",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "co2_loading",
+    "loading_basis": "mmol per gram of structured CALF-20 composite",
+    "extract": true,
+    "y_anchors": {
+     "p25": 2.25,
+     "p50": 2.55,
+     "p75": 2.76,
+     "p100": 2.94
+    },
+    "n_markers_estimate": 21
+   },
+   {
+    "label": "CO2 313K",
+    "gas": "CO2",
+    "species_evidence": "Legend heading “CO2” binds the 313K entry to CO2; caption states that panel B contains CO2 isotherms from 303 to 373 K.",
+    "temperature_k": 313,
+    "color_name": "orange",
+    "color_hex": "#f39c12",
+    "marker": "square",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "co2_loading",
+    "loading_basis": "mmol per gram of structured CALF-20 composite",
+    "extract": true,
+    "y_anchors": {
+     "p25": 2.05,
+     "p50": 2.35,
+     "p75": 2.52,
+     "p100": 2.66
+    },
+    "n_markers_estimate": 21
+   },
+   {
+    "label": "CO2 323K",
+    "gas": "CO2",
+    "species_evidence": "Legend heading “CO2” binds the 323K entry to CO2; caption states that panel B contains CO2 isotherms from 303 to 373 K.",
+    "temperature_k": 323,
+    "color_name": "green",
+    "color_hex": "#219653",
+    "marker": "triangle_up",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "co2_loading",
+    "loading_basis": "mmol per gram of structured CALF-20 composite",
+    "extract": true,
+    "y_anchors": {
+     "p25": 1.82,
+     "p50": 2.12,
+     "p75": 2.3,
+     "p100": 2.42
+    },
+    "n_markers_estimate": 21
+   },
+   {
+    "label": "CO2 333K",
+    "gas": "CO2",
+    "species_evidence": "Legend heading “CO2” binds the 333K entry to CO2; caption states that panel B contains CO2 isotherms from 303 to 373 K.",
+    "temperature_k": 333,
+    "color_name": "blue",
+    "color_hex": "#29459b",
+    "marker": "pentagon",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "co2_loading",
+    "loading_basis": "mmol per gram of structured CALF-20 composite",
+    "extract": true,
+    "y_anchors": {
+     "p25": 1.58,
+     "p50": 1.98,
+     "p75": 2.14,
+     "p100": 2.24
+    },
+    "n_markers_estimate": 21
+   },
+   {
+    "label": "CO2 353K",
+    "gas": "CO2",
+    "species_evidence": "Legend heading “CO2” binds the 353K entry to CO2; caption states that panel B contains CO2 isotherms from 303 to 373 K.",
+    "temperature_k": 353,
+    "color_name": "magenta",
+    "color_hex": "#d32c93",
+    "marker": "diamond",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "co2_loading",
+    "loading_basis": "mmol per gram of structured CALF-20 composite",
+    "extract": true,
+    "y_anchors": {
+     "p25": 1.1,
+     "p50": 1.58,
+     "p75": 1.8,
+     "p100": 1.93
+    },
+    "n_markers_estimate": 20
+   },
+   {
+    "label": "CO2 373K",
+    "gas": "CO2",
+    "species_evidence": "Legend heading “CO2” binds the 373K entry to CO2; caption states that panel B contains CO2 isotherms from 303 to 373 K.",
+    "temperature_k": 373,
+    "color_name": "black",
+    "color_hex": "#111111",
+    "marker": "plus",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "co2_loading",
+    "loading_basis": "mmol per gram of structured CALF-20 composite",
+    "extract": true,
+    "y_anchors": {
+     "p25": 0.65,
+     "p50": 1.1,
+     "p75": 1.4,
+     "p100": 1.56
+    },
+    "n_markers_estimate": 18
+   }
+  ],
+  "branches": "adsorption_only",
+  "notes": "No inset, broken axis, dual y-axis, or error bars. Top and right tick marks mirror the primary axes but carry no printed numbers. Solid curves are clearest below roughly 30 kPa and become visually subordinate to the markers at higher pressure. Legend entries are arranged in two columns and read row-wise: 303K/313K, 323K/333K, and 353K/373K.",
+  "chart_title": "",
+  "complex_regions": [
+   {
+    "bbox_norm": [
+     0.22,
+     0.1,
+     0.43,
+     0.81
+    ],
+    "kind": "thick_connecting_lines",
+    "python_passes": 5
+   },
+   {
+    "bbox_norm": [
+     0.225,
+     0.57,
+     0.36,
+     0.81
+    ],
+    "kind": "dense_markers",
+    "python_passes": 4
+   }
+  ]
+ },
+ "vector_marks": null,
+ "region_strategies": [],
+ "shared_x_columns": [],
+ "complex_regions": [
+  {
+   "bbox_norm": [
+    0.22,
+    0.1,
+    0.43,
+    0.81
+   ],
+   "kind": "thick_connecting_lines",
+   "python_passes": 5
+  },
+  {
+   "bbox_norm": [
+    0.225,
+    0.57,
+    0.36,
+    0.81
+   ],
+   "kind": "dense_markers",
+   "python_passes": 4
+  }
+ ]
+}

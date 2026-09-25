@@ -1,0 +1,408 @@
+{
+ "reasoning": "The axis calibration is correct: the source prints x ticks from 0 to 1 and y ticks from 0 to 140, and the extracted values replot against those ticks without a shift or stretch. The CO2 overlay is spatially correct where points were found, but coverage is substantially incomplete, especially in the dense low-pressure region and along the plateau. The red N2 series is visibly present in the source and must be extracted rather than excluded. The inset must remain ignored because it duplicates the low-pressure CO2 curve.",
+ "axis_check": {
+  "x": {
+   "printed_min": 0,
+   "printed_max": 1,
+   "data_min": -0.0018,
+   "data_max": 0.543,
+   "reason": "The source x-axis is labeled 0 through 1. The extracted x values use the correct linear calibration; the apparent data maximum reflects the currently detected CO2 points rather than an axis error.",
+   "result": "pass"
+  },
+  "y": {
+   "printed_min": 0,
+   "printed_max": 140,
+   "data_min": 3.035,
+   "data_max": 123.8346,
+   "reason": "The source y-axis is labeled 0 through 140 cm³ g⁻¹. The extracted values align with the source curve, which plateaus near 125 and remains below the 140 tick.",
+   "result": "pass"
+  }
+ },
+ "satisfied": false,
+ "issues": [
+  "N2 77K is visibly a second red open-circle solid-line series but was excluded from extraction; it must be extracted.",
+  "CO2 195K has severe marker shortfall: 41 detected versus about 75 expected, with the largest loss in the dense low-pressure cluster and additional missing plateau markers.",
+  "The dense low-pressure CO2 region needs column-guided recovery of fused or overlapping marker ink.",
+  "The inset is a duplicate view and must remain ignored for primary extraction."
+ ],
+ "structure_ok": true,
+ "chart_title": "",
+ "x_axis": {
+  "title": "Relative Pressure (P/P₀)",
+  "unit": "P/P₀",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 1,
+  "boundary_limits_confirmed": true,
+  "ticks": [
+   0,
+   0.2,
+   0.4,
+   0.6,
+   0.8,
+   1
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.21621621621621623,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.35561877667140823,
+    "value": 0.2
+   },
+   {
+    "pixel_norm": 0.492176386913229,
+    "value": 0.4
+   },
+   {
+    "pixel_norm": 0.6301564722617354,
+    "value": 0.6
+   },
+   {
+    "pixel_norm": 0.7681365576102418,
+    "value": 0.8
+   },
+   {
+    "pixel_norm": 0.9061166429587483,
+    "value": 1
+   }
+  ]
+ },
+ "y_axis": {
+  "title": "Uptake",
+  "unit": "cm³ g⁻¹",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 140,
+  "boundary_limits_confirmed": true,
+  "ticks": [
+   0,
+   20,
+   40,
+   60,
+   80,
+   100,
+   120,
+   140
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.1098546042003231,
+    "value": 140
+   },
+   {
+    "pixel_norm": 0.2035541195476575,
+    "value": 120
+   },
+   {
+    "pixel_norm": 0.2940226171243942,
+    "value": 100
+   },
+   {
+    "pixel_norm": 0.3877221324717286,
+    "value": 80
+   },
+   {
+    "pixel_norm": 0.4798061389337641,
+    "value": 60
+   },
+   {
+    "pixel_norm": 0.5718901453957996,
+    "value": 40
+   },
+   {
+    "pixel_norm": 0.6639741518578353,
+    "value": 20
+   },
+   {
+    "pixel_norm": 0.7560581583198708,
+    "value": 0
+   }
+  ]
+ },
+ "legend_bbox_norm": [
+  0.602,
+  0.161,
+  0.921,
+  0.759
+ ],
+ "total_series": 2,
+ "series": [
+  {
+   "label": "CO2 195K",
+   "marker": "circle",
+   "marker_fill": "open",
+   "line_style": "solid",
+   "color_hex": "#586CFF",
+   "notes": "Blue open-circle adsorption and desorption isotherm; direct in-panel label CO₂@195 K."
+  },
+  {
+   "label": "N2 77K",
+   "marker": "circle",
+   "marker_fill": "open",
+   "line_style": "solid",
+   "color_hex": "#FF6666",
+   "notes": "Red open-circle low-uptake adsorption and desorption isotherm; direct in-panel label N₂@77 K. Extract this series."
+  }
+ ],
+ "branches": "adsorption_and_desorption",
+ "complex_regions": [
+  {
+   "bbox_norm": [
+    0.20626,
+    0.22617,
+    0.28876,
+    0.76737
+   ],
+   "kind": "dense_markers",
+   "python_passes": 6
+  },
+  {
+   "bbox_norm": [
+    0.35846,
+    0.27895,
+    0.73969,
+    0.63005
+   ],
+   "kind": "inset",
+   "python_passes": 3
+  }
+ ],
+ "extraction_settings": [
+  {
+   "label": "CO2 195K",
+   "color_tolerance": 24,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.02,
+     "y_min": 0,
+     "y_max": 75
+    },
+    {
+     "x_from": 0.02,
+     "x_to": 0.06,
+     "y_min": 65,
+     "y_max": 120
+    },
+    {
+     "x_from": 0.06,
+     "x_to": 0.3,
+     "y_min": 115,
+     "y_max": 125
+    },
+    {
+     "x_from": 0.3,
+     "x_to": 1,
+     "y_min": 120,
+     "y_max": 130
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Recover the many overlapping blue open-circle markers in the steep low-pressure fan and the missing blue plateau markers. Use the measured curve as guidance and exclude the duplicated inset.",
+   "sample_marker_norm": [
+    0.768,
+    0.179
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 0.06,
+     "count": 45
+    },
+    {
+     "x_from": 0.06,
+     "x_to": 0.3,
+     "count": 15
+    },
+    {
+     "x_from": 0.3,
+     "x_to": 1,
+     "count": 15
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 0.003,
+     "y": 8
+    },
+    {
+     "x": 0.006,
+     "y": 20
+    },
+    {
+     "x": 0.01,
+     "y": 38
+    },
+    {
+     "x": 0.014,
+     "y": 55
+    },
+    {
+     "x": 0.018,
+     "y": 68
+    },
+    {
+     "x": 0.022,
+     "y": 82
+    },
+    {
+     "x": 0.03,
+     "y": 105
+    },
+    {
+     "x": 0.05,
+     "y": 118
+    },
+    {
+     "x": 0.08,
+     "y": 121
+    },
+    {
+     "x": 0.2,
+     "y": 123
+    },
+    {
+     "x": 0.5,
+     "y": 124.5
+    },
+    {
+     "x": 1,
+     "y": 127
+    }
+   ]
+  },
+  {
+   "label": "N2 77K",
+   "color_tolerance": 24,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.9,
+     "y_min": 0,
+     "y_max": 2
+    },
+    {
+     "x_from": 0.9,
+     "x_to": 0.97,
+     "y_min": 0,
+     "y_max": 2.5
+    },
+    {
+     "x_from": 0.97,
+     "x_to": 1,
+     "y_min": 0,
+     "y_max": 4
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "The red open-circle series is clearly visible along the baseline and rises only near the high-pressure endpoint; it was incorrectly excluded in the prior extraction.",
+   "sample_marker_norm": [
+    0.768,
+    0.752
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 0.9,
+     "count": 30
+    },
+    {
+     "x_from": 0.9,
+     "x_to": 1,
+     "count": 3
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 0.02,
+     "y": 1.2
+    },
+    {
+     "x": 0.1,
+     "y": 1.1
+    },
+    {
+     "x": 0.3,
+     "y": 0.9
+    },
+    {
+     "x": 0.6,
+     "y": 0.8
+    },
+    {
+     "x": 0.85,
+     "y": 0.8
+    },
+    {
+     "x": 0.93,
+     "y": 1.1
+    },
+    {
+     "x": 0.97,
+     "y": 2
+    },
+    {
+     "x": 1,
+     "y": 3
+    }
+   ]
+  }
+ ],
+ "notes": "Use the main plot only. Both labeled series are part of the source; the inset is a duplicate enlargement of the blue low-pressure behavior.",
+ "region_strategies": [
+  {
+   "bbox_norm": [
+    0.35846,
+    0.27895,
+    0.73969,
+    0.63005
+   ],
+   "series_labels": [],
+   "strategy": "ignore",
+   "reason": "Inset duplicates the CO2 low-pressure curve and must not contribute primary-panel markers."
+  },
+  {
+   "bbox_norm": [
+    0.20626,
+    0.22617,
+    0.28876,
+    0.76737
+   ],
+   "series_labels": [
+    "CO2 195K"
+   ],
+   "strategy": "sample_band_at_columns",
+   "reason": "The steep low-pressure CO2 marker strip contains heavily overlapping open-circle ink. Recover marker centers at shared pressure columns using the visible curve band; inferred points remain reviewable."
+  }
+ ],
+ "shared_x_columns": [
+  0.002,
+  0.004,
+  0.006,
+  0.008,
+  0.01,
+  0.012,
+  0.014,
+  0.016,
+  0.018,
+  0.02,
+  0.023,
+  0.026,
+  0.03,
+  0.035,
+  0.04,
+  0.05
+ ]
+}

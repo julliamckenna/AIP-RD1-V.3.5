@@ -1,0 +1,71 @@
+{
+  "old_batch_count": 28,
+  "new_batch_count": 9,
+  "all_review_items_preserved": 185,
+  "full_native_panel_attached": false,
+  "batches": [
+    {
+      "batch": 1,
+      "review_items": 32,
+      "images": 7,
+      "rows": 65,
+      "prompt_characters": 107006
+    },
+    {
+      "batch": 2,
+      "review_items": 36,
+      "images": 9,
+      "rows": 75,
+      "prompt_characters": 99472
+    },
+    {
+      "batch": 3,
+      "review_items": 33,
+      "images": 16,
+      "rows": 79,
+      "prompt_characters": 96113
+    },
+    {
+      "batch": 4,
+      "review_items": 16,
+      "images": 16,
+      "rows": 24,
+      "prompt_characters": 65833
+    },
+    {
+      "batch": 5,
+      "review_items": 15,
+      "images": 16,
+      "rows": 14,
+      "prompt_characters": 59533
+    },
+    {
+      "batch": 6,
+      "review_items": 15,
+      "images": 16,
+      "rows": 17,
+      "prompt_characters": 60698
+    },
+    {
+      "batch": 7,
+      "review_items": 15,
+      "images": 16,
+      "rows": 3,
+      "prompt_characters": 49756
+    },
+    {
+      "batch": 8,
+      "review_items": 15,
+      "images": 16,
+      "rows": 15,
+      "prompt_characters": 56427
+    },
+    {
+      "batch": 9,
+      "review_items": 8,
+      "images": 9,
+      "rows": 16,
+      "prompt_characters": 48492
+    }
+  ]
+}

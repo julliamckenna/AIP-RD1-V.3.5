@@ -1,0 +1,2819 @@
+{
+  "reasoning": "Independent native-pixel review found that the candidate mixed genuine marker centres with line fragments, duplicate maxima inside merged glyphs, and several wrong low-pressure assignments. I verified the linear calibration directly against the printed tick anchors in panel.png, retained it, rebuilt the table from distinct colour/shape-supported centres, and omitted wholly fused hypotheses. The saved CSV was reloaded and checked in both pixel-space overlay and calibrated data-space reconstruction; the retained markers sit on the native CO2 curves and the 1200 mbar endpoints are restored. Sources: [panel.png], [spec.json], [agent03_points.csv], [agent03_points.json], [agent03_review_points.json], [adjudicate/review_tiles.json], and reloaded checks [agent04_work/agent04_overlay_check.png], [agent04_work/agent04_reconstruction_check.png].",
+  "axis_check": {
+    "x": {
+      "printed_min": 0,
+      "printed_max": 1200,
+      "data_min": 3.7759,
+      "data_max": 1196.6213,
+      "result": "pass",
+      "reason": "The native x ticks read 0, 200, 400, 600, 800, 1000, 1200 mbar at approximately pixels 214, 358, 502, 646, 791, 933, 1077. The retained linear model reproduces those anchors and the reloaded reconstruction aligns with the source."
+    },
+    "y": {
+      "printed_min": 0,
+      "printed_max": 5,
+      "data_min": 0.2714,
+      "data_max": 5.0391,
+      "result": "pass",
+      "reason": "The native y ticks read 0 through 5 mmol/g at approximately pixels 708, 584, 459, 336, 212, 86. The retained negative-slope linear model reproduces these anchors; the slight value above 5 is the visible 273 K endpoint centre above the 5 tick."
+    }
+  },
+  "independent_read": {
+    "x_axis": "P / mbar; linear; printed major ticks 0, 200, 400, 600, 800, 1000, 1200.",
+    "y_axis": "CO2 Loading [mmol/g]; linear; printed major ticks 0, 1, 2, 3, 4, 5.",
+    "series": [
+      {
+        "label": "CO2 273K",
+        "marker": "square",
+        "marker_fill": "filled",
+        "visible_markers_estimate": 42,
+        "notes": "#080808 solid curve; dense low-pressure overlap; target CO2 series."
+      },
+      {
+        "label": "CO2 283K",
+        "marker": "hexagon",
+        "marker_fill": "filled",
+        "visible_markers_estimate": 40,
+        "notes": "#ed2f31 solid curve; dense low-pressure overlap; target CO2 series."
+      },
+      {
+        "label": "CO2 293K",
+        "marker": "triangle_up",
+        "marker_fill": "filled",
+        "visible_markers_estimate": 40,
+        "notes": "#3c5096 solid curve; dense low-pressure overlap; target CO2 series."
+      },
+      {
+        "label": "CO2 303K",
+        "marker": "triangle_down",
+        "marker_fill": "filled",
+        "visible_markers_estimate": 40,
+        "notes": "#198e8a solid curve; dense low-pressure overlap; target CO2 series."
+      },
+      {
+        "label": "CO2 313K",
+        "marker": "triangle_left",
+        "marker_fill": "filled",
+        "visible_markers_estimate": 39,
+        "notes": "#bd4f9b solid curve; dense low-pressure overlap; target CO2 series."
+      },
+      {
+        "label": "CO2 323K",
+        "marker": "triangle_right",
+        "marker_fill": "filled",
+        "visible_markers_estimate": 39,
+        "notes": "#8b8d31 solid curve; dense low-pressure overlap; target CO2 series."
+      },
+      {
+        "label": "CO2 333K",
+        "marker": "diamond",
+        "marker_fill": "filled",
+        "visible_markers_estimate": 38,
+        "notes": "#293678 solid curve; dense low-pressure overlap; target CO2 series."
+      },
+      {
+        "label": "CO2 343K",
+        "marker": "pentagon",
+        "marker_fill": "filled",
+        "visible_markers_estimate": 38,
+        "notes": "#9c2527 solid curve; dense low-pressure overlap; target CO2 series."
+      },
+      {
+        "label": "CO2 353K",
+        "marker": "hexagon",
+        "marker_fill": "filled",
+        "visible_markers_estimate": 38,
+        "notes": "#e72b73 solid curve; dense low-pressure overlap; target CO2 series."
+      },
+      {
+        "label": "CO2 363K",
+        "marker": "star",
+        "marker_fill": "filled",
+        "visible_markers_estimate": 37,
+        "notes": "#258c46 solid curve; dense low-pressure overlap; target CO2 series."
+      },
+      {
+        "label": "CO2 373K",
+        "marker": "circle",
+        "marker_fill": "filled",
+        "visible_markers_estimate": 35,
+        "notes": "#2a2b86 solid curve; dense low-pressure overlap; target CO2 series."
+      },
+      {
+        "label": "N2 273K",
+        "marker": "hexagon",
+        "marker_fill": "filled",
+        "visible_markers_estimate": 18,
+        "notes": "#92278f solid curve in the N2 legend group; excluded from the CO2 CSV."
+      },
+      {
+        "label": "N2 293K",
+        "marker": "triangle_up",
+        "marker_fill": "filled",
+        "visible_markers_estimate": 18,
+        "notes": "#5b4a91 solid curve in the N2 legend group; excluded from the CO2 CSV."
+      },
+      {
+        "label": "N2 313K",
+        "marker": "triangle_down",
+        "marker_fill": "filled",
+        "visible_markers_estimate": 18,
+        "notes": "#111111 solid curve in the N2 legend group; excluded from the CO2 CSV."
+      },
+      {
+        "label": "N2 333K",
+        "marker": "triangle_left",
+        "marker_fill": "filled",
+        "visible_markers_estimate": 18,
+        "notes": "#ed3b35 solid curve in the N2 legend group; excluded from the CO2 CSV."
+      },
+      {
+        "label": "N2 353K",
+        "marker": "triangle_right",
+        "marker_fill": "filled",
+        "visible_markers_estimate": 18,
+        "notes": "#3f6595 solid curve in the N2 legend group; excluded from the CO2 CSV."
+      },
+      {
+        "label": "N2 373K",
+        "marker": "circle",
+        "marker_fill": "filled",
+        "visible_markers_estimate": 18,
+        "notes": "#168b89 solid curve in the N2 legend group; excluded from the CO2 CSV."
+      }
+    ],
+    "visual_risks": [
+      "All CO2 curves converge into a severely crowded multicolour fan near x\u2248210\u2013275 px.",
+      "Several same-series adsorption/desorption-like glyphs overlap into compound blobs at mid/high pressure, so one blob can contain more than one partial marker.",
+      "CO2 273K black ink is confounded with axes and the excluded black N2 313K trace.",
+      "CO2 293K, CO2 333K and CO2 373K use similar blue hues; ownership requires vertical trajectory and marker shape.",
+      "CO2 303K shares a near-teal colour with excluded N2 373K, and CO2 283K shares red with excluded N2 333K.",
+      "Legend and N2 traces are excluded context; only the eleven CO2 legend entries are exported."
+    ]
+  },
+  "verdict": "review",
+  "series": [
+    {
+      "label": "CO2 273K",
+      "coverage": "incomplete",
+      "final_count": 36,
+      "comment": "36 source-supported visible or partial centres retained; 1 unresolved native region(s) remain and no hidden centres were synthesized."
+    },
+    {
+      "label": "CO2 283K",
+      "coverage": "incomplete",
+      "final_count": 32,
+      "comment": "32 source-supported visible or partial centres retained; 1 unresolved native region(s) remain and no hidden centres were synthesized."
+    },
+    {
+      "label": "CO2 293K",
+      "coverage": "incomplete",
+      "final_count": 30,
+      "comment": "30 source-supported visible or partial centres retained; 2 unresolved native region(s) remain and no hidden centres were synthesized."
+    },
+    {
+      "label": "CO2 303K",
+      "coverage": "incomplete",
+      "final_count": 36,
+      "comment": "36 source-supported visible or partial centres retained; 1 unresolved native region(s) remain and no hidden centres were synthesized."
+    },
+    {
+      "label": "CO2 313K",
+      "coverage": "incomplete",
+      "final_count": 32,
+      "comment": "32 source-supported visible or partial centres retained; 1 unresolved native region(s) remain and no hidden centres were synthesized."
+    },
+    {
+      "label": "CO2 323K",
+      "coverage": "incomplete",
+      "final_count": 32,
+      "comment": "32 source-supported visible or partial centres retained; 1 unresolved native region(s) remain and no hidden centres were synthesized."
+    },
+    {
+      "label": "CO2 333K",
+      "coverage": "incomplete",
+      "final_count": 31,
+      "comment": "31 source-supported visible or partial centres retained; 1 unresolved native region(s) remain and no hidden centres were synthesized."
+    },
+    {
+      "label": "CO2 343K",
+      "coverage": "incomplete",
+      "final_count": 31,
+      "comment": "31 source-supported visible or partial centres retained; 1 unresolved native region(s) remain and no hidden centres were synthesized."
+    },
+    {
+      "label": "CO2 353K",
+      "coverage": "incomplete",
+      "final_count": 30,
+      "comment": "30 source-supported visible or partial centres retained; 2 unresolved native region(s) remain and no hidden centres were synthesized."
+    },
+    {
+      "label": "CO2 363K",
+      "coverage": "incomplete",
+      "final_count": 29,
+      "comment": "29 source-supported visible or partial centres retained; 2 unresolved native region(s) remain and no hidden centres were synthesized."
+    },
+    {
+      "label": "CO2 373K",
+      "coverage": "incomplete",
+      "final_count": 24,
+      "comment": "24 source-supported visible or partial centres retained; 2 unresolved native region(s) remain and no hidden centres were synthesized."
+    }
+  ],
+  "uncertainties": [
+    "Visible isolated glyph centres use a nominal 2 px radial localization uncertainty.",
+    "Partially visible, crowded, or compound glyph centres use 4 px radial uncertainty and evidence_type=partially_visible_marker.",
+    "Unresolved fused regions are reported rather than populated from expected counts, interpolation, or line-only evidence.",
+    "Native raster antialiasing and overlapping adsorption/desorption-like traces limit exact centre separation in compound blobs."
+  ],
+  "row_count": 343,
+  "calibration": {
+    "px_per_unit_x": 0.7192885515675982,
+    "px_per_unit_y": 124.25822028052431,
+    "unit_per_px_x": 1.3902626391322743,
+    "unit_per_px_y": 0.008047757305250376,
+    "axis_models": {
+      "x": {
+        "scale": "linear",
+        "slope": 1.3902626391322743,
+        "intercept": -297.9110559310007
+      },
+      "y": {
+        "scale": "linear",
+        "slope": -0.008047757305250376,
+        "intercept": 5.698983528837023
+      }
+    },
+    "tick_fit_resid_x": 1.7866916226282683,
+    "tick_fit_resid_y": 0.007141019876056642,
+    "tick_fit_resid_x_px": 1.2851468293382489,
+    "tick_fit_resid_y_px": 0.8873304207866487,
+    "frame_px": [
+      142,
+      28,
+      1092,
+      770
+    ],
+    "x_ticks_px": [
+      214,
+      358,
+      502,
+      646,
+      791,
+      933,
+      1077
+    ],
+    "y_ticks_px": [
+      86,
+      212,
+      336,
+      459,
+      584,
+      708
+    ],
+    "tick_anchors": {
+      "x": [
+        {
+          "pixel_norm": 0.146776,
+          "value": 0.0
+        },
+        {
+          "pixel_norm": 0.245542,
+          "value": 200.0
+        },
+        {
+          "pixel_norm": 0.344307,
+          "value": 400.0
+        },
+        {
+          "pixel_norm": 0.443073,
+          "value": 600.0
+        },
+        {
+          "pixel_norm": 0.542524,
+          "value": 800.0
+        },
+        {
+          "pixel_norm": 0.639232,
+          "value": 1000.0
+        },
+        {
+          "pixel_norm": 0.738683,
+          "value": 1200.0
+        }
+      ],
+      "y": [
+        {
+          "pixel_norm": 0.775466,
+          "value": 0.0
+        },
+        {
+          "pixel_norm": 0.639649,
+          "value": 1.0
+        },
+        {
+          "pixel_norm": 0.502738,
+          "value": 2.0
+        },
+        {
+          "pixel_norm": 0.367799,
+          "value": 3.0
+        },
+        {
+          "pixel_norm": 0.232202,
+          "value": 4.0
+        },
+        {
+          "pixel_norm": 0.094195,
+          "value": 5.0
+        }
+      ]
+    }
+  },
+  "unresolved_slots": {
+    "total": 15,
+    "by_series": {
+      "CO2 273K": 1,
+      "CO2 283K": 1,
+      "CO2 293K": 2,
+      "CO2 303K": 1,
+      "CO2 313K": 1,
+      "CO2 323K": 1,
+      "CO2 333K": 1,
+      "CO2 343K": 1,
+      "CO2 353K": 2,
+      "CO2 363K": 2,
+      "CO2 373K": 2
+    },
+    "slots": [
+      {
+        "series_label": "CO2 273K",
+        "reason": "Native low-pressure band x=210\u2013275 px is a continuous fused black square/line mass; individual square centres cannot all be separated from each other or from the black N2 313K/axis ink."
+      },
+      {
+        "series_label": "CO2 283K",
+        "reason": "Native x=210\u2013234 px contains overlapping red hexagon fragments with no one-to-one centre separation; wholly merged centres were not added."
+      },
+      {
+        "series_label": "CO2 293K",
+        "reason": "Native x=210\u2013236 px is fused with similarly blue low-pressure glyphs and several triangle centres are not independently bounded."
+      },
+      {
+        "series_label": "CO2 293K",
+        "reason": "Native x=300\u2013340 px contains merged up-triangle bodies and connecting line; only distinct cores were retained."
+      },
+      {
+        "series_label": "CO2 303K",
+        "reason": "Native x=210\u2013216 px is inside the multicolour origin fan and the teal down-triangle centres are wholly obscured."
+      },
+      {
+        "series_label": "CO2 313K",
+        "reason": "Native x=210\u2013226 px is a fused magenta/teal/blue origin region; no unique left-triangle centre is recoverable."
+      },
+      {
+        "series_label": "CO2 323K",
+        "reason": "Native x=210\u2013225 px is crowded at the origin and olive right-triangle fragments do not delimit separate centres."
+      },
+      {
+        "series_label": "CO2 333K",
+        "reason": "Native x=210\u2013234 px has overlapping navy diamonds and nearby blue series; ownership/centre count is unresolved."
+      },
+      {
+        "series_label": "CO2 343K",
+        "reason": "Native x=210\u2013235 px contains fused brown pentagon fragments at the origin without separable centres."
+      },
+      {
+        "series_label": "CO2 353K",
+        "reason": "Native x=210\u2013247 px contains overlapping pink hexagon fragments; only the supported partial centre at about (248,663) was retained."
+      },
+      {
+        "series_label": "CO2 353K",
+        "reason": "Native x=340\u2013383 px contains a crowded transition where a proposed centre near (351,564) is not separable from the adjacent glyph/line mass."
+      },
+      {
+        "series_label": "CO2 363K",
+        "reason": "Native x=210\u2013246 px contains green star fragments fused into the origin fan; individual centres are not recoverable."
+      },
+      {
+        "series_label": "CO2 363K",
+        "reason": "Native x=290\u2013335 px contains line/star overlap with no stable distinct centre between the retained (289,642) and (336,606) markers."
+      },
+      {
+        "series_label": "CO2 373K",
+        "reason": "Native x=210\u2013283 px is mixed with similarly blue CO2 333K and baseline traces; only two later circle centres are independently supported."
+      },
+      {
+        "series_label": "CO2 373K",
+        "reason": "Native x=296\u2013356 px and several paired high-pressure blobs contain merged blue circle/line ink; candidate multiplicities cannot be resolved without fabricating centres."
+      }
+    ]
+  },
+  "changes": [
+    {
+      "action": "add",
+      "point_id": "pt-a04-012134c912d649ef",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#080808 square glyph fragment/overlap visible on the CO2 273K curve at native panel coordinates (276.0,315.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-276a6f9627a7de7d",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#080808 square glyph fragment/overlap visible on the CO2 273K curve at native panel coordinates (286.0,303.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-3e2365e79eaf12f0",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#080808 square glyph fragment/overlap visible on the CO2 273K curve at native panel coordinates (298.0,291.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-39218e45e2b33114",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#080808 square glyph fragment/overlap visible on the CO2 273K curve at native panel coordinates (320.0,272.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-f3eba1ecae4d9138",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#080808 square glyph fragment/overlap visible on the CO2 273K curve at native panel coordinates (343.0,248.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-5d59dc46b8d7e61d",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.6px to the visible glyph centre.",
+      "source_evidence": "#080808 square glyph body visible on the CO2 273K curve at native panel coordinates (371.0,230.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-33ca8b84412110c0",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.2px to the visible glyph centre.",
+      "source_evidence": "#080808 square glyph body visible on the CO2 273K curve at native panel coordinates (474.0,179.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-538e2faa2e0dd71e",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.4px to the visible glyph centre.",
+      "source_evidence": "#080808 square glyph body visible on the CO2 273K curve at native panel coordinates (501.0,169.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-8e02a29c585b5fe0",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.3px to the visible glyph centre.",
+      "source_evidence": "#080808 square glyph body visible on the CO2 273K curve at native panel coordinates (526.0,159.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-a06525c9d8b3d392",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.0px to the visible glyph centre.",
+      "source_evidence": "#080808 square glyph body visible on the CO2 273K curve at native panel coordinates (705.0,120.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-da94dad5f34bc01e",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.0px to the visible glyph centre.",
+      "source_evidence": "#080808 square glyph fragment/overlap visible on the CO2 273K curve at native panel coordinates (751.0,112.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-522eacb6c3abb6d1",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.4px to the visible glyph centre.",
+      "source_evidence": "#080808 square glyph fragment/overlap visible on the CO2 273K curve at native panel coordinates (757.0,112.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-8ac51459d8a5d393",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.3px to the visible glyph centre.",
+      "source_evidence": "#080808 square glyph body visible on the CO2 273K curve at native panel coordinates (785.0,108.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-826bb87e71a0f65b",
+      "reason": "Native-pixel reinspection relocated the candidate by 0.9px to the visible glyph centre.",
+      "source_evidence": "#080808 square glyph body visible on the CO2 273K curve at native panel coordinates (810.0,104.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-1ac744db646d81ba",
+      "reason": "Native-pixel reinspection relocated the candidate by 3.5px to the visible glyph centre.",
+      "source_evidence": "#080808 square glyph fragment/overlap visible on the CO2 273K curve at native panel coordinates (825.0,100.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-ecb766b85984030e",
+      "reason": "Native-pixel reinspection relocated the candidate by 2.1px to the visible glyph centre.",
+      "source_evidence": "#080808 square glyph fragment/overlap visible on the CO2 273K curve at native panel coordinates (831.0,100.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-161b29fa536e688a",
+      "reason": "Native-pixel reinspection relocated the candidate by 0.9px to the visible glyph centre.",
+      "source_evidence": "#080808 square glyph body visible on the CO2 273K curve at native panel coordinates (860.0,98.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-b0553e44688acc06",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#080808 square glyph body visible on the CO2 273K curve at native panel coordinates (888.0,96.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-d61f0b1982547a38",
+      "reason": "Native-pixel reinspection relocated the candidate by 11.9px to the visible glyph centre.",
+      "source_evidence": "#080808 square glyph fragment/overlap visible on the CO2 273K curve at native panel coordinates (900.0,93.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-d02694b487fafed7",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#080808 square glyph fragment/overlap visible on the CO2 273K curve at native panel coordinates (912.0,93.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-08a2b226f5daedc7",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.5px to the visible glyph centre.",
+      "source_evidence": "#080808 square glyph body visible on the CO2 273K curve at native panel coordinates (1005.0,86.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-d7d176201f8b3a1d",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#080808 square glyph body visible on the CO2 273K curve at native panel coordinates (1075.0,82.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-f8afff7656121ed6",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#ed2f31 hexagon glyph fragment/overlap visible on the CO2 283K curve at native panel coordinates (235.0,430.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-dddd5bf5edd9bf86",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#ed2f31 hexagon glyph fragment/overlap visible on the CO2 283K curve at native panel coordinates (241.0,413.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-5e44e0e7025d7cbd",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#ed2f31 hexagon glyph fragment/overlap visible on the CO2 283K curve at native panel coordinates (248.0,396.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-f19f4a945abeb053",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#ed2f31 hexagon glyph fragment/overlap visible on the CO2 283K curve at native panel coordinates (266.0,372.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-db1101054f79a19f",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#ed2f31 hexagon glyph fragment/overlap visible on the CO2 283K curve at native panel coordinates (289.0,352.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-0d7f9d5787db6f3a",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#ed2f31 hexagon glyph fragment/overlap visible on the CO2 283K curve at native panel coordinates (306.0,340.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-e729828a06311a2e",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#ed2f31 hexagon glyph fragment/overlap visible on the CO2 283K curve at native panel coordinates (315.0,336.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-fcd8feb9632469d7",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#ed2f31 hexagon glyph fragment/overlap visible on the CO2 283K curve at native panel coordinates (337.0,319.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-6a49f8673f2deb74",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.3px to the visible glyph centre.",
+      "source_evidence": "#ed2f31 hexagon glyph body visible on the CO2 283K curve at native panel coordinates (425.0,278.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-d3e01dd342187eda",
+      "reason": "Native-pixel reinspection relocated the candidate by 5.7px to the visible glyph centre.",
+      "source_evidence": "#ed2f31 hexagon glyph body visible on the CO2 283K curve at native panel coordinates (509.0,243.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-38bff4157bcf26a5",
+      "reason": "Native-pixel reinspection relocated the candidate by 2.0px to the visible glyph centre.",
+      "source_evidence": "#ed2f31 hexagon glyph body visible on the CO2 283K curve at native panel coordinates (561.0,225.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-5d6b74e8c7ec41ac",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.1px to the visible glyph centre.",
+      "source_evidence": "#ed2f31 hexagon glyph body visible on the CO2 283K curve at native panel coordinates (598.0,219.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-c4072e224d1aaf6a",
+      "reason": "Native-pixel reinspection relocated the candidate by 0.8px to the visible glyph centre.",
+      "source_evidence": "#ed2f31 hexagon glyph body visible on the CO2 283K curve at native panel coordinates (617.0,210.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-bfe1ff74bfb60dce",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.6px to the visible glyph centre.",
+      "source_evidence": "#ed2f31 hexagon glyph fragment/overlap visible on the CO2 283K curve at native panel coordinates (674.0,198.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-00cd2a8a696aaa52",
+      "reason": "Native-pixel reinspection relocated the candidate by 2.2px to the visible glyph centre.",
+      "source_evidence": "#ed2f31 hexagon glyph fragment/overlap visible on the CO2 283K curve at native panel coordinates (683.0,199.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-baa0aa5d6442979d",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.1px to the visible glyph centre.",
+      "source_evidence": "#ed2f31 hexagon glyph body visible on the CO2 283K curve at native panel coordinates (771.0,185.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-e8ddc420c156e4dc",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.1px to the visible glyph centre.",
+      "source_evidence": "#ed2f31 hexagon glyph body visible on the CO2 283K curve at native panel coordinates (815.0,178.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-c5cb9051093365a6",
+      "reason": "Native-pixel reinspection relocated the candidate by 0.8px to the visible glyph centre.",
+      "source_evidence": "#ed2f31 hexagon glyph body visible on the CO2 283K curve at native panel coordinates (839.0,170.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-379b289f99c6a596",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.0px to the visible glyph centre.",
+      "source_evidence": "#ed2f31 hexagon glyph body visible on the CO2 283K curve at native panel coordinates (937.0,159.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-af6f4d18465ef90b",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#ed2f31 hexagon glyph body visible on the CO2 283K curve at native panel coordinates (990.0,155.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-eb25d538546972d1",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#ed2f31 hexagon glyph body visible on the CO2 283K curve at native panel coordinates (1033.0,152.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-0f9c0cd50e2039a4",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#ed2f31 hexagon glyph body visible on the CO2 283K curve at native panel coordinates (1074.0,148.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-f2f66def0058aadc",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#3c5096 triangle_up glyph fragment/overlap visible on the CO2 293K curve at native panel coordinates (237.0,468.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-9027df17fd978842",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#3c5096 triangle_up glyph fragment/overlap visible on the CO2 293K curve at native panel coordinates (251.0,434.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-d939283ea6ad7b6d",
+      "reason": "Native-pixel reinspection relocated the candidate by 11.7px to the visible glyph centre.",
+      "source_evidence": "#3c5096 triangle_up glyph fragment/overlap visible on the CO2 293K curve at native panel coordinates (264.0,415.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-de3986ce288957d1",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#3c5096 triangle_up glyph fragment/overlap visible on the CO2 293K curve at native panel coordinates (291.0,385.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-6b8dd38f58e9076a",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#3c5096 triangle_up glyph fragment/overlap visible on the CO2 293K curve at native panel coordinates (341.0,355.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-2e73e83c2266cb91",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.8px to the visible glyph centre.",
+      "source_evidence": "#3c5096 triangle_up glyph body visible on the CO2 293K curve at native panel coordinates (384.0,342.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-cdb205c100b1a051",
+      "reason": "Native-pixel reinspection relocated the candidate by 2.0px to the visible glyph centre.",
+      "source_evidence": "#3c5096 triangle_up glyph body visible on the CO2 293K curve at native panel coordinates (395.0,331.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-bde3a386f1815f3b",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.2px to the visible glyph centre.",
+      "source_evidence": "#3c5096 triangle_up glyph body visible on the CO2 293K curve at native panel coordinates (473.0,311.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-952a4f639b23fafd",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.4px to the visible glyph centre.",
+      "source_evidence": "#3c5096 triangle_up glyph body visible on the CO2 293K curve at native panel coordinates (511.0,296.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-345335b5ff94faf3",
+      "reason": "Native-pixel reinspection relocated the candidate by 4.3px to the visible glyph centre.",
+      "source_evidence": "#3c5096 triangle_up glyph body visible on the CO2 293K curve at native panel coordinates (561.0,282.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-e9355bfaa1d8cc2c",
+      "reason": "Native-pixel reinspection relocated the candidate by 0.8px to the visible glyph centre.",
+      "source_evidence": "#3c5096 triangle_up glyph body visible on the CO2 293K curve at native panel coordinates (600.0,278.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-f32f2a5f0c7076ae",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.2px to the visible glyph centre.",
+      "source_evidence": "#3c5096 triangle_up glyph body visible on the CO2 293K curve at native panel coordinates (617.0,267.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-65164b627da28f64",
+      "reason": "Native-pixel reinspection relocated the candidate by 3.0px to the visible glyph centre.",
+      "source_evidence": "#3c5096 triangle_up glyph fragment/overlap visible on the CO2 293K curve at native panel coordinates (682.0,259.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-aa8cdf79098a5d2f",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.0px to the visible glyph centre.",
+      "source_evidence": "#3c5096 triangle_up glyph body visible on the CO2 293K curve at native panel coordinates (729.0,249.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-e8a6eabef0d0ebad",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.8px to the visible glyph centre.",
+      "source_evidence": "#3c5096 triangle_up glyph fragment/overlap visible on the CO2 293K curve at native panel coordinates (774.0,242.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-a96edd9b30e0bd9a",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.3px to the visible glyph centre.",
+      "source_evidence": "#3c5096 triangle_up glyph fragment/overlap visible on the CO2 293K curve at native panel coordinates (783.0,236.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-feabd6960a8a3d9d",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.6px to the visible glyph centre.",
+      "source_evidence": "#3c5096 triangle_up glyph body visible on the CO2 293K curve at native panel coordinates (818.0,235.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-fc8eeffe49189756",
+      "reason": "Native-pixel reinspection relocated the candidate by 0.9px to the visible glyph centre.",
+      "source_evidence": "#3c5096 triangle_up glyph body visible on the CO2 293K curve at native panel coordinates (841.0,229.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-7448c0b160a62913",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.7px to the visible glyph centre.",
+      "source_evidence": "#3c5096 triangle_up glyph body visible on the CO2 293K curve at native panel coordinates (860.0,228.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-de14dc336a214a0f",
+      "reason": "Native-pixel reinspection relocated the candidate by 4.0px to the visible glyph centre.",
+      "source_evidence": "#3c5096 triangle_up glyph body visible on the CO2 293K curve at native panel coordinates (902.0,223.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-af3fd062c4a6de0e",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.4px to the visible glyph centre.",
+      "source_evidence": "#3c5096 triangle_up glyph fragment/overlap visible on the CO2 293K curve at native panel coordinates (939.0,217.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-5e0ae5bd63c5ef62",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#3c5096 triangle_up glyph fragment/overlap visible on the CO2 293K curve at native panel coordinates (945.0,217.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-bca5d6ed5ec4723e",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#3c5096 triangle_up glyph body visible on the CO2 293K curve at native panel coordinates (993.0,211.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-e66ec354011e088d",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#3c5096 triangle_up glyph body visible on the CO2 293K curve at native panel coordinates (1033.0,206.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-856805398fe8f569",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#3c5096 triangle_up glyph body visible on the CO2 293K curve at native panel coordinates (1071.0,203.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-48ee69b414479d94",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#198e8a triangle_down glyph fragment/overlap visible on the CO2 303K curve at native panel coordinates (217.0,639.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-2e41e0d4ae06561e",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#198e8a triangle_down glyph fragment/overlap visible on the CO2 303K curve at native panel coordinates (227.0,580.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-8a9905167ee4fecb",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#198e8a triangle_down glyph fragment/overlap visible on the CO2 303K curve at native panel coordinates (238.0,528.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-950e38526cf8fb16",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#198e8a triangle_down glyph fragment/overlap visible on the CO2 303K curve at native panel coordinates (250.0,478.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-24f9bff58a4c829c",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#198e8a triangle_down glyph fragment/overlap visible on the CO2 303K curve at native panel coordinates (257.0,462.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-5b2d279ee63f2b38",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#198e8a triangle_down glyph fragment/overlap visible on the CO2 303K curve at native panel coordinates (270.0,445.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-44f42f3b5346db68",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#198e8a triangle_down glyph fragment/overlap visible on the CO2 303K curve at native panel coordinates (289.0,421.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-098b87dd700ed3ed",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#198e8a triangle_down glyph fragment/overlap visible on the CO2 303K curve at native panel coordinates (322.0,401.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-da070114c83a94c7",
+      "reason": "Native-pixel reinspection relocated the candidate by 12.6px to the visible glyph centre.",
+      "source_evidence": "#198e8a triangle_down glyph fragment/overlap visible on the CO2 303K curve at native panel coordinates (336.0,385.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-352b90c54f11fb33",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.2px to the visible glyph centre.",
+      "source_evidence": "#198e8a triangle_down glyph body visible on the CO2 303K curve at native panel coordinates (378.0,373.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-62b173921b21dde2",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.6px to the visible glyph centre.",
+      "source_evidence": "#198e8a triangle_down glyph body visible on the CO2 303K curve at native panel coordinates (392.0,363.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-d952e74aee15752e",
+      "reason": "Native-pixel reinspection relocated the candidate by 2.4px to the visible glyph centre.",
+      "source_evidence": "#198e8a triangle_down glyph body visible on the CO2 303K curve at native panel coordinates (422.0,359.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-24c99b76231faaf2",
+      "reason": "Native-pixel reinspection relocated the candidate by 3.5px to the visible glyph centre.",
+      "source_evidence": "#198e8a triangle_down glyph body visible on the CO2 303K curve at native panel coordinates (446.0,347.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-c737792d8eb45abc",
+      "reason": "Native-pixel reinspection relocated the candidate by 2.0px to the visible glyph centre.",
+      "source_evidence": "#198e8a triangle_down glyph body visible on the CO2 303K curve at native panel coordinates (467.0,348.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-9cee2e26a9820e34",
+      "reason": "Native-pixel reinspection relocated the candidate by 2.0px to the visible glyph centre.",
+      "source_evidence": "#198e8a triangle_down glyph body visible on the CO2 303K curve at native panel coordinates (502.0,333.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-8a058c032a74e72a",
+      "reason": "Native-pixel reinspection relocated the candidate by 2.0px to the visible glyph centre.",
+      "source_evidence": "#198e8a triangle_down glyph body visible on the CO2 303K curve at native panel coordinates (556.0,323.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-ce64257c0ccd141b",
+      "reason": "Native-pixel reinspection relocated the candidate by 3.0px to the visible glyph centre.",
+      "source_evidence": "#198e8a triangle_down glyph body visible on the CO2 303K curve at native panel coordinates (595.0,322.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-facee901a6490719",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.8px to the visible glyph centre.",
+      "source_evidence": "#198e8a triangle_down glyph body visible on the CO2 303K curve at native panel coordinates (617.0,311.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-05a63e3bc160a278",
+      "reason": "Native-pixel reinspection relocated the candidate by 3.0px to the visible glyph centre.",
+      "source_evidence": "#198e8a triangle_down glyph body visible on the CO2 303K curve at native panel coordinates (638.0,314.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-6ac393cd4b29721b",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.9px to the visible glyph centre.",
+      "source_evidence": "#198e8a triangle_down glyph body visible on the CO2 303K curve at native panel coordinates (667.0,305.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-3898560b18c3b38e",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.7px to the visible glyph centre.",
+      "source_evidence": "#198e8a triangle_down glyph body visible on the CO2 303K curve at native panel coordinates (687.0,306.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-5ebb1318ca1a84f9",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.3px to the visible glyph centre.",
+      "source_evidence": "#198e8a triangle_down glyph body visible on the CO2 303K curve at native panel coordinates (725.0,295.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-09d3f24444015b03",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#198e8a triangle_down glyph body visible on the CO2 303K curve at native panel coordinates (758.0,295.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-ab3404c41f8ff6f3",
+      "reason": "Native-pixel reinspection relocated the candidate by 5.8px to the visible glyph centre.",
+      "source_evidence": "#198e8a triangle_down glyph fragment/overlap visible on the CO2 303K curve at native panel coordinates (771.0,294.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-7284f20afadf6bd6",
+      "reason": "Native-pixel reinspection relocated the candidate by 8.0px to the visible glyph centre.",
+      "source_evidence": "#198e8a triangle_down glyph fragment/overlap visible on the CO2 303K curve at native panel coordinates (780.0,288.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-8a9a19dd97f52234",
+      "reason": "Native-pixel reinspection relocated the candidate by 0.8px to the visible glyph centre.",
+      "source_evidence": "#198e8a triangle_down glyph body visible on the CO2 303K curve at native panel coordinates (837.0,281.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-ef84771ada273ec4",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.2px to the visible glyph centre.",
+      "source_evidence": "#198e8a triangle_down glyph body visible on the CO2 303K curve at native panel coordinates (859.0,282.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-286f0caec68d206c",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#198e8a triangle_down glyph body visible on the CO2 303K curve at native panel coordinates (879.0,276.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-5825219d4532ad78",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#198e8a triangle_down glyph fragment/overlap visible on the CO2 303K curve at native panel coordinates (892.0,274.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-5e7473f734da4bff",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#198e8a triangle_down glyph fragment/overlap visible on the CO2 303K curve at native panel coordinates (902.0,276.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-83b09cd166586625",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#198e8a triangle_down glyph body visible on the CO2 303K curve at native panel coordinates (936.0,271.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-5723dbe4fcd45d35",
+      "reason": "Native-pixel reinspection relocated the candidate by 8.4px to the visible glyph centre.",
+      "source_evidence": "#198e8a triangle_down glyph body visible on the CO2 303K curve at native panel coordinates (948.0,271.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-eb4c2183e18e03b7",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#198e8a triangle_down glyph body visible on the CO2 303K curve at native panel coordinates (990.0,267.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-d3079164090c7e73",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#198e8a triangle_down glyph body visible on the CO2 303K curve at native panel coordinates (1033.0,262.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-a67b7d7cb5a7ded5",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#198e8a triangle_down glyph body visible on the CO2 303K curve at native panel coordinates (1072.0,259.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-bf49877987aac749",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#bd4f9b triangle_left glyph fragment/overlap visible on the CO2 313K curve at native panel coordinates (227.0,621.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-03b680ecf85dfef9",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#bd4f9b triangle_left glyph fragment/overlap visible on the CO2 313K curve at native panel coordinates (239.0,556.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-2340997f829c4392",
+      "reason": "Native-pixel reinspection relocated the candidate by 5.0px to the visible glyph centre.",
+      "source_evidence": "#bd4f9b triangle_left glyph fragment/overlap visible on the CO2 313K curve at native panel coordinates (250.0,515.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-41ca8c6af3780cf2",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#bd4f9b triangle_left glyph fragment/overlap visible on the CO2 313K curve at native panel coordinates (261.0,492.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-deb5505ec4c9cb16",
+      "reason": "Native-pixel reinspection relocated the candidate by 8.1px to the visible glyph centre.",
+      "source_evidence": "#bd4f9b triangle_left glyph fragment/overlap visible on the CO2 313K curve at native panel coordinates (272.0,471.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-f024bf67dfb24b18",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#bd4f9b triangle_left glyph fragment/overlap visible on the CO2 313K curve at native panel coordinates (289.0,440.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-1eb73ef370edfbbf",
+      "reason": "Native-pixel reinspection relocated the candidate by 6.7px to the visible glyph centre.",
+      "source_evidence": "#bd4f9b triangle_left glyph fragment/overlap visible on the CO2 313K curve at native panel coordinates (303.0,432.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-dcb8848d7fa146a2",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#bd4f9b triangle_left glyph fragment/overlap visible on the CO2 313K curve at native panel coordinates (340.0,404.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-224785c58f42678a",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.4px to the visible glyph centre.",
+      "source_evidence": "#bd4f9b triangle_left glyph body visible on the CO2 313K curve at native panel coordinates (396.0,379.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-bb5a2bf44b52fdc0",
+      "reason": "Native-pixel reinspection relocated the candidate by 0.9px to the visible glyph centre.",
+      "source_evidence": "#bd4f9b triangle_left glyph body visible on the CO2 313K curve at native panel coordinates (428.0,373.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-ffc3f2e7e5726e0c",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#bd4f9b triangle_left glyph body visible on the CO2 313K curve at native panel coordinates (453.0,360.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-0dbcc869aac48592",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#bd4f9b triangle_left glyph body visible on the CO2 313K curve at native panel coordinates (514.0,351.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-3ebfdee745fe02ea",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#bd4f9b triangle_left glyph body visible on the CO2 313K curve at native panel coordinates (556.0,342.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-6d7f1d04f425e285",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.6px to the visible glyph centre.",
+      "source_evidence": "#bd4f9b triangle_left glyph body visible on the CO2 313K curve at native panel coordinates (600.0,336.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-1acd00cc0d9cfe9f",
+      "reason": "Native-pixel reinspection relocated the candidate by 2.5px to the visible glyph centre.",
+      "source_evidence": "#bd4f9b triangle_left glyph body visible on the CO2 313K curve at native panel coordinates (644.0,329.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-a0540384117e84db",
+      "reason": "Native-pixel reinspection relocated the candidate by 0.8px to the visible glyph centre.",
+      "source_evidence": "#bd4f9b triangle_left glyph body visible on the CO2 313K curve at native panel coordinates (673.0,321.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-6e29e5de420ae99a",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#bd4f9b triangle_left glyph body visible on the CO2 313K curve at native panel coordinates (687.0,323.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-80f123ade4bfc21f",
+      "reason": "Native-pixel reinspection relocated the candidate by 0.8px to the visible glyph centre.",
+      "source_evidence": "#bd4f9b triangle_left glyph body visible on the CO2 313K curve at native panel coordinates (728.0,314.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-0844c1713788723a",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#bd4f9b triangle_left glyph body visible on the CO2 313K curve at native panel coordinates (773.0,312.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-b0953adf86f89ba7",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#bd4f9b triangle_left glyph body visible on the CO2 313K curve at native panel coordinates (817.0,305.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-6032f82e13693c12",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.3px to the visible glyph centre.",
+      "source_evidence": "#bd4f9b triangle_left glyph body visible on the CO2 313K curve at native panel coordinates (839.0,298.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-ad05e84f1acd4dbb",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#bd4f9b triangle_left glyph body visible on the CO2 313K curve at native panel coordinates (862.0,299.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-4e3d5558127a1548",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#bd4f9b triangle_left glyph body visible on the CO2 313K curve at native panel coordinates (883.0,293.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-3b9c0941ecc6e42a",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.1px to the visible glyph centre.",
+      "source_evidence": "#bd4f9b triangle_left glyph body visible on the CO2 313K curve at native panel coordinates (903.0,295.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-53dd1bcc055c847b",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#bd4f9b triangle_left glyph body visible on the CO2 313K curve at native panel coordinates (939.0,289.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-56ad4915d5a6cc98",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.1px to the visible glyph centre.",
+      "source_evidence": "#bd4f9b triangle_left glyph body visible on the CO2 313K curve at native panel coordinates (993.0,284.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-5dadbc283207ce9d",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.0px to the visible glyph centre.",
+      "source_evidence": "#bd4f9b triangle_left glyph body visible on the CO2 313K curve at native panel coordinates (1035.0,280.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-5d51415a4592a9b4",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#bd4f9b triangle_left glyph body visible on the CO2 313K curve at native panel coordinates (1074.0,278.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-c8b354028ffabc76",
+      "reason": "Native-pixel reinspection relocated the candidate by 3.3px to the visible glyph centre.",
+      "source_evidence": "#8b8d31 triangle_right glyph fragment/overlap visible on the CO2 323K curve at native panel coordinates (226.0,652.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-f814bf213f45e879",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#8b8d31 triangle_right glyph fragment/overlap visible on the CO2 323K curve at native panel coordinates (252.0,567.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-7db6eca1af3d2161",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#8b8d31 triangle_right glyph fragment/overlap visible on the CO2 323K curve at native panel coordinates (261.0,541.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-b3b9674851be3570",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#8b8d31 triangle_right glyph fragment/overlap visible on the CO2 323K curve at native panel coordinates (273.0,519.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-5082ead3f3ca34b4",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#8b8d31 triangle_right glyph fragment/overlap visible on the CO2 323K curve at native panel coordinates (290.0,486.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-717dc8d8a529dd42",
+      "reason": "Native-pixel reinspection relocated the candidate by 13.0px to the visible glyph centre.",
+      "source_evidence": "#8b8d31 triangle_right glyph fragment/overlap visible on the CO2 323K curve at native panel coordinates (301.0,476.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-d56171e83c80b650",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#8b8d31 triangle_right glyph fragment/overlap visible on the CO2 323K curve at native panel coordinates (341.0,439.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-b32c9922b3bc2e22",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#8b8d31 triangle_right glyph body visible on the CO2 323K curve at native panel coordinates (427.0,403.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-909af8352bb4cc75",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#8b8d31 triangle_right glyph body visible on the CO2 323K curve at native panel coordinates (451.0,391.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-7f9b254ded09572f",
+      "reason": "Native-pixel reinspection relocated the candidate by 0.9px to the visible glyph centre.",
+      "source_evidence": "#8b8d31 triangle_right glyph body visible on the CO2 323K curve at native panel coordinates (471.0,391.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-4245fe5be2b8a566",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#8b8d31 triangle_right glyph body visible on the CO2 323K curve at native panel coordinates (513.0,381.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-83d739d6609bd42c",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#8b8d31 triangle_right glyph body visible on the CO2 323K curve at native panel coordinates (562.0,369.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-2946f71f41448695",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#8b8d31 triangle_right glyph body visible on the CO2 323K curve at native panel coordinates (617.0,359.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-0fecb24e75a9ea41",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#8b8d31 triangle_right glyph body visible on the CO2 323K curve at native panel coordinates (642.0,361.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-a62c9f6a5349e258",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#8b8d31 triangle_right glyph body visible on the CO2 323K curve at native panel coordinates (672.0,351.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-cdba5dfa0efa481d",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#8b8d31 triangle_right glyph body visible on the CO2 323K curve at native panel coordinates (686.0,355.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-14d20d73986c83f1",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#8b8d31 triangle_right glyph body visible on the CO2 323K curve at native panel coordinates (784.0,340.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-fe62cac4b1d68a42",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#8b8d31 triangle_right glyph body visible on the CO2 323K curve at native panel coordinates (816.0,340.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-8930860c4a5fb12a",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.4px to the visible glyph centre.",
+      "source_evidence": "#8b8d31 triangle_right glyph body visible on the CO2 323K curve at native panel coordinates (838.0,335.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-bdc9e572b0068a05",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#8b8d31 triangle_right glyph body visible on the CO2 323K curve at native panel coordinates (860.0,337.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-7e3409f4f2499309",
+      "reason": "Native-pixel reinspection relocated the candidate by 0.9px to the visible glyph centre.",
+      "source_evidence": "#8b8d31 triangle_right glyph body visible on the CO2 323K curve at native panel coordinates (881.0,332.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-652f14f40b914cb9",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#8b8d31 triangle_right glyph body visible on the CO2 323K curve at native panel coordinates (903.0,333.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-262f7de7c3830ce0",
+      "reason": "Native-pixel reinspection relocated the candidate by 3.1px to the visible glyph centre.",
+      "source_evidence": "#8b8d31 triangle_right glyph body visible on the CO2 323K curve at native panel coordinates (940.0,328.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-6270361030109760",
+      "reason": "Native-pixel reinspection relocated the candidate by 2.6px to the visible glyph centre.",
+      "source_evidence": "#8b8d31 triangle_right glyph body visible on the CO2 323K curve at native panel coordinates (990.0,325.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-bd7d484d34c3f5ff",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.1px to the visible glyph centre.",
+      "source_evidence": "#8b8d31 triangle_right glyph body visible on the CO2 323K curve at native panel coordinates (1033.0,322.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-fb66c309c4016a46",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#8b8d31 triangle_right glyph body visible on the CO2 323K curve at native panel coordinates (1072.0,319.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-ba88237fbda06655",
+      "reason": "Native-pixel reinspection relocated the candidate by 14.2px to the visible glyph centre.",
+      "source_evidence": "#293678 diamond glyph fragment/overlap visible on the CO2 333K curve at native panel coordinates (235.0,645.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-5bf766f4e0dfdfaf",
+      "reason": "Native-pixel reinspection relocated the candidate by 0.8px to the visible glyph centre.",
+      "source_evidence": "#293678 diamond glyph fragment/overlap visible on the CO2 333K curve at native panel coordinates (252.0,610.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-bff7aaebe7ab4955",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.5px to the visible glyph centre.",
+      "source_evidence": "#293678 diamond glyph fragment/overlap visible on the CO2 333K curve at native panel coordinates (272.0,568.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-de63d7d21289ce66",
+      "reason": "Native-pixel reinspection relocated the candidate by 7.8px to the visible glyph centre.",
+      "source_evidence": "#293678 diamond glyph fragment/overlap visible on the CO2 333K curve at native panel coordinates (298.0,529.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-a92722b60c75aa0b",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.4px to the visible glyph centre.",
+      "source_evidence": "#293678 diamond glyph body visible on the CO2 333K curve at native panel coordinates (392.0,449.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-2122113a7e511a3d",
+      "reason": "Native-pixel reinspection relocated the candidate by 2.6px to the visible glyph centre.",
+      "source_evidence": "#293678 diamond glyph body visible on the CO2 333K curve at native panel coordinates (429.0,434.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-ed81fae752fec8eb",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.8px to the visible glyph centre.",
+      "source_evidence": "#293678 diamond glyph fragment/overlap visible on the CO2 333K curve at native panel coordinates (517.0,412.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-d3b8112f76de4b02",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.4px to the visible glyph centre.",
+      "source_evidence": "#293678 diamond glyph body visible on the CO2 333K curve at native panel coordinates (561.0,398.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-a8fa96564dbec65d",
+      "reason": "Native-pixel reinspection relocated the candidate by 0.8px to the visible glyph centre.",
+      "source_evidence": "#293678 diamond glyph body visible on the CO2 333K curve at native panel coordinates (599.0,395.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-3bc8ea37c3339044",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.7px to the visible glyph centre.",
+      "source_evidence": "#293678 diamond glyph body visible on the CO2 333K curve at native panel coordinates (617.0,386.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-7b02073b65952b13",
+      "reason": "Native-pixel reinspection relocated the candidate by 2.4px to the visible glyph centre.",
+      "source_evidence": "#293678 diamond glyph fragment/overlap visible on the CO2 333K curve at native panel coordinates (675.0,381.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-82c5362558153357",
+      "reason": "Native-pixel reinspection relocated the candidate by 4.5px to the visible glyph centre.",
+      "source_evidence": "#293678 diamond glyph body visible on the CO2 333K curve at native panel coordinates (728.0,375.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-67772d09d442455b",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#293678 diamond glyph fragment/overlap visible on the CO2 333K curve at native panel coordinates (774.0,372.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-cd01a145390da3f0",
+      "reason": "Native-pixel reinspection relocated the candidate by 8.5px to the visible glyph centre.",
+      "source_evidence": "#293678 diamond glyph fragment/overlap visible on the CO2 333K curve at native panel coordinates (783.0,367.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-938c3712f895cdde",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#293678 diamond glyph body visible on the CO2 333K curve at native panel coordinates (817.0,368.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-8304b57d9a4398a8",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#293678 diamond glyph body visible on the CO2 333K curve at native panel coordinates (860.0,365.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-09963a93d8d7d2e5",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#293678 diamond glyph body visible on the CO2 333K curve at native panel coordinates (881.0,360.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-1957d49373700689",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#293678 diamond glyph body visible on the CO2 333K curve at native panel coordinates (904.0,362.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-b2c82f35b339be79",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#293678 diamond glyph fragment/overlap visible on the CO2 333K curve at native panel coordinates (939.0,358.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-00b719bad0b82bee",
+      "reason": "Native-pixel reinspection relocated the candidate by 10.9px to the visible glyph centre.",
+      "source_evidence": "#293678 diamond glyph fragment/overlap visible on the CO2 333K curve at native panel coordinates (945.0,358.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-86b36f602b4c846a",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#293678 diamond glyph body visible on the CO2 333K curve at native panel coordinates (991.0,355.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-b77bc8f6f67614f5",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#293678 diamond glyph body visible on the CO2 333K curve at native panel coordinates (1034.0,353.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-84978711d7fcf94e",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#293678 diamond glyph body visible on the CO2 333K curve at native panel coordinates (1073.0,351.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-653ae845ad05eadd",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.0px to the visible glyph centre.",
+      "source_evidence": "#9c2527 pentagon glyph fragment/overlap visible on the CO2 343K curve at native panel coordinates (236.0,662.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-515727a7d27c0057",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.5px to the visible glyph centre.",
+      "source_evidence": "#9c2527 pentagon glyph fragment/overlap visible on the CO2 343K curve at native panel coordinates (259.0,626.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-e80c47e2effab326",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.2px to the visible glyph centre.",
+      "source_evidence": "#9c2527 pentagon glyph fragment/overlap visible on the CO2 343K curve at native panel coordinates (273.0,608.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-b8015f01a51c2a6e",
+      "reason": "Native-pixel reinspection relocated the candidate by 3.5px to the visible glyph centre.",
+      "source_evidence": "#9c2527 pentagon glyph fragment/overlap visible on the CO2 343K curve at native panel coordinates (339.0,527.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-c37bddd3d4f146a6",
+      "reason": "Native-pixel reinspection relocated the candidate by 2.3px to the visible glyph centre.",
+      "source_evidence": "#9c2527 pentagon glyph body visible on the CO2 343K curve at native panel coordinates (381.0,496.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-a9ebb7531711553b",
+      "reason": "Native-pixel reinspection relocated the candidate by 2.0px to the visible glyph centre.",
+      "source_evidence": "#9c2527 pentagon glyph body visible on the CO2 343K curve at native panel coordinates (395.0,486.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-ad2e8a36c6d1e93f",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.8px to the visible glyph centre.",
+      "source_evidence": "#9c2527 pentagon glyph body visible on the CO2 343K curve at native panel coordinates (427.0,471.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-1846aa8328e51c3c",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.5px to the visible glyph centre.",
+      "source_evidence": "#9c2527 pentagon glyph body visible on the CO2 343K curve at native panel coordinates (471.0,456.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-e4aab22f47ce7baf",
+      "reason": "Native-pixel reinspection relocated the candidate by 2.5px to the visible glyph centre.",
+      "source_evidence": "#9c2527 pentagon glyph body visible on the CO2 343K curve at native panel coordinates (508.0,441.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-9be6d43bf9999927",
+      "reason": "Native-pixel reinspection relocated the candidate by 4.0px to the visible glyph centre.",
+      "source_evidence": "#9c2527 pentagon glyph body visible on the CO2 343K curve at native panel coordinates (560.0,426.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-8bea76cffa1f64d0",
+      "reason": "Native-pixel reinspection relocated the candidate by 0.8px to the visible glyph centre.",
+      "source_evidence": "#9c2527 pentagon glyph body visible on the CO2 343K curve at native panel coordinates (641.0,416.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-04173c38093b7836",
+      "reason": "Native-pixel reinspection relocated the candidate by 0.8px to the visible glyph centre.",
+      "source_evidence": "#9c2527 pentagon glyph fragment/overlap visible on the CO2 343K curve at native panel coordinates (674.0,406.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-c50b5f1902bfe62d",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.6px to the visible glyph centre.",
+      "source_evidence": "#9c2527 pentagon glyph body visible on the CO2 343K curve at native panel coordinates (729.0,402.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-2969f69ac7a5e5b6",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.0px to the visible glyph centre.",
+      "source_evidence": "#9c2527 pentagon glyph fragment/overlap visible on the CO2 343K curve at native panel coordinates (773.0,399.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-f8324994562512f0",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.4px to the visible glyph centre.",
+      "source_evidence": "#9c2527 pentagon glyph fragment/overlap visible on the CO2 343K curve at native panel coordinates (783.0,393.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-7d83a59dc2237689",
+      "reason": "Native-pixel reinspection relocated the candidate by 0.9px to the visible glyph centre.",
+      "source_evidence": "#9c2527 pentagon glyph body visible on the CO2 343K curve at native panel coordinates (839.0,388.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-8aab33bb26d7bac9",
+      "reason": "Native-pixel reinspection relocated the candidate by 3.6px to the visible glyph centre.",
+      "source_evidence": "#9c2527 pentagon glyph body visible on the CO2 343K curve at native panel coordinates (902.0,390.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-1a05505d61028bc5",
+      "reason": "Native-pixel reinspection relocated the candidate by 3.0px to the visible glyph centre.",
+      "source_evidence": "#9c2527 pentagon glyph body visible on the CO2 343K curve at native panel coordinates (939.0,382.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-fd12ff30062b5580",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#9c2527 pentagon glyph body visible on the CO2 343K curve at native panel coordinates (992.0,379.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-a0bdf59b8b1669f5",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#9c2527 pentagon glyph body visible on the CO2 343K curve at native panel coordinates (1033.0,376.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-da7a638d3ee095de",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#9c2527 pentagon glyph body visible on the CO2 343K curve at native panel coordinates (1073.0,374.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-2f842e6ca9e3e8fa",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.6px to the visible glyph centre.",
+      "source_evidence": "#e72b73 hexagon glyph fragment/overlap visible on the CO2 353K curve at native panel coordinates (269.0,637.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-1033bb000d49950d",
+      "reason": "Native-pixel reinspection relocated the candidate by 0.9px to the visible glyph centre.",
+      "source_evidence": "#e72b73 hexagon glyph body visible on the CO2 353K curve at native panel coordinates (384.0,539.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-63660a19e1a6a6ca",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.0px to the visible glyph centre.",
+      "source_evidence": "#e72b73 hexagon glyph body visible on the CO2 353K curve at native panel coordinates (451.0,498.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-d79dd125eaa1748d",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.3px to the visible glyph centre.",
+      "source_evidence": "#e72b73 hexagon glyph body visible on the CO2 353K curve at native panel coordinates (473.0,493.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-7a918a252f9f6a24",
+      "reason": "Native-pixel reinspection relocated the candidate by 2.6px to the visible glyph centre.",
+      "source_evidence": "#e72b73 hexagon glyph fragment/overlap visible on the CO2 353K curve at native panel coordinates (506.0,476.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-d631e5767ce22e90",
+      "reason": "Native-pixel reinspection relocated the candidate by 2.9px to the visible glyph centre.",
+      "source_evidence": "#e72b73 hexagon glyph fragment/overlap visible on the CO2 353K curve at native panel coordinates (516.0,478.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-29f8ebc09f1a41f3",
+      "reason": "Native-pixel reinspection relocated the candidate by 2.1px to the visible glyph centre.",
+      "source_evidence": "#e72b73 hexagon glyph body visible on the CO2 353K curve at native panel coordinates (560.0,463.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-b9927edf91421a94",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.1px to the visible glyph centre.",
+      "source_evidence": "#e72b73 hexagon glyph body visible on the CO2 353K curve at native panel coordinates (642.0,447.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-b497753f7a0a3e5e",
+      "reason": "Native-pixel reinspection relocated the candidate by 2.0px to the visible glyph centre.",
+      "source_evidence": "#e72b73 hexagon glyph fragment/overlap visible on the CO2 353K curve at native panel coordinates (674.0,437.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-93cfb1ec99c91ea5",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.2px to the visible glyph centre.",
+      "source_evidence": "#e72b73 hexagon glyph body visible on the CO2 353K curve at native panel coordinates (775.0,426.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-f8650df39a90f3c7",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#e72b73 hexagon glyph body visible on the CO2 353K curve at native panel coordinates (838.0,415.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-891441a671fe12c2",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#e72b73 hexagon glyph body visible on the CO2 353K curve at native panel coordinates (860.0,417.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-bdafa4392868cd13",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#e72b73 hexagon glyph body visible on the CO2 353K curve at native panel coordinates (881.0,413.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-72969e0ab092adce",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#e72b73 hexagon glyph body visible on the CO2 353K curve at native panel coordinates (903.0,413.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-089f5dd284e763fa",
+      "reason": "Native-pixel reinspection relocated the candidate by 7.0px to the visible glyph centre.",
+      "source_evidence": "#e72b73 hexagon glyph fragment/overlap visible on the CO2 353K curve at native panel coordinates (940.0,408.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-6e0ccb6b50eb5d13",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#e72b73 hexagon glyph fragment/overlap visible on the CO2 353K curve at native panel coordinates (947.0,410.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-f08c08cbb9e133b9",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#e72b73 hexagon glyph body visible on the CO2 353K curve at native panel coordinates (991.0,406.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-a44e4cf654350b0e",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#e72b73 hexagon glyph body visible on the CO2 353K curve at native panel coordinates (1033.0,403.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-3444cdb0c83c9c82",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#e72b73 hexagon glyph body visible on the CO2 353K curve at native panel coordinates (1073.0,401.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-1cf775d9a9bedd87",
+      "reason": "Native-pixel reinspection relocated the candidate by 2.7px to the visible glyph centre.",
+      "source_evidence": "#258c46 star glyph fragment/overlap visible on the CO2 363K curve at native panel coordinates (289.0,642.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-2588e63220fcc5eb",
+      "reason": "Native-pixel reinspection relocated the candidate by 0.8px to the visible glyph centre.",
+      "source_evidence": "#258c46 star glyph fragment/overlap visible on the CO2 363K curve at native panel coordinates (336.0,606.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-4f55134a62004a22",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.2px to the visible glyph centre.",
+      "source_evidence": "#258c46 star glyph body visible on the CO2 363K curve at native panel coordinates (427.0,554.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-8c41705f20b3c216",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.1px to the visible glyph centre.",
+      "source_evidence": "#258c46 star glyph body visible on the CO2 363K curve at native panel coordinates (471.0,533.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-ecce06111cd53ae7",
+      "reason": "Native-pixel reinspection relocated the candidate by 3.8px to the visible glyph centre.",
+      "source_evidence": "#258c46 star glyph body visible on the CO2 363K curve at native panel coordinates (511.0,516.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-19ae4a2969f1c864",
+      "reason": "Native-pixel reinspection relocated the candidate by 2.2px to the visible glyph centre.",
+      "source_evidence": "#258c46 star glyph fragment/overlap visible on the CO2 363K curve at native panel coordinates (560.0,496.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-db7d933416ac6013",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.2px to the visible glyph centre.",
+      "source_evidence": "#258c46 star glyph body visible on the CO2 363K curve at native panel coordinates (598.0,490.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-18af9a170ad727bf",
+      "reason": "Native-pixel reinspection relocated the candidate by 0.9px to the visible glyph centre.",
+      "source_evidence": "#258c46 star glyph body visible on the CO2 363K curve at native panel coordinates (617.0,481.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-6d1ffbcf4f68bdcc",
+      "reason": "Native-pixel reinspection relocated the candidate by 0.9px to the visible glyph centre.",
+      "source_evidence": "#258c46 star glyph body visible on the CO2 363K curve at native panel coordinates (642.0,479.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-0c40692941b8d377",
+      "reason": "Native-pixel reinspection relocated the candidate by 2.4px to the visible glyph centre.",
+      "source_evidence": "#258c46 star glyph body visible on the CO2 363K curve at native panel coordinates (674.0,469.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-6ed38e558367e5b4",
+      "reason": "Native-pixel reinspection relocated the candidate by 2.2px to the visible glyph centre.",
+      "source_evidence": "#258c46 star glyph body visible on the CO2 363K curve at native panel coordinates (686.0,469.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-cd08dccfd46a6996",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.4px to the visible glyph centre.",
+      "source_evidence": "#258c46 star glyph body visible on the CO2 363K curve at native panel coordinates (729.0,460.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-e07e4395aff1e3c7",
+      "reason": "Native-pixel reinspection relocated the candidate by 5.8px to the visible glyph centre.",
+      "source_evidence": "#258c46 star glyph body visible on the CO2 363K curve at native panel coordinates (942.0,434.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-c34ad3912ce10145",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#258c46 star glyph body visible on the CO2 363K curve at native panel coordinates (993.0,428.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-122e2cd0800b346c",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#258c46 star glyph body visible on the CO2 363K curve at native panel coordinates (1074.0,423.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-4fcb2353416c2302",
+      "reason": "Native-pixel reinspection relocated the candidate by 6.4px to the visible glyph centre.",
+      "source_evidence": "#2a2b86 circle glyph fragment/overlap visible on the CO2 373K curve at native panel coordinates (284.0,667.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-17693df0fd80a932",
+      "reason": "Native-pixel reinspection relocated the candidate by 6.1px to the visible glyph centre.",
+      "source_evidence": "#2a2b86 circle glyph fragment/overlap visible on the CO2 373K curve at native panel coordinates (296.0,653.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-cb3f22f93c7eef7d",
+      "reason": "Native-pixel reinspection relocated the candidate by 5.3px to the visible glyph centre.",
+      "source_evidence": "#2a2b86 circle glyph fragment/overlap visible on the CO2 373K curve at native panel coordinates (356.0,624.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-474e0e690f227af7",
+      "reason": "Native-pixel reinspection relocated the candidate by 2.0px to the visible glyph centre.",
+      "source_evidence": "#2a2b86 circle glyph body visible on the CO2 373K curve at native panel coordinates (401.0,605.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-f2fb6862d8c2fa78",
+      "reason": "Native-pixel reinspection relocated the candidate by 6.3px to the visible glyph centre.",
+      "source_evidence": "#2a2b86 circle glyph body visible on the CO2 373K curve at native panel coordinates (434.0,585.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-527af6caa4e830b3",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.6px to the visible glyph centre.",
+      "source_evidence": "#2a2b86 circle glyph body visible on the CO2 373K curve at native panel coordinates (448.0,584.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-d9f9a5eea92fa441",
+      "reason": "Native-pixel reinspection relocated the candidate by 4.1px to the visible glyph centre.",
+      "source_evidence": "#2a2b86 circle glyph body visible on the CO2 373K curve at native panel coordinates (496.0,561.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-19bc65ef0812ca3e",
+      "reason": "Native-pixel reinspection relocated the candidate by 2.9px to the visible glyph centre.",
+      "source_evidence": "#2a2b86 circle glyph body visible on the CO2 373K curve at native panel coordinates (576.0,535.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-cd75c048aa6bc2bf",
+      "reason": "Native-pixel reinspection relocated the candidate by 3.0px to the visible glyph centre.",
+      "source_evidence": "#2a2b86 circle glyph body visible on the CO2 373K curve at native panel coordinates (625.0,525.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-2ef7e1b6ed3d730f",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.3px to the visible glyph centre.",
+      "source_evidence": "#2a2b86 circle glyph body visible on the CO2 373K curve at native panel coordinates (648.0,515.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-d0399bd4e386af4d",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.0px to the visible glyph centre.",
+      "source_evidence": "#2a2b86 circle glyph body visible on the CO2 373K curve at native panel coordinates (671.0,513.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-15da8732ee90d3ec",
+      "reason": "Native-pixel reinspection relocated the candidate by 2.6px to the visible glyph centre.",
+      "source_evidence": "#2a2b86 circle glyph body visible on the CO2 373K curve at native panel coordinates (715.0,504.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-88a4340db2fca8de",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.1px to the visible glyph centre.",
+      "source_evidence": "#2a2b86 circle glyph body visible on the CO2 373K curve at native panel coordinates (760.0,497.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-c327480baeaafe1b",
+      "reason": "Native-pixel reinspection relocated the candidate by 1.9px to the visible glyph centre.",
+      "source_evidence": "#2a2b86 circle glyph body visible on the CO2 373K curve at native panel coordinates (791.0,486.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-9a91a1230849aaf9",
+      "reason": "Native-pixel reinspection relocated the candidate by 3.7px to the visible glyph centre.",
+      "source_evidence": "#2a2b86 circle glyph body visible on the CO2 373K curve at native panel coordinates (806.0,489.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-55212aaa15dc19ad",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#2a2b86 circle glyph body visible on the CO2 373K curve at native panel coordinates (897.0,475.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-9530f043aa622f5a",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#2a2b86 circle glyph body visible on the CO2 373K curve at native panel coordinates (921.0,469.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-98bbdcbd5173457e",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#2a2b86 circle glyph body visible on the CO2 373K curve at native panel coordinates (940.0,471.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-60f740df9e7cac7e",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#2a2b86 circle glyph fragment/overlap visible on the CO2 373K curve at native panel coordinates (987.0,464.0)"
+    },
+    {
+      "action": "move",
+      "point_id": "pt-3d3f8263e7968914",
+      "reason": "Native-pixel reinspection relocated the candidate by 3.0px to the visible glyph centre.",
+      "source_evidence": "#2a2b86 circle glyph fragment/overlap visible on the CO2 373K curve at native panel coordinates (994.0,461.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-d3e88875e65526fe",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#2a2b86 circle glyph body visible on the CO2 373K curve at native panel coordinates (1032.0,459.0)"
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-ad926087e41bba65",
+      "reason": "Native-pixel pass found a source-supported marker centre absent from the candidate table.",
+      "source_evidence": "#2a2b86 circle glyph body visible on the CO2 373K curve at native panel coordinates (1072.0,455.0)"
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-89d3cc72d1e0c472",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (240.0,523.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 273K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-8b169fc53d17fb93",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (249.8,514.9) shows line ink, another series, or a duplicate location rather than a distinct CO2 273K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-e0612fb750ef3c67",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (260.8,491.6) shows line ink, another series, or a duplicate location rather than a distinct CO2 273K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-0d4208a6f2094b71",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (271.5,471.2) shows line ink, another series, or a duplicate location rather than a distinct CO2 273K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-5dabe70145d6f982",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (289.0,435.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 273K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-5edb44368afb8aa5",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (289.4,440.1) shows line ink, another series, or a duplicate location rather than a distinct CO2 273K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-a1a7793d84272209",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (290.3,420.8) shows line ink, another series, or a duplicate location rather than a distinct CO2 273K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-08775b0c1ef6481c",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (333.4,323.6) shows line ink, another series, or a duplicate location rather than a distinct CO2 273K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-68f940c3344e719d",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (340.4,355.4) shows line ink, another series, or a duplicate location rather than a distinct CO2 273K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-6f9b1d8c7265cd41",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (343.0,312.9) shows line ink, another series, or a duplicate location rather than a distinct CO2 273K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-6f23128ba76cf1f1",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (360.6,275.3) shows line ink, another series, or a duplicate location rather than a distinct CO2 273K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-ea92615bdb943d86",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (238.8,555.2) shows line ink, another series, or a duplicate location rather than a distinct CO2 283K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-0d73b93a34195bee",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (271.7,519.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 283K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-dfdd02ed6874c199",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (275.4,366.6) shows line ink, another series, or a duplicate location rather than a distinct CO2 283K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-f8729fc197384e60",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (290.5,486.9) shows line ink, another series, or a duplicate location rather than a distinct CO2 283K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-f939a0447066f458",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (300.9,475.1) shows line ink, another series, or a duplicate location rather than a distinct CO2 283K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-2914ead3803250ac",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (303.0,432.1) shows line ink, another series, or a duplicate location rather than a distinct CO2 283K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-d92fb2981d07a175",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (371.0,348.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 283K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-ddf2d26249076237",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (383.0,294.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 283K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-8e9a158cbd1f01b8",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (516.0,244.8) shows line ink, another series, or a duplicate location rather than a distinct CO2 283K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-ff66b2d89acc57f0",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (552.0,233.5) shows line ink, another series, or a duplicate location rather than a distinct CO2 283K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-bccc505f4fffc667",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (944.4,160.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 283K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-6a09a5b1211e7a2d",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (990.6,154.9) shows line ink, another series, or a duplicate location rather than a distinct CO2 283K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-ac00f32b31913cb8",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (1033.0,151.6) shows line ink, another series, or a duplicate location rather than a distinct CO2 283K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-017941092b98f686",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (212.7,657.7) shows line ink, another series, or a duplicate location rather than a distinct CO2 293K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-94a6b87b839b185f",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (220.4,595.3) shows line ink, another series, or a duplicate location rather than a distinct CO2 293K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-1ee24d2d5a3d6d6c",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (249.0,419.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 293K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-9b74b44affd96b8f",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (263.0,455.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 293K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-d9a189fb55a158f1",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (270.1,406.3) shows line ink, another series, or a duplicate location rather than a distinct CO2 293K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-467cc2924d3ce79c",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (290.4,535.5) shows line ink, another series, or a duplicate location rather than a distinct CO2 293K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-79db47af74b29601",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (298.4,527.9) shows line ink, another series, or a duplicate location rather than a distinct CO2 293K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-d955a2d825e6e6df",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (336.5,386.7) shows line ink, another series, or a duplicate location rather than a distinct CO2 293K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-09ac8e435ebcaf17",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (340.4,403.6) shows line ink, another series, or a duplicate location rather than a distinct CO2 293K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-7a369baa51507734",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (372.0,393.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 293K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-1572639d80637adc",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (549.0,290.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 293K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-acda0119eeed3209",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (555.2,288.9) shows line ink, another series, or a duplicate location rather than a distinct CO2 293K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-08594a9705d2b911",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (592.0,273.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 293K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-631a476a6f4589b1",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (685.4,259.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 293K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-5720c8399f024f3d",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (723.0,249.5) shows line ink, another series, or a duplicate location rather than a distinct CO2 293K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-eebe1e518de46c83",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (732.2,247.5) shows line ink, another series, or a duplicate location rather than a distinct CO2 293K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-f00ff25358807d89",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (903.0,223.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 293K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-2ddc1fef7de53e8a",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (947.1,217.4) shows line ink, another series, or a duplicate location rather than a distinct CO2 293K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-d36fcfce35bd3feb",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (992.9,210.7) shows line ink, another series, or a duplicate location rather than a distinct CO2 293K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-68e8e05b4029799b",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (1034.2,206.9) shows line ink, another series, or a duplicate location rather than a distinct CO2 293K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-7cc55ed9d5af7b36",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (211.0,674.7) shows line ink, another series, or a duplicate location rather than a distinct CO2 303K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-553d6290b0ad2556",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (226.0,608.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 303K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-9c6b3e525be2943e",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (250.6,571.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 303K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-b27656c19290e7f2",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (253.1,562.7) shows line ink, another series, or a duplicate location rather than a distinct CO2 303K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-f74f1e61859d057e",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (261.7,541.9) shows line ink, another series, or a duplicate location rather than a distinct CO2 303K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-a5b45966edda0daa",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (294.0,479.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 303K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-bf54098ee4770fcb",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (338.0,700.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 303K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-82769db38ce06c58",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (338.1,434.4) shows line ink, another series, or a duplicate location rather than a distinct CO2 303K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-95a0eb8fc347bc99",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (376.0,701.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 303K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-d51500313f53f8a6",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (381.0,380.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 303K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-20c3e141f5f51775",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (390.0,703.5) shows line ink, another series, or a duplicate location rather than a distinct CO2 303K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-2761369818c0c3b6",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (474.0,352.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 303K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-7a293a9df2eb646a",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (478.0,360.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 303K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-ebe63a6206813ab9",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (509.0,343.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 303K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-e98eb0180f0f8e89",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (525.0,351.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 303K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-eb96068e36627069",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (552.0,335.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 303K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-48abe9e35c331587",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (558.0,334.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 303K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-3a28dd0a3cd6c696",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (583.0,333.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 303K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-f6ff11e8f85ac8ba",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (600.0,328.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 303K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-3aabb247138d1118",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (681.0,317.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 303K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-6979ea1aa7455a33",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (778.0,305.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 303K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-c358ca295d414740",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (838.0,273.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 303K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-ebdc4355f982071a",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (859.0,273.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 303K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-78a5a180f07e128e",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (882.2,275.8) shows line ink, another series, or a duplicate location rather than a distinct CO2 303K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-a0289a61244ba2ab",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (902.9,275.9) shows line ink, another series, or a duplicate location rather than a distinct CO2 303K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-d27625fd6f629729",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (943.0,274.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 303K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-ad33490b81136922",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (990.6,266.8) shows line ink, another series, or a duplicate location rather than a distinct CO2 303K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-c5f92d3190b7993f",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (1032.5,262.4) shows line ink, another series, or a duplicate location rather than a distinct CO2 303K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-dcf4ffce283e03c7",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (276.0,485.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 313K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-c12a4088f4f6a24d",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (281.0,465.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 313K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-14278f9954d3bc18",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (320.0,432.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 313K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-8c2a9afd5dcc3d24",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (555.0,342.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 313K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-bcb04211de9258e7",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (580.5,339.1) shows line ink, another series, or a duplicate location rather than a distinct CO2 313K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-9fd4bd3a778fa9c2",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (221.3,641.6) shows line ink, another series, or a duplicate location rather than a distinct CO2 323K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-4ddb17b1d300e373",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (226.6,622.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 323K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-58d2ea376511d0a3",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (269.0,535.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 323K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-374c807a5b137c21",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (282.0,499.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 323K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-e58b8cf881825d97",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (320.0,460.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 323K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-5160f359f3ea106f",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (334.0,456.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 323K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-ffc0a372369f53da",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (350.0,436.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 323K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-ef64fb8f97b1f955",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (427.1,403.4) shows line ink, another series, or a duplicate location rather than a distinct CO2 323K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-66f2bc96413586df",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (482.0,387.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 323K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-6ca9fdc157806359",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (506.3,378.3) shows line ink, another series, or a duplicate location rather than a distinct CO2 323K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-c04a2d936659f252",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (537.5,376.7) shows line ink, another series, or a duplicate location rather than a distinct CO2 323K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-af305707dea22a1c",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (642.1,361.1) shows line ink, another series, or a duplicate location rather than a distinct CO2 323K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-76c98d3dabbe8d60",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (348.0,477.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 333K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-5921af3b5ef10157",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (384.5,455.5) shows line ink, another series, or a duplicate location rather than a distinct CO2 333K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-f1b6278842fb9219",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (394.8,446.4) shows line ink, another series, or a duplicate location rather than a distinct CO2 333K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-11b8798a31f2e449",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (525.0,407.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 333K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-ed08665ea262389b",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (553.1,403.4) shows line ink, another series, or a duplicate location rather than a distinct CO2 333K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-c19de837ccc760b9",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (565.9,393.7) shows line ink, another series, or a duplicate location rather than a distinct CO2 333K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-81656798911ae131",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (731.7,376.7) shows line ink, another series, or a duplicate location rather than a distinct CO2 333K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-ff930add781a78be",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (786.0,367.1) shows line ink, another series, or a duplicate location rather than a distinct CO2 333K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-654264f6614b1b19",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (816.5,369.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 333K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-020e848e9da88032",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (860.3,364.9) shows line ink, another series, or a duplicate location rather than a distinct CO2 333K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-156862eab62b033d",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (881.3,359.6) shows line ink, another series, or a duplicate location rather than a distinct CO2 333K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-a19d0d4565c6a0dd",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (904.4,362.2) shows line ink, another series, or a duplicate location rather than a distinct CO2 333K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-7b08c1321dee9bc0",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (948.9,359.3) shows line ink, another series, or a duplicate location rather than a distinct CO2 333K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-c19c6f5cd471aeb8",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (991.2,354.3) shows line ink, another series, or a duplicate location rather than a distinct CO2 333K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-7517ef926d4cd81d",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (1033.7,352.8) shows line ink, another series, or a duplicate location rather than a distinct CO2 333K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-254224d2fc5b709e",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (341.3,522.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 343K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-a66f88aed94c5e52",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (347.0,523.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 343K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-33d8acb12c134d53",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (517.3,441.6) shows line ink, another series, or a duplicate location rather than a distinct CO2 343K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-4843ff02b8e39e43",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (552.4,431.8) shows line ink, another series, or a duplicate location rather than a distinct CO2 343K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-1951e3d140b469ef",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (948.4,381.8) shows line ink, another series, or a duplicate location rather than a distinct CO2 343K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-067dd959a6d32d85",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (990.1,379.1) shows line ink, another series, or a duplicate location rather than a distinct CO2 343K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-2979a27fad521168",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (1033.0,376.9) shows line ink, another series, or a duplicate location rather than a distinct CO2 343K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-7553df36a71f9477",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (259.1,649.8) shows line ink, another series, or a duplicate location rather than a distinct CO2 353K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-e85d1adee479a9f3",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (264.0,645.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 353K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-9cb1521a1cb6b5c2",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (351.0,564.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 353K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-0875c33d6837e4f7",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (550.0,467.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 353K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-ee5361eef1f5cf45",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (567.0,461.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 353K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-e465301cab00e4b1",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (785.2,422.6) shows line ink, another series, or a duplicate location rather than a distinct CO2 353K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-c46b82f8ab5cfe05",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (838.6,415.6) shows line ink, another series, or a duplicate location rather than a distinct CO2 353K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-056a6c027c814c8b",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (860.3,417.2) shows line ink, another series, or a duplicate location rather than a distinct CO2 353K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-cd7e4bac6e6ded2b",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (881.1,412.7) shows line ink, another series, or a duplicate location rather than a distinct CO2 353K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-475620369df12c16",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (904.4,412.1) shows line ink, another series, or a duplicate location rather than a distinct CO2 353K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-4048f093c310ef0c",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (949.3,410.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 353K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-ee1587e2a3e256ad",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (991.4,405.3) shows line ink, another series, or a duplicate location rather than a distinct CO2 353K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-fc9934f82b9fcc3e",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (1033.8,402.4) shows line ink, another series, or a duplicate location rather than a distinct CO2 353K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-b1c6ef922f803ce6",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (368.0,587.1) shows line ink, another series, or a duplicate location rather than a distinct CO2 363K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-05b1309967d787a0",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (483.0,528.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 363K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-08127ead96f0960d",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (544.0,504.5) shows line ink, another series, or a duplicate location rather than a distinct CO2 363K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-d5dc4adfadee271a",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (588.0,491.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 363K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-08a086dfdc0fa0b5",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (930.0,432.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 363K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-afdaf5246e1bcad1",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (947.4,432.7) shows line ink, another series, or a duplicate location rather than a distinct CO2 363K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-0e9ef46db788b100",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (992.1,428.5) shows line ink, another series, or a duplicate location rather than a distinct CO2 363K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-393be50668e0a7fa",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (360.9,619.4) shows line ink, another series, or a duplicate location rather than a distinct CO2 373K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-b8348d5b5fef4cc0",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (384.0,611.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 373K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-476e9982f0f8f141",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (427.7,588.6) shows line ink, another series, or a duplicate location rather than a distinct CO2 373K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-acfb03b870981b62",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (485.0,568.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 373K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-8ff8dbb07e109cdd",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (500.6,559.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 373K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-9996c81ecaa9cf3e",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (610.0,527.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 373K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-a52d73a6b2227544",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (859.0,478.0) shows line ink, another series, or a duplicate location rather than a distinct CO2 373K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-0b7badf130778e15",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (896.6,474.6) shows line ink, another series, or a duplicate location rather than a distinct CO2 373K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-782ee4437aa6135e",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (920.3,467.7) shows line ink, another series, or a duplicate location rather than a distinct CO2 373K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-2c03a37f887c8d68",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (941.2,469.3) shows line ink, another series, or a duplicate location rather than a distinct CO2 373K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-3aed45f91054b60c",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (986.8,462.6) shows line ink, another series, or a duplicate location rather than a distinct CO2 373K marker centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-53ff63064a20988c",
+      "reason": "No distinct source-supported glyph centre remained at this candidate location after native-pixel colour/shape and duplicate review.",
+      "source_evidence": "panel.png at (1032.1,457.8) shows line ink, another series, or a duplicate location rather than a distinct CO2 373K marker centre."
+    }
+  ]
+}

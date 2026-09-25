@@ -1,0 +1,81 @@
+{
+ "reasoning": "The unchanged panel and native contact sheets confirm that the proposal has substantial low-pressure and overlap-region omissions, particularly for CO2 303K, 313K, 323K, and 373K. However, the supplied material does not include the Python point rows or native crop-to-panel coordinate mapping needed to identify safe point IDs for moves, deletes, or reassignments, and many native crowded pixels do not resolve series ownership independently. I therefore made no speculative edits. The extraction remains incomplete and requires another coordinate-resolved source review.",
+ "verdict": "review",
+ "series": [
+  {
+   "label": "CO2 273K",
+   "coverage": "uncertain",
+   "final_count": 43,
+   "comment": "Count is retained; same-color overlap with N2 313K leaves some ownership uncertain."
+  },
+  {
+   "label": "CO2 283K",
+   "coverage": "uncertain",
+   "final_count": 32,
+   "comment": "Low-pressure fan and same-color overlap with N2 333K remain incompletely resolved."
+  },
+  {
+   "label": "CO2 293K",
+   "coverage": "uncertain",
+   "final_count": 32,
+   "comment": "Some blue overlap with other series remains difficult to assign from native pixels."
+  },
+  {
+   "label": "CO2 303K",
+   "coverage": "incomplete",
+   "final_count": 34,
+   "comment": "Native panel visibly contains missed markers, especially in the low-pressure fan and crowded teal region."
+  },
+  {
+   "label": "CO2 313K",
+   "coverage": "incomplete",
+   "final_count": 21,
+   "comment": "Severe native-marker shortfall remains in the low-pressure and intermediate ranges."
+  },
+  {
+   "label": "CO2 323K",
+   "coverage": "incomplete",
+   "final_count": 24,
+   "comment": "Severe native-marker shortfall remains below approximately 150 mbar and in crowded regions."
+  },
+  {
+   "label": "CO2 333K",
+   "coverage": "uncertain",
+   "final_count": 34,
+   "comment": "Most markers are present, but blue diamond ownership is not fully separable in crowded areas."
+  },
+  {
+   "label": "CO2 343K",
+   "coverage": "complete",
+   "final_count": 34,
+   "comment": "Native panel supports the retained pentagon series with no safe source-backed correction identified."
+  },
+  {
+   "label": "CO2 353K",
+   "coverage": "complete",
+   "final_count": 31,
+   "comment": "Native panel supports the retained pink diamond series with no safe source-backed correction identified."
+  },
+  {
+   "label": "CO2 363K",
+   "coverage": "complete",
+   "final_count": 30,
+   "comment": "Native panel supports the retained green star series with no safe source-backed correction identified."
+  },
+  {
+   "label": "CO2 373K",
+   "coverage": "incomplete",
+   "final_count": 22,
+   "comment": "Native panel visibly contains missed low-pressure and intermediate dark-blue circle markers."
+  }
+ ],
+ "operations": [],
+ "uncertainties": [
+  "The proposal point rows and point IDs are absent from the supplied review material, so no safe move, delete, or reassign operation can name an existing candidate.",
+  "The manifest supplies native filenames but no crop locations in panel.png, preventing defensible conversion of newly observed crop markers to panel-normalized coordinates.",
+  "Crowded native pixels frequently show multiple overlapping CO2 and N2 glyphs; overlap alone does not establish ownership.",
+  "The native panel confirms omissions but expected counts and curve templates cannot justify adding markers without individually resolved source centers.",
+  "coverage"
+ ],
+ "coverage": []
+}

@@ -1,0 +1,996 @@
+{
+ "reasoning": "The axis calibration is correct: the extracted re-plot uses the printed 0–1.2 bar x ticks and 0–50 cm³·g⁻¹ y ticks, with the frame extending beyond the outer ticks. The extraction is not acceptable because only the four CO2 series were extracted, while the source visibly contains four additional CH4 triangle series. The low-pressure region contains dense, closely paired filled/open markers and the current assignment has severe same-color ambiguity, shortfalls, and implausible jumps. The legend symbols are circles for CO2; the measured hexagonal appearance is rasterization and should not replace the source reading.",
+ "axis_check": {
+  "x": {
+   "printed_min": 0,
+   "printed_max": 1.2,
+   "data_min": 0.0134,
+   "data_max": 1.0687,
+   "reason": "The re-plotted curves occupy the same 0–about 1.1 bar range against the source's 0, 0.2, ..., 1.2 ticks. The frame visibly extends beyond the outer printed ticks.",
+   "result": "pass"
+  },
+  "y": {
+   "printed_min": 0,
+   "printed_max": 50,
+   "data_min": 2.1621,
+   "data_max": 53.5846,
+   "reason": "The re-plotted curves sit at the same values as the source against the 0–50 ticks; the upper CO2 points correctly extend slightly above the 50 tick.",
+   "result": "pass"
+  }
+ },
+ "satisfied": false,
+ "issues": [
+  "All four CH4 triangle series are missing because the prior structure excluded them from extraction.",
+  "CO2 marker counts are incomplete or misassigned, especially CO2 300K ads.",
+  "Same-color adsorption/desorption and CO2/CH4 series are confused in crowded low-pressure regions.",
+  "The low-pressure dense marker fan needs explicit filled/open separation and curve-guided assignment.",
+  "The measured hexagon glyphs for CO2 are raster artifacts; the source legend symbols are circles."
+ ],
+ "structure_ok": true,
+ "chart_title": "",
+ "x_axis": {
+  "title": "Pressure",
+  "unit": "bar",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 1.3,
+  "boundary_limits_confirmed": true,
+  "ticks": [
+   0,
+   0.2,
+   0.4,
+   0.6,
+   0.8,
+   1,
+   1.2
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.18259023354564757,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.3036093418259024,
+    "value": 0.2
+   },
+   {
+    "pixel_norm": 0.4267515923566879,
+    "value": 0.4
+   },
+   {
+    "pixel_norm": 0.5498938428874734,
+    "value": 0.6
+   },
+   {
+    "pixel_norm": 0.6729299363057325,
+    "value": 0.8
+   },
+   {
+    "pixel_norm": 0.7936305732484076,
+    "value": 1
+   },
+   {
+    "pixel_norm": 0.9171974522292994,
+    "value": 1.2
+   }
+  ]
+ },
+ "y_axis": {
+  "title": "Quantity Adsorbed",
+  "unit": "cm³·g⁻¹",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 55,
+  "boundary_limits_confirmed": true,
+  "ticks": [
+   0,
+   10,
+   20,
+   30,
+   40,
+   50
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.8028776978417267,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.6597122302158273,
+    "value": 10
+   },
+   {
+    "pixel_norm": 0.5266187050359712,
+    "value": 20
+   },
+   {
+    "pixel_norm": 0.3856115107913669,
+    "value": 30
+   },
+   {
+    "pixel_norm": 0.24172661870503598,
+    "value": 40
+   },
+   {
+    "pixel_norm": 0.08633093525179857,
+    "value": 50
+   }
+  ]
+ },
+ "legend_bbox_norm": [
+  0.9033970276016985,
+  0.3654676258992806,
+  1,
+  0.7805755395683454
+ ],
+ "total_series": 8,
+ "series": [
+  {
+   "label": "CO2 273K ads",
+   "marker": "circle",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "color_hex": "#ef3b2c",
+   "notes": "Source legend symbol a is a filled red circle; raster measurement appears slightly polygonal but should be treated as a circle."
+  },
+  {
+   "label": "CO2 273K des",
+   "marker": "circle",
+   "marker_fill": "open",
+   "line_style": "none",
+   "color_hex": "#ef3b2c",
+   "notes": "Source legend symbol b is an open red circle; raster measurement appears hexagonal from antialiasing."
+  },
+  {
+   "label": "CO2 300K ads",
+   "marker": "circle",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "color_hex": "#3557a4",
+   "notes": "Source legend symbol c is a filled blue circle; raster measurement appears slightly polygonal but should be treated as a circle."
+  },
+  {
+   "label": "CO2 300K des",
+   "marker": "circle",
+   "marker_fill": "open",
+   "line_style": "none",
+   "color_hex": "#3557a4",
+   "notes": "Source legend symbol d is an open blue circle; raster measurement appears hexagonal from antialiasing."
+  },
+  {
+   "label": "CH4 273K ads",
+   "marker": "triangle_up",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "color_hex": "#ef3b2c",
+   "notes": "Source legend symbol e is a filled red upward triangle."
+  },
+  {
+   "label": "CH4 273K des",
+   "marker": "triangle_up",
+   "marker_fill": "open",
+   "line_style": "none",
+   "color_hex": "#ef3b2c",
+   "notes": "Source legend symbol f is an open red upward triangle; the lighter raster edge color is antialiasing."
+  },
+  {
+   "label": "CH4 300K ads",
+   "marker": "triangle_up",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "color_hex": "#3557a4",
+   "notes": "Source legend symbol g is a filled blue upward triangle."
+  },
+  {
+   "label": "CH4 300K des",
+   "marker": "triangle_up",
+   "marker_fill": "open",
+   "line_style": "none",
+   "color_hex": "#3557a4",
+   "notes": "Source legend symbol h is an open blue upward triangle; the lighter raster edge color is antialiasing."
+  }
+ ],
+ "branches": "adsorption_and_desorption",
+ "complex_regions": [
+  {
+   "bbox_norm": [
+    0.12,
+    0.015,
+    0.34,
+    0.81
+   ],
+   "kind": "dense_markers",
+   "python_passes": 4
+  },
+  {
+   "bbox_norm": [
+    0.17,
+    0.38,
+    0.34,
+    0.81
+   ],
+   "kind": "overlapping_markers",
+   "python_passes": 3
+  }
+ ],
+ "extraction_settings": [
+  {
+   "label": "CO2 273K ads",
+   "color_tolerance": 28,
+   "separate_from": [
+    "CO2 273K des",
+    "CH4 273K ads",
+    "CH4 273K des"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.08,
+     "y_min": 7,
+     "y_max": 28
+    },
+    {
+     "x_from": 0.08,
+     "x_to": 0.3,
+     "y_min": 25,
+     "y_max": 40
+    },
+    {
+     "x_from": 0.3,
+     "x_to": 1.1,
+     "y_min": 38,
+     "y_max": 55
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Guide the upper red filled-circle branch and distinguish it from the nearly coincident open red circles and lower red triangles.",
+   "sample_marker_norm": [
+    0.7686,
+    0.0417
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 1.1,
+     "count": 36
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 0.01,
+     "y": 9.5
+    },
+    {
+     "x": 0.04,
+     "y": 19.5
+    },
+    {
+     "x": 0.07,
+     "y": 25.5
+    },
+    {
+     "x": 0.12,
+     "y": 32
+    },
+    {
+     "x": 0.2,
+     "y": 36
+    },
+    {
+     "x": 0.3,
+     "y": 40
+    },
+    {
+     "x": 0.45,
+     "y": 44.5
+    },
+    {
+     "x": 0.65,
+     "y": 48
+    },
+    {
+     "x": 0.85,
+     "y": 51
+    },
+    {
+     "x": 1.05,
+     "y": 53
+    }
+   ]
+  },
+  {
+   "label": "CO2 273K des",
+   "color_tolerance": 31,
+   "separate_from": [
+    "CO2 273K ads",
+    "CH4 273K ads",
+    "CH4 273K des"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.08,
+     "y_min": 8,
+     "y_max": 29
+    },
+    {
+     "x_from": 0.08,
+     "x_to": 0.3,
+     "y_min": 26,
+     "y_max": 41
+    },
+    {
+     "x_from": 0.3,
+     "x_to": 1.1,
+     "y_min": 39,
+     "y_max": 55
+    }
+   ],
+   "template_fill": "off",
+   "reason": "Open red circles closely track the filled red-circle branch; use open-centre evidence and the upper curve band rather than template filling.",
+   "sample_marker_norm": [
+    0.8429,
+    0.0727
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 1.1,
+     "count": 36
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 0.01,
+     "y": 10
+    },
+    {
+     "x": 0.04,
+     "y": 20.5
+    },
+    {
+     "x": 0.07,
+     "y": 26
+    },
+    {
+     "x": 0.12,
+     "y": 32.5
+    },
+    {
+     "x": 0.2,
+     "y": 36.5
+    },
+    {
+     "x": 0.3,
+     "y": 40.5
+    },
+    {
+     "x": 0.45,
+     "y": 45
+    },
+    {
+     "x": 0.65,
+     "y": 48.5
+    },
+    {
+     "x": 0.85,
+     "y": 51.3
+    },
+    {
+     "x": 1.05,
+     "y": 53.3
+    }
+   ]
+  },
+  {
+   "label": "CO2 300K ads",
+   "color_tolerance": 28,
+   "separate_from": [
+    "CO2 300K des",
+    "CH4 300K ads",
+    "CH4 300K des"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.08,
+     "y_min": 3,
+     "y_max": 18
+    },
+    {
+     "x_from": 0.08,
+     "x_to": 0.3,
+     "y_min": 14,
+     "y_max": 28
+    },
+    {
+     "x_from": 0.3,
+     "x_to": 1.1,
+     "y_min": 27,
+     "y_max": 43
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Current extraction finds only half the expected blue filled-circle markers; constrain it to the middle blue circle curve and use a clean filled marker sample.",
+   "sample_marker_norm": [
+    0.671,
+    0.541
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 1.1,
+     "count": 36
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 0.01,
+     "y": 3.5
+    },
+    {
+     "x": 0.04,
+     "y": 14
+    },
+    {
+     "x": 0.08,
+     "y": 18
+    },
+    {
+     "x": 0.12,
+     "y": 22
+    },
+    {
+     "x": 0.2,
+     "y": 25
+    },
+    {
+     "x": 0.3,
+     "y": 28.5
+    },
+    {
+     "x": 0.45,
+     "y": 33
+    },
+    {
+     "x": 0.65,
+     "y": 36.5
+    },
+    {
+     "x": 0.85,
+     "y": 39
+    },
+    {
+     "x": 1.05,
+     "y": 41.2
+    }
+   ]
+  },
+  {
+   "label": "CO2 300K des",
+   "color_tolerance": 29,
+   "separate_from": [
+    "CO2 300K ads",
+    "CH4 300K ads",
+    "CH4 300K des"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.08,
+     "y_min": 3,
+     "y_max": 19
+    },
+    {
+     "x_from": 0.08,
+     "x_to": 0.3,
+     "y_min": 15,
+     "y_max": 29
+    },
+    {
+     "x_from": 0.3,
+     "x_to": 1.1,
+     "y_min": 28,
+     "y_max": 43
+    }
+   ],
+   "template_fill": "off",
+   "reason": "Open blue circles are paired just above the filled blue circles; suppress template-filled false positives and use centre-white evidence.",
+   "sample_marker_norm": [
+    0.8461,
+    0.5835
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 1.1,
+     "count": 36
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 0.01,
+     "y": 3.8
+    },
+    {
+     "x": 0.04,
+     "y": 14.5
+    },
+    {
+     "x": 0.08,
+     "y": 19
+    },
+    {
+     "x": 0.12,
+     "y": 22.5
+    },
+    {
+     "x": 0.2,
+     "y": 25.5
+    },
+    {
+     "x": 0.3,
+     "y": 29
+    },
+    {
+     "x": 0.45,
+     "y": 33.5
+    },
+    {
+     "x": 0.65,
+     "y": 37
+    },
+    {
+     "x": 0.85,
+     "y": 39.3
+    },
+    {
+     "x": 1.05,
+     "y": 41.6
+    }
+   ]
+  },
+  {
+   "label": "CH4 273K ads",
+   "color_tolerance": 28,
+   "separate_from": [
+    "CH4 273K des",
+    "CO2 273K ads",
+    "CO2 273K des"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.08,
+     "y_min": 0,
+     "y_max": 7
+    },
+    {
+     "x_from": 0.08,
+     "x_to": 0.3,
+     "y_min": 5,
+     "y_max": 15
+    },
+    {
+     "x_from": 0.3,
+     "x_to": 1.1,
+     "y_min": 14,
+     "y_max": 28
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Previously excluded; extract the lower red filled upward-triangle branch separately from the upper red circles.",
+   "sample_marker_norm": [
+    0.7686,
+    0.5993
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 1.1,
+     "count": 36
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 0.01,
+     "y": 1
+    },
+    {
+     "x": 0.04,
+     "y": 3.5
+    },
+    {
+     "x": 0.08,
+     "y": 6.5
+    },
+    {
+     "x": 0.12,
+     "y": 9
+    },
+    {
+     "x": 0.2,
+     "y": 12
+    },
+    {
+     "x": 0.3,
+     "y": 15
+    },
+    {
+     "x": 0.45,
+     "y": 19
+    },
+    {
+     "x": 0.65,
+     "y": 22.5
+    },
+    {
+     "x": 0.85,
+     "y": 25
+    },
+    {
+     "x": 1.05,
+     "y": 27
+    }
+   ]
+  },
+  {
+   "label": "CH4 273K des",
+   "color_tolerance": 30,
+   "separate_from": [
+    "CH4 273K ads",
+    "CO2 273K ads",
+    "CO2 273K des"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.08,
+     "y_min": 0,
+     "y_max": 8
+    },
+    {
+     "x_from": 0.08,
+     "x_to": 0.3,
+     "y_min": 6,
+     "y_max": 16
+    },
+    {
+     "x_from": 0.3,
+     "x_to": 1.1,
+     "y_min": 15,
+     "y_max": 28
+    }
+   ],
+   "template_fill": "off",
+   "reason": "Previously excluded; use open-centre upward triangles on the red lower branch, which lies slightly above the filled triangles.",
+   "sample_marker_norm": [
+    0.8429,
+    0.6604
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 1.1,
+     "count": 36
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 0.01,
+     "y": 1.2
+    },
+    {
+     "x": 0.04,
+     "y": 4
+    },
+    {
+     "x": 0.08,
+     "y": 7
+    },
+    {
+     "x": 0.12,
+     "y": 9.5
+    },
+    {
+     "x": 0.2,
+     "y": 12.5
+    },
+    {
+     "x": 0.3,
+     "y": 15.5
+    },
+    {
+     "x": 0.45,
+     "y": 19.5
+    },
+    {
+     "x": 0.65,
+     "y": 23
+    },
+    {
+     "x": 0.85,
+     "y": 25.3
+    },
+    {
+     "x": 1.05,
+     "y": 27.3
+    }
+   ]
+  },
+  {
+   "label": "CH4 300K ads",
+   "color_tolerance": 28,
+   "separate_from": [
+    "CH4 300K des",
+    "CO2 300K ads",
+    "CO2 300K des"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.08,
+     "y_min": 0,
+     "y_max": 4
+    },
+    {
+     "x_from": 0.08,
+     "x_to": 0.3,
+     "y_min": 2,
+     "y_max": 9
+    },
+    {
+     "x_from": 0.3,
+     "x_to": 1.1,
+     "y_min": 8,
+     "y_max": 20
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Previously excluded; extract the lower blue filled upward-triangle branch, below the blue open triangles.",
+   "sample_marker_norm": [
+    0.7686,
+    0.8453
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 1.1,
+     "count": 36
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 0.01,
+     "y": 1
+    },
+    {
+     "x": 0.04,
+     "y": 2
+    },
+    {
+     "x": 0.08,
+     "y": 3.5
+    },
+    {
+     "x": 0.12,
+     "y": 5
+    },
+    {
+     "x": 0.2,
+     "y": 6.5
+    },
+    {
+     "x": 0.3,
+     "y": 8.5
+    },
+    {
+     "x": 0.45,
+     "y": 11.5
+    },
+    {
+     "x": 0.65,
+     "y": 14.5
+    },
+    {
+     "x": 0.85,
+     "y": 17
+    },
+    {
+     "x": 1.05,
+     "y": 19
+    }
+   ]
+  },
+  {
+   "label": "CH4 300K des",
+   "color_tolerance": 31,
+   "separate_from": [
+    "CH4 300K ads",
+    "CO2 300K ads",
+    "CO2 300K des"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.08,
+     "y_min": 0,
+     "y_max": 5
+    },
+    {
+     "x_from": 0.08,
+     "x_to": 0.3,
+     "y_min": 3,
+     "y_max": 10
+    },
+    {
+     "x_from": 0.3,
+     "x_to": 1.1,
+     "y_min": 9,
+     "y_max": 20
+    }
+   ],
+   "template_fill": "off",
+   "reason": "Previously excluded; use open blue upward triangles on the lower blue branch, slightly above the filled triangles.",
+   "sample_marker_norm": [
+    0.8429,
+    0.8813
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 1.1,
+     "count": 36
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 0.01,
+     "y": 1.2
+    },
+    {
+     "x": 0.04,
+     "y": 2.3
+    },
+    {
+     "x": 0.08,
+     "y": 4
+    },
+    {
+     "x": 0.12,
+     "y": 5.5
+    },
+    {
+     "x": 0.2,
+     "y": 7
+    },
+    {
+     "x": 0.3,
+     "y": 9
+    },
+    {
+     "x": 0.45,
+     "y": 12
+    },
+    {
+     "x": 0.65,
+     "y": 15
+    },
+    {
+     "x": 0.85,
+     "y": 17.5
+    },
+    {
+     "x": 1.05,
+     "y": 19.2
+    }
+   ]
+  }
+ ],
+ "notes": "The source visibly has 36 pressure columns approximately spanning 0.01 to 1.08 bar for each of the eight series. Preserve all eight series in legend order and use shape, fill state, curve position, and marker centre to resolve same-color pairs.",
+ "region_strategies": [
+  {
+   "bbox_norm": [
+    0.12,
+    0.015,
+    0.34,
+    0.81
+   ],
+   "series_labels": [
+    "CO2 273K ads",
+    "CO2 273K des",
+    "CH4 273K ads",
+    "CH4 273K des"
+   ],
+   "strategy": "split_filled_open",
+   "reason": "Dense red low-pressure markers overlap; assign red circles versus triangles first, then filled versus open by centre ink."
+  },
+  {
+   "bbox_norm": [
+    0.12,
+    0.015,
+    0.34,
+    0.81
+   ],
+   "series_labels": [
+    "CO2 300K ads",
+    "CO2 300K des",
+    "CH4 300K ads",
+    "CH4 300K des"
+   ],
+   "strategy": "split_filled_open",
+   "reason": "Dense blue low-pressure markers overlap; assign blue circles versus triangles first, then filled versus open by centre ink."
+  }
+ ],
+ "shared_x_columns": [
+  0.01,
+  0.04,
+  0.07,
+  0.1,
+  0.13,
+  0.16,
+  0.19,
+  0.22,
+  0.25,
+  0.28,
+  0.31,
+  0.34,
+  0.37,
+  0.4,
+  0.43,
+  0.46,
+  0.49,
+  0.52,
+  0.55,
+  0.58,
+  0.61,
+  0.64,
+  0.67,
+  0.7,
+  0.73,
+  0.76,
+  0.79,
+  0.82,
+  0.85,
+  0.88,
+  0.91,
+  0.94,
+  0.97,
+  1,
+  1.03,
+  1.06,
+  1.08
+ ]
+}

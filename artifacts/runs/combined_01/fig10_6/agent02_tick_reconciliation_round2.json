@@ -1,0 +1,42 @@
+{
+ "axes": {
+  "x": {
+   "snap_limit_px": 22.8,
+   "anchors": [
+    {
+     "input": {
+      "pixel_norm": 0.12,
+      "value": 0
+     },
+     "snapped": false
+    },
+    {
+     "input": {
+      "pixel_norm": 0.93,
+      "value": 100
+     },
+     "snapped": false
+    }
+   ]
+  },
+  "y": {
+   "snap_limit_px": 15.0,
+   "anchors": [
+    {
+     "input": {
+      "pixel_norm": 0.88,
+      "value": 0
+     },
+     "snapped": false
+    },
+    {
+     "input": {
+      "pixel_norm": 0.08,
+      "value": 4
+     },
+     "snapped": false
+    }
+   ]
+  }
+ }
+}

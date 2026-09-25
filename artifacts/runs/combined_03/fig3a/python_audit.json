@@ -1,0 +1,231 @@
+{
+ "series_assignment_audit": {
+  "groups": [],
+  "candidates": []
+ },
+ "series_gate": [
+  {
+   "from": "N2 77K",
+   "to": "N2 77K",
+   "x": 0.0874,
+   "y": 2.1502,
+   "reason": "within_pixel_derived_y_band_margin",
+   "y_margin": 2.1009
+  },
+  {
+   "from": "N2 77K",
+   "to": "N2 77K",
+   "x": 0.1509,
+   "y": 3.7353,
+   "reason": "within_pixel_derived_y_band_margin",
+   "y_margin": 2.1009
+  },
+  {
+   "from": "N2 77K",
+   "to": "N2 77K",
+   "x": 0.1901,
+   "y": 3.3852,
+   "reason": "within_pixel_derived_y_band_margin",
+   "y_margin": 2.1009
+  },
+  {
+   "from": "N2 77K",
+   "to": "N2 77K",
+   "x": 0.2211,
+   "y": -0.4664,
+   "reason": "within_pixel_derived_y_band_margin",
+   "y_margin": 2.1009
+  },
+  {
+   "from": "N2 77K",
+   "to": "N2 77K",
+   "x": 0.2231,
+   "y": 2.6849,
+   "reason": "within_pixel_derived_y_band_margin",
+   "y_margin": 2.1009
+  },
+  {
+   "from": "N2 77K",
+   "to": "N2 77K",
+   "x": 0.2418,
+   "y": -0.4852,
+   "reason": "within_pixel_derived_y_band_margin",
+   "y_margin": 2.1009
+  },
+  {
+   "from": "N2 77K",
+   "to": "N2 77K",
+   "x": 0.2692,
+   "y": -0.2519,
+   "reason": "within_pixel_derived_y_band_margin",
+   "y_margin": 2.1009
+  },
+  {
+   "from": "N2 77K",
+   "to": "N2 77K",
+   "x": 0.2769,
+   "y": -0.4852,
+   "reason": "within_pixel_derived_y_band_margin",
+   "y_margin": 2.1009
+  },
+  {
+   "from": "N2 77K",
+   "to": "N2 77K",
+   "x": 0.3655,
+   "y": -1.5168,
+   "reason": "within_pixel_derived_y_band_margin",
+   "y_margin": 2.1009
+  },
+  {
+   "from": "N2 77K",
+   "to": "N2 77K",
+   "x": 0.4006,
+   "y": -1.5168,
+   "reason": "within_pixel_derived_y_band_margin",
+   "y_margin": 2.1009
+  },
+  {
+   "from": "N2 77K",
+   "to": "N2 77K",
+   "x": 0.4336,
+   "y": 3.035,
+   "reason": "within_pixel_derived_y_band_margin",
+   "y_margin": 2.1009
+  },
+  {
+   "from": "N2 77K",
+   "to": "N2 77K",
+   "x": 0.4666,
+   "y": -1.1667,
+   "reason": "within_pixel_derived_y_band_margin",
+   "y_margin": 2.1009
+  },
+  {
+   "from": "N2 77K",
+   "to": "N2 77K",
+   "x": 0.5017,
+   "y": -1.1667,
+   "reason": "within_pixel_derived_y_band_margin",
+   "y_margin": 2.1009
+  },
+  {
+   "from": "N2 77K",
+   "to": "N2 77K",
+   "x": 0.5546,
+   "y": -1.1141,
+   "reason": "within_pixel_derived_y_band_margin",
+   "y_margin": 2.1009
+  },
+  {
+   "from": "N2 77K",
+   "to": "N2 77K",
+   "x": 0.5905,
+   "y": -0.4664,
+   "reason": "within_pixel_derived_y_band_margin",
+   "y_margin": 2.1009
+  },
+  {
+   "from": "N2 77K",
+   "x": 0.64,
+   "y": -2.9174,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "N2 77K",
+   "to": "N2 77K",
+   "x": 0.7185,
+   "y": -0.3453,
+   "reason": "within_pixel_derived_y_band_margin",
+   "y_margin": 2.1009
+  },
+  {
+   "from": "N2 77K",
+   "to": "N2 77K",
+   "x": 0.7586,
+   "y": -1.2153,
+   "reason": "within_pixel_derived_y_band_margin",
+   "y_margin": 2.1009
+  },
+  {
+   "from": "N2 77K",
+   "x": 0.7844,
+   "y": -2.5673,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "N2 77K",
+   "to": "N2 77K",
+   "x": 0.7989,
+   "y": -0.1163,
+   "reason": "within_pixel_derived_y_band_margin",
+   "y_margin": 2.1009
+  },
+  {
+   "from": "N2 77K",
+   "to": "N2 77K",
+   "x": 0.867,
+   "y": -0.4664,
+   "reason": "within_pixel_derived_y_band_margin",
+   "y_margin": 2.1009
+  },
+  {
+   "from": "N2 77K",
+   "to": "N2 77K",
+   "x": 0.9588,
+   "y": -0.2724,
+   "reason": "within_pixel_derived_y_band_margin",
+   "y_margin": 2.1009
+  }
+ ],
+ "template_fill": {
+  "template_fit": 0,
+  "template_fill": 0,
+  "slots": []
+ },
+ "complex_regions_accepted": [
+  {
+   "bbox_px": [
+    139.28,
+    118.37,
+    224.83,
+    470.43
+   ],
+   "data_x": [
+    -0.02703596740633757,
+    0.14950484402821346
+   ],
+   "bbox_norm": [
+    0.197,
+    0.195,
+    0.318,
+    0.775
+   ],
+   "kind": "dense_markers",
+   "python_passes": 3
+  },
+  {
+   "bbox_px": [
+    249.57,
+    174.21,
+    520.35,
+    389.69
+   ],
+   "data_x": [
+    0.20057036799688532,
+    0.759373101711208
+   ],
+   "bbox_norm": [
+    0.353,
+    0.287,
+    0.736,
+    0.642
+   ],
+   "kind": "inset",
+   "python_passes": 2
+  }
+ ],
+ "complex_regions_rejected": [],
+ "legend_markers": []
+}

@@ -1,0 +1,1830 @@
+{
+ "image": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\calf20\\figp1a\\panel.png",
+ "panel_bbox": [
+  0,
+  0,
+  1473,
+  870
+ ],
+ "x": {
+  "title": "P",
+  "unit": "mbar",
+  "scale": "linear",
+  "ticks": [
+   0,
+   200,
+   400,
+   600,
+   800,
+   1000,
+   1200
+  ],
+  "x_setpoints_visible": [
+   0,
+   10,
+   20,
+   30,
+   40,
+   50,
+   75,
+   100,
+   125,
+   150,
+   200,
+   250,
+   300,
+   350,
+   400,
+   450,
+   500,
+   550,
+   600,
+   650,
+   700,
+   750,
+   800,
+   850,
+   900,
+   950,
+   1000,
+   1100,
+   1200
+  ],
+  "grid": [
+   0,
+   10,
+   20,
+   30,
+   40,
+   50,
+   75,
+   100,
+   125,
+   150,
+   200,
+   250,
+   300,
+   350,
+   400,
+   450,
+   500,
+   550,
+   600,
+   650,
+   700,
+   750,
+   800,
+   850,
+   900,
+   950,
+   1000,
+   1100,
+   1200
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.149355736,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.247793618,
+    "value": 200
+   },
+   {
+    "pixel_norm": 0.345553293,
+    "value": 400
+   },
+   {
+    "pixel_norm": 0.443313646,
+    "value": 600
+   },
+   {
+    "pixel_norm": 0.541751527,
+    "value": 800
+   },
+   {
+    "pixel_norm": 0.638832315,
+    "value": 1000
+   },
+   {
+    "pixel_norm": 0.735913103,
+    "value": 1200
+   }
+  ],
+  "minimum": 0,
+  "maximum": 1200,
+  "boundary_limits_confirmed": true
+ },
+ "y": {
+  "title": "CO2 Loading",
+  "unit": "mmol/g",
+  "scale": "linear",
+  "ticks": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.813793103,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.671264368,
+    "value": 1
+   },
+   {
+    "pixel_norm": 0.527586207,
+    "value": 2
+   },
+   {
+    "pixel_norm": 0.386206897,
+    "value": 3
+   },
+   {
+    "pixel_norm": 0.243678161,
+    "value": 4
+   },
+   {
+    "pixel_norm": 0.098850575,
+    "value": 5
+   }
+  ],
+  "minimum": 0,
+  "maximum": 5,
+  "boundary_limits_confirmed": true
+ },
+ "legend_bbox": [
+  1080,
+  0,
+  1473,
+  798
+ ],
+ "legend_position": "right of the plot, outside the axes",
+ "series": [
+  {
+   "label": "CO2 273K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend group heading 'CO2 @' binds the temperature row '273K'.",
+   "marker": "square",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#050505",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of sorbent",
+   "y_at_xmax": 5.05,
+   "y_anchors": {
+    "p25": 3.8,
+    "p50": 4.55,
+    "p75": 4.85,
+    "p100": 5.05
+   },
+   "n_markers_estimate": 42,
+   "color_tolerance": 18.0,
+   "separate_from": [
+    "N2 313K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 25,
+     "y_min": 0,
+     "y_max": 3.9
+    },
+    {
+     "x_from": 25,
+     "x_to": 200,
+     "y_min": 2.5,
+     "y_max": 3.8
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "y_min": 3.7,
+     "y_max": 5.2
+    }
+   ],
+   "template_fill": "fit_only",
+   "setting_reason": "Black CO2 markers are confused with black N2 triangles in the low-pressure fan; constrain to the upper black trajectory and recover the missing low-pressure markers.",
+   "sample_px": [
+    1003.1,
+    80.9
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 200,
+     "count": 12
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "count": 30
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 2.0,
+     "y": 1.4
+    },
+    {
+     "x": 5.0,
+     "y": 2.2
+    },
+    {
+     "x": 10.0,
+     "y": 2.8
+    },
+    {
+     "x": 25.0,
+     "y": 3.5
+    },
+    {
+     "x": 50.0,
+     "y": 4.0
+    },
+    {
+     "x": 100.0,
+     "y": 4.35
+    },
+    {
+     "x": 200.0,
+     "y": 4.65
+    },
+    {
+     "x": 400.0,
+     "y": 4.85
+    },
+    {
+     "x": 800.0,
+     "y": 5.0
+    },
+    {
+     "x": 1200.0,
+     "y": 5.05
+    }
+   ]
+  },
+  {
+   "label": "CO2 283K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend group heading 'CO2 @' binds the temperature row '283K'.",
+   "marker": "hexagon",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#ED2828",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of sorbent",
+   "y_at_xmax": 4.5,
+   "y_anchors": {
+    "p25": 3.25,
+    "p50": 3.95,
+    "p75": 4.3,
+    "p100": 4.5
+   },
+   "n_markers_estimate": 42,
+   "color_tolerance": 20.0,
+   "separate_from": [
+    "CO2 373K",
+    "N2 333K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 25,
+     "y_min": 0,
+     "y_max": 2.8
+    },
+    {
+     "x_from": 25,
+     "x_to": 200,
+     "y_min": 2,
+     "y_max": 3.3
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "y_min": 3.2,
+     "y_max": 4.6
+    }
+   ],
+   "template_fill": "fit_only",
+   "setting_reason": "Red upper CO2 curve is substantially undercovered in the low-pressure fan and shares color proximity with lower red/blue trajectories; use its upper red path.",
+   "sample_px": [
+    748.3,
+    153.1
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 200,
+     "count": 12
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "count": 30
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 2.0,
+     "y": 0.9
+    },
+    {
+     "x": 5.0,
+     "y": 1.5
+    },
+    {
+     "x": 10.0,
+     "y": 2.0
+    },
+    {
+     "x": 25.0,
+     "y": 2.6
+    },
+    {
+     "x": 50.0,
+     "y": 2.9
+    },
+    {
+     "x": 100.0,
+     "y": 3.1
+    },
+    {
+     "x": 200.0,
+     "y": 3.4
+    },
+    {
+     "x": 400.0,
+     "y": 3.8
+    },
+    {
+     "x": 800.0,
+     "y": 4.25
+    },
+    {
+     "x": 1200.0,
+     "y": 4.5
+    }
+   ]
+  },
+  {
+   "label": "CO2 293K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend group heading 'CO2 @' binds the temperature row '293K'.",
+   "marker": "triangle_up",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#4054A4",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of sorbent",
+   "y_at_xmax": 4.1,
+   "y_anchors": {
+    "p25": 2.9,
+    "p50": 3.5,
+    "p75": 3.85,
+    "p100": 4.1
+   },
+   "n_markers_estimate": 42,
+   "color_tolerance": 18.0,
+   "separate_from": [
+    "CO2 333K",
+    "CO2 373K",
+    "N2 293K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 25,
+     "y_min": 0,
+     "y_max": 2.5
+    },
+    {
+     "x_from": 25,
+     "x_to": 200,
+     "y_min": 1.8,
+     "y_max": 3
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "y_min": 2.8,
+     "y_max": 4.2
+    }
+   ],
+   "template_fill": "off",
+   "setting_reason": "The blue upper CO2 curve contains false nonmonotonic assignments and was given excess points; disable fill and keep only the upper blue trajectory.",
+   "sample_px": [
+    1003.1,
+    458.5
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 200,
+     "count": 12
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "count": 30
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 2.0,
+     "y": 0.7
+    },
+    {
+     "x": 5.0,
+     "y": 1.2
+    },
+    {
+     "x": 10.0,
+     "y": 1.8
+    },
+    {
+     "x": 25.0,
+     "y": 2.3
+    },
+    {
+     "x": 50.0,
+     "y": 2.6
+    },
+    {
+     "x": 100.0,
+     "y": 2.75
+    },
+    {
+     "x": 200.0,
+     "y": 2.95
+    },
+    {
+     "x": 400.0,
+     "y": 3.35
+    },
+    {
+     "x": 800.0,
+     "y": 3.8
+    },
+    {
+     "x": 1200.0,
+     "y": 4.1
+    }
+   ]
+  },
+  {
+   "label": "CO2 303K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend group heading 'CO2 @' binds the temperature row '303K'.",
+   "marker": "triangle_down",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#1B908E",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of sorbent",
+   "y_at_xmax": 3.6,
+   "y_anchors": {
+    "p25": 2.65,
+    "p50": 3.15,
+    "p75": 3.4,
+    "p100": 3.6
+   },
+   "n_markers_estimate": 42,
+   "color_tolerance": 18.0,
+   "separate_from": [
+    "N2 373K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 25,
+     "y_min": 0,
+     "y_max": 2.2
+    },
+    {
+     "x_from": 25,
+     "x_to": 200,
+     "y_min": 1.5,
+     "y_max": 2.8
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "y_min": 2.7,
+     "y_max": 3.7
+    }
+   ],
+   "template_fill": "off",
+   "setting_reason": "Teal CO2 extraction has low precision and several nonmonotonic assignments; suppress crowded fill and constrain to the upper teal curve.",
+   "sample_px": [
+    1003.1,
+    522.9
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 200,
+     "count": 12
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "count": 30
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 2.0,
+     "y": 0.5
+    },
+    {
+     "x": 5.0,
+     "y": 1.0
+    },
+    {
+     "x": 10.0,
+     "y": 1.6
+    },
+    {
+     "x": 25.0,
+     "y": 2.1
+    },
+    {
+     "x": 50.0,
+     "y": 2.35
+    },
+    {
+     "x": 100.0,
+     "y": 2.5
+    },
+    {
+     "x": 200.0,
+     "y": 2.7
+    },
+    {
+     "x": 400.0,
+     "y": 3.0
+    },
+    {
+     "x": 800.0,
+     "y": 3.35
+    },
+    {
+     "x": 1200.0,
+     "y": 3.6
+    }
+   ]
+  },
+  {
+   "label": "CO2 313K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend group heading 'CO2 @' binds the temperature row '313K'.",
+   "marker": "triangle_left",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#B84F8E",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of sorbent",
+   "y_at_xmax": 3.5,
+   "y_anchors": {
+    "p25": 2.5,
+    "p50": 3.0,
+    "p75": 3.3,
+    "p100": 3.5
+   },
+   "n_markers_estimate": 42,
+   "color_tolerance": 24.0,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 25,
+     "y_min": 0,
+     "y_max": 2
+    },
+    {
+     "x_from": 25,
+     "x_to": 200,
+     "y_min": 1.3,
+     "y_max": 2.6
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "y_min": 2.5,
+     "y_max": 3.6
+    }
+   ],
+   "template_fill": "fit_only",
+   "setting_reason": "Only 31 markers were found versus about 42 and redraw recall is poor; recover the magenta left-triangle trajectory through the crowded fan.",
+   "sample_px": [
+    1032.6,
+    530.7
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 200,
+     "count": 12
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "count": 30
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 2.0,
+     "y": 0.4
+    },
+    {
+     "x": 5.0,
+     "y": 0.8
+    },
+    {
+     "x": 10.0,
+     "y": 1.3
+    },
+    {
+     "x": 25.0,
+     "y": 1.8
+    },
+    {
+     "x": 50.0,
+     "y": 2.15
+    },
+    {
+     "x": 100.0,
+     "y": 2.35
+    },
+    {
+     "x": 200.0,
+     "y": 2.6
+    },
+    {
+     "x": 400.0,
+     "y": 2.9
+    },
+    {
+     "x": 800.0,
+     "y": 3.25
+    },
+    {
+     "x": 1200.0,
+     "y": 3.5
+    }
+   ]
+  },
+  {
+   "label": "CO2 323K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend group heading 'CO2 @' binds the temperature row '323K'.",
+   "marker": "triangle_right",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#92952D",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of sorbent",
+   "y_at_xmax": 3.15,
+   "y_anchors": {
+    "p25": 2.3,
+    "p50": 2.75,
+    "p75": 2.95,
+    "p100": 3.15
+   },
+   "n_markers_estimate": 42,
+   "color_tolerance": 22.0,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 25,
+     "y_min": 0,
+     "y_max": 1.8
+    },
+    {
+     "x_from": 25,
+     "x_to": 200,
+     "y_min": 1.1,
+     "y_max": 2.3
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "y_min": 2.2,
+     "y_max": 3.3
+    }
+   ],
+   "template_fill": "fit_only",
+   "setting_reason": "Only 32 markers were found and redraw recall is poor; recover the olive right-triangle trajectory, especially in the low-pressure fan.",
+   "sample_px": [
+    1032.6,
+    556.8
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 200,
+     "count": 12
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "count": 30
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 2.0,
+     "y": 0.35
+    },
+    {
+     "x": 5.0,
+     "y": 0.7
+    },
+    {
+     "x": 10.0,
+     "y": 1.1
+    },
+    {
+     "x": 25.0,
+     "y": 1.55
+    },
+    {
+     "x": 50.0,
+     "y": 1.8
+    },
+    {
+     "x": 100.0,
+     "y": 2.0
+    },
+    {
+     "x": 200.0,
+     "y": 2.35
+    },
+    {
+     "x": 400.0,
+     "y": 2.7
+    },
+    {
+     "x": 800.0,
+     "y": 3.0
+    },
+    {
+     "x": 1200.0,
+     "y": 3.15
+    }
+   ]
+  },
+  {
+   "label": "CO2 333K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend group heading 'CO2 @' binds the temperature row '333K'.",
+   "marker": "diamond",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#30377F",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of sorbent",
+   "y_at_xmax": 2.9,
+   "y_anchors": {
+    "p25": 2.05,
+    "p50": 2.5,
+    "p75": 2.75,
+    "p100": 2.9
+   },
+   "n_markers_estimate": 42,
+   "color_tolerance": 18.0,
+   "separate_from": [
+    "CO2 293K",
+    "N2 293K",
+    "N2 353K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 25,
+     "y_min": 0,
+     "y_max": 1.5
+    },
+    {
+     "x_from": 25,
+     "x_to": 200,
+     "y_min": 1.2,
+     "y_max": 2.3
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "y_min": 2.2,
+     "y_max": 3.1
+    }
+   ],
+   "template_fill": "off",
+   "setting_reason": "Dark blue diamond markers are repeatedly confused with the upper blue CO2 curve and nearby N2 colors; use the lower diamond trajectory and disable crowded fill.",
+   "sample_px": [
+    1003.1,
+    279.3
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 200,
+     "count": 12
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "count": 30
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 2.0,
+     "y": 0.3
+    },
+    {
+     "x": 5.0,
+     "y": 0.6
+    },
+    {
+     "x": 10.0,
+     "y": 0.9
+    },
+    {
+     "x": 25.0,
+     "y": 1.5
+    },
+    {
+     "x": 50.0,
+     "y": 1.9
+    },
+    {
+     "x": 100.0,
+     "y": 2.2
+    },
+    {
+     "x": 200.0,
+     "y": 2.45
+    },
+    {
+     "x": 400.0,
+     "y": 2.65
+    },
+    {
+     "x": 800.0,
+     "y": 2.8
+    },
+    {
+     "x": 1200.0,
+     "y": 2.9
+    }
+   ]
+  },
+  {
+   "label": "CO2 343K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend group heading 'CO2 @' binds the temperature row '343K'.",
+   "marker": "pentagon",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#9C2B27",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of sorbent",
+   "y_at_xmax": 2.7,
+   "y_anchors": {
+    "p25": 1.7,
+    "p50": 2.25,
+    "p75": 2.55,
+    "p100": 2.7
+   },
+   "n_markers_estimate": 42
+  },
+  {
+   "label": "CO2 353K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend group heading 'CO2 @' binds the temperature row '353K'.",
+   "marker": "hexagon",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#EA2C72",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of sorbent",
+   "y_at_xmax": 2.5,
+   "y_anchors": {
+    "p25": 1.35,
+    "p50": 1.95,
+    "p75": 2.35,
+    "p100": 2.5
+   },
+   "n_markers_estimate": 42
+  },
+  {
+   "label": "CO2 363K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend group heading 'CO2 @' binds the temperature row '363K'.",
+   "marker": "star",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#269447",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of sorbent",
+   "y_at_xmax": 2.3,
+   "y_anchors": {
+    "p25": 1.0,
+    "p50": 1.7,
+    "p75": 2.1,
+    "p100": 2.3
+   },
+   "n_markers_estimate": 42
+  },
+  {
+   "label": "CO2 373K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend group heading 'CO2 @' binds the temperature row '373K'.",
+   "marker": "circle",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#34498D",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of sorbent",
+   "y_at_xmax": 2.05,
+   "y_anchors": {
+    "p25": 0.7,
+    "p50": 1.3,
+    "p75": 1.8,
+    "p100": 2.05
+   },
+   "n_markers_estimate": 42,
+   "color_tolerance": 18.0,
+   "separate_from": [
+    "CO2 293K",
+    "CO2 333K",
+    "N2 333K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 25,
+     "y_min": 0,
+     "y_max": 0.9
+    },
+    {
+     "x_from": 25,
+     "x_to": 200,
+     "y_min": 0.4,
+     "y_max": 1.4
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "y_min": 1.1,
+     "y_max": 2.2
+    }
+   ],
+   "template_fill": "off",
+   "setting_reason": "The lowest blue circular CO2 curve is substantially underdetected and many of its candidates were reassigned to CO2 293K; constrain by its lowest upper-branch path and disable fill.",
+   "sample_px": [
+    1003.1,
+    677.7
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 200,
+     "count": 12
+    },
+    {
+     "x_from": 200,
+     "x_to": 1200,
+     "count": 30
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 2.0,
+     "y": 0.15
+    },
+    {
+     "x": 5.0,
+     "y": 0.3
+    },
+    {
+     "x": 10.0,
+     "y": 0.5
+    },
+    {
+     "x": 25.0,
+     "y": 0.7
+    },
+    {
+     "x": 50.0,
+     "y": 0.9
+    },
+    {
+     "x": 100.0,
+     "y": 1.1
+    },
+    {
+     "x": 200.0,
+     "y": 1.35
+    },
+    {
+     "x": 400.0,
+     "y": 1.55
+    },
+    {
+     "x": 800.0,
+     "y": 1.85
+    },
+    {
+     "x": 1200.0,
+     "y": 2.05
+    }
+   ]
+  },
+  {
+   "label": "N2 273K",
+   "extract": false,
+   "gas": "N2",
+   "species_evidence": "Legend group heading 'N2 @' binds the temperature row '273K'.",
+   "marker": "hexagon",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#92278F",
+   "quantity_type": "n2_loading",
+   "loading_basis": "mmol per gram of sorbent",
+   "y_at_xmax": 0.75,
+   "y_anchors": {
+    "p25": 0.14,
+    "p50": 0.36,
+    "p75": 0.58,
+    "p100": 0.75
+   },
+   "n_markers_estimate": 34
+  },
+  {
+   "label": "N2 293K",
+   "extract": false,
+   "gas": "N2",
+   "species_evidence": "Legend group heading 'N2 @' binds the temperature row '293K'.",
+   "marker": "triangle_up",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#6652A1",
+   "quantity_type": "n2_loading",
+   "loading_basis": "mmol per gram of sorbent",
+   "y_at_xmax": 0.45,
+   "y_anchors": {
+    "p25": 0.09,
+    "p50": 0.23,
+    "p75": 0.35,
+    "p100": 0.45
+   },
+   "n_markers_estimate": 34
+  },
+  {
+   "label": "N2 313K",
+   "extract": false,
+   "gas": "N2",
+   "species_evidence": "Legend group heading 'N2 @' binds the temperature row '313K'.",
+   "marker": "triangle_down",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#050505",
+   "quantity_type": "n2_loading",
+   "loading_basis": "mmol per gram of sorbent",
+   "y_at_xmax": 0.31,
+   "y_anchors": {
+    "p25": 0.06,
+    "p50": 0.15,
+    "p75": 0.23,
+    "p100": 0.31
+   },
+   "n_markers_estimate": 34
+  },
+  {
+   "label": "N2 333K",
+   "extract": false,
+   "gas": "N2",
+   "species_evidence": "Legend group heading 'N2 @' binds the temperature row '333K'.",
+   "marker": "triangle_left",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#EF312E",
+   "quantity_type": "n2_loading",
+   "loading_basis": "mmol per gram of sorbent",
+   "y_at_xmax": 0.24,
+   "y_anchors": {
+    "p25": 0.04,
+    "p50": 0.11,
+    "p75": 0.18,
+    "p100": 0.24
+   },
+   "n_markers_estimate": 34
+  },
+  {
+   "label": "N2 353K",
+   "extract": false,
+   "gas": "N2",
+   "species_evidence": "Legend group heading 'N2 @' binds the temperature row '353K'.",
+   "marker": "triangle_right",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#526A9B",
+   "quantity_type": "n2_loading",
+   "loading_basis": "mmol per gram of sorbent",
+   "y_at_xmax": 0.17,
+   "y_anchors": {
+    "p25": 0.025,
+    "p50": 0.07,
+    "p75": 0.12,
+    "p100": 0.17
+   },
+   "n_markers_estimate": 34
+  },
+  {
+   "label": "N2 373K",
+   "extract": false,
+   "gas": "N2",
+   "species_evidence": "Legend group heading 'N2 @' binds the temperature row '373K'.",
+   "marker": "diamond",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#218E89",
+   "quantity_type": "n2_loading",
+   "loading_basis": "mmol per gram of sorbent",
+   "y_at_xmax": 0.08,
+   "y_anchors": {
+    "p25": 0.01,
+    "p50": 0.03,
+    "p75": 0.055,
+    "p100": 0.08
+   },
+   "n_markers_estimate": 34
+  }
+ ],
+ "mask_bboxes": [],
+ "context": {
+  "adsorbent": "CALF-20; panel E additionally identifies Zeolite 13X, CAU-10, and Al-Fumarate as water-adsorption comparators.",
+  "sample_form": "Not reported in the available figure.",
+  "activation": "Not reported in the available figure.",
+  "instrument": "Not reported in the available figure.",
+  "measurement_notes": "Panel A shows CO2 isotherms from 273 to 373 K up to approximately 1200 mbar and N2 isotherms at selected temperatures. Panel B shows CO2 isotherms at 303, 313, 323, 333, 353, and 373 K up to approximately 120 kPa. Panels C–E are non-CO2 plots.",
+  "other_parameters": "Loading is reported in mmol/g. No caption or surrounding text is available to establish equilibration protocol, adsorption/desorption branch assignment, or additional measurement conditions."
+ },
+ "panel_info": {
+  "panel": "A",
+  "is_co2_isotherm": true,
+  "reason": "CO2 loading in mmol/g is plotted against pressure in mbar at 273–373 K; N2 series are also present but are not extraction targets.",
+  "bbox_norm": [
+   0.0,
+   0.0,
+   0.99,
+   0.39
+  ],
+  "has_inset": false,
+  "inset_bbox_norm": null
+ },
+ "panel_mapping": {
+  "runtime_panel_id": "a",
+  "layout_panel_id": "A",
+  "canonical_panel_id": "a"
+ },
+ "llm_spec": {
+  "reasoning": "Single linear-axis adsorption panel. The legend at right is divided into explicit 'CO2 @' and 'N2 @' groups, so each temperature row is bound to its gas by the corresponding group heading. Eleven CO2 loading series are policy-eligible; the six N2 series are retained only for series discrimination. All entries use filled markers connected by solid lines, with one visible branch per series.",
+  "x": {
+   "title": "P",
+   "unit": "mbar",
+   "scale": "linear",
+   "ticks": [
+    0,
+    200,
+    400,
+    600,
+    800,
+    1000,
+    1200
+   ],
+   "x_setpoints_visible": [
+    0,
+    10,
+    20,
+    30,
+    40,
+    50,
+    75,
+    100,
+    125,
+    150,
+    200,
+    250,
+    300,
+    350,
+    400,
+    450,
+    500,
+    550,
+    600,
+    650,
+    700,
+    750,
+    800,
+    850,
+    900,
+    950,
+    1000,
+    1100,
+    1200
+   ],
+   "grid": [
+    0,
+    10,
+    20,
+    30,
+    40,
+    50,
+    75,
+    100,
+    125,
+    150,
+    200,
+    250,
+    300,
+    350,
+    400,
+    450,
+    500,
+    550,
+    600,
+    650,
+    700,
+    750,
+    800,
+    850,
+    900,
+    950,
+    1000,
+    1100,
+    1200
+   ],
+   "tick_anchors": [
+    {
+     "pixel_norm": 0.149355736,
+     "value": 0
+    },
+    {
+     "pixel_norm": 0.247793618,
+     "value": 200
+    },
+    {
+     "pixel_norm": 0.345553293,
+     "value": 400
+    },
+    {
+     "pixel_norm": 0.443313646,
+     "value": 600
+    },
+    {
+     "pixel_norm": 0.541751527,
+     "value": 800
+    },
+    {
+     "pixel_norm": 0.638832315,
+     "value": 1000
+    },
+    {
+     "pixel_norm": 0.735913103,
+     "value": 1200
+    }
+   ],
+   "minimum": 0,
+   "maximum": 1200,
+   "boundary_limits_confirmed": true
+  },
+  "y": {
+   "title": "CO2 Loading",
+   "unit": "mmol/g",
+   "scale": "linear",
+   "ticks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "tick_anchors": [
+    {
+     "pixel_norm": 0.813793103,
+     "value": 0
+    },
+    {
+     "pixel_norm": 0.671264368,
+     "value": 1
+    },
+    {
+     "pixel_norm": 0.527586207,
+     "value": 2
+    },
+    {
+     "pixel_norm": 0.386206897,
+     "value": 3
+    },
+    {
+     "pixel_norm": 0.243678161,
+     "value": 4
+    },
+    {
+     "pixel_norm": 0.098850575,
+     "value": 5
+    }
+   ],
+   "minimum": 0,
+   "maximum": 5,
+   "boundary_limits_confirmed": true
+  },
+  "legend_bbox_norm": [
+   0.74338,
+   0.0,
+   1.0,
+   0.9069
+  ],
+  "legend_position": "right of the plot, outside the axes",
+  "series": [
+   {
+    "label": "CO2 273K",
+    "gas": "CO2",
+    "species_evidence": "Legend group heading 'CO2 @' binds the temperature row '273K'.",
+    "temperature_k": 273,
+    "color_name": "black",
+    "color_hex": "#050505",
+    "marker": "square",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "co2_loading",
+    "loading_basis": "mmol per gram of sorbent",
+    "extract": true,
+    "y_anchors": {
+     "p25": 3.8,
+     "p50": 4.55,
+     "p75": 4.85,
+     "p100": 5.05
+    },
+    "n_markers_estimate": 42
+   },
+   {
+    "label": "CO2 283K",
+    "gas": "CO2",
+    "species_evidence": "Legend group heading 'CO2 @' binds the temperature row '283K'.",
+    "temperature_k": 283,
+    "color_name": "red",
+    "color_hex": "#ED2828",
+    "marker": "hexagon",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "co2_loading",
+    "loading_basis": "mmol per gram of sorbent",
+    "extract": true,
+    "y_anchors": {
+     "p25": 3.25,
+     "p50": 3.95,
+     "p75": 4.3,
+     "p100": 4.5
+    },
+    "n_markers_estimate": 42
+   },
+   {
+    "label": "CO2 293K",
+    "gas": "CO2",
+    "species_evidence": "Legend group heading 'CO2 @' binds the temperature row '293K'.",
+    "temperature_k": 293,
+    "color_name": "blue",
+    "color_hex": "#4054A4",
+    "marker": "triangle_up",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "co2_loading",
+    "loading_basis": "mmol per gram of sorbent",
+    "extract": true,
+    "y_anchors": {
+     "p25": 2.9,
+     "p50": 3.5,
+     "p75": 3.85,
+     "p100": 4.1
+    },
+    "n_markers_estimate": 42
+   },
+   {
+    "label": "CO2 303K",
+    "gas": "CO2",
+    "species_evidence": "Legend group heading 'CO2 @' binds the temperature row '303K'.",
+    "temperature_k": 303,
+    "color_name": "teal",
+    "color_hex": "#1B908E",
+    "marker": "triangle_down",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "co2_loading",
+    "loading_basis": "mmol per gram of sorbent",
+    "extract": true,
+    "y_anchors": {
+     "p25": 2.65,
+     "p50": 3.15,
+     "p75": 3.4,
+     "p100": 3.6
+    },
+    "n_markers_estimate": 42
+   },
+   {
+    "label": "CO2 313K",
+    "gas": "CO2",
+    "species_evidence": "Legend group heading 'CO2 @' binds the temperature row '313K'.",
+    "temperature_k": 313,
+    "color_name": "magenta",
+    "color_hex": "#B84F8E",
+    "marker": "triangle_left",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "co2_loading",
+    "loading_basis": "mmol per gram of sorbent",
+    "extract": true,
+    "y_anchors": {
+     "p25": 2.5,
+     "p50": 3.0,
+     "p75": 3.3,
+     "p100": 3.5
+    },
+    "n_markers_estimate": 42
+   },
+   {
+    "label": "CO2 323K",
+    "gas": "CO2",
+    "species_evidence": "Legend group heading 'CO2 @' binds the temperature row '323K'.",
+    "temperature_k": 323,
+    "color_name": "olive",
+    "color_hex": "#92952D",
+    "marker": "triangle_right",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "co2_loading",
+    "loading_basis": "mmol per gram of sorbent",
+    "extract": true,
+    "y_anchors": {
+     "p25": 2.3,
+     "p50": 2.75,
+     "p75": 2.95,
+     "p100": 3.15
+    },
+    "n_markers_estimate": 42
+   },
+   {
+    "label": "CO2 333K",
+    "gas": "CO2",
+    "species_evidence": "Legend group heading 'CO2 @' binds the temperature row '333K'.",
+    "temperature_k": 333,
+    "color_name": "dark blue",
+    "color_hex": "#30377F",
+    "marker": "diamond",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "co2_loading",
+    "loading_basis": "mmol per gram of sorbent",
+    "extract": true,
+    "y_anchors": {
+     "p25": 2.05,
+     "p50": 2.5,
+     "p75": 2.75,
+     "p100": 2.9
+    },
+    "n_markers_estimate": 42
+   },
+   {
+    "label": "CO2 343K",
+    "gas": "CO2",
+    "species_evidence": "Legend group heading 'CO2 @' binds the temperature row '343K'.",
+    "temperature_k": 343,
+    "color_name": "brown",
+    "color_hex": "#9C2B27",
+    "marker": "pentagon",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "co2_loading",
+    "loading_basis": "mmol per gram of sorbent",
+    "extract": true,
+    "y_anchors": {
+     "p25": 1.7,
+     "p50": 2.25,
+     "p75": 2.55,
+     "p100": 2.7
+    },
+    "n_markers_estimate": 42
+   },
+   {
+    "label": "CO2 353K",
+    "gas": "CO2",
+    "species_evidence": "Legend group heading 'CO2 @' binds the temperature row '353K'.",
+    "temperature_k": 353,
+    "color_name": "pink",
+    "color_hex": "#EA2C72",
+    "marker": "hexagon",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "co2_loading",
+    "loading_basis": "mmol per gram of sorbent",
+    "extract": true,
+    "y_anchors": {
+     "p25": 1.35,
+     "p50": 1.95,
+     "p75": 2.35,
+     "p100": 2.5
+    },
+    "n_markers_estimate": 42
+   },
+   {
+    "label": "CO2 363K",
+    "gas": "CO2",
+    "species_evidence": "Legend group heading 'CO2 @' binds the temperature row '363K'.",
+    "temperature_k": 363,
+    "color_name": "green",
+    "color_hex": "#269447",
+    "marker": "star",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "co2_loading",
+    "loading_basis": "mmol per gram of sorbent",
+    "extract": true,
+    "y_anchors": {
+     "p25": 1.0,
+     "p50": 1.7,
+     "p75": 2.1,
+     "p100": 2.3
+    },
+    "n_markers_estimate": 42
+   },
+   {
+    "label": "CO2 373K",
+    "gas": "CO2",
+    "species_evidence": "Legend group heading 'CO2 @' binds the temperature row '373K'.",
+    "temperature_k": 373,
+    "color_name": "navy blue",
+    "color_hex": "#34498D",
+    "marker": "circle",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "co2_loading",
+    "loading_basis": "mmol per gram of sorbent",
+    "extract": true,
+    "y_anchors": {
+     "p25": 0.7,
+     "p50": 1.3,
+     "p75": 1.8,
+     "p100": 2.05
+    },
+    "n_markers_estimate": 42
+   },
+   {
+    "label": "N2 273K",
+    "gas": "N2",
+    "species_evidence": "Legend group heading 'N2 @' binds the temperature row '273K'.",
+    "temperature_k": 273,
+    "color_name": "purple",
+    "color_hex": "#92278F",
+    "marker": "hexagon",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "n2_loading",
+    "loading_basis": "mmol per gram of sorbent",
+    "extract": false,
+    "y_anchors": {
+     "p25": 0.14,
+     "p50": 0.36,
+     "p75": 0.58,
+     "p100": 0.75
+    },
+    "n_markers_estimate": 34
+   },
+   {
+    "label": "N2 293K",
+    "gas": "N2",
+    "species_evidence": "Legend group heading 'N2 @' binds the temperature row '293K'.",
+    "temperature_k": 293,
+    "color_name": "purple-blue",
+    "color_hex": "#6652A1",
+    "marker": "triangle_up",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "n2_loading",
+    "loading_basis": "mmol per gram of sorbent",
+    "extract": false,
+    "y_anchors": {
+     "p25": 0.09,
+     "p50": 0.23,
+     "p75": 0.35,
+     "p100": 0.45
+    },
+    "n_markers_estimate": 34
+   },
+   {
+    "label": "N2 313K",
+    "gas": "N2",
+    "species_evidence": "Legend group heading 'N2 @' binds the temperature row '313K'.",
+    "temperature_k": 313,
+    "color_name": "black",
+    "color_hex": "#050505",
+    "marker": "triangle_down",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "n2_loading",
+    "loading_basis": "mmol per gram of sorbent",
+    "extract": false,
+    "y_anchors": {
+     "p25": 0.06,
+     "p50": 0.15,
+     "p75": 0.23,
+     "p100": 0.31
+    },
+    "n_markers_estimate": 34
+   },
+   {
+    "label": "N2 333K",
+    "gas": "N2",
+    "species_evidence": "Legend group heading 'N2 @' binds the temperature row '333K'.",
+    "temperature_k": 333,
+    "color_name": "red",
+    "color_hex": "#EF312E",
+    "marker": "triangle_left",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "n2_loading",
+    "loading_basis": "mmol per gram of sorbent",
+    "extract": false,
+    "y_anchors": {
+     "p25": 0.04,
+     "p50": 0.11,
+     "p75": 0.18,
+     "p100": 0.24
+    },
+    "n_markers_estimate": 34
+   },
+   {
+    "label": "N2 353K",
+    "gas": "N2",
+    "species_evidence": "Legend group heading 'N2 @' binds the temperature row '353K'.",
+    "temperature_k": 353,
+    "color_name": "slate blue",
+    "color_hex": "#526A9B",
+    "marker": "triangle_right",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "n2_loading",
+    "loading_basis": "mmol per gram of sorbent",
+    "extract": false,
+    "y_anchors": {
+     "p25": 0.025,
+     "p50": 0.07,
+     "p75": 0.12,
+     "p100": 0.17
+    },
+    "n_markers_estimate": 34
+   },
+   {
+    "label": "N2 373K",
+    "gas": "N2",
+    "species_evidence": "Legend group heading 'N2 @' binds the temperature row '373K'.",
+    "temperature_k": 373,
+    "color_name": "teal",
+    "color_hex": "#218E89",
+    "marker": "diamond",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "n2_loading",
+    "loading_basis": "mmol per gram of sorbent",
+    "extract": false,
+    "y_anchors": {
+     "p25": 0.01,
+     "p50": 0.03,
+     "p75": 0.055,
+     "p100": 0.08
+    },
+    "n_markers_estimate": 34
+   }
+  ],
+  "branches": "adsorption_only",
+  "notes": "No inset, dual axis, error bars, or broken axis. The plotted frame extends slightly left of the printed 0 mbar tick, but only numbered ticks are reported. Low-pressure markers are densely crowded, so the listed setpoints and marker totals are approximate visual constraints rather than measured coordinates.",
+  "chart_title": "",
+  "complex_regions": [
+   {
+    "bbox_norm": [
+     0.135,
+     0.08,
+     0.245,
+     0.82
+    ],
+    "kind": "dense_markers",
+    "python_passes": 6
+   },
+   {
+    "bbox_norm": [
+     0.145,
+     0.22,
+     0.75,
+     0.82
+    ],
+    "kind": "overlapping_markers",
+    "python_passes": 6
+   }
+  ]
+ },
+ "vector_marks": null,
+ "region_strategies": [],
+ "shared_x_columns": [],
+ "complex_regions": [
+  {
+   "bbox_norm": [
+    0.135,
+    0.08,
+    0.245,
+    0.82
+   ],
+   "kind": "dense_markers",
+   "python_passes": 6
+  },
+  {
+   "bbox_norm": [
+    0.145,
+    0.22,
+    0.75,
+    0.82
+   ],
+   "kind": "overlapping_markers",
+   "python_passes": 6
+  }
+ ]
+}

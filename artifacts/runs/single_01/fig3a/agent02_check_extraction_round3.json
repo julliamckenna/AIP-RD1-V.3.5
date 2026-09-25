@@ -1,0 +1,433 @@
+{
+ "reasoning": "The axis calibration and printed ranges are correct: x is 0–1 and y is 0–140, with the plot frame extending slightly beyond the outer ticks. The CO2 curve is assigned correctly, but the extraction is incomplete in the dense low-pressure region (recall 0.744, one unresolved dense slot and a shortfall from 0.04 to 0.1). The clearly visible red open-circle N2 77K baseline was disabled and therefore entirely omitted. Both series must be extracted, with additional dense-region handling for the CO2 low-pressure fan.",
+ "axis_check": {
+  "x": {
+   "printed_min": 0,
+   "printed_max": 1,
+   "data_min": -0.0006,
+   "data_max": 0.9902,
+   "reason": "The source x-axis is printed from 0 to 1. The re-plotted values follow the same tick locations and span; the tiny negative minimum is an axis-line tolerance artifact, not a shifted calibration.",
+   "result": "pass"
+  },
+  "y": {
+   "printed_min": 0,
+   "printed_max": 140,
+   "data_min": 1.6154,
+   "data_max": 126.3389,
+   "reason": "The source y-axis is printed from 0 to 140 cm³ g⁻¹. The re-plotted CO2 values occupy the same steep rise and plateau below 130 against those ticks; no shift or stretch is evident.",
+   "result": "pass"
+  }
+ },
+ "satisfied": false,
+ "issues": [
+  "N2 77K is a clearly visible red open-circle series but was disabled and has zero extracted markers.",
+  "CO2 195K has incomplete marker coverage in the dense low-pressure fan and between P/P0=0.04 and 0.1; redraw recall is only 0.744 and one dense slot remains unresolved.",
+  "The low-pressure region needs another targeted marker pass rather than relying only on ordinary circle detection."
+ ],
+ "structure_ok": true,
+ "chart_title": "",
+ "x_axis": {
+  "title": "Relative Pressure (P/P₀)",
+  "unit": "dimensionless",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 1,
+  "boundary_limits_confirmed": true,
+  "ticks": [
+   0,
+   0.2,
+   0.4,
+   0.6,
+   0.8,
+   1
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.27009646302250806,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.39228295819935693,
+    "value": 0.2
+   },
+   {
+    "pixel_norm": 0.5209003215434084,
+    "value": 0.4
+   },
+   {
+    "pixel_norm": 0.6430868167202572,
+    "value": 0.6
+   },
+   {
+    "pixel_norm": 0.7684887459807074,
+    "value": 0.8
+   },
+   {
+    "pixel_norm": 0.8938906752411575,
+    "value": 1
+   }
+  ]
+ },
+ "y_axis": {
+  "title": "Uptake",
+  "unit": "cm³ g⁻¹",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 140,
+  "boundary_limits_confirmed": true,
+  "ticks": [
+   0,
+   20,
+   40,
+   60,
+   80,
+   100,
+   120,
+   140
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.7446043165467626,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.6618705035971223,
+    "value": 20
+   },
+   {
+    "pixel_norm": 0.5827338129496403,
+    "value": 40
+   },
+   {
+    "pixel_norm": 0.49640287769784175,
+    "value": 60
+   },
+   {
+    "pixel_norm": 0.4172661870503597,
+    "value": 80
+   },
+   {
+    "pixel_norm": 0.3345323741007194,
+    "value": 100
+   },
+   {
+    "pixel_norm": 0.2517985611510791,
+    "value": 120
+   },
+   {
+    "pixel_norm": 0.16906474820143885,
+    "value": 140
+   }
+  ]
+ },
+ "legend_bbox_norm": [
+  0.582,
+  0.169,
+  0.981,
+  0.806
+ ],
+ "total_series": 2,
+ "series": [
+  {
+   "label": "CO2 195K",
+   "marker": "circle",
+   "marker_fill": "open",
+   "line_style": "solid",
+   "color_hex": "#6878FF",
+   "notes": "Blue open circles; steep low-pressure rise followed by a plateau near 120–126 cm³ g⁻¹."
+  },
+  {
+   "label": "N2 77K",
+   "marker": "circle",
+   "marker_fill": "open",
+   "line_style": "solid",
+   "color_hex": "#FF5C5C",
+   "notes": "Red open circles forming the low-uptake baseline near 0–2 cm³ g⁻¹."
+  }
+ ],
+ "branches": "adsorption_only",
+ "complex_regions": [
+  {
+   "bbox_norm": [
+    0.238,
+    0.64,
+    0.345,
+    0.77
+   ],
+   "kind": "dense_markers",
+   "python_passes": 6
+  },
+  {
+   "bbox_norm": [
+    0.238,
+    0.26,
+    0.321,
+    0.75
+   ],
+   "kind": "thick_connecting_lines",
+   "python_passes": 6
+  },
+  {
+   "bbox_norm": [
+    0.238,
+    0.64,
+    0.345,
+    0.77
+   ],
+   "kind": "overlapping_markers",
+   "python_passes": 6
+  },
+  {
+   "bbox_norm": [
+    0.3215434083601286,
+    0.3237410071942447,
+    0.7524115755627009,
+    0.6151079136690647
+   ],
+   "kind": "inset",
+   "python_passes": 2
+  }
+ ],
+ "extraction_settings": [
+  {
+   "label": "CO2 195K",
+   "color_tolerance": 35,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.004,
+     "y_min": 0,
+     "y_max": 25
+    },
+    {
+     "x_from": 0.004,
+     "x_to": 0.01,
+     "y_min": 15,
+     "y_max": 65
+    },
+    {
+     "x_from": 0.01,
+     "x_to": 0.02,
+     "y_min": 45,
+     "y_max": 105
+    },
+    {
+     "x_from": 0.02,
+     "x_to": 0.05,
+     "y_min": 90,
+     "y_max": 123
+    },
+    {
+     "x_from": 0.05,
+     "x_to": 0.1,
+     "y_min": 116,
+     "y_max": 126
+    },
+    {
+     "x_from": 0.1,
+     "x_to": 1,
+     "y_min": 116,
+     "y_max": 130
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Recover missing blue open-circle markers in the low-pressure fan and the shortfall between 0.04 and 0.1. Use the isolated plateau marker for color calibration and the curve bands to reject the red baseline.",
+   "sample_marker_norm": [
+    0.836,
+    0.234
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 0.04,
+     "count": 14
+    },
+    {
+     "x_from": 0.04,
+     "x_to": 0.1,
+     "count": 8
+    },
+    {
+     "x_from": 0.1,
+     "x_to": 1,
+     "count": 12
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 0.002,
+     "y": 3
+    },
+    {
+     "x": 0.004,
+     "y": 12
+    },
+    {
+     "x": 0.006,
+     "y": 28
+    },
+    {
+     "x": 0.008,
+     "y": 45
+    },
+    {
+     "x": 0.01,
+     "y": 62
+    },
+    {
+     "x": 0.013,
+     "y": 82
+    },
+    {
+     "x": 0.017,
+     "y": 103
+    },
+    {
+     "x": 0.022,
+     "y": 115
+    },
+    {
+     "x": 0.03,
+     "y": 120
+    },
+    {
+     "x": 0.1,
+     "y": 123
+    },
+    {
+     "x": 1,
+     "y": 126
+    }
+   ]
+  },
+  {
+   "label": "N2 77K",
+   "color_tolerance": 35,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.1,
+     "y_min": 0,
+     "y_max": 3
+    },
+    {
+     "x_from": 0.1,
+     "x_to": 0.8,
+     "y_min": 0,
+     "y_max": 2.5
+    },
+    {
+     "x_from": 0.8,
+     "x_to": 1,
+     "y_min": 0,
+     "y_max": 4
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "The red open-circle baseline is plainly visible across the panel but was disabled, producing zero markers. Enable extraction and use the low-uptake bands to distinguish it from the blue low-pressure fan.",
+   "sample_marker_norm": [
+    0.643,
+    0.744
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 0.1,
+     "count": 8
+    },
+    {
+     "x_from": 0.1,
+     "x_to": 0.8,
+     "count": 14
+    },
+    {
+     "x_from": 0.8,
+     "x_to": 1,
+     "count": 5
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 0.02,
+     "y": 1.2
+    },
+    {
+     "x": 0.05,
+     "y": 1.4
+    },
+    {
+     "x": 0.1,
+     "y": 1.5
+    },
+    {
+     "x": 0.3,
+     "y": 1.5
+    },
+    {
+     "x": 0.6,
+     "y": 1.5
+    },
+    {
+     "x": 0.8,
+     "y": 1.6
+    },
+    {
+     "x": 0.9,
+     "y": 1.8
+    },
+    {
+     "x": 1,
+     "y": 2
+    }
+   ]
+  }
+ ],
+ "notes": "Keep the measured calibration anchors. The inset is an annotation/inset and should not contribute duplicate main-panel points. Extract both visible open-circle series.",
+ "region_strategies": [
+  {
+   "bbox_norm": [
+    0.238,
+    0.64,
+    0.345,
+    0.77
+   ],
+   "series_labels": [
+    "CO2 195K"
+   ],
+   "strategy": "sample_band_at_columns",
+   "reason": "The blue low-pressure markers and connecting line are crowded and partly fused; sample the curve at the shared visible pressure columns in this strip, then validate against the CO2 curve bands."
+  },
+  {
+   "bbox_norm": [
+    0.3215434083601286,
+    0.3237410071942447,
+    0.7524115755627009,
+    0.6151079136690647
+   ],
+   "series_labels": [],
+   "strategy": "ignore",
+   "reason": "Inset and its annotation are not additional main-panel series data."
+  }
+ ],
+ "shared_x_columns": [
+  0.002,
+  0.004,
+  0.006,
+  0.008,
+  0.01,
+  0.013,
+  0.017,
+  0.022,
+  0.03
+ ]
+}

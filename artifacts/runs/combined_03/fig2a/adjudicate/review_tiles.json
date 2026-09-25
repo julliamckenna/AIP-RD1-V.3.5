@@ -1,0 +1,2679 @@
+{
+ "schema_version": "1.0",
+ "authority": "supporting_evidence_only",
+ "native_image": "panel.png",
+ "legend": "legend.png",
+ "tiles": [
+  {
+   "tile_id": "marker_01",
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "boxes": [
+    {
+     "box": 1,
+     "point_id": "pt-bfda800403c77c8c",
+     "series_label": "CO2 273K",
+     "source_pixel": [
+      235.0,
+      396.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 2,
+     "point_id": "pt-e80695af5a9da5d4",
+     "series_label": "CO2 273K",
+     "source_pixel": [
+      245.0,
+      419.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 3,
+     "point_id": "pt-356fcbb56ef83600",
+     "series_label": "CO2 273K",
+     "source_pixel": [
+      306.0,
+      292.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 4,
+     "point_id": "pt-2b84d0181a020615",
+     "series_label": "CO2 273K",
+     "source_pixel": [
+      307.0,
+      286.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 5,
+     "point_id": "pt-db9f342f219ee86e",
+     "series_label": "CO2 273K",
+     "source_pixel": [
+      400.0,
+      286.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 6,
+     "point_id": "pt-707b0effe74f3710",
+     "series_label": "CO2 273K",
+     "source_pixel": [
+      425.0,
+      277.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 7,
+     "point_id": "pt-49a2083056c27559",
+     "series_label": "CO2 273K",
+     "source_pixel": [
+      449.0,
+      268.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 8,
+     "point_id": "pt-7dec8fb8d634d5aa",
+     "series_label": "CO2 273K",
+     "source_pixel": [
+      456.0,
+      261.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 9,
+     "point_id": "pt-4d18306449b7eaaf",
+     "series_label": "CO2 273K",
+     "source_pixel": [
+      477.0,
+      258.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 10,
+     "point_id": "pt-94081ffae5d0a33c",
+     "series_label": "CO2 273K",
+     "source_pixel": [
+      491.0,
+      252.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 11,
+     "point_id": "pt-62b44134fcef3913",
+     "series_label": "CO2 273K",
+     "source_pixel": [
+      505.0,
+      247.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 12,
+     "point_id": "pt-414acb129fabf745",
+     "series_label": "CO2 273K",
+     "source_pixel": [
+      512.0,
+      237.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 13,
+     "point_id": "pt-a917a97308174b36",
+     "series_label": "CO2 273K",
+     "source_pixel": [
+      568.0,
+      221.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 14,
+     "point_id": "pt-6f8758cc98e9ed33",
+     "series_label": "CO2 273K",
+     "source_pixel": [
+      615.0,
+      206.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 15,
+     "point_id": "pt-99fe368605b94692",
+     "series_label": "CO2 283K",
+     "source_pixel": [
+      223.0,
+      470.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 16,
+     "point_id": "pt-8b3e43577a956751",
+     "series_label": "CO2 283K",
+     "source_pixel": [
+      225.0,
+      496.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 17,
+     "point_id": "pt-9ba805cea5f8e880",
+     "series_label": "CO2 283K",
+     "source_pixel": [
+      235.0,
+      430.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 18,
+     "point_id": "pt-cb670cca2cc9e49f",
+     "series_label": "CO2 283K",
+     "source_pixel": [
+      247.0,
+      389.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 19,
+     "point_id": "pt-6c38048da04f49ff",
+     "series_label": "CO2 283K",
+     "source_pixel": [
+      264.41,
+      381.59
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 20,
+     "point_id": "pt-bcd972dd053d2b41",
+     "series_label": "CO2 283K",
+     "source_pixel": [
+      283.38,
+      366.4
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 21,
+     "point_id": "pt-6dc2beb12a97f72c",
+     "series_label": "CO2 283K",
+     "source_pixel": [
+      293.0,
+      352.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 22,
+     "point_id": "pt-c093e4fe921f099c",
+     "series_label": "CO2 283K",
+     "source_pixel": [
+      319.0,
+      338.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 23,
+     "point_id": "pt-c75736ca3366a696",
+     "series_label": "CO2 283K",
+     "source_pixel": [
+      371.0,
+      307.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 24,
+     "point_id": "pt-580fbec971cde6fd",
+     "series_label": "CO2 283K",
+     "source_pixel": [
+      385.0,
+      299.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 25,
+     "point_id": "pt-ff5dde3f8f873e32",
+     "series_label": "CO2 283K",
+     "source_pixel": [
+      402.0,
+      286.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 26,
+     "point_id": "pt-9ddd908db8b89b48",
+     "series_label": "CO2 283K",
+     "source_pixel": [
+      432.0,
+      277.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 27,
+     "point_id": "pt-c50e9141646459b0",
+     "series_label": "CO2 283K",
+     "source_pixel": [
+      449.0,
+      265.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 28,
+     "point_id": "pt-35de1c36fb2f6422",
+     "series_label": "CO2 283K",
+     "source_pixel": [
+      457.0,
+      262.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 29,
+     "point_id": "pt-4b9fa28940d84785",
+     "series_label": "CO2 283K",
+     "source_pixel": [
+      505.0,
+      250.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 30,
+     "point_id": "pt-107e3253b665b859",
+     "series_label": "CO2 283K",
+     "source_pixel": [
+      511.0,
+      242.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 31,
+     "point_id": "pt-b6c30a648dff8d94",
+     "series_label": "CO2 283K",
+     "source_pixel": [
+      568.0,
+      225.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 32,
+     "point_id": "pt-548e980e52ab073e",
+     "series_label": "CO2 283K",
+     "source_pixel": [
+      586.0,
+      224.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 33,
+     "point_id": "pt-39054dc2169f8833",
+     "series_label": "CO2 283K",
+     "source_pixel": [
+      605.0,
+      219.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 34,
+     "point_id": "pt-e8d1f9364ad7a8df",
+     "series_label": "CO2 283K",
+     "source_pixel": [
+      673.0,
+      203.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 35,
+     "point_id": "pt-cccb786c29c03d9b",
+     "series_label": "CO2 283K",
+     "source_pixel": [
+      679.0,
+      198.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 36,
+     "point_id": "pt-fd01c40aa590304a",
+     "series_label": "CO2 283K",
+     "source_pixel": [
+      690.0,
+      199.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 37,
+     "point_id": "pt-ba8f3d69e4cbfae3",
+     "series_label": "CO2 283K",
+     "source_pixel": [
+      706.0,
+      196.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 38,
+     "point_id": "pt-0177526f3c32ba97",
+     "series_label": "CO2 283K",
+     "source_pixel": [
+      732.0,
+      184.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 39,
+     "point_id": "pt-a1077bf4809f799a",
+     "series_label": "CO2 283K",
+     "source_pixel": [
+      745.0,
+      184.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 40,
+     "point_id": "pt-fc91b75de7b5c79e",
+     "series_label": "CO2 283K",
+     "source_pixel": [
+      778.0,
+      184.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    }
+   ]
+  },
+  {
+   "tile_id": "marker_02",
+   "native_tile": "tile_02_native.png",
+   "candidate_tile": "tile_02_candidate.png",
+   "boxes": [
+    {
+     "box": 41,
+     "point_id": "pt-7e1583a4ccbbdeaf",
+     "series_label": "CO2 293K",
+     "source_pixel": [
+      434.0,
+      326.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 42,
+     "point_id": "pt-d3c099608f1c4fb1",
+     "series_label": "CO2 293K",
+     "source_pixel": [
+      458.0,
+      313.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 43,
+     "point_id": "pt-73981cf24d18ecde",
+     "series_label": "CO2 293K",
+     "source_pixel": [
+      480.0,
+      311.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 44,
+     "point_id": "pt-57b62ef3334ca1d4",
+     "series_label": "CO2 293K",
+     "source_pixel": [
+      511.0,
+      295.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 45,
+     "point_id": "pt-8cf84ecf54810cf7",
+     "series_label": "CO2 293K",
+     "source_pixel": [
+      568.0,
+      282.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 46,
+     "point_id": "pt-e201d60fd2adc89d",
+     "series_label": "CO2 293K",
+     "source_pixel": [
+      600.0,
+      279.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 47,
+     "point_id": "pt-1f7c74c03a3a0fe5",
+     "series_label": "CO2 293K",
+     "source_pixel": [
+      606.0,
+      278.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 48,
+     "point_id": "pt-0e5f0bc642a9ecab",
+     "series_label": "CO2 293K",
+     "source_pixel": [
+      625.0,
+      268.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 49,
+     "point_id": "pt-de66b6b6e0bb92d9",
+     "series_label": "CO2 293K",
+     "source_pixel": [
+      649.0,
+      267.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 50,
+     "point_id": "pt-f16a052aa36a9082",
+     "series_label": "CO2 293K",
+     "source_pixel": [
+      692.0,
+      258.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 51,
+     "point_id": "pt-6d45452fc61816c3",
+     "series_label": "CO2 293K",
+     "source_pixel": [
+      727.0,
+      251.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 52,
+     "point_id": "pt-22c1fa8685da1a67",
+     "series_label": "CO2 293K",
+     "source_pixel": [
+      734.0,
+      249.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 53,
+     "point_id": "pt-ffef4c3ba9025370",
+     "series_label": "CO2 293K",
+     "source_pixel": [
+      743.0,
+      248.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 54,
+     "point_id": "pt-17880ad4f2bce02e",
+     "series_label": "CO2 293K",
+     "source_pixel": [
+      779.0,
+      241.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 55,
+     "point_id": "pt-9f14f858ce594779",
+     "series_label": "CO2 293K",
+     "source_pixel": [
+      793.0,
+      234.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 56,
+     "point_id": "pt-446614d92539f2e7",
+     "series_label": "CO2 293K",
+     "source_pixel": [
+      825.0,
+      235.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 57,
+     "point_id": "pt-041a46faec3e1640",
+     "series_label": "CO2 293K",
+     "source_pixel": [
+      846.0,
+      228.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 58,
+     "point_id": "pt-f2534b53e364d72a",
+     "series_label": "CO2 293K",
+     "source_pixel": [
+      867.0,
+      228.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 59,
+     "point_id": "pt-0aac751d81b82e8a",
+     "series_label": "CO2 293K",
+     "source_pixel": [
+      884.0,
+      221.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 60,
+     "point_id": "pt-94a06a5cd2af4c5e",
+     "series_label": "CO2 293K",
+     "source_pixel": [
+      1040.0,
+      206.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 61,
+     "point_id": "pt-dd2de60e3bd35571",
+     "series_label": "CO2 293K",
+     "source_pixel": [
+      1072.57,
+      203.54
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 62,
+     "point_id": "pt-66b9f6a290b011d4",
+     "series_label": "CO2 303K",
+     "source_pixel": [
+      228.31,
+      641.64
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 63,
+     "point_id": "pt-c038535d9cdb85bb",
+     "series_label": "CO2 303K",
+     "source_pixel": [
+      232.32,
+      648.78
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 64,
+     "point_id": "pt-16c4af3dc21f5628",
+     "series_label": "CO2 303K",
+     "source_pixel": [
+      256.0,
+      575.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 65,
+     "point_id": "pt-9918b91ed1365383",
+     "series_label": "CO2 303K",
+     "source_pixel": [
+      308.73,
+      476.03
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 66,
+     "point_id": "pt-669beab04945a59b",
+     "series_label": "CO2 303K",
+     "source_pixel": [
+      402.0,
+      407.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 67,
+     "point_id": "pt-e7787febf4c23236",
+     "series_label": "CO2 303K",
+     "source_pixel": [
+      778.32,
+      345.24
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 68,
+     "point_id": "pt-8703d948109fe3d6",
+     "series_label": "CO2 303K",
+     "source_pixel": [
+      779.88,
+      292.72
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 69,
+     "point_id": "pt-bba7ab3252d2ca10",
+     "series_label": "CO2 303K",
+     "source_pixel": [
+      788.0,
+      347.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 70,
+     "point_id": "pt-6e4eec3d8dbd018a",
+     "series_label": "CO2 303K",
+     "source_pixel": [
+      792.79,
+      340.03
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 71,
+     "point_id": "pt-83d013b198fe285e",
+     "series_label": "CO2 303K",
+     "source_pixel": [
+      918.0,
+      333.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 72,
+     "point_id": "pt-dd5fe68343cd41c4",
+     "series_label": "CO2 303K",
+     "source_pixel": [
+      939.0,
+      322.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 73,
+     "point_id": "pt-af54ce9d3d41f92f",
+     "series_label": "CO2 303K",
+     "source_pixel": [
+      941.01,
+      327.59
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 74,
+     "point_id": "pt-405d47da2682b149",
+     "series_label": "CO2 303K",
+     "source_pixel": [
+      941.97,
+      270.82
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 75,
+     "point_id": "pt-e4a51d0fdd95668f",
+     "series_label": "CO2 303K",
+     "source_pixel": [
+      953.76,
+      328.83
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 76,
+     "point_id": "pt-068a396fe2f339bd",
+     "series_label": "CO2 303K",
+     "source_pixel": [
+      955.15,
+      270.81
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 77,
+     "point_id": "pt-b8dd743d5994ef1b",
+     "series_label": "CO2 303K",
+     "source_pixel": [
+      1001.05,
+      324.87
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 78,
+     "point_id": "pt-ad54f05cc70b28d0",
+     "series_label": "CO2 303K",
+     "source_pixel": [
+      1070.9,
+      261.86
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 79,
+     "point_id": "pt-739de319f2827440",
+     "series_label": "CO2 313K",
+     "source_pixel": [
+      296.69,
+      439.97
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 80,
+     "point_id": "pt-2b3eb8ec4844299a",
+     "series_label": "CO2 313K",
+     "source_pixel": [
+      308.42,
+      431.92
+     ],
+     "reason": "low_confidence_or_overlap"
+    }
+   ]
+  },
+  {
+   "tile_id": "marker_03",
+   "native_tile": "tile_03_native.png",
+   "candidate_tile": "tile_03_candidate.png",
+   "boxes": [
+    {
+     "box": 81,
+     "point_id": "pt-207ba635e261b886",
+     "series_label": "CO2 313K",
+     "source_pixel": [
+      347.06,
+      404.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 82,
+     "point_id": "pt-fa47233f7f2ce8cd",
+     "series_label": "CO2 313K",
+     "source_pixel": [
+      351.05,
+      397.12
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 83,
+     "point_id": "pt-a1c318fb17b4361a",
+     "series_label": "CO2 313K",
+     "source_pixel": [
+      506.0,
+      349.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 84,
+     "point_id": "pt-43571d98ba523f88",
+     "series_label": "CO2 313K",
+     "source_pixel": [
+      599.0,
+      335.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 85,
+     "point_id": "pt-3003569abfaf347f",
+     "series_label": "CO2 313K",
+     "source_pixel": [
+      694.0,
+      323.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 86,
+     "point_id": "pt-52778093f8b8a96b",
+     "series_label": "CO2 313K",
+     "source_pixel": [
+      726.0,
+      314.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 87,
+     "point_id": "pt-863642613f3c8748",
+     "series_label": "CO2 313K",
+     "source_pixel": [
+      937.0,
+      289.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 88,
+     "point_id": "pt-25b12318e90da68c",
+     "series_label": "CO2 313K",
+     "source_pixel": [
+      1002.6,
+      284.26
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 89,
+     "point_id": "pt-722f34de04012de1",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      225.0,
+      519.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 90,
+     "point_id": "pt-a41b2e7b66755018",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      247.0,
+      479.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 91,
+     "point_id": "pt-29ecaa8927c9168a",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      255.0,
+      476.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 92,
+     "point_id": "pt-ef914aa49cc06210",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      277.0,
+      459.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 93,
+     "point_id": "pt-37742fedf2536c99",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      280.0,
+      519.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 94,
+     "point_id": "pt-a1328e6a2ca54c01",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      366.89,
+      328.96
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 95,
+     "point_id": "pt-83941250c91f8b95",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      378.79,
+      358.98
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 96,
+     "point_id": "pt-4c482ac3142027db",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      400.0,
+      417.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 97,
+     "point_id": "pt-25ebb52e4062fdeb",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      412.49,
+      394.07
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 98,
+     "point_id": "pt-27edf4e685e6a41c",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      424.81,
+      388.78
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 99,
+     "point_id": "pt-e182ae11b1ccca83",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      425.3,
+      344.4
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 100,
+     "point_id": "pt-8ef6fae49fcefed2",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      429.0,
+      325.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 101,
+     "point_id": "pt-8cd608fea725ae6c",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      434.97,
+      343.68
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 102,
+     "point_id": "pt-b4d2570e2f0d5bad",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      453.1,
+      287.56
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 103,
+     "point_id": "pt-e8774bdf341d5eaf",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      468.11,
+      331.07
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 104,
+     "point_id": "pt-9fa6aa754e8e3ff9",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      477.33,
+      330.59
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 105,
+     "point_id": "pt-31894a37a2b74fa6",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      508.37,
+      317.2
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 106,
+     "point_id": "pt-45674a0918e688d3",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      516.74,
+      316.83
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 107,
+     "point_id": "pt-120d5b85c434be32",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      531.42,
+      318.64
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 108,
+     "point_id": "pt-3bbaafa0a5af3a66",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      538.43,
+      362.75
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 109,
+     "point_id": "pt-bf132ad6f5e72d48",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      549.98,
+      357.32
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 110,
+     "point_id": "pt-15c9a7f99b6f2794",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      559.54,
+      307.06
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 111,
+     "point_id": "pt-5c0a97eb27fea2ee",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      565.0,
+      341.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 112,
+     "point_id": "pt-37d7523ca1cf453a",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      568.51,
+      307.54
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 113,
+     "point_id": "pt-fcc5d57e4c132f31",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      569.0,
+      371.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 114,
+     "point_id": "pt-668b663fa30979b2",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      595.49,
+      350.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 115,
+     "point_id": "pt-8af6686a8d8ca9f6",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      607.0,
+      394.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 116,
+     "point_id": "pt-c70c33d7d5aef55d",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      618.0,
+      394.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 117,
+     "point_id": "pt-ae0c7cf29978eb43",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      653.0,
+      386.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 118,
+     "point_id": "pt-35a7a4972f8ca1aa",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      679.0,
+      379.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 119,
+     "point_id": "pt-c8920a0e79335f3e",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      716.25,
+      364.21
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 120,
+     "point_id": "pt-92f94f57884197d6",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      724.0,
+      350.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    }
+   ]
+  },
+  {
+   "tile_id": "marker_04",
+   "native_tile": "tile_04_native.png",
+   "candidate_tile": "tile_04_candidate.png",
+   "boxes": [
+    {
+     "box": 121,
+     "point_id": "pt-0dde845cbc5ad5d0",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      728.0,
+      377.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 122,
+     "point_id": "pt-2e3ba6e6250c4d41",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      750.99,
+      360.45
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 123,
+     "point_id": "pt-a2c9cde7b3b55be3",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      763.59,
+      360.12
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 124,
+     "point_id": "pt-95306c38248c6ac4",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      781.0,
+      345.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 125,
+     "point_id": "pt-6cf2d08eff7cca5d",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      791.0,
+      378.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 126,
+     "point_id": "pt-1d0800ef37c3ec83",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      822.0,
+      337.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 127,
+     "point_id": "pt-588bd4d462a87bf5",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      846.0,
+      363.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 128,
+     "point_id": "pt-06ab556ecde7d048",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      867.0,
+      367.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 129,
+     "point_id": "pt-97b0129adffa580e",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      910.0,
+      333.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 130,
+     "point_id": "pt-0c47ea872cb5d284",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      916.0,
+      333.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 131,
+     "point_id": "pt-082606dd988b6168",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      923.43,
+      315.86
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 132,
+     "point_id": "pt-a6a80236691693ee",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      929.45,
+      305.98
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 133,
+     "point_id": "pt-6b73dd334a501d6a",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      961.0,
+      293.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 134,
+     "point_id": "pt-70caabad5a1d08a7",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      963.94,
+      312.11
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 135,
+     "point_id": "pt-bdbf9c249e1cb2d4",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      221.0,
+      634.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 136,
+     "point_id": "pt-7994891bd7d103f3",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      223.0,
+      667.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 137,
+     "point_id": "pt-56f0e7fa500ea8d7",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      233.0,
+      603.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 138,
+     "point_id": "pt-397916a4aa0d1057",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      269.0,
+      593.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 139,
+     "point_id": "pt-1ec2fd51b8e35e1f",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      293.0,
+      478.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 140,
+     "point_id": "pt-3020d2f9d5e67049",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      371.29,
+      446.19
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 141,
+     "point_id": "pt-4e6e378a6b125f35",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      427.0,
+      444.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 142,
+     "point_id": "pt-40fe19b376d813d0",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      490.22,
+      402.53
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 143,
+     "point_id": "pt-30eb7a705190bd48",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      498.69,
+      398.09
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 144,
+     "point_id": "pt-468685e2ee78baaa",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      501.96,
+      427.58
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 145,
+     "point_id": "pt-742837ac2c766000",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      534.98,
+      423.51
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 146,
+     "point_id": "pt-02ff611ab1490a2a",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      535.81,
+      392.62
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 147,
+     "point_id": "pt-fc6573dcd24c5525",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      545.15,
+      390.55
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 148,
+     "point_id": "pt-68c2f65bb43c5dd0",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      550.0,
+      416.2
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 149,
+     "point_id": "pt-ff602a2ac07bdce2",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      582.85,
+      410.98
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 150,
+     "point_id": "pt-41d159da2a11c3b0",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      592.67,
+      408.93
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 151,
+     "point_id": "pt-cb02a7a629e9c507",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      594.0,
+      394.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 152,
+     "point_id": "pt-6fb8c483bd30e39e",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      707.41,
+      365.82
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 153,
+     "point_id": "pt-0a44f4c2abfe70a2",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      727.0,
+      401.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 154,
+     "point_id": "pt-14149086587816da",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      754.78,
+      387.61
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 155,
+     "point_id": "pt-fba7f6140b15c662",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      763.88,
+      386.04
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 156,
+     "point_id": "pt-1d606c21dd8e133d",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      766.71,
+      412.12
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 157,
+     "point_id": "pt-bce7d566e16565b9",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      790.0,
+      395.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 158,
+     "point_id": "pt-31528815f59692c6",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      837.48,
+      379.93
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 159,
+     "point_id": "pt-2bdd174e69ac64c5",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      886.0,
+      387.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 160,
+     "point_id": "pt-ca771f872370b305",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      910.0,
+      386.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    }
+   ]
+  },
+  {
+   "tile_id": "marker_05",
+   "native_tile": "tile_05_native.png",
+   "candidate_tile": "tile_05_candidate.png",
+   "boxes": [
+    {
+     "box": 161,
+     "point_id": "pt-29d895dd6f4e7b27",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      914.0,
+      412.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 162,
+     "point_id": "pt-d2d742a3c45e8126",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      966.97,
+      395.57
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 163,
+     "point_id": "pt-d684ff35e84016f9",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      971.21,
+      420.59
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 164,
+     "point_id": "pt-1751c01461669545",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      971.76,
+      368.45
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 165,
+     "point_id": "pt-452070edc863317a",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      979.94,
+      367.17
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 166,
+     "point_id": "pt-25f011f52058a0f7",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      981.1,
+      418.98
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 167,
+     "point_id": "pt-531b4fb7279d78c1",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      983.01,
+      392.75
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 168,
+     "point_id": "pt-b6381586a4416a2c",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      1014.05,
+      367.05
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 169,
+     "point_id": "pt-bba6b00e1a1ecd7b",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      1015.55,
+      392.5
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 170,
+     "point_id": "pt-a73c96dc48d003e9",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      1016.6,
+      416.19
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 171,
+     "point_id": "pt-329ff7ba2b0dd5ac",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      1017.84,
+      339.14
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 172,
+     "point_id": "pt-cbaff3bd3780bd4d",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      1024.54,
+      365.33
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 173,
+     "point_id": "pt-64082ef3a1ed152d",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      1024.75,
+      390.17
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 174,
+     "point_id": "pt-95b8df6ef203b8a9",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      1056.1,
+      337.06
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 175,
+     "point_id": "pt-81ab5ef9118c7870",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      1057.1,
+      364.73
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 176,
+     "point_id": "pt-784a1aa23dbb685c",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      1057.53,
+      389.85
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 177,
+     "point_id": "pt-b228f3ba13588d6c",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      1057.86,
+      413.56
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 178,
+     "point_id": "pt-414462d280e5764a",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      1064.76,
+      363.34
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 179,
+     "point_id": "pt-c01e5bc8691897bc",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      1064.91,
+      388.02
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 180,
+     "point_id": "pt-5ad5bbf76b2cf368",
+     "series_label": "CO2 343K",
+     "source_pixel": [
+      256.21,
+      640.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 181,
+     "point_id": "pt-504a9f7dde848fad",
+     "series_label": "CO2 343K",
+     "source_pixel": [
+      265.35,
+      627.36
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 182,
+     "point_id": "pt-d9dcae291d034a72",
+     "series_label": "CO2 343K",
+     "source_pixel": [
+      345.09,
+      530.33
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 183,
+     "point_id": "pt-e4ff447670fd257a",
+     "series_label": "CO2 343K",
+     "source_pixel": [
+      348.27,
+      521.99
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 184,
+     "point_id": "pt-23483a1b754746e9",
+     "series_label": "CO2 343K",
+     "source_pixel": [
+      379.0,
+      499.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 185,
+     "point_id": "pt-4b11b162e4148572",
+     "series_label": "CO2 343K",
+     "source_pixel": [
+      512.57,
+      440.33
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 186,
+     "point_id": "pt-bcf44ef658a5e3f4",
+     "series_label": "CO2 343K",
+     "source_pixel": [
+      524.29,
+      441.58
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 187,
+     "point_id": "pt-87beacc6fbb0818d",
+     "series_label": "CO2 343K",
+     "source_pixel": [
+      559.42,
+      431.84
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 188,
+     "point_id": "pt-26be30ca142746ce",
+     "series_label": "CO2 343K",
+     "source_pixel": [
+      570.87,
+      425.03
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 189,
+     "point_id": "pt-e355c3032bba5f4c",
+     "series_label": "CO2 343K",
+     "source_pixel": [
+      728.0,
+      398.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 190,
+     "point_id": "pt-c4e008b2097acfd3",
+     "series_label": "CO2 343K",
+     "source_pixel": [
+      742.0,
+      400.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 191,
+     "point_id": "pt-1bdc38b1b9195593",
+     "series_label": "CO2 343K",
+     "source_pixel": [
+      779.05,
+      398.82
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 192,
+     "point_id": "pt-052b9d9c652efb5b",
+     "series_label": "CO2 343K",
+     "source_pixel": [
+      791.34,
+      392.79
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 193,
+     "point_id": "pt-bb42cdfe98f3ce99",
+     "series_label": "CO2 343K",
+     "source_pixel": [
+      943.05,
+      381.62
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 194,
+     "point_id": "pt-db2d58ad1711e7bd",
+     "series_label": "CO2 343K",
+     "source_pixel": [
+      955.4,
+      381.78
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 195,
+     "point_id": "pt-63823e1ed6032646",
+     "series_label": "CO2 353K",
+     "source_pixel": [
+      266.06,
+      649.84
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 196,
+     "point_id": "pt-e61639e624a57c40",
+     "series_label": "CO2 353K",
+     "source_pixel": [
+      275.93,
+      638.57
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 197,
+     "point_id": "pt-aad09974609a695d",
+     "series_label": "CO2 353K",
+     "source_pixel": [
+      368.99,
+      553.89
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 198,
+     "point_id": "pt-e59dbde9ac13b67b",
+     "series_label": "CO2 353K",
+     "source_pixel": [
+      510.44,
+      475.8
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 199,
+     "point_id": "pt-5d6e30d707d635df",
+     "series_label": "CO2 353K",
+     "source_pixel": [
+      525.86,
+      478.58
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 200,
+     "point_id": "pt-1a8397a6c07bcce6",
+     "series_label": "CO2 353K",
+     "source_pixel": [
+      571.81,
+      460.73
+     ],
+     "reason": "low_confidence_or_overlap"
+    }
+   ]
+  },
+  {
+   "tile_id": "marker_06",
+   "native_tile": "tile_06_native.png",
+   "candidate_tile": "tile_06_candidate.png",
+   "boxes": [
+    {
+     "box": 201,
+     "point_id": "pt-8c341836e173a45d",
+     "series_label": "CO2 353K",
+     "source_pixel": [
+      725.0,
+      431.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 202,
+     "point_id": "pt-2dc089799e54a08a",
+     "series_label": "CO2 353K",
+     "source_pixel": [
+      742.0,
+      428.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 203,
+     "point_id": "pt-dbccc9c5c238002b",
+     "series_label": "CO2 353K",
+     "source_pixel": [
+      940.03,
+      407.02
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 204,
+     "point_id": "pt-5470afe7bc05d6c6",
+     "series_label": "CO2 353K",
+     "source_pixel": [
+      956.29,
+      409.97
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 205,
+     "point_id": "pt-b9c7fc1ec154d379",
+     "series_label": "CO2 363K",
+     "source_pixel": [
+      368.99,
+      590.9
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 206,
+     "point_id": "pt-a182661ae78a7a18",
+     "series_label": "CO2 363K",
+     "source_pixel": [
+      501.0,
+      523.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 207,
+     "point_id": "pt-e1c82b20fd1dfef4",
+     "series_label": "CO2 363K",
+     "source_pixel": [
+      569.11,
+      495.55
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 208,
+     "point_id": "pt-2cc1c57275767ee6",
+     "series_label": "CO2 363K",
+     "source_pixel": [
+      594.0,
+      492.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 209,
+     "point_id": "pt-4aa9828b93ecb2dd",
+     "series_label": "CO2 363K",
+     "source_pixel": [
+      679.01,
+      470.36
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 210,
+     "point_id": "pt-758e353fbb716a06",
+     "series_label": "CO2 363K",
+     "source_pixel": [
+      709.0,
+      466.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 211,
+     "point_id": "pt-21125f92c242116b",
+     "series_label": "CO2 363K",
+     "source_pixel": [
+      748.0,
+      457.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 212,
+     "point_id": "pt-48f6639e255c0eb3",
+     "series_label": "CO2 363K",
+     "source_pixel": [
+      936.0,
+      432.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 213,
+     "point_id": "pt-2e0e6d0cd986dd0f",
+     "series_label": "CO2 363K",
+     "source_pixel": [
+      954.35,
+      432.67
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 214,
+     "point_id": "pt-6f54186396b7b71d",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      283.2,
+      566.95
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 215,
+     "point_id": "pt-99551d32abaef3cc",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      326.09,
+      632.75
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 216,
+     "point_id": "pt-ffdff4d50b313e60",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      334.23,
+      628.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 217,
+     "point_id": "pt-6b0d90fe87b485d3",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      360.0,
+      585.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 218,
+     "point_id": "pt-75fbf500dcd8d193",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      367.88,
+      535.37
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 219,
+     "point_id": "pt-fea2b452d70e86e5",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      369.83,
+      486.25
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 220,
+     "point_id": "pt-5d2adcf7515b24e6",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      371.38,
+      527.53
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 221,
+     "point_id": "pt-a4173776a929b013",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      377.0,
+      472.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 222,
+     "point_id": "pt-388777f94cc2edc3",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      378.52,
+      563.23
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 223,
+     "point_id": "pt-feed39d896b296fb",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      381.0,
+      529.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 224,
+     "point_id": "pt-134d4f1c5a804c71",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      412.61,
+      506.04
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 225,
+     "point_id": "pt-b1adf04430a02a44",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      459.97,
+      440.75
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 226,
+     "point_id": "pt-4b21512871a19d7c",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      468.0,
+      559.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 227,
+     "point_id": "pt-3a1f6d8bc67d121f",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      471.42,
+      475.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 228,
+     "point_id": "pt-8c11b613dc08fe58",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      492.38,
+      434.3
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 229,
+     "point_id": "pt-74e4d304944c3726",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      500.31,
+      500.48
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 230,
+     "point_id": "pt-c0600e13d421af7d",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      508.0,
+      544.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 231,
+     "point_id": "pt-d28b70b98c88da55",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      511.75,
+      537.26
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 232,
+     "point_id": "pt-2bfbb4bbfdd901b9",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      551.0,
+      445.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 233,
+     "point_id": "pt-75881c7a06a660d7",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      587.31,
+      441.7
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 234,
+     "point_id": "pt-a4cdb671c51e9b9b",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      607.02,
+      511.93
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 235,
+     "point_id": "pt-dcff3b2651dc8681",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      614.97,
+      510.91
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 236,
+     "point_id": "pt-35e53f5ce541f12e",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      625.37,
+      502.84
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 237,
+     "point_id": "pt-935c4a3b53df28c9",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      662.0,
+      466.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 238,
+     "point_id": "pt-9c64eded7009f0ff",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      676.61,
+      490.07
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 239,
+     "point_id": "pt-cbafb85439274eed",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      693.0,
+      496.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 240,
+     "point_id": "pt-5b417407139d6e26",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      703.86,
+      423.57
+     ],
+     "reason": "low_confidence_or_overlap"
+    }
+   ]
+  },
+  {
+   "tile_id": "marker_07",
+   "native_tile": "tile_07_native.png",
+   "candidate_tile": "tile_07_candidate.png",
+   "boxes": [
+    {
+     "box": 241,
+     "point_id": "pt-578525bc9af002bb",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      706.0,
+      453.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 242,
+     "point_id": "pt-9c428f735b878955",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      713.04,
+      480.57
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 243,
+     "point_id": "pt-63856d6f9a143d1c",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      737.71,
+      482.93
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 244,
+     "point_id": "pt-d666d27e87aab830",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      749.18,
+      481.67
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 245,
+     "point_id": "pt-4b758eeb4f3c7049",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      756.33,
+      473.62
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 246,
+     "point_id": "pt-4ab86642ad6de3a2",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      822.81,
+      468.2
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 247,
+     "point_id": "pt-cdeae33560c39d56",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      833.0,
+      469.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 248,
+     "point_id": "pt-4149040f486eff18",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      870.24,
+      462.05
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 249,
+     "point_id": "pt-145e27b14f05f425",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      880.0,
+      463.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 250,
+     "point_id": "pt-b7b496c8b0eab68b",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      939.0,
+      453.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 251,
+     "point_id": "pt-b0aa760e5e76c0e5",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      960.7,
+      452.86
+     ],
+     "reason": "low_confidence_or_overlap"
+    }
+   ]
+  },
+  {
+   "tile_id": "region_01",
+   "native_tile": "region_01_native.png",
+   "candidate_tile": "region_01_candidate.png",
+   "boxes": [],
+   "reason": "Agent 02 complex-region search"
+  },
+  {
+   "tile_id": "region_02",
+   "native_tile": "region_02_native.png",
+   "candidate_tile": "region_02_candidate.png",
+   "boxes": [],
+   "reason": "Agent 02 complex-region search"
+  },
+  {
+   "tile_id": "region_03",
+   "native_tile": "region_03_native.png",
+   "candidate_tile": "region_03_candidate.png",
+   "boxes": [],
+   "reason": "Agent 02 complex-region search"
+  }
+ ],
+ "dense_region_evidence": [
+  "dense_roi_native.png",
+  "dense_roi_line_suppressed.png",
+  "dense_roi_series_likelihood.png",
+  "dense_roi_proposed_assignments.png",
+  "ambiguity_assignment_scores.png",
+  "assignment_diagnostics.json"
+ ],
+ "ambiguity_native_evidence_tiles": [
+  "ambiguity_001_native.png",
+  "ambiguity_002_native.png",
+  "ambiguity_003_native.png",
+  "ambiguity_004_native.png",
+  "ambiguity_005_native.png",
+  "ambiguity_006_native.png",
+  "ambiguity_007_native.png",
+  "ambiguity_008_native.png",
+  "ambiguity_009_native.png",
+  "ambiguity_010_native.png",
+  "ambiguity_011_native.png",
+  "ambiguity_012_native.png",
+  "ambiguity_013_native.png",
+  "ambiguity_014_native.png",
+  "ambiguity_015_native.png",
+  "ambiguity_016_native.png",
+  "ambiguity_017_native.png",
+  "ambiguity_018_native.png",
+  "ambiguity_019_native.png",
+  "ambiguity_020_native.png",
+  "ambiguity_021_native.png",
+  "ambiguity_022_native.png",
+  "ambiguity_023_native.png",
+  "ambiguity_024_native.png",
+  "ambiguity_025_native.png",
+  "ambiguity_026_native.png",
+  "ambiguity_027_native.png",
+  "ambiguity_028_native.png",
+  "ambiguity_029_native.png",
+  "ambiguity_030_native.png",
+  "ambiguity_031_native.png",
+  "ambiguity_032_native.png",
+  "ambiguity_033_native.png",
+  "ambiguity_034_native.png",
+  "ambiguity_035_native.png",
+  "ambiguity_036_native.png",
+  "ambiguity_037_native.png",
+  "ambiguity_038_native.png",
+  "ambiguity_039_native.png",
+  "ambiguity_040_native.png",
+  "ambiguity_041_native.png",
+  "ambiguity_042_native.png",
+  "ambiguity_043_native.png",
+  "ambiguity_044_native.png",
+  "ambiguity_045_native.png",
+  "ambiguity_046_native.png",
+  "ambiguity_047_native.png",
+  "ambiguity_048_native.png",
+  "ambiguity_049_native.png",
+  "ambiguity_050_native.png",
+  "ambiguity_051_native.png",
+  "ambiguity_052_native.png",
+  "ambiguity_053_native.png",
+  "ambiguity_054_native.png",
+  "ambiguity_055_native.png",
+  "ambiguity_056_native.png",
+  "ambiguity_057_native.png",
+  "ambiguity_058_native.png",
+  "ambiguity_059_native.png",
+  "ambiguity_060_native.png",
+  "ambiguity_061_native.png",
+  "ambiguity_062_native.png",
+  "ambiguity_063_native.png",
+  "ambiguity_064_native.png",
+  "ambiguity_065_native.png",
+  "ambiguity_066_native.png",
+  "ambiguity_067_native.png",
+  "ambiguity_068_native.png",
+  "ambiguity_069_native.png",
+  "ambiguity_070_native.png",
+  "ambiguity_071_native.png",
+  "ambiguity_072_native.png",
+  "ambiguity_073_native.png",
+  "ambiguity_074_native.png",
+  "ambiguity_075_native.png",
+  "ambiguity_076_native.png",
+  "ambiguity_077_native.png",
+  "ambiguity_078_native.png",
+  "ambiguity_079_native.png",
+  "ambiguity_080_native.png"
+ ],
+ "instructions": "Native tiles are source truth. Candidate tiles identify Python proposals only. Search every complex-region native tile for missed CO2 markers; never use an annotated ring or count as coordinate evidence."
+}

@@ -3,8 +3,8 @@
 __pycache__/
 *.pyc
 .pytest_cache/
-artifacts/
-data/input/*
+# artifacts/
+# # data/input/*
 !data/input/.keep
 evaluations/cases/
 fixtures/

@@ -1,0 +1,113 @@
+{
+ "reasoning": "One linear axis frame contains two directly labeled uptake isotherms. The upper blue curve is bound to CO2 by the in-plot label “CO2@195 K” and the caption; it is an eligible equilibrium CO2 uptake series. The lower red curve is bound to N2 by “N2@77 K” and is not eligible. The caption explicitly describes both measurements as adsorption–desorption isotherms, although the paired branches overlap closely over much of the range. The inset is excluded from all readings.",
+ "x": {
+  "title": "Relative Pressure (P/P₀)",
+  "unit": "dimensionless",
+  "scale": "linear",
+  "ticks": [
+   0,
+   0.2,
+   0.4,
+   0.6,
+   0.8,
+   1
+  ],
+  "x_setpoints_visible": [
+   0.04,
+   0.08,
+   0.12,
+   0.16,
+   0.2,
+   0.24,
+   0.28,
+   0.32,
+   0.36,
+   0.4,
+   0.44,
+   0.48,
+   0.52,
+   0.56,
+   0.6,
+   0.64,
+   0.68,
+   0.72,
+   0.76,
+   0.8,
+   0.84,
+   0.88,
+   0.92,
+   0.96,
+   1
+  ]
+ },
+ "y": {
+  "title": "Uptake",
+  "unit": "cm³ g⁻¹",
+  "scale": "linear",
+  "ticks": [
+   0,
+   20,
+   40,
+   60,
+   80,
+   100,
+   120,
+   140
+  ]
+ },
+ "legend_bbox_norm": [
+  0.67,
+  0.245,
+  0.91,
+  0.73
+ ],
+ "legend_position": "right side inside plot; direct labels rather than a conventional legend box",
+ "series": [
+  {
+   "label": "CO2 195K",
+   "gas": "CO2",
+   "species_evidence": "Direct in-plot label “CO2@195 K”; caption states “CO₂ adsorption–desorption isotherm at 195 K.”",
+   "temperature_k": 195,
+   "color_name": "blue",
+   "color_hex": "#6878FF",
+   "marker": "circle",
+   "marker_fill": "open",
+   "line_style": "solid",
+   "has_line": true,
+   "quantity_type": "co2_uptake",
+   "loading_basis": "cm³ per gram of NUM-27a",
+   "extract": true,
+   "y_anchors": {
+    "p25": 122,
+    "p50": 123,
+    "p75": 124,
+    "p100": 126
+   },
+   "n_markers_estimate": 34
+  },
+  {
+   "label": "N2 77K",
+   "gas": "N2",
+   "species_evidence": "Direct in-plot label “N2@77 K”; caption states “N₂ adsorption–desorption isotherm at 77 K.”",
+   "temperature_k": 77,
+   "color_name": "red",
+   "color_hex": "#FF5C5C",
+   "marker": "circle",
+   "marker_fill": "open",
+   "line_style": "solid",
+   "has_line": true,
+   "quantity_type": "n2_uptake",
+   "loading_basis": "cm³ per gram of NUM-27a",
+   "extract": false,
+   "y_anchors": {
+    "p25": 1.4,
+    "p50": 1.5,
+    "p75": 1.7,
+    "p100": 2
+   },
+   "n_markers_estimate": 27
+  }
+ ],
+ "branches": "adsorption_and_desorption",
+ "notes": "A semilogarithmic low-pressure inset for the CO2 isotherm occupies approximately [0.32, 0.33, 0.71, 0.72] of the image and is excluded. Single y-axis; no visible error bars. Adsorption and desorption branches are very closely overlapping, and both gases use open circular markers with solid connecting lines; color and direct labels distinguish them."
+}

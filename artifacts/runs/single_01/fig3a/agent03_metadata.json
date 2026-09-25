@@ -1,0 +1,952 @@
+{
+ "schema_version": "4.0",
+ "stage": "agent03",
+ "figure_id": "fig3a",
+ "panel_id": "a",
+ "source_pdf": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\data\\input\\single_01.png",
+ "image_sha256": "ce68f06a35ddd21cfa4c292f99fe5638238f98453a90e1c0d9cb9a557c71bc0e",
+ "status": "agent03_adjusted",
+ "plot_bbox": [
+  74,
+  47,
+  287,
+  218
+ ],
+ "series": [
+  {
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "series_name": "CO2 195K",
+   "species": "CO2",
+   "export_eligible": true,
+   "species_evidence": "Direct in-plot label \u201cCO2@195 K\u201d; caption states \u201cCO\u2082 adsorption\u2013desorption isotherm at 195 K.\u201d",
+   "marker_shape": "circle",
+   "marker_fill": "open",
+   "marker_glyph": null,
+   "color_hex": "#6878ff",
+   "line_style": "solid",
+   "axis_x_id": "x",
+   "axis_y_id": "y",
+   "quantity_type": "co2_uptake",
+   "loading_basis": "cm\u00b3 per gram of NUM-27a"
+  }
+ ],
+ "axes": [
+  {
+   "axis_id": "x",
+   "scale": "linear",
+   "unit": "dimensionless",
+   "quantity_type": "Relative Pressure (P/P\u2080)",
+   "calibration_status": "valid",
+   "a": 0.0051506863160022485,
+   "b": -0.43141577547707344,
+   "anchors": [
+    {
+     "pixel": 84.0,
+     "value": 0.0
+    },
+    {
+     "pixel": 122.0,
+     "value": 0.2
+    },
+    {
+     "pixel": 162.0,
+     "value": 0.4
+    },
+    {
+     "pixel": 200.0,
+     "value": 0.6
+    },
+    {
+     "pixel": 239.0,
+     "value": 0.8
+    },
+    {
+     "pixel": 278.0,
+     "value": 1.0
+    }
+   ],
+   "equation": "value=a*pixel+b"
+  },
+  {
+   "axis_id": "y",
+   "scale": "linear",
+   "unit": "cm\u00b3 g\u207b\u00b9",
+   "quantity_type": "Uptake",
+   "calibration_status": "valid",
+   "a": -0.8754212594159675,
+   "b": 181.2879276032549,
+   "anchors": [
+    {
+     "pixel": 47.0,
+     "value": 140.0
+    },
+    {
+     "pixel": 70.0,
+     "value": 120.0
+    },
+    {
+     "pixel": 93.0,
+     "value": 100.0
+    },
+    {
+     "pixel": 116.0,
+     "value": 80.0
+    },
+    {
+     "pixel": 138.0,
+     "value": 60.0
+    },
+    {
+     "pixel": 162.0,
+     "value": 40.0
+    },
+    {
+     "pixel": 184.0,
+     "value": 20.0
+    },
+    {
+     "pixel": 207.0,
+     "value": 0.0
+    }
+   ],
+   "equation": "value=a*pixel+b"
+  }
+ ],
+ "instances": [
+  {
+   "source_instance_id": "src-48b9e6137c81bfb9",
+   "point_id": "pt-4f62de10b3346e65",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 84.0,
+   "source_pixel_y": 205.84,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-d4e8c10372cf40a9",
+   "point_id": "pt-2cc770557e8343db",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 84.0,
+   "source_pixel_y": 194.04,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-f48f76a9938df06b",
+   "point_id": "pt-3c71377f4aca926d",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 84.31,
+   "source_pixel_y": 189.04,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-830d61204f221d8b",
+   "point_id": "pt-2928bf13af0abf2e",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 84.45,
+   "source_pixel_y": 180.79,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-5490c78e454e2e87",
+   "point_id": "pt-b98d8e0aa3736507",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 84.51,
+   "source_pixel_y": 184.02,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-4253e50090d7bb34",
+   "point_id": "pt-a40a0c827afa4590",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 84.68,
+   "source_pixel_y": 178.24,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-234b7658a12a99c0",
+   "point_id": "pt-0633961308fd260f",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 85.0,
+   "source_pixel_y": 170.14,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-47a9f1a8a6298895",
+   "point_id": "pt-87dfcc361d45fe48",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 85.4,
+   "source_pixel_y": 162.07,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-e8bffdec35131c45",
+   "point_id": "pt-b4a3e6367a92e96b",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 85.84,
+   "source_pixel_y": 155.12,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-c2b9145da93b2705",
+   "point_id": "pt-2c8265e9b8e57771",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 86.5,
+   "source_pixel_y": 148.5,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-3421698b5f26ab3d",
+   "point_id": "pt-792dd3855bc0399f",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 86.99,
+   "source_pixel_y": 140.95,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-9418ec4b20dc0811",
+   "point_id": "pt-5a3f7b44ca53ff16",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 87.8,
+   "source_pixel_y": 132.88,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-4ac23b717315cb49",
+   "point_id": "pt-f817269899d0007e",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 88.79,
+   "source_pixel_y": 125.1,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-c674b7d928976c55",
+   "point_id": "pt-733142a82fb5e8fb",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 90.0,
+   "source_pixel_y": 117.04,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-88785811359a024d",
+   "point_id": "pt-d2f3152cc0252783",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 91.36,
+   "source_pixel_y": 112.67,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-f462699402c3080f",
+   "point_id": "pt-6bd2e1a1bc64e9c8",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 91.68,
+   "source_pixel_y": 110.24,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-6ce82d081bf0f6a1",
+   "point_id": "pt-657934db3255a634",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 92.11,
+   "source_pixel_y": 99.87,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-454a14b505290356",
+   "point_id": "pt-04cc1c5478f8062d",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 92.49,
+   "source_pixel_y": 95.08,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-8c1e2dba003d9cfd",
+   "point_id": "pt-31b8b5031e6f34f5",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 92.99,
+   "source_pixel_y": 90.91,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-cded6c05f4778879",
+   "point_id": "pt-616d0047adfd6ad4",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 94.02,
+   "source_pixel_y": 83.96,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-ccc64edff00ca2a9",
+   "point_id": "pt-f71c0ef56e11bb12",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 95.01,
+   "source_pixel_y": 78.12,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-cfc17fd39ecad01f",
+   "point_id": "pt-e89d25f4ac85a050",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 96.01,
+   "source_pixel_y": 75.06,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-da0b78edc2b02deb",
+   "point_id": "pt-afc18d6f830819db",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 97.52,
+   "source_pixel_y": 72.1,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-bf5572cc8d7cfd2a",
+   "point_id": "pt-84a96fccba1ff1a0",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 98.71,
+   "source_pixel_y": 70.06,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-01ec1be1d895b941",
+   "point_id": "pt-9b538d3ed8ef9af0",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 100.91,
+   "source_pixel_y": 69.34,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-8ac07430be0cf8f6",
+   "point_id": "pt-aabe108efd14b7c7",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 105.81,
+   "source_pixel_y": 68.65,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-a1c572822458bc99",
+   "point_id": "pt-9c290a05967939cb",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 117.04,
+   "source_pixel_y": 68.16,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-7abc2f64683fc6e0",
+   "point_id": "pt-20684039ea6432ab",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 126.7,
+   "source_pixel_y": 67.22,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-567138d061382bd6",
+   "point_id": "pt-04092880a299227a",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 135.5,
+   "source_pixel_y": 67.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-0ebebe4952ff9b82",
+   "point_id": "pt-5e513378792217fc",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 170.3,
+   "source_pixel_y": 66.1,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-9f96457452e1c2bd",
+   "point_id": "pt-9d7e649b4ce9451f",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 200.0,
+   "source_pixel_y": 65.05,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-bd6729c102466800",
+   "point_id": "pt-aade45cd28cc6a67",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 256.88,
+   "source_pixel_y": 64.45,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-e61328a70b7db192",
+   "point_id": "pt-0b8786b1734fd26e",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 261.67,
+   "source_pixel_y": 64.12,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-0f7fe46d65caebd7",
+   "point_id": "pt-30c417427d82718c",
+   "series_id": "fig3a:a:co2-195k-d3fd5c48",
+   "state": "resolved",
+   "source_pixel_x": 271.5,
+   "source_pixel_y": 63.5,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  }
+ ],
+ "coverage": [
+  {
+   "bbox": [
+    74,
+    47,
+    287,
+    218
+   ],
+   "inspected": false
+  }
+ ],
+ "limitations": [
+  "agent03 remains subject to downstream or human review."
+ ],
+ "rejected_masked_points": 0,
+ "unresolved_slots": {
+  "total": 0,
+  "by_series": {},
+  "slots": []
+ },
+ "unresolved_accounting_valid": true,
+ "row_count": 34,
+ "agent_report": {
+  "reasoning": "The CO2 195K series is visibly present as blue open circles along the steep low-pressure rise and plateau. Python captured 18 markers but missed 16 visible markers, primarily in the dense rise. The inset is excluded. No proposed CO2 point is clearly false or requires reassignment.",
+  "verdict": "review",
+  "series": [
+   {
+    "label": "CO2 195K",
+    "coverage": "complete",
+    "final_count": 34,
+    "comment": "Added 16 blue open-circle markers visible in the dense low-pressure rise and on the plateau; the inset remains excluded."
+   }
+  ],
+  "operations": [
+   {
+    "operation_id": "op-add-01",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "x_norm": 0.2701,
+    "y_norm": 0.698,
+    "overlap": true,
+    "reason": "Missed low-pressure blue open-circle marker.",
+    "source_evidence": "Visible blue ring centered near native pixel (84.0,194.0) on the main-plot steep-rise branch."
+   },
+   {
+    "operation_id": "op-add-02",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "x_norm": 0.2711,
+    "y_norm": 0.68,
+    "overlap": true,
+    "reason": "Missed closely spaced low-pressure marker.",
+    "source_evidence": "Visible blue ring centered near native pixel (84.3,189.0) in the dense main-plot rise."
+   },
+   {
+    "operation_id": "op-add-03",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "x_norm": 0.2733,
+    "y_norm": 0.612,
+    "overlap": true,
+    "reason": "Missed dense-rise marker.",
+    "source_evidence": "Visible blue ring centered near native pixel (84.8,170.0), separate from the supplied rings around y=178\u2013184."
+   },
+   {
+    "operation_id": "op-add-04",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "x_norm": 0.2746,
+    "y_norm": 0.583,
+    "overlap": true,
+    "reason": "Missed dense-rise marker.",
+    "source_evidence": "Visible blue ring centered near native pixel (85.2,162.0) on the blue vertical branch."
+   },
+   {
+    "operation_id": "op-add-05",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "x_norm": 0.276,
+    "y_norm": 0.558,
+    "overlap": true,
+    "reason": "Missed dense-rise marker.",
+    "source_evidence": "Visible blue ring centered near native pixel (85.7,155.0) in the native dense-rise pixels."
+   },
+   {
+    "operation_id": "op-add-06",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "x_norm": 0.2797,
+    "y_norm": 0.507,
+    "overlap": true,
+    "reason": "Missed marker on the rising branch.",
+    "source_evidence": "Visible blue open circle centered near native pixel (87.0,141.0), below the supplied point near (86.5,148.5)."
+   },
+   {
+    "operation_id": "op-add-07",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "x_norm": 0.2823,
+    "y_norm": 0.478,
+    "overlap": true,
+    "reason": "Missed marker on the rising branch.",
+    "source_evidence": "Visible blue ring centered near native pixel (87.8,133.0) in the native steep-rise strip."
+   },
+   {
+    "operation_id": "op-add-08",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "x_norm": 0.2855,
+    "y_norm": 0.45,
+    "overlap": true,
+    "reason": "Missed marker on the rising branch.",
+    "source_evidence": "Visible blue ring centered near native pixel (88.7,125.0), between the dense lower rise and the supplied point near y=112.7."
+   },
+   {
+    "operation_id": "op-add-09",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "x_norm": 0.2894,
+    "y_norm": 0.421,
+    "overlap": true,
+    "reason": "Missed marker immediately below the upper bend.",
+    "source_evidence": "Visible blue open circle centered near native pixel (90.0,117.0) on the main curve."
+   },
+   {
+    "operation_id": "op-add-10",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "x_norm": 0.2974,
+    "y_norm": 0.342,
+    "overlap": true,
+    "reason": "Missed marker on the upper part of the rise.",
+    "source_evidence": "Visible blue ring centered near native pixel (92.5,95.0), above the supplied marker near (92.1,99.9)."
+   },
+   {
+    "operation_id": "op-add-11",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "x_norm": 0.299,
+    "y_norm": 0.327,
+    "overlap": true,
+    "reason": "Missed marker on the upper bend.",
+    "source_evidence": "Visible blue open circle centered near native pixel (93.0,91.0) in the native source branch."
+   },
+   {
+    "operation_id": "op-add-12",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "x_norm": 0.3023,
+    "y_norm": 0.302,
+    "overlap": true,
+    "reason": "Missed marker on the upper bend.",
+    "source_evidence": "Visible blue ring centered near native pixel (94.0,84.0), between the steep branch and plateau."
+   },
+   {
+    "operation_id": "op-add-13",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "x_norm": 0.3055,
+    "y_norm": 0.281,
+    "overlap": true,
+    "reason": "Missed marker approaching the plateau.",
+    "source_evidence": "Visible blue open circle centered near native pixel (95.0,78.0) in the main panel."
+   },
+   {
+    "operation_id": "op-add-14",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "x_norm": 0.3087,
+    "y_norm": 0.27,
+    "overlap": true,
+    "reason": "Missed marker approaching the plateau.",
+    "source_evidence": "Visible blue ring centered near native pixel (96.0,75.0), immediately before the supplied marker near (97.5,72.1)."
+   },
+   {
+    "operation_id": "op-add-15",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "x_norm": 0.3174,
+    "y_norm": 0.252,
+    "overlap": true,
+    "reason": "Missed marker between the bend and plateau points.",
+    "source_evidence": "Visible blue open circle centered near native pixel (98.8,70.0) on the source curve between supplied points near (97.5,72.1) and (100.9,69.3)."
+   },
+   {
+    "operation_id": "op-add-16",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "x_norm": 0.6431,
+    "y_norm": 0.234,
+    "overlap": false,
+    "reason": "Missed blue plateau marker.",
+    "source_evidence": "Visible blue open circle centered near native pixel (200.0,65.0) on the main-plot plateau, outside the inset."
+   }
+  ],
+  "uncertainties": []
+ },
+ "edit_audit": {
+  "schema_version": "1.0",
+  "actor": "agent03_review_points",
+  "requested": 16,
+  "applied": 16,
+  "operations": [
+   {
+    "operation_index": 0,
+    "operation_id": "op-add-01",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "reason": "Missed low-pressure blue open-circle marker.",
+    "source_evidence": "Visible blue ring centered near native pixel (84.0,194.0) on the main-plot steep-rise branch.",
+    "actor": "agent03_review_points",
+    "status": "applied",
+    "source_pixel": [
+     84.0,
+     194.04
+    ]
+   },
+   {
+    "operation_index": 1,
+    "operation_id": "op-add-02",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "reason": "Missed closely spaced low-pressure marker.",
+    "source_evidence": "Visible blue ring centered near native pixel (84.3,189.0) in the dense main-plot rise.",
+    "actor": "agent03_review_points",
+    "status": "applied",
+    "source_pixel": [
+     84.31,
+     189.04
+    ]
+   },
+   {
+    "operation_index": 2,
+    "operation_id": "op-add-03",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "reason": "Missed dense-rise marker.",
+    "source_evidence": "Visible blue ring centered near native pixel (84.8,170.0), separate from the supplied rings around y=178\u2013184.",
+    "actor": "agent03_review_points",
+    "status": "applied",
+    "source_pixel": [
+     85.0,
+     170.14
+    ]
+   },
+   {
+    "operation_index": 3,
+    "operation_id": "op-add-04",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "reason": "Missed dense-rise marker.",
+    "source_evidence": "Visible blue ring centered near native pixel (85.2,162.0) on the blue vertical branch.",
+    "actor": "agent03_review_points",
+    "status": "applied",
+    "source_pixel": [
+     85.4,
+     162.07
+    ]
+   },
+   {
+    "operation_index": 4,
+    "operation_id": "op-add-05",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "reason": "Missed dense-rise marker.",
+    "source_evidence": "Visible blue ring centered near native pixel (85.7,155.0) in the native dense-rise pixels.",
+    "actor": "agent03_review_points",
+    "status": "applied",
+    "source_pixel": [
+     85.84,
+     155.12
+    ]
+   },
+   {
+    "operation_index": 5,
+    "operation_id": "op-add-06",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "reason": "Missed marker on the rising branch.",
+    "source_evidence": "Visible blue open circle centered near native pixel (87.0,141.0), below the supplied point near (86.5,148.5).",
+    "actor": "agent03_review_points",
+    "status": "applied",
+    "source_pixel": [
+     86.99,
+     140.95
+    ]
+   },
+   {
+    "operation_index": 6,
+    "operation_id": "op-add-07",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "reason": "Missed marker on the rising branch.",
+    "source_evidence": "Visible blue ring centered near native pixel (87.8,133.0) in the native steep-rise strip.",
+    "actor": "agent03_review_points",
+    "status": "applied",
+    "source_pixel": [
+     87.8,
+     132.88
+    ]
+   },
+   {
+    "operation_index": 7,
+    "operation_id": "op-add-08",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "reason": "Missed marker on the rising branch.",
+    "source_evidence": "Visible blue ring centered near native pixel (88.7,125.0), between the dense lower rise and the supplied point near y=112.7.",
+    "actor": "agent03_review_points",
+    "status": "applied",
+    "source_pixel": [
+     88.79,
+     125.1
+    ]
+   },
+   {
+    "operation_index": 8,
+    "operation_id": "op-add-09",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "reason": "Missed marker immediately below the upper bend.",
+    "source_evidence": "Visible blue open circle centered near native pixel (90.0,117.0) on the main curve.",
+    "actor": "agent03_review_points",
+    "status": "applied",
+    "source_pixel": [
+     90.0,
+     117.04
+    ]
+   },
+   {
+    "operation_index": 9,
+    "operation_id": "op-add-10",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "reason": "Missed marker on the upper part of the rise.",
+    "source_evidence": "Visible blue ring centered near native pixel (92.5,95.0), above the supplied marker near (92.1,99.9).",
+    "actor": "agent03_review_points",
+    "status": "applied",
+    "source_pixel": [
+     92.49,
+     95.08
+    ]
+   },
+   {
+    "operation_index": 10,
+    "operation_id": "op-add-11",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "reason": "Missed marker on the upper bend.",
+    "source_evidence": "Visible blue open circle centered near native pixel (93.0,91.0) in the native source branch.",
+    "actor": "agent03_review_points",
+    "status": "applied",
+    "source_pixel": [
+     92.99,
+     90.91
+    ]
+   },
+   {
+    "operation_index": 11,
+    "operation_id": "op-add-12",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "reason": "Missed marker on the upper bend.",
+    "source_evidence": "Visible blue ring centered near native pixel (94.0,84.0), between the steep branch and plateau.",
+    "actor": "agent03_review_points",
+    "status": "applied",
+    "source_pixel": [
+     94.02,
+     83.96
+    ]
+   },
+   {
+    "operation_index": 12,
+    "operation_id": "op-add-13",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "reason": "Missed marker approaching the plateau.",
+    "source_evidence": "Visible blue open circle centered near native pixel (95.0,78.0) in the main panel.",
+    "actor": "agent03_review_points",
+    "status": "applied",
+    "source_pixel": [
+     95.01,
+     78.12
+    ]
+   },
+   {
+    "operation_index": 13,
+    "operation_id": "op-add-14",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "reason": "Missed marker approaching the plateau.",
+    "source_evidence": "Visible blue ring centered near native pixel (96.0,75.0), immediately before the supplied marker near (97.5,72.1).",
+    "actor": "agent03_review_points",
+    "status": "applied",
+    "source_pixel": [
+     96.01,
+     75.06
+    ]
+   },
+   {
+    "operation_index": 14,
+    "operation_id": "op-add-15",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "reason": "Missed marker between the bend and plateau points.",
+    "source_evidence": "Visible blue open circle centered near native pixel (98.8,70.0) on the source curve between supplied points near (97.5,72.1) and (100.9,69.3).",
+    "actor": "agent03_review_points",
+    "status": "applied",
+    "source_pixel": [
+     98.71,
+     70.06
+    ]
+   },
+   {
+    "operation_index": 15,
+    "operation_id": "op-add-16",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 195K",
+    "reason": "Missed blue plateau marker.",
+    "source_evidence": "Visible blue open circle centered near native pixel (200.0,65.0) on the main-plot plateau, outside the inset.",
+    "actor": "agent03_review_points",
+    "status": "applied",
+    "source_pixel": [
+     200.0,
+     65.05
+    ]
+   }
+  ]
+ }
+}

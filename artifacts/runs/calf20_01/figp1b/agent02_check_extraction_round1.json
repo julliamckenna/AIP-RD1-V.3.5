@@ -1,0 +1,191 @@
+{
+ "reasoning": "The Python run failed before extraction because the axis frame and y ticks were not calibrated. The source clearly shows a linear plot from 0 to 120 mbar and 0 to 3.0 mmol/g, with six filled marker-only series. The corrected frame anchors and normalized legend box should allow calibration; the low-pressure region is densely overlapped and merits an additional pass.",
+ "axis_check": {
+  "x": {
+   "printed_min": 0,
+   "printed_max": 120,
+   "data_min": null,
+   "data_max": null,
+   "reason": "No values were extracted because calibration failed. The source x axis is linear with printed ticks 0, 40, 80, and 120 mbar; the frame endpoints coincide with 0 and 120.",
+   "result": "pass"
+  },
+  "y": {
+   "printed_min": 0,
+   "printed_max": 3,
+   "data_min": null,
+   "data_max": null,
+   "reason": "No values were extracted because calibration failed. The source y axis is linear with printed ticks from 0.0 to 3.0 mmol/g in 0.5 increments; the frame endpoints coincide with 0 and 3.0.",
+   "result": "pass"
+  }
+ },
+ "satisfied": false,
+ "issues": [
+  "Axis calibration failed in Python; corrected x and y tick anchors are required.",
+  "The low-pressure portion near the origin contains densely overlapping markers and thick connecting curves, so it needs an additional extraction pass."
+ ],
+ "structure_ok": true,
+ "chart_title": "B",
+ "x_axis": {
+  "title": "P",
+  "unit": "mbar",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 120,
+  "boundary_limits_confirmed": false,
+  "ticks": [
+   0,
+   40,
+   80,
+   120
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.237,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.471,
+    "value": 40
+   },
+   {
+    "pixel_norm": 0.705,
+    "value": 80
+   },
+   {
+    "pixel_norm": 0.94,
+    "value": 120
+   }
+  ]
+ },
+ "y_axis": {
+  "title": "CO2 Loading",
+  "unit": "mmol/g",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 3,
+  "boundary_limits_confirmed": false,
+  "ticks": [
+   0,
+   0.5,
+   1,
+   1.5,
+   2,
+   2.5,
+   3
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.89,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.774,
+    "value": 0.5
+   },
+   {
+    "pixel_norm": 0.656,
+    "value": 1
+   },
+   {
+    "pixel_norm": 0.54,
+    "value": 1.5
+   },
+   {
+    "pixel_norm": 0.421,
+    "value": 2
+   },
+   {
+    "pixel_norm": 0.304,
+    "value": 2.5
+   },
+   {
+    "pixel_norm": 0.187,
+    "value": 3
+   }
+  ]
+ },
+ "legend_bbox_norm": [
+  0.579,
+  0.672,
+  0.921,
+  0.874
+ ],
+ "total_series": 6,
+ "series": [
+  {
+   "label": "CO2 303K",
+   "marker": "circle",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "color_hex": "#e51c23",
+   "notes": "Red filled circles."
+  },
+  {
+   "label": "CO2 313K",
+   "marker": "square",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "color_hex": "#f4a21b",
+   "notes": "Orange filled squares."
+  },
+  {
+   "label": "CO2 323K",
+   "marker": "triangle_up",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "color_hex": "#198b43",
+   "notes": "Green filled upward triangles."
+  },
+  {
+   "label": "CO2 333K",
+   "marker": "hexagon",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "color_hex": "#29469d",
+   "notes": "Blue filled hexagons."
+  },
+  {
+   "label": "CO2 353K",
+   "marker": "diamond",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "color_hex": "#c52a86",
+   "notes": "Magenta filled diamonds."
+  },
+  {
+   "label": "CO2 373K",
+   "marker": "plus",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "color_hex": "#000000",
+   "notes": "Black plus markers."
+  }
+ ],
+ "branches": "adsorption_only",
+ "complex_regions": [
+  {
+   "bbox_norm": [
+    0.237,
+    0.43,
+    0.475,
+    0.89
+   ],
+   "kind": "dense_markers",
+   "python_passes": 3
+  },
+  {
+   "bbox_norm": [
+    0.237,
+    0.6,
+    0.405,
+    0.89
+   ],
+   "kind": "thick_connecting_lines",
+   "python_passes": 3
+  }
+ ],
+ "extraction_settings": [],
+ "notes": "The source has marker columns at approximately 1, 2, 3, 4, 5, 6, 8, 10, 15, 20, 25, 30, 33, 40, 47, 53, 60, 67, 73, 80, 87, 93, 100, 102, 107, and 114 mbar. Legend order is row-wise: 303K/313K, 323K/333K, 353K/373K.",
+ "region_strategies": [],
+ "shared_x_columns": []
+}

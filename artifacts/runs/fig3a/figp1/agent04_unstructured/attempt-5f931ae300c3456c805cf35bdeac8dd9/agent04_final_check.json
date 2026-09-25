@@ -1,0 +1,309 @@
+{
+  "reasoning": "Source-only inspection of [panel.png] identified a linear main x axis labelled Relative Pressure (P/P₀), a linear y axis labelled Uptake (cm³ g⁻¹), a blue open-circle solid-line series directly annotated CO2@195 K, and a coral open-circle N2@77 K series that is not eligible. The embedded inset is excluded by the native mask [247,173,540,440] and was not counted or calibrated. Independent tick-stroke fits used native major-tick centres rather than candidate values. The resulting residuals are 0.239 px RMS in x and 0.161 px RMS in y, improving on the supplied rounded-tick fit; every saved x/y value was recomputed from its native centre. After calibration and species verification, all 55 Agent 03 rows were checked against unchanged pixels and the full review inventory [adjudicate/review_tiles.json]. Forty-three candidate rows were retained, one retained source instance was moved to the centre of its visible partial ring, twelve candidate rows in continuous fused ink were deleted as unsupported specific centres, and six omitted native rings/partial rings were added. The additions are supported by visible white interiors and blue circular contours in [panel.png] or [crowded_strip:01], not by expected counts, curve fits, or interpolation. The saved CSV therefore contains 49 direct or partially visible CO2 markers and no N2 or inset rows. Two native low-pressure bands remain unresolved because continuous saturated blue ink hides any separable glyph centre; no rows were fabricated there. Reloaded-CSV reconstruction and native overlay checks place all exported centres on the blue main-panel curve, outside the inset mask and inside the frame. Verdict is review because marker recall cannot be declared complete in the unresolved fused bands.",
+  "axis_check": {
+    "x": {
+      "printed_min": 0.0,
+      "printed_max": 1.0,
+      "data_min": -0.000584,
+      "data_max": 1.001328,
+      "result": "pass",
+      "reason": "Native ticks at 0, 0.2, 0.4, 0.6, 0.8 and 1.0 fit the saved centres; the slight endpoint excursions arise from marker centres just left of the 0 tick and just right of the 1 tick, not an axis shift."
+    },
+    "y": {
+      "printed_min": 0.0,
+      "printed_max": 140.0,
+      "data_min": 0.587277,
+      "data_max": 126.45764,
+      "result": "pass",
+      "reason": "Native ticks at 0 through 140 in steps of 20 reproject with 0.161 px RMS; the reloaded CSV reconstruction lies near 0–126.46 cm³ g⁻¹ as in the source."
+    }
+  },
+  "independent_read": {
+    "x_axis": "Main panel x axis is Relative Pressure (P/P₀), dimensionless, linear, with printed major ticks 0, 0.2, 0.4, 0.6, 0.8 and 1.0. The frame extends slightly beyond the outer printed ticks.",
+    "y_axis": "Main panel y axis is Uptake in cm³ g⁻¹, linear, with printed major ticks 0, 20, 40, 60, 80, 100, 120 and 140.",
+    "series": [
+      {
+        "label": "CO2 195K",
+        "marker": "circle",
+        "marker_fill": "open",
+        "visible_markers_estimate": 50,
+        "notes": "Blue open circles joined by a solid blue line; direct upper-right annotation CO2@195 K establishes ownership. About fifty centres are separately visible or partially supported; additional low-pressure ink is fused."
+      },
+      {
+        "label": "N2 77K",
+        "marker": "circle",
+        "marker_fill": "open",
+        "visible_markers_estimate": 29,
+        "notes": "Coral open circles joined by a solid coral line near zero uptake; direct lower-right annotation N2@77 K. This gas is excluded from the CO2 CSV."
+      }
+    ],
+    "visual_risks": [
+      "Dense blue low-pressure markers merge into a saturated vertical strip, leaving long native intervals without separable centres.",
+      "Several shoulder and high-pressure plateau rings overlap, so partial contours require pixel-level inspection.",
+      "The embedded inset contains additional blue and coral markers but is excluded context and masks part of the main frame.",
+      "Large black direct labels overlap the plot area and must not be mistaken for markers.",
+      "The blue and coral series meet near the lower-left baseline, making the terminal blue marker only partly isolated."
+    ]
+  },
+  "verdict": "review",
+  "series": [
+    {
+      "label": "CO2 195K",
+      "coverage": "incomplete",
+      "final_count": 49,
+      "comment": "49 source-supported main-panel CO2 centres are exported: visible_marker or partially_visible_marker only, all is_inferred=false. Twelve unsupported Agent 03 centres in fused ink were removed, six omitted rings were added, and one partial centre was moved. Two fused native bands remain unresolved. N2 and inset points are excluded."
+    }
+  ],
+  "uncertainties": [
+    "[panel.png; crowded_strip:01] Native x≈147–159 px, y≈350–399 px is a continuous blue band. Apart from the retained ring near y≈345 px and partial crescent near y≈405 px, no additional specific centre can be defended.",
+    "[panel.png; crowded_strip:01] Native x≈143–157 px, y≈408–459 px remains fused. Faint edge modulation does not uniquely establish individual marker centres, so deleted candidate hypotheses were not replaced.",
+    "The partial centres at native (151.15,405.28), (158.5,291.5), (160.5,286.5), and (163.0,278.0) have explicit multi-pixel uncertainty; other rows use visible ring symmetry.",
+    "The inset mask [247,173,540,440] was excluded. It does not hide the blue main-series plateau, which runs above the inset, but all inset markers remain out of scope.",
+    "Calibration uncertainty is sub-pixel relative to marker-centre uncertainty; values are not snapped to expected pressure setpoints."
+  ],
+  "row_count": 49,
+  "calibration": {
+    "px_per_unit_x": 483.71529828706434,
+    "px_per_unit_y": 2.8583376718034152,
+    "unit_per_px_x": 0.0020673317621774756,
+    "unit_per_px_y": 0.3498536963860776,
+    "axis_models": {
+      "x": {
+        "scale": "linear",
+        "slope": 0.0020673317621774756,
+        "intercept": -0.309360384892482
+      },
+      "y": {
+        "scale": "linear",
+        "slope": -0.3498536963860776,
+        "intercept": 163.8919857676136
+      }
+    },
+    "tick_fit_resid_x": 0.0004941873306753708,
+    "tick_fit_resid_y": 0.05645744033442016,
+    "tick_fit_resid_x_px": 0.2390459720673251,
+    "tick_fit_resid_y_px": 0.16137442856146675,
+    "frame_px": [
+      125,
+      68,
+      658,
+      498
+    ],
+    "x_ticks_px": [
+      149.5,
+      246.5,
+      343.5,
+      439.5,
+      536.5,
+      633.5
+    ],
+    "y_ticks_px": [
+      68.5,
+      125.5,
+      182.5,
+      239.5,
+      297.0,
+      354.0,
+      411.5,
+      468.5
+    ],
+    "tick_anchors": {
+      "x": [
+        {
+          "pixel": 149.5,
+          "value": 0.0
+        },
+        {
+          "pixel": 246.5,
+          "value": 0.2
+        },
+        {
+          "pixel": 343.5,
+          "value": 0.4
+        },
+        {
+          "pixel": 439.5,
+          "value": 0.6000000000000001
+        },
+        {
+          "pixel": 536.5,
+          "value": 0.8
+        },
+        {
+          "pixel": 633.5,
+          "value": 1.0
+        }
+      ],
+      "y": [
+        {
+          "pixel": 68.5,
+          "value": 140.0
+        },
+        {
+          "pixel": 125.5,
+          "value": 120.0
+        },
+        {
+          "pixel": 182.5,
+          "value": 100.0
+        },
+        {
+          "pixel": 239.5,
+          "value": 80.0
+        },
+        {
+          "pixel": 297.0,
+          "value": 60.0
+        },
+        {
+          "pixel": 354.0,
+          "value": 40.0
+        },
+        {
+          "pixel": 411.5,
+          "value": 20.0
+        },
+        {
+          "pixel": 468.5,
+          "value": 0.0
+        }
+      ]
+    },
+    "anchor_notes": {
+      "x": "Accepted centres of the six native major tick strokes at the bottom frame. No printed x tick was excluded.",
+      "y": "Accepted centres of the eight native major tick strokes at the left frame; the 60 tick spans pixels 296–298 and was represented by its centre 297.0. No printed y tick was excluded."
+    }
+  },
+  "unresolved_slots": {
+    "total": 2,
+    "by_series": {
+      "CO2 195K": 2
+    },
+    "slots": [
+      {
+        "series_label": "CO2 195K",
+        "reason": "[panel.png; crowded_strip:01] Native region x=147–159 px, y=350–399 px is continuous saturated blue ink with no separable white interior or complete/partial circular contour for additional individual centres."
+      },
+      {
+        "series_label": "CO2 195K",
+        "reason": "[panel.png; crowded_strip:01] Native region x=143–157 px, y=408–459 px is a fused blue column; subtle edge variations cannot be assigned to distinct marker instances without expected-spacing interpolation."
+      }
+    ]
+  },
+  "changes": [
+    {
+      "action": "delete",
+      "point_id": "pt-5e5dbbeb23e6c72f",
+      "reason": "Agent 03 row is not supported as a separable visible or partial marker centre.",
+      "source_evidence": "[panel.png; adjudicate/crowded_strip_native_01.png] At native (149.41, 444.49) the lower fused strip is continuous saturated blue ink without a distinct white interior, circular arc, or symmetric boundary attributable to this specific centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-9e647f1eeb60d96b",
+      "reason": "Agent 03 row is not supported as a separable visible or partial marker centre.",
+      "source_evidence": "[panel.png; adjudicate/crowded_strip_native_01.png] At native (150.00, 440.00) the lower fused strip is continuous saturated blue ink without a distinct white interior, circular arc, or symmetric boundary attributable to this specific centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-f68232b25287af75",
+      "reason": "Agent 03 row is not supported as a separable visible or partial marker centre.",
+      "source_evidence": "[panel.png; adjudicate/crowded_strip_native_01.png] At native (150.32, 454.03) the lower fused strip is continuous saturated blue ink without a distinct white interior, circular arc, or symmetric boundary attributable to this specific centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-e9f7ac22bc304e8e",
+      "reason": "Agent 03 row is not supported as a separable visible or partial marker centre.",
+      "source_evidence": "[panel.png; adjudicate/crowded_strip_native_01.png] At native (150.35, 432.53) the lower fused strip is continuous saturated blue ink without a distinct white interior, circular arc, or symmetric boundary attributable to this specific centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-c895da0f3617cde2",
+      "reason": "Agent 03 row is not supported as a separable visible or partial marker centre.",
+      "source_evidence": "[panel.png; adjudicate/crowded_strip_native_01.png] At native (150.35, 426.53) the lower fused strip is continuous saturated blue ink without a distinct white interior, circular arc, or symmetric boundary attributable to this specific centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-e607bd9c7216f39f",
+      "reason": "Agent 03 row is not supported as a separable visible or partial marker centre.",
+      "source_evidence": "[panel.png; adjudicate/crowded_strip_native_01.png] At native (150.87, 394.23) the upper fused strip is continuous saturated blue ink without a distinct white interior, circular arc, or symmetric boundary attributable to this specific centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-3b5efc67860d29db",
+      "reason": "Agent 03 row is not supported as a separable visible or partial marker centre.",
+      "source_evidence": "[panel.png; adjudicate/crowded_strip_native_01.png] At native (151.17, 411.56) the lower fused strip is continuous saturated blue ink without a distinct white interior, circular arc, or symmetric boundary attributable to this specific centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-c77ac63e504e3f71",
+      "reason": "Agent 03 row is not supported as a separable visible or partial marker centre.",
+      "source_evidence": "[panel.png; adjudicate/crowded_strip_native_01.png] At native (151.65, 385.47) the upper fused strip is continuous saturated blue ink without a distinct white interior, circular arc, or symmetric boundary attributable to this specific centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-35a78415c28b5ab6",
+      "reason": "Agent 03 row is not supported as a separable visible or partial marker centre.",
+      "source_evidence": "[panel.png; adjudicate/crowded_strip_native_01.png] At native (152.00, 379.00) the upper fused strip is continuous saturated blue ink without a distinct white interior, circular arc, or symmetric boundary attributable to this specific centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-8cfedd8ae2852e8c",
+      "reason": "Agent 03 row is not supported as a separable visible or partial marker centre.",
+      "source_evidence": "[panel.png; adjudicate/crowded_strip_native_01.png] At native (152.35, 371.53) the upper fused strip is continuous saturated blue ink without a distinct white interior, circular arc, or symmetric boundary attributable to this specific centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-a8c94ed563b49066",
+      "reason": "Agent 03 row is not supported as a separable visible or partial marker centre.",
+      "source_evidence": "[panel.png; adjudicate/crowded_strip_native_01.png] At native (152.94, 352.96) the upper fused strip is continuous saturated blue ink without a distinct white interior, circular arc, or symmetric boundary attributable to this specific centre."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-b10a4d47d5c19897",
+      "reason": "Agent 03 row is not supported as a separable visible or partial marker centre.",
+      "source_evidence": "[panel.png; adjudicate/crowded_strip_native_01.png] At native (153.00, 360.19) the upper fused strip is continuous saturated blue ink without a distinct white interior, circular arc, or symmetric boundary attributable to this specific centre."
+    },
+    {
+      "action": "move",
+      "point_id": "pt-f2c54d4c752f557f",
+      "reason": "Agent 03 placed one partial marker between two source-visible low-pressure ring interiors; the upper partial ring centre is at the visible lobe rather than the midpoint.",
+      "source_evidence": "[panel.png; crowded_strip:01] The upper white interior lobe and surrounding blue arc are centred near native (163.0, 278.0); (160.5, 282.5) lies between that lobe and a second ring centred near (160.5, 286.5)."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-6d8cb865106abe58",
+      "reason": "Visible CO2 open-circle source instance omitted from the Agent 03 replacement table.",
+      "source_evidence": "[crowded_strip:01] Separate white interior lobe and blue circular arc are visible around native pixel (160.5, 286.5) between adjacent low-pressure rings."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-ac3341c85b6d371e",
+      "reason": "Visible CO2 open-circle source instance omitted from the Agent 03 replacement table.",
+      "source_evidence": "[panel.png] Distinct blue open-circle contour and white interior are visible at the shoulder near native pixel (175.5, 132.0)."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-f2b0405edf468659",
+      "reason": "Visible CO2 open-circle source instance omitted from the Agent 03 replacement table.",
+      "source_evidence": "[panel.png] Distinct large blue open-circle contour with white interior is visible near native pixel (195.0, 122.5), between the 184.7 px and 206.7 px rings."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-4b3f75ec59b07bd5",
+      "reason": "Visible CO2 open-circle source instance omitted from the Agent 03 replacement table.",
+      "source_evidence": "[panel.png] Distinct blue open-circle contour with broad white interior is visible near native pixel (267.5, 117.0), between the 255.5 px and 279.1 px rings."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-8e190414871ffb59",
+      "reason": "Visible CO2 open-circle source instance omitted from the Agent 03 replacement table.",
+      "source_evidence": "[panel.png] Distinct blue open-circle contour and white interior are visible near native pixel (593.5, 111.5), between the 581.5 px and 604.5 px rings."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-2141e4a07505c6f5",
+      "reason": "Visible CO2 open-circle source instance omitted from the Agent 03 replacement table.",
+      "source_evidence": "[panel.png] Terminal blue open-circle contour with a complete white interior is visible near native pixel (634.0, 107.0)."
+    }
+  ]
+}

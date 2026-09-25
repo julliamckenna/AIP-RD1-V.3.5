@@ -1,0 +1,537 @@
+{
+ "reasoning": "The axis calibration is correct: the source ticks are 0-120 kPa and 0-3.0 mmol/g, and the re-plotted curves use the same mapping. Series identity in the declared structure agrees with the source legend; the measured legend mismatches for 323K, 333K, 353K, and 373K are raster/row-association errors, not source-style errors. Extraction is not yet acceptable: 333K has many false red assignments and very poor recall, 353K misses roughly six markers, 303K misses several low-pressure markers, and 373K includes many points generated from the thick black connecting stroke.",
+ "axis_check": {
+  "x": {
+   "printed_min": 0,
+   "printed_max": 120,
+   "data_min": 1.4272,
+   "data_max": 117.6382,
+   "reason": "The source x-axis is printed from 0 to 120 kPa, and the extracted values re-plot against those ticks without a shift or stretch.",
+   "result": "pass"
+  },
+  "y": {
+   "printed_min": 0,
+   "printed_max": 3,
+   "data_min": 0.0428,
+   "data_max": 3.0614,
+   "reason": "The source y-axis is printed from 0 to 3.0 mmol/g. Extracted values align with the source curves; the small amount above 3 is consistent with the top marker/line thickness and calibration tolerance.",
+   "result": "pass"
+  }
+ },
+ "satisfied": false,
+ "issues": [
+  "CO2 333K extraction is misassigned: redraw precision is only 0.333 and recall is 0.022, with many points rejected or assigned from the red curve.",
+  "CO2 353K has only 12 of about 18 markers and recall 0.378; its magenta diamond trajectory needs a dedicated color sample and curve gate.",
+  "CO2 303K is short by about four low-pressure markers.",
+  "CO2 373K has 31 detections instead of about 18 because the black thick connecting stroke is being interpreted as many plus markers.",
+  "The measured legend glyphs for 323K, 333K, and 353K are incorrect raster associations; retain the visually correct source declarations. The 373K legend glyph should remain plus, despite the erroneous measured diamond result."
+ ],
+ "structure_ok": true,
+ "chart_title": "",
+ "x_axis": {
+  "title": "Pressure",
+  "unit": "kPa",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 120,
+  "boundary_limits_confirmed": false,
+  "ticks": [
+   0,
+   40,
+   80,
+   120
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.2285,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.4597,
+    "value": 40
+   },
+   {
+    "pixel_norm": 0.6949,
+    "value": 80
+   },
+   {
+    "pixel_norm": 0.9288,
+    "value": 120
+   }
+  ]
+ },
+ "y_axis": {
+  "title": "CO2 Loading",
+  "unit": "mmol/g",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 3,
+  "boundary_limits_confirmed": false,
+  "ticks": [
+   0,
+   0.5,
+   1,
+   1.5,
+   2,
+   2.5,
+   3
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.8,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.6822,
+    "value": 0.5
+   },
+   {
+    "pixel_norm": 0.5643,
+    "value": 1
+   },
+   {
+    "pixel_norm": 0.4481,
+    "value": 1.5
+   },
+   {
+    "pixel_norm": 0.3318,
+    "value": 2
+   },
+   {
+    "pixel_norm": 0.2155,
+    "value": 2.5
+   },
+   {
+    "pixel_norm": 0.0992,
+    "value": 3
+   }
+  ]
+ },
+ "legend_bbox_norm": [
+  0.547,
+  0.56,
+  0.931,
+  0.801
+ ],
+ "total_series": 6,
+ "series": [
+  {
+   "label": "CO2 303K",
+   "marker": "circle",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#e52623",
+   "notes": "Red filled circles."
+  },
+  {
+   "label": "CO2 313K",
+   "marker": "square",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#f5a623",
+   "notes": "Orange filled squares."
+  },
+  {
+   "label": "CO2 323K",
+   "marker": "triangle_up",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#249b55",
+   "notes": "Green filled upward triangles; retain this source shape despite the unreliable raster measurement."
+  },
+  {
+   "label": "CO2 333K",
+   "marker": "pentagon",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#3155a4",
+   "notes": "Blue filled pentagons; the source legend and plot show pentagons, not open circles."
+  },
+  {
+   "label": "CO2 353K",
+   "marker": "diamond",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#cf2b91",
+   "notes": "Magenta filled diamonds."
+  },
+  {
+   "label": "CO2 373K",
+   "marker": "plus",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#111111",
+   "notes": "Black plus markers; do not replace with the raster-measured diamond, which is an erroneous legend glyph measurement."
+  }
+ ],
+ "branches": "adsorption_only",
+ "complex_regions": [
+  {
+   "bbox_norm": [
+    0.222,
+    0.095,
+    0.423,
+    0.802
+   ],
+   "kind": "thick_connecting_lines",
+   "python_passes": 6
+  }
+ ],
+ "extraction_settings": [
+  {
+   "label": "CO2 303K",
+   "color_tolerance": 30,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 3,
+     "y_min": 0,
+     "y_max": 0.9
+    },
+    {
+     "x_from": 3,
+     "x_to": 10,
+     "y_min": 0.1,
+     "y_max": 1.5
+    },
+    {
+     "x_from": 10,
+     "x_to": 30,
+     "y_min": 0.7,
+     "y_max": 2.35
+    },
+    {
+     "x_from": 30,
+     "x_to": 114,
+     "y_min": 2.15,
+     "y_max": 3.0
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Recover the missing low-pressure red circles while restricting candidates to the red isotherm rather than the thick red connecting stroke.",
+   "sample_marker_norm": [
+    0.812,
+    0.124
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 114,
+     "count": 18
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 1,
+     "y": 0.25
+    },
+    {
+     "x": 3,
+     "y": 0.65
+    },
+    {
+     "x": 7,
+     "y": 1.3
+    },
+    {
+     "x": 13,
+     "y": 1.8
+    },
+    {
+     "x": 20,
+     "y": 2.1
+    },
+    {
+     "x": 27,
+     "y": 2.25
+    },
+    {
+     "x": 40,
+     "y": 2.42
+    },
+    {
+     "x": 60,
+     "y": 2.62
+    },
+    {
+     "x": 80,
+     "y": 2.76
+    },
+    {
+     "x": 100,
+     "y": 2.88
+    },
+    {
+     "x": 114,
+     "y": 2.94
+    }
+   ]
+  },
+  {
+   "label": "CO2 333K",
+   "color_tolerance": 27,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 10,
+     "y_min": 0,
+     "y_max": 1.5
+    },
+    {
+     "x_from": 10,
+     "x_to": 30,
+     "y_min": 1.2,
+     "y_max": 1.8
+    },
+    {
+     "x_from": 30,
+     "x_to": 114,
+     "y_min": 1.65,
+     "y_max": 2.35
+    }
+   ],
+   "template_fill": "off",
+   "reason": "The source has blue filled pentagons. Use a clean blue-plot sample and the pentagon trajectory to prevent the erroneous red assignments seen in the current extraction.",
+   "sample_marker_norm": [
+    0.806,
+    0.279
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 114,
+     "count": 18
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 3,
+     "y": 0.3
+    },
+    {
+     "x": 7,
+     "y": 0.65
+    },
+    {
+     "x": 13,
+     "y": 1.15
+    },
+    {
+     "x": 20,
+     "y": 1.42
+    },
+    {
+     "x": 27,
+     "y": 1.6
+    },
+    {
+     "x": 40,
+     "y": 1.8
+    },
+    {
+     "x": 60,
+     "y": 2.0
+    },
+    {
+     "x": 80,
+     "y": 2.12
+    },
+    {
+     "x": 100,
+     "y": 2.22
+    },
+    {
+     "x": 114,
+     "y": 2.25
+    }
+   ]
+  },
+  {
+   "label": "CO2 353K",
+   "color_tolerance": 30,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 10,
+     "y_min": 0,
+     "y_max": 0.75
+    },
+    {
+     "x_from": 10,
+     "x_to": 30,
+     "y_min": 0.55,
+     "y_max": 1.2
+    },
+    {
+     "x_from": 30,
+     "x_to": 114,
+     "y_min": 1.0,
+     "y_max": 2.05
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Recover the missing magenta diamonds using a clean plot sample and the magenta trajectory; avoid rejecting valid markers in the crowded low-pressure region.",
+   "sample_marker_norm": [
+    0.806,
+    0.357
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 114,
+     "count": 18
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 3,
+     "y": 0.18
+    },
+    {
+     "x": 7,
+     "y": 0.35
+    },
+    {
+     "x": 13,
+     "y": 0.65
+    },
+    {
+     "x": 20,
+     "y": 0.88
+    },
+    {
+     "x": 27,
+     "y": 1.08
+    },
+    {
+     "x": 40,
+     "y": 1.35
+    },
+    {
+     "x": 60,
+     "y": 1.58
+    },
+    {
+     "x": 80,
+     "y": 1.75
+    },
+    {
+     "x": 100,
+     "y": 1.88
+    },
+    {
+     "x": 114,
+     "y": 1.92
+    }
+   ]
+  },
+  {
+   "label": "CO2 373K",
+   "color_tolerance": 24,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 3,
+     "y_min": 0,
+     "y_max": 0.15
+    },
+    {
+     "x_from": 3,
+     "x_to": 10,
+     "y_min": 0.05,
+     "y_max": 0.35
+    },
+    {
+     "x_from": 10,
+     "x_to": 30,
+     "y_min": 0.2,
+     "y_max": 0.7
+    },
+    {
+     "x_from": 30,
+     "x_to": 114,
+     "y_min": 0.6,
+     "y_max": 1.7
+    }
+   ],
+   "template_fill": "off",
+   "reason": "Restrict black detections to actual plus-marker centres along the black curve; reject the many pixels from the thick black connecting stroke.",
+   "sample_marker_norm": [
+    0.813,
+    0.434
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 114,
+     "count": 18
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 3,
+     "y": 0.08
+    },
+    {
+     "x": 7,
+     "y": 0.2
+    },
+    {
+     "x": 13,
+     "y": 0.38
+    },
+    {
+     "x": 20,
+     "y": 0.55
+    },
+    {
+     "x": 27,
+     "y": 0.67
+    },
+    {
+     "x": 40,
+     "y": 0.86
+    },
+    {
+     "x": 60,
+     "y": 1.1
+    },
+    {
+     "x": 80,
+     "y": 1.35
+    },
+    {
+     "x": 100,
+     "y": 1.48
+    },
+    {
+     "x": 114,
+     "y": 1.56
+    }
+   ]
+  }
+ ],
+ "notes": "Single-marker ambiguities can remain for agent 03, but the broad color/style and coverage failures above require another extraction pass. The source contains one adsorption branch per temperature and all six curves begin at the origin.",
+ "region_strategies": [],
+ "shared_x_columns": []
+}

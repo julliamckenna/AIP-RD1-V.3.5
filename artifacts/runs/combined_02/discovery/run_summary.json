@@ -1,0 +1,550 @@
+{
+ "source": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\data\\input\\combined_02.pdf",
+ "title": "combined_02",
+ "run_id": "20260924-132007-609a73",
+ "note": "",
+ "panels": [
+  {
+   "folder": "fig3a",
+   "figure": {
+    "page": 4,
+    "kind": "raster",
+    "file": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_02\\discovery\\python_inventory\\p4_img16.png",
+    "source_id": "xref:16",
+    "width": 2051,
+    "height": 1712,
+    "caption_candidates": [
+     {
+      "figure_number": "3",
+      "caption": "FIGURE 3\nGas sorption properties of NUM-27a. (a) N2 adsorption–desorption isotherm at 77 K and CO2 adsorption–desorption isotherm at 195 K\nfor NUM-27a. (b) The adsorption isotherms of C3H6 and C3H8 on NUM-27a at 298 K (Inset: the isotherm is presented in semilogarithmic scale to point\nout details in the low-pressure region). (c) Cycling test of C3H6 adsorption measurements on NUM-27a at 298 K from 0 to 1.0 bar. (d) The adsorption\nkinetic profiles of C3H6 and C3H8 on NUM-27a at 298 K. (e) The fitting of the kinetic curve for C3H6 at 298 and 313 K. (f) IAST selectivity for equimolar\nC3H6/C3H8 mixture at 298 K. (g) Isosteric heat of adsorption of C3H6 for NUM-27a. (h) Comparison of the zero-coverage heat of adsorption of C3H6 and\nuptake at 298 K and 0.01 bar with those of typical MOF materials for C3H6/C3H8 sieving separation. (i) Comparison of C3H6 packing density at 298 K\nand 0.01 bar with those of top-performing MOF materials.\npeaks (such as 100 and 011 planes) of NUM-27a exhibit a shift\ntoward higher angles relative to those of NUM-27 (Figure 5a),\nindicating structural changes. The simulated PXRD patterns of\nHAF-1, Zn2(aTz)2SO4, and NUM-27a further corroborate the\nstructural differences among these three frameworks (Figure\nS13). Thermogravimetric analysis (TGA) reveals an initial weight\nloss of 12.6% observed from 25◦C to 171◦C, which is attributed to\nthe removal of four water molecules in NUM-27. This value is in\nagreement with the 15.5% weight loss calculated from the SCXR"
+     }
+    ],
+    "caption": "FIGURE 3 | Gas sorption properties of NUM-27a. (a) N₂ adsorption–desorption isotherm at 77 K and CO₂ adsorption–desorption isotherm at 195 K for NUM-27a. (b) The adsorption isotherms of C₃H₆ and C₃H₈ on NUM-27a at 298 K (Inset: the isotherm is presented in semilogarithmic scale to point out details in the low-pressure region). (c) Cycling test of C₃H₆ adsorption measurements on NUM-27a at 298 K from 0 to 1.0 bar. (d) The adsorption kinetic profiles of C₃H₆ and C₃H₈ on NUM-27a at 298 K. (e) The fitting of the kinetic curve for C₃H₆ at 298 and 313 K. (f) IAST selectivity for equimolar C₃H₆/C₃H₈ mixture at 298 K. (g) Isosteric heat of adsorption of C₃H₆ for NUM-27a. (h) Comparison of the zero-coverage heat of adsorption of C₃H₆ and uptake at 298 K and 0.01 bar with those of typical MOF materials for C₃H₆/C₃H₈ sieving separation. (i) Comparison of C₃H₆ packing density at 298 K and 0.01 bar with those of top-performing MOF materials.",
+    "figure_number": "3",
+    "references": [
+     "However, certain diffraction Advanced Materials, 2026 3 of 10  FIGURE 3 Gas sorption properties of NUM-27a.",
+     "The permanent porosity of the NUM-27a was investigated using both N2 and CO2 as probe gases (Figure 3a).",
+     "The most probable CO2 binding, which lies in the middle of the CALF-20 pore (Fig. 3A), had a binding energy of −34.5 kJ mol−1 based on the GCMC force field; the density functional theory (DFT) value with dispersion corrections was −36.5 kJ mol−1.",
+     "The experimental water isotherm had a general S-shape, where the water uptake was initially low until ~10% relative humidity (RH), at which point there was a steep rise until ~30% RH (Fig. 3B).",
+     "A snapshot from the pure water simulation at 20% RH, where the water uptake was roughly half the saturation limit (Fig. 3C), revealed that the pores were either full of water molecules, forming a hydrogen-bonded network, or com- pletely empty.",
+     "We extracted the water binding sites at 20% RH with the highest probability from the GCMC simulations, and the top three bind- ing sites, in order, are labeled i, ii, and, iii in Fig. 3D.",
+     "The nature of the water and CO2 binding from the single-component water simulations and dry CO2/N2 simulations presented in Fig. 3 was consistent with the preferential binding of CO2 over water observed at low RHs.",
+     "Further, in large-scale Lin et al., Science 374, 1464–1469 (2021) 17 December 2021 4 of 6 Fig. 3."
+    ]
+   },
+   "discovery": {
+    "reasoning": "The extracted candidate matches the page caption for FIGURE 3 based on the identical nine-panel layout and panel contents. Panel (a) is the only eligible CO2 isotherm chart: it plots CO2 adsorption–desorption uptake versus relative pressure at 195 K together with an N2 series at 77 K. Its embedded low-pressure chart is an inset and must be masked. Panels (b)–(i) concern hydrocarbon isotherms, cycling, kinetics, selectivity, heat of adsorption, or comparative metrics and are not eligible CO2 isotherms.",
+    "figure_number": "3",
+    "matched_caption": "FIGURE 3 | Gas sorption properties of NUM-27a. (a) N₂ adsorption–desorption isotherm at 77 K and CO₂ adsorption–desorption isotherm at 195 K for NUM-27a. (b) The adsorption isotherms of C₃H₆ and C₃H₈ on NUM-27a at 298 K (Inset: the isotherm is presented in semilogarithmic scale to point out details in the low-pressure region). (c) Cycling test of C₃H₆ adsorption measurements on NUM-27a at 298 K from 0 to 1.0 bar. (d) The adsorption kinetic profiles of C₃H₆ and C₃H₈ on NUM-27a at 298 K. (e) The fitting of the kinetic curve for C₃H₆ at 298 and 313 K. (f) IAST selectivity for equimolar C₃H₆/C₃H₈ mixture at 298 K. (g) Isosteric heat of adsorption of C₃H₆ for NUM-27a. (h) Comparison of the zero-coverage heat of adsorption of C₃H₆ and uptake at 298 K and 0.01 bar with those of typical MOF materials for C₃H₆/C₃H₈ sieving separation. (i) Comparison of C₃H₆ packing density at 298 K and 0.01 bar with those of top-performing MOF materials.",
+    "figure_is_relevant": true,
+    "si_has_tabulated_data": "unknown",
+    "panels": [
+     {
+      "panel": "a",
+      "is_co2_isotherm": true,
+      "reason": "CO₂ adsorption–desorption uptake for NUM-27a at 195 K is plotted against relative pressure; the co-plotted N₂ series is not eligible. The embedded low-pressure plot is an inset and must be masked.",
+      "bbox_norm": [
+       0.004,
+       0.025,
+       0.326,
+       0.337
+      ],
+      "has_inset": true,
+      "inset_bbox_norm": [
+       0.122,
+       0.101,
+       0.255,
+       0.231
+      ]
+     },
+     {
+      "panel": "b",
+      "is_co2_isotherm": false,
+      "reason": "This panel plots C₃H₆ and C₃H₈ adsorption isotherms at 298 K, not CO₂.",
+      "bbox_norm": [
+       0.338,
+       0.025,
+       0.666,
+       0.337
+      ],
+      "has_inset": true,
+      "inset_bbox_norm": [
+       0.451,
+       0.101,
+       0.609,
+       0.232
+      ]
+     },
+     {
+      "panel": "c",
+      "is_co2_isotherm": false,
+      "reason": "This is a cycling test of C₃H₆ adsorption rather than an equilibrium CO₂ uptake-versus-pressure isotherm.",
+      "bbox_norm": [
+       0.682,
+       0.025,
+       0.995,
+       0.337
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+     },
+     {
+      "panel": "d",
+      "is_co2_isotherm": false,
+      "reason": "This panel shows time-dependent adsorption kinetic profiles for C₃H₆ and C₃H₈, not CO₂ equilibrium isotherms.",
+      "bbox_norm": [
+       0.004,
+       0.345,
+       0.326,
+       0.655
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+     },
+     {
+      "panel": "e",
+      "is_co2_isotherm": false,
+      "reason": "This panel presents kinetic-curve fitting for C₃H₆ at 298 and 313 K and has no CO₂ uptake isotherm.",
+      "bbox_norm": [
+       0.338,
+       0.345,
+       0.666,
+       0.655
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+     },
+     {
+      "panel": "f",
+      "is_co2_isotherm": false,
+      "reason": "This panel plots IAST selectivity for a C₃H₆/C₃H₈ mixture, an excluded selectivity-only metric.",
+      "bbox_norm": [
+       0.682,
+       0.345,
+       0.995,
+       0.655
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+     },
+     {
+      "panel": "g",
+      "is_co2_isotherm": false,
+      "reason": "This panel plots the isosteric heat of C₃H₆ adsorption, an excluded heat-of-adsorption metric.",
+      "bbox_norm": [
+       0.004,
+       0.665,
+       0.326,
+       0.992
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+     },
+     {
+      "panel": "h",
+      "is_co2_isotherm": false,
+      "reason": "This is a comparative scatter plot of C₃H₆ heat of adsorption and uptake, not a CO₂ isotherm.",
+      "bbox_norm": [
+       0.338,
+       0.665,
+       0.666,
+       0.992
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+     },
+     {
+      "panel": "i",
+      "is_co2_isotherm": false,
+      "reason": "This is a bar chart comparing C₃H₆ packing density among MOFs; it is non-CO₂ and chart-excluded.",
+      "bbox_norm": [
+       0.682,
+       0.665,
+       0.995,
+       0.992
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+     }
+    ],
+    "context": {
+     "adsorbent": "NUM-27a",
+     "sample_form": "Not specified in the visible caption or page text.",
+     "activation": "Not specified in the visible caption or page text.",
+     "instrument": "Not specified in the visible caption or page text.",
+     "measurement_notes": "Panel (a) reports CO₂ adsorption–desorption at 195 K as uptake versus relative pressure P/P₀, co-plotted with N₂ adsorption–desorption at 77 K. The page text describes a stepped CO₂ adsorption profile at low relative pressure and identifies CO₂ as the preferred porosity probe because N₂ diffusion at 77 K is hindered by the narrowed channel.",
+     "other_parameters": "The plotted uptake basis is cm³ g⁻¹. The visible page references supplementary Figures S15 and S16 for BET surface area and pore volume, but does not establish that supplementary or SI tables contain tabulated isotherm data."
+    }
+   },
+   "panel": {
+    "panel": "a",
+    "is_co2_isotherm": true,
+    "reason": "CO₂ adsorption–desorption uptake for NUM-27a at 195 K is plotted against relative pressure; the co-plotted N₂ series is not eligible. The embedded low-pressure plot is an inset and must be masked.",
+    "bbox_norm": [
+     0.004,
+     0.025,
+     0.326,
+     0.337
+    ],
+    "has_inset": true,
+    "inset_bbox_norm": [
+     0.122,
+     0.101,
+     0.255,
+     0.231
+    ]
+   },
+   "figure_id": "fig3a",
+   "panel_id": "a",
+   "status": "failed",
+   "message": "agent01_read_chart: Error code: 400 - {'error': {'message': \"Tool 'web_search_preview' is not supported with gpt-6-luna-2026-09-22.\", 'type': 'invalid_request_error', 'param': 'tools', 'code': None, 'request_id': '3d2cc7863169a3b5f71de92f2273dbb6'}}",
+   "check_rounds": 0,
+   "extract_error": "",
+   "needs_review": false,
+   "rows": {},
+   "verdict": ""
+  },
+  {
+   "folder": "fig2a",
+   "figure": {
+    "page": 7,
+    "kind": "raster",
+    "file": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_02\\discovery\\python_inventory\\p7_img73.png",
+    "source_id": "xref:73",
+    "width": 1473,
+    "height": 2150,
+    "caption_candidates": [
+     {
+      "figure_number": "2",
+      "caption": "Fig. 2. Equilibrium gas uptake data on pure CALF-20. (A) CO2 and N2 isotherms from 273 to 373 K on\npure CALF-20. (B to D) Structured CALF-20 (80% MOF:20% polysulfone). (B) CO2 isotherms from 303\nto 373 K. (C) N2 isotherms from 303 to 353 K. (D) H2O isotherms from 295 K to 373 K. (E) A comparison of\nH2O isotherm on zeolite 13X (37), CAU-10 (38), Al fumarate (39) and structured CALF-20 at 295 K. The\nisotherms of CO2 and N2 were measured by volumetry, and that of H2O was measured by gravimetry.\nRESEARCH\n|\nRESEARCH ARTICLE\nDownloaded from https://www.science.org on November 16, 2023"
+     }
+    ],
+    "caption": "Fig. 2. Equilibrium gas uptake data on pure CALF-20. (A) CO2 and N2 isotherms from 273 to 373 K on pure CALF-20. (B to D) Structured CALF-20 (80% MOF:20% polysulfone). (B) CO2 isotherms from 303 to 373 K. (C) N2 isotherms from 303 to 353 K. (D) H2O isotherms from 295 K to 373 K. (E) A comparison of H2O isotherm on zeolite 13X (37), CAU-10 (38), Al fumarate (39) and structured CALF-20 at 295 K. The isotherms of CO2 and N2 were measured by volumetry, and that of H2O was measured by gravimetry.",
+    "figure_number": "2",
+    "references": [
+     "The unbalanced coordination environment FIGURE 2 Illustration of the framework structure and pore geom- etry of NUM-27 and NUM-27a.",
+     "Ultimately, the coordination mode between Zn2+ centers and ATZ rings is completely reconfigured, and MeOH molecules dissociate from the coordination environment, leading to the formation of the activated phase NUM-27a [Zn2(ATZ)2SO4] (Figure 2a,b, and Figure S9).",
+     "The skeleton of NUM-27a incorporates a regular pocket-shaped space interconnected by a narrow throat-sieving gate (Figure 2c).",
+     "Gas adsorption experiments were performed for CO2 and N2 (Fig. 2A).",
+     "CALF-20 structured readily as a 20% polysulfone com- posite and retained the expected porosity (Fig. 2, B and C, and fig.",
+     "The water sorption profile of CALF- 20 was unusual in that, for a solid with good physisorptive capacity for CO2, it exhibited poor water uptake at low partial pressures (Fig. 2, D and E).",
+     "Comparisons to zeolite 13X (37), as well as two other water-resistant MOFs, CAU-10 (38) and Al fumarate (39), are included in Fig. 2and fig.",
+     "Notably, a key feature of CALF-20 was the absence of any Lin et al., Science 374, 1464–1469 (2021) 17 December 2021 3 of 6 Fig. 2."
+    ]
+   },
+   "discovery": {
+    "reasoning": "The extracted candidate matches Fig. 2 on the source page by its five-panel layout and axis contents. Panel A plots equilibrium CO2 and N2 loading on pure CALF-20 versus pressure, while panel B plots CO2 loading on structured CALF-20 versus pressure; both qualify because they contain direct equilibrium CO2 uptake isotherms. Panel C contains only N2 isotherms, and panels D and E contain only H2O isotherms, so those panels are not eligible. The boxed regions within panels are legends, not inset charts.",
+    "figure_number": "2",
+    "matched_caption": "Fig. 2. Equilibrium gas uptake data on pure CALF-20. (A) CO2 and N2 isotherms from 273 to 373 K on pure CALF-20. (B to D) Structured CALF-20 (80% MOF:20% polysulfone). (B) CO2 isotherms from 303 to 373 K. (C) N2 isotherms from 303 to 353 K. (D) H2O isotherms from 295 K to 373 K. (E) A comparison of H2O isotherm on zeolite 13X (37), CAU-10 (38), Al fumarate (39) and structured CALF-20 at 295 K. The isotherms of CO2 and N2 were measured by volumetry, and that of H2O was measured by gravimetry.",
+    "figure_is_relevant": true,
+    "si_has_tabulated_data": "unknown",
+    "panels": [
+     {
+      "panel": "A",
+      "is_co2_isotherm": true,
+      "reason": "Equilibrium CO2 loading in mmol/g is plotted against pressure in mbar for pure CALF-20 from 273 to 373 K; N2 series share the same axis but do not invalidate the CO2 isotherms.",
+      "bbox_norm": [
+       0.0,
+       0.0,
+       0.966,
+       0.414
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+     },
+     {
+      "panel": "B",
+      "is_co2_isotherm": true,
+      "reason": "Equilibrium CO2 loading in mmol/g is plotted against pressure in kPa for structured CALF-20 at 303, 313, 323, 333, 353, and 373 K.",
+      "bbox_norm": [
+       0.0,
+       0.414,
+       0.499,
+       0.708
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+     },
+     {
+      "panel": "C",
+      "is_co2_isotherm": false,
+      "reason": "This panel plots N2 loading versus pressure for structured CALF-20 and contains no CO2 series.",
+      "bbox_norm": [
+       0.504,
+       0.414,
+       0.998,
+       0.708
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+     },
+     {
+      "panel": "D",
+      "is_co2_isotherm": false,
+      "reason": "This panel plots H2O loading versus pressure for structured CALF-20 and contains no CO2 uptake series.",
+      "bbox_norm": [
+       0.0,
+       0.708,
+       0.499,
+       0.999
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+     },
+     {
+      "panel": "E",
+      "is_co2_isotherm": false,
+      "reason": "This panel compares H2O loading versus relative humidity for structured CALF-20 and reference adsorbents; it is not a CO2 isotherm.",
+      "bbox_norm": [
+       0.504,
+       0.708,
+       0.998,
+       0.999
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+     }
+    ],
+    "context": {
+     "adsorbent": "CALF-20; panel A uses pure CALF-20, while panel B uses structured CALF-20 containing 80% MOF and 20% polysulfone.",
+     "sample_form": "Pure CALF-20 in panel A; structured 80% CALF-20/20% polysulfone composite in panel B.",
+     "activation": "Not specified in the visible caption or figure-referencing text.",
+     "instrument": "CO2 and N2 isotherms were measured by volumetry; no analyzer model is specified in the visible source.",
+     "measurement_notes": "Panel A contains CO2 and N2 equilibrium isotherms from 273 to 373 K at pressures up to approximately 1200 mbar. Panel B contains CO2 equilibrium isotherms on structured CALF-20 from 303 to 373 K at pressures up to approximately 120 kPa.",
+     "other_parameters": "The caption states that the structured material contains 80% MOF and 20% polysulfone. No supplementary table containing the plotted isotherm data is identified in the provided evidence."
+    }
+   },
+   "panel": {
+    "panel": "A",
+    "is_co2_isotherm": true,
+    "reason": "Equilibrium CO2 loading in mmol/g is plotted against pressure in mbar for pure CALF-20 from 273 to 373 K; N2 series share the same axis but do not invalidate the CO2 isotherms.",
+    "bbox_norm": [
+     0.0,
+     0.0,
+     0.966,
+     0.414
+    ],
+    "has_inset": false,
+    "inset_bbox_norm": null
+   },
+   "figure_id": "fig2a",
+   "panel_id": "a",
+   "status": "failed",
+   "message": "agent01_read_chart: Error code: 400 - {'error': {'message': \"Tool 'web_search_preview' is not supported with gpt-6-luna-2026-09-22.\", 'type': 'invalid_request_error', 'param': 'tools', 'code': None, 'request_id': '5001dd0c6357fe1728f8027566cf2da5'}}",
+   "check_rounds": 0,
+   "extract_error": "",
+   "needs_review": false,
+   "rows": {},
+   "verdict": ""
+  },
+  {
+   "folder": "fig2b",
+   "figure": {
+    "page": 7,
+    "kind": "raster",
+    "file": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_02\\discovery\\python_inventory\\p7_img73.png",
+    "source_id": "xref:73",
+    "width": 1473,
+    "height": 2150,
+    "caption_candidates": [
+     {
+      "figure_number": "2",
+      "caption": "Fig. 2. Equilibrium gas uptake data on pure CALF-20. (A) CO2 and N2 isotherms from 273 to 373 K on\npure CALF-20. (B to D) Structured CALF-20 (80% MOF:20% polysulfone). (B) CO2 isotherms from 303\nto 373 K. (C) N2 isotherms from 303 to 353 K. (D) H2O isotherms from 295 K to 373 K. (E) A comparison of\nH2O isotherm on zeolite 13X (37), CAU-10 (38), Al fumarate (39) and structured CALF-20 at 295 K. The\nisotherms of CO2 and N2 were measured by volumetry, and that of H2O was measured by gravimetry.\nRESEARCH\n|\nRESEARCH ARTICLE\nDownloaded from https://www.science.org on November 16, 2023"
+     }
+    ],
+    "caption": "Fig. 2. Equilibrium gas uptake data on pure CALF-20. (A) CO2 and N2 isotherms from 273 to 373 K on pure CALF-20. (B to D) Structured CALF-20 (80% MOF:20% polysulfone). (B) CO2 isotherms from 303 to 373 K. (C) N2 isotherms from 303 to 353 K. (D) H2O isotherms from 295 K to 373 K. (E) A comparison of H2O isotherm on zeolite 13X (37), CAU-10 (38), Al fumarate (39) and structured CALF-20 at 295 K. The isotherms of CO2 and N2 were measured by volumetry, and that of H2O was measured by gravimetry.",
+    "figure_number": "2",
+    "references": [
+     "The unbalanced coordination environment FIGURE 2 Illustration of the framework structure and pore geom- etry of NUM-27 and NUM-27a.",
+     "Ultimately, the coordination mode between Zn2+ centers and ATZ rings is completely reconfigured, and MeOH molecules dissociate from the coordination environment, leading to the formation of the activated phase NUM-27a [Zn2(ATZ)2SO4] (Figure 2a,b, and Figure S9).",
+     "The skeleton of NUM-27a incorporates a regular pocket-shaped space interconnected by a narrow throat-sieving gate (Figure 2c).",
+     "Gas adsorption experiments were performed for CO2 and N2 (Fig. 2A).",
+     "CALF-20 structured readily as a 20% polysulfone com- posite and retained the expected porosity (Fig. 2, B and C, and fig.",
+     "The water sorption profile of CALF- 20 was unusual in that, for a solid with good physisorptive capacity for CO2, it exhibited poor water uptake at low partial pressures (Fig. 2, D and E).",
+     "Comparisons to zeolite 13X (37), as well as two other water-resistant MOFs, CAU-10 (38) and Al fumarate (39), are included in Fig. 2and fig.",
+     "Notably, a key feature of CALF-20 was the absence of any Lin et al., Science 374, 1464–1469 (2021) 17 December 2021 3 of 6 Fig. 2."
+    ]
+   },
+   "discovery": {
+    "reasoning": "The extracted candidate matches Fig. 2 on the source page by its five-panel layout and axis contents. Panel A plots equilibrium CO2 and N2 loading on pure CALF-20 versus pressure, while panel B plots CO2 loading on structured CALF-20 versus pressure; both qualify because they contain direct equilibrium CO2 uptake isotherms. Panel C contains only N2 isotherms, and panels D and E contain only H2O isotherms, so those panels are not eligible. The boxed regions within panels are legends, not inset charts.",
+    "figure_number": "2",
+    "matched_caption": "Fig. 2. Equilibrium gas uptake data on pure CALF-20. (A) CO2 and N2 isotherms from 273 to 373 K on pure CALF-20. (B to D) Structured CALF-20 (80% MOF:20% polysulfone). (B) CO2 isotherms from 303 to 373 K. (C) N2 isotherms from 303 to 353 K. (D) H2O isotherms from 295 K to 373 K. (E) A comparison of H2O isotherm on zeolite 13X (37), CAU-10 (38), Al fumarate (39) and structured CALF-20 at 295 K. The isotherms of CO2 and N2 were measured by volumetry, and that of H2O was measured by gravimetry.",
+    "figure_is_relevant": true,
+    "si_has_tabulated_data": "unknown",
+    "panels": [
+     {
+      "panel": "A",
+      "is_co2_isotherm": true,
+      "reason": "Equilibrium CO2 loading in mmol/g is plotted against pressure in mbar for pure CALF-20 from 273 to 373 K; N2 series share the same axis but do not invalidate the CO2 isotherms.",
+      "bbox_norm": [
+       0.0,
+       0.0,
+       0.966,
+       0.414
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+     },
+     {
+      "panel": "B",
+      "is_co2_isotherm": true,
+      "reason": "Equilibrium CO2 loading in mmol/g is plotted against pressure in kPa for structured CALF-20 at 303, 313, 323, 333, 353, and 373 K.",
+      "bbox_norm": [
+       0.0,
+       0.414,
+       0.499,
+       0.708
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+     },
+     {
+      "panel": "C",
+      "is_co2_isotherm": false,
+      "reason": "This panel plots N2 loading versus pressure for structured CALF-20 and contains no CO2 series.",
+      "bbox_norm": [
+       0.504,
+       0.414,
+       0.998,
+       0.708
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+     },
+     {
+      "panel": "D",
+      "is_co2_isotherm": false,
+      "reason": "This panel plots H2O loading versus pressure for structured CALF-20 and contains no CO2 uptake series.",
+      "bbox_norm": [
+       0.0,
+       0.708,
+       0.499,
+       0.999
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+     },
+     {
+      "panel": "E",
+      "is_co2_isotherm": false,
+      "reason": "This panel compares H2O loading versus relative humidity for structured CALF-20 and reference adsorbents; it is not a CO2 isotherm.",
+      "bbox_norm": [
+       0.504,
+       0.708,
+       0.998,
+       0.999
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+     }
+    ],
+    "context": {
+     "adsorbent": "CALF-20; panel A uses pure CALF-20, while panel B uses structured CALF-20 containing 80% MOF and 20% polysulfone.",
+     "sample_form": "Pure CALF-20 in panel A; structured 80% CALF-20/20% polysulfone composite in panel B.",
+     "activation": "Not specified in the visible caption or figure-referencing text.",
+     "instrument": "CO2 and N2 isotherms were measured by volumetry; no analyzer model is specified in the visible source.",
+     "measurement_notes": "Panel A contains CO2 and N2 equilibrium isotherms from 273 to 373 K at pressures up to approximately 1200 mbar. Panel B contains CO2 equilibrium isotherms on structured CALF-20 from 303 to 373 K at pressures up to approximately 120 kPa.",
+     "other_parameters": "The caption states that the structured material contains 80% MOF and 20% polysulfone. No supplementary table containing the plotted isotherm data is identified in the provided evidence."
+    }
+   },
+   "panel": {
+    "panel": "B",
+    "is_co2_isotherm": true,
+    "reason": "Equilibrium CO2 loading in mmol/g is plotted against pressure in kPa for structured CALF-20 at 303, 313, 323, 333, 353, and 373 K.",
+    "bbox_norm": [
+     0.0,
+     0.414,
+     0.499,
+     0.708
+    ],
+    "has_inset": false,
+    "inset_bbox_norm": null
+   },
+   "figure_id": "fig2b",
+   "panel_id": "b",
+   "status": "failed",
+   "message": "agent01_read_chart: Error code: 400 - {'error': {'message': \"Tool 'web_search_preview' is not supported with gpt-6-luna-2026-09-22.\", 'type': 'invalid_request_error', 'param': 'tools', 'code': None, 'request_id': '74b0018266401f6058f8f31a026faa55'}}",
+   "check_rounds": 0,
+   "extract_error": "",
+   "needs_review": false,
+   "rows": {},
+   "verdict": ""
+  },
+  {
+   "folder": "fig10",
+   "figure": {
+    "page": 12,
+    "kind": "raster",
+    "file": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_02\\discovery\\python_inventory\\p12_img122.png",
+    "source_id": "xref:122",
+    "width": 942,
+    "height": 695,
+    "caption_candidates": [
+     {
+      "figure_number": "9",
+      "caption": "Fig. 9 (a) N2 sorption isotherms of 1a at 77 K; (b) H2 adsorption isotherms of 1a\nat 77 K and 87 K; (c) coverage dependency of the isosteric heat of adsorption for\nH2 in 1a."
+     },
+     {
+      "figure_number": "10",
+      "caption": "Fig. 10 The sorption isotherms of 1a: CO2 adsorption (a) and desorption (b) at\n273 K; CO2 adsorption (c) and desorption (d) at 300 K; CH4 adsorption (e) and\ndesorption (f) at 273 K; CH4 adsorption (g) and desorption (h) at 300 K.\n5678 | CrystEngComm, 2013, 15, 5673–5680\nThis journal is \u0002 The Royal Society of Chemistry 2013\nPaper\nCrystEngComm"
+     }
+    ],
+    "caption": "Fig. 10 The sorption isotherms of 1a: CO2 adsorption (a) and desorption (b) at 273 K; CO2 adsorption (c) and desorption (d) at 300 K; CH4 adsorption (e) and desorption (f) at 273 K; CH4 adsorption (g) and desorption (h) at 300 K.",
+    "figure_number": "10",
+    "references": []
+   },
+   "discovery": {
+    "reasoning": "The extracted candidate matches Fig. 10 on the source page. It contains exactly one physical axis frame plotting quantity adsorbed against pressure. The caption identifies series (a)-(d) as CO2 adsorption and desorption at 273 K and 300 K, while series (e)-(h) are CH4. Therefore, the single panel is eligible as a CO2 equilibrium adsorption isotherm, with only the CO2 series to be extracted.",
+    "figure_number": "10",
+    "matched_caption": "Fig. 10 The sorption isotherms of 1a: CO2 adsorption (a) and desorption (b) at 273 K; CO2 adsorption (c) and desorption (d) at 300 K; CH4 adsorption (e) and desorption (f) at 273 K; CH4 adsorption (g) and desorption (h) at 300 K.",
+    "figure_is_relevant": true,
+    "si_has_tabulated_data": "unknown",
+    "panels": [
+     {
+      "panel": "x",
+      "is_co2_isotherm": true,
+      "reason": "The single axis frame plots quantity adsorbed (cm³ g⁻¹) versus pressure (bar), and the caption explicitly assigns series (a)-(d) to CO2 adsorption and desorption at 273 K and 300 K. Series (e)-(h) are CH4 and are not eligible for extraction.",
+      "bbox_norm": [
+       0.01,
+       0.01,
+       0.99,
+       0.99
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+     }
+    ],
+    "context": {
+     "adsorbent": "1a",
+     "sample_form": "Not specified in the provided figure caption or page text.",
+     "activation": "Not specified in the provided figure caption or page text.",
+     "instrument": "Not specified in the provided figure caption or page text.",
+     "measurement_notes": "CO2 adsorption and desorption isotherms were measured at 273 K and 300 K. Quantity adsorbed is reported in cm³ g⁻¹ and pressure in bar. The accompanying text states that CO2 and CH4 adsorption isotherms were measured under ambient conditions and under 1 bar.",
+     "other_parameters": "The same axis also contains CH4 adsorption and desorption series at 273 K and 300 K; these non-CO2 series must remain unextracted. No inset is present. The page mentions ESI figures for CO2 and CH4 isosteric heats but does not establish that tabulated isotherm data are available."
+    }
+   },
+   "panel": {
+    "panel": "x",
+    "is_co2_isotherm": true,
+    "reason": "The single axis frame plots quantity adsorbed (cm³ g⁻¹) versus pressure (bar), and the caption explicitly assigns series (a)-(d) to CO2 adsorption and desorption at 273 K and 300 K. Series (e)-(h) are CH4 and are not eligible for extraction.",
+    "bbox_norm": [
+     0.01,
+     0.01,
+     0.99,
+     0.99
+    ],
+    "has_inset": false,
+    "inset_bbox_norm": null
+   },
+   "figure_id": "fig10",
+   "panel_id": "x",
+   "status": "failed",
+   "message": "agent01_read_chart: Error code: 400 - {'error': {'message': \"Tool 'web_search_preview' is not supported with gpt-6-luna-2026-09-22.\", 'type': 'invalid_request_error', 'param': 'tools', 'code': None, 'request_id': '735ced49c1790f48461b81aec9b798a7'}}",
+   "check_rounds": 0,
+   "extract_error": "",
+   "needs_review": false,
+   "rows": {},
+   "verdict": ""
+  }
+ ]
+}

@@ -1,0 +1,772 @@
+{
+ "series_counts": {
+  "CO2 273K ads": 31,
+  "CO2 273K des": 90,
+  "CO2 300K ads": 0,
+  "CO2 300K des": 63
+ },
+ "calibration": {
+  "px_per_unit_x": 577.1468352192362,
+  "px_per_unit_y": 9.95438193647149,
+  "unit_per_px_x": 0.0017326613246005896,
+  "unit_per_px_y": 0.10045827117966381,
+  "axis_models": {
+   "x": {
+    "scale": "linear",
+    "slope": 0.0017326613246005896,
+    "intercept": -0.190836133156984
+   },
+   "y": {
+    "scale": "linear",
+    "slope": -0.10045827117966381,
+    "intercept": 56.0081197041229
+   }
+  },
+  "tick_fit_resid_x": 0.0017312827927835617,
+  "tick_fit_resid_y": 0.08988573976963465,
+  "tick_fit_resid_x_px": 0.9992043847245533,
+  "tick_fit_resid_y_px": 0.8947569843092282,
+  "frame_px": [
+   52,
+   10,
+   861,
+   608
+  ],
+  "x_ticks_px": [
+   110,
+   226,
+   340,
+   457,
+   572,
+   688,
+   802
+  ],
+  "y_ticks_px": [
+   60,
+   160,
+   258,
+   358,
+   458,
+   558
+  ],
+  "tick_anchors": {
+   "x": [],
+   "y": []
+  },
+  "color_tolerance_lab": 28.0,
+  "color_tolerance_per_series": [
+   28.0,
+   31.146261596679686,
+   28.0,
+   28.594312667846676,
+   28.0,
+   45.0,
+   28.0,
+   33.621036529541016
+  ],
+  "base_color_passes": 3,
+  "complex_region_passes": 0,
+  "complex_region_count": 0,
+  "legend_reader": "rows_by_declared_color",
+  "sample_colors": [],
+  "twins_split_by_lines": 36,
+  "line_split_enabled": true,
+  "color_ambiguity_groups": [
+   {
+    "group_id": 0,
+    "series_indices": [
+     0,
+     4
+    ],
+    "series_labels": [
+     "CO2 273K ads",
+     "CH4 273K ads"
+    ],
+    "nearest_legend_color": {
+     "0": {
+      "series_index": 4,
+      "distance_lab": 2.449
+     },
+     "4": {
+      "series_index": 0,
+      "distance_lab": 2.449
+     }
+    },
+    "pair_distances_lab": {
+     "0:4": 2.449,
+     "4:0": 2.449
+    },
+    "threshold_lab": 28.0
+   },
+   {
+    "group_id": 1,
+    "series_indices": [
+     1,
+     5
+    ],
+    "series_labels": [
+     "CO2 273K des",
+     "CH4 273K des"
+    ],
+    "nearest_legend_color": {
+     "1": {
+      "series_index": 5,
+      "distance_lab": 24.29
+     },
+     "5": {
+      "series_index": 1,
+      "distance_lab": 24.29
+     }
+    },
+    "pair_distances_lab": {
+     "1:5": 24.29,
+     "5:1": 24.29
+    },
+    "threshold_lab": 28.0
+   },
+   {
+    "group_id": 2,
+    "series_indices": [
+     2,
+     6
+    ],
+    "series_labels": [
+     "CO2 300K ads",
+     "CH4 300K ads"
+    ],
+    "nearest_legend_color": {
+     "2": {
+      "series_index": 6,
+      "distance_lab": 6.519
+     },
+     "6": {
+      "series_index": 2,
+      "distance_lab": 6.519
+     }
+    },
+    "pair_distances_lab": {
+     "2:6": 6.519,
+     "6:2": 6.519
+    },
+    "threshold_lab": 28.0
+   },
+   {
+    "group_id": 3,
+    "series_indices": [
+     3,
+     7
+    ],
+    "series_labels": [
+     "CO2 300K des",
+     "CH4 300K des"
+    ],
+    "nearest_legend_color": {
+     "3": {
+      "series_index": 7,
+      "distance_lab": 20.408
+     },
+     "7": {
+      "series_index": 3,
+      "distance_lab": 20.408
+     }
+    },
+    "pair_distances_lab": {
+     "3:7": 20.408,
+     "7:3": 20.408
+    },
+    "threshold_lab": 28.0
+   }
+  ],
+  "series_assignment_margin": 0.12,
+  "reclaimed_points": 65,
+  "dense_region_resolver": {
+   "roi_px": [
+    [
+     52.0,
+     272.46,
+     173.35,
+     560.17
+    ]
+   ],
+   "columns": 3,
+   "native_supported_additions": 1
+  },
+  "region_strategies": [],
+  "x_grid_columns": 0,
+  "x_grid_supported_columns": 0,
+  "exact_duplicates_dropped": {
+   "CO2 273K ads": 0,
+   "CO2 273K des": 0,
+   "CO2 300K ads": 0,
+   "CO2 300K des": 0
+  },
+  "series_assignment": {
+   "actions": {
+    "unresolved": 108,
+    "reassigned": 13,
+    "preserved_native_candidate": 343,
+    "assigned": 20
+   },
+   "groups": [
+    {
+     "series_labels": [
+      "CO2 273K ads",
+      "CH4 273K ads"
+     ],
+     "assigned_counts": {
+      "0": 12,
+      "4": 0
+     },
+     "unresolved_count": 53
+    },
+    {
+     "series_labels": [
+      "CO2 273K des",
+      "CH4 273K des"
+     ],
+     "assigned_counts": {
+      "1": 72,
+      "5": 129
+     },
+     "unresolved_count": 24
+    },
+    {
+     "series_labels": [
+      "CO2 300K ads",
+      "CH4 300K ads"
+     ],
+     "assigned_counts": {
+      "2": 0,
+      "6": 11
+     },
+     "unresolved_count": 6
+    },
+    {
+     "series_labels": [
+      "CO2 300K des",
+      "CH4 300K des"
+     ],
+     "assigned_counts": {
+      "3": 53,
+      "7": 99
+     },
+     "unresolved_count": 25
+    }
+   ]
+  },
+  "series_gate_moves": [
+   {
+    "from": "CO2 273K des",
+    "to": "CH4 273K des",
+    "points": 26
+   },
+   {
+    "from": "CO2 300K des",
+    "to": "CH4 300K des",
+    "points": 20
+   },
+   {
+    "from": "CH4 273K des",
+    "to": "CO2 273K des",
+    "points": 44
+   },
+   {
+    "from": "CH4 300K ads",
+    "to": "CO2 300K des",
+    "points": 2
+   },
+   {
+    "from": "CH4 300K des",
+    "to": "CO2 300K des",
+    "points": 27
+   }
+  ],
+  "template_fill": {
+   "template_fit": 18,
+   "template_fill": 26
+  },
+  "complex_regions": {
+   "accepted": 0,
+   "rejected": 0
+  },
+  "detail": "full per-candidate audit in python_audit.json"
+ },
+ "proposal_quality": {
+  "review_required": true,
+  "warnings": [
+   {
+    "check": "marker_count",
+    "series": "CO2 273K ads",
+    "detail": "detected 31 of about 43 expected markers"
+   },
+   {
+    "check": "weak_marker_coverage",
+    "series": "CO2 273K ads",
+    "detail": "22 of 31 markers are low-confidence or overlapping; maximum is 25%"
+   },
+   {
+    "check": "marker_count",
+    "series": "CO2 300K ads",
+    "detail": "detected 0 of about 43 expected markers"
+   },
+   {
+    "check": "weak_marker_coverage",
+    "series": "CO2 300K des",
+    "detail": "23 of 63 markers are low-confidence or overlapping; maximum is 25%"
+   }
+  ]
+ },
+ "color_ambiguity_groups": [
+  {
+   "series_labels": [
+    "CO2 273K ads",
+    "CH4 273K ads"
+   ],
+   "pair_distances_lab": {
+    "0:4": 2.449,
+    "4:0": 2.449
+   }
+  },
+  {
+   "series_labels": [
+    "CO2 273K des",
+    "CH4 273K des"
+   ],
+   "pair_distances_lab": {
+    "1:5": 24.29,
+    "5:1": 24.29
+   }
+  },
+  {
+   "series_labels": [
+    "CO2 300K ads",
+    "CH4 300K ads"
+   ],
+   "pair_distances_lab": {
+    "2:6": 6.519,
+    "6:2": 6.519
+   }
+  },
+  {
+   "series_labels": [
+    "CO2 300K des",
+    "CH4 300K des"
+   ],
+   "pair_distances_lab": {
+    "3:7": 20.408,
+    "7:3": 20.408
+   }
+  }
+ ],
+ "unresolved_slots": {
+  "total": 9,
+  "by_series": {
+   "CO2 273K ads": 3,
+   "CO2 273K des": 1,
+   "CO2 300K ads": 3,
+   "CO2 300K des": 2
+  },
+  "slots": [
+   {
+    "series_label": "CO2 273K ads",
+    "series_index": 0,
+    "column_index": 0,
+    "column_px": 112.44,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 273K des",
+    "series_index": 1,
+    "column_index": 0,
+    "column_px": 112.44,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 300K ads",
+    "series_index": 2,
+    "column_index": 0,
+    "column_px": 112.44,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 300K des",
+    "series_index": 3,
+    "column_index": 0,
+    "column_px": 112.44,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 273K ads",
+    "series_index": 0,
+    "column_index": 1,
+    "column_px": 136.05,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 300K ads",
+    "series_index": 2,
+    "column_index": 1,
+    "column_px": 136.05,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 300K des",
+    "series_index": 3,
+    "column_index": 1,
+    "column_px": 136.05,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 273K ads",
+    "series_index": 0,
+    "column_index": 2,
+    "column_px": 162.79,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 300K ads",
+    "series_index": 2,
+    "column_index": 2,
+    "column_px": 162.79,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   }
+  ]
+ },
+ "complex_regions": [],
+ "legend_marker_check": [
+  {
+   "label": "CO2 273K ads",
+   "declared": {
+    "marker": "circle",
+    "marker_fill": "filled",
+    "color_hex": "#ef3b2c"
+   },
+   "measured": {
+    "shape": "circle",
+    "fill": "filled",
+    "color_hex": "#fa1f22",
+    "fill_hex": "#eb2324",
+    "edge_hex": "#e1615c",
+    "size_px": 7.84,
+    "source": "raster",
+    "confidence": 0.47
+   },
+   "mismatches": []
+  },
+  {
+   "label": "CO2 273K des",
+   "declared": {
+    "marker": "circle",
+    "marker_fill": "open",
+    "color_hex": "#ef4b3e"
+   },
+   "measured": {
+    "shape": "hexagon",
+    "fill": "open",
+    "color_hex": "#e56d66",
+    "fill_hex": null,
+    "edge_hex": "#e48a7e",
+    "size_px": 7.88,
+    "source": "raster",
+    "confidence": 0.48
+   },
+   "mismatches": []
+  },
+  {
+   "label": "CO2 300K ads",
+   "declared": {
+    "marker": "circle",
+    "marker_fill": "filled",
+    "color_hex": "#3f58a8"
+   },
+   "measured": {
+    "shape": "hexagon",
+    "fill": "filled",
+    "color_hex": "#364ba7",
+    "fill_hex": "#364da1",
+    "edge_hex": "#717bae",
+    "size_px": 7.92,
+    "source": "raster",
+    "confidence": 0.49
+   },
+   "mismatches": []
+  },
+  {
+   "label": "CO2 300K des",
+   "declared": {
+    "marker": "circle",
+    "marker_fill": "open",
+    "color_hex": "#4c64ad"
+   },
+   "measured": {
+    "shape": "hexagon",
+    "fill": "open",
+    "color_hex": "#6f6fa1",
+    "fill_hex": null,
+    "edge_hex": "#7e7da4",
+    "size_px": 7.88,
+    "source": "raster",
+    "confidence": 0.51
+   },
+   "mismatches": []
+  },
+  {
+   "label": "CH4 273K ads",
+   "declared": {
+    "marker": "triangle_up",
+    "marker_fill": "filled",
+    "color_hex": "#ef3b2c"
+   },
+   "measured": {
+    "shape": "triangle_up",
+    "fill": "filled",
+    "color_hex": "#f61f22",
+    "fill_hex": "#e92327",
+    "edge_hex": "#ffc0bb",
+    "size_px": 7.44,
+    "source": "raster",
+    "confidence": 0.91
+   },
+   "mismatches": []
+  },
+  {
+   "label": "CH4 273K des",
+   "declared": {
+    "marker": "triangle_up",
+    "marker_fill": "open",
+    "color_hex": "#ef4b3e"
+   },
+   "measured": {
+    "shape": "triangle_up",
+    "fill": "open",
+    "color_hex": "#d14c46",
+    "fill_hex": null,
+    "edge_hex": "#d5726e",
+    "size_px": 7.45,
+    "source": "raster",
+    "confidence": 0.91
+   },
+   "mismatches": []
+  },
+  {
+   "label": "CH4 300K ads",
+   "declared": {
+    "marker": "triangle_up",
+    "marker_fill": "filled",
+    "color_hex": "#3f58a8"
+   },
+   "measured": {
+    "shape": "triangle_up",
+    "fill": "filled",
+    "color_hex": "#374bb2",
+    "fill_hex": "#3a50aa",
+    "edge_hex": "#3d4a98",
+    "size_px": 7.26,
+    "source": "raster",
+    "confidence": 0.92
+   },
+   "mismatches": []
+  },
+  {
+   "label": "CH4 300K des",
+   "declared": {
+    "marker": "triangle_up",
+    "marker_fill": "open",
+    "color_hex": "#4c64ad"
+   },
+   "measured": {
+    "shape": "triangle_up",
+    "fill": "open",
+    "color_hex": "#8581bf",
+    "fill_hex": null,
+    "edge_hex": "#797b9e",
+    "size_px": 7.39,
+    "source": "raster",
+    "confidence": 0.91
+   },
+   "mismatches": [
+    "color declared #4c64ad, legend glyph measures #8581bf"
+   ]
+  }
+ ],
+ "source_integrity": {
+  "path": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_02\\fig10\\panel.png",
+  "exists": true,
+  "sha256": "e0c7e616c23becd9e286061a5f51712aba1cb57cb538d4f2242b99761b9fb658",
+  "width": 881,
+  "height": 695
+ },
+ "count_check": [],
+ "sample_colors": [],
+ "region_strategies": [],
+ "hard_checks": {
+  "stage": "python",
+  "passed": true,
+  "problems": [],
+  "axis_range": {
+   "passed": true,
+   "problems": [],
+   "margin": 0.05,
+   "max_frame_overhang_steps": 1.0,
+   "x": {
+    "unit": "bar",
+    "scale": "linear",
+    "printed": [
+     0.0,
+     1.2
+    ],
+    "data": [
+     0.0139,
+     1.0692
+    ],
+    "points_outside": 0,
+    "passed": true,
+    "frame": [
+     -0.10073774427775334,
+     1.3009852673241236
+    ],
+    "frame_overhang_steps": [
+     0.5,
+     0.5
+    ],
+    "allowed": [
+     -0.10073774427775334,
+     1.3009852673241236
+    ]
+   },
+   "y": {
+    "unit": "cm³ g⁻¹",
+    "scale": "linear",
+    "printed": [
+     0.0,
+     50.0
+    ],
+    "data": [
+     2.1621,
+     53.5846
+    ],
+    "points_outside": 0,
+    "passed": true,
+    "frame": [
+     -5.070509173112704,
+     55.00353699232626
+    ],
+    "frame_overhang_steps": [
+     0.51,
+     0.5
+    ],
+    "allowed": [
+     -5.070509173112704,
+     55.00353699232626
+    ]
+   }
+  },
+  "redraw": {
+   "available": true,
+   "series": {
+    "CO2 273K ads": {
+     "points": 31,
+     "precision": 1.0,
+     "recall": null,
+     "missed_marker_equivalents": null,
+     "same_color_group": [
+      "CO2 273K ads",
+      "CO2 273K des",
+      "CH4 273K ads",
+      "CH4 273K des"
+     ],
+     "note": "recall not measurable: same color as excluded series CH4 273K ads, CH4 273K des"
+    },
+    "CO2 273K des": {
+     "points": 90,
+     "precision": 1.0,
+     "recall": null,
+     "missed_marker_equivalents": null,
+     "same_color_group": [
+      "CO2 273K ads",
+      "CO2 273K des",
+      "CH4 273K ads",
+      "CH4 273K des"
+     ],
+     "note": "recall not measurable: same color as excluded series CH4 273K ads, CH4 273K des"
+    },
+    "CO2 300K ads": {
+     "points": 0,
+     "precision": null,
+     "recall": null,
+     "missed_marker_equivalents": null,
+     "same_color_group": [
+      "CO2 300K ads",
+      "CO2 300K des",
+      "CH4 300K ads",
+      "CH4 300K des"
+     ],
+     "note": "recall not measurable: same color as excluded series CH4 300K ads, CH4 300K des"
+    },
+    "CO2 300K des": {
+     "points": 63,
+     "precision": 0.984,
+     "recall": null,
+     "missed_marker_equivalents": null,
+     "same_color_group": [
+      "CO2 300K ads",
+      "CO2 300K des",
+      "CH4 300K ads",
+      "CH4 300K des"
+     ],
+     "note": "recall not measurable: same color as excluded series CH4 300K ads, CH4 300K des"
+    }
+   },
+   "recall": null,
+   "precision": 0.995
+  },
+  "physics": {
+   "verdict": "review",
+   "flags": {
+    "CO2 273K ads": [],
+    "CO2 273K des": [
+     {
+      "check": "monotonic",
+      "detail": "des: uptake decreases at [(np.float64(0.376), np.float64(42.428)), (np.float64(0.412), np.float64(42.921)), (np.float64(0.485), np.float64(44.918)), (np.float64(0.535), np.float64(46.063)), (np.float64(0.55), np.float64(45.824))]"
+     },
+     {
+      "check": "smoothness",
+      "level": "warn",
+      "detail": "des: local outliers (P,q,resid) [(np.float64(0.31), np.float64(39.878), -0.696), (np.float64(0.318), np.float64(40.963), 0.662), (np.float64(0.387), np.float64(42.23), -0.796), (np.float64(0.401), np.float64(43.192), 0.696), (np.float64(0.55), np.float64(45.824), 1.56)]"
+     }
+    ],
+    "CO2 300K ads": [],
+    "CO2 300K des": [
+     {
+      "check": "monotonic",
+      "detail": "ads: uptake decreases at [(np.float64(0.246), np.float64(7.4)), (np.float64(0.751), np.float64(37.769)), (np.float64(0.801), np.float64(38.609)), (np.float64(0.866), np.float64(39.091))]"
+     },
+     {
+      "check": "smoothness",
+      "level": "warn",
+      "detail": "ads: local outliers (P,q,resid) [(np.float64(0.226), np.float64(7.628), 0.886), (np.float64(0.246), np.float64(7.4), -1.927), (np.float64(0.505), np.float64(33.86), 0.861), (np.float64(0.531), np.float64(34.989), 0.719), (np.float64(0.775), np.float64(38.21), 1.42)]"
+     }
+    ]
+   },
+   "cross_series": []
+  }
+ }
+}

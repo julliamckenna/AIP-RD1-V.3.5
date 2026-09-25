@@ -1,0 +1,111 @@
+{
+ "stage": "agent03",
+ "passed": true,
+ "problems": [],
+ "axis_range": {
+  "passed": true,
+  "problems": [],
+  "margin": 0.05,
+  "max_frame_overhang_steps": 1.0,
+  "x": {
+   "unit": "P/P₀",
+   "scale": "linear",
+   "printed": [
+    0.0,
+    1.0
+   ],
+   "data": [
+    -0.0018,
+    0.9774
+   ],
+   "points_outside": 0,
+   "passed": true,
+   "frame": [
+    -0.05031210581177903,
+    1.0496242156795148
+   ],
+   "frame_overhang_steps": [
+    0.25,
+    0.25
+   ],
+   "allowed": [
+    -0.05031210581177903,
+    1.05
+   ]
+  },
+  "y": {
+   "unit": "cm³ g⁻¹",
+   "scale": "linear",
+   "printed": [
+    0.0,
+    140.0
+   ],
+   "data": [
+    3.035,
+    126.8213
+   ],
+   "points_outside": 0,
+   "passed": true,
+   "frame": [
+    -10.09534443313305,
+    140.1162523398246
+   ],
+   "frame_overhang_steps": [
+    0.5,
+    0.01
+   ],
+   "allowed": [
+    -10.09534443313305,
+    147.0
+   ]
+  }
+ },
+ "redraw": {
+  "available": true,
+  "series": {
+   "CO2 195K": {
+    "points": 55,
+    "precision": 0.964,
+    "recall": 0.891,
+    "missed_marker_equivalents": 5.5,
+    "same_color_group": [
+     "CO2 195K"
+    ]
+   }
+  },
+  "recall": 0.891,
+  "precision": 0.964
+ },
+ "physics": {
+  "verdict": "review",
+  "flags": {
+   "CO2 195K": [
+    {
+     "check": "monotonic",
+     "detail": "ads: uptake decreases at [(np.float64(0.004), np.float64(3.035)), (np.float64(0.037), np.float64(69.562)), (np.float64(0.219), np.float64(121.384)), (np.float64(0.297), np.float64(122.434))]"
+    },
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "ads: local outliers (P,q,resid) [(np.float64(0.004), np.float64(3.035), -17.967), (np.float64(0.006), np.float64(8.988), -5.969), (np.float64(0.006), np.float64(14.94), 5.25), (np.float64(0.015), np.float64(55.206), -3.278), (np.float64(0.015), np.float64(59.758), 4.552)]"
+    },
+    {
+     "check": "monotonic",
+     "detail": "des: uptake decreases at [(np.float64(0.004), np.float64(26.144))]"
+    },
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "des: local outliers (P,q,resid) [(np.float64(0.004), np.float64(26.144), -7.505), (np.float64(0.006), np.float64(39.1), 2.7), (np.float64(0.011), np.float64(51.005), -3.789)]"
+    }
+   ]
+  },
+  "cross_series": []
+ },
+ "limitations": {
+  "unresolved_slots": 0,
+  "dense_regions_with_no_distinct_centres": 0,
+  "note": "ink coverage is not marker completeness; unresolved dense evidence requires review"
+ },
+ "accepted_extraction": true
+}

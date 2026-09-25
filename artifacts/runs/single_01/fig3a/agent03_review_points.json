@@ -1,0 +1,191 @@
+{
+ "reasoning": "The CO2 195K series is visibly present as blue open circles along the steep low-pressure rise and plateau. Python captured 18 markers but missed 16 visible markers, primarily in the dense rise. The inset is excluded. No proposed CO2 point is clearly false or requires reassignment.",
+ "verdict": "review",
+ "series": [
+  {
+   "label": "CO2 195K",
+   "coverage": "complete",
+   "final_count": 34,
+   "comment": "Added 16 blue open-circle markers visible in the dense low-pressure rise and on the plateau; the inset remains excluded."
+  }
+ ],
+ "operations": [
+  {
+   "operation_id": "op-add-01",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.2701,
+   "y_norm": 0.698,
+   "overlap": true,
+   "reason": "Missed low-pressure blue open-circle marker.",
+   "source_evidence": "Visible blue ring centered near native pixel (84.0,194.0) on the main-plot steep-rise branch."
+  },
+  {
+   "operation_id": "op-add-02",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.2711,
+   "y_norm": 0.68,
+   "overlap": true,
+   "reason": "Missed closely spaced low-pressure marker.",
+   "source_evidence": "Visible blue ring centered near native pixel (84.3,189.0) in the dense main-plot rise."
+  },
+  {
+   "operation_id": "op-add-03",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.2733,
+   "y_norm": 0.612,
+   "overlap": true,
+   "reason": "Missed dense-rise marker.",
+   "source_evidence": "Visible blue ring centered near native pixel (84.8,170.0), separate from the supplied rings around y=178–184."
+  },
+  {
+   "operation_id": "op-add-04",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.2746,
+   "y_norm": 0.583,
+   "overlap": true,
+   "reason": "Missed dense-rise marker.",
+   "source_evidence": "Visible blue ring centered near native pixel (85.2,162.0) on the blue vertical branch."
+  },
+  {
+   "operation_id": "op-add-05",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.276,
+   "y_norm": 0.558,
+   "overlap": true,
+   "reason": "Missed dense-rise marker.",
+   "source_evidence": "Visible blue ring centered near native pixel (85.7,155.0) in the native dense-rise pixels."
+  },
+  {
+   "operation_id": "op-add-06",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.2797,
+   "y_norm": 0.507,
+   "overlap": true,
+   "reason": "Missed marker on the rising branch.",
+   "source_evidence": "Visible blue open circle centered near native pixel (87.0,141.0), below the supplied point near (86.5,148.5)."
+  },
+  {
+   "operation_id": "op-add-07",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.2823,
+   "y_norm": 0.478,
+   "overlap": true,
+   "reason": "Missed marker on the rising branch.",
+   "source_evidence": "Visible blue ring centered near native pixel (87.8,133.0) in the native steep-rise strip."
+  },
+  {
+   "operation_id": "op-add-08",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.2855,
+   "y_norm": 0.45,
+   "overlap": true,
+   "reason": "Missed marker on the rising branch.",
+   "source_evidence": "Visible blue ring centered near native pixel (88.7,125.0), between the dense lower rise and the supplied point near y=112.7."
+  },
+  {
+   "operation_id": "op-add-09",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.2894,
+   "y_norm": 0.421,
+   "overlap": true,
+   "reason": "Missed marker immediately below the upper bend.",
+   "source_evidence": "Visible blue open circle centered near native pixel (90.0,117.0) on the main curve."
+  },
+  {
+   "operation_id": "op-add-10",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.2974,
+   "y_norm": 0.342,
+   "overlap": true,
+   "reason": "Missed marker on the upper part of the rise.",
+   "source_evidence": "Visible blue ring centered near native pixel (92.5,95.0), above the supplied marker near (92.1,99.9)."
+  },
+  {
+   "operation_id": "op-add-11",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.299,
+   "y_norm": 0.327,
+   "overlap": true,
+   "reason": "Missed marker on the upper bend.",
+   "source_evidence": "Visible blue open circle centered near native pixel (93.0,91.0) in the native source branch."
+  },
+  {
+   "operation_id": "op-add-12",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.3023,
+   "y_norm": 0.302,
+   "overlap": true,
+   "reason": "Missed marker on the upper bend.",
+   "source_evidence": "Visible blue ring centered near native pixel (94.0,84.0), between the steep branch and plateau."
+  },
+  {
+   "operation_id": "op-add-13",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.3055,
+   "y_norm": 0.281,
+   "overlap": true,
+   "reason": "Missed marker approaching the plateau.",
+   "source_evidence": "Visible blue open circle centered near native pixel (95.0,78.0) in the main panel."
+  },
+  {
+   "operation_id": "op-add-14",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.3087,
+   "y_norm": 0.27,
+   "overlap": true,
+   "reason": "Missed marker approaching the plateau.",
+   "source_evidence": "Visible blue ring centered near native pixel (96.0,75.0), immediately before the supplied marker near (97.5,72.1)."
+  },
+  {
+   "operation_id": "op-add-15",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.3174,
+   "y_norm": 0.252,
+   "overlap": true,
+   "reason": "Missed marker between the bend and plateau points.",
+   "source_evidence": "Visible blue open circle centered near native pixel (98.8,70.0) on the source curve between supplied points near (97.5,72.1) and (100.9,69.3)."
+  },
+  {
+   "operation_id": "op-add-16",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.6431,
+   "y_norm": 0.234,
+   "overlap": false,
+   "reason": "Missed blue plateau marker.",
+   "source_evidence": "Visible blue open circle centered near native pixel (200.0,65.0) on the main-plot plateau, outside the inset."
+  }
+ ],
+ "uncertainties": []
+}

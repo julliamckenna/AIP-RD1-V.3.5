@@ -1,0 +1,5 @@
+{
+ "error_type": "BadRequestError",
+ "error": "Error code: 400 - {'error': {'code': 'invalid_payload', 'message': 'Invalid payload: Not allowed when agent is specified. [Request ID: c7590bccc7c703b7253d441aa4bb7bd4]', 'param': 'tools', 'type': 'invalid_request_error', 'details': [{'code': 'ValidationError', 'message': 'Not allowed when agent is specified.', 'param': 'tools', 'type': 'error', 'details': []}, {'code': 'ValidationError', 'message': 'Not allowed when agent is specified.', 'param': 'text', 'type': 'error', 'details': []}], 'additionalInfo': {'request_id': 'c7590bccc7c703b7253d441aa4bb7bd4'}}}",
+ "request_sha256": "070ad6338ae1927c16b958b0db8a093b0d6d955347a3bb66f73003c178e22b3a"
+}

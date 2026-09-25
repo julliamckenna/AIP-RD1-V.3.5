@@ -1,0 +1,120 @@
+{
+ "reasoning": "The independently read axes and six legend identities agree with the recreated chart. The curves retain the source ordering and their high-pressure endpoints align with the same tick values, so there is no calibration or series-identity failure. Most marker rows are well supported, but the dense low-pressure fan obscures individual centres. In particular, several early CO2 313K squares and the first CO2 373K stars cannot be distinguished confidently from thick connecting strokes. The empty suspect-point table provides no point IDs for safe deletions, so the extraction remains usable but requires review rather than acceptance.",
+ "axis_check": {
+  "x": {
+   "printed_min": 0,
+   "printed_max": 1200,
+   "data_min": 13.6569,
+   "data_max": 1140.5631,
+   "reason": "The source has a linear 0-1200 mbar axis, and the recreated markers occupy the same pressure positions and spacing as the source.",
+   "result": "pass"
+  },
+  "y": {
+   "printed_min": 0,
+   "printed_max": 3,
+   "data_min": 0.1455,
+   "data_max": 2.9257,
+   "reason": "The recreated curves have the same vertical ordering and high-pressure endpoints as the source against the 0-3.0 mmol/g ticks.",
+   "result": "pass"
+  }
+ },
+ "independent_read": {
+  "x_axis": "P / mbar, linear 0-1200",
+  "y_axis": "CO2 Loading [mmol/g], linear 0-3.0",
+  "series": [
+   {
+    "label": "CO2 303K",
+    "marker": "circle",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 14,
+    "notes": "Distinct circles are clearest after the dense low-pressure red stroke."
+   },
+   {
+    "label": "CO2 313K",
+    "marker": "square",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 20,
+    "notes": "Several low-pressure squares are crowded against the red and green strokes."
+   },
+   {
+    "label": "CO2 323K",
+    "marker": "triangle_up",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 19,
+    "notes": "Triangles become clearly separable above the dense origin region."
+   },
+   {
+    "label": "CO2 333K",
+    "marker": "pentagon",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 19,
+    "notes": "Blue filled pentagons are generally distinct outside the origin."
+   },
+   {
+    "label": "CO2 353K",
+    "marker": "diamond",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 18,
+    "notes": "Magenta diamonds are mostly isolated and countable."
+   },
+   {
+    "label": "CO2 373K",
+    "marker": "star",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 13,
+    "notes": "The earliest black stars are difficult to distinguish from the thick black connecting stroke."
+   }
+  ],
+  "visual_risks": [
+   "Heavy line and marker overlap in the low-pressure fan near the origin.",
+   "Thick red, green, and black strokes can imitate or conceal marker centres.",
+   "The earliest CO2 313K squares and CO2 373K stars are not all independently resolvable at native resolution."
+  ]
+ },
+ "verdict": "review",
+ "series": [
+  {
+   "label": "CO2 303K",
+   "coverage": "complete",
+   "final_count": 14,
+   "comment": "Distinct red marker ink is well covered and the endpoint agrees with the source."
+  },
+  {
+   "label": "CO2 313K",
+   "coverage": "uncertain",
+   "final_count": 20,
+   "comment": "The overall curve is correct, but some early square detections are difficult to separate from overlapping line ink."
+  },
+  {
+   "label": "CO2 323K",
+   "coverage": "complete",
+   "final_count": 19,
+   "comment": "Triangle positions and endpoint agree closely with the source."
+  },
+  {
+   "label": "CO2 333K",
+   "coverage": "complete",
+   "final_count": 19,
+   "comment": "Pentagon positions and endpoint agree with the source."
+  },
+  {
+   "label": "CO2 353K",
+   "coverage": "complete",
+   "final_count": 18,
+   "comment": "Diamond sequence follows the source; small uncovered edge fragments appear attributable to raster alignment."
+  },
+  {
+   "label": "CO2 373K",
+   "coverage": "uncertain",
+   "final_count": 14,
+   "comment": "The high-pressure stars are supported, but one or more earliest candidates may represent the thick connecting stroke rather than distinct stars."
+  }
+ ],
+ "operations": [],
+ "uncertainties": [
+  "No suspect point IDs were supplied, so ambiguous low-pressure candidates cannot be safely deleted or reassigned in this response.",
+  "Individual CO2 313K marker centres within the crowded low-pressure fan remain uncertain.",
+  "The first one or two CO2 373K candidates lie on or near the thick black stroke and are not conclusively distinguishable as separate star markers.",
+  "No points are added merely to follow or smooth any curve."
+ ]
+}

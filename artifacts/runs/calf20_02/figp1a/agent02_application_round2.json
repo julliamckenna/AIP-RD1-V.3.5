@@ -1,0 +1,15 @@
+{
+ "round": 2,
+ "max_rounds": 3,
+ "checked": true,
+ "state": "applied_for_next_extraction",
+ "reason": "spec_saved_before_next_python_extraction",
+ "proposed": {
+  "extraction_settings": 2,
+  "region_strategies": 0,
+  "shared_x_columns": 0,
+  "complex_regions": 3
+ },
+ "applied": true,
+ "unexecuted": false
+}

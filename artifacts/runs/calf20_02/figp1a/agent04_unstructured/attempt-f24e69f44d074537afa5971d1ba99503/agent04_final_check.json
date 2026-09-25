@@ -1,0 +1,1884 @@
+{
+  "reasoning": "Independent native-pixel review used panel.png as authority. The legend maps eleven filled, solid CO2 curves (273\u2013373K) to distinct colour/shape combinations; six N2 legend entries and their near-baseline curves were excluded. Candidate rows were compared with native colour cores and glyph geometry, including the full review bundle [agent03_points.csv; agent03_points.json; agent03_review_points.json; adjudicate/review_tiles.json]. A conservative replacement was built from distinct native marker cores; partial glyphs were retained only when colour, shape/context, and curve ownership supported a centre. No row was created from expected counts, interpolation, or wholly hidden markers. The saved CSV was reloaded and used to draw both a data-space reconstruction and a native-pixel overlay; the curves align with the source, while unresolved dense regions remain explicitly reported.",
+  "axis_check": {
+    "x": {
+      "printed_min": 0,
+      "printed_max": 1200,
+      "data_min": 6.5565,
+      "data_max": 1198.0115,
+      "result": "pass",
+      "reason": "Native printed ticks are 0, 200, 400, 600, 800, 1000, 1200 mbar. Tick centres at approximately 214, 358, 502, 646, 791, 933, 1077 px support the retained linear model; the reloaded reconstruction reaches the native 1200-mbar endpoints."
+    },
+    "y": {
+      "printed_min": 0,
+      "printed_max": 5,
+      "data_min": 0.0092,
+      "data_max": 5.0471,
+      "result": "pass",
+      "reason": "Native printed ticks are 0 through 5 mmol/g at approximately 708, 584, 459, 336, 212, 86 px. The negative pixel slope and reloaded reconstruction place all CO2 curves at the same loading levels as panel.png."
+    }
+  },
+  "independent_read": {
+    "x_axis": "P / mbar; linear; printed major ticks 0, 200, 400, 600, 800, 1000, 1200.",
+    "y_axis": "CO2 Loading / mmol/g; linear; printed major ticks 0, 1, 2, 3, 4, 5.",
+    "series": [
+      {
+        "label": "CO2 273K",
+        "marker": "square",
+        "marker_fill": "filled",
+        "visible_markers_estimate": 34,
+        "notes": "#080808 square on a solid adsorption curve; count is approximate because the low-pressure fan is heavily overlapped."
+      },
+      {
+        "label": "CO2 283K",
+        "marker": "hexagon",
+        "marker_fill": "filled",
+        "visible_markers_estimate": 34,
+        "notes": "#ed2f31 hexagon on a solid adsorption curve; count is approximate because the low-pressure fan is heavily overlapped."
+      },
+      {
+        "label": "CO2 293K",
+        "marker": "triangle_up",
+        "marker_fill": "filled",
+        "visible_markers_estimate": 34,
+        "notes": "#3c5096 triangle_up on a solid adsorption curve; count is approximate because the low-pressure fan is heavily overlapped."
+      },
+      {
+        "label": "CO2 303K",
+        "marker": "triangle_down",
+        "marker_fill": "filled",
+        "visible_markers_estimate": 34,
+        "notes": "#198e8a triangle_down on a solid adsorption curve; count is approximate because the low-pressure fan is heavily overlapped."
+      },
+      {
+        "label": "CO2 313K",
+        "marker": "triangle_left",
+        "marker_fill": "filled",
+        "visible_markers_estimate": 34,
+        "notes": "#bd4f9b triangle_left on a solid adsorption curve; count is approximate because the low-pressure fan is heavily overlapped."
+      },
+      {
+        "label": "CO2 323K",
+        "marker": "triangle_right",
+        "marker_fill": "filled",
+        "visible_markers_estimate": 34,
+        "notes": "#8b8d31 triangle_right on a solid adsorption curve; count is approximate because the low-pressure fan is heavily overlapped."
+      },
+      {
+        "label": "CO2 333K",
+        "marker": "diamond",
+        "marker_fill": "filled",
+        "visible_markers_estimate": 34,
+        "notes": "#293678 diamond on a solid adsorption curve; count is approximate because the low-pressure fan is heavily overlapped."
+      },
+      {
+        "label": "CO2 343K",
+        "marker": "pentagon",
+        "marker_fill": "filled",
+        "visible_markers_estimate": 34,
+        "notes": "#9c2527 pentagon on a solid adsorption curve; count is approximate because the low-pressure fan is heavily overlapped."
+      },
+      {
+        "label": "CO2 353K",
+        "marker": "hexagon",
+        "marker_fill": "filled",
+        "visible_markers_estimate": 34,
+        "notes": "#e72b73 hexagon on a solid adsorption curve; count is approximate because the low-pressure fan is heavily overlapped."
+      },
+      {
+        "label": "CO2 363K",
+        "marker": "star",
+        "marker_fill": "filled",
+        "visible_markers_estimate": 34,
+        "notes": "#258c46 star on a solid adsorption curve; count is approximate because the low-pressure fan is heavily overlapped."
+      },
+      {
+        "label": "CO2 373K",
+        "marker": "circle",
+        "marker_fill": "filled",
+        "visible_markers_estimate": 34,
+        "notes": "#2a2b86 circle on a solid adsorption curve; count is approximate because the low-pressure fan is heavily overlapped."
+      }
+    ],
+    "visual_risks": [
+      "All eleven CO2 curves converge into a severely crowded low-pressure fan near the left axis, producing partial and wholly hidden glyphs.",
+      "The CO2 293K, 333K, and 373K series use similar dark-blue hues; ownership must also follow marker shape and vertical trajectory.",
+      "The CO2 303K teal colour is also used by an excluded N2 trace near the baseline.",
+      "The CO2 273K black series shares black ink with axes and an excluded N2 series.",
+      "Solid connecting lines thicken or cross marker bodies and can create false automated centres.",
+      "The right-side legend/inset is excluded context; only native plot-area marker pixels were exported.",
+      "Six N2 series (273K, 293K, 313K, 333K, 353K, 373K) are visible but excluded from the CO2-only CSV."
+    ]
+  },
+  "verdict": "review",
+  "series": [
+    {
+      "label": "CO2 273K",
+      "coverage": "incomplete",
+      "final_count": 30,
+      "comment": "30 source-supported centres retained/recovered. Native colour-core overlay aligns with the square curve; unresolved crowded regions are listed separately."
+    },
+    {
+      "label": "CO2 283K",
+      "coverage": "incomplete",
+      "final_count": 28,
+      "comment": "28 source-supported centres retained/recovered. Native colour-core overlay aligns with the hexagon curve; unresolved crowded regions are listed separately."
+    },
+    {
+      "label": "CO2 293K",
+      "coverage": "incomplete",
+      "final_count": 27,
+      "comment": "27 source-supported centres retained/recovered. Native colour-core overlay aligns with the triangle_up curve; unresolved crowded regions are listed separately."
+    },
+    {
+      "label": "CO2 303K",
+      "coverage": "incomplete",
+      "final_count": 31,
+      "comment": "31 source-supported centres retained/recovered. Native colour-core overlay aligns with the triangle_down curve; unresolved crowded regions are listed separately."
+    },
+    {
+      "label": "CO2 313K",
+      "coverage": "incomplete",
+      "final_count": 35,
+      "comment": "35 source-supported centres retained/recovered. Native colour-core overlay aligns with the triangle_left curve; unresolved crowded regions are listed separately."
+    },
+    {
+      "label": "CO2 323K",
+      "coverage": "incomplete",
+      "final_count": 31,
+      "comment": "31 source-supported centres retained/recovered. Native colour-core overlay aligns with the triangle_right curve; unresolved crowded regions are listed separately."
+    },
+    {
+      "label": "CO2 333K",
+      "coverage": "incomplete",
+      "final_count": 32,
+      "comment": "32 source-supported centres retained/recovered. Native colour-core overlay aligns with the diamond curve; unresolved crowded regions are listed separately."
+    },
+    {
+      "label": "CO2 343K",
+      "coverage": "incomplete",
+      "final_count": 31,
+      "comment": "31 source-supported centres retained/recovered. Native colour-core overlay aligns with the pentagon curve; unresolved crowded regions are listed separately."
+    },
+    {
+      "label": "CO2 353K",
+      "coverage": "incomplete",
+      "final_count": 30,
+      "comment": "30 source-supported centres retained/recovered. Native colour-core overlay aligns with the hexagon curve; unresolved crowded regions are listed separately."
+    },
+    {
+      "label": "CO2 363K",
+      "coverage": "incomplete",
+      "final_count": 28,
+      "comment": "28 source-supported centres retained/recovered. Native colour-core overlay aligns with the star curve; unresolved crowded regions are listed separately."
+    },
+    {
+      "label": "CO2 373K",
+      "coverage": "incomplete",
+      "final_count": 21,
+      "comment": "21 source-supported centres retained/recovered. Native colour-core overlay aligns with the circle curve; unresolved crowded regions are listed separately."
+    }
+  ],
+  "uncertainties": [
+    "Visible marker centres use a nominal 2.5-pixel radial uncertainty; crowded/weak partial glyphs use 4.5 pixels, projected into axis units in uncertainty_x/y.",
+    "Low-pressure overlap prevents complete source-supported enumeration for every series; no expected-count completion was attempted.",
+    "Colour-distance and distance-transform detections were used only as search aids and were visually checked in the reloaded native overlay.",
+    "Native plot regions represented by unresolved_slots may contain additional wholly hidden markers that are intentionally absent from the CSV."
+  ],
+  "row_count": 324,
+  "calibration": {
+    "px_per_unit_x": 0.7192885515675982,
+    "px_per_unit_y": 124.25822028052431,
+    "unit_per_px_x": 1.3902626391322743,
+    "unit_per_px_y": 0.008047757305250376,
+    "axis_models": {
+      "x": {
+        "scale": "linear",
+        "slope": 1.3902626391322743,
+        "intercept": -297.9110559310007
+      },
+      "y": {
+        "scale": "linear",
+        "slope": -0.008047757305250376,
+        "intercept": 5.698983528837023
+      }
+    },
+    "tick_fit_resid_x": 1.7866916226282683,
+    "tick_fit_resid_y": 0.007141019876056642,
+    "tick_fit_resid_x_px": 1.2851468293382489,
+    "tick_fit_resid_y_px": 0.8873304207866487,
+    "frame_px": [
+      142,
+      28,
+      1092,
+      770
+    ],
+    "x_ticks_px": [
+      214,
+      358,
+      502,
+      646,
+      791,
+      933,
+      1077
+    ],
+    "y_ticks_px": [
+      86,
+      212,
+      336,
+      459,
+      584,
+      708
+    ],
+    "tick_anchors": {
+      "x": [
+        {
+          "pixel_norm": 0.146776,
+          "value": 0.0
+        },
+        {
+          "pixel_norm": 0.245542,
+          "value": 200.0
+        },
+        {
+          "pixel_norm": 0.344307,
+          "value": 400.0
+        },
+        {
+          "pixel_norm": 0.443073,
+          "value": 600.0
+        },
+        {
+          "pixel_norm": 0.542524,
+          "value": 800.0
+        },
+        {
+          "pixel_norm": 0.639232,
+          "value": 1000.0
+        },
+        {
+          "pixel_norm": 0.738683,
+          "value": 1200.0
+        }
+      ],
+      "y": [
+        {
+          "pixel_norm": 0.775466,
+          "value": 0.0
+        },
+        {
+          "pixel_norm": 0.639649,
+          "value": 1.0
+        },
+        {
+          "pixel_norm": 0.502738,
+          "value": 2.0
+        },
+        {
+          "pixel_norm": 0.367799,
+          "value": 3.0
+        },
+        {
+          "pixel_norm": 0.232202,
+          "value": 4.0
+        },
+        {
+          "pixel_norm": 0.094195,
+          "value": 5.0
+        }
+      ]
+    }
+  },
+  "unresolved_slots": {
+    "total": 12,
+    "by_series": {
+      "CO2 273K": 1,
+      "CO2 283K": 1,
+      "CO2 293K": 1,
+      "CO2 303K": 1,
+      "CO2 313K": 1,
+      "CO2 323K": 1,
+      "CO2 333K": 1,
+      "CO2 343K": 1,
+      "CO2 353K": 1,
+      "CO2 363K": 1,
+      "CO2 373K": 2
+    },
+    "slots": [
+      {
+        "series_label": "CO2 273K",
+        "reason": "Native low-pressure fan at approximately x=205\u2013284 px, y=305\u2013710 px contains fused black squares/black line and multiple overprinted coloured glyphs; additional distinct 273K centres cannot be separated without inventing points [panel.png; adjudicate/review_tiles.json]."
+      },
+      {
+        "series_label": "CO2 283K",
+        "reason": "Native low-pressure fan at approximately x=205\u2013300 px, y=320\u2013710 px has red hexagons fused with the black and blue curves; only colour-core-supported centres were exported [panel.png]."
+      },
+      {
+        "series_label": "CO2 293K",
+        "reason": "Native region approximately x=205\u2013270 px, y=380\u2013710 px has overlapping blue up-triangles and other CO2/N2 ink, leaving possible 293K glyphs without separable centres [panel.png]."
+      },
+      {
+        "series_label": "CO2 303K",
+        "reason": "Native region approximately x=205\u2013260 px, y=450\u2013710 px is a fused teal/blue/red fan; no additional triangle-down centre is uniquely supported [panel.png]."
+      },
+      {
+        "series_label": "CO2 313K",
+        "reason": "Native region approximately x=205\u2013226 px, y=520\u2013710 px is unresolved for the earliest magenta left-triangle instances; wholly hidden hypotheses were not exported [panel.png]."
+      },
+      {
+        "series_label": "CO2 323K",
+        "reason": "Native region approximately x=205\u2013251 px, y=560\u2013710 px contains olive fragments under several curves; earliest right-triangle ownership/centres remain unresolved [panel.png; agent03_review_points.json]."
+      },
+      {
+        "series_label": "CO2 333K",
+        "reason": "Native region approximately x=205\u2013238 px, y=610\u2013710 px has dark-blue diamond fragments fused with the baseline bundle; additional centres are unresolved [panel.png]."
+      },
+      {
+        "series_label": "CO2 343K",
+        "reason": "Native region approximately x=205\u2013234 px, y=650\u2013710 px has dark-red pentagon ink fused with neighbouring low-pressure markers, preventing unique centres [panel.png]."
+      },
+      {
+        "series_label": "CO2 353K",
+        "reason": "Native region approximately x=205\u2013250 px, y=660\u2013710 px has magenta hexagon fragments with incomplete outlines; unsupported hidden instances were omitted [panel.png]."
+      },
+      {
+        "series_label": "CO2 363K",
+        "reason": "Native region approximately x=205\u2013280 px, y=650\u2013710 px contains green star arms crossing several markers; some early star centres remain inseparable [panel.png]."
+      },
+      {
+        "series_label": "CO2 373K",
+        "reason": "Native low-pressure region approximately x=205\u2013280 px, y=680\u2013710 px overlaps excluded N2 traces and other dark-blue ink; possible circle centres are not uniquely resolvable [panel.png]."
+      },
+      {
+        "series_label": "CO2 373K",
+        "reason": "Several mid-pressure dark-blue circle impressions are weak/partly fused with the connecting line (approximately x=300\u2013600 px, y=520\u2013650 px); no centre was added where a glyph core or arc was not visible [panel.png]."
+      }
+    ]
+  },
+  "changes": [
+    {
+      "action": "add",
+      "point_id": "pt-a04-451a9d67edb28d1d",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 273K partially_visible_marker at panel.png pixel (285.0,304.5); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-98ed28a28fc737a1",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 273K partially_visible_marker at panel.png pixel (298.0,291.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-16594aa9fc1f8aef",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 273K partially_visible_marker at panel.png pixel (319.0,272.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-236356820ee7767e",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 273K partially_visible_marker at panel.png pixel (343.0,248.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-e24af1b95bab3741",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 273K visible_marker at panel.png pixel (861.0,98.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-1a282ae747a3967a",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 273K visible_marker at panel.png pixel (888.6,95.4); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-f5788b28de0e882f",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 273K visible_marker at panel.png pixel (940.0,91.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-5019db7f78e07dae",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 273K visible_marker at panel.png pixel (1003.5,86.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-1ad23eadd7cea423",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 273K visible_marker at panel.png pixel (1075.0,81.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-89d3cc72d1e0c472",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (240.0,523.0) lacks a distinct CO2 273K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-8b169fc53d17fb93",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (249.8,514.9) lacks a distinct CO2 273K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-e0612fb750ef3c67",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (260.8,491.6) lacks a distinct CO2 273K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-0d4208a6f2094b71",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (271.5,471.2) lacks a distinct CO2 273K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-5dabe70145d6f982",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (289.0,435.0) lacks a distinct CO2 273K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-5edb44368afb8aa5",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (289.4,440.1) lacks a distinct CO2 273K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-a1a7793d84272209",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (290.3,420.8) lacks a distinct CO2 273K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-08775b0c1ef6481c",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (333.4,323.6) lacks a distinct CO2 273K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-68f940c3344e719d",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (340.4,355.4) lacks a distinct CO2 273K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-6f9b1d8c7265cd41",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (343.0,312.9) lacks a distinct CO2 273K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-6f23128ba76cf1f1",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (360.6,275.3) lacks a distinct CO2 273K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-60c5f4c5c0d23b21",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (745.4,111.5) lacks a distinct CO2 273K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-522eacb6c3abb6d1",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (756.0,111.0) lacks a distinct CO2 273K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-c9f69b3ee23e9f57",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (836.5,100.5) lacks a distinct CO2 273K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-161b29fa536e688a",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (860.9,98.0) lacks a distinct CO2 273K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-d61f0b1982547a38",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (888.3,95.3) lacks a distinct CO2 273K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-68fd92e0ba9120c6",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (938.8,90.6) lacks a distinct CO2 273K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-08a2b226f5daedc7",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (1003.5,85.7) lacks a distinct CO2 273K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-ebdb04bd795f91f8",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 283K partially_visible_marker at panel.png pixel (305.2,341.7); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-62646d2bd3d614b7",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 283K partially_visible_marker at panel.png pixel (315.3,335.3); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-793e5320e64586da",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 283K partially_visible_marker at panel.png pixel (337.0,320.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-055180aa9ecfcde6",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 283K visible_marker at panel.png pixel (990.0,155.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-566e28e97d341733",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 283K visible_marker at panel.png pixel (1033.0,152.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-d3636441947a094d",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 283K visible_marker at panel.png pixel (1076.0,148.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-ea92615bdb943d86",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (238.8,555.2) lacks a distinct CO2 283K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-0d73b93a34195bee",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (271.7,519.0) lacks a distinct CO2 283K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-dfdd02ed6874c199",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (275.4,366.6) lacks a distinct CO2 283K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-f8729fc197384e60",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (290.5,486.9) lacks a distinct CO2 283K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-f939a0447066f458",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (300.9,475.1) lacks a distinct CO2 283K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-2914ead3803250ac",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (303.0,432.1) lacks a distinct CO2 283K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-d92fb2981d07a175",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (371.0,348.0) lacks a distinct CO2 283K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-ddf2d26249076237",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (383.0,294.0) lacks a distinct CO2 283K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-8e9a158cbd1f01b8",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (516.0,244.8) lacks a distinct CO2 283K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-bccc505f4fffc667",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (944.4,160.0) lacks a distinct CO2 283K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-6a09a5b1211e7a2d",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (990.6,154.9) lacks a distinct CO2 283K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-ac00f32b31913cb8",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (1033.0,151.6) lacks a distinct CO2 283K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-f2cd4de8464d08d4",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 293K partially_visible_marker at panel.png pixel (219.0,707.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-36ad1f369f73319f",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 293K partially_visible_marker at panel.png pixel (290.7,384.7); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-4c2fd29fc1243213",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 293K partially_visible_marker at panel.png pixel (341.0,359.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "move",
+      "point_id": "pt-7448c0b160a62913",
+      "reason": "Native colour-core/marker-shape pass relocates the centre by 9.6px.",
+      "source_evidence": "CO2 293K partially_visible_marker at panel.png pixel (849.0,230.0); colour-specific marker core follows the plotted curve."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-dffd6c85c7589fc1",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 293K visible_marker at panel.png pixel (859.0,228.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-6031fad374615135",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 293K visible_marker at panel.png pixel (881.5,223.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-8c716830e3db5791",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 293K visible_marker at panel.png pixel (992.5,210.7); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-660c3fd5bce22bac",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 293K partially_visible_marker at panel.png pixel (1037.0,207.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-d79a171e7201b25d",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 293K visible_marker at panel.png pixel (1070.7,203.7); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-017941092b98f686",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (212.7,657.7) lacks a distinct CO2 293K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-94a6b87b839b185f",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (220.4,595.3) lacks a distinct CO2 293K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-1ee24d2d5a3d6d6c",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (249.0,419.0) lacks a distinct CO2 293K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-d939283ea6ad7b6d",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (260.0,404.0) lacks a distinct CO2 293K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-9b74b44affd96b8f",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (263.0,455.0) lacks a distinct CO2 293K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-d9a189fb55a158f1",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (270.1,406.3) lacks a distinct CO2 293K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-467cc2924d3ce79c",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (290.4,535.5) lacks a distinct CO2 293K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-79db47af74b29601",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (298.4,527.9) lacks a distinct CO2 293K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-d955a2d825e6e6df",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (336.5,386.7) lacks a distinct CO2 293K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-09ac8e435ebcaf17",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (340.4,403.6) lacks a distinct CO2 293K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-7a369baa51507734",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (372.0,393.0) lacks a distinct CO2 293K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-1572639d80637adc",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (549.0,290.0) lacks a distinct CO2 293K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-acda0119eeed3209",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (555.2,288.9) lacks a distinct CO2 293K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-08594a9705d2b911",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (592.0,273.0) lacks a distinct CO2 293K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-65164b627da28f64",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (679.0,259.0) lacks a distinct CO2 293K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-5720c8399f024f3d",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (723.0,249.5) lacks a distinct CO2 293K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-eebe1e518de46c83",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (732.2,247.5) lacks a distinct CO2 293K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-a96edd9b30e0bd9a",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (781.8,236.4) lacks a distinct CO2 293K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-cc58c4f5d21fcdbf",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (880.9,222.3) lacks a distinct CO2 293K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-de14dc336a214a0f",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (898.0,222.9) lacks a distinct CO2 293K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-2ddc1fef7de53e8a",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (947.1,217.4) lacks a distinct CO2 293K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-d36fcfce35bd3feb",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (992.9,210.7) lacks a distinct CO2 293K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-68e8e05b4029799b",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (1034.2,206.9) lacks a distinct CO2 293K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-8d830ebdb652cdd8",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 303K partially_visible_marker at panel.png pixel (227.0,580.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-7c6d14b6e360fd9d",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 303K partially_visible_marker at panel.png pixel (238.0,528.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-65c081df0a5632c1",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 303K partially_visible_marker at panel.png pixel (270.0,445.5); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-e04c751671d08614",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 303K partially_visible_marker at panel.png pixel (289.0,421.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "move",
+      "point_id": "pt-da070114c83a94c7",
+      "reason": "Native colour-core/marker-shape pass relocates the centre by 12.3px.",
+      "source_evidence": "CO2 303K partially_visible_marker at panel.png pixel (336.5,385.5); colour-specific marker core follows the plotted curve."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-45a66df679f2951c",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 303K visible_marker at panel.png pixel (724.5,295.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-ab6e15a1d220f2d7",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 303K visible_marker at panel.png pixel (771.0,294.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-1f154e44e1ba140d",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 303K visible_marker at panel.png pixel (816.0,288.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-623afb32cd47ca5f",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 303K partially_visible_marker at panel.png pixel (849.5,279.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-3e85e1841b0b437e",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 303K visible_marker at panel.png pixel (880.0,276.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-872a7d28800c0bb5",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 303K visible_marker at panel.png pixel (903.0,276.2); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-515ffbbaa778605d",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 303K visible_marker at panel.png pixel (936.0,271.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-942f9bb59518b81f",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 303K visible_marker at panel.png pixel (942.0,270.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "move",
+      "point_id": "pt-5723dbe4fcd45d35",
+      "reason": "Native colour-core/marker-shape pass relocates the centre by 8.4px.",
+      "source_evidence": "CO2 303K visible_marker at panel.png pixel (948.0,271.0); colour-specific marker core follows the plotted curve."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-d4cab0c8eb35e6ee",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 303K visible_marker at panel.png pixel (989.5,266.3); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-38e557ec411edace",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 303K visible_marker at panel.png pixel (1032.5,262.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-911c3b3aea5b6e1a",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 303K visible_marker at panel.png pixel (1072.0,259.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-7cc55ed9d5af7b36",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (211.0,674.7) lacks a distinct CO2 303K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-553d6290b0ad2556",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (226.0,608.0) lacks a distinct CO2 303K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-9c6b3e525be2943e",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (250.6,571.0) lacks a distinct CO2 303K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-b27656c19290e7f2",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (253.1,562.7) lacks a distinct CO2 303K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-f74f1e61859d057e",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (261.7,541.9) lacks a distinct CO2 303K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-a5b45966edda0daa",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (294.0,479.0) lacks a distinct CO2 303K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-bf54098ee4770fcb",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (338.0,700.0) lacks a distinct CO2 303K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-82769db38ce06c58",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (338.1,434.4) lacks a distinct CO2 303K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-95a0eb8fc347bc99",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (376.0,701.0) lacks a distinct CO2 303K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-d51500313f53f8a6",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (381.0,380.0) lacks a distinct CO2 303K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-20c3e141f5f51775",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (390.0,703.5) lacks a distinct CO2 303K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-d952e74aee15752e",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (423.7,357.3) lacks a distinct CO2 303K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-24c99b76231faaf2",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (449.5,346.9) lacks a distinct CO2 303K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-2761369818c0c3b6",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (474.0,352.0) lacks a distinct CO2 303K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-7a293a9df2eb646a",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (478.0,360.0) lacks a distinct CO2 303K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-ebe63a6206813ab9",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (509.0,343.0) lacks a distinct CO2 303K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-e98eb0180f0f8e89",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (525.0,351.0) lacks a distinct CO2 303K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-eb96068e36627069",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (552.0,335.0) lacks a distinct CO2 303K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-48abe9e35c331587",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (558.0,334.0) lacks a distinct CO2 303K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-3a28dd0a3cd6c696",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (583.0,333.0) lacks a distinct CO2 303K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-f6ff11e8f85ac8ba",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (600.0,328.0) lacks a distinct CO2 303K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-3aabb247138d1118",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (681.0,317.0) lacks a distinct CO2 303K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-5ebb1318ca1a84f9",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (725.9,296.0) lacks a distinct CO2 303K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-6979ea1aa7455a33",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (778.0,305.0) lacks a distinct CO2 303K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-7284f20afadf6bd6",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (780.0,296.0) lacks a distinct CO2 303K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-bc511019a96c076a",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (816.2,287.6) lacks a distinct CO2 303K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-c358ca295d414740",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (838.0,273.0) lacks a distinct CO2 303K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-ebdc4355f982071a",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (859.0,273.0) lacks a distinct CO2 303K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-a0289a61244ba2ab",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (902.9,275.9) lacks a distinct CO2 303K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-d27625fd6f629729",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (943.0,274.0) lacks a distinct CO2 303K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-ad33490b81136922",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (990.6,266.8) lacks a distinct CO2 303K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-c5f92d3190b7993f",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (1032.5,262.4) lacks a distinct CO2 303K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-af75cbb010b14f6f",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 313K partially_visible_marker at panel.png pixel (227.0,621.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-7dd2eb078d6854c6",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 313K partially_visible_marker at panel.png pixel (239.0,556.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-e973537155b49924",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 313K partially_visible_marker at panel.png pixel (261.0,491.5); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-62eac6d48a3f9c4b",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 313K partially_visible_marker at panel.png pixel (289.5,439.5); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "move",
+      "point_id": "pt-1eb73ef370edfbbf",
+      "reason": "Native colour-core/marker-shape pass relocates the centre by 10.8px.",
+      "source_evidence": "CO2 313K partially_visible_marker at panel.png pixel (296.0,434.0); colour-specific marker core follows the plotted curve."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-d804eaab787eaebd",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 313K partially_visible_marker at panel.png pixel (303.0,431.5); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-3b73960ac4d38435",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 313K partially_visible_marker at panel.png pixel (340.0,404.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-0d578cb192d7983c",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 313K visible_marker at panel.png pixel (453.0,360.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-640209ac133141b7",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 313K visible_marker at panel.png pixel (509.0,349.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-b61f66b43511ceb1",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 313K visible_marker at panel.png pixel (515.0,351.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-5ddbc747b460914c",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 313K visible_marker at panel.png pixel (599.0,336.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-4f8f87018b369f72",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 313K visible_marker at panel.png pixel (618.0,328.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-9c869802b7f1e2fa",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 313K partially_visible_marker at panel.png pixel (634.0,328.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-8e79bc070342601b",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 313K visible_marker at panel.png pixel (687.0,323.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-481f3e50d39eb66e",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 313K visible_marker at panel.png pixel (773.0,311.5); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-9fa32a866a9d7c44",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 313K visible_marker at panel.png pixel (817.0,305.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-3fe542d285af7c58",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 313K visible_marker at panel.png pixel (862.0,299.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-ceef9a0fc06de15a",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 313K visible_marker at panel.png pixel (883.0,293.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-598e1fec4c616d70",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 313K visible_marker at panel.png pixel (940.5,289.5); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-0405ac5e57818d44",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 313K visible_marker at panel.png pixel (1074.0,277.5); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-dcf4ffce283e03c7",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (276.0,485.0) lacks a distinct CO2 313K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-c12a4088f4f6a24d",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (281.0,465.0) lacks a distinct CO2 313K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-14278f9954d3bc18",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (320.0,432.0) lacks a distinct CO2 313K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-bcb04211de9258e7",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (580.5,339.1) lacks a distinct CO2 313K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-6d7f1d04f425e285",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (598.9,337.2) lacks a distinct CO2 313K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-cca284618f126a60",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (618.4,327.5) lacks a distinct CO2 313K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-538859967b253197",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 323K partially_visible_marker at panel.png pixel (252.0,567.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-f29787163db22a93",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 323K partially_visible_marker at panel.png pixel (262.0,541.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-fa8e7f72f7301c36",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 323K partially_visible_marker at panel.png pixel (273.0,519.5); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-1e5a999e397ccd8b",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 323K partially_visible_marker at panel.png pixel (290.3,486.3); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "move",
+      "point_id": "pt-717dc8d8a529dd42",
+      "reason": "Native colour-core/marker-shape pass relocates the centre by 13.0px.",
+      "source_evidence": "CO2 323K partially_visible_marker at panel.png pixel (301.0,476.0); colour-specific marker core follows the plotted curve."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-2270c07967ee724e",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 323K partially_visible_marker at panel.png pixel (341.0,439.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-ab0a76b78c67d2ee",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 323K visible_marker at panel.png pixel (383.0,419.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-25606655651aaf91",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 323K visible_marker at panel.png pixel (427.0,403.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-eec57b5950475b0f",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 323K visible_marker at panel.png pixel (451.0,391.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-83175d7f59380f07",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 323K visible_marker at panel.png pixel (514.0,382.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-ea6cd7c5d9b62f79",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 323K visible_marker at panel.png pixel (562.0,369.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-56fa419706753285",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 323K visible_marker at panel.png pixel (599.0,367.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-5ea1b5549c0054ee",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 323K visible_marker at panel.png pixel (617.5,359.5); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-966d7ad2c13e4d1a",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 323K visible_marker at panel.png pixel (672.0,351.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-53969157b4871edc",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 323K visible_marker at panel.png pixel (686.0,355.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-fae56c00bfcb3112",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 323K visible_marker at panel.png pixel (783.5,340.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-640dec159c31d90c",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 323K visible_marker at panel.png pixel (815.5,340.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-3156e5fc5a2210b3",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 323K visible_marker at panel.png pixel (860.0,337.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-182e4158ea6b96ce",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 323K visible_marker at panel.png pixel (903.0,333.5); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-a8956255ff0355cd",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 323K visible_marker at panel.png pixel (1073.0,318.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-9fd4bd3a778fa9c2",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (221.3,641.6) lacks a distinct CO2 323K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-c8b354028ffabc76",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (225.3,648.8) lacks a distinct CO2 323K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-4ddb17b1d300e373",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (226.6,622.0) lacks a distinct CO2 323K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-f34de6f462602a76",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (238.0,602.0) lacks a distinct CO2 323K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-58d2ea376511d0a3",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (269.0,535.0) lacks a distinct CO2 323K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-374c807a5b137c21",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (282.0,499.0) lacks a distinct CO2 323K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-e58b8cf881825d97",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (320.0,460.0) lacks a distinct CO2 323K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-5160f359f3ea106f",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (334.0,456.0) lacks a distinct CO2 323K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-ffc0a372369f53da",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (350.0,436.0) lacks a distinct CO2 323K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-90f1897481349365",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (382.4,418.5) lacks a distinct CO2 323K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-ef64fb8f97b1f955",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (427.1,403.4) lacks a distinct CO2 323K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-66f2bc96413586df",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (482.0,387.0) lacks a distinct CO2 323K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-c04a2d936659f252",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (537.5,376.7) lacks a distinct CO2 323K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-cb5d25b8efd771e7",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (598.5,366.9) lacks a distinct CO2 323K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-c64ba2997daf9ad8",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 333K partially_visible_marker at panel.png pixel (238.0,691.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "move",
+      "point_id": "pt-de63d7d21289ce66",
+      "reason": "Native colour-core/marker-shape pass relocates the centre by 7.8px.",
+      "source_evidence": "CO2 333K partially_visible_marker at panel.png pixel (298.0,529.0); colour-specific marker core follows the plotted curve."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-76c403f1069a6707",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 333K partially_visible_marker at panel.png pixel (341.0,474.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "move",
+      "point_id": "pt-a92722b60c75aa0b",
+      "reason": "Native colour-core/marker-shape pass relocates the centre by 7.8px.",
+      "source_evidence": "CO2 333K visible_marker at panel.png pixel (385.0,455.0); colour-specific marker core follows the plotted curve."
+    },
+    {
+      "action": "move",
+      "point_id": "pt-00b719bad0b82bee",
+      "reason": "Native colour-core/marker-shape pass relocates the centre by 8.9px.",
+      "source_evidence": "CO2 333K visible_marker at panel.png pixel (943.0,358.0); colour-specific marker core follows the plotted curve."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-3f5de057310a8e2f",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 333K visible_marker at panel.png pixel (1033.5,353.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-973d66ad0719516e",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 333K visible_marker at panel.png pixel (1072.7,350.7); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-ba88237fbda06655",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (226.0,656.0) lacks a distinct CO2 333K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-5921af3b5ef10157",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (384.5,455.5) lacks a distinct CO2 333K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-ed81fae752fec8eb",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (516.8,410.2) lacks a distinct CO2 333K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-11b8798a31f2e449",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (525.0,407.0) lacks a distinct CO2 333K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-ed08665ea262389b",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (553.1,403.4) lacks a distinct CO2 333K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-c19de837ccc760b9",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (565.9,393.7) lacks a distinct CO2 333K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-81656798911ae131",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (731.7,376.7) lacks a distinct CO2 333K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-7b08c1321dee9bc0",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (948.9,359.3) lacks a distinct CO2 333K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-7517ef926d4cd81d",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (1033.7,352.8) lacks a distinct CO2 333K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-3a2803e4668d5338",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 343K visible_marker at panel.png pixel (1033.0,376.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-d85742c279f7bf30",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 343K visible_marker at panel.png pixel (1074.5,374.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-254224d2fc5b709e",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (341.3,522.0) lacks a distinct CO2 343K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-a66f88aed94c5e52",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (347.0,523.0) lacks a distinct CO2 343K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-33d8acb12c134d53",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (517.3,441.6) lacks a distinct CO2 343K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-4843ff02b8e39e43",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (552.4,431.8) lacks a distinct CO2 343K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-1951e3d140b469ef",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (948.4,381.8) lacks a distinct CO2 343K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-2979a27fad521168",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (1033.0,376.9) lacks a distinct CO2 343K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "move",
+      "point_id": "pt-3aba28d550df9700",
+      "reason": "Native colour-core/marker-shape pass relocates the centre by 8.5px.",
+      "source_evidence": "CO2 353K partially_visible_marker at panel.png pixel (254.0,657.0); colour-specific marker core follows the plotted curve."
+    },
+    {
+      "action": "move",
+      "point_id": "pt-d631e5767ce22e90",
+      "reason": "Native colour-core/marker-shape pass relocates the centre by 7.0px.",
+      "source_evidence": "CO2 353K visible_marker at panel.png pixel (512.0,477.0); colour-specific marker core follows the plotted curve."
+    },
+    {
+      "action": "move",
+      "point_id": "pt-089f5dd284e763fa",
+      "reason": "Native colour-core/marker-shape pass relocates the centre by 8.0px.",
+      "source_evidence": "CO2 353K visible_marker at panel.png pixel (941.0,408.0); colour-specific marker core follows the plotted curve."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-bcc2d196d68925bf",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 353K visible_marker at panel.png pixel (992.0,405.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-2c8d0f5039eb4702",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 353K visible_marker at panel.png pixel (1033.0,403.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-a53d2980b187ca98",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 353K visible_marker at panel.png pixel (1074.0,400.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-7553df36a71f9477",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (259.1,649.8) lacks a distinct CO2 353K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-e85d1adee479a9f3",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (264.0,645.0) lacks a distinct CO2 353K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-9cb1521a1cb6b5c2",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (351.0,564.0) lacks a distinct CO2 353K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-0875c33d6837e4f7",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (550.0,467.0) lacks a distinct CO2 353K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-ee5361eef1f5cf45",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (567.0,461.0) lacks a distinct CO2 353K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-4048f093c310ef0c",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (949.3,410.0) lacks a distinct CO2 353K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-ee1587e2a3e256ad",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (991.4,405.3) lacks a distinct CO2 353K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-fc9934f82b9fcc3e",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (1033.8,402.4) lacks a distinct CO2 353K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-b6248070ec4e4cab",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 363K visible_marker at panel.png pixel (946.0,433.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-b8b743bfd7baf2e5",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 363K visible_marker at panel.png pixel (992.0,429.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-eacdd0185899647b",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 363K visible_marker at panel.png pixel (1074.0,423.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-df3757de0b3d5e76",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (247.2,674.4) lacks a distinct CO2 363K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-b1327211f204d9eb",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (272.1,656.7) lacks a distinct CO2 363K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-b1c6ef922f803ce6",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (368.0,587.1) lacks a distinct CO2 363K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-05b1309967d787a0",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (483.0,528.0) lacks a distinct CO2 363K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-08127ead96f0960d",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (544.0,504.5) lacks a distinct CO2 363K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-d5dc4adfadee271a",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (588.0,491.0) lacks a distinct CO2 363K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-08a086dfdc0fa0b5",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (930.0,432.0) lacks a distinct CO2 363K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-afdaf5246e1bcad1",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (947.4,432.7) lacks a distinct CO2 363K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-0e9ef46db788b100",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (992.1,428.5) lacks a distinct CO2 363K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-a767529ea087fa1c",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 373K partially_visible_marker at panel.png pixel (241.7,691.7); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-98ca45208ae1a696",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 373K partially_visible_marker at panel.png pixel (282.0,669.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-0f09e791d12bc5dc",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 373K partially_visible_marker at panel.png pixel (303.5,652.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "move",
+      "point_id": "pt-393be50668e0a7fa",
+      "reason": "Native colour-core/marker-shape pass relocates the centre by 7.0px.",
+      "source_evidence": "CO2 373K partially_visible_marker at panel.png pixel (356.0,624.5); colour-specific marker core follows the plotted curve."
+    },
+    {
+      "action": "add",
+      "point_id": "pt-a04-2d3a2a4fbac5553a",
+      "reason": "Previously omitted source-supported marker centre recovered in the independent native-pixel pass.",
+      "source_evidence": "CO2 373K partially_visible_marker at panel.png pixel (1072.0,455.0); matching colour, glyph mass, and curve ownership are visible."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-4fcb2353416c2302",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (280.0,662.0) lacks a distinct CO2 373K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-17693df0fd80a932",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (290.0,654.0) lacks a distinct CO2 373K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-cb3f22f93c7eef7d",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (352.0,627.6) lacks a distinct CO2 373K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-b8348d5b5fef4cc0",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (384.0,611.0) lacks a distinct CO2 373K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-476e9982f0f8f141",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (427.7,588.6) lacks a distinct CO2 373K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-acfb03b870981b62",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (485.0,568.0) lacks a distinct CO2 373K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-8ff8dbb07e109cdd",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (500.6,559.0) lacks a distinct CO2 373K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-9996c81ecaa9cf3e",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (610.0,527.0) lacks a distinct CO2 373K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-88a4340db2fca8de",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (759.8,496.0) lacks a distinct CO2 373K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-a52d73a6b2227544",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (859.0,478.0) lacks a distinct CO2 373K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-2c03a37f887c8d68",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (941.2,469.3) lacks a distinct CO2 373K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-3d3f8263e7968914",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (991.0,461.0) lacks a distinct CO2 373K glyph centre after native-resolution inspection."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-53ff63064a20988c",
+      "reason": "Candidate centre is not supported as a distinct marker by the independent native-pixel colour/shape pass (duplicate, line thickening, wrong trajectory, or excluded-gas overlap).",
+      "source_evidence": "panel.png around (1032.1,457.8) lacks a distinct CO2 373K glyph centre after native-resolution inspection."
+    }
+  ]
+}

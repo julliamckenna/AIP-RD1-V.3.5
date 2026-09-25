@@ -1,0 +1,53 @@
+{
+ "reasoning": "The source shows one blue CO2 isotherm with open-circle markers, a densely overlapped low-pressure adsorption/desorption region, and a near-horizontal plateau ending around 127 cm³ g⁻¹. The re-plot has the same pressure calibration, rise, plateau level, and endpoint as the source. The 52 candidate centers generally coincide with source marker ink, including the right-hand plateau markers added after the earlier review. Some additional rings may remain unresolved in the fused low-pressure strip, but the supplied images do not support reliable native-pixel additions without inventing points or duplicating overlapping markers. No suspect rows or defensible point edits remain.",
+ "axis_check": {
+  "x": {
+   "printed_min": 0,
+   "printed_max": 1,
+   "data_min": -0.0018,
+   "data_max": 0.9938,
+   "reason": "The source and re-plot both use a linear relative-pressure axis from 0 to 1; the steep rise and plateau markers occur at matching pressure positions.",
+   "result": "pass"
+  },
+  "y": {
+   "printed_min": 0,
+   "printed_max": 140,
+   "data_min": 3.035,
+   "data_max": 126.8213,
+   "reason": "The re-plotted rise and approximately 120–127 cm³ g⁻¹ plateau align with the source against the 0–140 uptake ticks, including the final value near 127.",
+   "result": "pass"
+  }
+ },
+ "independent_read": {
+  "x_axis": "Relative Pressure (P/P₀), linear 0–1",
+  "y_axis": "Uptake (cm³ g⁻¹), linear 0–140",
+  "series": [
+   {
+    "label": "CO2 195K",
+    "marker": "circle",
+    "marker_fill": "open",
+    "visible_markers_estimate": 60,
+    "notes": "Blue open circles form a dense, partly fused low-pressure region and a well-resolved plateau. The inset is a duplicate enlargement rather than an additional series inventory."
+   }
+  ],
+  "visual_risks": [
+   "Heavy overlap and fused open-circle outlines near zero relative pressure make the individual CO2 marker count uncertain.",
+   "Adsorption and desorption markers are difficult to distinguish individually in the near-vertical low-pressure strip.",
+   "The inset repeats part of the CO2 isotherm and must not be counted as additional primary-panel points."
+  ]
+ },
+ "verdict": "review",
+ "series": [
+  {
+   "label": "CO2 195K",
+   "coverage": "uncertain",
+   "final_count": 52,
+   "comment": "The resolved rise and plateau are represented, but additional individual markers may be hidden within the fused low-pressure strip."
+  }
+ ],
+ "operations": [],
+ "uncertainties": [
+  "The dense low-pressure CO2 strip appears to contain more overlapping open-circle ink than can be assigned to distinct centers confidently at the supplied resolution.",
+  "The 52-point extraction is usable, but completeness in the near-zero-pressure adsorption/desorption region cannot be confirmed without risking duplicate or curve-invented points."
+ ]
+}

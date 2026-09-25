@@ -1,0 +1,1377 @@
+{
+ "series_counts": {
+  "CO2 273K ads": 129,
+  "CO2 273K des": 11,
+  "CO2 300K ads": 113,
+  "CO2 300K des": 48
+ },
+ "calibration": {
+  "px_per_unit_x": 577.1463932107497,
+  "px_per_unit_y": 9.95438193647149,
+  "unit_per_px_x": 0.001732662651562031,
+  "unit_per_px_y": 0.10045827117966381,
+  "axis_models": {
+   "x": {
+    "scale": "linear",
+    "slope": 0.001732662651562031,
+    "intercept": -0.29702420703725707
+   },
+   "y": {
+    "scale": "linear",
+    "slope": -0.10045827117966381,
+    "intercept": 56.0081197041229
+   }
+  },
+  "tick_fit_resid_x": 0.0014839140530704675,
+  "tick_fit_resid_y": 0.08988573976963465,
+  "tick_fit_resid_x_px": 0.8564356435643653,
+  "tick_fit_resid_y_px": 0.8947569843092282,
+  "frame_px": [
+   113,
+   10,
+   922,
+   608
+  ],
+  "x_ticks_px": [
+   172,
+   286,
+   402,
+   518,
+   634,
+   748,
+   864
+  ],
+  "y_ticks_px": [
+   60,
+   160,
+   258,
+   358,
+   458,
+   558
+  ],
+  "tick_anchors": {
+   "x": [
+    {
+     "pixel_norm": 0.18259023354564755,
+     "value": 0.0
+    },
+    {
+     "pixel_norm": 0.3036093418259023,
+     "value": 0.2
+    },
+    {
+     "pixel_norm": 0.4267515923566879,
+     "value": 0.4
+    },
+    {
+     "pixel_norm": 0.5498938428874734,
+     "value": 0.6
+    },
+    {
+     "pixel_norm": 0.673036093418259,
+     "value": 0.8
+    },
+    {
+     "pixel_norm": 0.7940552016985138,
+     "value": 1.0
+    },
+    {
+     "pixel_norm": 0.9171974522292994,
+     "value": 1.2
+    }
+   ],
+   "y": [
+    {
+     "pixel_norm": 0.8028776978417266,
+     "value": 0.0
+    },
+    {
+     "pixel_norm": 0.6589928057553956,
+     "value": 10.0
+    },
+    {
+     "pixel_norm": 0.5151079136690647,
+     "value": 20.0
+    },
+    {
+     "pixel_norm": 0.3712230215827338,
+     "value": 30.0
+    },
+    {
+     "pixel_norm": 0.2302158273381295,
+     "value": 40.0
+    },
+    {
+     "pixel_norm": 0.08633093525179857,
+     "value": 50.0
+    }
+   ]
+  },
+  "color_tolerance_lab": 28.0,
+  "color_tolerance_per_series": [
+   28.0,
+   31.0,
+   28.0,
+   29.0,
+   28.0,
+   30.0,
+   28.0,
+   31.0
+  ],
+  "base_color_passes": 3,
+  "complex_region_passes": 4,
+  "complex_region_count": 2,
+  "legend_reader": "rows_by_declared_color",
+  "sample_colors": [
+   {
+    "label": "CO2 273K ads",
+    "sample_px": [
+     724.0,
+     29.0
+    ],
+    "legend_lab": [
+     136.0,
+     204.0,
+     184.0
+    ],
+    "sample_lab": [
+     148.0,
+     168.0,
+     145.0
+    ],
+    "distance": 54.4,
+    "result": "sample color used"
+   },
+   {
+    "label": "CO2 273K des",
+    "sample_px": [
+     794.0,
+     50.5
+    ],
+    "legend_lab": [
+     153.5,
+     174.0,
+     154.5
+    ],
+    "result": "no marker ink at the sample position; legend color kept"
+   },
+   {
+    "label": "CO2 300K ads",
+    "sample_px": [
+     632.1,
+     376.0
+    ],
+    "legend_lab": [
+     89.5,
+     151.0,
+     75.5
+    ],
+    "result": "no marker ink at the sample position; legend color kept"
+   },
+   {
+    "label": "CO2 300K des",
+    "sample_px": [
+     797.0,
+     405.5
+    ],
+    "legend_lab": [
+     124.0,
+     140.0,
+     101.0
+    ],
+    "result": "no marker ink at the sample position; legend color kept"
+   },
+   {
+    "label": "CH4 273K ads",
+    "sample_px": [
+     724.0,
+     416.5
+    ],
+    "legend_lab": [
+     134.0,
+     203.0,
+     183.0
+    ],
+    "result": "no marker ink at the sample position; legend color kept"
+   },
+   {
+    "label": "CH4 273K des",
+    "sample_px": [
+     794.0,
+     459.0
+    ],
+    "legend_lab": [
+     130.5,
+     180.0,
+     159.5
+    ],
+    "result": "no marker ink at the sample position; legend color kept"
+   },
+   {
+    "label": "CH4 300K ads",
+    "sample_px": [
+     724.0,
+     587.5
+    ],
+    "legend_lab": [
+     92.0,
+     155.0,
+     71.0
+    ],
+    "result": "no marker ink at the sample position; legend color kept"
+   },
+   {
+    "label": "CH4 300K des",
+    "sample_px": [
+     794.0,
+     612.5
+    ],
+    "legend_lab": [
+     143.5,
+     144.0,
+     96.5
+    ],
+    "sample_lab": [
+     78.0,
+     128.0,
+     128.0
+    ],
+    "distance": 74.4,
+    "result": "sample color used"
+   }
+  ],
+  "twins_split_by_lines": 23,
+  "line_split_enabled": true,
+  "color_ambiguity_groups": [
+   {
+    "group_id": 0,
+    "series_indices": [
+     0,
+     1,
+     5
+    ],
+    "series_labels": [
+     "CO2 273K ads",
+     "CO2 273K des",
+     "CH4 273K des"
+    ],
+    "nearest_legend_color": {
+     "0": {
+      "series_index": 1,
+      "distance_lab": 12.51
+     },
+     "1": {
+      "series_index": 0,
+      "distance_lab": 12.51
+     },
+     "5": {
+      "series_index": 1,
+      "distance_lab": 24.29
+     }
+    },
+    "pair_distances_lab": {
+     "0:1": 12.51,
+     "0:5": 25.7,
+     "1:0": 12.51,
+     "1:5": 24.29,
+     "5:0": 25.7,
+     "5:1": 24.29
+    },
+    "threshold_lab": 28.0
+   },
+   {
+    "group_id": 1,
+    "series_indices": [
+     2,
+     6
+    ],
+    "series_labels": [
+     "CO2 300K ads",
+     "CH4 300K ads"
+    ],
+    "nearest_legend_color": {
+     "2": {
+      "series_index": 6,
+      "distance_lab": 6.519
+     },
+     "6": {
+      "series_index": 2,
+      "distance_lab": 6.519
+     }
+    },
+    "pair_distances_lab": {
+     "2:6": 6.519,
+     "6:2": 6.519
+    },
+    "threshold_lab": 28.0
+   }
+  ],
+  "series_assignment_margin": 0.12,
+  "reclaimed_points": 20,
+  "dense_circle_detector": {
+   "regions": [],
+   "native_supported_additions": 0,
+   "unresolved_fused_regions": 0
+  },
+  "dense_region_resolver": {
+   "roi_px": [
+    [
+     113.04,
+     10.42,
+     320.28,
+     562.95
+    ],
+    [
+     160.14,
+     264.1,
+     320.28,
+     562.95
+    ]
+   ],
+   "columns": 25,
+   "native_supported_additions": 50
+  },
+  "region_strategies": [],
+  "x_grid_columns": 0,
+  "x_grid_supported_columns": 0,
+  "exact_duplicates_dropped": {
+   "CO2 273K ads": 2,
+   "CO2 273K des": 0,
+   "CO2 300K ads": 3,
+   "CO2 300K des": 0
+  },
+  "series_assignment": {
+   "actions": {
+    "assigned_by_agent02_curve": 138,
+    "preserved_native_candidate": 80,
+    "reassigned": 33,
+    "unresolved": 10
+   },
+   "groups": [
+    {
+     "series_labels": [
+      "CO2 273K ads",
+      "CO2 273K des",
+      "CH4 273K des"
+     ],
+     "assigned_counts": {
+      "0": 96,
+      "1": 1,
+      "5": 28
+     },
+     "unresolved_count": 5
+    },
+    {
+     "series_labels": [
+      "CO2 300K ads",
+      "CH4 300K ads"
+     ],
+     "assigned_counts": {
+      "2": 107,
+      "6": 19
+     },
+     "unresolved_count": 5
+    }
+   ]
+  },
+  "series_gate_moves": [
+   {
+    "from": "CO2 273K ads",
+    "to": "CH4 273K des",
+    "points": 12
+   },
+   {
+    "from": "CO2 273K ads",
+    "to": "CH4 273K ads",
+    "points": 21
+   },
+   {
+    "from": "CO2 273K ads",
+    "to": "CO2 273K ads",
+    "points": 1
+   },
+   {
+    "from": "CO2 300K des",
+    "to": "CH4 300K des",
+    "points": 15
+   },
+   {
+    "from": "CO2 300K des",
+    "to": "CH4 300K ads",
+    "points": 32
+   },
+   {
+    "from": "CH4 273K ads",
+    "to": "CO2 273K ads",
+    "points": 64
+   },
+   {
+    "from": "CH4 273K ads",
+    "to": "CO2 273K des",
+    "points": 3
+   },
+   {
+    "from": "CH4 300K ads",
+    "to": "CO2 300K ads",
+    "points": 4
+   },
+   {
+    "from": "CH4 300K ads",
+    "to": "CO2 300K des",
+    "points": 1
+   }
+  ],
+  "template_fill": {
+   "template_fit": 0,
+   "template_fill": 0
+  },
+  "complex_regions": {
+   "accepted": 2,
+   "rejected": 0
+  },
+  "detail": "full per-candidate audit in python_audit.json"
+ },
+ "proposal_quality": {
+  "review_required": true,
+  "warnings": [
+   {
+    "check": "weak_marker_coverage",
+    "series": "CO2 273K ads",
+    "detail": "43 of 129 markers are low-confidence or overlapping; maximum is 25%"
+   },
+   {
+    "check": "marker_count",
+    "series": "CO2 273K des",
+    "detail": "detected 11 of about 40 expected markers"
+   },
+   {
+    "check": "weak_marker_coverage",
+    "series": "CO2 273K des",
+    "detail": "9 of 11 markers are low-confidence or overlapping; maximum is 25%"
+   },
+   {
+    "check": "weak_marker_coverage",
+    "series": "CO2 300K des",
+    "detail": "20 of 48 markers are low-confidence or overlapping; maximum is 25%"
+   }
+  ]
+ },
+ "color_ambiguity_groups": [
+  {
+   "series_labels": [
+    "CO2 273K ads",
+    "CO2 273K des",
+    "CH4 273K des"
+   ],
+   "pair_distances_lab": {
+    "0:1": 12.51,
+    "0:5": 25.7,
+    "1:0": 12.51,
+    "1:5": 24.29,
+    "5:0": 25.7,
+    "5:1": 24.29
+   }
+  },
+  {
+   "series_labels": [
+    "CO2 300K ads",
+    "CH4 300K ads"
+   ],
+   "pair_distances_lab": {
+    "2:6": 6.519,
+    "6:2": 6.519
+   }
+  }
+ ],
+ "unresolved_slots": {
+  "total": 35,
+  "by_series": {
+   "CO2 273K ads": 2,
+   "CO2 273K des": 10,
+   "CO2 300K ads": 2,
+   "CO2 300K des": 21
+  },
+  "slots": [
+   {
+    "series_label": "CO2 273K des",
+    "series_index": 1,
+    "column_index": 0,
+    "column_px": 178.7,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 300K des",
+    "series_index": 3,
+    "column_index": 0,
+    "column_px": 178.7,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 273K ads",
+    "series_index": 0,
+    "column_index": 1,
+    "column_px": 186.4,
+    "predicted_y_px": 416.0,
+    "state": "unresolved",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 0,
+    "rival_coverage": 0.0
+   },
+   {
+    "series_label": "CO2 273K des",
+    "series_index": 1,
+    "column_index": 1,
+    "column_px": 186.4,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 300K ads",
+    "series_index": 2,
+    "column_index": 1,
+    "column_px": 186.4,
+    "predicted_y_px": 492.18,
+    "state": "unresolved",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 0,
+    "rival_coverage": 0.0
+   },
+   {
+    "series_label": "CO2 300K des",
+    "series_index": 3,
+    "column_index": 1,
+    "column_px": 186.4,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 300K des",
+    "series_index": 3,
+    "column_index": 3,
+    "column_px": 209.33,
+    "predicted_y_px": 448.02,
+    "state": "unresolved",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 300K des",
+    "series_index": 3,
+    "column_index": 4,
+    "column_px": 224.61,
+    "predicted_y_px": 425.05,
+    "state": "unresolved",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 300K des",
+    "series_index": 3,
+    "column_index": 5,
+    "column_px": 236.7,
+    "predicted_y_px": 406.9,
+    "state": "unresolved",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 273K des",
+    "series_index": 1,
+    "column_index": 6,
+    "column_px": 240.91,
+    "predicted_y_px": 274.12,
+    "state": "unresolved",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 300K des",
+    "series_index": 3,
+    "column_index": 6,
+    "column_px": 240.91,
+    "predicted_y_px": 400.57,
+    "state": "unresolved",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 273K des",
+    "series_index": 1,
+    "column_index": 7,
+    "column_px": 254.01,
+    "predicted_y_px": 259.2,
+    "state": "unresolved",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 300K des",
+    "series_index": 3,
+    "column_index": 7,
+    "column_px": 254.01,
+    "predicted_y_px": 380.88,
+    "state": "unresolved",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 273K des",
+    "series_index": 1,
+    "column_index": 8,
+    "column_px": 270.83,
+    "predicted_y_px": 240.05,
+    "state": "unresolved",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 300K des",
+    "series_index": 3,
+    "column_index": 8,
+    "column_px": 270.83,
+    "predicted_y_px": 355.61,
+    "state": "unresolved",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 273K des",
+    "series_index": 1,
+    "column_index": 9,
+    "column_px": 287.16,
+    "predicted_y_px": 221.46,
+    "state": "unresolved",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 300K des",
+    "series_index": 3,
+    "column_index": 9,
+    "column_px": 287.16,
+    "predicted_y_px": 331.08,
+    "state": "unresolved",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 273K des",
+    "series_index": 1,
+    "column_index": 10,
+    "column_px": 293.5,
+    "predicted_y_px": 214.24,
+    "state": "unresolved",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 300K des",
+    "series_index": 3,
+    "column_index": 10,
+    "column_px": 293.5,
+    "predicted_y_px": 321.56,
+    "state": "unresolved",
+    "reason": "line_like_residual_not_marker",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 300K des",
+    "series_index": 3,
+    "column_index": 11,
+    "column_px": 308.57,
+    "predicted_y_px": 299.67,
+    "state": "unresolved",
+    "reason": "line_like_residual_not_marker",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 300K des",
+    "series_index": 3,
+    "column_index": 13,
+    "column_px": 316.06,
+    "predicted_y_px": 291.77,
+    "state": "unresolved",
+    "reason": "line_like_residual_not_marker",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 300K des",
+    "series_index": 3,
+    "column_index": 14,
+    "column_px": 318.99,
+    "predicted_y_px": 288.68,
+    "state": "unresolved",
+    "reason": "line_like_residual_not_marker",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 273K des",
+    "series_index": 1,
+    "column_index": 0,
+    "column_px": 178.7,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 1
+   },
+   {
+    "series_label": "CO2 300K des",
+    "series_index": 3,
+    "column_index": 0,
+    "column_px": 178.7,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 1
+   },
+   {
+    "series_label": "CO2 273K ads",
+    "series_index": 0,
+    "column_index": 1,
+    "column_px": 186.4,
+    "predicted_y_px": 416.0,
+    "state": "unresolved",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 1,
+    "rival_coverage": 0.0
+   },
+   {
+    "series_label": "CO2 273K des",
+    "series_index": 1,
+    "column_index": 1,
+    "column_px": 186.4,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 1
+   },
+   {
+    "series_label": "CO2 300K ads",
+    "series_index": 2,
+    "column_index": 1,
+    "column_px": 186.4,
+    "predicted_y_px": 492.18,
+    "state": "unresolved",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 1,
+    "rival_coverage": 0.0
+   },
+   {
+    "series_label": "CO2 300K des",
+    "series_index": 3,
+    "column_index": 1,
+    "column_px": 186.4,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 1
+   },
+   {
+    "series_label": "CO2 300K des",
+    "series_index": 3,
+    "column_index": 3,
+    "column_px": 209.33,
+    "predicted_y_px": 448.02,
+    "state": "unresolved",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 1
+   },
+   {
+    "series_label": "CO2 300K des",
+    "series_index": 3,
+    "column_index": 4,
+    "column_px": 224.61,
+    "predicted_y_px": 425.05,
+    "state": "unresolved",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 1
+   },
+   {
+    "series_label": "CO2 273K des",
+    "series_index": 1,
+    "column_index": 5,
+    "column_px": 240.91,
+    "predicted_y_px": 274.12,
+    "state": "unresolved",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 1
+   },
+   {
+    "series_label": "CO2 300K des",
+    "series_index": 3,
+    "column_index": 5,
+    "column_px": 240.91,
+    "predicted_y_px": 400.57,
+    "state": "unresolved",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 1
+   },
+   {
+    "series_label": "CO2 300K des",
+    "series_index": 3,
+    "column_index": 6,
+    "column_px": 287.12,
+    "predicted_y_px": 331.13,
+    "state": "unresolved",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 1
+   },
+   {
+    "series_label": "CO2 300K des",
+    "series_index": 3,
+    "column_index": 7,
+    "column_px": 293.5,
+    "predicted_y_px": 321.56,
+    "state": "unresolved",
+    "reason": "line_like_residual_not_marker",
+    "region_index": 1
+   },
+   {
+    "series_label": "CO2 300K des",
+    "series_index": 3,
+    "column_index": 8,
+    "column_px": 308.57,
+    "predicted_y_px": 299.67,
+    "state": "unresolved",
+    "reason": "line_like_residual_not_marker",
+    "region_index": 1
+   }
+  ]
+ },
+ "complex_regions": [
+  {
+   "bbox_norm": [
+    0.12,
+    0.015,
+    0.34,
+    0.81
+   ],
+   "kind": "dense_markers",
+   "python_passes": 4
+  },
+  {
+   "bbox_norm": [
+    0.17,
+    0.38,
+    0.34,
+    0.81
+   ],
+   "kind": "overlapping_markers",
+   "python_passes": 3
+  }
+ ],
+ "legend_marker_check": [
+  {
+   "label": "CO2 273K ads",
+   "declared": {
+    "marker": "circle",
+    "marker_fill": "filled",
+    "color_hex": "#ef3b2c"
+   },
+   "measured": {
+    "shape": "circle",
+    "fill": "filled",
+    "color_hex": "#fa1f22",
+    "fill_hex": "#eb2324",
+    "edge_hex": "#e1615c",
+    "size_px": 7.84,
+    "source": "raster",
+    "confidence": 0.47
+   },
+   "mismatches": []
+  },
+  {
+   "label": "CO2 273K des",
+   "declared": {
+    "marker": "circle",
+    "marker_fill": "open",
+    "color_hex": "#ef3b2c"
+   },
+   "measured": {
+    "shape": "hexagon",
+    "fill": "open",
+    "color_hex": "#e56d66",
+    "fill_hex": null,
+    "edge_hex": "#e48a7e",
+    "size_px": 7.88,
+    "source": "raster",
+    "confidence": 0.48
+   },
+   "mismatches": []
+  },
+  {
+   "label": "CO2 300K ads",
+   "declared": {
+    "marker": "circle",
+    "marker_fill": "filled",
+    "color_hex": "#3557a4"
+   },
+   "measured": {
+    "shape": "hexagon",
+    "fill": "filled",
+    "color_hex": "#364ba7",
+    "fill_hex": "#364da1",
+    "edge_hex": "#717bae",
+    "size_px": 7.92,
+    "source": "raster",
+    "confidence": 0.49
+   },
+   "mismatches": []
+  },
+  {
+   "label": "CO2 300K des",
+   "declared": {
+    "marker": "circle",
+    "marker_fill": "open",
+    "color_hex": "#3557a4"
+   },
+   "measured": {
+    "shape": "hexagon",
+    "fill": "open",
+    "color_hex": "#6f6fa1",
+    "fill_hex": null,
+    "edge_hex": "#7e7da4",
+    "size_px": 7.88,
+    "source": "raster",
+    "confidence": 0.51
+   },
+   "mismatches": []
+  },
+  {
+   "label": "CH4 273K ads",
+   "declared": {
+    "marker": "triangle_up",
+    "marker_fill": "filled",
+    "color_hex": "#ef3b2c"
+   },
+   "measured": {
+    "shape": "triangle_up",
+    "fill": "filled",
+    "color_hex": "#f61f22",
+    "fill_hex": "#e92327",
+    "edge_hex": "#ffc0bb",
+    "size_px": 7.44,
+    "source": "raster",
+    "confidence": 0.91
+   },
+   "mismatches": []
+  },
+  {
+   "label": "CH4 273K des",
+   "declared": {
+    "marker": "triangle_up",
+    "marker_fill": "open",
+    "color_hex": "#ef3b2c"
+   },
+   "measured": {
+    "shape": "triangle_up",
+    "fill": "open",
+    "color_hex": "#d14c46",
+    "fill_hex": null,
+    "edge_hex": "#d5726e",
+    "size_px": 7.45,
+    "source": "raster",
+    "confidence": 0.91
+   },
+   "mismatches": [
+    "color declared #ef3b2c, legend glyph measures #d14c46"
+   ]
+  },
+  {
+   "label": "CH4 300K ads",
+   "declared": {
+    "marker": "triangle_up",
+    "marker_fill": "filled",
+    "color_hex": "#3557a4"
+   },
+   "measured": {
+    "shape": "triangle_up",
+    "fill": "filled",
+    "color_hex": "#374bb2",
+    "fill_hex": "#3a50aa",
+    "edge_hex": "#3d4a98",
+    "size_px": 7.26,
+    "source": "raster",
+    "confidence": 0.92
+   },
+   "mismatches": []
+  },
+  {
+   "label": "CH4 300K des",
+   "declared": {
+    "marker": "triangle_up",
+    "marker_fill": "open",
+    "color_hex": "#3557a4"
+   },
+   "measured": {
+    "shape": "triangle_up",
+    "fill": "open",
+    "color_hex": "#8581bf",
+    "fill_hex": null,
+    "edge_hex": "#797b9e",
+    "size_px": 7.39,
+    "source": "raster",
+    "confidence": 0.91
+   },
+   "mismatches": [
+    "color declared #3557a4, legend glyph measures #8581bf"
+   ]
+  }
+ ],
+ "source_integrity": {
+  "path": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_03\\fig10\\panel.png",
+  "exists": true,
+  "sha256": "72eac179d21b9350a5918356949b3ee9f7767c5c449436b35083948643b6a984",
+  "width": 942,
+  "height": 695
+ },
+ "count_check": [
+  {
+   "label": "CO2 273K ads",
+   "x_from": 0,
+   "x_to": 1.1,
+   "expected": 36,
+   "found": 129,
+   "shortfall": 0
+  },
+  {
+   "label": "CO2 273K des",
+   "x_from": 0,
+   "x_to": 1.1,
+   "expected": 36,
+   "found": 11,
+   "shortfall": 25
+  },
+  {
+   "label": "CO2 300K ads",
+   "x_from": 0,
+   "x_to": 1.1,
+   "expected": 36,
+   "found": 113,
+   "shortfall": 0
+  },
+  {
+   "label": "CO2 300K des",
+   "x_from": 0,
+   "x_to": 1.1,
+   "expected": 36,
+   "found": 48,
+   "shortfall": 0
+  },
+  {
+   "label": "CH4 273K ads",
+   "x_from": 0,
+   "x_to": 1.1,
+   "expected": 36,
+   "found": 0,
+   "shortfall": 36
+  },
+  {
+   "label": "CH4 273K des",
+   "x_from": 0,
+   "x_to": 1.1,
+   "expected": 36,
+   "found": 0,
+   "shortfall": 36
+  },
+  {
+   "label": "CH4 300K ads",
+   "x_from": 0,
+   "x_to": 1.1,
+   "expected": 36,
+   "found": 0,
+   "shortfall": 36
+  },
+  {
+   "label": "CH4 300K des",
+   "x_from": 0,
+   "x_to": 1.1,
+   "expected": 36,
+   "found": 0,
+   "shortfall": 36
+  }
+ ],
+ "sample_colors": [
+  {
+   "label": "CO2 273K ads",
+   "sample_px": [
+    724.0,
+    29.0
+   ],
+   "legend_lab": [
+    136.0,
+    204.0,
+    184.0
+   ],
+   "sample_lab": [
+    148.0,
+    168.0,
+    145.0
+   ],
+   "distance": 54.4,
+   "result": "sample color used"
+  },
+  {
+   "label": "CO2 273K des",
+   "sample_px": [
+    794.0,
+    50.5
+   ],
+   "legend_lab": [
+    153.5,
+    174.0,
+    154.5
+   ],
+   "result": "no marker ink at the sample position; legend color kept"
+  },
+  {
+   "label": "CO2 300K ads",
+   "sample_px": [
+    632.1,
+    376.0
+   ],
+   "legend_lab": [
+    89.5,
+    151.0,
+    75.5
+   ],
+   "result": "no marker ink at the sample position; legend color kept"
+  },
+  {
+   "label": "CO2 300K des",
+   "sample_px": [
+    797.0,
+    405.5
+   ],
+   "legend_lab": [
+    124.0,
+    140.0,
+    101.0
+   ],
+   "result": "no marker ink at the sample position; legend color kept"
+  },
+  {
+   "label": "CH4 273K ads",
+   "sample_px": [
+    724.0,
+    416.5
+   ],
+   "legend_lab": [
+    134.0,
+    203.0,
+    183.0
+   ],
+   "result": "no marker ink at the sample position; legend color kept"
+  },
+  {
+   "label": "CH4 273K des",
+   "sample_px": [
+    794.0,
+    459.0
+   ],
+   "legend_lab": [
+    130.5,
+    180.0,
+    159.5
+   ],
+   "result": "no marker ink at the sample position; legend color kept"
+  },
+  {
+   "label": "CH4 300K ads",
+   "sample_px": [
+    724.0,
+    587.5
+   ],
+   "legend_lab": [
+    92.0,
+    155.0,
+    71.0
+   ],
+   "result": "no marker ink at the sample position; legend color kept"
+  },
+  {
+   "label": "CH4 300K des",
+   "sample_px": [
+    794.0,
+    612.5
+   ],
+   "legend_lab": [
+    143.5,
+    144.0,
+    96.5
+   ],
+   "sample_lab": [
+    78.0,
+    128.0,
+    128.0
+   ],
+   "distance": 74.4,
+   "result": "sample color used"
+  }
+ ],
+ "region_strategies": [],
+ "hard_checks": {
+  "stage": "python",
+  "passed": true,
+  "problems": [],
+  "axis_range": {
+   "passed": true,
+   "problems": [],
+   "margin": 0.05,
+   "max_frame_overhang_steps": 1.0,
+   "x": {
+    "unit": "bar",
+    "scale": "linear",
+    "printed": [
+     0.0,
+     1.3
+    ],
+    "data": [
+     0.0045,
+     1.0562
+    ],
+    "points_outside": 0,
+    "passed": true,
+    "frame": [
+     -0.10123332741074759,
+     1.3004907577029354
+    ],
+    "frame_overhang_steps": [
+     0.51,
+     0.0
+    ],
+    "allowed": [
+     -0.10123332741074759,
+     1.365
+    ]
+   },
+   "y": {
+    "unit": "cm³·g⁻¹",
+    "scale": "linear",
+    "printed": [
+     0.0,
+     55.0
+    ],
+    "data": [
+     3.368,
+     53.2074
+    ],
+    "points_outside": 0,
+    "passed": true,
+    "frame": [
+     -5.070509173112704,
+     55.00353699232626
+    ],
+    "frame_overhang_steps": [
+     0.51,
+     0.0
+    ],
+    "allowed": [
+     -5.070509173112704,
+     57.75
+    ]
+   }
+  },
+  "redraw": {
+   "available": true,
+   "series": {
+    "CO2 273K ads": {
+     "points": 129,
+     "precision": 0.977,
+     "recall": null,
+     "missed_marker_equivalents": null,
+     "same_color_group": [
+      "CO2 273K ads",
+      "CO2 273K des",
+      "CH4 273K ads",
+      "CH4 273K des"
+     ],
+     "note": "recall not measurable: same color as excluded series CH4 273K ads, CH4 273K des"
+    },
+    "CO2 273K des": {
+     "points": 11,
+     "precision": 0.909,
+     "recall": null,
+     "missed_marker_equivalents": null,
+     "same_color_group": [
+      "CO2 273K ads",
+      "CO2 273K des",
+      "CH4 273K ads",
+      "CH4 273K des"
+     ],
+     "note": "recall not measurable: same color as excluded series CH4 273K ads, CH4 273K des"
+    },
+    "CO2 300K ads": {
+     "points": 113,
+     "precision": 1.0,
+     "recall": null,
+     "missed_marker_equivalents": null,
+     "same_color_group": [
+      "CO2 300K ads",
+      "CO2 300K des",
+      "CH4 300K ads",
+      "CH4 300K des"
+     ],
+     "note": "recall not measurable: same color as excluded series CH4 300K ads, CH4 300K des"
+    },
+    "CO2 300K des": {
+     "points": 48,
+     "precision": 0.958,
+     "recall": null,
+     "missed_marker_equivalents": null,
+     "same_color_group": [
+      "CO2 300K ads",
+      "CO2 300K des",
+      "CH4 300K ads",
+      "CH4 300K des"
+     ],
+     "note": "recall not measurable: same color as excluded series CH4 300K ads, CH4 300K des"
+    }
+   },
+   "recall": null,
+   "precision": 0.961
+  },
+  "physics": {
+   "verdict": "review",
+   "flags": {
+    "CO2 273K ads": [
+     {
+      "check": "monotonic",
+      "detail": "des: uptake decreases at [(np.float64(0.374), np.float64(42.446)), (np.float64(0.481), np.float64(44.958)), (np.float64(0.561), np.float64(46.465)), (np.float64(0.613), np.float64(47.533)), (np.float64(0.668), np.float64(48.273))]"
+     },
+     {
+      "check": "smoothness",
+      "level": "warn",
+      "detail": "des: local outliers (P,q,resid) [(np.float64(0.587), np.float64(47.067), 2.374)]"
+     }
+    ],
+    "CO2 273K des": [
+     {
+      "check": "monotonic",
+      "detail": "ads: uptake decreases at [(np.float64(0.247), np.float64(37.624))]"
+     },
+     {
+      "check": "monotonic",
+      "detail": "des: uptake decreases at [(np.float64(0.247), np.float64(37.624))]"
+     }
+    ],
+    "CO2 300K ads": [
+     {
+      "check": "monotonic",
+      "detail": "des: uptake decreases at [(np.float64(0.374), np.float64(30.994)), (np.float64(0.481), np.float64(33.506)), (np.float64(0.995), np.float64(40.798)), (np.float64(1.022), np.float64(41.22))]"
+     }
+    ],
+    "CO2 300K des": []
+   },
+   "cross_series": []
+  },
+  "limitations": {
+   "unresolved_slots": 35,
+   "dense_regions_with_no_distinct_centres": 0,
+   "note": "ink coverage is not marker completeness; unresolved dense evidence requires review"
+  },
+  "accepted_extraction": false
+ }
+}

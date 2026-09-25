@@ -1,0 +1,145 @@
+{
+ "series": {
+  "CO2 273K": {
+   "flags": [],
+   "toth": {
+    "qm": 7.0451738643174115,
+    "K": 0.1373577129819739,
+    "t": 0.3913490216361178,
+    "rmse": 0.019412206509867667
+   },
+   "low_confidence_points": 0
+  },
+  "CO2 283K": {
+   "flags": [],
+   "toth": {
+    "qm": 11.945143442341701,
+    "K": 4.450223824730781,
+    "t": 0.18779373137822694,
+    "rmse": 0.018754950151056764
+   },
+   "low_confidence_points": 1
+  },
+  "CO2 293K": {
+   "flags": [
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "ads: local outliers (P,q,resid) [(np.float64(176.168), np.float64(2.81), -0.05)]"
+    }
+   ],
+   "toth": {
+    "qm": 4.47569381831423,
+    "K": 0.01477542170456185,
+    "t": 0.7874572829478652,
+    "rmse": 0.13163124224299852
+   },
+   "low_confidence_points": 1
+  },
+  "CO2 303K": {
+   "flags": [],
+   "toth": {
+    "qm": 5.804030353409652,
+    "K": 0.14210872894365248,
+    "t": 0.33835364985896205,
+    "rmse": 0.02813692559562929
+   },
+   "low_confidence_points": 0
+  },
+  "CO2 313K": {
+   "flags": [],
+   "toth": {
+    "qm": 17.269519581340678,
+    "K": 999.9999999996281,
+    "t": 0.11432736619905054,
+    "rmse": 0.009692029915933629
+   },
+   "low_confidence_points": 2
+  },
+  "CO2 323K": {
+   "flags": [],
+   "toth": {
+    "qm": 3.589164900409251,
+    "K": 0.013827992900940925,
+    "t": 0.7614071607814284,
+    "rmse": 0.024990165319118664
+   },
+   "low_confidence_points": 0
+  },
+  "CO2 333K": {
+   "flags": [
+    {
+     "check": "monotonic",
+     "detail": "ads: uptake decreases at [(np.float64(655.35), np.float64(2.626)), (np.float64(898.076), np.float64(2.763)), (np.float64(959.442), np.float64(2.784))]"
+    },
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "ads: local outliers (P,q,resid) [(np.float64(595.194), np.float64(2.582), -0.05), (np.float64(780.961), np.float64(2.706), 0.051)]"
+    }
+   ],
+   "toth": {
+    "qm": 2.9821126792881443,
+    "K": 0.005211460118631477,
+    "t": 1.4227892177286796,
+    "rmse": 0.07983217977540934
+   },
+   "low_confidence_points": 2
+  },
+  "CO2 343K": {
+   "flags": [],
+   "toth": {
+    "qm": 2.915060812401947,
+    "K": 0.004198850856399007,
+    "t": 1.286626190806001,
+    "rmse": 0.014028216171703415
+   },
+   "low_confidence_points": 8
+  },
+  "CO2 353K": {
+   "flags": [],
+   "toth": {
+    "qm": 2.7414808768186623,
+    "K": 0.002878780930693448,
+    "t": 1.447083271246654,
+    "rmse": 0.008699194186551504
+   },
+   "low_confidence_points": 3
+  },
+  "CO2 363K": {
+   "flags": [],
+   "toth": {
+    "qm": 2.6593695951375653,
+    "K": 0.0020214226008746115,
+    "t": 1.5558378894383522,
+    "rmse": 0.00916793684839542
+   },
+   "low_confidence_points": 2
+  },
+  "CO2 373K": {
+   "flags": [],
+   "toth": {
+    "qm": 2.4722193870958207,
+    "K": 0.0014527269012186948,
+    "t": 1.708124447037018,
+    "rmse": 0.010767334492402763
+   },
+   "low_confidence_points": 0
+  }
+ },
+ "cross": [],
+ "verdict": "review",
+ "role": "supporting_diagnostics_only",
+ "agent04_verdict": "review",
+ "rows": {
+  "python": 372,
+  "agent03": 382,
+  "agent04": 324
+ },
+ "final_operations_applied": 254,
+ "hard_checks": {
+  "passed": true,
+  "problems": [],
+  "summary": "PASS: x printed 0-1200, data 6.556-1198 mbar; y printed 0-5, data 0.0092-5.047 mmol/g; redraw recall 0.84, precision 0.97"
+ }
+}

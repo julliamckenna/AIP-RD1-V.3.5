@@ -1,0 +1,81 @@
+{
+ "reasoning": "The native panel confirms that the Python extraction is incomplete, especially for CO2 313K and CO2 373K, with additional crowded low-pressure and overlap ambiguities. The attached native crops show genuine overlapping marker ink, but they do not provide enough unambiguous series ownership or native panel coordinates to support a safe mechanical add, move, delete, or reassign operation. No unsupported template-derived edits are made.",
+ "verdict": "review",
+ "series": [
+  {
+   "label": "CO2 273K",
+   "coverage": "uncertain",
+   "final_count": 37,
+   "comment": "Count retained; crowded native overlaps remain unresolved."
+  },
+  {
+   "label": "CO2 283K",
+   "coverage": "uncertain",
+   "final_count": 36,
+   "comment": "Count retained; some ambiguous overlaps remain unresolved."
+  },
+  {
+   "label": "CO2 293K",
+   "coverage": "uncertain",
+   "final_count": 33,
+   "comment": "Count retained; overlapping blue markers remain unresolved."
+  },
+  {
+   "label": "CO2 303K",
+   "coverage": "incomplete",
+   "final_count": 29,
+   "comment": "Python count is incomplete, particularly in the low-pressure fan."
+  },
+  {
+   "label": "CO2 313K",
+   "coverage": "incomplete",
+   "final_count": 22,
+   "comment": "Substantial missed-marker shortfall remains in both low-pressure and mid/high-pressure regions."
+  },
+  {
+   "label": "CO2 323K",
+   "coverage": "uncertain",
+   "final_count": 37,
+   "comment": "Nominal count retained, but crowded native marker ink is not fully accounted for."
+  },
+  {
+   "label": "CO2 333K",
+   "coverage": "uncertain",
+   "final_count": 35,
+   "comment": "Count retained; dark-blue overlap assignments remain uncertain."
+  },
+  {
+   "label": "CO2 343K",
+   "coverage": "uncertain",
+   "final_count": 34,
+   "comment": "Count is near expected, but native overlap evidence does not establish complete ownership."
+  },
+  {
+   "label": "CO2 353K",
+   "coverage": "uncertain",
+   "final_count": 31,
+   "comment": "Count retained; some crowded markers remain difficult to distinguish."
+  },
+  {
+   "label": "CO2 363K",
+   "coverage": "uncertain",
+   "final_count": 30,
+   "comment": "Count retained; no safe coordinate-level correction is available from the supplied crops."
+  },
+  {
+   "label": "CO2 373K",
+   "coverage": "incomplete",
+   "final_count": 23,
+   "comment": "Substantial missed-marker shortfall remains, especially below 200 mbar and in overlap regions."
+  }
+ ],
+ "operations": [],
+ "uncertainties": [
+  "The native ambiguity crops contain overlapping CO2 and excluded N2 marker ink, but no crop-to-panel coordinate metadata or proposal point IDs are supplied, so ownership cannot be safely converted into mechanical edits.",
+  "CO2 313K and CO2 373K have visible coverage shortfalls that require a coordinate-aware native pass.",
+  "CO2 303K and CO2 323K also require further native inspection in the dense low-pressure and overlap regions.",
+  "The CO2 363K source glyph is a star; no marker-style operation is applicable to point extraction.",
+  "All template-fit/template-fill claims in crowded regions remain unendorsed unless a distinct native marker core is visible."
+ ],
+ "coverage": []
+}

@@ -1,0 +1,63 @@
+{
+ "reasoning": "The native source confirms the existing CO2 detections through the dense rise and most of the plateau, but it also shows one distinct open blue circle between the proposed markers near native x=488 and x=538, plus three distinct blue circles beyond the proposal's final point near the right-hand plateau tail. These are visible marker rings, not curve interpolation. The red N2 series is excluded and receives no operations. Because the supplied proposal still lacks other potentially fused dense-region markers that cannot be separated with certainty from the native pixels provided, the CO2 inventory remains incomplete/uncertain.",
+ "verdict": "review",
+ "series": [
+  {
+   "label": "CO2 195K",
+   "coverage": "uncertain",
+   "final_count": 65,
+   "comment": "Added four clearly visible native blue open-circle markers: one in the mid-plateau and three at the right-hand tail. Additional dense low-pressure or tail markers may remain fused or unresolved."
+  }
+ ],
+ "operations": [
+  {
+   "operation_id": "op-add-co2-01",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.7263,
+   "y_norm": 0.1853,
+   "overlap": false,
+   "reason": "Python skips a distinct plateau marker between the proposed centers near native x=488.5 and x=537.5.",
+   "source_evidence": "Native panel shows a separate blue open-circle ring centered approximately at native pixel (513,113), connected by the blue curve."
+  },
+  {
+   "operation_id": "op-add-co2-02",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.8709,
+   "y_norm": 0.1812,
+   "overlap": false,
+   "reason": "Visible blue open-circle marker occurs after Python's final proposed center at native x=608.5.",
+   "source_evidence": "Native panel right-tail pixels show a separate blue open ring centered approximately at native pixel (616,110), beyond the last proposed ring."
+  },
+  {
+   "operation_id": "op-add-co2-03",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.8826,
+   "y_norm": 0.1796,
+   "overlap": false,
+   "reason": "Python misses the next distinct right-tail plateau marker.",
+   "source_evidence": "Native panel shows a separate blue open-circle ring centered approximately at native pixel (624,109), immediately to the right of the added marker near (616,110)."
+  },
+  {
+   "operation_id": "op-add-co2-04",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.8939,
+   "y_norm": 0.1763,
+   "overlap": false,
+   "reason": "Python misses the final visible blue open-circle marker at the high-pressure tail.",
+   "source_evidence": "Native panel endpoint contains a distinct blue open ring centered approximately at native pixel (632,107), followed by the short blue curve endpoint."
+  }
+ ],
+ "uncertainties": [
+  "The dense low-pressure native strip contains several partially fused blue rings whose individual centers cannot all be separated reliably at native resolution.",
+  "The exact number and centers of the closely spaced right-tail rings are difficult to distinguish where their blue outlines overlap; only the three rings clearly beyond the proposed last center were added.",
+  "N2 77K red open circles are visibly present but excluded from this CO2-only correction."
+ ]
+}

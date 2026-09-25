@@ -1,0 +1,116 @@
+{
+ "reasoning": "The main linear axis contains two directly annotated uptake isotherms. The upper blue open-circle series is bound to CO2 by the annotation 'CO2@195 K' and is eligible for extraction; the lower coral open-circle series is explicitly 'N2@77 K' and is retained only for series discrimination. The embedded log-pressure inset is excluded from all readings. Closely overlapping points at low relative pressure make branch assignment uncertain.",
+ "x": {
+  "title": "Relative Pressure (P/P0)",
+  "unit": "dimensionless",
+  "scale": "linear",
+  "ticks": [
+   0,
+   0.2,
+   0.4,
+   0.6,
+   0.8,
+   1
+  ],
+  "x_setpoints_visible": [
+   0,
+   0.03,
+   0.06,
+   0.1,
+   0.13,
+   0.17,
+   0.2,
+   0.24,
+   0.27,
+   0.31,
+   0.35,
+   0.39,
+   0.43,
+   0.47,
+   0.51,
+   0.55,
+   0.59,
+   0.63,
+   0.67,
+   0.71,
+   0.75,
+   0.79,
+   0.83,
+   0.87,
+   0.91,
+   0.94,
+   0.97,
+   1
+  ]
+ },
+ "y": {
+  "title": "Uptake",
+  "unit": "cm³ g⁻¹",
+  "scale": "linear",
+  "ticks": [
+   0,
+   20,
+   40,
+   60,
+   80,
+   100,
+   120,
+   140
+  ]
+ },
+ "legend_bbox_norm": [
+  0.66,
+  0.2,
+  0.93,
+  0.75
+ ],
+ "legend_position": "right side inside plot, with separate upper-right and lower-right direct labels",
+ "series": [
+  {
+   "label": "CO2@195K",
+   "gas": "CO2",
+   "species_evidence": "Direct upper-right plot annotation 'CO2@195 K' adjacent to the blue high-uptake series.",
+   "temperature_k": 195,
+   "color_name": "blue",
+   "color_hex": "#5875F3",
+   "marker": "circle",
+   "marker_fill": "open",
+   "line_style": "solid",
+   "has_line": true,
+   "quantity_type": "co2_uptake",
+   "loading_basis": "per gram of adsorbent",
+   "extract": true,
+   "y_anchors": {
+    "p25": 123,
+    "p50": 124,
+    "p75": 125,
+    "p100": 128
+   },
+   "n_markers_estimate": 80
+  },
+  {
+   "label": "N2@77K",
+   "gas": "N2",
+   "species_evidence": "Direct lower-right plot annotation 'N2@77 K' adjacent to the coral near-zero-uptake series.",
+   "temperature_k": 77,
+   "color_name": "coral red",
+   "color_hex": "#F36B67",
+   "marker": "circle",
+   "marker_fill": "open",
+   "line_style": "solid",
+   "has_line": true,
+   "quantity_type": "n2_uptake",
+   "loading_basis": "per gram of adsorbent",
+   "extract": false,
+   "y_anchors": {
+    "p25": 1,
+    "p50": 0.5,
+    "p75": 0.4,
+    "p100": 3
+   },
+   "n_markers_estimate": 29
+  }
+ ],
+ "branches": "unknown",
+ "notes": "An embedded inset occupies approximately [0.35, 0.28, 0.74, 0.65] of the image and uses a logarithmic relative-pressure axis; it is excluded from ticks, setpoints, marker counts, anchors, and extraction. The inset labels P/P0 = 0.017 and 0.030 are context only. No error bars or dual y-axis are visible. Both main-panel series use open circles with connecting solid lines; possible overlapping adsorption/desorption traces cannot be assigned confidently."
+}

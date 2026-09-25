@@ -1,0 +1,117 @@
+[
+ {
+  "candidate_id": "image",
+  "figure": {
+   "page": 1,
+   "kind": "image",
+   "file": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\calf20\\discovery\\python_inventory\\figure.png",
+   "source_id": "image",
+   "figure_number": null,
+   "caption": null,
+   "caption_candidates": [],
+   "references": []
+  },
+  "answer": {
+   "reasoning": "No printed figure number or caption is visible, and no caption was discovered elsewhere, so the composite is treated as an unnumbered graphic. It contains five physical axis frames labeled A–E. Panel A plots CO2 loading versus pressure for multiple temperatures and also includes N2 series; panel B plots CO2 loading versus pressure. Panel C is N2-only, while panels D and E show H2O loading and are excluded.",
+   "figure_number": null,
+   "matched_caption": "",
+   "figure_is_relevant": true,
+   "si_has_tabulated_data": "unknown",
+   "panels": [
+    {
+     "panel": "A",
+     "is_co2_isotherm": true,
+     "reason": "CO2 loading in mmol/g is plotted against pressure in mbar at 273–373 K; N2 series are also present but are not extraction targets.",
+     "bbox_norm": [
+      0.0,
+      0.0,
+      0.99,
+      0.39
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    },
+    {
+     "panel": "B",
+     "is_co2_isotherm": true,
+     "reason": "CO2 loading in mmol/g is plotted against pressure in kPa at 303, 313, 323, 333, 353, and 373 K.",
+     "bbox_norm": [
+      0.01,
+      0.4,
+      0.5,
+      0.65
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    },
+    {
+     "panel": "C",
+     "is_co2_isotherm": false,
+     "reason": "This panel plots N2 loading versus pressure, not CO2 uptake.",
+     "bbox_norm": [
+      0.52,
+      0.4,
+      0.99,
+      0.65
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    },
+    {
+     "panel": "D",
+     "is_co2_isotherm": false,
+     "reason": "This panel plots H2O loading versus pressure.",
+     "bbox_norm": [
+      0.01,
+      0.68,
+      0.5,
+      0.94
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    },
+    {
+     "panel": "E",
+     "is_co2_isotherm": false,
+     "reason": "This panel plots H2O loading versus relative humidity for CALF-20 and comparator adsorbents.",
+     "bbox_norm": [
+      0.53,
+      0.68,
+      0.99,
+      0.95
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    }
+   ],
+   "context": {
+    "adsorbent": "CALF-20; panel E additionally identifies Zeolite 13X, CAU-10, and Al-Fumarate as water-adsorption comparators.",
+    "sample_form": "Not reported in the available figure.",
+    "activation": "Not reported in the available figure.",
+    "instrument": "Not reported in the available figure.",
+    "measurement_notes": "Panel A shows CO2 isotherms from 273 to 373 K up to approximately 1200 mbar and N2 isotherms at selected temperatures. Panel B shows CO2 isotherms at 303, 313, 323, 333, 353, and 373 K up to approximately 120 kPa. Panels C–E are non-CO2 plots.",
+    "other_parameters": "Loading is reported in mmol/g. No caption or surrounding text is available to establish equilibration protocol, adsorption/desorption branch assignment, or additional measurement conditions."
+   }
+  },
+  "provenance": {
+   "agent_name": "agent00-discovery",
+   "agent_version": "6",
+   "response_id": "resp_0c416ea787c33fe4006ab680f4973c819086a46dbe19755e3e",
+   "usage": {
+    "input_tokens": 4796,
+    "input_tokens_details": {
+     "cache_write_tokens": 4793,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1001,
+    "output_tokens_details": {
+     "reasoning_tokens": 338
+    },
+    "total_tokens": 5797
+   },
+   "created_at": "2026-09-25T14:11:07.360744+00:00",
+   "dry_run": false
+  },
+  "input_fingerprint": "b402f6cf8a4354544fdc51911fce5d3e4a4954359005a70f8d1023a87954aa06"
+ }
+]

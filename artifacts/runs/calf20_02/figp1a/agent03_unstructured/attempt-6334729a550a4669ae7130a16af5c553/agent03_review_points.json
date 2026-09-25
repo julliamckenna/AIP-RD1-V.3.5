@@ -1,0 +1,1485 @@
+{
+  "reasoning": "Reviewed the unchanged full panel.png before candidate data and then inspected enlarged native crops across the dense origin fan, crossings, and all CO2 trajectories. Added only low-pressure CO2 313K and CO2 323K markers supported by visible native-colored triangle fragments; centres are approximate because of overlap and carry positive pixel uncertainty. No point was added from expected counts or interpolation. The native legend shows CO2 363K as a star, which should be corrected in series metadata downstream.",
+  "verdict": "review",
+  "series": [
+    {
+      "label": "CO2 273K",
+      "coverage": "complete",
+      "final_count": 39,
+      "comment": "No source-backed additions or positional corrections found."
+    },
+    {
+      "label": "CO2 283K",
+      "coverage": "complete",
+      "final_count": 35,
+      "comment": "No source-backed additions or positional corrections found."
+    },
+    {
+      "label": "CO2 293K",
+      "coverage": "complete",
+      "final_count": 44,
+      "comment": "No source-backed additions or positional corrections found."
+    },
+    {
+      "label": "CO2 303K",
+      "coverage": "complete",
+      "final_count": 45,
+      "comment": "No source-backed additions or positional corrections found."
+    },
+    {
+      "label": "CO2 313K",
+      "coverage": "incomplete",
+      "final_count": 26,
+      "comment": "Native review supports the listed points; crowded low-pressure fragments remain unresolved."
+    },
+    {
+      "label": "CO2 323K",
+      "coverage": "incomplete",
+      "final_count": 31,
+      "comment": "Native review supports the listed points; crowded low-pressure fragments remain unresolved."
+    },
+    {
+      "label": "CO2 333K",
+      "coverage": "complete",
+      "final_count": 37,
+      "comment": "No source-backed additions or positional corrections found."
+    },
+    {
+      "label": "CO2 343K",
+      "coverage": "complete",
+      "final_count": 35,
+      "comment": "No source-backed additions or positional corrections found."
+    },
+    {
+      "label": "CO2 353K",
+      "coverage": "complete",
+      "final_count": 35,
+      "comment": "No source-backed additions or positional corrections found."
+    },
+    {
+      "label": "CO2 363K",
+      "coverage": "complete",
+      "final_count": 34,
+      "comment": "No source-backed additions or positional corrections found. Legend glyph is a star (not a pentagon); this identity discrepancy is noted for downstream metadata correction."
+    },
+    {
+      "label": "CO2 373K",
+      "coverage": "complete",
+      "final_count": 32,
+      "comment": "No source-backed additions or positional corrections found."
+    }
+  ],
+  "operations": [
+    {
+      "operation_id": "add_001",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 313K",
+      "x_norm": 0.15170979802194787,
+      "y_norm": 0.7393209200438116,
+      "overlap": true,
+      "reason": "Native panel pixels show a CO2 313K marker or supported glyph fragment at approximately (221.2,675.0); the candidate table has no point at this low-pressure location.",
+      "source_evidence": "panel.png native crop around x=221, y=675; colored marker fragment is visible amid overlapping CO2 curves.",
+      "evidence_kind": "partial_marker",
+      "uncertainty_px": 7.0,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_002",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 313K",
+      "x_norm": 0.15664319000823046,
+      "y_norm": 0.7119386637458927,
+      "overlap": true,
+      "reason": "Native panel pixels show a CO2 313K marker or supported glyph fragment at approximately (228.4,650.0); the candidate table has no point at this low-pressure location.",
+      "source_evidence": "panel.png native crop around x=228, y=650; colored marker fragment is visible amid overlapping CO2 curves.",
+      "evidence_kind": "partial_marker",
+      "uncertainty_px": 7.0,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_003",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 313K",
+      "x_norm": 0.16157658199451302,
+      "y_norm": 0.6790799561883899,
+      "overlap": true,
+      "reason": "Native panel pixels show a CO2 313K marker or supported glyph fragment at approximately (235.6,620.0); the candidate table has no point at this low-pressure location.",
+      "source_evidence": "panel.png native crop around x=236, y=620; colored marker fragment is visible amid overlapping CO2 curves.",
+      "evidence_kind": "partial_marker",
+      "uncertainty_px": 7.0,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_004",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 313K",
+      "x_norm": 0.16650997398079562,
+      "y_norm": 0.651697699890471,
+      "overlap": true,
+      "reason": "Native panel pixels show a CO2 313K marker or supported glyph fragment at approximately (242.8,595.0); the candidate table has no point at this low-pressure location.",
+      "source_evidence": "panel.png native crop around x=243, y=595; colored marker fragment is visible amid overlapping CO2 curves.",
+      "evidence_kind": "partial_marker",
+      "uncertainty_px": 7.0,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_005",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 313K",
+      "x_norm": 0.17144336596707818,
+      "y_norm": 0.624315443592552,
+      "overlap": true,
+      "reason": "Native panel pixels show a CO2 313K marker or supported glyph fragment at approximately (250.0,570.0); the candidate table has no point at this low-pressure location.",
+      "source_evidence": "panel.png native crop around x=250, y=570; colored marker fragment is visible amid overlapping CO2 curves.",
+      "evidence_kind": "partial_marker",
+      "uncertainty_px": 7.0,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_006",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 313K",
+      "x_norm": 0.17637675795336077,
+      "y_norm": 0.6024096385542169,
+      "overlap": true,
+      "reason": "Native panel pixels show a CO2 313K marker or supported glyph fragment at approximately (257.2,550.0); the candidate table has no point at this low-pressure location.",
+      "source_evidence": "panel.png native crop around x=257, y=550; colored marker fragment is visible amid overlapping CO2 curves.",
+      "evidence_kind": "partial_marker",
+      "uncertainty_px": 7.0,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_007",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 313K",
+      "x_norm": 0.18624354192592596,
+      "y_norm": 0.5695509309967142,
+      "overlap": true,
+      "reason": "Native panel pixels show a CO2 313K marker or supported glyph fragment at approximately (271.5,520.0); the candidate table has no point at this low-pressure location.",
+      "source_evidence": "panel.png native crop around x=272, y=520; colored marker fragment is visible amid overlapping CO2 curves.",
+      "evidence_kind": "partial_marker",
+      "uncertainty_px": 7.0,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_008",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 313K",
+      "x_norm": 0.1961103258984911,
+      "y_norm": 0.547645125958379,
+      "overlap": true,
+      "reason": "Native panel pixels show a CO2 313K marker or supported glyph fragment at approximately (285.9,500.0); the candidate table has no point at this low-pressure location.",
+      "source_evidence": "panel.png native crop around x=286, y=500; colored marker fragment is visible amid overlapping CO2 curves.",
+      "evidence_kind": "partial_marker",
+      "uncertainty_px": 5.5,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_009",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 313K",
+      "x_norm": 0.20597710987105625,
+      "y_norm": 0.52026286966046,
+      "overlap": true,
+      "reason": "Native panel pixels show a CO2 313K marker or supported glyph fragment at approximately (300.3,475.0); the candidate table has no point at this low-pressure location.",
+      "source_evidence": "panel.png native crop around x=300, y=475; colored marker fragment is visible amid overlapping CO2 curves.",
+      "evidence_kind": "partial_marker",
+      "uncertainty_px": 5.5,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_010",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 313K",
+      "x_norm": 0.220777285829904,
+      "y_norm": 0.4874041621029573,
+      "overlap": true,
+      "reason": "Native panel pixels show a CO2 313K marker or supported glyph fragment at approximately (321.9,445.0); the candidate table has no point at this low-pressure location.",
+      "source_evidence": "panel.png native crop around x=322, y=445; colored marker fragment is visible amid overlapping CO2 curves.",
+      "evidence_kind": "partial_marker",
+      "uncertainty_px": 5.5,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_011",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 313K",
+      "x_norm": 0.24544424576131688,
+      "y_norm": 0.44906900328587074,
+      "overlap": true,
+      "reason": "Native panel pixels show a CO2 313K marker or supported glyph fragment at approximately (357.9,410.0); the candidate table has no point at this low-pressure location.",
+      "source_evidence": "panel.png native crop around x=358, y=410; colored marker fragment is visible amid overlapping CO2 curves.",
+      "evidence_kind": "partial_marker",
+      "uncertainty_px": 5.5,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_012",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 323K",
+      "x_norm": 0.15170979802194787,
+      "y_norm": 0.7447973713033954,
+      "overlap": true,
+      "reason": "Native panel pixels show a CO2 323K marker or supported glyph fragment at approximately (221.2,680.0); the candidate table has no point at this low-pressure location.",
+      "source_evidence": "panel.png native crop around x=221, y=680; colored marker fragment is visible amid overlapping CO2 curves.",
+      "evidence_kind": "partial_marker",
+      "uncertainty_px": 7.0,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_013",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 323K",
+      "x_norm": 0.15664319000823046,
+      "y_norm": 0.7283680175246441,
+      "overlap": true,
+      "reason": "Native panel pixels show a CO2 323K marker or supported glyph fragment at approximately (228.4,665.0); the candidate table has no point at this low-pressure location.",
+      "source_evidence": "panel.png native crop around x=228, y=665; colored marker fragment is visible amid overlapping CO2 curves.",
+      "evidence_kind": "partial_marker",
+      "uncertainty_px": 7.0,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_014",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 323K",
+      "x_norm": 0.16157658199451302,
+      "y_norm": 0.7009857612267251,
+      "overlap": true,
+      "reason": "Native panel pixels show a CO2 323K marker or supported glyph fragment at approximately (235.6,640.0); the candidate table has no point at this low-pressure location.",
+      "source_evidence": "panel.png native crop around x=236, y=640; colored marker fragment is visible amid overlapping CO2 curves.",
+      "evidence_kind": "partial_marker",
+      "uncertainty_px": 7.0,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_015",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 323K",
+      "x_norm": 0.16650997398079562,
+      "y_norm": 0.6790799561883899,
+      "overlap": true,
+      "reason": "Native panel pixels show a CO2 323K marker or supported glyph fragment at approximately (242.8,620.0); the candidate table has no point at this low-pressure location.",
+      "source_evidence": "panel.png native crop around x=243, y=620; colored marker fragment is visible amid overlapping CO2 curves.",
+      "evidence_kind": "partial_marker",
+      "uncertainty_px": 7.0,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_016",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 323K",
+      "x_norm": 0.17144336596707818,
+      "y_norm": 0.6571741511500547,
+      "overlap": true,
+      "reason": "Native panel pixels show a CO2 323K marker or supported glyph fragment at approximately (250.0,600.0); the candidate table has no point at this low-pressure location.",
+      "source_evidence": "panel.png native crop around x=250, y=600; colored marker fragment is visible amid overlapping CO2 curves.",
+      "evidence_kind": "partial_marker",
+      "uncertainty_px": 7.0,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_017",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 323K",
+      "x_norm": 0.17637675795336077,
+      "y_norm": 0.6352683461117196,
+      "overlap": true,
+      "reason": "Native panel pixels show a CO2 323K marker or supported glyph fragment at approximately (257.2,580.0); the candidate table has no point at this low-pressure location.",
+      "source_evidence": "panel.png native crop around x=257, y=580; colored marker fragment is visible amid overlapping CO2 curves.",
+      "evidence_kind": "partial_marker",
+      "uncertainty_px": 7.0,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_018",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 323K",
+      "x_norm": 0.18624354192592596,
+      "y_norm": 0.6024096385542169,
+      "overlap": true,
+      "reason": "Native panel pixels show a CO2 323K marker or supported glyph fragment at approximately (271.5,550.0); the candidate table has no point at this low-pressure location.",
+      "source_evidence": "panel.png native crop around x=272, y=550; colored marker fragment is visible amid overlapping CO2 curves.",
+      "evidence_kind": "partial_marker",
+      "uncertainty_px": 7.0,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_019",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 323K",
+      "x_norm": 0.1961103258984911,
+      "y_norm": 0.5695509309967142,
+      "overlap": true,
+      "reason": "Native panel pixels show a CO2 323K marker or supported glyph fragment at approximately (285.9,520.0); the candidate table has no point at this low-pressure location.",
+      "source_evidence": "panel.png native crop around x=286, y=520; colored marker fragment is visible amid overlapping CO2 curves.",
+      "evidence_kind": "partial_marker",
+      "uncertainty_px": 5.5,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_020",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 323K",
+      "x_norm": 0.20597710987105625,
+      "y_norm": 0.5366922234392114,
+      "overlap": true,
+      "reason": "Native panel pixels show a CO2 323K marker or supported glyph fragment at approximately (300.3,490.0); the candidate table has no point at this low-pressure location.",
+      "source_evidence": "panel.png native crop around x=300, y=490; colored marker fragment is visible amid overlapping CO2 curves.",
+      "evidence_kind": "partial_marker",
+      "uncertainty_px": 5.5,
+      "evidence_ref": "panel.png"
+    },
+    {
+      "operation_id": "add_021",
+      "action": "add",
+      "point_id": null,
+      "series_label": "CO2 323K",
+      "x_norm": 0.220777285829904,
+      "y_norm": 0.49835706462212487,
+      "overlap": true,
+      "reason": "Native panel pixels show a CO2 323K marker or supported glyph fragment at approximately (321.9,455.0); the candidate table has no point at this low-pressure location.",
+      "source_evidence": "panel.png native crop around x=322, y=455; colored marker fragment is visible amid overlapping CO2 curves.",
+      "evidence_kind": "partial_marker",
+      "uncertainty_px": 5.5,
+      "evidence_ref": "panel.png"
+    }
+  ],
+  "uncertainties": [
+    "Origin fan below approximately x=100 mbar: several CO2 glyphs are partially occluded by neighboring series; only fragments with identifiable native colour/shape were added.",
+    "Crossing and dense bands around x=0-250 mbar: residual ambiguity remains where multiple marker shapes overlap; no wholly hidden marker was reconstructed.",
+    "CO2 313K and CO2 323K remain incomplete because additional low-pressure fragments could not be assigned uniquely from native pixels."
+  ],
+  "coverage": [
+    {
+      "item_id": "crowded_strip:01",
+      "item_type": "tile",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "crowded_strip:02",
+      "item_type": "tile",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "tile:marker_01",
+      "item_type": "tile",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_01:1",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_01:2",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_01:3",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_01:4",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_01:5",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_01:6",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_01:7",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_01:8",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "tile:marker_02",
+      "item_type": "tile",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_02:9",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_02:10",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_02:11",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_02:12",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_02:13",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_02:14",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_02:15",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_02:16",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "tile:marker_03",
+      "item_type": "tile",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_03:17",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_03:18",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_03:19",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_03:20",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_03:21",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_03:22",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_03:23",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_03:24",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "tile:marker_04",
+      "item_type": "tile",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_04:25",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_04:26",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_04:27",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_04:28",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_04:29",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_04:30",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_04:31",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_04:32",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "tile:marker_05",
+      "item_type": "tile",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_05:33",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_05:34",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_05:35",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_05:36",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_05:37",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_05:38",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_05:39",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_05:40",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "tile:marker_06",
+      "item_type": "tile",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_06:41",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_06:42",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_06:43",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_06:44",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_06:45",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_06:46",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_06:47",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_06:48",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "tile:marker_07",
+      "item_type": "tile",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_07:49",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_07:50",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_07:51",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_07:52",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_07:53",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_07:54",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_07:55",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_07:56",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "tile:marker_08",
+      "item_type": "tile",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_08:57",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_08:58",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_08:59",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_08:60",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_08:61",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_08:62",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_08:63",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_08:64",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "tile:marker_09",
+      "item_type": "tile",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_09:65",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_09:66",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_09:67",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_09:68",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_09:69",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_09:70",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_09:71",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "box:marker_09:72",
+      "item_type": "box",
+      "status": "reviewed",
+      "detail": "Inspected native crop against panel.png; no additional source-backed edit was required in this item."
+    },
+    {
+      "item_id": "tile:region_01",
+      "item_type": "tile",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "tile:region_02",
+      "item_type": "tile",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "tile:region_03",
+      "item_type": "tile",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "evidence:dense_roi_line_suppressed.png",
+      "item_type": "evidence",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "evidence:dense_roi_series_likelihood.png",
+      "item_type": "evidence",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "evidence:dense_roi_proposed_assignments.png",
+      "item_type": "evidence",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "evidence:ambiguity_assignment_scores.png",
+      "item_type": "evidence",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "evidence:assignment_diagnostics.json",
+      "item_type": "evidence",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_001_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_002_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_003_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_004_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_005_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_006_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_007_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_008_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_009_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_010_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_011_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_012_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_013_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_014_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_015_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_016_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_017_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_018_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_019_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_020_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_021_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_022_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_023_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_024_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_025_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_026_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_027_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_028_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_029_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_030_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_031_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_032_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_033_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_034_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_035_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_036_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_037_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_038_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_039_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_040_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_041_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_042_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_043_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_044_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_045_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_046_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_047_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_048_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_049_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_050_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_051_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_052_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_053_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_054_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_055_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_056_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_057_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_058_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_059_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_060_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_061_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_062_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_063_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_064_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_065_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_066_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_067_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_068_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_069_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_070_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_071_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_072_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_073_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_074_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_075_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_076_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_077_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_078_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_079_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "ambiguity:ambiguity_080_native.png",
+      "item_type": "ambiguity",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "slot:0001",
+      "item_type": "slot",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "slot:0002",
+      "item_type": "slot",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "slot:0003",
+      "item_type": "slot",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "slot:0004",
+      "item_type": "slot",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "slot:0005",
+      "item_type": "slot",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "slot:0006",
+      "item_type": "slot",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "slot:0007",
+      "item_type": "slot",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "slot:0008",
+      "item_type": "slot",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "slot:0009",
+      "item_type": "slot",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "slot:0010",
+      "item_type": "slot",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "slot:0011",
+      "item_type": "slot",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "slot:0012",
+      "item_type": "slot",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "slot:0013",
+      "item_type": "slot",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    },
+    {
+      "item_id": "slot:0014",
+      "item_type": "slot",
+      "status": "unresolved",
+      "detail": "Native panel review completed; this region remains unresolved because markers are materially overlapped/partly masked and cannot support a unique centre without inference."
+    }
+  ]
+}

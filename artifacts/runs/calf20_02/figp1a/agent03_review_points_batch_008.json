@@ -1,0 +1,199 @@
+{
+ "reasoning": "Inspected all 15 attached native ambiguity crops. The disputed CO2 293K triangle-up clusters are source-visible and retained; the crowded CO2 303K/CO2 283K region contains visible non-template markers, but the CO2 283K template_fill claim at panel (253.0,566.0) has no source-supported red hexagon. The CO2 373K template_fill claim at (261.29,711.21) likewise has no identifiable blue filled circle in the native crop and is deleted. No additional CO2 marker can be safely added from these crops alone, and the broader 313K/323K shortfalls remain unresolved because expected counts and curve continuity are not evidence.",
+ "verdict": "review",
+ "series": [
+  {
+   "label": "CO2 273K",
+   "coverage": "complete",
+   "final_count": 39,
+   "comment": "No edits supported by this batch."
+  },
+  {
+   "label": "CO2 283K",
+   "coverage": "incomplete",
+   "final_count": 34,
+   "comment": "Deleted the unsupported template_fill claim; the batch does not cover the full series."
+  },
+  {
+   "label": "CO2 293K",
+   "coverage": "complete",
+   "final_count": 44,
+   "comment": "Native crops support the proposed triangle-up markers; no edits."
+  },
+  {
+   "label": "CO2 303K",
+   "coverage": "complete",
+   "final_count": 45,
+   "comment": "Native crowded-region evidence supports retaining the proposed markers; no edits."
+  },
+  {
+   "label": "CO2 313K",
+   "coverage": "incomplete",
+   "final_count": 15,
+   "comment": "The supplied proposal remains severely short, with no native tiles here supporting safe additions."
+  },
+  {
+   "label": "CO2 323K",
+   "coverage": "incomplete",
+   "final_count": 21,
+   "comment": "The supplied proposal remains short, with no native tiles here supporting safe additions."
+  },
+  {
+   "label": "CO2 333K",
+   "coverage": "complete",
+   "final_count": 37,
+   "comment": "No edits supported by this batch."
+  },
+  {
+   "label": "CO2 343K",
+   "coverage": "uncertain",
+   "final_count": 35,
+   "comment": "No definitive source-backed correction in the supplied crops; crowded coverage remains limited."
+  },
+  {
+   "label": "CO2 353K",
+   "coverage": "uncertain",
+   "final_count": 35,
+   "comment": "No definitive source-backed correction in the supplied crops; crowded coverage remains limited."
+  },
+  {
+   "label": "CO2 363K",
+   "coverage": "complete",
+   "final_count": 34,
+   "comment": "No edits supported by this batch."
+  },
+  {
+   "label": "CO2 373K",
+   "coverage": "incomplete",
+   "final_count": 31,
+   "comment": "Deleted the unsupported template_fill claim; full-series completeness is not established."
+  }
+ ],
+ "operations": [
+  {
+   "operation_id": "op-delete-283-template",
+   "action": "delete",
+   "point_id": "pt-12232a36d4dfcd68",
+   "series_label": "CO2 283K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The Python row is explicitly template_fill. In the native crop, the claimed panel position (253.0,566.0) has no identifiable red filled hexagon or supported red fragment; the visible pixels belong to overlapping other-series glyphs.",
+   "source_evidence": "At full-panel pixel (253.0,566.0), the native crop shows no source-supported CO2 283K red hexagon; only overlapping non-CO2-colored marker fragments are present.",
+   "evidence_kind": "native_absence",
+   "uncertainty_px": null,
+   "evidence_ref": "ambiguity:ambiguity_073_native.png"
+  },
+  {
+   "operation_id": "op-delete-373-template",
+   "action": "delete",
+   "point_id": "pt-175694a25d82abfe",
+   "series_label": "CO2 373K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The Python row is explicitly template_fill. The native crop around claimed panel pixel (261.29,711.21) contains overlapping low-pressure glyphs but no identifiable CO2 373K blue filled circle or supported blue-circle fragment.",
+   "source_evidence": "At full-panel pixel (261.29,711.21), the native crop provides no source-supported blue filled circle for CO2 373K; visible colored fragments are attributable to other crowded series.",
+   "evidence_kind": "native_absence",
+   "uncertainty_px": null,
+   "evidence_ref": "ambiguity:ambiguity_074_native.png"
+  }
+ ],
+ "uncertainties": [
+  "The supplied batch does not provide native evidence for safely recovering the missing CO2 313K and CO2 323K markers.",
+  "CO2 343K, CO2 353K, and parts of CO2 373K remain crowded or incompletely covered; no additions were made from expected counts or curve continuity.",
+  "The CO2 283K and CO2 373K template claims were removed because their exact native crops did not support marker existence."
+ ],
+ "coverage": [
+  {
+   "item_id": "ambiguity:ambiguity_060_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; blue CO2 293K triangle-up markers are source-visible despite overlap, so candidate points are retained."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_061_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; it concerns excluded N2 series and yields no CO2 edit."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_062_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; it concerns excluded N2 series and yields no CO2 edit."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_063_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; blue CO2 293K triangle-up markers are source-visible, so candidate points are retained."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_064_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; it concerns excluded N2 series and yields no CO2 edit."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_065_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; it concerns excluded N2 series and yields no CO2 edit."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_066_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; it concerns excluded N2 series and yields no CO2 edit."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_067_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; it concerns excluded N2 series and yields no CO2 edit."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_068_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; it concerns excluded N2 series and yields no CO2 edit."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_069_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; blue CO2 293K triangle-up markers are source-visible, so candidate points are retained."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_070_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; it concerns excluded N2 series and yields no CO2 edit."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_071_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; it concerns excluded N2 series and yields no CO2 edit."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_072_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; it concerns excluded N2 series and yields no CO2 edit."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_073_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crowded low-pressure crop; visible CO2 303K candidates are retained, while the CO2 283K template_fill claim is deleted for native absence."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_074_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crowded low-pressure crop; the CO2 373K template_fill claim has no identifiable blue circle and is deleted."
+  }
+ ]
+}

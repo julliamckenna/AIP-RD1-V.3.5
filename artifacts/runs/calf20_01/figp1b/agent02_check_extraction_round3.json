@@ -1,0 +1,788 @@
+{
+ "reasoning": "The axis calibration is correct: the source has linear axes with x ticks 0–120 mbar and y ticks 0–3 mmol/g, and the extracted ranges replot against those ticks correctly. Series order, colors, filled states, and line-free presentation are correct from the source legend. The declared green 323K triangle-up, blue 333K pentagon, magenta 353K diamond, and black 373K star should be retained; the raster legend measurement misclassified several low-resolution glyphs. Coverage is not acceptable because the low-pressure fan and thick connecting-line region has substantial marker shortfall, especially for 303K, 313K, 323K, and 353K. The next extraction should use tighter trajectory bands, explicit low-pressure curve guidance, and an additional dense/thick-line pass.",
+ "axis_check": {
+  "x": {
+   "printed_min": 0,
+   "printed_max": 120,
+   "data_min": 1.3358,
+   "data_max": 114.0928,
+   "reason": "The re-plotted curves occupy the same 0–120 mbar linear scale as the source; the extracted extrema are interior points and show no shifted or stretched calibration.",
+   "result": "pass"
+  },
+  "y": {
+   "printed_min": 0,
+   "printed_max": 3,
+   "data_min": 0.0428,
+   "data_max": 2.924,
+   "reason": "The re-plotted curves sit at the same loading values against the printed 0–3 mmol/g ticks; the highest extracted point is just below 3 as in the source.",
+   "result": "pass"
+  }
+ },
+ "satisfied": false,
+ "issues": [
+  "Low-pressure markers are substantially missing or suppressed by the thick connecting-line fan: 303K has 1/12 expected below 30 mbar, 313K 5/12, 323K 5/12, 333K 5/12, and 353K 4/12.",
+  "The dense low-pressure region needs another extraction pass with trajectory-constrained marker recovery and line suppression.",
+  "The raster legend glyph check misclassified the green triangle, blue pentagon, and magenta diamond; the source image supports the declared shapes and they should not be changed.",
+  "The black 373K series is fully counted but has lower redraw recall because its star markers overlap the thick black connecting stroke; retain the source star identity and improve line/marker separation."
+ ],
+ "structure_ok": true,
+ "chart_title": "",
+ "x_axis": {
+  "title": "P",
+  "unit": "mbar",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 120,
+  "boundary_limits_confirmed": false,
+  "ticks": [
+   0,
+   40,
+   80,
+   120
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.237,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.471,
+    "value": 40
+   },
+   {
+    "pixel_norm": 0.705,
+    "value": 80
+   },
+   {
+    "pixel_norm": 0.94,
+    "value": 120
+   }
+  ]
+ },
+ "y_axis": {
+  "title": "CO2 Loading",
+  "unit": "mmol/g",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 3,
+  "boundary_limits_confirmed": true,
+  "ticks": [
+   0,
+   0.5,
+   1,
+   1.5,
+   2,
+   2.5,
+   3
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.89,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.774,
+    "value": 0.5
+   },
+   {
+    "pixel_norm": 0.656,
+    "value": 1
+   },
+   {
+    "pixel_norm": 0.54,
+    "value": 1.5
+   },
+   {
+    "pixel_norm": 0.421,
+    "value": 2
+   },
+   {
+    "pixel_norm": 0.304,
+    "value": 2.5
+   },
+   {
+    "pixel_norm": 0.187,
+    "value": 3
+   }
+  ]
+ },
+ "legend_bbox_norm": [
+  0.5572,
+  0.6505,
+  0.9408,
+  0.894
+ ],
+ "total_series": 6,
+ "series": [
+  {
+   "label": "CO2 303K",
+   "marker": "circle",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "color_hex": "#e51c23",
+   "notes": "Red filled circles; low-pressure markers overlap the red connecting stroke."
+  },
+  {
+   "label": "CO2 313K",
+   "marker": "square",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "color_hex": "#f4a21b",
+   "notes": "Orange filled squares; low-pressure markers are partly embedded in the fan."
+  },
+  {
+   "label": "CO2 323K",
+   "marker": "triangle_up",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "color_hex": "#198b43",
+   "notes": "Green filled upward triangles. The raster legend crop was incorrectly measured as a pentagon."
+  },
+  {
+   "label": "CO2 333K",
+   "marker": "pentagon",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "color_hex": "#29469d",
+   "notes": "Blue filled pentagons. The raster legend crop was incorrectly measured as an open circle."
+  },
+  {
+   "label": "CO2 353K",
+   "marker": "diamond",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "color_hex": "#c52a86",
+   "notes": "Magenta filled diamonds. The raster legend crop was incorrectly measured as a hexagon."
+  },
+  {
+   "label": "CO2 373K",
+   "marker": "star",
+   "marker_fill": "filled",
+   "line_style": "none",
+   "color_hex": "#000000",
+   "notes": "Black filled star markers over a thick black connecting stroke."
+  }
+ ],
+ "branches": "adsorption_only",
+ "complex_regions": [
+  {
+   "bbox_norm": [
+    0.237,
+    0.43,
+    0.475,
+    0.89
+   ],
+   "kind": "dense_markers",
+   "python_passes": 6
+  },
+  {
+   "bbox_norm": [
+    0.237,
+    0.6,
+    0.405,
+    0.89
+   ],
+   "kind": "thick_connecting_lines",
+   "python_passes": 6
+  }
+ ],
+ "extraction_settings": [
+  {
+   "label": "CO2 303K",
+   "color_tolerance": 30,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 6,
+     "y_min": 0,
+     "y_max": 1.45
+    },
+    {
+     "x_from": 6,
+     "x_to": 15,
+     "y_min": 1.0,
+     "y_max": 1.95
+    },
+    {
+     "x_from": 15,
+     "x_to": 30,
+     "y_min": 1.65,
+     "y_max": 2.35
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "y_min": 2.05,
+     "y_max": 3.0
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Recover the nine missing red circles in the low-pressure fan using the steep red trajectory while suppressing the thick red connecting stroke.",
+   "sample_marker_norm": [
+    0.705,
+    0.251
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 30,
+     "count": 12
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "count": 13
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 1,
+     "y": 0.35
+    },
+    {
+     "x": 2,
+     "y": 0.65
+    },
+    {
+     "x": 4,
+     "y": 1.05
+    },
+    {
+     "x": 6,
+     "y": 1.4
+    },
+    {
+     "x": 10,
+     "y": 1.75
+    },
+    {
+     "x": 20,
+     "y": 2.1
+    },
+    {
+     "x": 30,
+     "y": 2.3
+    },
+    {
+     "x": 50,
+     "y": 2.55
+    },
+    {
+     "x": 80,
+     "y": 2.75
+    },
+    {
+     "x": 100,
+     "y": 2.88
+    },
+    {
+     "x": 114,
+     "y": 2.96
+    }
+   ]
+  },
+  {
+   "label": "CO2 313K",
+   "color_tolerance": 30,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 6,
+     "y_min": 0,
+     "y_max": 1.25
+    },
+    {
+     "x_from": 6,
+     "x_to": 15,
+     "y_min": 0.85,
+     "y_max": 1.7
+    },
+    {
+     "x_from": 15,
+     "x_to": 30,
+     "y_min": 1.45,
+     "y_max": 2.2
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "y_min": 1.9,
+     "y_max": 2.75
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Recover seven missing orange squares in the low-pressure fan with the orange trajectory and marker-shape template, avoiding red and green ink.",
+   "sample_marker_norm": [
+    0.705,
+    0.31
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 30,
+     "count": 12
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "count": 13
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 1,
+     "y": 0.3
+    },
+    {
+     "x": 2,
+     "y": 0.6
+    },
+    {
+     "x": 4,
+     "y": 0.95
+    },
+    {
+     "x": 6,
+     "y": 1.25
+    },
+    {
+     "x": 10,
+     "y": 1.55
+    },
+    {
+     "x": 20,
+     "y": 1.9
+    },
+    {
+     "x": 30,
+     "y": 2.1
+    },
+    {
+     "x": 50,
+     "y": 2.35
+    },
+    {
+     "x": 80,
+     "y": 2.52
+    },
+    {
+     "x": 100,
+     "y": 2.6
+    },
+    {
+     "x": 114,
+     "y": 2.66
+    }
+   ]
+  },
+  {
+   "label": "CO2 323K",
+   "color_tolerance": 28,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 6,
+     "y_min": 0,
+     "y_max": 1.1
+    },
+    {
+     "x_from": 6,
+     "x_to": 15,
+     "y_min": 0.7,
+     "y_max": 1.5
+    },
+    {
+     "x_from": 15,
+     "x_to": 30,
+     "y_min": 1.25,
+     "y_max": 2.0
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "y_min": 1.75,
+     "y_max": 2.5
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Recover seven missing green upward triangles in the dense fan with the corrected triangle identity and green trajectory.",
+   "sample_marker_norm": [
+    0.705,
+    0.362
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 30,
+     "count": 12
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "count": 13
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 1,
+     "y": 0.25
+    },
+    {
+     "x": 2,
+     "y": 0.5
+    },
+    {
+     "x": 4,
+     "y": 0.8
+    },
+    {
+     "x": 6,
+     "y": 1.05
+    },
+    {
+     "x": 10,
+     "y": 1.35
+    },
+    {
+     "x": 20,
+     "y": 1.7
+    },
+    {
+     "x": 30,
+     "y": 1.9
+    },
+    {
+     "x": 50,
+     "y": 2.1
+    },
+    {
+     "x": 80,
+     "y": 2.25
+    },
+    {
+     "x": 100,
+     "y": 2.35
+    },
+    {
+     "x": 114,
+     "y": 2.42
+    }
+   ]
+  },
+  {
+   "label": "CO2 333K",
+   "color_tolerance": 28,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 6,
+     "y_min": 0,
+     "y_max": 0.95
+    },
+    {
+     "x_from": 6,
+     "x_to": 15,
+     "y_min": 0.55,
+     "y_max": 1.25
+    },
+    {
+     "x_from": 15,
+     "x_to": 30,
+     "y_min": 1.05,
+     "y_max": 1.8
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "y_min": 1.55,
+     "y_max": 2.35
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Recover seven missing blue filled pentagons in the fan using the blue curve and pentagon shape; do not follow the erroneous raster open-circle measurement.",
+   "sample_marker_norm": [
+    0.705,
+    0.396
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 30,
+     "count": 12
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "count": 13
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 1,
+     "y": 0.2
+    },
+    {
+     "x": 2,
+     "y": 0.4
+    },
+    {
+     "x": 4,
+     "y": 0.65
+    },
+    {
+     "x": 6,
+     "y": 0.9
+    },
+    {
+     "x": 10,
+     "y": 1.15
+    },
+    {
+     "x": 20,
+     "y": 1.45
+    },
+    {
+     "x": 30,
+     "y": 1.7
+    },
+    {
+     "x": 50,
+     "y": 1.95
+    },
+    {
+     "x": 80,
+     "y": 2.1
+    },
+    {
+     "x": 100,
+     "y": 2.2
+    },
+    {
+     "x": 114,
+     "y": 2.25
+    }
+   ]
+  },
+  {
+   "label": "CO2 353K",
+   "color_tolerance": 32,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 6,
+     "y_min": 0,
+     "y_max": 0.7
+    },
+    {
+     "x_from": 6,
+     "x_to": 15,
+     "y_min": 0.4,
+     "y_max": 0.95
+    },
+    {
+     "x_from": 15,
+     "x_to": 30,
+     "y_min": 0.8,
+     "y_max": 1.4
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "y_min": 1.05,
+     "y_max": 2.05
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Recover eight missing magenta diamonds in the low-pressure region with the separated magenta trajectory and diamond template.",
+   "sample_marker_norm": [
+    0.705,
+    0.479
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 30,
+     "count": 12
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "count": 13
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 1,
+     "y": 0.12
+    },
+    {
+     "x": 2,
+     "y": 0.25
+    },
+    {
+     "x": 4,
+     "y": 0.4
+    },
+    {
+     "x": 6,
+     "y": 0.58
+    },
+    {
+     "x": 10,
+     "y": 0.8
+    },
+    {
+     "x": 20,
+     "y": 1.1
+    },
+    {
+     "x": 30,
+     "y": 1.3
+    },
+    {
+     "x": 50,
+     "y": 1.55
+    },
+    {
+     "x": 80,
+     "y": 1.75
+    },
+    {
+     "x": 100,
+     "y": 1.86
+    },
+    {
+     "x": 114,
+     "y": 1.93
+    }
+   ]
+  },
+  {
+   "label": "CO2 373K",
+   "color_tolerance": 25,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 6,
+     "y_min": 0,
+     "y_max": 0.4
+    },
+    {
+     "x_from": 6,
+     "x_to": 15,
+     "y_min": 0.25,
+     "y_max": 0.55
+    },
+    {
+     "x_from": 15,
+     "x_to": 30,
+     "y_min": 0.45,
+     "y_max": 0.85
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "y_min": 0.55,
+     "y_max": 1.7
+    }
+   ],
+   "template_fill": "off",
+   "reason": "All expected black stars were counted, but redraw recall is reduced where stars overlap the thick black line; use trajectory and star-centre evidence without template filling.",
+   "sample_marker_norm": [
+    0.705,
+    0.585
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 30,
+     "count": 12
+    },
+    {
+     "x_from": 30,
+     "x_to": 120,
+     "count": 13
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 1,
+     "y": 0.06
+    },
+    {
+     "x": 2,
+     "y": 0.12
+    },
+    {
+     "x": 4,
+     "y": 0.22
+    },
+    {
+     "x": 6,
+     "y": 0.32
+    },
+    {
+     "x": 10,
+     "y": 0.45
+    },
+    {
+     "x": 20,
+     "y": 0.62
+    },
+    {
+     "x": 30,
+     "y": 0.78
+    },
+    {
+     "x": 50,
+     "y": 1.08
+    },
+    {
+     "x": 80,
+     "y": 1.38
+    },
+    {
+     "x": 100,
+     "y": 1.48
+    },
+    {
+     "x": 114,
+     "y": 1.56
+    }
+   ]
+  }
+ ],
+ "notes": "Axes and series structure are correct. Focus the next pass on recovering the low-pressure marker columns hidden by the thick connecting strokes; do not alter individual point values or replace the source legend shapes based on unreliable raster glyph crops.",
+ "region_strategies": [],
+ "shared_x_columns": []
+}

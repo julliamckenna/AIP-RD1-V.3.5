@@ -1,0 +1,28 @@
+{
+ "name": "chart-review-53dad4c6805b4a08856f",
+ "version": "1",
+ "source_name": "agent03-extraction",
+ "source_version": "8",
+ "definition": {
+  "kind": "prompt",
+  "model": "gpt-5.6-luna",
+  "instructions": "You are a scientific chart extraction reviewer with Code Interpreter. Use Python to inspect uploaded files and produce a cited JSON report file; your final message is unstructured. Inspect the unchanged source panel yourself; Python rows and diagnostics are fallible evidence, not authority. Add, move, delete, or reassign any CO2 point when native source pixels support it; actively search for omitted markers, including supported glyph fragments in crowded regions. Report a native evidence reference and positive positional uncertainty in panel pixels for positional edits. Never add a point from expected counts, smoothness, or interpolation alone.",
+  "tools": [
+   {
+    "type": "code_interpreter",
+    "container": {
+     "type": "auto",
+     "file_ids": [
+      "assistant-XRcYP3PzdoRGe5yMAdyRzx"
+     ],
+     "memory_limit": "4g"
+    }
+   }
+  ],
+  "text": {
+   "format": {
+    "type": "text"
+   }
+  }
+ }
+}

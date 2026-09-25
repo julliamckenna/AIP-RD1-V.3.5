@@ -1,0 +1,372 @@
+{
+ "reasoning": "The source uses a linear relative-pressure axis with printed ticks 0.0 through 1.0. The prior x anchors incorrectly assigned the 0.2-0.8 values to positions about 48-92 pixels too far left; the detected candidates show the correct measured positions. The y anchors agree with the printed 0-140 scale. Series identity is two open-circle solid-line curves, blue CO2 195K above and red N2 77K near zero. Python must rerun after correcting the x calibration; the dense low-pressure blue region and inset remain special handling regions.",
+ "axis_check": {
+  "x": {
+   "printed_min": 0,
+   "printed_max": 1,
+   "data_min": 0.02,
+   "data_max": 1.0,
+   "reason": "The source x-axis is printed from 0.0 to 1.0, and the extracted pressures span the same domain without a shifted or stretched value mapping.",
+   "result": "pass"
+  },
+  "y": {
+   "printed_min": 0,
+   "printed_max": 140,
+   "data_min": 0,
+   "data_max": 127,
+   "reason": "The source y-axis is printed from 0 to 140 cm³ g⁻¹; the extracted curves run from approximately zero to about 127, matching their plotted positions.",
+   "result": "pass"
+  }
+ },
+ "satisfied": false,
+ "issues": [
+  "Python calibration failed because the x tick anchors were wrong. Replace them with the detected candidate positions: 0.0 at 0.214992927864215, 0.2 at 0.3536067892503536, 0.4 at 0.4893917963224894, 0.6 at 0.6265912305516266, 0.8 at 0.7637906647807637, and 1.0 at 0.900990099009901.",
+  "The dense low-pressure CO2 marker strip still requires constrained extraction.",
+  "The inset must not contribute main-panel data."
+ ],
+ "structure_ok": true,
+ "chart_title": "",
+ "x_axis": {
+  "title": "Relative Pressure (P/P0)",
+  "unit": "dimensionless",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 1,
+  "boundary_limits_confirmed": true,
+  "ticks": [
+   0,
+   0.2,
+   0.4,
+   0.6,
+   0.8,
+   1
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.214992927864215,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.3536067892503536,
+    "value": 0.2
+   },
+   {
+    "pixel_norm": 0.4893917963224894,
+    "value": 0.4
+   },
+   {
+    "pixel_norm": 0.6265912305516266,
+    "value": 0.6
+   },
+   {
+    "pixel_norm": 0.7637906647807637,
+    "value": 0.8
+   },
+   {
+    "pixel_norm": 0.900990099009901,
+    "value": 1
+   }
+  ]
+ },
+ "y_axis": {
+  "title": "Uptake",
+  "unit": "cm³ g⁻¹",
+  "scale": "linear",
+  "minimum": 0,
+  "maximum": 140,
+  "boundary_limits_confirmed": false,
+  "ticks": [
+   0,
+   20,
+   40,
+   60,
+   80,
+   100,
+   120,
+   140
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.771004942339374,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.6771004942339374,
+    "value": 20
+   },
+   {
+    "pixel_norm": 0.5831960461285008,
+    "value": 40
+   },
+   {
+    "pixel_norm": 0.48929159802306427,
+    "value": 60
+   },
+   {
+    "pixel_norm": 0.3953871499176277,
+    "value": 80
+   },
+   {
+    "pixel_norm": 0.29983525535420097,
+    "value": 100
+   },
+   {
+    "pixel_norm": 0.20757825370675453,
+    "value": 120
+   },
+   {
+    "pixel_norm": 0.11202635914332784,
+    "value": 140
+   }
+  ]
+ },
+ "legend_bbox_norm": [
+  0.6195190947666195,
+  0.17792339373970345,
+  0.9193783592644978,
+  0.7792421746293245
+ ],
+ "total_series": 2,
+ "series": [
+  {
+   "label": "CO2 195K",
+   "marker": "circle",
+   "marker_fill": "open",
+   "line_style": "solid",
+   "color_hex": "#536DFE",
+   "notes": "Blue open circles; steep low-pressure uptake followed by a plateau near 120-127 cm³ g⁻¹."
+  },
+  {
+   "label": "N2 77K",
+   "marker": "circle",
+   "marker_fill": "open",
+   "line_style": "solid",
+   "color_hex": "#FF6868",
+   "notes": "Red open circles near zero uptake, with a slight rise at the highest relative pressures."
+  }
+ ],
+ "branches": "adsorption_only",
+ "complex_regions": [
+  {
+   "bbox_norm": [
+    0.197,
+    0.195,
+    0.318,
+    0.775
+   ],
+   "kind": "dense_markers",
+   "python_passes": 3
+  },
+  {
+   "bbox_norm": [
+    0.353,
+    0.287,
+    0.736,
+    0.642
+   ],
+   "kind": "inset",
+   "python_passes": 2
+  }
+ ],
+ "extraction_settings": [
+  {
+   "label": "CO2 195K",
+   "color_tolerance": null,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.06,
+     "y_min": 0,
+     "y_max": 120
+    },
+    {
+     "x_from": 0.06,
+     "x_to": 0.3,
+     "y_min": 115,
+     "y_max": 126
+    },
+    {
+     "x_from": 0.3,
+     "x_to": 1.02,
+     "y_min": 120,
+     "y_max": 130
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "The blue CO2 curve has a dense steep low-pressure marker strip; constrain assignment to the visible curve and exclude the inset.",
+   "sample_marker_norm": [
+    0.44696,
+    0.1832
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 0.06,
+     "count": 35
+    },
+    {
+     "x_from": 0.06,
+     "x_to": 0.3,
+     "count": 15
+    },
+    {
+     "x_from": 0.3,
+     "x_to": 1.02,
+     "count": 20
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 0.005,
+     "y": 20
+    },
+    {
+     "x": 0.01,
+     "y": 45
+    },
+    {
+     "x": 0.015,
+     "y": 70
+    },
+    {
+     "x": 0.02,
+     "y": 95
+    },
+    {
+     "x": 0.03,
+     "y": 112
+    },
+    {
+     "x": 0.05,
+     "y": 117
+    },
+    {
+     "x": 0.08,
+     "y": 120
+    },
+    {
+     "x": 0.15,
+     "y": 122
+    },
+    {
+     "x": 0.3,
+     "y": 123
+    },
+    {
+     "x": 0.6,
+     "y": 125
+    },
+    {
+     "x": 1,
+     "y": 127
+    }
+   ]
+  },
+  {
+   "label": "N2 77K",
+   "color_tolerance": null,
+   "separate_from": [],
+   "y_bands": [
+    {
+     "x_from": 0,
+     "x_to": 0.08,
+     "y_min": 0,
+     "y_max": 3
+    },
+    {
+     "x_from": 0.08,
+     "x_to": 0.9,
+     "y_min": 0,
+     "y_max": 2
+    },
+    {
+     "x_from": 0.9,
+     "x_to": 1.02,
+     "y_min": 0,
+     "y_max": 3.5
+    }
+   ],
+   "template_fill": "fit_only",
+   "reason": "Keep the low-contrast red open circles constrained to the near-zero curve and exclude the inset.",
+   "sample_marker_norm": [
+    0.79321,
+    0.7687
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 0.08,
+     "count": 12
+    },
+    {
+     "x_from": 0.08,
+     "x_to": 0.9,
+     "count": 42
+    },
+    {
+     "x_from": 0.9,
+     "x_to": 1.02,
+     "count": 16
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 0
+    },
+    {
+     "x": 0.02,
+     "y": 1.2
+    },
+    {
+     "x": 0.05,
+     "y": 1.5
+    },
+    {
+     "x": 0.1,
+     "y": 1.2
+    },
+    {
+     "x": 0.3,
+     "y": 1.1
+    },
+    {
+     "x": 0.6,
+     "y": 1
+    },
+    {
+     "x": 0.9,
+     "y": 0.9
+    },
+    {
+     "x": 0.98,
+     "y": 1.5
+    },
+    {
+     "x": 1,
+     "y": 2.5
+    }
+   ]
+  }
+ ],
+ "notes": "Correct x calibration is required before judging marker coverage. The inset contains a duplicate enlarged view of the blue low-pressure curve and must be ignored for main-panel extraction.",
+ "region_strategies": [
+  {
+   "bbox_norm": [
+    0.353,
+    0.287,
+    0.736,
+    0.642
+   ],
+   "series_labels": [],
+   "strategy": "ignore",
+   "reason": "Inset showing a duplicate enlarged low-pressure CO2 view; do not extract it as main-panel data."
+  }
+ ],
+ "shared_x_columns": []
+}

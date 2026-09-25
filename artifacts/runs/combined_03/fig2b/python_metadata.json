@@ -1,0 +1,2039 @@
+{
+ "schema_version": "4.0",
+ "stage": "python",
+ "figure_id": "fig2b",
+ "panel_id": "b",
+ "source_pdf": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\data\\input\\combined_03.pdf",
+ "image_sha256": "0edf38595cbf19b43af6fe174c937104a992f0099777cae445b4c8937ee72647",
+ "status": "python_proposal",
+ "plot_bbox": [
+  169,
+  53,
+  690,
+  522
+ ],
+ "series": [
+  {
+   "series_id": "fig2b:b:co2-303k-bc2a4dd1",
+   "series_name": "CO2 303K",
+   "species": "CO2",
+   "export_eligible": true,
+   "species_evidence": "Legend heading “CO2” binds the 303K entry to CO2; caption states that panel B contains CO2 isotherms from 303 to 373 K.",
+   "marker_shape": "circle",
+   "marker_fill": "filled",
+   "marker_glyph": {
+    "shape": "circle",
+    "fill": "filled",
+    "color_hex": "#f21f26",
+    "fill_hex": "#ea2326",
+    "edge_hex": "#d42129",
+    "polygon": [
+     [
+      1.0,
+      0.0
+     ],
+     [
+      0.924,
+      0.383
+     ],
+     [
+      0.707,
+      0.707
+     ],
+     [
+      0.383,
+      0.924
+     ],
+     [
+      0.0,
+      1.0
+     ],
+     [
+      -0.383,
+      0.924
+     ],
+     [
+      -0.707,
+      0.707
+     ],
+     [
+      -0.924,
+      0.383
+     ],
+     [
+      -1.0,
+      0.0
+     ],
+     [
+      -0.924,
+      -0.383
+     ],
+     [
+      -0.707,
+      -0.707
+     ],
+     [
+      -0.383,
+      -0.924
+     ],
+     [
+      -0.0,
+      -1.0
+     ],
+     [
+      0.383,
+      -0.924
+     ],
+     [
+      0.707,
+      -0.707
+     ],
+     [
+      0.924,
+      -0.383
+     ]
+    ],
+    "size_px": 5.15,
+    "vertices": 5,
+    "source": "raster",
+    "confidence": 0.49
+   },
+   "color_hex": "#f21f22",
+   "line_style": "solid",
+   "axis_x_id": "x",
+   "axis_y_id": "y",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of structured CALF-20 composite"
+  },
+  {
+   "series_id": "fig2b:b:co2-313k-21d87380",
+   "series_name": "CO2 313K",
+   "species": "CO2",
+   "export_eligible": true,
+   "species_evidence": "Legend heading “CO2” binds the 313K entry to CO2; caption states that panel B contains CO2 isotherms from 303 to 373 K.",
+   "marker_shape": "square",
+   "marker_fill": "filled",
+   "marker_glyph": {
+    "shape": "square",
+    "fill": "filled",
+    "color_hex": "#f5ab1e",
+    "fill_hex": "#f2a924",
+    "edge_hex": "#e99e2a",
+    "polygon": [
+     [
+      -0.721,
+      -0.911
+     ],
+     [
+      -0.89,
+      -0.743
+     ],
+     [
+      -0.89,
+      0.743
+     ],
+     [
+      -0.721,
+      0.911
+     ],
+     [
+      0.765,
+      0.911
+     ],
+     [
+      0.933,
+      0.575
+     ],
+     [
+      0.765,
+      -0.911
+     ]
+    ],
+    "size_px": 5.94,
+    "vertices": 4,
+    "source": "raster",
+    "confidence": 0.6
+   },
+   "color_hex": "#f5ab1e",
+   "line_style": "solid",
+   "axis_x_id": "x",
+   "axis_y_id": "y",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of structured CALF-20 composite"
+  },
+  {
+   "series_id": "fig2b:b:co2-323k-c5e1f4c4",
+   "series_name": "CO2 323K",
+   "species": "CO2",
+   "export_eligible": true,
+   "species_evidence": "Legend heading “CO2” binds the 323K entry to CO2; caption states that panel B contains CO2 isotherms from 303 to 373 K.",
+   "marker_shape": "triangle_up",
+   "marker_fill": "filled",
+   "marker_glyph": {
+    "shape": "pentagon",
+    "fill": "filled",
+    "color_hex": "#248d43",
+    "fill_hex": "#278942",
+    "edge_hex": "#668e70",
+    "polygon": [
+     [
+      -0.428,
+      -1.506
+     ],
+     [
+      -1.501,
+      0.334
+     ],
+     [
+      -0.606,
+      -0.458
+     ],
+     [
+      -0.581,
+      0.564
+     ],
+     [
+      -1.501,
+      0.769
+     ],
+     [
+      1.387,
+      0.922
+     ],
+     [
+      1.54,
+      0.487
+     ],
+     [
+      0.62,
+      0.564
+     ],
+     [
+      0.467,
+      -0.381
+     ],
+     [
+      1.233,
+      -0.075
+     ],
+     [
+      0.467,
+      -1.301
+     ],
+     [
+      -0.376,
+      -0.739
+     ]
+    ],
+    "size_px": 6.52,
+    "vertices": 4,
+    "source": "raster",
+    "confidence": 0.33
+   },
+   "color_hex": "#238c42",
+   "line_style": "solid",
+   "axis_x_id": "x",
+   "axis_y_id": "y",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of structured CALF-20 composite"
+  },
+  {
+   "series_id": "fig2b:b:co2-333k-94a1f9ba",
+   "series_name": "CO2 333K",
+   "species": "CO2",
+   "export_eligible": true,
+   "species_evidence": "Legend heading “CO2” binds the 333K entry to CO2; caption states that panel B contains CO2 isotherms from 303 to 373 K.",
+   "marker_shape": "pentagon",
+   "marker_fill": "filled",
+   "marker_glyph": {
+    "shape": "circle",
+    "fill": "open",
+    "color_hex": "#3a3691",
+    "fill_hex": null,
+    "edge_hex": "#8287ba",
+    "polygon": [
+     [
+      1.0,
+      0.0
+     ],
+     [
+      0.924,
+      0.383
+     ],
+     [
+      0.707,
+      0.707
+     ],
+     [
+      0.383,
+      0.924
+     ],
+     [
+      0.0,
+      1.0
+     ],
+     [
+      -0.383,
+      0.924
+     ],
+     [
+      -0.707,
+      0.707
+     ],
+     [
+      -0.924,
+      0.383
+     ],
+     [
+      -1.0,
+      0.0
+     ],
+     [
+      -0.924,
+      -0.383
+     ],
+     [
+      -0.707,
+      -0.707
+     ],
+     [
+      -0.383,
+      -0.924
+     ],
+     [
+      -0.0,
+      -1.0
+     ],
+     [
+      0.383,
+      -0.924
+     ],
+     [
+      0.707,
+      -0.707
+     ],
+     [
+      0.924,
+      -0.383
+     ]
+    ],
+    "size_px": 9.56,
+    "vertices": 7,
+    "source": "raster",
+    "confidence": 0.5
+   },
+   "color_hex": "#3a3691",
+   "line_style": "solid",
+   "axis_x_id": "x",
+   "axis_y_id": "y",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of structured CALF-20 composite"
+  },
+  {
+   "series_id": "fig2b:b:co2-353k-c3530734",
+   "series_name": "CO2 353K",
+   "species": "CO2",
+   "export_eligible": true,
+   "species_evidence": "Legend heading “CO2” binds the 353K entry to CO2; caption states that panel B contains CO2 isotherms from 303 to 373 K.",
+   "marker_shape": "diamond",
+   "marker_fill": "filled",
+   "marker_glyph": {
+    "shape": "hexagon",
+    "fill": "filled",
+    "color_hex": "#d13ea1",
+    "fill_hex": "#cc3c9d",
+    "edge_hex": "#b2348c",
+    "polygon": [
+     [
+      -0.218,
+      -1.418
+     ],
+     [
+      -0.735,
+      -0.642
+     ],
+     [
+      -0.735,
+      0.867
+     ],
+     [
+      -0.002,
+      1.384
+     ],
+     [
+      0.774,
+      0.608
+     ],
+     [
+      0.774,
+      -0.642
+     ],
+     [
+      0.429,
+      -1.159
+     ]
+    ],
+    "size_px": 3.87,
+    "vertices": 6,
+    "source": "raster",
+    "confidence": 0.36
+   },
+   "color_hex": "#d13ea1",
+   "line_style": "solid",
+   "axis_x_id": "x",
+   "axis_y_id": "y",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of structured CALF-20 composite"
+  },
+  {
+   "series_id": "fig2b:b:co2-373k-9f2f766d",
+   "series_name": "CO2 373K",
+   "species": "CO2",
+   "export_eligible": true,
+   "species_evidence": "Legend heading “CO2” binds the 373K entry to CO2; caption states that panel B contains CO2 isotherms from 303 to 373 K.",
+   "marker_shape": "diamond",
+   "marker_fill": "filled",
+   "marker_glyph": {
+    "shape": "diamond",
+    "fill": "filled",
+    "color_hex": "#060707",
+    "fill_hex": "#0a0a0a",
+    "edge_hex": "#727272",
+    "polygon": [
+     [
+      -0.176,
+      -1.203
+     ],
+     [
+      -1.291,
+      0.045
+     ],
+     [
+      -0.574,
+      0.523
+     ],
+     [
+      -0.176,
+      1.161
+     ],
+     [
+      0.276,
+      1.161
+     ],
+     [
+      0.276,
+      0.922
+     ],
+     [
+      1.232,
+      0.205
+     ],
+     [
+      1.232,
+      -0.088
+     ],
+     [
+      0.515,
+      -0.566
+     ],
+     [
+      0.116,
+      -1.203
+     ]
+    ],
+    "size_px": 6.27,
+    "vertices": 4,
+    "source": "raster",
+    "confidence": 0.91
+   },
+   "color_hex": "#020202",
+   "line_style": "solid",
+   "axis_x_id": "x",
+   "axis_y_id": "y",
+   "quantity_type": "co2_loading",
+   "loading_basis": "mmol per gram of structured CALF-20 composite"
+  }
+ ],
+ "axes": [
+  {
+   "axis_id": "x",
+   "scale": "linear",
+   "unit": "kPa",
+   "quantity_type": "Pressure",
+   "calibration_status": "valid",
+   "a": 0.23014837816900946,
+   "b": -38.84872842358952,
+   "anchors": [
+    {
+     "pixel": 169.0,
+     "value": 0.0
+    },
+    {
+     "pixel": 342.0,
+     "value": 40.0
+    },
+    {
+     "pixel": 517.0,
+     "value": 80.0
+    },
+    {
+     "pixel": 690.0,
+     "value": 120.0
+    }
+   ],
+   "equation": "value=a*pixel+b"
+  },
+  {
+   "axis_id": "y",
+   "scale": "linear",
+   "unit": "mmol/g",
+   "quantity_type": "CO2 Loading",
+   "calibration_status": "valid",
+   "a": -0.00664447187508447,
+   "b": 3.467712885292871,
+   "anchors": [
+    {
+     "pixel": 70.0,
+     "value": 3.0
+    },
+    {
+     "pixel": 146.0,
+     "value": 2.5
+    },
+    {
+     "pixel": 221.0,
+     "value": 2.0
+    },
+    {
+     "pixel": 296.0,
+     "value": 1.5
+    },
+    {
+     "pixel": 372.0,
+     "value": 1.0
+    },
+    {
+     "pixel": 446.0,
+     "value": 0.5
+    },
+    {
+     "pixel": 522.0,
+     "value": 0.0
+    }
+   ],
+   "equation": "value=a*pixel+b"
+  }
+ ],
+ "instances": [
+  {
+   "source_instance_id": "src-c82f52066a57ded2",
+   "point_id": "pt-8208935f306e13ae",
+   "series_id": "fig2b:b:co2-303k-bc2a4dd1",
+   "state": "resolved",
+   "source_pixel_x": 285.41,
+   "source_pixel_y": 187.09,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-4f7cc8d8af13d141",
+   "point_id": "pt-d18b35a721bf795c",
+   "series_id": "fig2b:b:co2-303k-bc2a4dd1",
+   "state": "resolved",
+   "source_pixel_x": 313.21,
+   "source_pixel_y": 175.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-bc46bb372e1f91ce",
+   "point_id": "pt-3b114eec7d7cfb6b",
+   "series_id": "fig2b:b:co2-303k-bc2a4dd1",
+   "state": "resolved",
+   "source_pixel_x": 342.64,
+   "source_pixel_y": 163.07,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-dd973b3fd8c9327f",
+   "point_id": "pt-95bf41df4229e632",
+   "series_id": "fig2b:b:co2-303k-bc2a4dd1",
+   "state": "resolved",
+   "source_pixel_x": 372.03,
+   "source_pixel_y": 153.28,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-3103095c68f6a304",
+   "point_id": "pt-8e8012e17717fb06",
+   "series_id": "fig2b:b:co2-303k-bc2a4dd1",
+   "state": "resolved",
+   "source_pixel_x": 400.94,
+   "source_pixel_y": 143.97,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-067a4d4f43989df0",
+   "point_id": "pt-e12425ecf79e10e6",
+   "series_id": "fig2b:b:co2-303k-bc2a4dd1",
+   "state": "resolved",
+   "source_pixel_x": 429.74,
+   "source_pixel_y": 135.5,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-d9944621f9dccf17",
+   "point_id": "pt-78891130350d8600",
+   "series_id": "fig2b:b:co2-303k-bc2a4dd1",
+   "state": "resolved",
+   "source_pixel_x": 458.93,
+   "source_pixel_y": 127.53,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-f70152574e3145ed",
+   "point_id": "pt-5a30d286620db0c8",
+   "series_id": "fig2b:b:co2-303k-bc2a4dd1",
+   "state": "resolved",
+   "source_pixel_x": 487.69,
+   "source_pixel_y": 119.66,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-c4688253c52dda4d",
+   "point_id": "pt-906597bd8e8f8a76",
+   "series_id": "fig2b:b:co2-303k-bc2a4dd1",
+   "state": "resolved",
+   "source_pixel_x": 516.59,
+   "source_pixel_y": 112.61,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-27c50bac3144e00f",
+   "point_id": "pt-f56396fb7941585c",
+   "series_id": "fig2b:b:co2-303k-bc2a4dd1",
+   "state": "resolved",
+   "source_pixel_x": 545.21,
+   "source_pixel_y": 105.84,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-7d654f2316dcee2e",
+   "point_id": "pt-535e827190bc71a8",
+   "series_id": "fig2b:b:co2-303k-bc2a4dd1",
+   "state": "resolved",
+   "source_pixel_x": 574.94,
+   "source_pixel_y": 98.97,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-f3961c32767b68d7",
+   "point_id": "pt-1bb43077097c0d0d",
+   "series_id": "fig2b:b:co2-303k-bc2a4dd1",
+   "state": "resolved",
+   "source_pixel_x": 608.78,
+   "source_pixel_y": 90.75,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-707b54b9bcd5ff63",
+   "point_id": "pt-4c1783666d7962f0",
+   "series_id": "fig2b:b:co2-303k-bc2a4dd1",
+   "state": "resolved",
+   "source_pixel_x": 633.36,
+   "source_pixel_y": 86.75,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-f36aa50858167ef8",
+   "point_id": "pt-5a0be605a58bcf74",
+   "series_id": "fig2b:b:co2-303k-bc2a4dd1",
+   "state": "resolved",
+   "source_pixel_x": 663.11,
+   "source_pixel_y": 81.35,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-a120dafb540903dd",
+   "point_id": "pt-35b9d17f5b41c9d1",
+   "series_id": "fig2b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 181.0,
+   "source_pixel_y": 402.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-cb58ec94babe3b7b",
+   "point_id": "pt-c4418c05403c4757",
+   "series_id": "fig2b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 185.33,
+   "source_pixel_y": 382.94,
+   "evidence_type": "template_fill",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": true
+  },
+  {
+   "source_instance_id": "src-4515a0f9853aec5f",
+   "point_id": "pt-340eaf59dc55e9b4",
+   "series_id": "fig2b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 201.0,
+   "source_pixel_y": 314.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-9884f41d8e52a217",
+   "point_id": "pt-37f6cfac3def0484",
+   "series_id": "fig2b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 228.0,
+   "source_pixel_y": 260.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-6fde8e4dfb275a8a",
+   "point_id": "pt-a05ff25db45ecdc9",
+   "series_id": "fig2b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 255.0,
+   "source_pixel_y": 233.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-0651c26875d1ae70",
+   "point_id": "pt-eca1672920e37ab6",
+   "series_id": "fig2b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 286.5,
+   "source_pixel_y": 213.5,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-3e93cb35237c7b8a",
+   "point_id": "pt-15a7b3c83d4a1182",
+   "series_id": "fig2b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 312.0,
+   "source_pixel_y": 202.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-27e48cafc42999d7",
+   "point_id": "pt-82f8ca3c807600cc",
+   "series_id": "fig2b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 343.5,
+   "source_pixel_y": 191.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-f6deab68830726d6",
+   "point_id": "pt-b7d0c1fe7bdb2ba7",
+   "series_id": "fig2b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 371.36,
+   "source_pixel_y": 182.7,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-0ea50088386b1070",
+   "point_id": "pt-b333ae7f25b6a632",
+   "series_id": "fig2b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 400.36,
+   "source_pixel_y": 174.3,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-a064d280f4a46b1c",
+   "point_id": "pt-f14d1cfdb596d8e2",
+   "series_id": "fig2b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 429.36,
+   "source_pixel_y": 167.3,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-bfa956004ca72dd8",
+   "point_id": "pt-560adb82397d9900",
+   "series_id": "fig2b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 458.5,
+   "source_pixel_y": 160.5,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-7500d4e5a56f4d85",
+   "point_id": "pt-e0d6309f636dead2",
+   "series_id": "fig2b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 488.0,
+   "source_pixel_y": 155.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-feb40be143d9f1b6",
+   "point_id": "pt-2c226ee9c1bb93ff",
+   "series_id": "fig2b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 516.89,
+   "source_pixel_y": 148.88,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-a4d8e948c402463e",
+   "point_id": "pt-b3c6d80b7a648b9b",
+   "series_id": "fig2b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 545.5,
+   "source_pixel_y": 143.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-6e7e103c3a86607c",
+   "point_id": "pt-accc2321f22c4713",
+   "series_id": "fig2b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 574.5,
+   "source_pixel_y": 137.5,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-077839b137dbcfaf",
+   "point_id": "pt-24ebf20bc5f8275e",
+   "series_id": "fig2b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 609.16,
+   "source_pixel_y": 131.14,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-cc9ad62760674932",
+   "point_id": "pt-7898691aa98f12f6",
+   "series_id": "fig2b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 633.0,
+   "source_pixel_y": 127.5,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-7e00831004cf75b3",
+   "point_id": "pt-c9c91efbfae15019",
+   "series_id": "fig2b:b:co2-313k-21d87380",
+   "state": "resolved",
+   "source_pixel_x": 663.64,
+   "source_pixel_y": 122.76,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-ea0cc140b8b33450",
+   "point_id": "pt-49d3fb5dd721a38e",
+   "series_id": "fig2b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 182.24,
+   "source_pixel_y": 452.91,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-082b8dde4cb1474e",
+   "point_id": "pt-f49e2937fd5cf9a7",
+   "series_id": "fig2b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 184.28,
+   "source_pixel_y": 445.28,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-1f477eda463454f8",
+   "point_id": "pt-0b373f12f27cec89",
+   "series_id": "fig2b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 185.32,
+   "source_pixel_y": 440.06,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-780f373b73fd7e56",
+   "point_id": "pt-45b1e349c3904e38",
+   "series_id": "fig2b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 186.69,
+   "source_pixel_y": 433.35,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-d90efece6bc22f84",
+   "point_id": "pt-5e51526b7bb03390",
+   "series_id": "fig2b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 192.54,
+   "source_pixel_y": 409.54,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-1f8efe94480f20a3",
+   "point_id": "pt-246a255ccbd18b88",
+   "series_id": "fig2b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 195.36,
+   "source_pixel_y": 396.46,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-16dbcb8dfbcead78",
+   "point_id": "pt-11f0ee9addaf64fc",
+   "series_id": "fig2b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 198.55,
+   "source_pixel_y": 377.46,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-2273a6789433dcdb",
+   "point_id": "pt-08afdc39ab531d49",
+   "series_id": "fig2b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 199.19,
+   "source_pixel_y": 381.53,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-7de89f2f0b7ef6ac",
+   "point_id": "pt-bce4d53ef7a216ab",
+   "series_id": "fig2b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 202.26,
+   "source_pixel_y": 371.05,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-8835349e47f6fe41",
+   "point_id": "pt-a33290c508e4c634",
+   "series_id": "fig2b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 286.57,
+   "source_pixel_y": 249.37,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-9d9c0a8c9ccd821e",
+   "point_id": "pt-5202559dae4723a0",
+   "series_id": "fig2b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 312.79,
+   "source_pixel_y": 234.81,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-342586fe6004e2df",
+   "point_id": "pt-b535fd9ba8ef97df",
+   "series_id": "fig2b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 343.55,
+   "source_pixel_y": 224.78,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-4be813719fa27ab6",
+   "point_id": "pt-512dd6b7e0cc89c7",
+   "series_id": "fig2b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 371.95,
+   "source_pixel_y": 214.05,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-3f874d2f7a197152",
+   "point_id": "pt-463befc696a201d9",
+   "series_id": "fig2b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 401.67,
+   "source_pixel_y": 206.71,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-7affc77939336178",
+   "point_id": "pt-03243970e1ffc818",
+   "series_id": "fig2b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 429.82,
+   "source_pixel_y": 200.74,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-43f75f49d20e280b",
+   "point_id": "pt-b0af3dc7457b33e0",
+   "series_id": "fig2b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 459.0,
+   "source_pixel_y": 193.27,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-fc20da5b0a1b4b1d",
+   "point_id": "pt-9af4bea18485e994",
+   "series_id": "fig2b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 488.18,
+   "source_pixel_y": 188.35,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-f5b66fa6780455c9",
+   "point_id": "pt-0a298f6b80a62a04",
+   "series_id": "fig2b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 516.57,
+   "source_pixel_y": 183.39,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-bb860891f816c4b9",
+   "point_id": "pt-256ec1ebcd8a56d6",
+   "series_id": "fig2b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 545.27,
+   "source_pixel_y": 178.8,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-0191d995c7b808bb",
+   "point_id": "pt-f486ec7a772e95a4",
+   "series_id": "fig2b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 575.29,
+   "source_pixel_y": 174.06,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-ed033087d9fdfe60",
+   "point_id": "pt-fc9e0f8144b07e54",
+   "series_id": "fig2b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 608.96,
+   "source_pixel_y": 167.69,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-886b3135625f9598",
+   "point_id": "pt-4b42136d7da26352",
+   "series_id": "fig2b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 632.68,
+   "source_pixel_y": 164.44,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-fe98391b74f88e76",
+   "point_id": "pt-fbaf037c257085ca",
+   "series_id": "fig2b:b:co2-323k-c5e1f4c4",
+   "state": "resolved",
+   "source_pixel_x": 664.64,
+   "source_pixel_y": 161.4,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-755bddae443e9479",
+   "point_id": "pt-c36a22db15540821",
+   "series_id": "fig2b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 175.37,
+   "source_pixel_y": 500.13,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-5cb22bdc9c548e73",
+   "point_id": "pt-11a276d80f61f082",
+   "series_id": "fig2b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 183.21,
+   "source_pixel_y": 472.54,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-3eef294160152b70",
+   "point_id": "pt-6de7183cc279739e",
+   "series_id": "fig2b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 197.91,
+   "source_pixel_y": 424.06,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-be712d710c755b0b",
+   "point_id": "pt-e7c1e16971089ebc",
+   "series_id": "fig2b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 227.47,
+   "source_pixel_y": 349.13,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-24f9b8ad8f6a8104",
+   "point_id": "pt-a07f2f5d51ad2b15",
+   "series_id": "fig2b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 255.13,
+   "source_pixel_y": 310.27,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-4b6836a86df45bbd",
+   "point_id": "pt-d9132c56d3642ca0",
+   "series_id": "fig2b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 285.21,
+   "source_pixel_y": 282.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-21e14281d4f65a89",
+   "point_id": "pt-0139733b7cd4dd58",
+   "series_id": "fig2b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 313.32,
+   "source_pixel_y": 263.39,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-86c948d21b663484",
+   "point_id": "pt-017647b7e97e7d9d",
+   "series_id": "fig2b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 342.23,
+   "source_pixel_y": 250.91,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-c39e39f03fe12f4f",
+   "point_id": "pt-ddc012722a1da5e4",
+   "series_id": "fig2b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 370.35,
+   "source_pixel_y": 239.02,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-9c942ff93e184c27",
+   "point_id": "pt-0225b246a6267cbd",
+   "series_id": "fig2b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 401.2,
+   "source_pixel_y": 230.24,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-de6fa95b86fe5ef2",
+   "point_id": "pt-05899febef96c619",
+   "series_id": "fig2b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 429.09,
+   "source_pixel_y": 222.57,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-2a7430d56e6bae3f",
+   "point_id": "pt-a2b9f42a9c3bbcb1",
+   "series_id": "fig2b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 458.43,
+   "source_pixel_y": 215.81,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-6fe2d8d7ef36d3e6",
+   "point_id": "pt-0f9a34f59e3a474f",
+   "series_id": "fig2b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 488.48,
+   "source_pixel_y": 210.09,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-e798dcbaa55cd1fa",
+   "point_id": "pt-7643298ec54a0c33",
+   "series_id": "fig2b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 516.49,
+   "source_pixel_y": 205.11,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-c69de43cd1722e54",
+   "point_id": "pt-3ab16d302b311af6",
+   "series_id": "fig2b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 546.25,
+   "source_pixel_y": 200.33,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-95970c55691d53ff",
+   "point_id": "pt-3fdd6a3ff6d27d8b",
+   "series_id": "fig2b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 575.0,
+   "source_pixel_y": 196.48,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-2e5d5b34dedd2d89",
+   "point_id": "pt-a11dde18109844b1",
+   "series_id": "fig2b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 608.39,
+   "source_pixel_y": 191.41,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-17e3fb24202f6c68",
+   "point_id": "pt-b3811a15f6532a34",
+   "series_id": "fig2b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 613.07,
+   "source_pixel_y": 190.41,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-902e21398607853d",
+   "point_id": "pt-3d917467af3c8f2d",
+   "series_id": "fig2b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 633.12,
+   "source_pixel_y": 188.35,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-962e811c963b5400",
+   "point_id": "pt-66e8bb600bf806ea",
+   "series_id": "fig2b:b:co2-333k-94a1f9ba",
+   "state": "resolved",
+   "source_pixel_x": 664.08,
+   "source_pixel_y": 184.74,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-7e34c7709e5a3cee",
+   "point_id": "pt-7d3ec88ecb48fc96",
+   "series_id": "fig2b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 183.95,
+   "source_pixel_y": 494.93,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-b365da2513b98c06",
+   "point_id": "pt-6587bd885dbb71b7",
+   "series_id": "fig2b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 197.78,
+   "source_pixel_y": 471.92,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-e29c0b537c2a0ced",
+   "point_id": "pt-56f3ced100bb1896",
+   "series_id": "fig2b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 198.53,
+   "source_pixel_y": 469.92,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-877e0ccf4bddc23f",
+   "point_id": "pt-9c233d27f2011b29",
+   "series_id": "fig2b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 227.21,
+   "source_pixel_y": 424.27,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-ff2479ecb39ce335",
+   "point_id": "pt-aed029b9e7bc60f3",
+   "series_id": "fig2b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 227.51,
+   "source_pixel_y": 426.36,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-b1fe68402b7dde7e",
+   "point_id": "pt-aed8b3680ce66777",
+   "series_id": "fig2b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 253.17,
+   "source_pixel_y": 392.39,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-e4eedd45f7649d04",
+   "point_id": "pt-5556348ed819419b",
+   "series_id": "fig2b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 253.43,
+   "source_pixel_y": 390.16,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-8cbf89b2f2101d1e",
+   "point_id": "pt-c8f42d7c4c6cad50",
+   "series_id": "fig2b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 283.86,
+   "source_pixel_y": 359.28,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-660cae54975f1a5b",
+   "point_id": "pt-c3b96dea0b3237cd",
+   "series_id": "fig2b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 312.61,
+   "source_pixel_y": 335.71,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-3fb549355bd08c80",
+   "point_id": "pt-b086eebfc0e5fe0f",
+   "series_id": "fig2b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 342.84,
+   "source_pixel_y": 316.33,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-4bd08ed9dcb6cd7b",
+   "point_id": "pt-2b0940785f9fea6b",
+   "series_id": "fig2b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 372.8,
+   "source_pixel_y": 302.15,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-c5c5e97edf31a836",
+   "point_id": "pt-a10b2a2274ed232f",
+   "series_id": "fig2b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 399.36,
+   "source_pixel_y": 290.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-7feeb32950e37ded",
+   "point_id": "pt-27a394caefd8c870",
+   "series_id": "fig2b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 429.74,
+   "source_pixel_y": 280.79,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-25104e63fbf3bce0",
+   "point_id": "pt-42e43126b50d607b",
+   "series_id": "fig2b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 458.5,
+   "source_pixel_y": 270.5,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-f11b69db2bdf7a8a",
+   "point_id": "pt-19b8cfd62cce57fb",
+   "series_id": "fig2b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 488.0,
+   "source_pixel_y": 263.5,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-74a8eab5c06eae9a",
+   "point_id": "pt-bdf688b400972573",
+   "series_id": "fig2b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 517.07,
+   "source_pixel_y": 257.96,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-18792c62bf03fc0c",
+   "point_id": "pt-97c14df730f53eae",
+   "series_id": "fig2b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 545.23,
+   "source_pixel_y": 251.02,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-53a29e7058423ac1",
+   "point_id": "pt-5539ba6b0529ac6c",
+   "series_id": "fig2b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 575.29,
+   "source_pixel_y": 246.95,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-82f7d6aa9ed07f16",
+   "point_id": "pt-66def14fb4d39e57",
+   "series_id": "fig2b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 609.37,
+   "source_pixel_y": 239.79,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-7daa9942dd5b2ee0",
+   "point_id": "pt-af9371e8185dee1e",
+   "series_id": "fig2b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 633.37,
+   "source_pixel_y": 237.79,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-e7f39a2ba2ee4ce8",
+   "point_id": "pt-cf6681a2a4105887",
+   "series_id": "fig2b:b:co2-353k-c3530734",
+   "state": "resolved",
+   "source_pixel_x": 664.58,
+   "source_pixel_y": 232.66,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-b4b7e3d9150de614",
+   "point_id": "pt-68daa47b5dff657b",
+   "series_id": "fig2b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 176.86,
+   "source_pixel_y": 514.84,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-8e17c6892b3f3082",
+   "point_id": "pt-87a549d3f9f6f398",
+   "series_id": "fig2b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 184.16,
+   "source_pixel_y": 509.4,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-de3d357338141806",
+   "point_id": "pt-b11b2607579e0ed5",
+   "series_id": "fig2b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 189.37,
+   "source_pixel_y": 505.18,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-e1a3cee2f06637a2",
+   "point_id": "pt-64b950e7ef982660",
+   "series_id": "fig2b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 236.0,
+   "source_pixel_y": 466.0,
+   "evidence_type": "partially_visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-02288af7ddd9779f",
+   "point_id": "pt-b7c5fee9ccca5dc8",
+   "series_id": "fig2b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 261.94,
+   "source_pixel_y": 443.96,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-61f25c48493bc6a8",
+   "point_id": "pt-3c65cd34da3bab76",
+   "series_id": "fig2b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 266.62,
+   "source_pixel_y": 440.65,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-0f45af1b257ef2ce",
+   "point_id": "pt-9a1729bb4bba7cde",
+   "series_id": "fig2b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 272.44,
+   "source_pixel_y": 435.96,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-0b329e8e1e222ce2",
+   "point_id": "pt-3f6a083d0a0a2eae",
+   "series_id": "fig2b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 278.1,
+   "source_pixel_y": 431.98,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-417287fdc92e9015",
+   "point_id": "pt-3e0e0844816e6ac3",
+   "series_id": "fig2b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 283.21,
+   "source_pixel_y": 427.61,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-2fc2697d01c0212f",
+   "point_id": "pt-9cb033695b71fcc1",
+   "series_id": "fig2b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 314.14,
+   "source_pixel_y": 407.16,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-b774a397ff571a04",
+   "point_id": "pt-f79127ab97b519ff",
+   "series_id": "fig2b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 341.5,
+   "source_pixel_y": 390.5,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-e0297de57759ed5d",
+   "point_id": "pt-028c743cf39c447a",
+   "series_id": "fig2b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 371.5,
+   "source_pixel_y": 374.5,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-e38edb899854abb2",
+   "point_id": "pt-e16ff36ecc418e61",
+   "series_id": "fig2b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 401.0,
+   "source_pixel_y": 361.2,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-79adcfc4e0300215",
+   "point_id": "pt-dc54f508ed070191",
+   "series_id": "fig2b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 429.5,
+   "source_pixel_y": 348.5,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-cd5951c41adee8da",
+   "point_id": "pt-bc61f911b01d437d",
+   "series_id": "fig2b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 459.0,
+   "source_pixel_y": 337.8,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-3b8ab53778ede3bd",
+   "point_id": "pt-d290039942f501af",
+   "series_id": "fig2b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 488.0,
+   "source_pixel_y": 329.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-6592be87bc890010",
+   "point_id": "pt-fe1a232c6ffdde4c",
+   "series_id": "fig2b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 515.86,
+   "source_pixel_y": 319.16,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-a4c09104c982fca2",
+   "point_id": "pt-78f5dde7512cffd4",
+   "series_id": "fig2b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 547.0,
+   "source_pixel_y": 312.2,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-461d85b0c207437b",
+   "point_id": "pt-b5bea16a1ab23a2b",
+   "series_id": "fig2b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 574.0,
+   "source_pixel_y": 306.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-30e44710a74d2f4d",
+   "point_id": "pt-032420e4e9c151b4",
+   "series_id": "fig2b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 607.02,
+   "source_pixel_y": 298.04,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-65fe1b856ae0e517",
+   "point_id": "pt-b802b76246d24aea",
+   "series_id": "fig2b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 632.5,
+   "source_pixel_y": 293.5,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-453615745de301e4",
+   "point_id": "pt-1fd7f432d42bec30",
+   "series_id": "fig2b:b:co2-373k-9f2f766d",
+   "state": "resolved",
+   "source_pixel_x": 661.0,
+   "source_pixel_y": 288.0,
+   "evidence_type": "visible_marker",
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  }
+ ],
+ "coverage": [
+  {
+   "bbox": [
+    169,
+    53,
+    690,
+    522
+   ],
+   "inspected": false
+  }
+ ],
+ "limitations": [
+  "python remains subject to downstream or human review."
+ ],
+ "rejected_masked_points": 0,
+ "unresolved_slots": {
+  "total": 18,
+  "by_series": {
+   "CO2 303K": 8,
+   "CO2 313K": 2,
+   "CO2 323K": 4,
+   "CO2 353K": 2,
+   "CO2 373K": 2
+  },
+  "slots": [
+   {
+    "series_label": "CO2 303K",
+    "series_index": 0,
+    "column_index": 0,
+    "column_px": 176.11,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 313K",
+    "series_index": 1,
+    "column_index": 0,
+    "column_px": 176.11,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 323K",
+    "series_index": 2,
+    "column_index": 0,
+    "column_px": 176.11,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 353K",
+    "series_index": 4,
+    "column_index": 0,
+    "column_px": 176.11,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 373K",
+    "series_index": 5,
+    "column_index": 0,
+    "column_px": 176.11,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 303K",
+    "series_index": 0,
+    "column_index": 1,
+    "column_px": 185.33,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 303K",
+    "series_index": 0,
+    "column_index": 2,
+    "column_px": 200.89,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 303K",
+    "series_index": 0,
+    "column_index": 3,
+    "column_px": 227.75,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 323K",
+    "series_index": 2,
+    "column_index": 3,
+    "column_px": 227.75,
+    "predicted_y_px": 334.26,
+    "state": "unresolved",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 303K",
+    "series_index": 0,
+    "column_index": 4,
+    "column_px": 254.68,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 323K",
+    "series_index": 2,
+    "column_index": 4,
+    "column_px": 254.68,
+    "predicted_y_px": 295.4,
+    "state": "unresolved",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 0
+   },
+   {
+    "series_label": "CO2 303K",
+    "series_index": 0,
+    "column_index": 0,
+    "column_px": 176.11,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 1
+   },
+   {
+    "series_label": "CO2 313K",
+    "series_index": 1,
+    "column_index": 0,
+    "column_px": 176.11,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 1
+   },
+   {
+    "series_label": "CO2 323K",
+    "series_index": 2,
+    "column_index": 0,
+    "column_px": 176.11,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 1
+   },
+   {
+    "series_label": "CO2 353K",
+    "series_index": 4,
+    "column_index": 0,
+    "column_px": 176.11,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 1
+   },
+   {
+    "series_label": "CO2 373K",
+    "series_index": 5,
+    "column_index": 0,
+    "column_px": 176.11,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 1
+   },
+   {
+    "series_label": "CO2 303K",
+    "series_index": 0,
+    "column_index": 1,
+    "column_px": 185.33,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 1
+   },
+   {
+    "series_label": "CO2 303K",
+    "series_index": 0,
+    "column_index": 2,
+    "column_px": 200.15,
+    "state": "unresolved",
+    "reason": "trajectory_not_bracketed_by_native_anchors",
+    "region_index": 1
+   }
+  ]
+ },
+ "unresolved_accounting_valid": true,
+ "row_count": 119,
+ "agent_report": {},
+ "edit_audit": {},
+ "dense_region_evidence": {
+  "native": "dense_roi_native.png",
+  "line_suppressed": "dense_roi_line_suppressed.png",
+  "series_likelihood": "dense_roi_series_likelihood.png",
+  "proposed_assignments": "dense_roi_proposed_assignments.png"
+ }
+}

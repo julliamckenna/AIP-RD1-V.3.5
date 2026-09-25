@@ -1,0 +1,199 @@
+{
+ "reasoning": "Inspected all six ambiguity crops and both proposed-slot native crops. The teal downward triangles in ambiguity_075, ambiguity_077, and ambiguity_080 are source-visible CO2 303K markers omitted from the proposal; overlapping crops confirm these are distinct marker locations rather than interpolation. The native slot crop for slot:0001 contains one olive right-triangle marker whose centre is substantially left of the proposed CO2 323K point, so that point is moved. The native slot crop for slot:0002 contains a magenta left-triangle marker near (581,339) in addition to the existing magenta marker near (599,337), so one CO2 313K point is added. Other crowded candidates were retained because native pixels support their existence or do not safely resolve ownership. The supplied batch does not establish completeness for all low-confidence regions, so the result remains under review.",
+ "verdict": "review",
+ "series": [
+  {
+   "label": "CO2 273K",
+   "coverage": "uncertain",
+   "final_count": 39,
+   "comment": "No edits were supported by the attached batch; full-panel completeness is not established here."
+  },
+  {
+   "label": "CO2 283K",
+   "coverage": "uncertain",
+   "final_count": 35,
+   "comment": "No edits were supported by the attached batch; full-panel completeness is not established here."
+  },
+  {
+   "label": "CO2 293K",
+   "coverage": "uncertain",
+   "final_count": 44,
+   "comment": "Crowded ambiguity crop inspected; existing points retained, but full-panel ownership against same-color N2 markers is not completely resolved."
+  },
+  {
+   "label": "CO2 303K",
+   "coverage": "uncertain",
+   "final_count": 48,
+   "comment": "Added three native-visible teal downward triangles in the low-pressure ambiguity crops; other proposal points were retained."
+  },
+  {
+   "label": "CO2 313K",
+   "coverage": "incomplete",
+   "final_count": 16,
+   "comment": "Added one native-visible magenta left triangle in slot:0002, but the known low-pressure shortfall is not fully covered by this batch."
+  },
+  {
+   "label": "CO2 323K",
+   "coverage": "incomplete",
+   "final_count": 21,
+   "comment": "Moved one olive right triangle to its native centre in slot:0001; the known low-pressure shortfall is not fully covered by this batch."
+  },
+  {
+   "label": "CO2 333K",
+   "coverage": "uncertain",
+   "final_count": 37,
+   "comment": "Crowded ambiguity crop inspected and existing diamond retained; full-panel completeness is not established here."
+  },
+  {
+   "label": "CO2 343K",
+   "coverage": "uncertain",
+   "final_count": 35,
+   "comment": "No source-supported edit in the attached batch; weak-marker regions elsewhere remain unverified."
+  },
+  {
+   "label": "CO2 353K",
+   "coverage": "uncertain",
+   "final_count": 35,
+   "comment": "No source-supported edit in the attached batch; weak-marker regions elsewhere remain unverified."
+  },
+  {
+   "label": "CO2 363K",
+   "coverage": "uncertain",
+   "final_count": 34,
+   "comment": "No source-supported edit in the attached batch; full-panel completeness is not established here."
+  },
+  {
+   "label": "CO2 373K",
+   "coverage": "uncertain",
+   "final_count": 32,
+   "comment": "Competing circle regions were inspected; no safe reassignment or deletion was supported."
+  }
+ ],
+ "operations": [
+  {
+   "operation_id": "op-add-303-075",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 303K",
+   "x_norm": 0.231824417,
+   "y_norm": 0.766703176,
+   "overlap": true,
+   "reason": "A teal filled downward-triangle glyph is visibly present in the native crop and is absent from the Python proposal. Its centre is estimated at panel pixel (338,700).",
+   "source_evidence": "Native teal filled downward triangle centred approximately at full-panel pixel (338,700), distinct from the adjacent circular N2 glyphs.",
+   "evidence_kind": "partial_marker",
+   "uncertainty_px": 3.5,
+   "evidence_ref": "ambiguity:ambiguity_075_native.png"
+  },
+  {
+   "operation_id": "op-add-303-077",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 303K",
+   "x_norm": 0.257888889,
+   "y_norm": 0.767798467,
+   "overlap": true,
+   "reason": "A second teal filled downward-triangle marker is visible in the native crop at a distinct higher-pressure position. The overlapping ambiguity crops support a centre near panel pixel (376,701).",
+   "source_evidence": "Native teal downward-triangle glyph around full-panel pixel (376,701); the marker shape and teal series colour are visible despite overlap with nearby curves.",
+   "evidence_kind": "partial_marker",
+   "uncertainty_px": 3.5,
+   "evidence_ref": "ambiguity:ambiguity_077_native.png"
+  },
+  {
+   "operation_id": "op-add-303-080",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 303K",
+   "x_norm": 0.267489712,
+   "y_norm": 0.770536692,
+   "overlap": true,
+   "reason": "The native crop shows another distinct teal filled downward triangle omitted by Python, centred approximately at panel pixel (390,704).",
+   "source_evidence": "Native teal downward-triangle fragment at full-panel pixel approximately (390,704), with sufficient glyph shape and colour to identify CO2 303K.",
+   "evidence_kind": "partial_marker",
+   "uncertainty_px": 4.0,
+   "evidence_ref": "ambiguity:ambiguity_080_native.png"
+  },
+  {
+   "operation_id": "op-move-323-slot1",
+   "action": "move",
+   "point_id": "pt-c04a2d936659f252",
+   "series_label": "CO2 323K",
+   "x_norm": 0.368681756,
+   "y_norm": 0.41260679,
+   "overlap": true,
+   "reason": "The native slot crop contains one olive filled right-triangle marker, but its centre is left of the Python proposal. Move the proposal to the native marker centre near panel pixel (537.34,376.71).",
+   "source_evidence": "Olive filled right-triangle glyph visibly centred near full-panel pixel (537.34,376.71); the proposed centre near (552.45,373.33) lies on the connecting line rather than the glyph centre.",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.5,
+   "evidence_ref": "slot:0001"
+  },
+  {
+   "operation_id": "op-add-313-slot2",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 313K",
+   "x_norm": 0.398182442,
+   "y_norm": 0.371421687,
+   "overlap": true,
+   "reason": "A magenta filled left-triangle marker is clearly visible in the native slot crop near panel pixel (580.75,339.16) and is not represented by the nearby Python CO2 313K candidate at approximately (598.93,337.18).",
+   "source_evidence": "Native magenta filled left-triangle glyph centred approximately at full-panel pixel (580.75,339.16), distinct from the second magenta marker farther right.",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 3.0,
+   "evidence_ref": "slot:0002"
+  }
+ ],
+ "uncertainties": [
+  "The attached batch covers only selected ambiguity and slot crops; completeness of the remaining known CO2 313K and CO2 323K low-pressure regions cannot be established from these items.",
+  "Teal CO2 303K markers are partially overlapped by N2 and neighbouring CO2 curves, so their centres carry several native-pixel uncertainty.",
+  "The crowded ambiguity_079 crop supports retaining the supplied points but does not independently resolve every nearby same-colour ownership question."
+ ],
+ "coverage": [
+  {
+   "item_id": "ambiguity:ambiguity_075_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; added one omitted CO2 303K teal downward triangle near (338,700)."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_076_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; supplied CO2 303K and CO2 323K candidates are supported by visible overlapping glyphs, with no safe edit."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_077_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; added one distinct omitted CO2 303K teal downward triangle near (376,701), while avoiding duplication of the overlapping marker from ambiguity_075."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_078_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; overlapping teal marker is consistent with the addition supported in ambiguity_077, and no separate safe additional marker was established."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_079_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected the crowded native crop; existing CO2 candidates were retained because visible fragments support them or ownership is not safely separable."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_080_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; added one distinct omitted CO2 303K teal downward triangle near (390,704)."
+  },
+  {
+   "item_id": "slot:0001",
+   "item_type": "slot",
+   "status": "reviewed",
+   "detail": "Compared the proposed CO2 323K point with native pixels and moved it to the visible olive right-triangle centre near (537.34,376.71)."
+  },
+  {
+   "item_id": "slot:0002",
+   "item_type": "slot",
+   "status": "reviewed",
+   "detail": "Compared the proposed CO2 313K slot with native pixels and added the visible magenta left triangle near (580.75,339.16); the existing right-hand magenta point was retained."
+  }
+ ]
+}

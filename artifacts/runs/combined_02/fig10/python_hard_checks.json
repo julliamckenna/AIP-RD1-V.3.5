@@ -1,0 +1,152 @@
+{
+ "stage": "python",
+ "passed": true,
+ "problems": [],
+ "axis_range": {
+  "passed": true,
+  "problems": [],
+  "margin": 0.05,
+  "max_frame_overhang_steps": 1.0,
+  "x": {
+   "unit": "bar",
+   "scale": "linear",
+   "printed": [
+    0.0,
+    1.2
+   ],
+   "data": [
+    0.0139,
+    1.0692
+   ],
+   "points_outside": 0,
+   "passed": true,
+   "frame": [
+    -0.10073774427775334,
+    1.3009852673241236
+   ],
+   "frame_overhang_steps": [
+    0.5,
+    0.5
+   ],
+   "allowed": [
+    -0.10073774427775334,
+    1.3009852673241236
+   ]
+  },
+  "y": {
+   "unit": "cm³ g⁻¹",
+   "scale": "linear",
+   "printed": [
+    0.0,
+    50.0
+   ],
+   "data": [
+    2.1621,
+    53.5846
+   ],
+   "points_outside": 0,
+   "passed": true,
+   "frame": [
+    -5.070509173112704,
+    55.00353699232626
+   ],
+   "frame_overhang_steps": [
+    0.51,
+    0.5
+   ],
+   "allowed": [
+    -5.070509173112704,
+    55.00353699232626
+   ]
+  }
+ },
+ "redraw": {
+  "available": true,
+  "series": {
+   "CO2 273K ads": {
+    "points": 31,
+    "precision": 1.0,
+    "recall": null,
+    "missed_marker_equivalents": null,
+    "same_color_group": [
+     "CO2 273K ads",
+     "CO2 273K des",
+     "CH4 273K ads",
+     "CH4 273K des"
+    ],
+    "note": "recall not measurable: same color as excluded series CH4 273K ads, CH4 273K des"
+   },
+   "CO2 273K des": {
+    "points": 90,
+    "precision": 1.0,
+    "recall": null,
+    "missed_marker_equivalents": null,
+    "same_color_group": [
+     "CO2 273K ads",
+     "CO2 273K des",
+     "CH4 273K ads",
+     "CH4 273K des"
+    ],
+    "note": "recall not measurable: same color as excluded series CH4 273K ads, CH4 273K des"
+   },
+   "CO2 300K ads": {
+    "points": 0,
+    "precision": null,
+    "recall": null,
+    "missed_marker_equivalents": null,
+    "same_color_group": [
+     "CO2 300K ads",
+     "CO2 300K des",
+     "CH4 300K ads",
+     "CH4 300K des"
+    ],
+    "note": "recall not measurable: same color as excluded series CH4 300K ads, CH4 300K des"
+   },
+   "CO2 300K des": {
+    "points": 63,
+    "precision": 0.984,
+    "recall": null,
+    "missed_marker_equivalents": null,
+    "same_color_group": [
+     "CO2 300K ads",
+     "CO2 300K des",
+     "CH4 300K ads",
+     "CH4 300K des"
+    ],
+    "note": "recall not measurable: same color as excluded series CH4 300K ads, CH4 300K des"
+   }
+  },
+  "recall": null,
+  "precision": 0.995
+ },
+ "physics": {
+  "verdict": "review",
+  "flags": {
+   "CO2 273K ads": [],
+   "CO2 273K des": [
+    {
+     "check": "monotonic",
+     "detail": "des: uptake decreases at [(np.float64(0.376), np.float64(42.428)), (np.float64(0.412), np.float64(42.921)), (np.float64(0.485), np.float64(44.918)), (np.float64(0.535), np.float64(46.063)), (np.float64(0.55), np.float64(45.824))]"
+    },
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "des: local outliers (P,q,resid) [(np.float64(0.31), np.float64(39.878), -0.696), (np.float64(0.318), np.float64(40.963), 0.662), (np.float64(0.387), np.float64(42.23), -0.796), (np.float64(0.401), np.float64(43.192), 0.696), (np.float64(0.55), np.float64(45.824), 1.56)]"
+    }
+   ],
+   "CO2 300K ads": [],
+   "CO2 300K des": [
+    {
+     "check": "monotonic",
+     "detail": "ads: uptake decreases at [(np.float64(0.246), np.float64(7.4)), (np.float64(0.751), np.float64(37.769)), (np.float64(0.801), np.float64(38.609)), (np.float64(0.866), np.float64(39.091))]"
+    },
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "ads: local outliers (P,q,resid) [(np.float64(0.226), np.float64(7.628), 0.886), (np.float64(0.246), np.float64(7.4), -1.927), (np.float64(0.505), np.float64(33.86), 0.861), (np.float64(0.531), np.float64(34.989), 0.719), (np.float64(0.775), np.float64(38.21), 1.42)]"
+    }
+   ]
+  },
+  "cross_series": []
+ }
+}

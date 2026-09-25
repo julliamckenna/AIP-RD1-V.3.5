@@ -1,0 +1,584 @@
+{
+ "series_assignment_audit": {
+  "groups": [],
+  "candidates": []
+ },
+ "series_gate": [
+  {
+   "from": "CO2 323K",
+   "to": "CO2 323K",
+   "x": 5.4649,
+   "y": 0.7465,
+   "reason": "within_pixel_derived_y_band_margin",
+   "y_margin": 0.0415
+  },
+  {
+   "from": "CO2 373K",
+   "x": 5.8201,
+   "y": 0.138,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 373K",
+   "x": 8.5391,
+   "y": 0.2046,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 373K",
+   "x": 10.6531,
+   "y": 0.2591,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 373K",
+   "x": 11.7586,
+   "y": 0.2875,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 373K",
+   "x": 12.7018,
+   "y": 0.3112,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 373K",
+   "x": 14.106,
+   "y": 0.3441,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 373K",
+   "x": 16.3615,
+   "y": 0.3979,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 373K",
+   "x": 18.4428,
+   "y": 0.4503,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 373K",
+   "x": 20.0521,
+   "y": 0.4847,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 373K",
+   "to": "CO2 373K",
+   "x": 21.4354,
+   "y": 0.5178,
+   "reason": "within_pixel_derived_y_band_margin",
+   "y_margin": 0.0481
+  },
+  {
+   "from": "CO2 373K",
+   "x": 21.6221,
+   "y": 1.7485,
+   "reason": "outside own y_bands",
+   "to": null
+  },
+  {
+   "from": "CO2 373K",
+   "to": "CO2 373K",
+   "x": 22.5126,
+   "y": 0.5398,
+   "reason": "within_pixel_derived_y_band_margin",
+   "y_margin": 0.0481
+  },
+  {
+   "from": "CO2 373K",
+   "x": 24.0983,
+   "y": 1.7795,
+   "reason": "outside own y_bands",
+   "to": null
+  }
+ ],
+ "template_fill": {
+  "template_fit": 0,
+  "template_fill": 2,
+  "slots": [
+   {
+    "series_label": "CO2 313K",
+    "series_index": 1,
+    "column_index": 1,
+    "column_px": 185.33,
+    "predicted_y_px": 382.94,
+    "state": "template_fill",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 0,
+    "rival_coverage": 0.03,
+    "template_px": [
+     185.33,
+     382.94
+    ],
+    "template_coverage": 0.24
+   },
+   {
+    "series_label": "CO2 313K",
+    "series_index": 1,
+    "column_index": 1,
+    "column_px": 185.33,
+    "predicted_y_px": 382.94,
+    "state": "template_fill",
+    "reason": "no_native_marker_core_after_line_suppression",
+    "region_index": 1,
+    "rival_coverage": 0.03,
+    "template_px": [
+     185.33,
+     382.94
+    ],
+    "template_coverage": 0.24
+   }
+  ]
+ },
+ "complex_regions_accepted": [
+  {
+   "bbox_px": [
+    169.0,
+    64.3,
+    322.93,
+    520.83
+   ],
+   "data_x": [
+    0.046347486973076,
+    35.4730873385287
+   ],
+   "bbox_norm": [
+    0.22,
+    0.1,
+    0.43,
+    0.81
+   ],
+   "kind": "thick_connecting_lines",
+   "python_passes": 5
+  },
+  {
+   "bbox_px": [
+    169.0,
+    366.51,
+    270.36,
+    520.83
+   ],
+   "data_x": [
+    0.046347486973076,
+    23.37418709818388
+   ],
+   "bbox_norm": [
+    0.225,
+    0.57,
+    0.36,
+    0.81
+   ],
+   "kind": "dense_markers",
+   "python_passes": 4
+  }
+ ],
+ "complex_regions_rejected": [],
+ "legend_markers": [
+  {
+   "label": "CO2 303K",
+   "legend_box_px": [
+    445,
+    424,
+    469,
+    449
+   ],
+   "shape": "circle",
+   "fill": "filled",
+   "color_hex": "#f21f26",
+   "fill_hex": "#ea2326",
+   "edge_hex": "#d42129",
+   "polygon": [
+    [
+     1.0,
+     0.0
+    ],
+    [
+     0.924,
+     0.383
+    ],
+    [
+     0.707,
+     0.707
+    ],
+    [
+     0.383,
+     0.924
+    ],
+    [
+     0.0,
+     1.0
+    ],
+    [
+     -0.383,
+     0.924
+    ],
+    [
+     -0.707,
+     0.707
+    ],
+    [
+     -0.924,
+     0.383
+    ],
+    [
+     -1.0,
+     0.0
+    ],
+    [
+     -0.924,
+     -0.383
+    ],
+    [
+     -0.707,
+     -0.707
+    ],
+    [
+     -0.383,
+     -0.924
+    ],
+    [
+     -0.0,
+     -1.0
+    ],
+    [
+     0.383,
+     -0.924
+    ],
+    [
+     0.707,
+     -0.707
+    ],
+    [
+     0.924,
+     -0.383
+    ]
+   ],
+   "size_px": 5.15,
+   "vertices": 5,
+   "source": "raster",
+   "confidence": 0.49
+  },
+  {
+   "label": "CO2 313K",
+   "legend_box_px": [
+    568,
+    424,
+    592,
+    449
+   ],
+   "shape": "square",
+   "fill": "filled",
+   "color_hex": "#f5ab1e",
+   "fill_hex": "#f2a924",
+   "edge_hex": "#e99e2a",
+   "polygon": [
+    [
+     -0.721,
+     -0.911
+    ],
+    [
+     -0.89,
+     -0.743
+    ],
+    [
+     -0.89,
+     0.743
+    ],
+    [
+     -0.721,
+     0.911
+    ],
+    [
+     0.765,
+     0.911
+    ],
+    [
+     0.933,
+     0.575
+    ],
+    [
+     0.765,
+     -0.911
+    ]
+   ],
+   "size_px": 5.94,
+   "vertices": 4,
+   "source": "raster",
+   "confidence": 0.6
+  },
+  {
+   "label": "CO2 323K",
+   "legend_box_px": [
+    444,
+    449,
+    470,
+    473
+   ],
+   "shape": "pentagon",
+   "fill": "filled",
+   "color_hex": "#248d43",
+   "fill_hex": "#278942",
+   "edge_hex": "#668e70",
+   "polygon": [
+    [
+     -0.428,
+     -1.506
+    ],
+    [
+     -1.501,
+     0.334
+    ],
+    [
+     -0.606,
+     -0.458
+    ],
+    [
+     -0.581,
+     0.564
+    ],
+    [
+     -1.501,
+     0.769
+    ],
+    [
+     1.387,
+     0.922
+    ],
+    [
+     1.54,
+     0.487
+    ],
+    [
+     0.62,
+     0.564
+    ],
+    [
+     0.467,
+     -0.381
+    ],
+    [
+     1.233,
+     -0.075
+    ],
+    [
+     0.467,
+     -1.301
+    ],
+    [
+     -0.376,
+     -0.739
+    ]
+   ],
+   "size_px": 6.52,
+   "vertices": 4,
+   "source": "raster",
+   "confidence": 0.33
+  },
+  {
+   "label": "CO2 333K",
+   "legend_box_px": [
+    553,
+    390,
+    587,
+    422
+   ],
+   "shape": "circle",
+   "fill": "open",
+   "color_hex": "#3a3691",
+   "fill_hex": null,
+   "edge_hex": "#8287ba",
+   "polygon": [
+    [
+     1.0,
+     0.0
+    ],
+    [
+     0.924,
+     0.383
+    ],
+    [
+     0.707,
+     0.707
+    ],
+    [
+     0.383,
+     0.924
+    ],
+    [
+     0.0,
+     1.0
+    ],
+    [
+     -0.383,
+     0.924
+    ],
+    [
+     -0.707,
+     0.707
+    ],
+    [
+     -0.924,
+     0.383
+    ],
+    [
+     -1.0,
+     0.0
+    ],
+    [
+     -0.924,
+     -0.383
+    ],
+    [
+     -0.707,
+     -0.707
+    ],
+    [
+     -0.383,
+     -0.924
+    ],
+    [
+     -0.0,
+     -1.0
+    ],
+    [
+     0.383,
+     -0.924
+    ],
+    [
+     0.707,
+     -0.707
+    ],
+    [
+     0.924,
+     -0.383
+    ]
+   ],
+   "size_px": 9.56,
+   "vertices": 7,
+   "source": "raster",
+   "confidence": 0.5
+  },
+  {
+   "label": "CO2 353K",
+   "legend_box_px": [
+    447,
+    476,
+    467,
+    505
+   ],
+   "shape": "hexagon",
+   "fill": "filled",
+   "color_hex": "#d13ea1",
+   "fill_hex": "#cc3c9d",
+   "edge_hex": "#b2348c",
+   "polygon": [
+    [
+     -0.218,
+     -1.418
+    ],
+    [
+     -0.735,
+     -0.642
+    ],
+    [
+     -0.735,
+     0.867
+    ],
+    [
+     -0.002,
+     1.384
+    ],
+    [
+     0.774,
+     0.608
+    ],
+    [
+     0.774,
+     -0.642
+    ],
+    [
+     0.429,
+     -1.159
+    ]
+   ],
+   "size_px": 3.87,
+   "vertices": 6,
+   "source": "raster",
+   "confidence": 0.36
+  },
+  {
+   "label": "CO2 373K",
+   "legend_box_px": [
+    569,
+    479,
+    592,
+    502
+   ],
+   "shape": "diamond",
+   "fill": "filled",
+   "color_hex": "#060707",
+   "fill_hex": "#0a0a0a",
+   "edge_hex": "#727272",
+   "polygon": [
+    [
+     -0.176,
+     -1.203
+    ],
+    [
+     -1.291,
+     0.045
+    ],
+    [
+     -0.574,
+     0.523
+    ],
+    [
+     -0.176,
+     1.161
+    ],
+    [
+     0.276,
+     1.161
+    ],
+    [
+     0.276,
+     0.922
+    ],
+    [
+     1.232,
+     0.205
+    ],
+    [
+     1.232,
+     -0.088
+    ],
+    [
+     0.515,
+     -0.566
+    ],
+    [
+     0.116,
+     -1.203
+    ]
+   ],
+   "size_px": 6.27,
+   "vertices": 4,
+   "source": "raster",
+   "confidence": 0.91
+  }
+ ]
+}

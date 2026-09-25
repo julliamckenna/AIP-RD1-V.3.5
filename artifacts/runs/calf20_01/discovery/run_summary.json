@@ -1,0 +1,248 @@
+{
+ "source": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\data\\input\\calf20_01.png",
+ "title": "calf20_01",
+ "run_id": "20260925-082336-4ab004",
+ "note": "",
+ "panels": [
+  {
+   "folder": "figp1a",
+   "figure": {
+    "page": 1,
+    "kind": "image",
+    "file": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\calf20_01\\discovery\\python_inventory\\figure.png",
+    "source_id": "image",
+    "figure_number": null,
+    "caption": null,
+    "caption_candidates": [],
+    "references": []
+   },
+   "discovery": {
+    "reasoning": "No printed figure number or caption is visible, and no caption candidates or figure-reference sentences were supplied, so the graphic cannot be matched to a numbered caption and is treated as unnumbered. The composite contains five distinct axis frames. Panel A plots CO2 loading versus pressure together with N2 series, and panel B plots CO2 loading versus pressure; both qualify as CO2 adsorption isotherm charts. Panel C is N2-only, while panels D and E show H2O loading and are excluded.",
+    "figure_number": null,
+    "matched_caption": "",
+    "figure_is_relevant": true,
+    "si_has_tabulated_data": "unknown",
+    "panels": [
+     {
+      "panel": "A",
+      "is_co2_isotherm": true,
+      "reason": "CO2 loading in mmol/g is plotted against pressure in mbar at multiple temperatures; N2 series are also present but do not disqualify the panel.",
+      "bbox_norm": [
+       0.0,
+       0.0,
+       0.99,
+       0.395
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+     },
+     {
+      "panel": "B",
+      "is_co2_isotherm": true,
+      "reason": "CO2 loading in mmol/g is plotted against pressure in kPa at 303, 313, 323, 333, 353, and 373 K.",
+      "bbox_norm": [
+       0.0,
+       0.397,
+       0.49,
+       0.665
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+     },
+     {
+      "panel": "C",
+      "is_co2_isotherm": false,
+      "reason": "The axis and legend identify N2 loading only, not CO2 uptake.",
+      "bbox_norm": [
+       0.51,
+       0.397,
+       0.995,
+       0.665
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+     },
+     {
+      "panel": "D",
+      "is_co2_isotherm": false,
+      "reason": "This panel plots H2O loading versus pressure and is a non-CO2 isotherm.",
+      "bbox_norm": [
+       0.0,
+       0.675,
+       0.495,
+       0.995
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+     },
+     {
+      "panel": "E",
+      "is_co2_isotherm": false,
+      "reason": "This panel plots H2O loading versus relative humidity for CALF-20 and comparison adsorbents, not CO2 uptake.",
+      "bbox_norm": [
+       0.51,
+       0.675,
+       0.995,
+       0.995
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+     }
+    ],
+    "context": {
+     "adsorbent": "CALF-20 is identified elsewhere in the composite, but the CO2 panels do not explicitly label the adsorbent within their axes or legends.",
+     "sample_form": "Not reported in the supplied image.",
+     "activation": "Not reported in the supplied image.",
+     "instrument": "Not reported in the supplied image.",
+     "measurement_notes": "Panel A shows CO2 isotherms from 273 to 373 K over a displayed pressure range extending to about 1200 mbar, alongside N2 series at selected temperatures. Panel B shows CO2 isotherms at 303, 313, 323, 333, 353, and 373 K over a displayed pressure range extending to 120 kPa.",
+     "other_parameters": "Loading is reported in mmol/g. No caption or surrounding source text was available to establish equilibrium protocol, adsorption/desorption branch, sample identity for the CO2 panels, or other experimental parameters."
+    }
+   },
+   "panel": {
+    "panel": "A",
+    "is_co2_isotherm": true,
+    "reason": "CO2 loading in mmol/g is plotted against pressure in mbar at multiple temperatures; N2 series are also present but do not disqualify the panel.",
+    "bbox_norm": [
+     0.0,
+     0.0,
+     0.99,
+     0.395
+    ],
+    "has_inset": false,
+    "inset_bbox_norm": null
+   },
+   "figure_id": "figp1a",
+   "panel_id": "a",
+   "status": "review",
+   "message": "Agent 02 not satisfied after 3 rounds: CO2 313K has only 21 of about 38 markers, with severe loss in the low-pressure fan and intermediate range.; CO2 323K has only 24 of about 38 markers, with severe loss below 150 mbar.; CO2 373K has only 22 of about 38 markers, with severe loss below 450 mbar.; CO2 303K is short in the first two pressure ranges and has crowded same-color confusion with N2 373K.; Several dense/overlapping regions require another extraction pass.; Keep source legend declarations for CO2 353K as diamond, CO2 363K as star, and N2 373K as diamond; raster glyph measurement misclassified these.; The densely merged low-pressure fan prevents a complete source-only inventory for several series.; No missing point is added because the unresolved colored regions do not provide uniquely attributable marker centers.; The retained CO2 283K candidate near panel pixel (282,367) is crowded and cannot be conclusively accepted or rejected from the full-panel raster.; Several partially visible CO2 303K candidates coincide with overlaps; they are retained rather than deleted without shape-specific contradiction.; Markers hidden directly beneath another glyph or line may remain absent from the extraction.; Rough visible-marker estimates are observational counts, not expected-count targets.",
+   "check_rounds": 3,
+   "extract_error": "",
+   "needs_review": true,
+   "rows": {
+    "python": 337,
+    "agent03": 333,
+    "agent04": 319
+   },
+   "verdict": "review"
+  },
+  {
+   "folder": "figp1b",
+   "figure": {
+    "page": 1,
+    "kind": "image",
+    "file": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\calf20_01\\discovery\\python_inventory\\figure.png",
+    "source_id": "image",
+    "figure_number": null,
+    "caption": null,
+    "caption_candidates": [],
+    "references": []
+   },
+   "discovery": {
+    "reasoning": "No printed figure number or caption is visible, and no caption candidates or figure-reference sentences were supplied, so the graphic cannot be matched to a numbered caption and is treated as unnumbered. The composite contains five distinct axis frames. Panel A plots CO2 loading versus pressure together with N2 series, and panel B plots CO2 loading versus pressure; both qualify as CO2 adsorption isotherm charts. Panel C is N2-only, while panels D and E show H2O loading and are excluded.",
+    "figure_number": null,
+    "matched_caption": "",
+    "figure_is_relevant": true,
+    "si_has_tabulated_data": "unknown",
+    "panels": [
+     {
+      "panel": "A",
+      "is_co2_isotherm": true,
+      "reason": "CO2 loading in mmol/g is plotted against pressure in mbar at multiple temperatures; N2 series are also present but do not disqualify the panel.",
+      "bbox_norm": [
+       0.0,
+       0.0,
+       0.99,
+       0.395
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+     },
+     {
+      "panel": "B",
+      "is_co2_isotherm": true,
+      "reason": "CO2 loading in mmol/g is plotted against pressure in kPa at 303, 313, 323, 333, 353, and 373 K.",
+      "bbox_norm": [
+       0.0,
+       0.397,
+       0.49,
+       0.665
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+     },
+     {
+      "panel": "C",
+      "is_co2_isotherm": false,
+      "reason": "The axis and legend identify N2 loading only, not CO2 uptake.",
+      "bbox_norm": [
+       0.51,
+       0.397,
+       0.995,
+       0.665
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+     },
+     {
+      "panel": "D",
+      "is_co2_isotherm": false,
+      "reason": "This panel plots H2O loading versus pressure and is a non-CO2 isotherm.",
+      "bbox_norm": [
+       0.0,
+       0.675,
+       0.495,
+       0.995
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+     },
+     {
+      "panel": "E",
+      "is_co2_isotherm": false,
+      "reason": "This panel plots H2O loading versus relative humidity for CALF-20 and comparison adsorbents, not CO2 uptake.",
+      "bbox_norm": [
+       0.51,
+       0.675,
+       0.995,
+       0.995
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+     }
+    ],
+    "context": {
+     "adsorbent": "CALF-20 is identified elsewhere in the composite, but the CO2 panels do not explicitly label the adsorbent within their axes or legends.",
+     "sample_form": "Not reported in the supplied image.",
+     "activation": "Not reported in the supplied image.",
+     "instrument": "Not reported in the supplied image.",
+     "measurement_notes": "Panel A shows CO2 isotherms from 273 to 373 K over a displayed pressure range extending to about 1200 mbar, alongside N2 series at selected temperatures. Panel B shows CO2 isotherms at 303, 313, 323, 333, 353, and 373 K over a displayed pressure range extending to 120 kPa.",
+     "other_parameters": "Loading is reported in mmol/g. No caption or surrounding source text was available to establish equilibrium protocol, adsorption/desorption branch, sample identity for the CO2 panels, or other experimental parameters."
+    }
+   },
+   "panel": {
+    "panel": "B",
+    "is_co2_isotherm": true,
+    "reason": "CO2 loading in mmol/g is plotted against pressure in kPa at 303, 313, 323, 333, 353, and 373 K.",
+    "bbox_norm": [
+     0.0,
+     0.397,
+     0.49,
+     0.665
+    ],
+    "has_inset": false,
+    "inset_bbox_norm": null
+   },
+   "figure_id": "figp1b",
+   "panel_id": "b",
+   "status": "failed",
+   "message": "agent03_review_points: agent03-extraction batch 1/1 exceeded its 180s hard timeout",
+   "check_rounds": 3,
+   "extract_error": "",
+   "needs_review": true,
+   "rows": {
+    "python": 111
+   },
+   "verdict": ""
+  }
+ ]
+}

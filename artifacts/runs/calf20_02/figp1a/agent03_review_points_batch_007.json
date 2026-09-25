@@ -1,0 +1,199 @@
+{
+ "reasoning": "I inspected all 15 attached native ambiguity crops. Crops ambiguity_045 through ambiguity_051 and ambiguity_053 through ambiguity_059 show only excluded N2 293K/N2 353K crowded markers, so they provide no source-supported CO2 edit. ambiguity_052 contains one resolvable filled CO2 293K up-triangle centered near full-panel pixel (510,297), with no separate marker at the nearby claimed centers around (502,298) and (516,297). I therefore removed those two duplicate/unsupported CO2 claims and retained pt-952a4f639b23fafd. The broader low-pressure shortfalls for CO2 313K and CO2 323K remain unresolved because no native evidence in this batch safely establishes additional markers.",
+ "verdict": "review",
+ "series": [
+  {
+   "label": "CO2 273K",
+   "coverage": "uncertain",
+   "final_count": 39,
+   "comment": "No source-supported edit in this batch; complete marker accounting was not established here."
+  },
+  {
+   "label": "CO2 283K",
+   "coverage": "uncertain",
+   "final_count": 35,
+   "comment": "No source-supported edit in this batch; complete marker accounting was not established here."
+  },
+  {
+   "label": "CO2 293K",
+   "coverage": "uncertain",
+   "final_count": 42,
+   "comment": "Retained the single native blue up-triangle in ambiguity_052 and deleted two unsupported duplicate claims at the same glyph."
+  },
+  {
+   "label": "CO2 303K",
+   "coverage": "uncertain",
+   "final_count": 45,
+   "comment": "No source-supported edit in this batch; complete marker accounting was not established here."
+  },
+  {
+   "label": "CO2 313K",
+   "coverage": "incomplete",
+   "final_count": 15,
+   "comment": "The reported low-pressure shortfall remains unresolved; the attached native crops do not provide evidence for safe additions."
+  },
+  {
+   "label": "CO2 323K",
+   "coverage": "incomplete",
+   "final_count": 21,
+   "comment": "The reported low-pressure shortfall remains unresolved; the attached native crops do not provide evidence for safe additions."
+  },
+  {
+   "label": "CO2 333K",
+   "coverage": "uncertain",
+   "final_count": 37,
+   "comment": "No source-supported edit in this batch; complete marker accounting was not established here."
+  },
+  {
+   "label": "CO2 343K",
+   "coverage": "uncertain",
+   "final_count": 35,
+   "comment": "No source-supported edit in this batch; crowded-marker completeness was not established here."
+  },
+  {
+   "label": "CO2 353K",
+   "coverage": "uncertain",
+   "final_count": 35,
+   "comment": "No source-supported edit in this batch; crowded-marker completeness was not established here."
+  },
+  {
+   "label": "CO2 363K",
+   "coverage": "uncertain",
+   "final_count": 34,
+   "comment": "No source-supported edit in this batch; complete marker accounting was not established here."
+  },
+  {
+   "label": "CO2 373K",
+   "coverage": "incomplete",
+   "final_count": 32,
+   "comment": "The reported unresolved slots remain unresolved; no attached native crop supports a safe correction."
+  }
+ ],
+ "operations": [
+  {
+   "operation_id": "op-delete-293-duplicate-left",
+   "action": "delete",
+   "point_id": "pt-8de0381861cd97a3",
+   "series_label": "CO2 293K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The native crop contains one resolvable filled blue up-triangle around full-panel pixel (510,297), not a separate CO2 marker at the claimed center near (502,298). This claim is a duplicate/unsupported placement on the same glyph.",
+   "source_evidence": "In the native crop with source_bbox_px [478,265,543,330], the blue triangular glyph is continuous through the region near (502,298) and has no distinct second apex, edge set, or marker center separate from the marker centered near (510,297).",
+   "evidence_kind": "native_absence",
+   "uncertainty_px": null,
+   "evidence_ref": "ambiguity:ambiguity_052_native.png"
+  },
+  {
+   "operation_id": "op-delete-293-duplicate-right",
+   "action": "delete",
+   "point_id": "pt-1083f6d0f354e7e4",
+   "series_label": "CO2 293K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The native crop contains one resolvable filled blue up-triangle around full-panel pixel (510,297), not a second distinct CO2 marker at the claimed center near (516,297).",
+   "source_evidence": "In the native crop with source_bbox_px [478,265,543,330], the blue triangular pixels near (516,297) belong to the continuous right side/overlap of the single visible glyph; there is no separate marker outline or apex at that position.",
+   "evidence_kind": "native_absence",
+   "uncertainty_px": null,
+   "evidence_ref": "ambiguity:ambiguity_052_native.png"
+  }
+ ],
+ "uncertainties": [
+  "The retained CO2 293K point pt-952a4f639b23fafd is supported by ambiguity_052, but the crop also contains overlapping excluded N2 353K pixels.",
+  "CO2 313K and CO2 323K have reported marker shortfalls that cannot be resolved from the attached native crops without adding points from expected counts or curve interpolation.",
+  "The attached ambiguity crops other than ambiguity_052 concern excluded N2 series and do not establish CO2 marker ownership."
+ ],
+ "coverage": [
+  {
+   "item_id": "ambiguity:ambiguity_045_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; visible crowded markers are excluded N2 293K/N2 353K, with no CO2 edit."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_046_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; visible crowded markers are excluded N2 293K/N2 353K, with no CO2 edit."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_047_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; visible crowded markers are excluded N2 293K/N2 353K, with no CO2 edit."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_048_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; visible crowded markers are excluded N2 293K/N2 353K, with no CO2 edit."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_049_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; visible crowded markers are excluded N2 293K/N2 353K, with no CO2 edit."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_050_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; visible crowded markers are excluded N2 293K/N2 353K, with no CO2 edit."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_051_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; visible crowded markers are excluded N2 293K/N2 353K, with no CO2 edit."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_052_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; one CO2 293K up-triangle is supported near (510,297); two nearby duplicate claims were deleted."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_053_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; visible crowded markers are excluded N2 293K/N2 353K, with no CO2 edit."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_054_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; visible crowded markers are excluded N2 293K/N2 353K, with no CO2 edit."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_055_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; visible crowded markers are excluded N2 293K/N2 353K, with no CO2 edit."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_056_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; visible crowded markers are excluded N2 293K/N2 353K, with no CO2 edit."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_057_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; visible crowded markers are excluded N2 293K/N2 353K, with no CO2 edit."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_058_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; visible crowded markers are excluded N2 293K/N2 353K, with no CO2 edit."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_059_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop; visible crowded markers are excluded N2 293K/N2 353K, with no CO2 edit."
+  }
+ ]
+}

@@ -1,0 +1,344 @@
+{
+ "reasoning": "The source panel has linear axes labeled P / mbar and CO2 Loading [mmol/g], with printed ticks from 0 to 1200 and 0 to 5. The recreated chart uses the same calibration and places the established high-pressure portions at the source values. Independent source inspection shows that eleven early CO2 273K candidates from panel pixels about (245,528) through (349,313) are not black squares on the steep 273K curve; they instead lie well below that curve amid other series. Three early CO2 283K candidates likewise lack red hexagons at their claimed centers and lie well below the native red curve. These false points cause the conspicuous low-pressure excursions in the recreation and are deleted. The source also contains many densely packed markers not safely inventoried by the candidate, especially for CO2 273K, 283K, 313K, 323K, and 373K. Their individual centers or ownership cannot all be resolved confidently from the full-panel raster, so no points are added merely to complete or smooth curves.",
+ "axis_check": {
+  "x": {
+   "printed_min": 0,
+   "printed_max": 1200,
+   "data_min": -3.9022,
+   "data_max": 1148.2518,
+   "reason": "The source x axis is linear P / mbar with printed labels 0, 200, 400, 600, 800, 1000, and 1200. Apart from the false low-pressure points addressed separately, the recreated marker positions have the same pressure spacing as the source.",
+   "result": "pass"
+  },
+  "y": {
+   "printed_min": 0,
+   "printed_max": 5,
+   "data_min": 0.269,
+   "data_max": 5.0091,
+   "reason": "The source y axis is linear CO2 Loading [mmol/g] with printed labels 0 through 5. The established high-pressure endpoints in the recreation coincide with the source values, including approximately 5.0 mmol/g for CO2 273K.",
+   "result": "pass"
+  }
+ },
+ "independent_read": {
+  "x_axis": "P / mbar, linear; printed ticks 0-1200",
+  "y_axis": "CO2 Loading [mmol/g], linear; printed ticks 0-5",
+  "series": [
+   {
+    "label": "CO2 273K",
+    "marker": "square",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 48,
+    "notes": "Black squares; exceptionally dense and partly merged along the steep low-pressure rise."
+   },
+   {
+    "label": "CO2 283K",
+    "marker": "hexagon",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 40,
+    "notes": "Red filled hexagons; crowded with neighboring curves at low pressure."
+   },
+   {
+    "label": "CO2 293K",
+    "marker": "triangle_up",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 36,
+    "notes": "Blue upward triangles."
+   },
+   {
+    "label": "CO2 303K",
+    "marker": "triangle_down",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 35,
+    "notes": "Teal downward triangles; several low-pressure markers overlap other glyphs."
+   },
+   {
+    "label": "CO2 313K",
+    "marker": "triangle_left",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 34,
+    "notes": "Magenta left-pointing triangles; substantial crowding in the rising portion."
+   },
+   {
+    "label": "CO2 323K",
+    "marker": "triangle_right",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 34,
+    "notes": "Olive right-pointing triangles; low-pressure centers are partly obscured."
+   },
+   {
+    "label": "CO2 333K",
+    "marker": "diamond",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 34,
+    "notes": "Dark-blue diamonds."
+   },
+   {
+    "label": "CO2 343K",
+    "marker": "pentagon",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 34,
+    "notes": "Dark-red pentagons."
+   },
+   {
+    "label": "CO2 353K",
+    "marker": "diamond",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 31,
+    "notes": "Pink diamonds."
+   },
+   {
+    "label": "CO2 363K",
+    "marker": "star",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 30,
+    "notes": "Green stars."
+   },
+   {
+    "label": "CO2 373K",
+    "marker": "circle",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 29,
+    "notes": "Dark-blue circles; some low-pressure markers merge into the dense fan."
+   }
+  ],
+  "visual_risks": [
+   "Severe overlap of all CO2 series close to the left plot boundary.",
+   "The black 273K curve is very dense below roughly 200 mbar, making individual square centers difficult to count.",
+   "Several CO2 colors cross or touch nearby N2 traces near zero loading.",
+   "Connecting lines pass through marker-sized colored regions, so line pixels alone do not establish a marker.",
+   "Raster antialiasing makes the red hexagon and dark-red pentagon outlines difficult to distinguish in crowded regions."
+  ]
+ },
+ "verdict": "review",
+ "series": [
+  {
+   "label": "CO2 273K",
+   "coverage": "incomplete",
+   "final_count": 30,
+   "comment": "Eleven clearly false low-pressure claims are removed. Numerous genuine black squares remain visibly absent from the steep source segment, but their centers are not added from curve shape."
+  },
+  {
+   "label": "CO2 283K",
+   "coverage": "incomplete",
+   "final_count": 27,
+   "comment": "Three source-unsupported early claims are removed; the dense early red sequence still appears underrepresented."
+  },
+  {
+   "label": "CO2 293K",
+   "coverage": "uncertain",
+   "final_count": 32,
+   "comment": "Most upward triangles are represented, but ownership of the crowded near-origin points cannot be fully resolved."
+  },
+  {
+   "label": "CO2 303K",
+   "coverage": "uncertain",
+   "final_count": 34,
+   "comment": "The teal curve is broadly represented, although several crowded and partially visible markers remain difficult to verify independently."
+  },
+  {
+   "label": "CO2 313K",
+   "coverage": "incomplete",
+   "final_count": 21,
+   "comment": "The source visibly contains more left-pointing triangles than the extraction, particularly at low and intermediate pressure."
+  },
+  {
+   "label": "CO2 323K",
+   "coverage": "incomplete",
+   "final_count": 24,
+   "comment": "The source visibly contains additional olive right-pointing triangles, but crowded centers are not inferred."
+  },
+  {
+   "label": "CO2 333K",
+   "coverage": "complete",
+   "final_count": 34,
+   "comment": "The dark-blue diamond sequence is consistently covered across the visible curve."
+  },
+  {
+   "label": "CO2 343K",
+   "coverage": "complete",
+   "final_count": 34,
+   "comment": "The dark-red pentagon sequence is consistently covered, including partially overlapped markers."
+  },
+  {
+   "label": "CO2 353K",
+   "coverage": "complete",
+   "final_count": 31,
+   "comment": "The visible pink-diamond sequence is consistently covered."
+  },
+  {
+   "label": "CO2 363K",
+   "coverage": "complete",
+   "final_count": 30,
+   "comment": "The visible green-star sequence is consistently covered."
+  },
+  {
+   "label": "CO2 373K",
+   "coverage": "incomplete",
+   "final_count": 22,
+   "comment": "Several low-pressure dark-blue circles appear absent or unresolved in the dense fan."
+  }
+ ],
+ "operations": [
+  {
+   "operation_id": "op-delete-273-01",
+   "action": "delete",
+   "point_id": "pt-a162dd68d3f410c7",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The candidate is far below the native black 273K curve and has no identifiable black-square body.",
+   "source_evidence": "At panel pixel (245,528), the untouched source shows crowded colored lower-series ink rather than a black square; the native 273K trace at this pressure is substantially higher."
+  },
+  {
+   "operation_id": "op-delete-273-02",
+   "action": "delete",
+   "point_id": "pt-938b292fe7447915",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "No black 273K square is centered at the candidate position.",
+   "source_evidence": "The untouched source around panel pixel (247,523) contains overlapping colored fan ink, while the black 273K curve is visibly above it."
+  },
+  {
+   "operation_id": "op-delete-273-03",
+   "action": "delete",
+   "point_id": "pt-ee4af6c4fc06cce9",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The point lies on the lower colored fan rather than a native black square.",
+   "source_evidence": "At panel pixel (257,515), source pixels do not form a black filled square and are separated vertically from the black 273K trace."
+  },
+  {
+   "operation_id": "op-delete-273-04",
+   "action": "delete",
+   "point_id": "pt-430c4e39141d481a",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The claimed black square is absent and the coordinate is well below the native 273K curve.",
+   "source_evidence": "The source at panel pixel (268,492) shows other-series colored ink without a black-square center; the black curve is higher at the same x position."
+  },
+  {
+   "operation_id": "op-delete-273-05",
+   "action": "delete",
+   "point_id": "pt-cd94947e2d972006",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "No black square supports this candidate on the native panel.",
+   "source_evidence": "At panel pixel (278,471), the source shows the crowded colored fan, whereas the black 273K rise lies markedly above it."
+  },
+  {
+   "operation_id": "op-delete-273-06",
+   "action": "delete",
+   "point_id": "pt-185ac2a7d639df13",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The candidate occupies another-series region below the native black curve.",
+   "source_evidence": "The untouched source around panel pixel (293,419) lacks a black square; the native 273K squares at approximately this pressure are visibly higher."
+  },
+  {
+   "operation_id": "op-delete-273-07",
+   "action": "delete",
+   "point_id": "pt-9198d7287b9247ed",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "There is no black-square marker at this center.",
+   "source_evidence": "At panel pixel (298,422), native pixels belong to overlapping colored curves and do not show the solid black square expected for CO2 273K."
+  },
+  {
+   "operation_id": "op-delete-273-08",
+   "action": "delete",
+   "point_id": "pt-236d673e54034037",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The candidate is not supported by a black-square glyph.",
+   "source_evidence": "The source around panel pixel (305,417) contains colored overlap without a black square; the black 273K trace is substantially higher."
+  },
+  {
+   "operation_id": "op-delete-273-09",
+   "action": "delete",
+   "point_id": "pt-fc648eadde65c862",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "This candidate lies below the source 273K curve and no black square is present.",
+   "source_evidence": "At panel pixel (341,323), the native source does not show a black-square body; the black series is visibly above this coordinate."
+  },
+  {
+   "operation_id": "op-delete-273-10",
+   "action": "delete",
+   "point_id": "pt-8eaba5190881b0db",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The claimed 273K point is a lower-series overlap, not a black square.",
+   "source_evidence": "At panel pixel (347,359), the untouched source has colored curve ink with no black-square marker and is far below the native black trajectory."
+  },
+  {
+   "operation_id": "op-delete-273-11",
+   "action": "delete",
+   "point_id": "pt-4088050882cf4db7",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "No native black square supports the point and it remains below the steep 273K curve.",
+   "source_evidence": "The source at panel pixel (349,313) does not contain a filled black square centered there; the nearby black curve is higher."
+  },
+  {
+   "operation_id": "op-delete-283-01",
+   "action": "delete",
+   "point_id": "pt-97ac1211770703e5",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The candidate is well below the native red curve and lacks a red-hexagon center.",
+   "source_evidence": "At panel pixel (246,556), the untouched source shows dense low-series ink but no filled red hexagon belonging to CO2 283K."
+  },
+  {
+   "operation_id": "op-delete-283-02",
+   "action": "delete",
+   "point_id": "pt-35c85a3ae3684662",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "No red 283K hexagon is present at this low candidate position.",
+   "source_evidence": "The source around panel pixel (280,519) contains other-series fan ink; the native red CO2 283K curve at this pressure is visibly higher."
+  },
+  {
+   "operation_id": "op-delete-283-03",
+   "action": "delete",
+   "point_id": "pt-d03ed1c4c95d83cc",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The claimed red point lies below the native 283K trajectory and has no red-hexagon body.",
+   "source_evidence": "At panel pixel (298,487), the untouched source lacks a filled red hexagon; the visible red 283K curve is substantially above this coordinate."
+  }
+ ],
+ "uncertainties": [
+  "The densely merged low-pressure fan prevents a complete source-only inventory for several series.",
+  "No missing point is added because the unresolved colored regions do not provide uniquely attributable marker centers.",
+  "The retained CO2 283K candidate near panel pixel (282,367) is crowded and cannot be conclusively accepted or rejected from the full-panel raster.",
+  "Several partially visible CO2 303K candidates coincide with overlaps; they are retained rather than deleted without shape-specific contradiction.",
+  "Markers hidden directly beneath another glyph or line may remain absent from the extraction.",
+  "Rough visible-marker estimates are observational counts, not expected-count targets."
+ ]
+}

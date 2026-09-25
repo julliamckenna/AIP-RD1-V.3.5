@@ -1,0 +1,114 @@
+{
+ "reasoning": "The native source supports the existing CO2 markers in the contested boxes, but the proposal is incomplete in the low-pressure fan, especially for CO2 303K, CO2 313K, and CO2 373K. The template-filled CO2 283K points at native pixels (260,566) and (308,476) duplicate nearby non-283K markers and have no red CO2 283K marker support, so they are deleted. The template-filled point at (310,431) is visibly a purple left-pointing CO2 313K marker and is reassigned. Other flagged template-fit points have visible native marker pixels and are retained. The unresolved slots do not provide a distinct marker core, so no unsupported additions are made.",
+ "verdict": "review",
+ "series": [
+  {
+   "label": "CO2 273K",
+   "coverage": "incomplete",
+   "final_count": 37,
+   "comment": "Existing points are supported, but several low-pressure slots remain unresolved."
+  },
+  {
+   "label": "CO2 283K",
+   "coverage": "incomplete",
+   "final_count": 34,
+   "comment": "Deleted two unsupported template points; the low-pressure fan remains incomplete."
+  },
+  {
+   "label": "CO2 293K",
+   "coverage": "incomplete",
+   "final_count": 33,
+   "comment": "Existing points are supported; no safe additions from the contested evidence."
+  },
+  {
+   "label": "CO2 303K",
+   "coverage": "incomplete",
+   "final_count": 29,
+   "comment": "The native source visibly contains additional crowded low-pressure markers not safely separable in the supplied evidence."
+  },
+  {
+   "label": "CO2 313K",
+   "coverage": "incomplete",
+   "final_count": 23,
+   "comment": "Reassigned one visible purple marker from the CO2 283K template row; substantial low-pressure and mid-pressure coverage remains unresolved."
+  },
+  {
+   "label": "CO2 323K",
+   "coverage": "incomplete",
+   "final_count": 37,
+   "comment": "Existing olive right-triangle points are supported, but crowded low-pressure evidence does not support safe additions."
+  },
+  {
+   "label": "CO2 333K",
+   "coverage": "incomplete",
+   "final_count": 35,
+   "comment": "Existing points are supported; no safe additions from the contested evidence."
+  },
+  {
+   "label": "CO2 343K",
+   "coverage": "incomplete",
+   "final_count": 34,
+   "comment": "Existing pentagon points are supported; no safe additions from the contested evidence."
+  },
+  {
+   "label": "CO2 353K",
+   "coverage": "incomplete",
+   "final_count": 31,
+   "comment": "Existing pink hexagon points are supported; no safe additions from the contested evidence."
+  },
+  {
+   "label": "CO2 363K",
+   "coverage": "incomplete",
+   "final_count": 30,
+   "comment": "Existing green star points are supported; no safe additions from the contested evidence."
+  },
+  {
+   "label": "CO2 373K",
+   "coverage": "incomplete",
+   "final_count": 23,
+   "comment": "Existing dark-blue circle points are supported, but multiple low-pressure slots remain unresolved."
+  }
+ ],
+ "operations": [
+  {
+   "operation_id": "op-delete-afe523",
+   "action": "delete",
+   "point_id": "pt-afe52325e567ec3d",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "Unsupported template-filled CO2 283K assignment; the native pixel is occupied by a nearby olive CO2 323K right-triangle marker, not a red CO2 283K hexagon.",
+   "source_evidence": "Native tile_01_native.png box 2 at source pixel (260,566) shows the olive right-triangle trajectory and no distinct red CO2 283K marker at the proposed centre."
+  },
+  {
+   "operation_id": "op-delete-0ab2",
+   "action": "delete",
+   "point_id": "pt-0ab2f5429ce70a40",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "Unsupported template-filled CO2 283K assignment; this location duplicates the olive CO2 323K marker rather than showing a red CO2 283K hexagon.",
+   "source_evidence": "Native tile_01_native.png box 4 at source pixel (308,476) visibly contains the olive right-triangle marker; the nearby supported CO2 323K point is at approximately (308.22,475.74)."
+  },
+  {
+   "operation_id": "op-reassign-c96",
+   "action": "reassign",
+   "point_id": "pt-c96c6f789a5addb4",
+   "series_label": "CO2 313K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The proposed template-filled CO2 283K point is visibly a purple left-pointing CO2 313K marker in the native source.",
+   "source_evidence": "Native tile_01_native.png box 5 at source pixel (310,431) shows a filled purple left-pointing triangle, matching CO2 313K, not the red hexagon of CO2 283K."
+  }
+ ],
+ "uncertainties": [
+  "The native low-pressure fan contains overlapping CO2 markers for CO2 273K, CO2 303K, CO2 313K, CO2 323K, CO2 343K, CO2 353K, CO2 363K, and CO2 373K, but the supplied native crops do not provide safe distinct centres for the unresolved slots.",
+  "Several crowded markers in the middle/high-pressure overlap strip are visibly present but cannot be safely reassigned beyond the existing proposal without relying on overlay rings or curve interpolation.",
+  "CO2 283K template-fit point pt-ff06e0cd5fa3cbe4 at (580,370) and CO2 363K template-fit point pt-d4b2a8ba5595ce6b at (594,492) have visible matching native marker pixels and are retained.",
+  "The apparent marker at native pixel (1040.72, unresolved-slot column) is too close to the plot boundary and overlapping trajectories to assign safely. "
+ ],
+ "coverage": []
+}

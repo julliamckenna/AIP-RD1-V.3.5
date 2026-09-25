@@ -1,0 +1,414 @@
+{
+ "schema_version": "1.2",
+ "authority": "supporting_evidence_only",
+ "native_image": "panel.png",
+ "legend": "legend.png",
+ "tiles": [
+  {
+   "tile_id": "marker_01",
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "boxes": [
+    {
+     "box": 1,
+     "point_id": "pt-c446ba761707a77c",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      197.74,
+      458.08
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 2,
+     "point_id": "pt-295a0d07aa667a0d",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      280.46,
+      298.86
+     ],
+     "reason": "low_confidence_or_overlap"
+    }
+   ]
+  },
+  {
+   "tile_id": "region_01",
+   "native_tile": "region_01_native.png",
+   "candidate_tile": "region_01_candidate.png",
+   "boxes": [],
+   "reason": "Agent 02 complex-region search"
+  },
+  {
+   "tile_id": "region_02",
+   "native_tile": "region_02_native.png",
+   "candidate_tile": "region_02_candidate.png",
+   "boxes": [],
+   "reason": "Agent 02 complex-region search"
+  }
+ ],
+ "dense_region_evidence": [
+  "dense_roi_native.png",
+  "dense_roi_line_suppressed.png",
+  "dense_roi_series_likelihood.png",
+  "dense_roi_proposed_assignments.png"
+ ],
+ "ambiguity_native_evidence_tiles": [],
+ "ambiguity_contact_sheets": [],
+ "review_items": [
+  {
+   "item_id": "tile:marker_01",
+   "item_type": "tile",
+   "tile_id": "marker_01",
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": ""
+  },
+  {
+   "item_id": "box:marker_01:1",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 1,
+   "point_id": "pt-c446ba761707a77c",
+   "series_label": "CO2 323K",
+   "source_pixel": [
+    197.74,
+    458.08
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "box:marker_01:2",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 2,
+   "point_id": "pt-295a0d07aa667a0d",
+   "series_label": "CO2 323K",
+   "source_pixel": [
+    280.46,
+    298.86
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "tile:region_01",
+   "item_type": "tile",
+   "tile_id": "region_01",
+   "native_tile": "region_01_native.png",
+   "candidate_tile": "region_01_candidate.png",
+   "detail": "Agent 02 complex-region search"
+  },
+  {
+   "item_id": "tile:region_02",
+   "item_type": "tile",
+   "tile_id": "region_02",
+   "native_tile": "region_02_native.png",
+   "candidate_tile": "region_02_candidate.png",
+   "detail": "Agent 02 complex-region search"
+  },
+  {
+   "item_id": "evidence:dense_roi_native.png",
+   "item_type": "evidence",
+   "native_tile": "dense_roi_native.png",
+   "diagnostic_tile": null,
+   "evidence_kind": "native_source",
+   "candidate_tile": null,
+   "detail": "unchanged source crop"
+  },
+  {
+   "item_id": "evidence:dense_roi_line_suppressed.png",
+   "item_type": "evidence",
+   "native_tile": null,
+   "diagnostic_tile": "dense_roi_line_suppressed.png",
+   "evidence_kind": "derived_diagnostic",
+   "candidate_tile": null,
+   "detail": "Python-derived diagnostic; not source pixels or proof of a marker"
+  },
+  {
+   "item_id": "evidence:dense_roi_series_likelihood.png",
+   "item_type": "evidence",
+   "native_tile": null,
+   "diagnostic_tile": "dense_roi_series_likelihood.png",
+   "evidence_kind": "derived_diagnostic",
+   "candidate_tile": null,
+   "detail": "Python-derived diagnostic; not source pixels or proof of a marker"
+  },
+  {
+   "item_id": "evidence:dense_roi_proposed_assignments.png",
+   "item_type": "evidence",
+   "native_tile": null,
+   "diagnostic_tile": "dense_roi_proposed_assignments.png",
+   "evidence_kind": "derived_diagnostic",
+   "candidate_tile": null,
+   "detail": "Python-derived diagnostic; not source pixels or proof of a marker"
+  },
+  {
+   "item_id": "slot:0001",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 303K",
+   "source_pixel": [
+    182.77,
+    null
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0002",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 313K",
+   "source_pixel": [
+    182.77,
+    null
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0003",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 323K",
+   "source_pixel": [
+    182.77,
+    null
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0004",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 353K",
+   "source_pixel": [
+    182.77,
+    null
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0005",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 373K",
+   "source_pixel": [
+    182.77,
+    null
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0006",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 303K",
+   "source_pixel": [
+    192.41,
+    null
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0007",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 313K",
+   "source_pixel": [
+    192.41,
+    432.49
+   ],
+   "detail": "no_native_marker_core_after_line_suppression"
+  },
+  {
+   "item_id": "slot:0008",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 303K",
+   "source_pixel": [
+    235.83,
+    null
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0009",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 323K",
+   "source_pixel": [
+    235.83,
+    384.76
+   ],
+   "detail": "no_native_marker_core_after_line_suppression"
+  },
+  {
+   "item_id": "slot:0010",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 303K",
+   "source_pixel": [
+    261.02,
+    null
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0011",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 323K",
+   "source_pixel": [
+    261.02,
+    336.28
+   ],
+   "detail": "no_native_marker_core_after_line_suppression"
+  },
+  {
+   "item_id": "slot:0012",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 303K",
+   "source_pixel": [
+    291.95,
+    null
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0013",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 303K",
+   "source_pixel": [
+    182.77,
+    null
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0014",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 313K",
+   "source_pixel": [
+    182.77,
+    null
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0015",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 323K",
+   "source_pixel": [
+    182.77,
+    null
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0016",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 353K",
+   "source_pixel": [
+    182.77,
+    null
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0017",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 373K",
+   "source_pixel": [
+    182.77,
+    null
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0018",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 303K",
+   "source_pixel": [
+    192.41,
+    null
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0019",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 313K",
+   "source_pixel": [
+    192.41,
+    432.49
+   ],
+   "detail": "no_native_marker_core_after_line_suppression"
+  },
+  {
+   "item_id": "slot:0020",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 303K",
+   "source_pixel": [
+    235.52,
+    null
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  },
+  {
+   "item_id": "slot:0021",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 323K",
+   "source_pixel": [
+    235.52,
+    385.36
+   ],
+   "detail": "no_native_marker_core_after_line_suppression"
+  },
+  {
+   "item_id": "slot:0022",
+   "item_type": "slot",
+   "native_tile": "dense_roi_native.png",
+   "candidate_tile": null,
+   "series_label": "CO2 303K",
+   "source_pixel": [
+    290.76,
+    null
+   ],
+   "detail": "trajectory_not_bracketed_by_native_anchors"
+  }
+ ],
+ "instructions": "Native tiles preserve source pixel values, with nearest-neighbor enlargement where needed. Candidate tiles identify Python proposals only. Diagnostic tiles (line suppression, likelihood, assignments and scores) are fallible derived views, not native evidence. Ambiguity contact sheets preserve each native crop as a labeled cell; use the manifest row and column to match item IDs. Search every complex-region native tile for missed CO2 markers; never use an annotated ring or count as coordinate evidence."
+}

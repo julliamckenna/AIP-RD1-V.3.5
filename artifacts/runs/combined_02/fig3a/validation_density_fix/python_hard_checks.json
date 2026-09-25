@@ -1,0 +1,103 @@
+{
+ "stage": "python",
+ "passed": true,
+ "problems": [],
+ "axis_range": {
+  "passed": true,
+  "problems": [],
+  "margin": 0.05,
+  "max_frame_overhang_steps": 1.0,
+  "x": {
+   "unit": "P/P\u2080",
+   "scale": "linear",
+   "printed": [
+    0.0,
+    1.0
+   ],
+   "data": [
+    -0.0008,
+    0.9764
+   ],
+   "points_outside": 0,
+   "passed": true,
+   "frame": [
+    -0.05031210581177903,
+    1.0496242156795148
+   ],
+   "frame_overhang_steps": [
+    0.25,
+    0.25
+   ],
+   "allowed": [
+    -0.05031210581177903,
+    1.05
+   ]
+  },
+  "y": {
+   "unit": "cm\u00b3 g\u207b\u00b9",
+   "scale": "linear",
+   "printed": [
+    0.0,
+    140.0
+   ],
+   "data": [
+    0.6475,
+    126.9859
+   ],
+   "points_outside": 0,
+   "passed": true,
+   "frame": [
+    -10.09534443313305,
+    140.1162523398246
+   ],
+   "frame_overhang_steps": [
+    0.5,
+    0.01
+   ],
+   "allowed": [
+    -10.09534443313305,
+    147.0
+   ]
+  }
+ },
+ "redraw": {
+  "available": true,
+  "series": {
+   "CO2 195K": {
+    "points": 56,
+    "precision": 1.0,
+    "recall": 0.876,
+    "missed_marker_equivalents": 6.3,
+    "same_color_group": [
+     "CO2 195K"
+    ]
+   }
+  },
+  "recall": 0.876,
+  "precision": 1.0
+ },
+ "physics": {
+  "verdict": "auto_accept",
+  "flags": {
+   "CO2 195K": [
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "ads: local outliers (P,q,resid) [(np.float64(0.005), np.float64(25.307), -2.533), (np.float64(0.006), np.float64(33.838), 2.729), (np.float64(0.014), np.float64(58.483), 3.05), (np.float64(0.028), np.float64(63.44), -4.875), (np.float64(0.034), np.float64(66.55), -2.839)]"
+    },
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "des: local outliers (P,q,resid) [(np.float64(0.007), np.float64(40.34), 2.765), (np.float64(0.043), np.float64(92.058), -5.291), (np.float64(0.044), np.float64(95.049), -2.276)]"
+    }
+   ]
+  },
+  "cross_series": []
+ },
+ "limitations": {
+  "unresolved_slots": 1,
+  "dense_regions_with_no_distinct_centres": 1,
+  "note": "ink coverage is not marker completeness; unresolved dense evidence requires review"
+ },
+ "accepted_extraction": false
+}

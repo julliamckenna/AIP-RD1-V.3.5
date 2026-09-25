@@ -1,0 +1,204 @@
+{
+ "reasoning": "Native pixels support deletion of one red low-branch detection and twelve black detections that lie on the continuous thick black connecting stroke without distinct star centers. The orange, green, blue, magenta, and remaining black markers are visibly supported. The unresolved dense-region slots do not provide safe native-pixel evidence for additions, so coverage remains subject to review rather than acceptance.",
+ "verdict": "review",
+ "series": [
+  {
+   "label": "CO2 303K",
+   "coverage": "complete",
+   "final_count": 14,
+   "comment": "Removed the low-branch red point at native (195,374), which is only thick red line ink; the remaining red circles are visible."
+  },
+  {
+   "label": "CO2 313K",
+   "coverage": "complete",
+   "final_count": 20,
+   "comment": "All proposed orange squares are visibly supported in the native panel, including the crowded low-pressure squares."
+  },
+  {
+   "label": "CO2 323K",
+   "coverage": "complete",
+   "final_count": 19,
+   "comment": "All proposed green triangles have visible native marker ink, including the low-pressure fan."
+  },
+  {
+   "label": "CO2 333K",
+   "coverage": "complete",
+   "final_count": 19,
+   "comment": "All proposed blue pentagons are visibly supported by native pixels."
+  },
+  {
+   "label": "CO2 353K",
+   "coverage": "complete",
+   "final_count": 18,
+   "comment": "All proposed magenta diamonds are visibly supported by native pixels."
+  },
+  {
+   "label": "CO2 373K",
+   "coverage": "uncertain",
+   "final_count": 14,
+   "comment": "Removed black detections without distinct star centers along the thick low-pressure stroke; retained the first clearly visible star and the remaining star row, while dense slots remain unresolved."
+  }
+ ],
+ "operations": [
+  {
+   "operation_id": "op-delete-red-stroke",
+   "action": "delete",
+   "point_id": "pt-55d92ac7e23ba306",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False detection on the thick red connecting stroke, not a distinct red circle marker.",
+   "source_evidence": "Native marker_01 box 1 at source pixel (195,374) shows continuous red stroke ink without a circular marker core."
+  },
+  {
+   "operation_id": "op-delete-black-stroke-01",
+   "action": "delete",
+   "point_id": "pt-4c6e05cd006f64ea",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "Black line pixel interpreted as a star; no distinct native star center is visible.",
+   "source_evidence": "Native source at (184,559) is the beginning of the continuous thick black low-pressure stroke."
+  },
+  {
+   "operation_id": "op-delete-black-stroke-02",
+   "action": "delete",
+   "point_id": "pt-bfec8f9fb210cc79",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False black marker placed on the thick connecting stroke.",
+   "source_evidence": "Native source at (194,550) shows only continuous black stroke ink, without a separable star."
+  },
+  {
+   "operation_id": "op-delete-black-stroke-03",
+   "action": "delete",
+   "point_id": "pt-06f7a01f80387b5d",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False black marker placed on the thick connecting stroke.",
+   "source_evidence": "Native source at (201,544) shows the uninterrupted black diagonal stroke, not a distinct star center."
+  },
+  {
+   "operation_id": "op-delete-black-stroke-04",
+   "action": "delete",
+   "point_id": "pt-0f8a479d7589a428",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False black marker placed on line ink.",
+   "source_evidence": "Native source at (209,537) contains continuous black stroke pixels without a visible star shape."
+  },
+  {
+   "operation_id": "op-delete-black-stroke-05",
+   "action": "delete",
+   "point_id": "pt-46303aaa849a1e55",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False detection from the thick black stroke.",
+   "source_evidence": "Native source at (218,529) shows only the broad diagonal black connecting line."
+  },
+  {
+   "operation_id": "op-delete-black-stroke-06",
+   "action": "delete",
+   "point_id": "pt-1d182363aad537d3",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "No separable black star is visible at this proposed center.",
+   "source_evidence": "Native source at (231,518) is continuous thick black line ink."
+  },
+  {
+   "operation_id": "op-delete-black-stroke-07",
+   "action": "delete",
+   "point_id": "pt-68a6d00afaf810f5",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False detection on the black connecting stroke.",
+   "source_evidence": "Native source at (237,513) shows uninterrupted black stroke pixels, not a distinct star."
+  },
+  {
+   "operation_id": "op-delete-black-stroke-08",
+   "action": "delete",
+   "point_id": "pt-8dc994e6e008771f",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False detection on line ink.",
+   "source_evidence": "Native source at (247,505) contains only the continuous thick black low-pressure line."
+  },
+  {
+   "operation_id": "op-delete-black-stroke-09",
+   "action": "delete",
+   "point_id": "pt-1fbb22a50cae30e9",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False black point generated from the connecting stroke rather than a native star center.",
+   "source_evidence": "Native source at (256,497) shows broad black stroke ink without a distinct star."
+  },
+  {
+   "operation_id": "op-delete-black-stroke-10",
+   "action": "delete",
+   "point_id": "pt-9cc2953c98f20b09",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False detection on the thick black stroke.",
+   "source_evidence": "Native source at (273,484) does not show a separable star marker at the proposed center."
+  },
+  {
+   "operation_id": "op-delete-black-stroke-11",
+   "action": "delete",
+   "point_id": "pt-e3b1a5a63748a505",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False detection from continuous black line ink.",
+   "source_evidence": "Native source at (285,475) shows the thick connecting stroke without a distinct star."
+  },
+  {
+   "operation_id": "op-delete-black-stroke-12",
+   "action": "delete",
+   "point_id": "pt-f378c6e90a7d0d48",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "False detection on the black connecting stroke.",
+   "source_evidence": "Native source at (290,470) contains uninterrupted black stroke pixels and no distinct star center."
+  }
+ ],
+ "uncertainties": [
+  "The dense native low-pressure fan does not safely resolve the unresolved slots at x≈183, x≈193, x≈204, x≈235, x≈260, or the right-edge x≈671 positions; no additions are made from trajectory interpolation.",
+  "The first retained black star near native (266,489) is close to the end of the thick stroke but has a distinct star-shaped native center; further black detections on the stroke were removed.",
+  "The proposed counts are not sufficient to establish complete marker accounting in the dense overlap region.",
+  "The native source supports the visually read green triangle, blue pentagon, and black star marker identities despite raster measurement artifacts.",
+  "No ambiguity contact sheets were supplied in this batch.",
+  "No excluded series or inset points were considered.",
+  "No safe native-pixel evidence supports adding any of the 21 unresolved slots.",
+  "The source panel contains heavy line-marker overlap near the origin, limiting definitive completeness assessment.",
+  "The review remains non-accepting because unresolved slots cannot be safely dispositioned.",
+  "The orange low-pressure markers are crowded against the red and green strokes but remain visibly identifiable.",
+  "The black stroke can mimic star silhouettes at low pressure, so line pixels were not treated as markers.",
+  "The remaining proposed points were kept because their marker shapes and colors are visible in native pixels.",
+  "The red low-pressure proposal at (195,374) was specifically inspected and rejected as line ink.",
+  "Native evidence was inspected before relying on proposal coordinates."
+ ],
+ "coverage": []
+}

@@ -1,0 +1,115 @@
+{
+ "schema_version": "4.0",
+ "master_csv": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\all_data.csv",
+ "accepted_csv": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\all_data_accepted.csv",
+ "review_csv": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\all_data_review.csv",
+ "index_html": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\dashboard.html",
+ "panel_count": 11,
+ "complete_panel_count": 0,
+ "accepted_row_count": 0,
+ "review_row_count": 1937,
+ "row_count": 1937,
+ "missing_or_invalid_panels": [],
+ "panels": [
+  {
+   "panel_dir": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\calf20\\figp1b",
+   "candidate_rows": 104,
+   "accepted_rows": 0,
+   "review_rows": 104,
+   "human_review_applied": false,
+   "status": "partial_review_required",
+   "final_source": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\calf20\\figp1b\\agent04_points.csv"
+  },
+  {
+   "panel_dir": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\calf20_01\\figp1a",
+   "candidate_rows": 333,
+   "accepted_rows": 0,
+   "review_rows": 319,
+   "human_review_applied": false,
+   "status": "partial_review_required",
+   "final_source": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\calf20_01\\figp1a\\agent04_points.csv"
+  },
+  {
+   "panel_dir": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\calf20_02\\figp1a",
+   "candidate_rows": 382,
+   "accepted_rows": 0,
+   "review_rows": 324,
+   "human_review_applied": false,
+   "status": "partial_review_required",
+   "final_source": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\calf20_02\\figp1a\\agent04_points.csv"
+  },
+  {
+   "panel_dir": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_02\\fig2a",
+   "candidate_rows": 267,
+   "accepted_rows": 0,
+   "review_rows": 267,
+   "human_review_applied": false,
+   "status": "partial_review_required",
+   "final_source": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_02\\fig2a\\agent04_points.csv"
+  },
+  {
+   "panel_dir": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_02\\fig2b",
+   "candidate_rows": 89,
+   "accepted_rows": 0,
+   "review_rows": 89,
+   "human_review_applied": false,
+   "status": "partial_review_required",
+   "final_source": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_02\\fig2b\\agent04_points.csv"
+  },
+  {
+   "panel_dir": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_02\\fig3a",
+   "candidate_rows": 55,
+   "accepted_rows": 0,
+   "review_rows": 52,
+   "human_review_applied": false,
+   "status": "partial_review_required",
+   "final_source": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_02\\fig3a\\agent04_points.csv"
+  },
+  {
+   "panel_dir": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_03\\fig2a",
+   "candidate_rows": 525,
+   "accepted_rows": 0,
+   "review_rows": 525,
+   "human_review_applied": false,
+   "status": "partial_review_required",
+   "final_source": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_03\\fig2a\\agent04_points.csv"
+  },
+  {
+   "panel_dir": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_03\\fig2b",
+   "candidate_rows": 105,
+   "accepted_rows": 0,
+   "review_rows": 105,
+   "human_review_applied": false,
+   "status": "partial_review_required",
+   "final_source": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_03\\fig2b\\agent04_points.csv"
+  },
+  {
+   "panel_dir": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_03\\fig3a",
+   "candidate_rows": 65,
+   "accepted_rows": 0,
+   "review_rows": 65,
+   "human_review_applied": false,
+   "status": "partial_review_required",
+   "final_source": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_03\\fig3a\\agent04_points.csv"
+  },
+  {
+   "panel_dir": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\fig3a\\figp1",
+   "candidate_rows": 55,
+   "accepted_rows": 0,
+   "review_rows": 55,
+   "human_review_applied": false,
+   "status": "missing_final",
+   "final_source": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\fig3a\\figp1\\agent04_points.csv"
+  },
+  {
+   "panel_dir": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\single_01\\fig3a",
+   "candidate_rows": 34,
+   "accepted_rows": 0,
+   "review_rows": 34,
+   "human_review_applied": false,
+   "status": "partial_review_required",
+   "final_source": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\single_01\\fig3a\\agent04_points.csv"
+  }
+ ],
+ "complete": false
+}

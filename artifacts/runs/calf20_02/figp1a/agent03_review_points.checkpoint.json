@@ -1,0 +1,27 @@
+{
+ "schema_version": "1.0",
+ "manifest_fingerprint": "e761888514b2f6017381596d2f450940f26aa8e0f7954e38df0b3c8e5fbfdc9b",
+ "batch_count": 9,
+ "batch_files": [
+  "agent03_review_points_batch_001.json",
+  "agent03_review_points_batch_002.json",
+  "agent03_review_points_batch_003.json",
+  "agent03_review_points_batch_004.json",
+  "agent03_review_points_batch_005.json",
+  "agent03_review_points_batch_006.json",
+  "agent03_review_points_batch_007.json",
+  "agent03_review_points_batch_008.json",
+  "agent03_review_points_batch_009.json"
+ ],
+ "batch_fingerprints": {
+  "agent03_review_points_batch_001.json": "3e05c27faf68c1496162647e9f149c78722c6fe91bf0e35611e84a754f2819e8",
+  "agent03_review_points_batch_002.json": "46c29f5ce13806790e7fee5d677179a93e0c047d9f50c70c038dfda708849159",
+  "agent03_review_points_batch_003.json": "ad3a06debbd37bd7666485a99810e555a5e3f6e72aaf60a5231b8b682bc88674",
+  "agent03_review_points_batch_004.json": "97bb35d2186511ff5f846dd41210104cc256c5ed6bb5592c3195b141f26c9e4a",
+  "agent03_review_points_batch_005.json": "9f74893f7771bc34387c5bd2e63f7c67cd76da50e31df7ca9cd9a5aa7cee3b0d",
+  "agent03_review_points_batch_006.json": "e4e47adf8fa40051b0a1245612a5f3e893e3924b1b5fb4d697f010860cb476ce",
+  "agent03_review_points_batch_007.json": "32d70ac21003da324aea554d361170fa5008ca3b21f9a7cede370d9dfc5dc2c9",
+  "agent03_review_points_batch_008.json": "4a4e9a50b5159da4e489ada5f8cf8e709b394098bd26fee382fc5223b0b954bb",
+  "agent03_review_points_batch_009.json": "942a3ec915f75c75be0b3344e51b4979314cc43ae4083d746689bc8c870b4d04"
+ }
+}

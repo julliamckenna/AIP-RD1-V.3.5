@@ -1,0 +1,186 @@
+{
+ "reasoning": "The native ambiguity crops were inspected individually. The crowded red/teal/purple regions in ambiguity_030 through ambiguity_042 and ambiguity_044 do not safely resolve additional CO2 ownership or demonstrate a false candidate, so no edits are applied there. In ambiguity_043, the proposed CO2 373K point at panel pixel (261.29, 711.21) has no supporting dark-blue filled circular glyph in the native crop; the visible pixels belong to other overlapping low-loading series, so the template-filled proposal is deleted. The supplied batch does not establish completeness for the severely undersampled CO2 313K and CO2 323K series or for the absent CO2 363K candidate inventory.",
+ "verdict": "review",
+ "series": [
+  {
+   "label": "CO2 273K",
+   "coverage": "uncertain",
+   "final_count": 39,
+   "comment": "No source-supported correction was established in this batch; global completeness is not resolved by the supplied crops."
+  },
+  {
+   "label": "CO2 283K",
+   "coverage": "uncertain",
+   "final_count": 35,
+   "comment": "The red overlaps in ambiguity_030 through ambiguity_039 cannot be safely separated from the excluded N2 333K series in these crops."
+  },
+  {
+   "label": "CO2 293K",
+   "coverage": "uncertain",
+   "final_count": 44,
+   "comment": "The native crowded crops support retaining the proposed points, but do not establish global completeness."
+  },
+  {
+   "label": "CO2 303K",
+   "coverage": "uncertain",
+   "final_count": 45,
+   "comment": "No safe correction was established in the inspected native crops."
+  },
+  {
+   "label": "CO2 313K",
+   "coverage": "incomplete",
+   "final_count": 15,
+   "comment": "The proposal is explicitly severely undersampled; this batch provides no safely localizable set of missing markers."
+  },
+  {
+   "label": "CO2 323K",
+   "coverage": "incomplete",
+   "final_count": 21,
+   "comment": "The proposal is explicitly severely undersampled; this batch provides no safely localizable set of missing markers."
+  },
+  {
+   "label": "CO2 333K",
+   "coverage": "uncertain",
+   "final_count": 37,
+   "comment": "No safe CO2 correction was established in the inspected overlaps."
+  },
+  {
+   "label": "CO2 343K",
+   "coverage": "uncertain",
+   "final_count": 35,
+   "comment": "No safe correction was established in the inspected native crops."
+  },
+  {
+   "label": "CO2 353K",
+   "coverage": "uncertain",
+   "final_count": 35,
+   "comment": "No safe correction was established in the inspected native crops."
+  },
+  {
+   "label": "CO2 363K",
+   "coverage": "incomplete",
+   "final_count": 0,
+   "comment": "The Python proposal supplies no CO2 363K point rows, while the full panel visibly contains this series; completeness cannot be claimed from this batch."
+  },
+  {
+   "label": "CO2 373K",
+   "coverage": "uncertain",
+   "final_count": 31,
+   "comment": "Deleted one unsupported template-filled proposal in ambiguity_043; remaining global completeness is not established."
+  }
+ ],
+ "operations": [
+  {
+   "operation_id": "op-delete-373-template-043",
+   "action": "delete",
+   "point_id": "pt-175694a25d82abfe",
+   "series_label": "CO2 373K",
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": true,
+   "reason": "The proposed template-filled point at panel pixel (261.29, 711.21) is not supported by a dark-blue filled CO2 373K circle in the untouched native crop. The visible fragments at this location are overlapping non-373K series, so the template placement is a false detection.",
+   "source_evidence": "At full-panel pixel approximately (261.3, 711.2), the native crop shows overlapping purple/teal low-loading glyph fragments but no dark-blue filled circular marker or supported circular fragment.",
+   "evidence_kind": "native_absence",
+   "uncertainty_px": null,
+   "evidence_ref": "ambiguity:ambiguity_043_native.png"
+  }
+ ],
+ "uncertainties": [
+  "The red glyphs in ambiguity_030 through ambiguity_039 are crowded with the excluded N2 333K triangle-left series; native pixels in these crops do not safely establish whether any individual red fragment is a CO2 283K hexagon.",
+  "The low-pressure overlap in ambiguity_040 and ambiguity_041 and the blue/teal overlap in ambiguity_042 and ambiguity_044 do not safely justify additions, moves, deletions, or reassignments.",
+  "The reported Python shortfalls for CO2 313K and CO2 323K remain unresolved because no source-supported marker centres are available in this batch.",
+  "CO2 363K is visibly present in the panel but absent from the supplied proposal rows; this batch does not provide sufficient native evidence to reconstruct its complete point list."
+ ],
+ "coverage": [
+  {
+   "item_id": "ambiguity:ambiguity_030_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "Inspected native crop; red/teal/purple overlap does not safely resolve CO2 283K versus excluded N2 333K ownership."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_031_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "Inspected native crop; no safe series-specific CO2 283K marker centre can be established."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_032_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "Inspected native crop; overlapping red glyphs remain ambiguous between CO2 283K and excluded N2 333K."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_033_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "Inspected native crop; no safe ownership decision for the crowded red fragments."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_034_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "Inspected native crop; red hexagon versus excluded red triangle cannot be resolved safely."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_035_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "Inspected native crop; no source-supported additional CO2 283K edit is safe."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_036_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "Inspected native crop; crowded red series ownership remains unresolved."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_037_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "Inspected native crop; no safe CO2 283K marker centre or reassignment is supported."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_038_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "Inspected native crop; overlapping red glyphs do not safely distinguish the competing series."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_039_native.png",
+   "item_type": "ambiguity",
+   "status": "unresolved",
+   "detail": "Inspected native crop; no safe additional or corrective CO2 operation is supported."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_040_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected the native low-pressure crowding; no candidate is conclusively false and no omitted CO2 marker has a safely estimable centre."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_041_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected the native low-pressure crowding; retained all proposals because overlap does not prove false ownership."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_042_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native overlap around the proposed CO2 273K and CO2 293K points; no safe move, deletion, or reassignment established."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_043_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native crop and deleted the unsupported CO2 373K template-filled proposal at approximately panel pixel (261.3, 711.2)."
+  },
+  {
+   "item_id": "ambiguity:ambiguity_044_native.png",
+   "item_type": "ambiguity",
+   "status": "reviewed",
+   "detail": "Inspected native overlap around the proposed CO2 293K and CO2 303K points; no safe correction established."
+  }
+ ]
+}

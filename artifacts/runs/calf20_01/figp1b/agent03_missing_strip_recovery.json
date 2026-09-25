@@ -1,0 +1,10 @@
+{
+ "enabled": false,
+ "operations": [],
+ "audit": [
+  {
+   "status": "disabled",
+   "detail": "missing-strip recovery is disabled"
+  }
+ ]
+}

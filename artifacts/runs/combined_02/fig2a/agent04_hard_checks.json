@@ -1,0 +1,261 @@
+{
+ "stage": "agent04",
+ "passed": true,
+ "problems": [],
+ "axis_range": {
+  "passed": true,
+  "problems": [],
+  "margin": 0.05,
+  "max_frame_overhang_steps": 1.0,
+  "x": {
+   "unit": "mbar",
+   "scale": "linear",
+   "printed": [
+    0.0,
+    1200.0
+   ],
+   "data": [
+    2.3857,
+    1190.1705
+   ],
+   "points_outside": 0,
+   "passed": true,
+   "frame": [
+    -100.49376117421775,
+    1220.255746001443
+   ],
+   "frame_overhang_steps": [
+    0.5,
+    0.1
+   ],
+   "allowed": [
+    -100.49376117421775,
+    1260.0
+   ]
+  },
+  "y": {
+   "unit": "mmol/g",
+   "scale": "linear",
+   "printed": [
+    0.0,
+    5.0
+   ],
+   "data": [
+    0.0045,
+    5.0104
+   ],
+   "points_outside": 0,
+   "passed": true,
+   "frame": [
+    -0.49778959620576657,
+    5.473646324290013
+   ],
+   "frame_overhang_steps": [
+    0.5,
+    0.47
+   ],
+   "allowed": [
+    -0.49778959620576657,
+    5.473646324290013
+   ]
+  }
+ },
+ "redraw": {
+  "available": true,
+  "series": {
+   "CO2 273K": {
+    "points": 9,
+    "precision": 1.0,
+    "recall": null,
+    "missed_marker_equivalents": null,
+    "same_color_group": [
+     "CO2 273K",
+     "N2 313K"
+    ],
+    "note": "recall not measurable: same color as excluded series N2 313K"
+   },
+   "CO2 283K": {
+    "points": 29,
+    "precision": 1.0,
+    "recall": null,
+    "missed_marker_equivalents": null,
+    "same_color_group": [
+     "CO2 283K",
+     "N2 333K"
+    ],
+    "note": "recall not measurable: same color as excluded series N2 333K"
+   },
+   "CO2 293K": {
+    "points": 28,
+    "precision": 0.893,
+    "recall": null,
+    "missed_marker_equivalents": null,
+    "same_color_group": [
+     "CO2 293K",
+     "N2 293K",
+     "N2 353K"
+    ],
+    "note": "recall not measurable: same color as excluded series N2 293K, N2 353K"
+   },
+   "CO2 303K": {
+    "points": 26,
+    "precision": 0.885,
+    "recall": null,
+    "missed_marker_equivalents": null,
+    "same_color_group": [
+     "CO2 303K",
+     "N2 373K"
+    ],
+    "note": "recall not measurable: same color as excluded series N2 373K"
+   },
+   "CO2 313K": {
+    "points": 4,
+    "precision": 1.0,
+    "recall": 0.269,
+    "missed_marker_equivalents": 96.8,
+    "same_color_group": [
+     "CO2 313K",
+     "CO2 333K",
+     "CO2 373K"
+    ]
+   },
+   "CO2 323K": {
+    "points": 38,
+    "precision": 0.947,
+    "recall": 0.631,
+    "missed_marker_equivalents": 22.0,
+    "same_color_group": [
+     "CO2 323K"
+    ]
+   },
+   "CO2 333K": {
+    "points": 29,
+    "precision": 0.931,
+    "recall": 0.559,
+    "missed_marker_equivalents": 43.8,
+    "same_color_group": [
+     "CO2 313K",
+     "CO2 333K",
+     "CO2 353K",
+     "CO2 373K"
+    ]
+   },
+   "CO2 343K": {
+    "points": 7,
+    "precision": 0.429,
+    "recall": 0.048,
+    "missed_marker_equivalents": 59.1,
+    "same_color_group": [
+     "CO2 343K"
+    ]
+   },
+   "CO2 353K": {
+    "points": 40,
+    "precision": 0.95,
+    "recall": 0.768,
+    "missed_marker_equivalents": 11.3,
+    "same_color_group": [
+     "CO2 333K",
+     "CO2 353K"
+    ]
+   },
+   "CO2 363K": {
+    "points": 33,
+    "precision": 0.97,
+    "recall": 0.909,
+    "missed_marker_equivalents": 3.4,
+    "same_color_group": [
+     "CO2 363K"
+    ]
+   },
+   "CO2 373K": {
+    "points": 24,
+    "precision": 0.917,
+    "recall": null,
+    "missed_marker_equivalents": null,
+    "same_color_group": [
+     "CO2 313K",
+     "CO2 333K",
+     "CO2 373K",
+     "N2 273K"
+    ],
+    "note": "recall not measurable: same color as excluded series N2 273K"
+   }
+  },
+  "recall": 0.531,
+  "precision": 0.902
+ },
+ "physics": {
+  "verdict": "review",
+  "flags": {
+   "CO2 273K": [],
+   "CO2 283K": [
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "ads: local outliers (P,q,resid) [(np.float64(355.332), np.float64(3.598), -0.069)]"
+    }
+   ],
+   "CO2 293K": [],
+   "CO2 303K": [
+    {
+     "check": "monotonic",
+     "detail": "des: uptake decreases at [(np.float64(325.01), np.float64(2.902)), (np.float64(655.281), np.float64(3.227))]"
+    },
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "des: local outliers (P,q,resid) [(np.float64(558.143), np.float64(3.185), 0.057), (np.float64(593.928), np.float64(3.172), -0.077), (np.float64(633.968), np.float64(3.253), 0.054), (np.float64(712.24), np.float64(3.319), 0.051)]"
+    }
+   ],
+   "CO2 313K": [],
+   "CO2 323K": [
+    {
+     "check": "monotonic",
+     "detail": "ads: uptake decreases at [(np.float64(420.73), np.float64(2.604)), (np.float64(658.395), np.float64(2.819))]"
+    },
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "ads: local outliers (P,q,resid) [(np.float64(401.975), np.float64(2.658), 0.076), (np.float64(420.73), np.float64(2.604), -0.07)]"
+    }
+   ],
+   "CO2 333K": [],
+   "CO2 343K": [
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "ads: local outliers (P,q,resid) [(np.float64(81.631), np.float64(1.522), 0.087)]"
+    },
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "des: local outliers (P,q,resid) [(np.float64(81.631), np.float64(1.522), 0.087)]"
+    }
+   ],
+   "CO2 353K": [
+    {
+     "check": "monotonic",
+     "detail": "ads: uptake decreases at [(np.float64(414.738), np.float64(1.843))]"
+    },
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "ads: local outliers (P,q,resid) [(np.float64(236.436), np.float64(1.366), -0.087), (np.float64(715.006), np.float64(2.236), 0.063)]"
+    }
+   ],
+   "CO2 363K": [],
+   "CO2 373K": []
+  },
+  "cross_series": [
+   {
+    "check": "t_ordering",
+    "detail": "CO2 283K exceeds CO2 273K at some pressures — series colors may be swapped"
+   },
+   {
+    "check": "t_ordering",
+    "detail": "CO2 333K exceeds CO2 323K at some pressures — series colors may be swapped"
+   }
+  ]
+ }
+}

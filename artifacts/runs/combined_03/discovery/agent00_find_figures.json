@@ -1,0 +1,1237 @@
+[
+ {
+  "candidate_id": "xref:4",
+  "figure": {
+   "page": 2,
+   "kind": "raster",
+   "file": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_03\\discovery\\python_inventory\\p2_img4.png",
+   "source_id": "xref:4",
+   "width": 1500,
+   "height": 1207,
+   "caption_candidates": [
+    {
+     "figure_number": "1",
+     "caption": "FIGURE 1\nSchematic illustration of sieving behaviors in different pore systems. (a) Conventional molecular sieving occurs when the target\nmolecule A diffuses in a single narrow channel, and the impurity molecule B is completely blocked. (b) Quasi-molecular sieving occurs when target\nmolecule A and impurity molecule B exhibit discrepant diffusion rates while permeating through the narrow channels. (c) Adaptive throat-gate sieving,\nwhere the expanded throat-gate acts as a sieve, blocking the entry of impurity molecule B. The adjacent pocket-shaped space provides an ample\n“adsorption domain” to accommodate target molecule A. Rose pink ball: target molecule A, the diameter is DA; Coral orange ball: impurity molecule B,\nthe diameter is DB.\ntechnologies, such as adsorptive separation using porous mate-\nrials, is crucial for potentially reducing the cost and the energy\nconsumption [11].\nDeveloping specialized adsorbents is the key to the success of\nadsorptive technologies [12, 13]. Among the emerging adsor-\nbent materials, metal-organic frameworks (MOFs) have been\nextensively explored as promising candidates for challenging gas\nseparations, owing to the high tunability and versatile functional-\nity at the molecular level [14–30]. Particularly, molecular sieving\nwith infinite selectivity is recognized as the most ideal separation\napproach [4, 31–39]. Several sieving MOFs with tailored pore size\nand shape to selectively exclude the larger C3H8 molecules from\nthe binary C3H6/C3H8 mixtu"
+    }
+   ],
+   "caption": "FIGURE 1\nSchematic illustration of sieving behaviors in different pore systems. (a) Conventional molecular sieving occurs when the target\nmolecule A diffuses in a single narrow channel, and the impurity molecule B is completely blocked. (b) Quasi-molecular sieving occurs when target\nmolecule A and impurity molecule B exhibit discrepant diffusion rates while permeating through the narrow channels. (c) Adaptive throat-gate sieving,\nwhere the expanded throat-gate acts as a sieve, blocking the entry of impurity molecule B. The adjacent pocket-shaped space provides an ample\n“adsorption domain” to accommodate target molecule A. Rose pink ball: target molecule A, the diameter is DA; Coral orange ball: impurity molecule B,\nthe diameter is DB.\ntechnologies, such as adsorptive separation using porous mate-\nrials, is crucial for potentially reducing the cost and the energy\nconsumption [11].\nDeveloping specialized adsorbents is the key to the success of\nadsorptive technologies [12, 13]. Among the emerging adsor-\nbent materials, metal-organic frameworks (MOFs) have been\nextensively explored as promising candidates for challenging gas\nseparations, owing to the high tunability and versatile functional-\nity at the molecular level [14–30]. Particularly, molecular sieving\nwith infinite selectivity is recognized as the most ideal separation\napproach [4, 31–39]. Several sieving MOFs with tailored pore size\nand shape to selectively exclude the larger C3H8 molecules from\nthe binary C3H6/C3H8 mixtu",
+   "figure_number": "1",
+   "references": [
+    "© 2026 Wiley-VCH GmbH Advanced Materials, 2026; 38:e23278 https://doi.org/10.1002/adma.202523278 1 of 10  FIGURE 1 Schematic illustration of sieving behaviors in different pore systems.",
+    "The conventional molecular sieving approach mostly relies on single narrow channels that allow the complete separation of C3H6 from C3H8 based on molecular size or shape cut-off, avoiding the co-adsorption of C3H8 (Figure 1a).",
+    "On the other hand, quasi-molecular sieving has been proven beneficial by accelerating C3H6 diffusion within the channel, while providing an extended adsorption domain to accommodate high C3H6 loading (Figure 1b) [46, 49, 50].",
+    "The adjacent large cavities provide an ample “adsorption domain”, where internal volume not only accommodates a high loading of C3H6 molecules but also minimizes diffusion resistance to allow the adsorbed C3H6 to migrate freely (Figure 1c).",
+    "CALF-20 is com- posed of layers of 1,2,4-triazolate-bridged zinc(II) ions pillared by oxalate ions to form a three- dimensional (3D) lattice and 3D pore structure (Fig. 1, A to C).",
+    "The bulk powder shows the same phase (Fig. 1D).",
+    "The “roll-up” effect of N2, whereby the outlet composition of N2 was higher than its inlet value, until CO2 broke through is clearly Lin et al., Science 374, 1464–1469 (2021) 17 December 2021 2 of 6 Fig. 1.",
+    "Atom colors are the same as shown in Fig. 1B.",
+    "As shown in Fig. 1, the Zn center is five-coordinated with two nitrogen atoms (N4, N1B) from two bpt2 ligands and three carboxylate oxygen atoms (O1, O2C, O3C) from different btc32 ligands, resulting in a distorted square pyramid geometry, in which N4, N1B, O2C Scheme 1 The ligands 3,5-bis(pyrazinyl)-1,2,4-trizole (Hbpt) and 1,3,5-benzene- tricarboxylic acid (H3btc)."
+   ]
+  },
+  "answer": {
+   "reasoning": "The candidate matches Figure 1 on the source page. It is a conceptual illustration of three sieving mechanisms, not an experimental adsorption figure. The three physical axis frames on the right plot generic normalized outlet concentration C/C0 versus time for abstract molecules A and B; no series is identified as CO2, and the plots are not equilibrium uptake-versus-pressure isotherms. They are therefore ineligible under the figure-isotherm rule and the concentration-time breakthrough exclusion.",
+   "figure_number": "1",
+   "matched_caption": "FIGURE 1 | Schematic illustration of sieving behaviors in different pore systems. (a) Conventional molecular sieving occurs when the target molecule A diffuses in a single narrow channel, and the impurity molecule B is completely blocked. (b) Quasi-molecular sieving occurs when target molecule A and impurity molecule B exhibit discrepant diffusion rates while permeating through the narrow channels. (c) Adaptive throat-gate sieving, where the expanded throat-gate acts as a sieve, blocking the entry of impurity molecule B. The adjacent pocket-shaped space provides an ample “adsorption domain” to accommodate target molecule A. Rose pink ball: target molecule A, the diameter is DA; Coral orange ball: impurity molecule B, the diameter is DB.",
+   "figure_is_relevant": false,
+   "si_has_tabulated_data": "unknown",
+   "panels": [
+    {
+     "panel": "a",
+     "is_co2_isotherm": false,
+     "reason": "Generic schematic of C/C0 versus time for molecules A and B; it is neither CO2-specific nor an equilibrium uptake-versus-pressure isotherm.",
+     "bbox_norm": [
+      0.59,
+      0.01,
+      0.99,
+      0.31
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    },
+    {
+     "panel": "b",
+     "is_co2_isotherm": false,
+     "reason": "Generic schematic concentration-time response for quasi-molecular sieving; no CO2 uptake axis or CO2 attribution is present.",
+     "bbox_norm": [
+      0.59,
+      0.34,
+      0.99,
+      0.65
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    },
+    {
+     "panel": "c",
+     "is_co2_isotherm": false,
+     "reason": "Generic schematic concentration-time response for adaptive throat-gate sieving; it does not report direct CO2 loading or an equilibrium isotherm.",
+     "bbox_norm": [
+      0.59,
+      0.69,
+      0.99,
+      0.99
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    }
+   ],
+   "context": {
+    "adsorbent": "No specific adsorbent is identified; the figure presents generic pore-system concepts.",
+    "sample_form": "Not applicable; conceptual schematic.",
+    "activation": "Not reported.",
+    "instrument": "Not reported.",
+    "measurement_notes": "No experimental adsorption measurement is shown. The right-hand plots are schematic C/C0-versus-time responses for abstract target molecule A and impurity molecule B.",
+    "other_parameters": "The caption defines DA and DB as the diameters of target molecule A and impurity molecule B, respectively, and illustrates conventional, quasi-molecular, and adaptive throat-gate sieving."
+   }
+  },
+  "provenance": {
+   "agent_name": "agent00-discovery",
+   "agent_version": "6",
+   "response_id": "resp_0d078ea3842a09c1006ab5a48149088194b54cc63de4f33890",
+   "usage": {
+    "input_tokens": 8313,
+    "input_tokens_details": {
+     "cache_write_tokens": 8310,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1017,
+    "output_tokens_details": {
+     "reasoning_tokens": 381
+    },
+    "total_tokens": 9330
+   },
+   "created_at": "2026-09-24T22:30:24.456277+00:00",
+   "dry_run": false
+  },
+  "input_fingerprint": "768eafbc89936cc3368910cf61e7a1190857eabf2113eb339a2b2e71fada7c10"
+ },
+ {
+  "candidate_id": "xref:11",
+  "figure": {
+   "page": 3,
+   "kind": "raster",
+   "file": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_03\\discovery\\python_inventory\\p3_img11.png",
+   "source_id": "xref:11",
+   "width": 950,
+   "height": 1189,
+   "caption_candidates": [
+    {
+     "figure_number": "2",
+     "caption": "FIGURE 2\nIllustration of the framework structure and pore geom-\netry of NUM-27 and NUM-27a. (a) The single-crystal-to-single-crystal\ntransformations. (b) Framework of NUM-27 and NUM-27a. (c) Pore\nchannels of NUM-27a with a large pocket cavity and a narrow throat gate\nviewed along a representative direction. Color code: C, gray; N, light blue;\nH, white; O, red; S, yellow; Zn, blue-gray.\nformed by the involvement of MeOH molecules within the\nframework serves as a thermodynamic driving force, further\ntriggering structural rearrangement. Upon guest removal, the\ncleavage of Zn─N coordination bonds occurs, accompanied by the\nconformational rotation of ATZ rings driven by thermodynamics.\nUltimately, the coordination mode between Zn2+ centers and ATZ\nrings is completely reconfigured, and MeOH molecules dissociate\nfrom the coordination environment, leading to the formation\nof the activated phase NUM-27a [Zn2(ATZ)2SO4] (Figure 2a,b,\nand Figure S9). The skeleton of NUM-27a incorporates a regular\npocket-shaped space interconnected by a narrow throat-sieving\ngate (Figure 2c). Notably, the throat gate aperture is constructed\nby four Zn2+ centers, two ATZ rings, and two SO4\n2−, with the\nshortest distance between adjacent SO4\n2−being 4.34 Å. The\npocket-like cavity (5.97 × 6.03 × 5.75 Å3) possesses adequate\nvolume to accommodate both C3H6 and C3H8 guest molecules,\nwhereas the throat gate size (4.34 Å) is slightly narrower than\nC3H8. Moreover, the degrees of freedom provided by the tridentate\n"
+    }
+   ],
+   "caption": "FIGURE 2\nIllustration of the framework structure and pore geom-\netry of NUM-27 and NUM-27a. (a) The single-crystal-to-single-crystal\ntransformations. (b) Framework of NUM-27 and NUM-27a. (c) Pore\nchannels of NUM-27a with a large pocket cavity and a narrow throat gate\nviewed along a representative direction. Color code: C, gray; N, light blue;\nH, white; O, red; S, yellow; Zn, blue-gray.\nformed by the involvement of MeOH molecules within the\nframework serves as a thermodynamic driving force, further\ntriggering structural rearrangement. Upon guest removal, the\ncleavage of Zn─N coordination bonds occurs, accompanied by the\nconformational rotation of ATZ rings driven by thermodynamics.\nUltimately, the coordination mode between Zn2+ centers and ATZ\nrings is completely reconfigured, and MeOH molecules dissociate\nfrom the coordination environment, leading to the formation\nof the activated phase NUM-27a [Zn2(ATZ)2SO4] (Figure 2a,b,\nand Figure S9). The skeleton of NUM-27a incorporates a regular\npocket-shaped space interconnected by a narrow throat-sieving\ngate (Figure 2c). Notably, the throat gate aperture is constructed\nby four Zn2+ centers, two ATZ rings, and two SO4\n2−, with the\nshortest distance between adjacent SO4\n2−being 4.34 Å. The\npocket-like cavity (5.97 × 6.03 × 5.75 Å3) possesses adequate\nvolume to accommodate both C3H6 and C3H8 guest molecules,\nwhereas the throat gate size (4.34 Å) is slightly narrower than\nC3H8. Moreover, the degrees of freedom provided by the tridentate\n",
+   "figure_number": "2",
+   "references": [
+    "The unbalanced coordination environment FIGURE 2 Illustration of the framework structure and pore geom- etry of NUM-27 and NUM-27a.",
+    "Ultimately, the coordination mode between Zn2+ centers and ATZ rings is completely reconfigured, and MeOH molecules dissociate from the coordination environment, leading to the formation of the activated phase NUM-27a [Zn2(ATZ)2SO4] (Figure 2a,b, and Figure S9).",
+    "The skeleton of NUM-27a incorporates a regular pocket-shaped space interconnected by a narrow throat-sieving gate (Figure 2c).",
+    "Gas adsorption experiments were performed for CO2 and N2 (Fig. 2A).",
+    "CALF-20 structured readily as a 20% polysulfone com- posite and retained the expected porosity (Fig. 2, B and C, and fig.",
+    "The water sorption profile of CALF- 20 was unusual in that, for a solid with good physisorptive capacity for CO2, it exhibited poor water uptake at low partial pressures (Fig. 2, D and E).",
+    "Comparisons to zeolite 13X (37), as well as two other water-resistant MOFs, CAU-10 (38) and Al fumarate (39), are included in Fig. 2and fig.",
+    "Notably, a key feature of CALF-20 was the absence of any Lin et al., Science 374, 1464–1469 (2021) 17 December 2021 3 of 6 Fig. 2."
+   ]
+  },
+  "answer": {
+   "reasoning": "The extracted image matches Fig. 2 on the source page: its three labeled panels depict the guest-removal transformation, framework structures, and pore geometry of NUM-27/NUM-27a. None contains an axis frame or plots equilibrium CO2 uptake against pressure, so the figure is not eligible as a CO2 adsorption isotherm source.",
+   "figure_number": "2",
+   "matched_caption": "FIGURE 2 | Illustration of the framework structure and pore geometry of NUM-27 and NUM-27a. (a) The single-crystal-to-single-crystal transformations. (b) Framework of NUM-27 and NUM-27a. (c) Pore channels of NUM-27a with a large pocket cavity and a narrow throat gate viewed along a representative direction. Color code: C, gray; N, light blue; H, white; O, red; S, yellow; Zn, blue-gray.",
+   "figure_is_relevant": false,
+   "si_has_tabulated_data": "unknown",
+   "panels": [
+    {
+     "panel": "a",
+     "is_co2_isotherm": false,
+     "reason": "Structural illustration of the single-crystal-to-single-crystal transformation from NUM-27 to NUM-27a upon guest removal; no adsorption axes or CO2 uptake series are present.",
+     "bbox_norm": [
+      0.0,
+      0.0,
+      1.0,
+      0.33
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    },
+    {
+     "panel": "b",
+     "is_co2_isotherm": false,
+     "reason": "Framework views before and after guest removal; this is a molecular structure illustration rather than an adsorption isotherm.",
+     "bbox_norm": [
+      0.0,
+      0.33,
+      1.0,
+      0.67
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    },
+    {
+     "panel": "c",
+     "is_co2_isotherm": false,
+     "reason": "Pore-channel geometry showing the throat gate and pocket cavity dimensions; it does not plot CO2 uptake versus pressure.",
+     "bbox_norm": [
+      0.0,
+      0.67,
+      1.0,
+      1.0
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    }
+   ],
+   "context": {
+    "adsorbent": "NUM-27 and its activated phase NUM-27a, [Zn2(ATZ)2SO4]",
+    "sample_form": "Single-crystalline metal–organic framework shown as structural models; the page states that NUM-27 crystallizes as colorless blocks.",
+    "activation": "Guest removal from NUM-27-MeOH causes Zn–N bond cleavage, ATZ-ring rotation, coordination reconfiguration, and dissociation of coordinated MeOH, producing NUM-27a.",
+    "instrument": "No gas-sorption instrument is reported in this figure or caption; the surrounding text discusses single-crystal X-ray diffraction and PXRD characterization.",
+    "measurement_notes": "No CO2 adsorption measurement is shown. Panel (c) illustrates a pocket-shaped cavity interconnected by a narrow throat-sieving gate.",
+    "other_parameters": "The surrounding text reports a 4.34 Å throat-gate aperture and a 5.97 × 6.03 × 5.75 Å³ pocket cavity. These are structural dimensions, not CO2 uptake data."
+   }
+  },
+  "provenance": {
+   "agent_name": "agent00-discovery",
+   "agent_version": "6",
+   "response_id": "resp_0af3d55784de7f12006ab5a49022088195a07a2673264fc252",
+   "usage": {
+    "input_tokens": 7417,
+    "input_tokens_details": {
+     "cache_write_tokens": 7414,
+     "cached_tokens": 0
+    },
+    "output_tokens": 872,
+    "output_tokens_details": {
+     "reasoning_tokens": 221
+    },
+    "total_tokens": 8289
+   },
+   "created_at": "2026-09-24T22:30:36.638282+00:00",
+   "dry_run": false
+  },
+  "input_fingerprint": "5d4768fe00201c7a5f941404a63f0817db34fc0bdaa24cfc51d1477f81198347"
+ },
+ {
+  "candidate_id": "xref:16",
+  "figure": {
+   "page": 4,
+   "kind": "raster",
+   "file": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_03\\discovery\\python_inventory\\p4_img16.png",
+   "source_id": "xref:16",
+   "width": 2051,
+   "height": 1712,
+   "caption_candidates": [
+    {
+     "figure_number": "3",
+     "caption": "FIGURE 3\nGas sorption properties of NUM-27a. (a) N2 adsorption–desorption isotherm at 77 K and CO2 adsorption–desorption isotherm at 195 K\nfor NUM-27a. (b) The adsorption isotherms of C3H6 and C3H8 on NUM-27a at 298 K (Inset: the isotherm is presented in semilogarithmic scale to point\nout details in the low-pressure region). (c) Cycling test of C3H6 adsorption measurements on NUM-27a at 298 K from 0 to 1.0 bar. (d) The adsorption\nkinetic profiles of C3H6 and C3H8 on NUM-27a at 298 K. (e) The fitting of the kinetic curve for C3H6 at 298 and 313 K. (f) IAST selectivity for equimolar\nC3H6/C3H8 mixture at 298 K. (g) Isosteric heat of adsorption of C3H6 for NUM-27a. (h) Comparison of the zero-coverage heat of adsorption of C3H6 and\nuptake at 298 K and 0.01 bar with those of typical MOF materials for C3H6/C3H8 sieving separation. (i) Comparison of C3H6 packing density at 298 K\nand 0.01 bar with those of top-performing MOF materials.\npeaks (such as 100 and 011 planes) of NUM-27a exhibit a shift\ntoward higher angles relative to those of NUM-27 (Figure 5a),\nindicating structural changes. The simulated PXRD patterns of\nHAF-1, Zn2(aTz)2SO4, and NUM-27a further corroborate the\nstructural differences among these three frameworks (Figure\nS13). Thermogravimetric analysis (TGA) reveals an initial weight\nloss of 12.6% observed from 25◦C to 171◦C, which is attributed to\nthe removal of four water molecules in NUM-27. This value is in\nagreement with the 15.5% weight loss calculated from the SCXR"
+    }
+   ],
+   "caption": "FIGURE 3\nGas sorption properties of NUM-27a. (a) N2 adsorption–desorption isotherm at 77 K and CO2 adsorption–desorption isotherm at 195 K\nfor NUM-27a. (b) The adsorption isotherms of C3H6 and C3H8 on NUM-27a at 298 K (Inset: the isotherm is presented in semilogarithmic scale to point\nout details in the low-pressure region). (c) Cycling test of C3H6 adsorption measurements on NUM-27a at 298 K from 0 to 1.0 bar. (d) The adsorption\nkinetic profiles of C3H6 and C3H8 on NUM-27a at 298 K. (e) The fitting of the kinetic curve for C3H6 at 298 and 313 K. (f) IAST selectivity for equimolar\nC3H6/C3H8 mixture at 298 K. (g) Isosteric heat of adsorption of C3H6 for NUM-27a. (h) Comparison of the zero-coverage heat of adsorption of C3H6 and\nuptake at 298 K and 0.01 bar with those of typical MOF materials for C3H6/C3H8 sieving separation. (i) Comparison of C3H6 packing density at 298 K\nand 0.01 bar with those of top-performing MOF materials.\npeaks (such as 100 and 011 planes) of NUM-27a exhibit a shift\ntoward higher angles relative to those of NUM-27 (Figure 5a),\nindicating structural changes. The simulated PXRD patterns of\nHAF-1, Zn2(aTz)2SO4, and NUM-27a further corroborate the\nstructural differences among these three frameworks (Figure\nS13). Thermogravimetric analysis (TGA) reveals an initial weight\nloss of 12.6% observed from 25◦C to 171◦C, which is attributed to\nthe removal of four water molecules in NUM-27. This value is in\nagreement with the 15.5% weight loss calculated from the SCXR",
+   "figure_number": "3",
+   "references": [
+    "However, certain diffraction Advanced Materials, 2026 3 of 10  FIGURE 3 Gas sorption properties of NUM-27a.",
+    "The permanent porosity of the NUM-27a was investigated using both N2 and CO2 as probe gases (Figure 3a).",
+    "The most probable CO2 binding, which lies in the middle of the CALF-20 pore (Fig. 3A), had a binding energy of −34.5 kJ mol−1 based on the GCMC force field; the density functional theory (DFT) value with dispersion corrections was −36.5 kJ mol−1.",
+    "The experimental water isotherm had a general S-shape, where the water uptake was initially low until ~10% relative humidity (RH), at which point there was a steep rise until ~30% RH (Fig. 3B).",
+    "A snapshot from the pure water simulation at 20% RH, where the water uptake was roughly half the saturation limit (Fig. 3C), revealed that the pores were either full of water molecules, forming a hydrogen-bonded network, or com- pletely empty.",
+    "We extracted the water binding sites at 20% RH with the highest probability from the GCMC simulations, and the top three bind- ing sites, in order, are labeled i, ii, and, iii in Fig. 3D.",
+    "The nature of the water and CO2 binding from the single-component water simulations and dry CO2/N2 simulations presented in Fig. 3 was consistent with the preferential binding of CO2 over water observed at low RHs.",
+    "Further, in large-scale Lin et al., Science 374, 1464–1469 (2021) 17 December 2021 4 of 6 Fig. 3."
+   ]
+  },
+  "answer": {
+   "reasoning": "The extracted image matches the page's printed FIGURE 3 caption by its nine labeled panels and their stated contents. Panel (a) is the only eligible CO2 isotherm panel: it plots CO2 adsorption–desorption uptake versus relative pressure at 195 K, together with an N2 series at 77 K. Its embedded low-pressure plot is an inset and must be masked. Panel (b) is a C3H6/C3H8 isotherm with an inset, while panels (c)–(i) show cycling, kinetics, fitting, selectivity, heat of adsorption, and comparative metrics; none is a CO2 uptake isotherm. No evidence supplied indicates that the SI contains tabulated isotherm data.",
+   "figure_number": "3",
+   "matched_caption": "FIGURE 3 | Gas sorption properties of NUM-27a. (a) N2 adsorption–desorption isotherm at 77 K and CO2 adsorption–desorption isotherm at 195 K for NUM-27a. (b) The adsorption isotherms of C3H6 and C3H8 on NUM-27a at 298 K (Inset: the isotherm is presented in semilogarithmic scale to point out details in the low-pressure region). (c) Cycling test of C3H6 adsorption measurements on NUM-27a at 298 K from 0 to 1.0 bar. (d) The adsorption kinetic profiles of C3H6 and C3H8 on NUM-27a at 298 K. (e) The fitting of the kinetic curve for C3H6 at 298 and 313 K. (f) IAST selectivity for equimolar C3H6/C3H8 mixture at 298 K. (g) Isosteric heat of adsorption of C3H6 for NUM-27a. (h) Comparison of the zero-coverage heat of adsorption of C3H6 and uptake at 298 K and 0.01 bar with those of typical MOF materials for C3H6/C3H8 sieving separation. (i) Comparison of C3H6 packing density at 298 K and 0.01 bar with those of top-performing MOF materials.",
+   "figure_is_relevant": true,
+   "si_has_tabulated_data": "unknown",
+   "panels": [
+    {
+     "panel": "a",
+     "is_co2_isotherm": true,
+     "reason": "CO2 adsorption–desorption uptake at 195 K is plotted against relative pressure P/P0; the same axis also contains an N2 isotherm at 77 K. The embedded low-relative-pressure chart is an inset and is excluded from extraction.",
+     "bbox_norm": [
+      0.0,
+      0.01,
+      0.33,
+      0.34
+     ],
+     "has_inset": true,
+     "inset_bbox_norm": [
+      0.123,
+      0.101,
+      0.257,
+      0.231
+     ]
+    },
+    {
+     "panel": "b",
+     "is_co2_isotherm": false,
+     "reason": "This panel plots C3H6 and C3H8 adsorption isotherms at 298 K, not CO2. Its semilogarithmic inset is also excluded.",
+     "bbox_norm": [
+      0.334,
+      0.01,
+      0.67,
+      0.34
+     ],
+     "has_inset": true,
+     "inset_bbox_norm": [
+      0.439,
+      0.102,
+      0.608,
+      0.231
+     ]
+    },
+    {
+     "panel": "c",
+     "is_co2_isotherm": false,
+     "reason": "Cycling test of C3H6 adsorption at 298 K; it is neither a CO2 isotherm nor an eligible direct CO2 uptake chart.",
+     "bbox_norm": [
+      0.674,
+      0.01,
+      1.0,
+      0.34
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    },
+    {
+     "panel": "d",
+     "is_co2_isotherm": false,
+     "reason": "Time-dependent adsorption kinetic profiles for C3H6 and C3H8 at 298 K, with no CO2 series.",
+     "bbox_norm": [
+      0.0,
+      0.324,
+      0.33,
+      0.677
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    },
+    {
+     "panel": "e",
+     "is_co2_isotherm": false,
+     "reason": "Kinetic-curve fitting for C3H6 at 298 and 313 K, not a CO2 equilibrium uptake isotherm.",
+     "bbox_norm": [
+      0.334,
+      0.324,
+      0.67,
+      0.677
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    },
+    {
+     "panel": "f",
+     "is_co2_isotherm": false,
+     "reason": "IAST selectivity for an equimolar C3H6/C3H8 mixture; selectivity-only charts are excluded.",
+     "bbox_norm": [
+      0.674,
+      0.324,
+      1.0,
+      0.677
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    },
+    {
+     "panel": "g",
+     "is_co2_isotherm": false,
+     "reason": "Isosteric heat of C3H6 adsorption versus uptake; heat of adsorption is excluded and no CO2 isotherm is shown.",
+     "bbox_norm": [
+      0.0,
+      0.67,
+      0.33,
+      1.0
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    },
+    {
+     "panel": "h",
+     "is_co2_isotherm": false,
+     "reason": "Comparative plot of C3H6 heat of adsorption and uptake among MOFs, not a CO2 isotherm.",
+     "bbox_norm": [
+      0.334,
+      0.67,
+      0.67,
+      1.0
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    },
+    {
+     "panel": "i",
+     "is_co2_isotherm": false,
+     "reason": "Bar chart comparing C3H6 packing density among MOFs; it contains no CO2 series and bar charts are excluded.",
+     "bbox_norm": [
+      0.674,
+      0.67,
+      1.0,
+      1.0
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    }
+   ],
+   "context": {
+    "adsorbent": "NUM-27a",
+    "sample_form": "Activated porous framework; physical form was not specified in the supplied figure or page text.",
+    "activation": "The supplied evidence does not state the activation temperature, duration, or vacuum conditions used to prepare NUM-27a.",
+    "instrument": "Not specified in the supplied figure, caption, or page text.",
+    "measurement_notes": "Panel (a) reports CO2 adsorption–desorption at 195 K as uptake in cm³ g⁻¹ versus relative pressure P/P0, over approximately P/P0 = 0–1. N2 adsorption–desorption at 77 K is shown on the same axis. A low-relative-pressure inset is present and must be masked.",
+    "other_parameters": "The page text identifies CO2 as the preferred probe because NUM-27a's narrowed channel creates a significant diffusion barrier for N2 at 77 K. Adsorption and desorption branches are shown; no uncertainty, replicate count, or tabulated SI dataset is identified in the supplied evidence."
+   }
+  },
+  "provenance": {
+   "agent_name": "agent00-discovery",
+   "agent_version": "6",
+   "response_id": "resp_0a5646bbce34422c006ab5a49c51bc8195ba844a3dfe85838b",
+   "usage": {
+    "input_tokens": 8692,
+    "input_tokens_details": {
+     "cache_write_tokens": 8689,
+     "cached_tokens": 0
+    },
+    "output_tokens": 2123,
+    "output_tokens_details": {
+     "reasoning_tokens": 683
+    },
+    "total_tokens": 10815
+   },
+   "created_at": "2026-09-24T22:31:00.336223+00:00",
+   "dry_run": false
+  },
+  "input_fingerprint": "9fa0219b908c42f71d687ca78811dcc0a62926f22fc61f3b3c40b04d62c777b2"
+ },
+ {
+  "candidate_id": "xref:59",
+  "figure": {
+   "page": 6,
+   "kind": "raster",
+   "file": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_03\\discovery\\python_inventory\\p6_img59.png",
+   "source_id": "xref:59",
+   "width": 1472,
+   "height": 1147,
+   "caption_candidates": [
+    {
+     "figure_number": "1",
+     "caption": "Fig. 1. Single-crystal structure of CALF-20. (A) View of the two-dimensional zinc triazolate grid. (B) View\northogonal to (A) showing the pillaring of the zinc triazolate layers by oxalate anions. (C) View of the zinc\ncoordination sphere (H atoms removed). (D) Powder x-ray pattern simulated from the single-crystal\nstructure (top) and obtained experimentally.\nRESEARCH\n|\nRESEARCH ARTICLE\nDownloaded from https://www.science.org on November 16, 2023"
+    }
+   ],
+   "caption": "Fig. 1. Single-crystal structure of CALF-20. (A) View of the two-dimensional zinc triazolate grid. (B) View\northogonal to (A) showing the pillaring of the zinc triazolate layers by oxalate anions. (C) View of the zinc\ncoordination sphere (H atoms removed). (D) Powder x-ray pattern simulated from the single-crystal\nstructure (top) and obtained experimentally.\nRESEARCH\n|\nRESEARCH ARTICLE\nDownloaded from https://www.science.org on November 16, 2023",
+   "figure_number": "1",
+   "references": [
+    "© 2026 Wiley-VCH GmbH Advanced Materials, 2026; 38:e23278 https://doi.org/10.1002/adma.202523278 1 of 10  FIGURE 1 Schematic illustration of sieving behaviors in different pore systems.",
+    "The conventional molecular sieving approach mostly relies on single narrow channels that allow the complete separation of C3H6 from C3H8 based on molecular size or shape cut-off, avoiding the co-adsorption of C3H8 (Figure 1a).",
+    "On the other hand, quasi-molecular sieving has been proven beneficial by accelerating C3H6 diffusion within the channel, while providing an extended adsorption domain to accommodate high C3H6 loading (Figure 1b) [46, 49, 50].",
+    "The adjacent large cavities provide an ample “adsorption domain”, where internal volume not only accommodates a high loading of C3H6 molecules but also minimizes diffusion resistance to allow the adsorbed C3H6 to migrate freely (Figure 1c).",
+    "CALF-20 is com- posed of layers of 1,2,4-triazolate-bridged zinc(II) ions pillared by oxalate ions to form a three- dimensional (3D) lattice and 3D pore structure (Fig. 1, A to C).",
+    "The bulk powder shows the same phase (Fig. 1D).",
+    "The “roll-up” effect of N2, whereby the outlet composition of N2 was higher than its inlet value, until CO2 broke through is clearly Lin et al., Science 374, 1464–1469 (2021) 17 December 2021 2 of 6 Fig. 1.",
+    "Atom colors are the same as shown in Fig. 1B.",
+    "As shown in Fig. 1, the Zn center is five-coordinated with two nitrogen atoms (N4, N1B) from two bpt2 ligands and three carboxylate oxygen atoms (O1, O2C, O3C) from different btc32 ligands, resulting in a distorted square pyramid geometry, in which N4, N1B, O2C Scheme 1 The ligands 3,5-bis(pyrazinyl)-1,2,4-trizole (Hbpt) and 1,3,5-benzene- tricarboxylic acid (H3btc)."
+   ]
+  },
+  "answer": {
+   "reasoning": "The extracted candidate matches Fig. 1 on the source page by its four labeled panels: three CALF-20 crystal-structure renderings (A–C) and a simulated/experimental powder x-ray diffraction pattern (D). None is an equilibrium uptake-versus-pressure plot, and the PXRD panel is not an eligible CO2 uptake measurement. Therefore, this figure is not relevant for CO2 isotherm extraction.",
+   "figure_number": "1",
+   "matched_caption": "Fig. 1. Single-crystal structure of CALF-20. (A) View of the two-dimensional zinc triazolate grid. (B) View orthogonal to (A) showing the pillaring of the zinc triazolate layers by oxalate anions. (C) View of the zinc coordination sphere (H atoms removed). (D) Powder x-ray pattern simulated from the single-crystal structure (top) and obtained experimentally.",
+   "figure_is_relevant": false,
+   "si_has_tabulated_data": "unknown",
+   "panels": [
+    {
+     "panel": "A",
+     "is_co2_isotherm": false,
+     "reason": "Crystal-structure rendering of the two-dimensional zinc triazolate grid; no adsorption axes or CO2 uptake data.",
+     "bbox_norm": [
+      0.0,
+      0.0,
+      0.44,
+      0.49
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    },
+    {
+     "panel": "B",
+     "is_co2_isotherm": false,
+     "reason": "Crystal-structure rendering showing oxalate-pillared zinc triazolate layers; no adsorption axes or CO2 uptake data.",
+     "bbox_norm": [
+      0.47,
+      0.0,
+      1.0,
+      0.5
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    },
+    {
+     "panel": "C",
+     "is_co2_isotherm": false,
+     "reason": "Molecular rendering of the zinc coordination sphere; no adsorption axes or CO2 uptake data.",
+     "bbox_norm": [
+      0.0,
+      0.5,
+      0.44,
+      1.0
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    },
+    {
+     "panel": "D",
+     "is_co2_isotherm": false,
+     "reason": "Simulated and experimental powder x-ray diffraction intensity plotted against 2-theta, not CO2 uptake versus pressure.",
+     "bbox_norm": [
+      0.46,
+      0.5,
+      1.0,
+      1.0
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    }
+   ],
+   "context": {
+    "adsorbent": "CALF-20",
+    "sample_form": "Single-crystal structure renderings and bulk powder used for experimental PXRD.",
+    "activation": "Not reported for this figure.",
+    "instrument": "Powder x-ray diffraction instrument not specified in the visible caption or figure discussion.",
+    "measurement_notes": "Panels A–C depict the CALF-20 framework and zinc coordination environment. Panel D compares a powder x-ray pattern simulated from the single-crystal structure with an experimentally obtained pattern; it contains no gas-sorption measurement.",
+    "other_parameters": "CALF-20 consists of 1,2,4-triazolate-bridged zinc(II) layers pillared by oxalate ions. The page states that the bulk powder has the same phase as the single-crystal structure."
+   }
+  },
+  "provenance": {
+   "agent_name": "agent00-discovery",
+   "agent_version": "6",
+   "response_id": "resp_0a979e03fc3aba8b006ab5a4b3cec481958a3290630cca80d4",
+   "usage": {
+    "input_tokens": 7817,
+    "input_tokens_details": {
+     "cache_write_tokens": 7814,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1007,
+    "output_tokens_details": {
+     "reasoning_tokens": 352
+    },
+    "total_tokens": 8824
+   },
+   "created_at": "2026-09-24T22:31:12.437899+00:00",
+   "dry_run": false
+  },
+  "input_fingerprint": "2d7fe093bc390f9e31495b4054d9b0ef0c66524339e6460caef2d322084c1909"
+ },
+ {
+  "candidate_id": "xref:73",
+  "figure": {
+   "page": 7,
+   "kind": "raster",
+   "file": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_03\\discovery\\python_inventory\\p7_img73.png",
+   "source_id": "xref:73",
+   "width": 1473,
+   "height": 2150,
+   "caption_candidates": [
+    {
+     "figure_number": "2",
+     "caption": "Fig. 2. Equilibrium gas uptake data on pure CALF-20. (A) CO2 and N2 isotherms from 273 to 373 K on\npure CALF-20. (B to D) Structured CALF-20 (80% MOF:20% polysulfone). (B) CO2 isotherms from 303\nto 373 K. (C) N2 isotherms from 303 to 353 K. (D) H2O isotherms from 295 K to 373 K. (E) A comparison of\nH2O isotherm on zeolite 13X (37), CAU-10 (38), Al fumarate (39) and structured CALF-20 at 295 K. The\nisotherms of CO2 and N2 were measured by volumetry, and that of H2O was measured by gravimetry.\nRESEARCH\n|\nRESEARCH ARTICLE\nDownloaded from https://www.science.org on November 16, 2023"
+    }
+   ],
+   "caption": "Fig. 2. Equilibrium gas uptake data on pure CALF-20. (A) CO2 and N2 isotherms from 273 to 373 K on\npure CALF-20. (B to D) Structured CALF-20 (80% MOF:20% polysulfone). (B) CO2 isotherms from 303\nto 373 K. (C) N2 isotherms from 303 to 353 K. (D) H2O isotherms from 295 K to 373 K. (E) A comparison of\nH2O isotherm on zeolite 13X (37), CAU-10 (38), Al fumarate (39) and structured CALF-20 at 295 K. The\nisotherms of CO2 and N2 were measured by volumetry, and that of H2O was measured by gravimetry.\nRESEARCH\n|\nRESEARCH ARTICLE\nDownloaded from https://www.science.org on November 16, 2023",
+   "figure_number": "2",
+   "references": [
+    "The unbalanced coordination environment FIGURE 2 Illustration of the framework structure and pore geom- etry of NUM-27 and NUM-27a.",
+    "Ultimately, the coordination mode between Zn2+ centers and ATZ rings is completely reconfigured, and MeOH molecules dissociate from the coordination environment, leading to the formation of the activated phase NUM-27a [Zn2(ATZ)2SO4] (Figure 2a,b, and Figure S9).",
+    "The skeleton of NUM-27a incorporates a regular pocket-shaped space interconnected by a narrow throat-sieving gate (Figure 2c).",
+    "Gas adsorption experiments were performed for CO2 and N2 (Fig. 2A).",
+    "CALF-20 structured readily as a 20% polysulfone com- posite and retained the expected porosity (Fig. 2, B and C, and fig.",
+    "The water sorption profile of CALF- 20 was unusual in that, for a solid with good physisorptive capacity for CO2, it exhibited poor water uptake at low partial pressures (Fig. 2, D and E).",
+    "Comparisons to zeolite 13X (37), as well as two other water-resistant MOFs, CAU-10 (38) and Al fumarate (39), are included in Fig. 2and fig.",
+    "Notably, a key feature of CALF-20 was the absence of any Lin et al., Science 374, 1464–1469 (2021) 17 December 2021 3 of 6 Fig. 2."
+   ]
+  },
+  "answer": {
+   "reasoning": "The extracted candidate matches Fig. 2 on the source page. It contains five distinct axis frames. Panel A plots equilibrium CO2 loading together with N2 loading versus pressure for pure CALF-20, and panel B plots CO2 loading versus pressure for structured CALF-20; both are eligible CO2 isotherm panels. Panel C is N2-only, while panels D and E are H2O-only and are excluded. The boxed keys are legends, not inset charts.",
+   "figure_number": "2",
+   "matched_caption": "Fig. 2. Equilibrium gas uptake data on pure CALF-20. (A) CO2 and N2 isotherms from 273 to 373 K on pure CALF-20. (B to D) Structured CALF-20 (80% MOF:20% polysulfone). (B) CO2 isotherms from 303 to 373 K. (C) N2 isotherms from 303 to 353 K. (D) H2O isotherms from 295 K to 373 K. (E) A comparison of H2O isotherm on zeolite 13X (37), CAU-10 (38), Al fumarate (39) and structured CALF-20 at 295 K. The isotherms of CO2 and N2 were measured by volumetry, and that of H2O was measured by gravimetry.",
+   "figure_is_relevant": true,
+   "si_has_tabulated_data": "unknown",
+   "panels": [
+    {
+     "panel": "A",
+     "is_co2_isotherm": true,
+     "reason": "Equilibrium CO2 loading is plotted against pressure for pure CALF-20 at temperatures from 273 to 373 K; N2 series share the same axis frame.",
+     "bbox_norm": [
+      0.0,
+      0.0,
+      0.98,
+      0.414
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    },
+    {
+     "panel": "B",
+     "is_co2_isotherm": true,
+     "reason": "Equilibrium CO2 loading is plotted against pressure for structured CALF-20 at 303, 313, 323, 333, 353, and 373 K.",
+     "bbox_norm": [
+      0.02,
+      0.42,
+      0.5,
+      0.689
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    },
+    {
+     "panel": "C",
+     "is_co2_isotherm": false,
+     "reason": "This panel plots only N2 loading versus pressure for structured CALF-20.",
+     "bbox_norm": [
+      0.505,
+      0.42,
+      0.995,
+      0.689
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    },
+    {
+     "panel": "D",
+     "is_co2_isotherm": false,
+     "reason": "This panel plots H2O loading versus pressure for structured CALF-20.",
+     "bbox_norm": [
+      0.02,
+      0.694,
+      0.5,
+      0.997
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    },
+    {
+     "panel": "E",
+     "is_co2_isotherm": false,
+     "reason": "This panel compares H2O loading versus relative humidity for structured CALF-20 and reference adsorbents.",
+     "bbox_norm": [
+      0.505,
+      0.694,
+      0.995,
+      0.997
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    }
+   ],
+   "context": {
+    "adsorbent": "CALF-20: pure CALF-20 in panel A and structured CALF-20 in panel B.",
+    "sample_form": "Panel A uses pure CALF-20; panel B uses a structured composite containing 80% CALF-20 MOF and 20% polysulfone.",
+    "activation": "Not specified in the caption or supplied figure-referencing text.",
+    "instrument": "Volumetric gas-sorption measurement; no instrument model is specified.",
+    "measurement_notes": "Panel A contains CO2 and N2 isotherms from 273 to 373 K, plotted to about 1200 mbar. Panel B contains CO2 isotherms from 303 to 373 K, plotted to about 120 kPa. Only the CO2 series are eligible for extraction.",
+    "other_parameters": "The caption states that CO2 and N2 isotherms were measured by volumetry; H2O data in the excluded panels were measured by gravimetry. No supplementary table containing tabulated isotherm data is identified in the supplied evidence."
+   }
+  },
+  "provenance": {
+   "agent_name": "agent00-discovery",
+   "agent_version": "6",
+   "response_id": "resp_0c39f7befe33dead006ab5a4c0587081958689dde39fa1362e",
+   "usage": {
+    "input_tokens": 7842,
+    "input_tokens_details": {
+     "cache_write_tokens": 7839,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1420,
+    "output_tokens_details": {
+     "reasoning_tokens": 516
+    },
+    "total_tokens": 9262
+   },
+   "created_at": "2026-09-24T22:31:28.046324+00:00",
+   "dry_run": false
+  },
+  "input_fingerprint": "ade118964d2b44659627a8fd0369be26dc188431d6b52880e494d1ca7c43a101"
+ },
+ {
+  "candidate_id": "xref:86",
+  "figure": {
+   "page": 8,
+   "kind": "raster",
+   "file": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_03\\discovery\\python_inventory\\p8_img86.png",
+   "source_id": "xref:86",
+   "width": 1473,
+   "height": 1167,
+   "caption_candidates": [
+    {
+     "figure_number": "3",
+     "caption": "Fig. 3. Most probable CO2 binding site determined from the single-component CO2 GCMC simulation\nat 0.15 atm. (A) Select distances between heavy atoms of the CALF-20 framework and the CO2 atoms\nare highlighted. These are the shortest distance between atoms of the framework and any atom of the\nCO2 molecule. (B) Experimental and simulated single-component water isotherms at 293 K. Simulated\nadsorption results refer to the values obtained starting from empty pores, whereas the desorption results\nrefer to the values obtained by starting the simulation with the pores saturated with water. (C) A snapshot\nfrom a 20% RH simulation of water in CALF-20. (D) The three most probable H2O binding sites\ndetermined from the single-component water simulation at 20% RH. For (A), (C), and (D), ball-and-stick\nrepresentations are used for the guest, whereas a tube representation is used for the framework. Atom\ncolors are the same as shown in Fig. 1B.\nRESEARCH\n|\nRESEARCH ARTICLE\nDownloaded from https://www.science.org on November 16, 2023"
+    }
+   ],
+   "caption": "Fig. 3. Most probable CO2 binding site determined from the single-component CO2 GCMC simulation\nat 0.15 atm. (A) Select distances between heavy atoms of the CALF-20 framework and the CO2 atoms\nare highlighted. These are the shortest distance between atoms of the framework and any atom of the\nCO2 molecule. (B) Experimental and simulated single-component water isotherms at 293 K. Simulated\nadsorption results refer to the values obtained starting from empty pores, whereas the desorption results\nrefer to the values obtained by starting the simulation with the pores saturated with water. (C) A snapshot\nfrom a 20% RH simulation of water in CALF-20. (D) The three most probable H2O binding sites\ndetermined from the single-component water simulation at 20% RH. For (A), (C), and (D), ball-and-stick\nrepresentations are used for the guest, whereas a tube representation is used for the framework. Atom\ncolors are the same as shown in Fig. 1B.\nRESEARCH\n|\nRESEARCH ARTICLE\nDownloaded from https://www.science.org on November 16, 2023",
+   "figure_number": "3",
+   "references": [
+    "However, certain diffraction Advanced Materials, 2026 3 of 10  FIGURE 3 Gas sorption properties of NUM-27a.",
+    "The permanent porosity of the NUM-27a was investigated using both N2 and CO2 as probe gases (Figure 3a).",
+    "The most probable CO2 binding, which lies in the middle of the CALF-20 pore (Fig. 3A), had a binding energy of −34.5 kJ mol−1 based on the GCMC force field; the density functional theory (DFT) value with dispersion corrections was −36.5 kJ mol−1.",
+    "The experimental water isotherm had a general S-shape, where the water uptake was initially low until ~10% relative humidity (RH), at which point there was a steep rise until ~30% RH (Fig. 3B).",
+    "A snapshot from the pure water simulation at 20% RH, where the water uptake was roughly half the saturation limit (Fig. 3C), revealed that the pores were either full of water molecules, forming a hydrogen-bonded network, or com- pletely empty.",
+    "We extracted the water binding sites at 20% RH with the highest probability from the GCMC simulations, and the top three bind- ing sites, in order, are labeled i, ii, and, iii in Fig. 3D.",
+    "The nature of the water and CO2 binding from the single-component water simulations and dry CO2/N2 simulations presented in Fig. 3 was consistent with the preferential binding of CO2 over water observed at low RHs.",
+    "Further, in large-scale Lin et al., Science 374, 1464–1469 (2021) 17 December 2021 4 of 6 Fig. 3."
+   ]
+  },
+  "answer": {
+   "reasoning": "The extracted image matches Fig. 3 on the source page by its four labeled panels and caption. Panel A is a structural depiction of a simulated CO2 binding site, not an uptake-versus-pressure isotherm. Panel B is an experimental and simulated H2O loading isotherm versus relative humidity. Panels C and D are water simulation/binding-site graphics. Therefore, no panel is an eligible CO2 adsorption isotherm or other direct CO2 uptake chart.",
+   "figure_number": "3",
+   "matched_caption": "Fig. 3. Most probable CO2 binding site determined from the single-component CO2 GCMC simulation at 0.15 atm. (A) Select distances between heavy atoms of the CALF-20 framework and the CO2 atoms are highlighted. These are the shortest distance between atoms of the framework and any atom of the CO2 molecule. (B) Experimental and simulated single-component water isotherms at 293 K. Simulated adsorption results refer to the values obtained starting from empty pores, whereas the desorption results refer to the values obtained by starting the simulation with the pores saturated with water. (C) A snapshot from a 20% RH simulation of water in CALF-20. (D) The three most probable H2O binding sites determined from the single-component water simulation at 20% RH. For (A), (C), and (D), ball-and-stick representations are used for the guest, whereas a tube representation is used for the framework. Atom colors are the same as shown in Fig. 1B.",
+   "figure_is_relevant": false,
+   "si_has_tabulated_data": "unknown",
+   "panels": [
+    {
+     "panel": "A",
+     "is_co2_isotherm": false,
+     "reason": "Structural visualization of the most probable CO2 binding site from a single-component GCMC simulation at 0.15 atm; it does not plot CO2 uptake or loading against pressure.",
+     "bbox_norm": [
+      0.0,
+      0.0,
+      0.47,
+      0.48
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    },
+    {
+     "panel": "B",
+     "is_co2_isotherm": false,
+     "reason": "Plots experimental and simulated H2O loading against relative humidity at 293 K, not CO2 uptake.",
+     "bbox_norm": [
+      0.53,
+      0.0,
+      1.0,
+      0.51
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    },
+    {
+     "panel": "C",
+     "is_co2_isotherm": false,
+     "reason": "Structural snapshot from a water simulation at 20% relative humidity; no adsorption axis frame is present.",
+     "bbox_norm": [
+      0.0,
+      0.5,
+      0.48,
+      1.0
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    },
+    {
+     "panel": "D",
+     "is_co2_isotherm": false,
+     "reason": "Structural depiction of the three most probable H2O binding sites from a water simulation at 20% relative humidity; no CO2 isotherm is plotted.",
+     "bbox_norm": [
+      0.5,
+      0.5,
+      1.0,
+      1.0
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    }
+   ],
+   "context": {
+    "adsorbent": "CALF-20",
+    "sample_form": "Not specified for this figure.",
+    "activation": "Not specified for this figure.",
+    "instrument": "Experimental water-isotherm instrument not specified; simulations used single-component GCMC.",
+    "measurement_notes": "Panel A reports a simulated CO2 binding site at 0.15 atm. Panel B presents experimental and simulated single-component water isotherms at 293 K versus relative humidity; simulated adsorption starts from empty pores and simulated desorption starts from water-saturated pores. Panels C and D concern water simulations at 20% RH.",
+    "other_parameters": "The caption identifies the panel A graphic as the most probable CO2 binding site, but it contains no direct CO2 uptake/loading axis. No supplementary table containing isotherm data is identified in the supplied evidence."
+   }
+  },
+  "provenance": {
+   "agent_name": "agent00-discovery",
+   "agent_version": "6",
+   "response_id": "resp_0bbbf73fc84afb7a006ab5a4d00bfc8196ac060f0346d3c004",
+   "usage": {
+    "input_tokens": 7907,
+    "input_tokens_details": {
+     "cache_write_tokens": 7904,
+     "cached_tokens": 0
+    },
+    "output_tokens": 1195,
+    "output_tokens_details": {
+     "reasoning_tokens": 385
+    },
+    "total_tokens": 9102
+   },
+   "created_at": "2026-09-24T22:31:43.360999+00:00",
+   "dry_run": false
+  },
+  "input_fingerprint": "58d2af4986598ee14d29cde31021ccbefc446bbfbb90603fa479621b5c964d85"
+ },
+ {
+  "candidate_id": "xref:112",
+  "figure": {
+   "page": 10,
+   "kind": "raster",
+   "file": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_03\\discovery\\python_inventory\\p10_img112.png",
+   "source_id": "xref:112",
+   "width": 1915,
+   "height": 713,
+   "caption_candidates": [],
+   "caption": null,
+   "figure_number": null,
+   "references": []
+  },
+  "answer": {
+   "reasoning": "The extracted candidate matches the chemical-structure graphic labeled Scheme 1 on the source page. It depicts the ligands Hbpt and H3btc and contains no chart or physical axis frame, so it is not a CO2 adsorption isotherm figure. The page does provide gas-adsorption methods for complexes 1 and 2, but those methods do not make this scheme eligible.",
+   "figure_number": "Scheme 1",
+   "matched_caption": "Scheme 1 The ligands 3,5-bis(pyrazinyl)-1,2,4-triazole (Hbpt) and 1,3,5-benzenetricarboxylic acid (H₃btc).",
+   "figure_is_relevant": false,
+   "si_has_tabulated_data": "unknown",
+   "panels": [],
+   "context": {
+    "adsorbent": "Complexes 1 and 2; dehydrated forms 1a and 2a were generated for gas adsorption.",
+    "sample_form": "Freshly prepared crystalline samples, converted to dehydrated forms 1a and 2a.",
+    "activation": "Freshly prepared samples of 1 and 2 were soaked in methanol for 3 days to remove free solvent from the frameworks and then outgassed overnight under vacuum.",
+    "instrument": "ASAP (Accelerated Surface Area and Porosimetry) 2020 System.",
+    "measurement_notes": "N2 and ambient-pressure H2 isotherms were measured at 77 K from 0 to 1 bar. CO2 and CH4 adsorption measurements were performed at 273 K and 300 K on the same instrument over the same pressure range.",
+    "other_parameters": "The candidate itself is a ligand-structure scheme showing Hbpt and H3btc, not an adsorption measurement."
+   }
+  },
+  "provenance": {
+   "agent_name": "agent00-discovery",
+   "agent_version": "6",
+   "response_id": "resp_04ff9475ca0fa2a3006ab5a4dec46c81978215c9d5a75c9041",
+   "usage": {
+    "input_tokens": 6422,
+    "input_tokens_details": {
+     "cache_write_tokens": 6419,
+     "cached_tokens": 0
+    },
+    "output_tokens": 671,
+    "output_tokens_details": {
+     "reasoning_tokens": 307
+    },
+    "total_tokens": 7093
+   },
+   "created_at": "2026-09-24T22:31:52.873646+00:00",
+   "dry_run": false
+  },
+  "input_fingerprint": "690bde16a28422e4fac266615dca98b950bb7de6d73a51068344d0dbfff98171"
+ },
+ {
+  "candidate_id": "xref:116",
+  "figure": {
+   "page": 11,
+   "kind": "raster",
+   "file": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_03\\discovery\\python_inventory\\p11_img116.png",
+   "source_id": "xref:116",
+   "width": 940,
+   "height": 725,
+   "caption_candidates": [
+    {
+     "figure_number": "7",
+     "caption": "Fig. 7 Thermal gravimetric curves of complexes 1 and 2."
+    },
+    {
+     "figure_number": "8",
+     "caption": "Fig. 8 (a) Variable-temperature PXRD patterns for 1; (b) PXRD patterns of 1\nobtained by different treatment in atmospheric water or boiling water for\nvarious durations.\nThis journal is \u0002 The Royal Society of Chemistry 2013\nCrystEngComm, 2013, 15, 5673–5680 | 5677\nCrystEngComm\nPaper"
+    }
+   ],
+   "caption": null,
+   "figure_number": null,
+   "references": []
+  },
+  "answer": {
+   "reasoning": "The extracted candidate matches Fig. 7 because the page places the same red and blue weight-versus-temperature curves directly above that caption. It is a generic thermogravimetric decomposition plot for complexes 1 and 2, not an equilibrium CO2 uptake isotherm and not an explicitly CO2-attributable gravimetric uptake measurement. It is therefore excluded under the chart and metric rules.",
+   "figure_number": "7",
+   "matched_caption": "Fig. 7 Thermal gravimetric curves of complexes 1 and 2.",
+   "figure_is_relevant": false,
+   "si_has_tabulated_data": "unknown",
+   "panels": [
+    {
+     "panel": "x",
+     "is_co2_isotherm": false,
+     "reason": "The single axis frame plots sample weight (%) against temperature (°C) for complexes 1 and 2; it is a thermal decomposition measurement with no CO2 uptake attribution or pressure axis.",
+     "bbox_norm": [
+      0.01,
+      0.01,
+      0.98,
+      0.99
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    }
+   ],
+   "context": {
+    "adsorbent": "Complexes 1 and 2",
+    "sample_form": "Solid coordination complexes; exact form used for TGA is not stated in the visible source.",
+    "activation": "No activation procedure is reported for this TGA figure. The separate adsorption section states that as-synthesized compounds 1 and 2 were immersed in methanol for 3 days and outgassed overnight under vacuum to produce dehydrated forms 1a and 2a.",
+    "instrument": "Thermogravimetric instrument not specified in the visible source.",
+    "measurement_notes": "Thermogravimetric weight (%) curves are shown as a function of temperature (°C) for complexes 1 and 2; this is not a CO2 adsorption measurement.",
+    "other_parameters": "The adjacent text discusses solvent/water loss and thermal decomposition. No direct CO2 loading, pressure, or CO2 measurement temperature is associated with Fig. 7."
+   }
+  },
+  "provenance": {
+   "agent_name": "agent00-discovery",
+   "agent_version": "6",
+   "response_id": "resp_0124563fcd09ac1a006ab5a4e83c548190a20e69bb2f0ae280",
+   "usage": {
+    "input_tokens": 6223,
+    "input_tokens_details": {
+     "cache_write_tokens": 6220,
+     "cached_tokens": 0
+    },
+    "output_tokens": 525,
+    "output_tokens_details": {
+     "reasoning_tokens": 111
+    },
+    "total_tokens": 6748
+   },
+   "created_at": "2026-09-24T22:32:01.050052+00:00",
+   "dry_run": false
+  },
+  "input_fingerprint": "fc1a2915bd076fdc9190d5a7c9af6b04523944c05f2efb8b04c200a11d798c90"
+ },
+ {
+  "candidate_id": "xref:117",
+  "figure": {
+   "page": 11,
+   "kind": "raster",
+   "file": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_03\\discovery\\python_inventory\\p11_img117.png",
+   "source_id": "xref:117",
+   "width": 948,
+   "height": 1522,
+   "caption_candidates": [
+    {
+     "figure_number": "7",
+     "caption": "Fig. 7 Thermal gravimetric curves of complexes 1 and 2."
+    },
+    {
+     "figure_number": "8",
+     "caption": "Fig. 8 (a) Variable-temperature PXRD patterns for 1; (b) PXRD patterns of 1\nobtained by different treatment in atmospheric water or boiling water for\nvarious durations.\nThis journal is \u0002 The Royal Society of Chemistry 2013\nCrystEngComm, 2013, 15, 5673–5680 | 5677\nCrystEngComm\nPaper"
+    }
+   ],
+   "caption": null,
+   "figure_number": null,
+   "references": []
+  },
+  "answer": {
+   "reasoning": "The extracted candidate matches Fig. 8: its two physical panels show powder X-ray diffraction intensity patterns versus 2θ under variable-temperature and water-treatment conditions. Neither panel plots equilibrium CO2 uptake versus pressure or another eligible direct CO2 loading metric, so the figure is not relevant for CO2 isotherm extraction.",
+   "figure_number": "8",
+   "matched_caption": "Fig. 8 (a) Variable-temperature PXRD patterns for 1; (b) PXRD patterns of 1 obtained by different treatment in atmospheric water or boiling water for various durations.",
+   "figure_is_relevant": false,
+   "si_has_tabulated_data": "unknown",
+   "panels": [
+    {
+     "panel": "a",
+     "is_co2_isotherm": false,
+     "reason": "Variable-temperature PXRD patterns are plotted against 2θ; this is a crystallographic stability/phase analysis, not a CO2 adsorption isotherm.",
+     "bbox_norm": [
+      0.02,
+      0.0,
+      0.94,
+      0.43
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    },
+    {
+     "panel": "b",
+     "is_co2_isotherm": false,
+     "reason": "PXRD patterns after atmospheric-water and boiling-water treatments are plotted against 2θ; no CO2 uptake or loading axis is present.",
+     "bbox_norm": [
+      0.02,
+      0.47,
+      0.96,
+      1.0
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    }
+   ],
+   "context": {
+    "adsorbent": "Complex 1",
+    "sample_form": "Crystalline solid; specific form is not stated in the Fig. 8 caption.",
+    "activation": "Panel (a) includes an activated sample and variable-temperature treatments from 200 to 430 °C. Panel (b) includes samples soaked in water for 1 day, water for 3 days, and boiling water for 1 day.",
+    "instrument": "Powder X-ray diffraction instrument; model not reported in the visible source.",
+    "measurement_notes": "PXRD patterns are compared with simulated patterns. Panel (a) examines variable-temperature behavior; panel (b) examines stability after water treatments.",
+    "other_parameters": "This is a PXRD figure rather than a gas adsorption measurement; no CO2 isotherm parameters apply."
+   }
+  },
+  "provenance": {
+   "agent_name": "agent00-discovery",
+   "agent_version": "6",
+   "response_id": "resp_09aacd5773335883006ab5a4f0dc088193b83fcadd67ba6a38",
+   "usage": {
+    "input_tokens": 7123,
+    "input_tokens_details": {
+     "cache_write_tokens": 7120,
+     "cached_tokens": 0
+    },
+    "output_tokens": 624,
+    "output_tokens_details": {
+     "reasoning_tokens": 169
+    },
+    "total_tokens": 7747
+   },
+   "created_at": "2026-09-24T22:32:11.291160+00:00",
+   "dry_run": false
+  },
+  "input_fingerprint": "a00aa5566544ecb180c0c5c59d795fdee8f99f058ed5958ad10374b08149941c"
+ },
+ {
+  "candidate_id": "xref:121",
+  "figure": {
+   "page": 12,
+   "kind": "raster",
+   "file": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_03\\discovery\\python_inventory\\p12_img121.png",
+   "source_id": "xref:121",
+   "width": 916,
+   "height": 2463,
+   "caption_candidates": [
+    {
+     "figure_number": "9",
+     "caption": "Fig. 9 (a) N2 sorption isotherms of 1a at 77 K; (b) H2 adsorption isotherms of 1a\nat 77 K and 87 K; (c) coverage dependency of the isosteric heat of adsorption for\nH2 in 1a."
+    },
+    {
+     "figure_number": "10",
+     "caption": "Fig. 10 The sorption isotherms of 1a: CO2 adsorption (a) and desorption (b) at\n273 K; CO2 adsorption (c) and desorption (d) at 300 K; CH4 adsorption (e) and\ndesorption (f) at 273 K; CH4 adsorption (g) and desorption (h) at 300 K.\n5678 | CrystEngComm, 2013, 15, 5673–5680\nThis journal is \u0002 The Royal Society of Chemistry 2013\nPaper\nCrystEngComm"
+    }
+   ],
+   "caption": null,
+   "figure_number": null,
+   "references": []
+  },
+  "answer": {
+   "reasoning": "The extracted candidate matches Fig. 9 on the source page: its three panels show N2 sorption, H2 adsorption, and H2 isosteric heat, respectively. None plots CO2 uptake against pressure, so the figure is not eligible for CO2 isotherm extraction. The adjacent Fig. 10 is the CO2/CH4 figure but is not part of this extracted candidate.",
+   "figure_number": "9",
+   "matched_caption": "Fig. 9 (a) N2 sorption isotherms of 1a at 77 K; (b) H2 adsorption isotherms of 1a at 77 K and 87 K; (c) coverage dependency of the isosteric heat of adsorption for H2 in 1a.",
+   "figure_is_relevant": false,
+   "si_has_tabulated_data": "unknown",
+   "panels": [
+    {
+     "panel": "a",
+     "is_co2_isotherm": false,
+     "reason": "N2 adsorption–desorption uptake is plotted against relative pressure at 77 K; no CO2 series is present.",
+     "bbox_norm": [
+      0.04,
+      0.0,
+      0.95,
+      0.3
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    },
+    {
+     "panel": "b",
+     "is_co2_isotherm": false,
+     "reason": "H2 adsorption–desorption uptake is plotted against pressure at 77 K and 87 K; no CO2 series is present.",
+     "bbox_norm": [
+      0.05,
+      0.31,
+      0.97,
+      0.63
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    },
+    {
+     "panel": "c",
+     "is_co2_isotherm": false,
+     "reason": "The panel plots the isosteric heat of H2 adsorption against uptake, an excluded heat-of-adsorption metric rather than a CO2 isotherm.",
+     "bbox_norm": [
+      0.04,
+      0.66,
+      0.96,
+      1.0
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    }
+   ],
+   "context": {
+    "adsorbent": "1a",
+    "sample_form": "Not specified in the available caption or page text.",
+    "activation": "Not specified in the available caption or page text.",
+    "instrument": "Not specified in the available caption or page text.",
+    "measurement_notes": "Panel (a): N2 adsorption–desorption at 77 K versus relative pressure. Panel (b): H2 adsorption–desorption at 77 K and 87 K versus pressure. Panel (c): coverage-dependent isosteric heat of H2 adsorption.",
+    "other_parameters": "The page text states that H2 uptake was fully reversible at 77 K and 1 bar and that a second H2 adsorption isotherm was measured at 87 K. It also states that H2 isosteric heat was calculated using the Clausius–Clapeyron equation. No supplementary table containing tabulated isotherm data is identified."
+   }
+  },
+  "provenance": {
+   "agent_name": "agent00-discovery",
+   "agent_version": "6",
+   "response_id": "resp_067a65bd3e0d0a3f006ab5a4fab06c81948bbe65947c193108",
+   "usage": {
+    "input_tokens": 6626,
+    "input_tokens_details": {
+     "cache_write_tokens": 6623,
+     "cached_tokens": 0
+    },
+    "output_tokens": 751,
+    "output_tokens_details": {
+     "reasoning_tokens": 155
+    },
+    "total_tokens": 7377
+   },
+   "created_at": "2026-09-24T22:32:20.468802+00:00",
+   "dry_run": false
+  },
+  "input_fingerprint": "f1985bb9c8f87aa33e4f09602ad3d5c7a184923eeba8e128c31a4717772947b0"
+ },
+ {
+  "candidate_id": "xref:122",
+  "figure": {
+   "page": 12,
+   "kind": "raster",
+   "file": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_03\\discovery\\python_inventory\\p12_img122.png",
+   "source_id": "xref:122",
+   "width": 942,
+   "height": 695,
+   "caption_candidates": [
+    {
+     "figure_number": "9",
+     "caption": "Fig. 9 (a) N2 sorption isotherms of 1a at 77 K; (b) H2 adsorption isotherms of 1a\nat 77 K and 87 K; (c) coverage dependency of the isosteric heat of adsorption for\nH2 in 1a."
+    },
+    {
+     "figure_number": "10",
+     "caption": "Fig. 10 The sorption isotherms of 1a: CO2 adsorption (a) and desorption (b) at\n273 K; CO2 adsorption (c) and desorption (d) at 300 K; CH4 adsorption (e) and\ndesorption (f) at 273 K; CH4 adsorption (g) and desorption (h) at 300 K.\n5678 | CrystEngComm, 2013, 15, 5673–5680\nThis journal is \u0002 The Royal Society of Chemistry 2013\nPaper\nCrystEngComm"
+    }
+   ],
+   "caption": null,
+   "figure_number": null,
+   "references": []
+  },
+  "answer": {
+   "reasoning": "The extracted candidate matches Fig. 10 on the source page. It contains one physical axis frame, despite the caption assigning labels (a) through (h) to individual series. Series (a)–(d) are explicitly identified as CO2 adsorption/desorption at 273 and 300 K, while series (e)–(h) are CH4 and are ineligible. The ordinate reports quantity adsorbed and the abscissa reports pressure, so the frame is a relevant equilibrium CO2 isotherm chart. No inset is present.",
+   "figure_number": "10",
+   "matched_caption": "Fig. 10 The sorption isotherms of 1a: CO2 adsorption (a) and desorption (b) at 273 K; CO2 adsorption (c) and desorption (d) at 300 K; CH4 adsorption (e) and desorption (f) at 273 K; CH4 adsorption (g) and desorption (h) at 300 K.",
+   "figure_is_relevant": true,
+   "si_has_tabulated_data": "unknown",
+   "panels": [
+    {
+     "panel": "x",
+     "is_co2_isotherm": true,
+     "reason": "The single axis frame plots quantity adsorbed (cm³ g⁻¹) against pressure (bar) and includes CO2 adsorption and desorption series at 273 K and 300 K; the CH4 series in the same frame are not eligible.",
+     "bbox_norm": [
+      0.01,
+      0.01,
+      0.99,
+      0.99
+     ],
+     "has_inset": false,
+     "inset_bbox_norm": null
+    }
+   ],
+   "context": {
+    "adsorbent": "1a",
+    "sample_form": "Not reported in the provided caption or page text.",
+    "activation": "Not reported in the provided caption or page text.",
+    "instrument": "Not reported in the provided caption or page text.",
+    "measurement_notes": "CO2 adsorption and desorption isotherms were measured at 273 K and 300 K, with quantity adsorbed in cm³ g⁻¹ plotted against pressure in bar. CH4 adsorption/desorption series at the same temperatures share the axis frame but are excluded from CO2 extraction.",
+    "other_parameters": "The page text describes the CO2 measurements as being under ambient conditions and discusses uptake at 1 bar. It mentions CO2 adsorption enthalpies calculated using the Clausius–Clapeyron equation; those heat-of-adsorption results are not eligible uptake data. No supplementary table containing isotherm data is identified in the provided evidence."
+   }
+  },
+  "provenance": {
+   "agent_name": "agent00-discovery",
+   "agent_version": "6",
+   "response_id": "resp_04350b852b3ca667006ab5a503ded48197ae7b0fb3070d3e54",
+   "usage": {
+    "input_tokens": 6278,
+    "input_tokens_details": {
+     "cache_write_tokens": 6275,
+     "cached_tokens": 0
+    },
+    "output_tokens": 922,
+    "output_tokens_details": {
+     "reasoning_tokens": 400
+    },
+    "total_tokens": 7200
+   },
+   "created_at": "2026-09-24T22:32:32.676916+00:00",
+   "dry_run": false
+  },
+  "input_fingerprint": "789effbce6af6daf46d5b7a9324dd6dfa4d157792c5ab6d5012258d4cf1c379f"
+ },
+ {
+  "candidate_id": "xref:126",
+  "figure": {
+   "page": 13,
+   "kind": "raster",
+   "file": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_03\\discovery\\python_inventory\\p13_img126.png",
+   "source_id": "xref:126",
+   "width": 952,
+   "height": 776,
+   "caption_candidates": [
+    {
+     "figure_number": "11",
+     "caption": "Fig. 11 Solid-state emission spectra of the free ligands and complexes 1 and 2\nat room temperature. Inset: crystal photograph of 1 under UV irradiation.\nThis journal is \u0002 The Royal Society of Chemistry 2013\nCrystEngComm, 2013, 15, 5673–5680 | 5679\nCrystEngComm\nPaper"
+    }
+   ],
+   "caption": "Fig. 11 Solid-state emission spectra of the free ligands and complexes 1 and 2\nat room temperature. Inset: crystal photograph of 1 under UV irradiation.\nThis journal is \u0002 The Royal Society of Chemistry 2013\nCrystEngComm, 2013, 15, 5673–5680 | 5679\nCrystEngComm\nPaper",
+   "figure_number": "11",
+   "references": [
+    "As shown in Fig. 11, complexes 1 and 2 exhibit strong blue emission bands at 453 nm and 443 nm upon excitation at 350 nm, respectively, whereas the Hbpt and H3btc ligands display very weak photoluminescence with emission maxima at 452 nm and 400 nm upon excitation at 350 nm."
+   ]
+  },
+  "answer": {
+   "reasoning": "The candidate matches Fig. 11 on the source page. It contains one physical axis frame plotting relative photoluminescence intensity versus wavelength for complexes 1 and 2 and the free ligands. It is not a gas adsorption isotherm and contains no CO2 uptake/loading metric. The embedded crystal photograph is an inset and should be masked.",
+   "figure_number": "11",
+   "matched_caption": "Fig. 11 Solid-state emission spectra of the free ligands and complexes 1 and 2 at room temperature. Inset: crystal photograph of 1 under UV irradiation.",
+   "figure_is_relevant": false,
+   "si_has_tabulated_data": "unknown",
+   "panels": [
+    {
+     "panel": "x",
+     "is_co2_isotherm": false,
+     "reason": "The axis plots relative emission intensity against wavelength, not equilibrium CO2 uptake against pressure or fugacity.",
+     "bbox_norm": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+     ],
+     "has_inset": true,
+     "inset_bbox_norm": [
+      0.46,
+      0.04,
+      0.7,
+      0.2
+     ]
+    }
+   ],
+   "context": {
+    "adsorbent": "Not applicable; the plotted samples are complexes 1 and 2 and the free ligands H3btc and Hbpt.",
+    "sample_form": "Solid-state samples; no gas-adsorption sample form is reported for this figure.",
+    "activation": "Not applicable and not reported.",
+    "instrument": "Photoluminescence spectroscopy instrument not specified in the provided figure context.",
+    "measurement_notes": "Solid-state emission spectra measured at room temperature with excitation at 350 nm; the inset is a crystal photograph of complex 1 under UV irradiation.",
+    "other_parameters": "This figure reports photoluminescence rather than CO2 adsorption or loading."
+   }
+  },
+  "provenance": {
+   "agent_name": "agent00-discovery",
+   "agent_version": "6",
+   "response_id": "resp_06c9a8a9350b13d7006ab5a5102870819086ca9eee2687d4c6",
+   "usage": {
+    "input_tokens": 6336,
+    "input_tokens_details": {
+     "cache_write_tokens": 6333,
+     "cached_tokens": 0
+    },
+    "output_tokens": 592,
+    "output_tokens_details": {
+     "reasoning_tokens": 231
+    },
+    "total_tokens": 6928
+   },
+   "created_at": "2026-09-24T22:32:41.655116+00:00",
+   "dry_run": false
+  },
+  "input_fingerprint": "928d4c4109bbfc70997495fb701a29b7357f5231f8c34bf51d137670ed534979"
+ }
+]

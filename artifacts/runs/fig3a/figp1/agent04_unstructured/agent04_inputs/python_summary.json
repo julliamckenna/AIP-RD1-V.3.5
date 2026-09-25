@@ -1,0 +1,627 @@
+{
+ "series_counts": {
+  "CO2 195K": 46
+ },
+ "calibration": {
+  "px_per_unit_x": 484.28711897738464,
+  "px_per_unit_y": 2.8559712380158397,
+  "unit_per_px_x": 0.0020648907658572233,
+  "unit_per_px_y": 0.3501435822213465,
+  "axis_models": {
+   "x": {
+    "scale": "linear",
+    "slope": 0.0020648907658572233,
+    "intercept": -0.30874888329407885
+   },
+   "y": {
+    "scale": "linear",
+    "slope": -0.3501435822213465,
+    "intercept": 163.92601593087616
+   }
+  },
+  "tick_fit_resid_x": 0.0009847315845046278,
+  "tick_fit_resid_y": 0.19988396659110208,
+  "tick_fit_resid_x_px": 0.4768928220257812,
+  "tick_fit_resid_y_px": 0.5708628595247066,
+  "frame_px": [
+   125,
+   68,
+   658,
+   497
+  ],
+  "x_ticks_px": [
+   150,
+   246,
+   343,
+   440,
+   537,
+   634
+  ],
+  "y_ticks_px": [
+   68,
+   126,
+   182,
+   240,
+   297,
+   354,
+   411,
+   468
+  ],
+  "tick_anchors": {
+   "x": [
+    {
+     "pixel_norm": 0.2129,
+     "value": 0.0
+    },
+    {
+     "pixel_norm": 0.3514,
+     "value": 0.2
+    },
+    {
+     "pixel_norm": 0.49,
+     "value": 0.4
+    },
+    {
+     "pixel_norm": 0.6286,
+     "value": 0.6
+    },
+    {
+     "pixel_norm": 0.7671,
+     "value": 0.8
+    },
+    {
+     "pixel_norm": 0.9057,
+     "value": 1.0
+    }
+   ],
+   "y": [
+    {
+     "pixel_norm": 0.1137,
+     "value": 140.0
+    },
+    {
+     "pixel_norm": 0.2076,
+     "value": 120.0
+    },
+    {
+     "pixel_norm": 0.3015,
+     "value": 100.0
+    },
+    {
+     "pixel_norm": 0.3954,
+     "value": 80.0
+    },
+    {
+     "pixel_norm": 0.488,
+     "value": 60.0
+    },
+    {
+     "pixel_norm": 0.5848,
+     "value": 40.0
+    },
+    {
+     "pixel_norm": 0.6787,
+     "value": 20.0
+    },
+    {
+     "pixel_norm": 0.7727,
+     "value": 0.0
+    }
+   ]
+  },
+  "color_tolerance_lab": 45.0,
+  "color_tolerance_per_series": [
+   26.0,
+   28.0
+  ],
+  "base_color_passes": 3,
+  "complex_region_passes": 5,
+  "complex_region_count": 3,
+  "legend_reader": "declared_colors_direct_labels",
+  "sample_colors": [
+   {
+    "label": "CO2 195K",
+    "sample_px": [
+     557.9,
+     111.7
+    ],
+    "legend_lab": [
+     136.0,
+     156.0,
+     61.0
+    ],
+    "sample_lab": [
+     125.0,
+     170.0,
+     50.0
+    ],
+    "distance": 20.9,
+    "result": "sample color used"
+   },
+   {
+    "label": "N2 77K",
+    "sample_px": [
+     585.9,
+     466.8
+    ],
+    "legend_lab": [
+     159.0,
+     180.0,
+     156.0
+    ],
+    "sample_lab": [
+     161.0,
+     185.0,
+     156.0
+    ],
+    "distance": 5.4,
+    "result": "sample color used"
+   }
+  ],
+  "twins_split_by_lines": 0,
+  "line_split_enabled": false,
+  "color_ambiguity_groups": [],
+  "series_assignment_margin": 0.12,
+  "reclaimed_points": 0,
+  "dense_circle_detector": {
+   "regions": [
+    {
+     "series_label": "CO2 195K",
+     "roi_px": [
+      143.5,
+      68.0,
+      203.0,
+      470.43
+     ],
+     "template_source": "isolated_native_rings",
+     "searches": 1,
+     "validated_centers": 19,
+     "roi_ink_pixels": 3370,
+     "rejected": {
+      "outside_roi": 22,
+      "boundary": 0,
+      "coverage": 1,
+      "flat_response": 0,
+      "solid_core": 47
+     },
+     "matched_existing": 2,
+     "native_supported_additions": 17
+    },
+    {
+     "series_label": "N2 77K",
+     "roi_px": [
+      143.5,
+      68.0,
+      203.0,
+      470.43
+     ],
+     "template_source": "declared_circle_geometry",
+     "searches": 1,
+     "validated_centers": 1,
+     "roi_ink_pixels": 249,
+     "rejected": {
+      "outside_roi": 3,
+      "boundary": 0,
+      "coverage": 0,
+      "flat_response": 0,
+      "solid_core": 1
+     },
+     "matched_existing": 1,
+     "native_supported_additions": 0
+    }
+   ],
+   "native_supported_additions": 17,
+   "unresolved_fused_regions": 2
+  },
+  "dense_region_resolver": {
+   "roi_px": [
+    [
+     143.5,
+     68.0,
+     149.52,
+     470.43
+    ],
+    [
+     149.52,
+     68.0,
+     246.38,
+     497.0
+    ]
+   ],
+   "low_pressure_strip_px": [
+    149.52,
+    68.0,
+    246.38,
+    497.0
+   ],
+   "columns": 1,
+   "native_supported_additions": 1
+  },
+  "global_spatial_ownership": {
+   "enabled": false,
+   "branches": "adsorption_only",
+   "multi_series": true,
+   "all_filled": false,
+   "ambiguity_group_count": 0,
+   "crowded_region_count": 1,
+   "reason": "guard_not_satisfied",
+   "distance_fraction": 0.8,
+   "confidence_margin": 0.08,
+   "candidate_count": 0,
+   "overlap_components": 0,
+   "deduplicated": 0,
+   "unresolved": 0,
+   "components": [],
+   "global_twin_pool": false,
+   "joint_assignment_candidate_source": "raw_candidates",
+   "rescore_single_source": false,
+   "expected_count_pruning": {
+    "enabled": false,
+    "tolerance_fraction": 0.15,
+    "minimum_tolerance": 2,
+    "series": [],
+    "removed": 0
+   }
+  },
+  "region_strategies": [
+   {
+    "strategy": "ignore",
+    "bbox_px": [
+     248,
+     173,
+     517,
+     391
+    ],
+    "series": []
+   },
+   {
+    "strategy": "ignore",
+    "bbox_px": [
+     455,
+     115,
+     658,
+     461
+    ],
+    "series": []
+   }
+  ],
+  "x_grid_columns": 0,
+  "x_grid_supported_columns": 0,
+  "exact_duplicates_dropped": {
+   "CO2 195K": 0
+  },
+  "series_assignment": {
+   "actions": {},
+   "groups": []
+  },
+  "series_gate_moves": [
+   {
+    "from": "CO2 195K",
+    "to": "None",
+    "points": 2
+   },
+   {
+    "from": "CO2 195K",
+    "to": "CO2 195K",
+    "points": 1
+   },
+   {
+    "from": "N2 77K",
+    "to": "N2 77K",
+    "points": 22
+   }
+  ],
+  "template_fill": {
+   "template_fit": 0,
+   "template_fill": 0
+  },
+  "complex_regions": {
+   "accepted": 3,
+   "rejected": 0
+  },
+  "detail": "full per-candidate audit in python_audit.json"
+ },
+ "proposal_quality": {
+  "review_required": true,
+  "warnings": [
+   {
+    "check": "marker_count",
+    "series": "CO2 195K",
+    "detail": "detected 46 of about 80 expected markers"
+   },
+   {
+    "check": "weak_marker_coverage",
+    "series": "CO2 195K",
+    "detail": "16 of 46 markers are low-confidence or overlapping; maximum is 25%"
+   }
+  ]
+ },
+ "color_ambiguity_groups": [],
+ "unresolved_slots": {
+  "total": 1,
+  "by_series": {
+   "CO2 195K": 1
+  },
+  "slots": [
+   {
+    "series_label": "CO2 195K",
+    "series_index": 0,
+    "state": "unresolved",
+    "reason": "dense_ring_search_fused_native_ink",
+    "roi_px": [
+     143.5,
+     68.0,
+     203.0,
+     470.43
+    ]
+   }
+  ]
+ },
+ "complex_regions": [
+  {
+   "bbox_norm": [
+    0.205,
+    0.11,
+    0.29,
+    0.775
+   ],
+   "kind": "dense_markers",
+   "python_passes": 5
+  },
+  {
+   "bbox_norm": [
+    0.355,
+    0.286,
+    0.739,
+    0.644
+   ],
+   "kind": "inset",
+   "python_passes": 3
+  },
+  {
+   "bbox_norm": [
+    0.65,
+    0.1895,
+    0.94,
+    0.7595
+   ],
+   "kind": "annotation",
+   "python_passes": 3
+  }
+ ],
+ "legend_marker_check": [],
+ "source_integrity": {
+  "path": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\fig3a\\figp1\\panel.png",
+  "exists": true,
+  "sha256": "bf347a3f0c2469e3b4571353ea115c3aeba493bc936c4c01b0086cfe52c26471",
+  "width": 700,
+  "height": 607
+ },
+ "count_check": [
+  {
+   "label": "CO2 195K",
+   "x_from": 0,
+   "x_to": 0.02,
+   "expected": 20,
+   "found": 17,
+   "shortfall": 3
+  },
+  {
+   "label": "CO2 195K",
+   "x_from": 0.02,
+   "x_to": 0.06,
+   "expected": 20,
+   "found": 11,
+   "shortfall": 9
+  },
+  {
+   "label": "CO2 195K",
+   "x_from": 0.06,
+   "x_to": 0.3,
+   "expected": 20,
+   "found": 8,
+   "shortfall": 12
+  },
+  {
+   "label": "CO2 195K",
+   "x_from": 0.3,
+   "x_to": 1,
+   "expected": 20,
+   "found": 8,
+   "shortfall": 12
+  },
+  {
+   "label": "N2 77K",
+   "x_from": 0,
+   "x_to": 0.8,
+   "expected": 20,
+   "found": 0,
+   "shortfall": 20
+  },
+  {
+   "label": "N2 77K",
+   "x_from": 0.8,
+   "x_to": 0.97,
+   "expected": 7,
+   "found": 0,
+   "shortfall": 7
+  },
+  {
+   "label": "N2 77K",
+   "x_from": 0.97,
+   "x_to": 1,
+   "expected": 2,
+   "found": 0,
+   "shortfall": 2
+  }
+ ],
+ "sample_colors": [
+  {
+   "label": "CO2 195K",
+   "sample_px": [
+    557.9,
+    111.7
+   ],
+   "legend_lab": [
+    136.0,
+    156.0,
+    61.0
+   ],
+   "sample_lab": [
+    125.0,
+    170.0,
+    50.0
+   ],
+   "distance": 20.9,
+   "result": "sample color used"
+  },
+  {
+   "label": "N2 77K",
+   "sample_px": [
+    585.9,
+    466.8
+   ],
+   "legend_lab": [
+    159.0,
+    180.0,
+    156.0
+   ],
+   "sample_lab": [
+    161.0,
+    185.0,
+    156.0
+   ],
+   "distance": 5.4,
+   "result": "sample color used"
+  }
+ ],
+ "region_strategies": [
+  {
+   "strategy": "ignore",
+   "bbox_px": [
+    248,
+    173,
+    517,
+    391
+   ],
+   "series": []
+  },
+  {
+   "strategy": "ignore",
+   "bbox_px": [
+    455,
+    115,
+    658,
+    461
+   ],
+   "series": []
+  }
+ ],
+ "hard_checks": {
+  "stage": "python",
+  "passed": true,
+  "problems": [],
+  "axis_range": {
+   "passed": true,
+   "problems": [],
+   "margin": 0.05,
+   "max_frame_overhang_steps": 1.0,
+   "x": {
+    "unit": "dimensionless",
+    "scale": "linear",
+    "printed": [
+     0.0,
+     1.0
+    ],
+    "data": [
+     -0.0003,
+     0.981
+    ],
+    "points_outside": 0,
+    "passed": true,
+    "frame": [
+     -0.050637537561925905,
+     1.0499492406399742
+    ],
+    "frame_overhang_steps": [
+     0.25,
+     0.25
+    ],
+    "allowed": [
+     -0.050637537561925905,
+     1.05
+    ]
+   },
+   "y": {
+    "unit": "cm³ g⁻¹",
+    "scale": "linear",
+    "printed": [
+     0.0,
+     140.0
+    ],
+    "data": [
+     0.487,
+     125.8631
+    ],
+    "points_outside": 0,
+    "passed": true,
+    "frame": [
+     -10.09534443313305,
+     140.1162523398246
+    ],
+    "frame_overhang_steps": [
+     0.5,
+     0.01
+    ],
+    "allowed": [
+     -10.09534443313305,
+     147.0
+    ]
+   }
+  },
+  "redraw": {
+   "available": true,
+   "series": {
+    "CO2 195K": {
+     "points": 46,
+     "precision": 1.0,
+     "recall": 0.757,
+     "missed_marker_equivalents": 12.5,
+     "same_color_group": [
+      "CO2 195K"
+     ]
+    }
+   },
+   "recall": 0.757,
+   "precision": 1.0
+  },
+  "physics": {
+   "verdict": "review",
+   "flags": {
+    "CO2 195K": [
+     {
+      "check": "monotonic",
+      "detail": "ads: uptake decreases at [(np.float64(0.007), np.float64(37.807))]"
+     },
+     {
+      "check": "smoothness",
+      "level": "warn",
+      "detail": "ads: local outliers (P,q,resid) [(np.float64(0.002), np.float64(12.479), 11.807), (np.float64(0.003), np.float64(19.821), -3.577), (np.float64(0.004), np.float64(28.955), 3.279), (np.float64(0.006), np.float64(33.838), -2.253), (np.float64(0.007), np.float64(40.34), 2.699)]"
+     },
+     {
+      "check": "smoothness",
+      "level": "warn",
+      "detail": "des: local outliers (P,q,resid) [(np.float64(0.008), np.float64(42.993), -6.334), (np.float64(0.043), np.float64(91.78), -5.941), (np.float64(0.045), np.float64(103.218), 6.716), (np.float64(0.073), np.float64(119.078), 4.622)]"
+     }
+    ]
+   },
+   "cross_series": []
+  },
+  "limitations": {
+   "unresolved_slots": 1,
+   "dense_regions_with_no_distinct_centres": 2,
+   "note": "ink coverage is not marker completeness; unresolved dense evidence requires review"
+  },
+  "accepted_extraction": false
+ }
+}

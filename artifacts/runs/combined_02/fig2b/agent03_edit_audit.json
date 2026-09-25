@@ -1,0 +1,485 @@
+{
+ "schema_version": "1.0",
+ "actor": "agent03_review_points",
+ "requested": 40,
+ "applied": 39,
+ "operations": [
+  {
+   "operation_index": 0,
+   "operation_id": "op-333-del-01",
+   "action": "delete",
+   "point_id": "pt-d833f061e0134171",
+   "series_label": null,
+   "reason": "This proposal is not a blue pentagon; the native pixel region shows the orange-square trajectory/connecting ink.",
+   "source_evidence": "Native marker evidence near pixel (202,325) shows orange/curve ink rather than a blue pentagon.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 1,
+   "operation_id": "op-333-del-02",
+   "action": "delete",
+   "point_id": "pt-d432da7b79a400b5",
+   "series_label": null,
+   "reason": "False CO2 333K assignment; visible native marker is an orange square.",
+   "source_evidence": "Native tile box 4 at pixel (300,208) shows orange filled squares, not a blue pentagon.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 2,
+   "operation_id": "op-333-del-03",
+   "action": "delete",
+   "point_id": "pt-0a0dcaf9ded6e065",
+   "series_label": null,
+   "reason": "False blue-series assignment on the orange/green marker region.",
+   "source_evidence": "Native tile box 5 near pixel (325,213) shows orange square and green triangle markers, with no blue pentagon at the proposed centre.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 3,
+   "operation_id": "op-333-del-04",
+   "action": "delete",
+   "point_id": "pt-6cbe76e981a294e6",
+   "series_label": null,
+   "reason": "False CO2 333K assignment; the visible marker is green, not blue.",
+   "source_evidence": "Native tile box 6 near pixel (332,202) shows a green filled triangle/orange square region.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 4,
+   "operation_id": "op-333-del-05",
+   "action": "delete",
+   "point_id": "pt-ef27825005c2c2a6",
+   "series_label": null,
+   "reason": "False blue-series assignment.",
+   "source_evidence": "Native tile box 7 near pixel (355,202) shows the green triangle trajectory and orange squares, not a blue pentagon.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 5,
+   "operation_id": "op-333-del-06",
+   "action": "delete",
+   "point_id": "pt-60432df156ae95ab",
+   "series_label": null,
+   "reason": "False CO2 333K assignment on a non-blue marker.",
+   "source_evidence": "Native tile box 8 near pixel (361,193) shows orange/green marker pixels rather than a blue pentagon.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 6,
+   "operation_id": "op-333-del-07",
+   "action": "delete",
+   "point_id": "pt-def3c3575b42ea71",
+   "series_label": null,
+   "reason": "No visible blue pentagon at the proposed centre; this is connecting-line/neighbor-series ink.",
+   "source_evidence": "Native source around pixel (385,193) contains the orange/green trajectories and no blue pentagon centre.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 7,
+   "operation_id": "op-333-del-08",
+   "action": "delete",
+   "point_id": "pt-0e3ad176042906fe",
+   "series_label": null,
+   "reason": "No visible blue pentagon supports this proposal.",
+   "source_evidence": "Native source around pixel (414,185) shows neighboring orange/green marker rows, not a blue pentagon.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 8,
+   "operation_id": "op-333-del-09",
+   "action": "delete",
+   "point_id": "pt-c65f81f2b3540c59",
+   "series_label": null,
+   "reason": "False assignment to CO2 333K.",
+   "source_evidence": "Native tile box 9 near pixel (442,179) shows orange square and green triangle markers, not blue.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 9,
+   "operation_id": "op-333-del-10",
+   "action": "delete",
+   "point_id": "pt-982ae0ab92a35b88",
+   "series_label": null,
+   "reason": "No blue pentagon is visible at this proposed location.",
+   "source_evidence": "Native source around pixel (472,173) shows the orange/green rows and no blue marker core.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 10,
+   "operation_id": "op-333-del-11",
+   "action": "delete",
+   "point_id": "pt-7eb1b4ff1a51cc44",
+   "series_label": null,
+   "reason": "False assignment to the blue series.",
+   "source_evidence": "Native tile box 10 near pixel (501,167) shows orange square and green triangle markers, not a blue pentagon.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 11,
+   "operation_id": "op-333-del-12",
+   "action": "delete",
+   "point_id": "pt-ca3c44948c2cffd1",
+   "series_label": null,
+   "reason": "False assignment to the blue series.",
+   "source_evidence": "Native tile box 11 near pixel (530,161) shows orange/green marker pixels and no blue pentagon.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 12,
+   "operation_id": "op-333-del-13",
+   "action": "delete",
+   "point_id": "pt-220d013672ddcac9",
+   "series_label": null,
+   "reason": "Impossible high-y false detection for CO2 333K; no blue pentagon is present at the top border.",
+   "source_evidence": "Native source near pixel (680,54) is the top frame/white region, not a blue 333K marker.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 13,
+   "operation_id": "op-333-reassign-01",
+   "action": "reassign",
+   "point_id": "pt-e8af3b503563b332",
+   "series_label": "CO2 333K",
+   "reason": "The native marker is a blue filled pentagon, not a magenta diamond.",
+   "source_evidence": "Native tile box 12 at pixel (255,299) visibly contains a blue pentagon on the blue trajectory.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    255.0,
+    299.0
+   ]
+  },
+  {
+   "operation_index": 14,
+   "operation_id": "op-333-reassign-02",
+   "action": "reassign",
+   "point_id": "pt-5c5c9cc65b9294d7",
+   "series_label": "CO2 333K",
+   "reason": "The native marker is blue and pentagonal, not magenta.",
+   "source_evidence": "Native tile box 13 at pixel (285,275) visibly contains a blue filled pentagon.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    285.0,
+    275.0
+   ]
+  },
+  {
+   "operation_index": 15,
+   "operation_id": "op-353-add-01",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 353K",
+   "reason": "Visible high-pressure magenta diamond missed by Python.",
+   "source_evidence": "Filled magenta diamond visible near native pixel (488,265).",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    488.0,
+    265.0
+   ]
+  },
+  {
+   "operation_index": 16,
+   "operation_id": "op-353-add-02",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 353K",
+   "reason": "Visible high-pressure magenta diamond missed by Python.",
+   "source_evidence": "Filled magenta diamond visible near native pixel (517,256).",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    517.0,
+    256.0
+   ]
+  },
+  {
+   "operation_index": 17,
+   "operation_id": "op-353-add-03",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 353K",
+   "reason": "Visible high-pressure magenta diamond missed by Python.",
+   "source_evidence": "Filled magenta diamond visible near native pixel (545,248).",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    545.0,
+    248.0
+   ]
+  },
+  {
+   "operation_index": 18,
+   "operation_id": "op-353-add-04",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 353K",
+   "reason": "Visible high-pressure magenta diamond missed by Python.",
+   "source_evidence": "Filled magenta diamond visible near native pixel (574,241).",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    574.0,
+    241.0
+   ]
+  },
+  {
+   "operation_index": 19,
+   "operation_id": "op-353-add-05",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 353K",
+   "reason": "Visible high-pressure magenta diamond missed by Python.",
+   "source_evidence": "Filled magenta diamond visible near native pixel (609,235).",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    609.0,
+    235.0
+   ]
+  },
+  {
+   "operation_index": 20,
+   "operation_id": "op-353-add-06",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 353K",
+   "reason": "Visible high-pressure magenta diamond missed by Python.",
+   "source_evidence": "Filled magenta diamond visible near native pixel (633,232).",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    633.0,
+    232.0
+   ]
+  },
+  {
+   "operation_index": 21,
+   "operation_id": "op-353-add-07",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 353K",
+   "reason": "Visible high-pressure magenta diamond missed by Python.",
+   "source_evidence": "Filled magenta diamond visible near native pixel (664,228).",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    664.0,
+    228.0
+   ]
+  },
+  {
+   "operation_index": 22,
+   "operation_id": "op-373-del-01",
+   "action": "delete",
+   "point_id": "pt-e592e3d25a3ffa34",
+   "series_label": null,
+   "reason": "Detection lies on the thick black connecting stroke, not a distinct plus marker.",
+   "source_evidence": "Native source near pixel (176.53,508.62) shows black stroke ink without a separable plus-marker centre.",
+   "actor": "agent03_review_points",
+   "status": "not_applied",
+   "detail": "unknown point_id"
+  },
+  {
+   "operation_index": 23,
+   "operation_id": "op-373-del-02",
+   "action": "delete",
+   "point_id": "pt-5215e3d25a3ffa34",
+   "series_label": null,
+   "reason": "Stroke pixel falsely interpreted as a plus marker.",
+   "source_evidence": "Native source near pixel (184.44,502.05) shows the thick black line only.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 24,
+   "operation_id": "op-373-del-03",
+   "action": "delete",
+   "point_id": "pt-bb5654413ac8e339",
+   "series_label": null,
+   "reason": "False black-line detection.",
+   "source_evidence": "Native source near pixel (194.09,494.22) contains connecting-stroke ink without a distinct plus.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 25,
+   "operation_id": "op-373-del-04",
+   "action": "delete",
+   "point_id": "pt-574f6bbfbbe4fc9c",
+   "series_label": null,
+   "reason": "False black-line detection.",
+   "source_evidence": "Native source near pixel (196.83,491.19) is part of the thick diagonal stroke.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 26,
+   "operation_id": "op-373-del-05",
+   "action": "delete",
+   "point_id": "pt-e332ca4ced7ef299",
+   "series_label": null,
+   "reason": "False black-line detection.",
+   "source_evidence": "Native source near pixel (202.07,486.89) shows no separable plus-marker arms.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 27,
+   "operation_id": "op-373-del-06",
+   "action": "delete",
+   "point_id": "pt-0c716a7daa9d0556",
+   "series_label": null,
+   "reason": "False black-line detection.",
+   "source_evidence": "Native source near pixel (211.16,479.0) is continuous connecting stroke.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 28,
+   "operation_id": "op-373-del-07",
+   "action": "delete",
+   "point_id": "pt-b22d93ba28612cfc",
+   "series_label": null,
+   "reason": "False black-line detection.",
+   "source_evidence": "Native source near pixel (215.08,475.89) shows the black stroke, not a distinct plus.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 29,
+   "operation_id": "op-373-del-08",
+   "action": "delete",
+   "point_id": "pt-567190f734b873b4",
+   "series_label": null,
+   "reason": "False black-line detection.",
+   "source_evidence": "Native source near pixel (224.06,468.12) is continuous black line ink.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 30,
+   "operation_id": "op-373-del-09",
+   "action": "delete",
+   "point_id": "pt-50974f0e54ec9cc1",
+   "series_label": null,
+   "reason": "False black-line detection.",
+   "source_evidence": "Native source near pixel (231.1,462.28) has no distinct plus-marker centre.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 31,
+   "operation_id": "op-373-del-10",
+   "action": "delete",
+   "point_id": "pt-3787819379f2ac8b",
+   "series_label": null,
+   "reason": "False black-line detection.",
+   "source_evidence": "Native source near pixel (234.05,459.85) is part of the thick black connecting stroke.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 32,
+   "operation_id": "op-373-del-11",
+   "action": "delete",
+   "point_id": "pt-9871216d8f0cf9aa",
+   "series_label": null,
+   "reason": "False black-line detection.",
+   "source_evidence": "Native source near pixel (239.89,455.0) shows continuous black stroke ink.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 33,
+   "operation_id": "op-373-del-12",
+   "action": "delete",
+   "point_id": "pt-b9cb76b7151bdcf2",
+   "series_label": null,
+   "reason": "False black-line detection.",
+   "source_evidence": "Native source near pixel (249.01,447.18) lacks a separable plus marker.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 34,
+   "operation_id": "op-373-del-13",
+   "action": "delete",
+   "point_id": "pt-97979611e6a6ea68",
+   "series_label": null,
+   "reason": "False black-line detection.",
+   "source_evidence": "Native source near pixel (255.93,441.94) is only the thick connecting stroke.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 35,
+   "operation_id": "op-373-del-14",
+   "action": "delete",
+   "point_id": "pt-0278378eb6ab1fc4",
+   "series_label": null,
+   "reason": "False black-line detection.",
+   "source_evidence": "Native source near pixel (262.02,437.02) shows no distinct plus-marker arms.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 36,
+   "operation_id": "op-373-del-15",
+   "action": "delete",
+   "point_id": "pt-6b11f568470a7225",
+   "series_label": null,
+   "reason": "False black-line detection.",
+   "source_evidence": "Native source near pixel (266.0,433.97) is continuous black stroke ink.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 37,
+   "operation_id": "op-373-del-16",
+   "action": "delete",
+   "point_id": "pt-4098e138c76927e7",
+   "series_label": null,
+   "reason": "False black-line detection.",
+   "source_evidence": "Native source near pixel (271.15,429.97) lacks a separable plus marker.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 38,
+   "operation_id": "op-373-del-17",
+   "action": "delete",
+   "point_id": "pt-1a1e8358928ed304",
+   "series_label": null,
+   "reason": "False black-line detection.",
+   "source_evidence": "Native source near pixel (278.1,424.98) is part of the thick diagonal line.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  },
+  {
+   "operation_index": 39,
+   "operation_id": "op-373-del-18",
+   "action": "delete",
+   "point_id": "pt-dc9f57962f1ec51a",
+   "series_label": null,
+   "reason": "False black-line detection.",
+   "source_evidence": "Native source near pixel (283.49,420.07) shows only continuous stroke ink.",
+   "actor": "agent03_review_points",
+   "status": "applied"
+  }
+ ]
+}

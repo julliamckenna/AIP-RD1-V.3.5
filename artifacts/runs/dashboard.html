@@ -1,0 +1,542 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CO2 isotherm workflow</title>
+<style>
+
+:root {
+  /* Svante primary colors */
+  --primary: #08abc1;
+  --primary-dark: #075b73;
+  --primary-light: #c7f0f5;
+
+  /* Svante neutral colors */
+  --bg: #f5f6f8;
+  --card: #ffffff;
+  --ink: #182231;
+  --muted: #687482;
+  --line: #d9dee5;
+  --line-soft: #edf0f3;
+
+  /* Status colors */
+  --good: #23ad5c;
+  --good-light: #d9f5e4;
+  --bad: #f22f38;
+  --bad-light: #fde1e3;
+  --warn: #ffb71b;
+  --warn-light: #fff1c7;
+
+  /* Shared styling */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --shadow-sm: 0 2px 6px rgba(24, 34, 49, 0.05);
+  --shadow-md: 0 6px 18px rgba(24, 34, 49, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 14px/1.45 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Arial, sans-serif;
+}
+
+/* Header */
+
+header {
+  background: var(--primary);
+  color: #ffffff;
+  padding: 20px 32px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 650;
+  letter-spacing: 0.01em;
+}
+
+header p {
+  margin: 5px 0 0;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Main layout */
+
+main {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 24px 32px 60px;
+}
+
+/* KPI section */
+
+.kpis {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 14px;
+  margin: 0 0 24px;
+}
+
+.kpi {
+  position: relative;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--primary);
+  border-radius: var(--radius-md);
+  padding: 15px 17px;
+  box-shadow: var(--shadow-sm);
+}
+
+.kpi .v {
+  color: var(--primary-dark);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.kpi .k {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 650;
+  text-transform: uppercase;
+  letter-spacing: 0.055em;
+}
+
+.kpi:nth-child(4) .v {
+  color: var(--bad);
+}
+
+.kpi:nth-child(5) .v {
+  color: var(--good);
+}
+
+/* Filter and action bar */
+
+.bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin: 18px 0 16px;
+  padding: 14px;
+  background: var(--card);
+  border: 1px solid var(--primary);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Filter chips */
+
+.chip {
+  border: 1px solid var(--line);
+  background: var(--card);
+  border-radius: 999px;
+  padding: 7px 14px;
+  color: var(--muted);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.chip:hover {
+  color: var(--primary-dark);
+  border-color: var(--primary);
+  background: #f3fcfd;
+}
+
+.chip.on {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #ffffff;
+}
+
+/* Form controls */
+
+input[type="search"],
+select {
+  min-height: 38px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--card);
+  color: var(--ink);
+  font: inherit;
+  outline: none;
+  transition:
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+input[type="search"] {
+  flex: 1;
+  min-width: 220px;
+  padding: 8px 12px;
+}
+
+select {
+  padding: 8px 32px 8px 10px;
+}
+
+input[type="search"]::placeholder {
+  color: #9aa3ae;
+}
+
+input[type="search"]:hover,
+select:hover {
+  border-color: #a9b3bd;
+}
+
+input[type="search"]:focus,
+select:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(8, 171, 193, 0.14);
+}
+
+/* Card grid */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition:
+    transform 0.15s ease,
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  border-color: var(--primary);
+  box-shadow: var(--shadow-md);
+}
+
+.thumb {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: contain;
+  background: #ffffff;
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 8px;
+  padding: 13px 15px 15px;
+}
+
+.top {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fid {
+  color: var(--primary-dark);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* Status badges */
+
+.badge {
+  padding: 4px 9px;
+  border-radius: 999px;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.badge.accepted {
+  background: var(--good-light);
+  color: #167743;
+}
+
+.badge.needs_human {
+  background: var(--bad-light);
+  color: #bd2029;
+}
+
+.badge.review {
+  background: var(--warn-light);
+  color: #9b6500;
+}
+
+.title {
+  color: var(--ink);
+  font-weight: 650;
+}
+
+.doc {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+/* Series labels */
+
+.series {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.s {
+  display: inline-flex;
+  gap: 5px;
+  align-items: center;
+  padding: 3px 8px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fafbfc;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.dot {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border: 1px solid rgba(24, 34, 49, 0.15);
+  border-radius: 50%;
+}
+
+/* Metadata */
+
+.meta {
+  display: flex;
+  gap: 14px;
+  margin-top: auto;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.meta b {
+  color: var(--ink);
+  font-weight: 650;
+}
+
+/* Primary buttons */
+
+.btn {
+  display: inline-block;
+  padding: 8px 14px;
+  border: 1px solid var(--primary);
+  border-radius: var(--radius-sm);
+  background: var(--primary);
+  color: #ffffff;
+  font-weight: 650;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.btn:hover {
+  background: var(--primary-dark);
+  border-color: var(--primary-dark);
+  box-shadow: 0 3px 8px rgba(7, 91, 115, 0.18);
+}
+
+.btn:focus-visible,
+.chip:focus-visible {
+  outline: 3px solid rgba(8, 171, 193, 0.22);
+  outline-offset: 2px;
+}
+
+/* Tables */
+
+table {
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: var(--radius-md);
+  background: var(--card);
+  box-shadow: var(--shadow-sm);
+}
+
+td,
+th {
+  padding: 10px 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--line-soft);
+}
+
+th {
+  background: #f8fafb;
+  color: var(--ink);
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.045em;
+}
+
+td {
+  font-size: 13px;
+}
+
+tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+tbody tr {
+  transition: background-color 0.12s ease;
+}
+
+tbody tr:hover {
+  background: #f3fcfd;
+}
+
+/* Shared text styles */
+
+.muted {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.good {
+  color: var(--good);
+  font-weight: 700;
+}
+
+.bad {
+  color: var(--bad);
+  font-weight: 700;
+}
+
+h2 {
+  margin: 26px 0 10px;
+  color: var(--primary-dark);
+  font-size: 16px;
+  font-weight: 650;
+}
+
+h2::after {
+  display: block;
+  width: 36px;
+  height: 2px;
+  margin-top: 6px;
+  border-radius: 2px;
+  background: var(--primary);
+  content: "";
+}
+
+.empty {
+  padding: 34px;
+  color: var(--muted);
+  text-align: center;
+}
+
+footer {
+  margin-top: 30px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 12px;
+}
+
+/* Responsive adjustments */
+
+@media (max-width: 700px) {
+  header {
+    padding: 18px 20px;
+  }
+
+  header h1 {
+    font-size: 21px;
+  }
+
+  main {
+    padding: 20px 16px 40px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .bar {
+    align-items: stretch;
+  }
+
+  input[type="search"],
+  select {
+    width: 100%;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+
+.header-link { color: #ffffff; }
+.card-actions { display: grid; gap: 8px; grid-template-columns: 1fr 1fr; }
+.btn.secondary { background: var(--card); color: var(--primary-dark); }
+.btn.secondary:hover { background: var(--primary-light); border-color: var(--primary-dark); }
+@media (max-width: 700px) { .card-actions { grid-template-columns: 1fr; } }
+</style></head><body>
+<header><h1>CO2 isotherm workflow</h1><p>Every extracted chart, one click from its review page. Master table: <a class="header-link" href="all_data.csv">all_data.csv</a></p></header>
+<main>
+<div class="kpis"><div class="kpi"><div class="v">6</div><div class="k">documents</div></div><div class="kpi"><div class="v">8</div><div class="k">figure panels</div></div><div class="kpi"><div class="v">1244</div><div class="k">data points</div></div><div class="kpi"><div class="v">1205</div><div class="k">points needing a human</div></div><div class="kpi"><div class="v">0/8</div><div class="k">panels auto-accepted</div></div></div>
+<h2>Documents</h2>
+<table><tr><th>document</th><th>panels</th><th>points</th><th>needs human</th></tr><tr><td><b>calf20</b><div class="muted">calf20</div></td><td>1</td><td>104</td><td class="bad">104</td></tr><tr><td><b>calf20_01</b><div class="muted">calf20_01</div></td><td>1</td><td>319</td><td class="bad">319</td></tr><tr><td><b>calf20_02</b><div class="muted">calf20_02</div></td><td>1</td><td>324</td><td class="bad">324</td></tr><tr><td><b>combined_02</b><div class="muted">combined_02</div></td><td>3</td><td>408</td><td class="bad">408</td></tr><tr><td><b>fig3a</b><div class="muted">fig3a</div></td><td>1</td><td>55</td><td class="bad">16</td></tr><tr><td><b>single_01</b><div class="muted">single_01</div></td><td>1</td><td>34</td><td class="bad">34</td></tr></table>
+<h2>Figures</h2>
+<div class="bar">
+  <span class="chip on" data-f="all">All</span><span class="chip" data-f="needs_human">Needs a human</span><span class="chip" data-f="accepted">Accepted</span><span class="chip" data-f="review">Review</span>
+  <input type="search" id="q" placeholder="search document, figure id, title, series…">
+  <select id="sort"><option value="doc">sort: document · figure</option><option value="flag">sort: needs human first</option><option value="points">sort: most points</option></select>
+</div>
+<div class="grid" id="grid"></div><div class="empty" id="empty" hidden>Nothing matches.</div>
+<footer>Built 2026-09-25 12:01 · direct save and automatic rebuild: <code>python scripts/review_server.py</code></footer>
+</main>
+<script>
+const cards=[{"document": "calf20", "document_title": "calf20", "figure_id": "figp1b", "title": "", "series": [{"label": "CO2 303K", "color": "#eb2125"}, {"label": "CO2 313K", "color": "#f3ac26"}, {"label": "CO2 323K", "color": "#238b45"}, {"label": "CO2 333K", "color": "#293ca3"}, {"label": "CO2 353K", "color": "#a72488"}, {"label": "CO2 373K", "color": "#040404"}], "points": 104, "flag": 104, "checks": "auto_accept", "ai": "review", "href": "calf20/figp1b/review.html", "thumb": "calf20/figp1b/agent04_overlay.png", "status": "needs_human"}, {"document": "calf20_01", "document_title": "calf20_01", "figure_id": "figp1a", "title": "", "series": [{"label": "CO2 273K", "color": "#030303"}, {"label": "CO2 283K", "color": "#f1231f"}, {"label": "CO2 293K", "color": "#384ca8"}, {"label": "CO2 303K", "color": "#389695"}, {"label": "CO2 313K", "color": "#b553a1"}, {"label": "CO2 323K", "color": "#8d8b35"}, {"label": "CO2 333K", "color": "#282372"}, {"label": "CO2 343K", "color": "#7b0f13"}, {"label": "CO2 353K", "color": "#f31f74"}, {"label": "CO2 363K", "color": "#197b35"}, {"label": "CO2 373K", "color": "#2e3195"}], "points": 319, "flag": 319, "checks": "review", "ai": "review", "href": "calf20_01/figp1a/review.html", "thumb": "calf20_01/figp1a/agent04_overlay.png", "status": "needs_human"}, {"document": "calf20_02", "document_title": "calf20_02", "figure_id": "figp1a", "title": "", "series": [{"label": "CO2 273K", "color": "#030303"}, {"label": "CO2 283K", "color": "#f1231f"}, {"label": "CO2 293K", "color": "#384ca8"}, {"label": "CO2 303K", "color": "#0d7d75"}, {"label": "CO2 313K", "color": "#b152a1"}, {"label": "CO2 323K", "color": "#8d8e34"}, {"label": "CO2 333K", "color": "#282372"}, {"label": "CO2 343K", "color": "#7b0f13"}, {"label": "CO2 353K", "color": "#f31f74"}, {"label": "CO2 363K", "color": "#197b35"}, {"label": "CO2 373K", "color": "#2a2b86"}], "points": 324, "flag": 324, "checks": "review", "ai": "review", "href": "calf20_02/figp1a/review.html", "thumb": "calf20_02/figp1a/agent04_overlay.png", "status": "needs_human"}, {"document": "combined_02", "document_title": "combined_02", "figure_id": "fig3a", "title": "FIGURE 3 | Gas sorption properties of NUM-27a", "series": [{"label": "CO2 195K", "color": "#5c69ff"}], "points": 52, "flag": 52, "checks": "review", "ai": "review", "href": "combined_02/fig3a/review.html", "thumb": "combined_02/fig3a/agent04_overlay.png", "status": "needs_human"}, {"document": "combined_02", "document_title": "combined_02", "figure_id": "fig2a", "title": "Equilibrium gas uptake data on pure CALF-20", "series": [{"label": "CO2 273K", "color": "#020202"}, {"label": "CO2 283K", "color": "#f61f22"}, {"label": "CO2 293K", "color": "#364ba7"}, {"label": "CO2 303K", "color": "#c184b8"}, {"label": "CO2 313K", "color": "#2a297c"}, {"label": "CO2 323K", "color": "#898e2a"}, {"label": "CO2 333K", "color": "#e63388"}, {"label": "CO2 343K", "color": "#9297c6"}, {"label": "CO2 353K", "color": "#f31f74"}, {"label": "CO2 363K", "color": "#197b35"}, {"label": "CO2 373K", "color": "#832780"}], "points": 267, "flag": 267, "checks": "review", "ai": "review", "href": "combined_02/fig2a/review.html", "thumb": "combined_02/fig2a/agent04_overlay.png", "status": "needs_human"}, {"document": "combined_02", "document_title": "combined_02", "figure_id": "fig2b", "title": "Equilibrium gas uptake data on pure CALF-20", "series": [{"label": "CO2 303K", "color": "#f21f26"}, {"label": "CO2 313K", "color": "#f5ab1e"}, {"label": "CO2 323K", "color": "#218b41"}, {"label": "CO2 333K", "color": "#f9fefb"}, {"label": "CO2 353K", "color": "#293e9d"}, {"label": "CO2 373K", "color": "#060707"}], "points": 89, "flag": 89, "checks": "auto_accept", "ai": "review", "href": "combined_02/fig2b/review.html", "thumb": "combined_02/fig2b/agent04_overlay.png", "status": "needs_human"}, {"document": "fig3a", "document_title": "fig3a", "figure_id": "figp1", "title": "", "series": [{"label": "CO2 195K", "color": "#5462fb"}], "points": 55, "flag": 16, "checks": "auto_accept", "ai": "", "href": "fig3a/figp1/review.html", "thumb": "fig3a/figp1/agent03_overlay.png", "status": "needs_human"}, {"document": "single_01", "document_title": "single_01", "figure_id": "fig3a", "title": "FIGURE 3 | Gas sorption properties of NUM-27a", "series": [{"label": "CO2 195K", "color": "#6878ff"}], "points": 34, "flag": 34, "checks": "review", "ai": "review", "href": "single_01/fig3a/review.html", "thumb": "single_01/fig3a/agent04_overlay.png", "status": "needs_human"}];let filter="all",q="",sort="doc";
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function render(){
+  let list=cards.filter(c=>filter==="all"||c.status===filter);
+  if(q){const t=q.toLowerCase();list=list.filter(c=>[c.document,c.document_title,c.figure_id,c.title,...c.series.map(s=>s.label)].join(" ").toLowerCase().includes(t));}
+  list.sort((a,b)=>sort==="flag"?(b.flag-a.flag)||a.document.localeCompare(b.document):sort==="points"?b.points-a.points:a.document.localeCompare(b.document)||a.figure_id.localeCompare(b.figure_id));
+  document.getElementById("grid").innerHTML=list.map(c=>`<div class="card">
+    <a href="${c.href}"><img class="thumb" loading="lazy" src="${c.thumb}" alt=""></a>
+    <div class="body"><div class="top"><span class="fid">${esc(c.figure_id)}</span><span class="badge ${c.status}">${c.status.replace("_"," ")}</span></div>
+    <div class="title">${esc(c.title)}</div><div class="doc">${esc(c.document_title||c.document)}</div>
+    <div class="series">${c.series.map(s=>`<span class="s"><i class="dot" style="background:${s.color}"></i>${esc(s.label)}</span>`).join("")}</div>
+    <div class="meta"><span><b>${c.points}</b> points</span><span><b class="${c.flag?"bad":"good"}">${c.flag}</b> need a human</span><span>checks <b>${esc(c.checks)}</b></span><span>AI <b>${esc(c.ai||"–")}</b></span></div>
+    <div class="card-actions"><a class="btn" href="${c.href}">Open review page →</a><a class="btn secondary" href="${c.href.replace('review.html','agent04_compare.png')}">Original vs recreated</a></div></div></div>`).join("");
+  document.getElementById("empty").hidden=list.length>0;
+}
+document.querySelectorAll(".chip").forEach(ch=>ch.onclick=()=>{document.querySelectorAll(".chip").forEach(x=>x.classList.remove("on"));ch.classList.add("on");filter=ch.dataset.f;render();});
+document.getElementById("q").oninput=e=>{q=e.target.value;render();};
+document.getElementById("sort").onchange=e=>{sort=e.target.value;render();};
+render();
+</script></body></html>

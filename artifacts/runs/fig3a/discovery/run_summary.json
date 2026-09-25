@@ -1,0 +1,87 @@
+{
+ "source": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\data\\input\\fig3a.png",
+ "title": "fig3a",
+ "run_id": "20260925-104017-f5c96b",
+ "note": "Rerun agent 03 (all downstream stages).",
+ "panels": [
+  {
+   "folder": "figp1",
+   "figure": {
+    "page": 1,
+    "kind": "image",
+    "file": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\fig3a\\discovery\\python_inventory\\figure.png",
+    "source_id": "image",
+    "figure_number": null,
+    "caption": null,
+    "caption_candidates": [],
+    "references": []
+   },
+   "discovery": {
+    "reasoning": "The extracted graphic contains one main physical axis frame plotting uptake against relative pressure. The blue series is explicitly labeled CO2@195 K, while the red series is labeled N2@77 K, so the main frame contains an eligible CO2 adsorption isotherm. A smaller embedded uptake-versus-relative-pressure chart is an inset and must be masked. Although “(a)” is visible as a panel label, no printed figure number or caption is available, so no figure number can be assigned.",
+    "figure_number": null,
+    "matched_caption": "",
+    "figure_is_relevant": true,
+    "si_has_tabulated_data": "unknown",
+    "panels": [
+     {
+      "panel": "x",
+      "is_co2_isotherm": true,
+      "reason": "The main axis directly plots uptake (cm³ g⁻¹) versus relative pressure (P/P0), including a series explicitly labeled CO2@195 K; the accompanying N2 series does not affect eligibility.",
+      "bbox_norm": [
+       0.02,
+       0.01,
+       0.98,
+       0.99
+      ],
+      "has_inset": true,
+      "inset_bbox_norm": [
+       0.36,
+       0.29,
+       0.76,
+       0.72
+      ]
+     }
+    ],
+    "context": {
+     "adsorbent": "Not identified in the available image or source context.",
+     "sample_form": "Not reported.",
+     "activation": "Not reported.",
+     "instrument": "Not reported.",
+     "measurement_notes": "CO2 uptake is plotted at 195 K against relative pressure P/P0, with uptake reported in cm³ g⁻¹. The same main frame also shows N2 at 77 K. The inset is an embedded uptake-versus-relative-pressure chart and is excluded from extraction.",
+     "other_parameters": "The inset marks relative-pressure points P/P0 = 0.017 and 0.030, but inset measurements are source context only. Adsorption/desorption branch assignments are not explicitly identified."
+    }
+   },
+   "panel": {
+    "panel": "x",
+    "is_co2_isotherm": true,
+    "reason": "The main axis directly plots uptake (cm³ g⁻¹) versus relative pressure (P/P0), including a series explicitly labeled CO2@195 K; the accompanying N2 series does not affect eligibility.",
+    "bbox_norm": [
+     0.02,
+     0.01,
+     0.98,
+     0.99
+    ],
+    "has_inset": true,
+    "inset_bbox_norm": [
+     0.36,
+     0.29,
+     0.76,
+     0.72
+    ]
+   },
+   "figure_id": "figp1",
+   "panel_id": "x",
+   "status": "failed",
+   "message": "rerun agent 03: CSV row 2 color_hex conflicts with the candidate series identity or style",
+   "check_rounds": 3,
+   "extract_error": "",
+   "needs_review": true,
+   "rows": {
+    "python": 46,
+    "agent03": 55,
+    "agent04": 48
+   },
+   "verdict": "review"
+  }
+ ]
+}

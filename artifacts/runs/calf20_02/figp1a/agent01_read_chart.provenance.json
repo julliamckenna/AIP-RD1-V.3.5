@@ -1,0 +1,19 @@
+{
+ "agent_name": "agent01-structure",
+ "agent_version": "5",
+ "response_id": "resp_0994bbe21a12cc34006ab69cafe18c81938d7d5d1720c6f626",
+ "usage": {
+  "input_tokens": 6367,
+  "input_tokens_details": {
+   "cache_write_tokens": 6364,
+   "cached_tokens": 0
+  },
+  "output_tokens": 3554,
+  "output_tokens_details": {
+   "reasoning_tokens": 890
+  },
+  "total_tokens": 9921
+ },
+ "created_at": "2026-09-25T16:09:41.078548+00:00",
+ "dry_run": false
+}

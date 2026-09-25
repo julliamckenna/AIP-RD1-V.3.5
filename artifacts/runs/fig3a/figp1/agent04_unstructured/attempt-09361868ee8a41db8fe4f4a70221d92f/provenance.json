@@ -1,0 +1,24 @@
+{
+ "agent_name": "agent04-qa",
+ "agent_version": "8",
+ "response_id": "resp_00c4146e54ccf765006ab6b2f5af3c8193a9ff9f87fc88bba2",
+ "usage": {
+  "input_tokens": 39879,
+  "input_tokens_details": {
+   "cache_write_tokens": 2577,
+   "cached_tokens": 0
+  },
+  "output_tokens": 10060,
+  "output_tokens_details": {
+   "reasoning_tokens": 10020
+  },
+  "total_tokens": 49939
+ },
+ "created_at": "2026-09-25T17:46:46.413055+00:00",
+ "dry_run": false,
+ "response_mode": "artifacts",
+ "request_sha256": "fbc26e5c3a60bc83014514e70631aed2af8a8c1261561e044357ba63be2600ad",
+ "request_path": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\fig3a\\figp1\\agent04_unstructured\\attempt-09361868ee8a41db8fe4f4a70221d92f\\request.json",
+ "runtime_agent_name": "chart-review-226b2b5ee4a04adaa606",
+ "runtime_agent_version": "1"
+}

@@ -1,0 +1,317 @@
+{
+ "reasoning": "batch 1: Independent inspection of panel.png confirms a 700x607 panel with a linear main x axis (Relative Pressure, 0–1) and linear y axis (Uptake, 0–140 cm³ g⁻¹). Tick fits agree with the supplied calibration to about 0.48 px in x and 0.57 px in y. The eligible series is the blue open-circle CO2 195K curve; the coral open-circle N2 77K curve and the embedded inset are excluded. The candidate CO2 rows have correct ownership but omit several native plateau rings and supported fragments in the crowded low-pressure rise. I added only centres supported by visible blue ring contours/fragments in the unchanged source. The crowded rise still contains fused ink for which a distinct centre cannot be defended, so coverage is incomplete and the result requires review.",
+ "verdict": "review",
+ "series": [
+  {
+   "label": "CO2 195K",
+   "coverage": "incomplete",
+   "final_count": 55,
+   "comment": "46 supplied CO2 candidates plus 9 source-supported additions. Plateau additions are distinct native open rings; two low-pressure additions are partial/fused but have visible blue marker structure. Further fused low-pressure ink remains unresolved."
+  },
+  {
+   "label": "N2 77K",
+   "coverage": "complete",
+   "final_count": 0,
+   "comment": "Excluded non-CO2 series; its coral open circles were used only to distinguish ownership and were not exported."
+  }
+ ],
+ "operations": [
+  {
+   "operation_id": "batch-001-add-co2-native-01",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.48642857142857143,
+   "y_norm": 0.19192751235584843,
+   "overlap": false,
+   "reason": "A distinct blue open ring is visible on the main-plot plateau at this column; the candidate list skips this native marker and the nearby line is not being used as the point evidence.",
+   "source_evidence": "Blue open-circle contour centered near native panel pixel (340.5, 116.5); distinct from adjacent candidate markers.",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.0,
+   "evidence_ref": "tile:region_04"
+  },
+  {
+   "operation_id": "batch-001-add-co2-native-02",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.6592857142857143,
+   "y_norm": 0.18698517298187808,
+   "overlap": false,
+   "reason": "A distinct blue open ring is visible on the main-plot plateau at this column; the candidate list skips this native marker and the nearby line is not being used as the point evidence.",
+   "source_evidence": "Blue open-circle contour centered near native panel pixel (461.5, 113.5); distinct from adjacent candidate markers.",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.0,
+   "evidence_ref": "tile:region_04"
+  },
+  {
+   "operation_id": "batch-001-add-co2-native-03",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.6935714285714286,
+   "y_norm": 0.18698517298187808,
+   "overlap": false,
+   "reason": "A distinct blue open ring is visible on the main-plot plateau at this column; the candidate list skips this native marker and the nearby line is not being used as the point evidence.",
+   "source_evidence": "Blue open-circle contour centered near native panel pixel (485.5, 113.5); distinct from adjacent candidate markers.",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.0,
+   "evidence_ref": "tile:region_04"
+  },
+  {
+   "operation_id": "batch-001-add-co2-native-04",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.7292857142857143,
+   "y_norm": 0.18698517298187808,
+   "overlap": false,
+   "reason": "A distinct blue open ring is visible on the main-plot plateau at this column; the candidate list skips this native marker and the nearby line is not being used as the point evidence.",
+   "source_evidence": "Blue open-circle contour centered near native panel pixel (510.5, 113.5); distinct from adjacent candidate markers.",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.0,
+   "evidence_ref": "tile:region_04"
+  },
+  {
+   "operation_id": "batch-001-add-co2-native-05",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.765,
+   "y_norm": 0.18698517298187808,
+   "overlap": false,
+   "reason": "A distinct blue open ring is visible on the main-plot plateau at this column; the candidate list skips this native marker and the nearby line is not being used as the point evidence.",
+   "source_evidence": "Blue open-circle contour centered near native panel pixel (535.5, 113.5); distinct from adjacent candidate markers.",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.0,
+   "evidence_ref": "tile:region_04"
+  },
+  {
+   "operation_id": "batch-001-add-co2-native-06",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.7964285714285714,
+   "y_norm": 0.18369028006589785,
+   "overlap": false,
+   "reason": "A distinct blue open ring is visible on the main-plot plateau at this column; the candidate list skips this native marker and the nearby line is not being used as the point evidence.",
+   "source_evidence": "Blue open-circle contour centered near native panel pixel (557.5, 111.5); distinct from adjacent candidate markers.",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.0,
+   "evidence_ref": "tile:region_04"
+  },
+  {
+   "operation_id": "batch-001-add-co2-native-07",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.8792857142857143,
+   "y_norm": 0.18204283360790774,
+   "overlap": false,
+   "reason": "A distinct blue open ring is visible on the main-plot plateau at this column; the candidate list skips this native marker and the nearby line is not being used as the point evidence.",
+   "source_evidence": "Blue open-circle contour centered near native panel pixel (615.5, 110.5); distinct from adjacent candidate markers.",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 2.0,
+   "evidence_ref": "tile:region_04"
+  },
+  {
+   "operation_id": "batch-001-add-co2-native-08",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.22642857142857142,
+   "y_norm": 0.4802306425041186,
+   "overlap": false,
+   "reason": "A supported blue marker fragment/white interior is visible in the crowded low-pressure strip at this native position, separate from the adjacent rings; centre is reported with uncertainty because overlapping strokes fuse the contour.",
+   "source_evidence": "Blue open-circle contour centered near native panel pixel (158.5, 291.5); distinct from adjacent candidate markers.",
+   "evidence_kind": "partial_marker",
+   "uncertainty_px": 3.0,
+   "evidence_ref": "crowded_strip:01"
+  },
+  {
+   "operation_id": "batch-001-add-co2-native-09",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "x_norm": 0.2292857142857143,
+   "y_norm": 0.46540362438220756,
+   "overlap": false,
+   "reason": "A supported blue marker fragment/white interior is visible in the crowded low-pressure strip at this native position, separate from the adjacent rings; centre is reported with uncertainty because overlapping strokes fuse the contour.",
+   "source_evidence": "Blue open-circle contour centered near native panel pixel (160.5, 282.5); distinct from adjacent candidate markers.",
+   "evidence_kind": "partial_marker",
+   "uncertainty_px": 3.0,
+   "evidence_ref": "crowded_strip:01"
+  }
+ ],
+ "uncertainties": [
+  "Crowded low-pressure strip around native x≈158–166 px and y≈275–350 px contains overlapping blue open-circle contours; some fragments cannot be assigned distinct centres without relying on expected spacing or interpolation.",
+  "The source plateau near native x≈590–625 px has tightly overlapping rings; only centres with a visible separate contour were edited. The inset at approximately [247,173,517,391] is excluded and was not used for CO2 points.",
+  "Calibration is source-supported by printed ticks; residuals are sub-pixel, but the dense-marker centre uncertainty is several native pixels.",
+  "Unresolved review item crowded_strip:01: Inspected unchanged full-height native crop; blue CO2 marker fragments are present, including two added centres, but additional fused strokes remain non-separable.",
+  "Unresolved review item slot:0001: Inspected native slot crop; dense blue ink is present but no additional distinct centre can be defended beyond the reported partial markers."
+ ],
+ "coverage": [
+  {
+   "item_id": "crowded_strip:01",
+   "item_type": "evidence",
+   "status": "unresolved",
+   "detail": "Inspected unchanged full-height native crop; blue CO2 marker fragments are present, including two added centres, but additional fused strokes remain non-separable."
+  },
+  {
+   "item_id": "tile:marker_01",
+   "item_type": "tile",
+   "status": "reviewed",
+   "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+  },
+  {
+   "item_id": "box:marker_01:1",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+  },
+  {
+   "item_id": "box:marker_01:2",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+  },
+  {
+   "item_id": "box:marker_01:3",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+  },
+  {
+   "item_id": "box:marker_01:4",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+  },
+  {
+   "item_id": "box:marker_01:5",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+  },
+  {
+   "item_id": "box:marker_01:6",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+  },
+  {
+   "item_id": "box:marker_01:7",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+  },
+  {
+   "item_id": "box:marker_01:8",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+  },
+  {
+   "item_id": "tile:marker_02",
+   "item_type": "tile",
+   "status": "reviewed",
+   "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+  },
+  {
+   "item_id": "box:marker_02:9",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+  },
+  {
+   "item_id": "box:marker_02:10",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+  },
+  {
+   "item_id": "box:marker_02:11",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+  },
+  {
+   "item_id": "box:marker_02:12",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+  },
+  {
+   "item_id": "box:marker_02:13",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+  },
+  {
+   "item_id": "box:marker_02:14",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+  },
+  {
+   "item_id": "box:marker_02:15",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+  },
+  {
+   "item_id": "box:marker_02:16",
+   "item_type": "box",
+   "status": "reviewed",
+   "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+  },
+  {
+   "item_id": "tile:region_01",
+   "item_type": "tile",
+   "status": "reviewed",
+   "detail": "Inspected unchanged native tile; candidate and source were compared, with supported omissions added where native blue ring contours were distinct."
+  },
+  {
+   "item_id": "tile:region_03",
+   "item_type": "tile",
+   "status": "reviewed",
+   "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+  },
+  {
+   "item_id": "tile:region_04",
+   "item_type": "tile",
+   "status": "reviewed",
+   "detail": "Inspected unchanged native tile; candidate and source were compared, with supported omissions added where native blue ring contours were distinct."
+  },
+  {
+   "item_id": "tile:region_05",
+   "item_type": "tile",
+   "status": "reviewed",
+   "detail": "Inspected unchanged native tile/box; the blue open-circle contour supports the candidate location and no series reassignment or deletion is supported."
+  },
+  {
+   "item_id": "evidence:dense_roi_line_suppressed.png",
+   "item_type": "evidence",
+   "status": "reviewed",
+   "detail": "Inspected native or identified as derived diagnostic; derived diagnostics were not used as marker authority."
+  },
+  {
+   "item_id": "evidence:dense_roi_series_likelihood.png",
+   "item_type": "evidence",
+   "status": "reviewed",
+   "detail": "Inspected native or identified as derived diagnostic; derived diagnostics were not used as marker authority."
+  },
+  {
+   "item_id": "evidence:dense_roi_proposed_assignments.png",
+   "item_type": "evidence",
+   "status": "reviewed",
+   "detail": "Inspected native or identified as derived diagnostic; derived diagnostics were not used as marker authority."
+  },
+  {
+   "item_id": "slot:0001",
+   "item_type": "slot",
+   "status": "unresolved",
+   "detail": "Inspected native slot crop; dense blue ink is present but no additional distinct centre can be defended beyond the reported partial markers."
+  }
+ ]
+}

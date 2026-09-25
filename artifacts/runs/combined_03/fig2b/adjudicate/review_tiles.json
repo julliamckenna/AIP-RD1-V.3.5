@@ -1,0 +1,117 @@
+{
+ "schema_version": "1.0",
+ "authority": "supporting_evidence_only",
+ "native_image": "panel.png",
+ "legend": "legend.png",
+ "tiles": [
+  {
+   "tile_id": "marker_01",
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "boxes": [
+    {
+     "box": 1,
+     "point_id": "pt-c4418c05403c4757",
+     "series_label": "CO2 313K",
+     "source_pixel": [
+      185.33,
+      382.94
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 2,
+     "point_id": "pt-0b373f12f27cec89",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      185.32,
+      440.06
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 3,
+     "point_id": "pt-11f0ee9addaf64fc",
+     "series_label": "CO2 323K",
+     "source_pixel": [
+      198.55,
+      377.46
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 4,
+     "point_id": "pt-b3811a15f6532a34",
+     "series_label": "CO2 333K",
+     "source_pixel": [
+      613.07,
+      190.41
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 5,
+     "point_id": "pt-56f3ced100bb1896",
+     "series_label": "CO2 353K",
+     "source_pixel": [
+      198.53,
+      469.92
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 6,
+     "point_id": "pt-9c233d27f2011b29",
+     "series_label": "CO2 353K",
+     "source_pixel": [
+      227.21,
+      424.27
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 7,
+     "point_id": "pt-aed8b3680ce66777",
+     "series_label": "CO2 353K",
+     "source_pixel": [
+      253.17,
+      392.39
+     ],
+     "reason": "low_confidence_or_overlap"
+    },
+    {
+     "box": 8,
+     "point_id": "pt-64b950e7ef982660",
+     "series_label": "CO2 373K",
+     "source_pixel": [
+      236.0,
+      466.0
+     ],
+     "reason": "low_confidence_or_overlap"
+    }
+   ]
+  },
+  {
+   "tile_id": "region_01",
+   "native_tile": "region_01_native.png",
+   "candidate_tile": "region_01_candidate.png",
+   "boxes": [],
+   "reason": "Agent 02 complex-region search"
+  },
+  {
+   "tile_id": "region_02",
+   "native_tile": "region_02_native.png",
+   "candidate_tile": "region_02_candidate.png",
+   "boxes": [],
+   "reason": "Agent 02 complex-region search"
+  }
+ ],
+ "dense_region_evidence": [
+  "dense_roi_native.png",
+  "dense_roi_line_suppressed.png",
+  "dense_roi_series_likelihood.png",
+  "dense_roi_proposed_assignments.png"
+ ],
+ "ambiguity_native_evidence_tiles": [],
+ "instructions": "Native tiles are source truth. Candidate tiles identify Python proposals only. Search every complex-region native tile for missed CO2 markers; never use an annotated ring or count as coordinate evidence."
+}

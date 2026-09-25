@@ -1,0 +1,267 @@
+{
+ "schema_version": "4.0",
+ "stage": "agent04",
+ "figure_id": "fig1",
+ "panel_id": "a",
+ "source_pdf": "",
+ "image_sha256": "9461bb0e2c362d173c7881830188d6c1d76ead5ed1fac379cc8b6afd5b9da030",
+ "status": "complete_against_reviewed_evidence",
+ "plot_bbox": [
+  0,
+  0,
+  100,
+  100
+ ],
+ "series": [
+  {
+   "series_id": "fig1:a:co2-273k-78e92393",
+   "series_name": "CO2 273K",
+   "species": "CO2",
+   "export_eligible": true,
+   "species_evidence": "",
+   "marker_shape": "circle",
+   "marker_fill": "filled",
+   "marker_glyph": null,
+   "color_hex": "#2028dc",
+   "line_style": "solid",
+   "axis_x_id": "x",
+   "axis_y_id": "y",
+   "quantity_type": "Uptake",
+   "loading_basis": "unknown"
+  },
+  {
+   "series_id": "fig1:a:co2-298k-438baf4c",
+   "series_name": "CO2 298K",
+   "species": "CO2",
+   "export_eligible": true,
+   "species_evidence": "",
+   "marker_shape": "square",
+   "marker_fill": "filled",
+   "marker_glyph": null,
+   "color_hex": "#dc2a1e",
+   "line_style": "solid",
+   "axis_x_id": "x",
+   "axis_y_id": "y",
+   "quantity_type": "Uptake",
+   "loading_basis": "unknown"
+  }
+ ],
+ "axes": [
+  {
+   "axis_id": "x",
+   "scale": "linear",
+   "unit": "kPa",
+   "quantity_type": "Pressure",
+   "calibration_status": "unresolved",
+   "a": 1,
+   "b": 0,
+   "anchors": [],
+   "equation": "value=a*pixel+b"
+  },
+  {
+   "axis_id": "y",
+   "scale": "linear",
+   "unit": "mmol/g",
+   "quantity_type": "Uptake",
+   "calibration_status": "unresolved",
+   "a": -1,
+   "b": 100,
+   "anchors": [],
+   "equation": "value=a*pixel+b"
+  }
+ ],
+ "instances": [
+  {
+   "source_instance_id": "src-a77fb168df09e385",
+   "point_id": "a-1",
+   "series_id": "fig1:a:co2-273k-78e92393",
+   "state": "resolved",
+   "source_pixel_x": 20,
+   "source_pixel_y": 80,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-d5de2064c2e9dfa6",
+   "point_id": "pt-c7a40b2f990cbeb1",
+   "series_id": "fig1:a:co2-273k-78e92393",
+   "state": "resolved",
+   "source_pixel_x": 40.0,
+   "source_pixel_y": 50.0,
+   "evidence_type": "visible_marker",
+   "evidence_kind": "native_visible",
+   "uncertainty_px": 1.0,
+   "evidence_ref": "panel.png",
+   "evidence": "Blue circle centre at panel pixel (40, 50) in the untouched source.",
+   "review_only": false
+  },
+  {
+   "source_instance_id": "src-2276df2b36b8cc3f",
+   "point_id": "b-1",
+   "series_id": "fig1:a:co2-298k-438baf4c",
+   "state": "resolved",
+   "source_pixel_x": 80,
+   "source_pixel_y": 70,
+   "evidence_type": "visible_marker",
+   "evidence_kind": null,
+   "uncertainty_px": null,
+   "evidence_ref": null,
+   "evidence": "Extractor proposal retained for staged QA.",
+   "review_only": false
+  }
+ ],
+ "coverage": [
+  {
+   "bbox": [
+    0,
+    0,
+    100,
+    100
+   ],
+   "inspected": false
+  }
+ ],
+ "limitations": [],
+ "rejected_masked_points": 0,
+ "unresolved_slots": {
+  "total": 0,
+  "by_series": {},
+  "slots": []
+ },
+ "unresolved_accounting_valid": true,
+ "row_count": 3,
+ "agent_report": {
+  "reasoning": "The native source shows 13 CO2 273 K markers and 11 CO2 298 K markers; the candidate misses one, includes one false point, and assigns one square to the wrong series.",
+  "axis_check": {
+   "x": {
+    "printed_min": 0,
+    "printed_max": 100,
+    "data_min": 20,
+    "data_max": 80,
+    "result": "pass",
+    "reason": "The source ticks and candidate positions align."
+   },
+   "y": {
+    "printed_min": 0,
+    "printed_max": 100,
+    "data_min": 20,
+    "data_max": 80,
+    "result": "pass",
+    "reason": "The source ticks and candidate positions align."
+   }
+  },
+  "independent_read": {
+   "x_axis": "Pressure (kPa), linear 0-100",
+   "y_axis": "CO2 uptake (mmol/g), linear 0-100",
+   "series": [
+    {
+     "label": "CO2 273K",
+     "marker": "circle",
+     "marker_fill": "filled",
+     "visible_markers_estimate": 2,
+     "notes": ""
+    },
+    {
+     "label": "CO2 298K",
+     "marker": "square",
+     "marker_fill": "filled",
+     "visible_markers_estimate": 1,
+     "notes": ""
+    }
+   ],
+   "visual_risks": [
+    "Overlapping markers below 5 kPa."
+   ]
+  },
+  "verdict": "accept",
+  "series": [
+   {
+    "label": "CO2 273K",
+    "coverage": "complete",
+    "final_count": 2,
+    "comment": ""
+   },
+   {
+    "label": "CO2 298K",
+    "coverage": "complete",
+    "final_count": 1,
+    "comment": ""
+   }
+  ],
+  "operations": [
+   {
+    "operation_id": "add-missed",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 273K",
+    "x_norm": 0.4,
+    "y_norm": 0.5,
+    "overlap": false,
+    "reason": "Visible marker is absent from the candidate.",
+    "source_evidence": "Blue circle centre at panel pixel (40, 50) in the untouched source.",
+    "evidence_kind": "native_visible",
+    "uncertainty_px": 1.0,
+    "evidence_ref": "panel.png"
+   },
+   {
+    "operation_id": "delete-false",
+    "action": "delete",
+    "point_id": "a-2",
+    "series_label": null,
+    "x_norm": null,
+    "y_norm": null,
+    "overlap": false,
+    "reason": "No marker is present at this candidate location.",
+    "source_evidence": "Panel pixel (70, 20) is blank in the untouched source.",
+    "evidence_kind": "native_absence",
+    "uncertainty_px": null,
+    "evidence_ref": "panel.png"
+   }
+  ],
+  "uncertainties": []
+ },
+ "edit_audit": {
+  "schema_version": "1.0",
+  "actor": "agent04_final_check",
+  "requested": 2,
+  "applied": 2,
+  "operations": [
+   {
+    "operation_index": 0,
+    "operation_id": "add-missed",
+    "action": "add",
+    "point_id": null,
+    "series_label": "CO2 273K",
+    "reason": "Visible marker is absent from the candidate.",
+    "source_evidence": "Blue circle centre at panel pixel (40, 50) in the untouched source.",
+    "evidence_kind": "native_visible",
+    "uncertainty_px": 1.0,
+    "evidence_ref": "panel.png",
+    "actor": "agent04_final_check",
+    "status": "applied",
+    "source_pixel": [
+     40.0,
+     50.0
+    ]
+   },
+   {
+    "operation_index": 1,
+    "operation_id": "delete-false",
+    "action": "delete",
+    "point_id": "a-2",
+    "series_label": null,
+    "reason": "No marker is present at this candidate location.",
+    "source_evidence": "Panel pixel (70, 20) is blank in the untouched source.",
+    "evidence_kind": "native_absence",
+    "uncertainty_px": null,
+    "evidence_ref": "panel.png",
+    "actor": "agent04_final_check",
+    "status": "applied"
+   }
+  ]
+ }
+}

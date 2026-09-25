@@ -1,0 +1,156 @@
+{
+ "series": {
+  "CO2 273K": {
+   "flags": [],
+   "toth": {
+    "qm": 6.812382657401451,
+    "K": 0.08605163874219661,
+    "t": 0.433405312103165,
+    "rmse": 0.012269667660727393
+   },
+   "low_confidence_points": 0
+  },
+  "CO2 283K": {
+   "flags": [],
+   "toth": {
+    "qm": 25.68347915035154,
+    "K": 999.999999990899,
+    "t": 0.11089360779015728,
+    "rmse": 0.021934770602282837
+   },
+   "low_confidence_points": 0
+  },
+  "CO2 293K": {
+   "flags": [
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "ads: local outliers (P,q,resid) [(np.float64(420.353), np.float64(3.309), 0.071)]"
+    },
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "des: local outliers (P,q,resid) [(np.float64(169.584), np.float64(2.588), -0.099), (np.float64(235.072), np.float64(2.956), 0.088), (np.float64(295.962), np.float64(3.074), -0.05)]"
+    }
+   ],
+   "toth": {
+    "qm": 7.508771628973329,
+    "K": 0.04443394296968752,
+    "t": 0.3585281151026229,
+    "rmse": 0.03053806038282215
+   },
+   "low_confidence_points": 1
+  },
+  "CO2 303K": {
+   "flags": [
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "ads: local outliers (P,q,resid) [(np.float64(554.414), np.float64(3.186), 0.048), (np.float64(585.81), np.float64(3.176), -0.055)]"
+    },
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "des: local outliers (P,q,resid) [(np.float64(323.663), np.float64(2.904), 0.061)]"
+    }
+   ],
+   "toth": {
+    "qm": 3.935766833170398,
+    "K": 0.007802749656860897,
+    "t": 0.9921576434483882,
+    "rmse": 0.029487930265875834
+   },
+   "low_confidence_points": 2
+  },
+  "CO2 313K": {
+   "flags": [],
+   "toth": {
+    "qm": 16.125109029000225,
+    "K": 999.9999999832144,
+    "t": 0.11623853939347606,
+    "rmse": 0.008929257152491639
+   },
+   "low_confidence_points": 0
+  },
+  "CO2 323K": {
+   "flags": [],
+   "toth": {
+    "qm": 5.790875610034443,
+    "K": 0.6457192014029246,
+    "t": 0.2619798298437784,
+    "rmse": 0.008460466961510963
+   },
+   "low_confidence_points": 1
+  },
+  "CO2 333K": {
+   "flags": [],
+   "toth": {
+    "qm": 3.079477790099875,
+    "K": 0.006188223908855539,
+    "t": 1.1608601985378542,
+    "rmse": 0.017134571366805455
+   },
+   "low_confidence_points": 1
+  },
+  "CO2 343K": {
+   "flags": [],
+   "toth": {
+    "qm": 2.9095303705140183,
+    "K": 0.004156304056255079,
+    "t": 1.3007181658315896,
+    "rmse": 0.013354465196115013
+   },
+   "low_confidence_points": 0
+  },
+  "CO2 353K": {
+   "flags": [],
+   "toth": {
+    "qm": 2.760154609958589,
+    "K": 0.0028614735651470114,
+    "t": 1.4290330516909995,
+    "rmse": 0.009739748328194249
+   },
+   "low_confidence_points": 0
+  },
+  "CO2 363K": {
+   "flags": [],
+   "toth": {
+    "qm": 2.6803584417849886,
+    "K": 0.0020098961094774568,
+    "t": 1.5336233319508972,
+    "rmse": 0.010470895380990879
+   },
+   "low_confidence_points": 0
+  },
+  "CO2 373K": {
+   "flags": [],
+   "toth": {
+    "qm": 2.500824115498344,
+    "K": 0.0014450929800958075,
+    "t": 1.6466371024063828,
+    "rmse": 0.007184188986993706
+   },
+   "low_confidence_points": 0
+  }
+ },
+ "cross": [
+  {
+   "check": "t_ordering",
+   "detail": "CO2 313K exceeds CO2 303K at some pressures — series colors may be swapped"
+  }
+ ],
+ "verdict": "review",
+ "role": "supporting_diagnostics_only",
+ "agent04_verdict": "review",
+ "rows": {
+  "python": 337,
+  "agent03": 333,
+  "agent04": 319
+ },
+ "final_operations_applied": 14,
+ "hard_checks": {
+  "passed": true,
+  "problems": [],
+  "summary": "PASS: x printed 0-1200, data -3.902-1148 mbar; y printed 0-5, data 0.269-5.009 mmol/g; redraw recall 0.80, precision 0.97"
+ }
+}

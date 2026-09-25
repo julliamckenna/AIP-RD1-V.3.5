@@ -1,0 +1,128 @@
+{
+ "schema_version": "1.0",
+ "actor": "agent04_final_check",
+ "requested": 8,
+ "applied": 8,
+ "operations": [
+  {
+   "operation_index": 0,
+   "operation_id": "op-1",
+   "action": "reassign",
+   "point_id": "pt-f48897c63ad01add",
+   "series_label": "CO2 333K",
+   "reason": "The point is a blue pentagon on the 333K trajectory, not a magenta 353K diamond.",
+   "source_evidence": "Visible blue pentagon centered near native pixel (313, 257).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    313.0,
+    256.69
+   ]
+  },
+  {
+   "operation_index": 1,
+   "operation_id": "op-2",
+   "action": "reassign",
+   "point_id": "pt-fbaf7ca876ab6d8c",
+   "series_label": "CO2 333K",
+   "reason": "The native marker belongs to the blue-pentagon 333K isotherm.",
+   "source_evidence": "Visible blue pentagon centered near native pixel (370, 231).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    370.43,
+    231.28
+   ]
+  },
+  {
+   "operation_index": 2,
+   "operation_id": "op-3",
+   "action": "reassign",
+   "point_id": "pt-5b0068d61a22451e",
+   "series_label": "CO2 333K",
+   "reason": "The point sits on a blue pentagon rather than on the lower magenta-diamond series.",
+   "source_evidence": "Visible blue pentagon centered near native pixel (342, 244).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    342.26,
+    243.5
+   ]
+  },
+  {
+   "operation_index": 3,
+   "operation_id": "op-4",
+   "action": "reassign",
+   "point_id": "pt-bdb3d0eb5073bb98",
+   "series_label": "CO2 333K",
+   "reason": "The source symbol and trajectory identify this as CO2 333K.",
+   "source_evidence": "Visible blue pentagon centered near native pixel (402, 223).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    402.01,
+    223.08
+   ]
+  },
+  {
+   "operation_index": 4,
+   "operation_id": "op-5",
+   "action": "reassign",
+   "point_id": "pt-33b111102d681103",
+   "series_label": "CO2 333K",
+   "reason": "This low-pressure point coincides with a blue pentagon on the 333K curve.",
+   "source_evidence": "Visible blue pentagon centered near native pixel (228, 343).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    227.79,
+    342.68
+   ]
+  },
+  {
+   "operation_index": 5,
+   "operation_id": "op-6",
+   "action": "reassign",
+   "point_id": "pt-8f30748b282b57df",
+   "series_label": "CO2 333K",
+   "reason": "The native symbol is a blue 333K pentagon, not a magenta diamond.",
+   "source_evidence": "Visible blue pentagon centered near native pixel (429, 215).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    429.37,
+    215.36
+   ]
+  },
+  {
+   "operation_index": 6,
+   "operation_id": "op-7",
+   "action": "reassign",
+   "point_id": "pt-71813bb7b9cbc83b",
+   "series_label": "CO2 333K",
+   "reason": "The point lies on the blue-pentagon 333K sequence.",
+   "source_evidence": "Visible blue pentagon centered near native pixel (459, 209).",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    458.5,
+    209.0
+   ]
+  },
+  {
+   "operation_index": 7,
+   "operation_id": "op-8",
+   "action": "reassign",
+   "point_id": "pt-db82ea296d6146bc",
+   "series_label": "CO2 333K",
+   "reason": "Despite nearby low-pressure curves, the centered native symbol is the blue pentagon of CO2 333K.",
+   "source_evidence": "Blue pentagon marker core visible at native pixel (197, 417), overlapping the crowded low-pressure region.",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    197.0,
+    417.0
+   ]
+  }
+ ]
+}

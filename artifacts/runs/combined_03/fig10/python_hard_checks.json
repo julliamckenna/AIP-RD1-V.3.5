@@ -1,0 +1,162 @@
+{
+ "stage": "python",
+ "passed": true,
+ "problems": [],
+ "axis_range": {
+  "passed": true,
+  "problems": [],
+  "margin": 0.05,
+  "max_frame_overhang_steps": 1.0,
+  "x": {
+   "unit": "bar",
+   "scale": "linear",
+   "printed": [
+    0.0,
+    1.3
+   ],
+   "data": [
+    0.0045,
+    1.0562
+   ],
+   "points_outside": 0,
+   "passed": true,
+   "frame": [
+    -0.10123332741074759,
+    1.3004907577029354
+   ],
+   "frame_overhang_steps": [
+    0.51,
+    0.0
+   ],
+   "allowed": [
+    -0.10123332741074759,
+    1.365
+   ]
+  },
+  "y": {
+   "unit": "cm³·g⁻¹",
+   "scale": "linear",
+   "printed": [
+    0.0,
+    55.0
+   ],
+   "data": [
+    3.368,
+    53.2074
+   ],
+   "points_outside": 0,
+   "passed": true,
+   "frame": [
+    -5.070509173112704,
+    55.00353699232626
+   ],
+   "frame_overhang_steps": [
+    0.51,
+    0.0
+   ],
+   "allowed": [
+    -5.070509173112704,
+    57.75
+   ]
+  }
+ },
+ "redraw": {
+  "available": true,
+  "series": {
+   "CO2 273K ads": {
+    "points": 129,
+    "precision": 0.977,
+    "recall": null,
+    "missed_marker_equivalents": null,
+    "same_color_group": [
+     "CO2 273K ads",
+     "CO2 273K des",
+     "CH4 273K ads",
+     "CH4 273K des"
+    ],
+    "note": "recall not measurable: same color as excluded series CH4 273K ads, CH4 273K des"
+   },
+   "CO2 273K des": {
+    "points": 11,
+    "precision": 0.909,
+    "recall": null,
+    "missed_marker_equivalents": null,
+    "same_color_group": [
+     "CO2 273K ads",
+     "CO2 273K des",
+     "CH4 273K ads",
+     "CH4 273K des"
+    ],
+    "note": "recall not measurable: same color as excluded series CH4 273K ads, CH4 273K des"
+   },
+   "CO2 300K ads": {
+    "points": 113,
+    "precision": 1.0,
+    "recall": null,
+    "missed_marker_equivalents": null,
+    "same_color_group": [
+     "CO2 300K ads",
+     "CO2 300K des",
+     "CH4 300K ads",
+     "CH4 300K des"
+    ],
+    "note": "recall not measurable: same color as excluded series CH4 300K ads, CH4 300K des"
+   },
+   "CO2 300K des": {
+    "points": 48,
+    "precision": 0.958,
+    "recall": null,
+    "missed_marker_equivalents": null,
+    "same_color_group": [
+     "CO2 300K ads",
+     "CO2 300K des",
+     "CH4 300K ads",
+     "CH4 300K des"
+    ],
+    "note": "recall not measurable: same color as excluded series CH4 300K ads, CH4 300K des"
+   }
+  },
+  "recall": null,
+  "precision": 0.961
+ },
+ "physics": {
+  "verdict": "review",
+  "flags": {
+   "CO2 273K ads": [
+    {
+     "check": "monotonic",
+     "detail": "des: uptake decreases at [(np.float64(0.374), np.float64(42.446)), (np.float64(0.481), np.float64(44.958)), (np.float64(0.561), np.float64(46.465)), (np.float64(0.613), np.float64(47.533)), (np.float64(0.668), np.float64(48.273))]"
+    },
+    {
+     "check": "smoothness",
+     "level": "warn",
+     "detail": "des: local outliers (P,q,resid) [(np.float64(0.587), np.float64(47.067), 2.374)]"
+    }
+   ],
+   "CO2 273K des": [
+    {
+     "check": "monotonic",
+     "detail": "ads: uptake decreases at [(np.float64(0.247), np.float64(37.624))]"
+    },
+    {
+     "check": "monotonic",
+     "detail": "des: uptake decreases at [(np.float64(0.247), np.float64(37.624))]"
+    }
+   ],
+   "CO2 300K ads": [
+    {
+     "check": "monotonic",
+     "detail": "des: uptake decreases at [(np.float64(0.374), np.float64(30.994)), (np.float64(0.481), np.float64(33.506)), (np.float64(0.995), np.float64(40.798)), (np.float64(1.022), np.float64(41.22))]"
+    }
+   ],
+   "CO2 300K des": []
+  },
+  "cross_series": []
+ },
+ "limitations": {
+  "unresolved_slots": 35,
+  "dense_regions_with_no_distinct_centres": 0,
+  "note": "ink coverage is not marker completeness; unresolved dense evidence requires review"
+ },
+ "accepted_extraction": false
+}

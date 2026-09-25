@@ -1,0 +1,472 @@
+{
+ "image": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\artifacts\\runs\\combined_01\\fig10_9\\panel.png",
+ "panel_bbox": [
+  0,
+  0,
+  910,
+  1446
+ ],
+ "x": {
+  "title": "Pressure",
+  "unit": "kPa",
+  "scale": "linear",
+  "ticks": [
+   0,
+   20,
+   40,
+   60,
+   80,
+   100
+  ],
+  "x_setpoints_visible": [
+   1,
+   5,
+   10,
+   20,
+   40,
+   60,
+   80,
+   100
+  ],
+  "grid": [
+   1,
+   5,
+   10,
+   20,
+   40,
+   60,
+   80,
+   100
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.12,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.93,
+    "value": 100
+   }
+  ],
+  "minimum": 0,
+  "maximum": 100,
+  "boundary_limits_confirmed": false
+ },
+ "y": {
+  "title": "CO2 uptake",
+  "unit": "mmol/g",
+  "scale": "linear",
+  "ticks": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "tick_anchors": [
+   {
+    "pixel_norm": 0.88,
+    "value": 0
+   },
+   {
+    "pixel_norm": 0.08,
+    "value": 4
+   }
+  ],
+  "minimum": 0,
+  "maximum": 4,
+  "boundary_limits_confirmed": false
+ },
+ "legend_bbox": [
+  118,
+  101,
+  391,
+  448
+ ],
+ "legend_position": "upper left inside the plot",
+ "series": [
+  {
+   "label": "CO2 273K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend entry 'CO2 273 K'; caption: CO2 (filled)",
+   "marker": "circle",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#1f4e9c",
+   "quantity_type": "co2_uptake",
+   "loading_basis": "per gram of sorbent",
+   "y_at_xmax": 3.7,
+   "y_anchors": {
+    "p25": 2.1,
+    "p50": 2.9,
+    "p75": 3.4,
+    "p100": 3.7
+   },
+   "n_markers_estimate": 12,
+   "color_tolerance": 24.0,
+   "separate_from": [
+    "N2 298 K"
+   ],
+   "y_bands": [
+    {
+     "x_from": 5,
+     "x_to": 20,
+     "y_min": 0.8,
+     "y_max": 2.2
+    },
+    {
+     "x_from": 20,
+     "x_to": 100,
+     "y_min": 1.5,
+     "y_max": 4.0
+    }
+   ],
+   "template_fill": "fit_only",
+   "setting_reason": "Grey N2 triangles near the axis were taken as CO2 273 K; the CO2 curve runs above 1.5 mmol/g beyond 20 kPa.",
+   "sample_px": [
+    555.1,
+    390.4
+   ],
+   "expected_counts": [
+    {
+     "x_from": 0,
+     "x_to": 5,
+     "count": 6
+    },
+    {
+     "x_from": 5,
+     "x_to": 100,
+     "count": 14
+    }
+   ],
+   "curve_points": [
+    {
+     "x": 0.0,
+     "y": 0.0
+    },
+    {
+     "x": 0.5,
+     "y": 0.3
+    },
+    {
+     "x": 1.0,
+     "y": 0.6
+    },
+    {
+     "x": 2.0,
+     "y": 1.0
+    },
+    {
+     "x": 5.0,
+     "y": 1.6
+    },
+    {
+     "x": 10.0,
+     "y": 2.1
+    },
+    {
+     "x": 20.0,
+     "y": 2.6
+    },
+    {
+     "x": 50.0,
+     "y": 3.2
+    },
+    {
+     "x": 100.0,
+     "y": 3.6
+    }
+   ]
+  },
+  {
+   "label": "CO2 298K",
+   "extract": true,
+   "gas": "CO2",
+   "species_evidence": "Legend entry 'CO2 298 K'; caption: CO2 (filled)",
+   "marker": "square",
+   "marker_fill": "filled",
+   "line_style": "solid",
+   "color_hex": "#c0392b",
+   "quantity_type": "co2_uptake",
+   "loading_basis": "per gram of sorbent",
+   "y_at_xmax": 2.5,
+   "y_anchors": {
+    "p25": 1.2,
+    "p50": 1.8,
+    "p75": 2.2,
+    "p100": 2.5
+   },
+   "n_markers_estimate": 12
+  },
+  {
+   "label": "N2 298K",
+   "extract": false,
+   "gas": "N2",
+   "species_evidence": "Legend entry 'N2 298 K'; caption: N2 (open)",
+   "marker": "triangle_up",
+   "marker_fill": "open",
+   "line_style": "none",
+   "color_hex": "#7f7f7f",
+   "quantity_type": "n2_uptake",
+   "loading_basis": "per gram of sorbent",
+   "y_at_xmax": 0.18,
+   "y_anchors": {
+    "p25": 0.05,
+    "p50": 0.1,
+    "p75": 0.14,
+    "p100": 0.18
+   },
+   "n_markers_estimate": 10
+  }
+ ],
+ "mask_bboxes": [],
+ "context": {
+  "adsorbent": "Example-MOF",
+  "sample_form": "powder",
+  "activation": "150 C under vacuum for 12 h",
+  "instrument": "volumetric sorption analyser",
+  "measurement_notes": "Isotherms at 273 K and 298 K up to 100 kPa.",
+  "other_parameters": "No additional source-reported parameters."
+ },
+ "panel_info": {
+  "panel": "x",
+  "is_co2_isotherm": true,
+  "reason": "CO2 uptake (mmol/g) is plotted against pressure (kPa).",
+  "bbox_norm": [
+   0.04,
+   0.03,
+   0.97,
+   0.95
+  ],
+  "has_inset": false,
+  "inset_bbox_norm": null
+ },
+ "panel_mapping": {
+  "runtime_panel_id": "x",
+  "layout_panel_id": "x",
+  "canonical_panel_id": "x"
+ },
+ "llm_spec": {
+  "reasoning": "One axis frame. Legend top-left lists three series; filled circles and squares are CO2, open triangles are N2.",
+  "x": {
+   "title": "Pressure",
+   "unit": "kPa",
+   "scale": "linear",
+   "ticks": [
+    0,
+    20,
+    40,
+    60,
+    80,
+    100
+   ],
+   "x_setpoints_visible": [
+    1,
+    5,
+    10,
+    20,
+    40,
+    60,
+    80,
+    100
+   ],
+   "grid": [
+    1,
+    5,
+    10,
+    20,
+    40,
+    60,
+    80,
+    100
+   ],
+   "tick_anchors": [
+    {
+     "pixel_norm": 0.12,
+     "value": 0
+    },
+    {
+     "pixel_norm": 0.93,
+     "value": 100
+    }
+   ],
+   "minimum": 0,
+   "maximum": 100,
+   "boundary_limits_confirmed": false
+  },
+  "y": {
+   "title": "CO2 uptake",
+   "unit": "mmol/g",
+   "scale": "linear",
+   "ticks": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "tick_anchors": [
+    {
+     "pixel_norm": 0.88,
+     "value": 0
+    },
+    {
+     "pixel_norm": 0.08,
+     "value": 4
+    }
+   ],
+   "minimum": 0,
+   "maximum": 4,
+   "boundary_limits_confirmed": false
+  },
+  "legend_bbox_norm": [
+   0.14,
+   0.08,
+   0.42,
+   0.3
+  ],
+  "legend_position": "upper left inside the plot",
+  "series": [
+   {
+    "label": "CO2 273K",
+    "gas": "CO2",
+    "species_evidence": "Legend entry 'CO2 273 K'; caption: CO2 (filled)",
+    "temperature_k": 273,
+    "color_name": "blue",
+    "color_hex": "#1f4e9c",
+    "marker": "circle",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "co2_uptake",
+    "loading_basis": "per gram of sorbent",
+    "extract": true,
+    "y_anchors": {
+     "p25": 2.1,
+     "p50": 2.9,
+     "p75": 3.4,
+     "p100": 3.7
+    },
+    "n_markers_estimate": 12
+   },
+   {
+    "label": "CO2 298K",
+    "gas": "CO2",
+    "species_evidence": "Legend entry 'CO2 298 K'; caption: CO2 (filled)",
+    "temperature_k": 298,
+    "color_name": "red",
+    "color_hex": "#c0392b",
+    "marker": "square",
+    "marker_fill": "filled",
+    "line_style": "solid",
+    "has_line": true,
+    "quantity_type": "co2_uptake",
+    "loading_basis": "per gram of sorbent",
+    "extract": true,
+    "y_anchors": {
+     "p25": 1.2,
+     "p50": 1.8,
+     "p75": 2.2,
+     "p100": 2.5
+    },
+    "n_markers_estimate": 12
+   },
+   {
+    "label": "N2 298K",
+    "gas": "N2",
+    "species_evidence": "Legend entry 'N2 298 K'; caption: N2 (open)",
+    "temperature_k": 298,
+    "color_name": "grey",
+    "color_hex": "#7f7f7f",
+    "marker": "triangle_up",
+    "marker_fill": "open",
+    "line_style": "none",
+    "has_line": false,
+    "quantity_type": "n2_uptake",
+    "loading_basis": "per gram of sorbent",
+    "extract": false,
+    "y_anchors": {
+     "p25": 0.05,
+     "p50": 0.1,
+     "p75": 0.14,
+     "p100": 0.18
+    },
+    "n_markers_estimate": 10
+   }
+  ],
+  "branches": "adsorption_only",
+  "notes": "No inset, single y axis, no error bars.",
+  "chart_title": "",
+  "complex_regions": [
+   {
+    "bbox_norm": [
+     0.12,
+     0.55,
+     0.3,
+     0.88
+    ],
+    "kind": "dense_markers",
+    "python_passes": 3
+   }
+  ]
+ },
+ "vector_marks": null,
+ "region_strategies": [
+  {
+   "bbox_norm": [
+    0.12,
+    0.55,
+    0.2,
+    0.88
+   ],
+   "series_labels": [
+    "CO2 273 K"
+   ],
+   "strategy": "sample_band_at_columns",
+   "reason": "Below 3 kPa the 273 K markers fuse into a solid line; the 298 K markers show the shared pressure columns.",
+   "bbox_px": [
+    109,
+    795,
+    182,
+    1272
+   ]
+  },
+  {
+   "bbox_norm": [
+    0.6,
+    0.5,
+    0.9,
+    0.7
+   ],
+   "series_labels": [],
+   "strategy": "ignore",
+   "reason": "Text annotation with a blue arrow inside the plot.",
+   "bbox_px": [
+    546,
+    723,
+    819,
+    1012
+   ]
+  }
+ ],
+ "shared_x_columns": [
+  0.5,
+  1.0,
+  1.5,
+  2.0,
+  3.0
+ ],
+ "complex_regions": [
+  {
+   "bbox_norm": [
+    0.12,
+    0.55,
+    0.3,
+    0.88
+   ],
+   "kind": "dense_markers",
+   "python_passes": 3
+  }
+ ]
+}

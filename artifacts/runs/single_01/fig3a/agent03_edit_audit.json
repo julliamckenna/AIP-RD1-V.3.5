@@ -1,0 +1,248 @@
+{
+ "schema_version": "1.0",
+ "actor": "agent03_review_points",
+ "requested": 16,
+ "applied": 16,
+ "operations": [
+  {
+   "operation_index": 0,
+   "operation_id": "op-add-01",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Missed low-pressure blue open-circle marker.",
+   "source_evidence": "Visible blue ring centered near native pixel (84.0,194.0) on the main-plot steep-rise branch.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    84.0,
+    194.04
+   ]
+  },
+  {
+   "operation_index": 1,
+   "operation_id": "op-add-02",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Missed closely spaced low-pressure marker.",
+   "source_evidence": "Visible blue ring centered near native pixel (84.3,189.0) in the dense main-plot rise.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    84.31,
+    189.04
+   ]
+  },
+  {
+   "operation_index": 2,
+   "operation_id": "op-add-03",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Missed dense-rise marker.",
+   "source_evidence": "Visible blue ring centered near native pixel (84.8,170.0), separate from the supplied rings around y=178\u2013184.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    85.0,
+    170.14
+   ]
+  },
+  {
+   "operation_index": 3,
+   "operation_id": "op-add-04",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Missed dense-rise marker.",
+   "source_evidence": "Visible blue ring centered near native pixel (85.2,162.0) on the blue vertical branch.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    85.4,
+    162.07
+   ]
+  },
+  {
+   "operation_index": 4,
+   "operation_id": "op-add-05",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Missed dense-rise marker.",
+   "source_evidence": "Visible blue ring centered near native pixel (85.7,155.0) in the native dense-rise pixels.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    85.84,
+    155.12
+   ]
+  },
+  {
+   "operation_index": 5,
+   "operation_id": "op-add-06",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Missed marker on the rising branch.",
+   "source_evidence": "Visible blue open circle centered near native pixel (87.0,141.0), below the supplied point near (86.5,148.5).",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    86.99,
+    140.95
+   ]
+  },
+  {
+   "operation_index": 6,
+   "operation_id": "op-add-07",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Missed marker on the rising branch.",
+   "source_evidence": "Visible blue ring centered near native pixel (87.8,133.0) in the native steep-rise strip.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    87.8,
+    132.88
+   ]
+  },
+  {
+   "operation_index": 7,
+   "operation_id": "op-add-08",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Missed marker on the rising branch.",
+   "source_evidence": "Visible blue ring centered near native pixel (88.7,125.0), between the dense lower rise and the supplied point near y=112.7.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    88.79,
+    125.1
+   ]
+  },
+  {
+   "operation_index": 8,
+   "operation_id": "op-add-09",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Missed marker immediately below the upper bend.",
+   "source_evidence": "Visible blue open circle centered near native pixel (90.0,117.0) on the main curve.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    90.0,
+    117.04
+   ]
+  },
+  {
+   "operation_index": 9,
+   "operation_id": "op-add-10",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Missed marker on the upper part of the rise.",
+   "source_evidence": "Visible blue ring centered near native pixel (92.5,95.0), above the supplied marker near (92.1,99.9).",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    92.49,
+    95.08
+   ]
+  },
+  {
+   "operation_index": 10,
+   "operation_id": "op-add-11",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Missed marker on the upper bend.",
+   "source_evidence": "Visible blue open circle centered near native pixel (93.0,91.0) in the native source branch.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    92.99,
+    90.91
+   ]
+  },
+  {
+   "operation_index": 11,
+   "operation_id": "op-add-12",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Missed marker on the upper bend.",
+   "source_evidence": "Visible blue ring centered near native pixel (94.0,84.0), between the steep branch and plateau.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    94.02,
+    83.96
+   ]
+  },
+  {
+   "operation_index": 12,
+   "operation_id": "op-add-13",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Missed marker approaching the plateau.",
+   "source_evidence": "Visible blue open circle centered near native pixel (95.0,78.0) in the main panel.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    95.01,
+    78.12
+   ]
+  },
+  {
+   "operation_index": 13,
+   "operation_id": "op-add-14",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Missed marker approaching the plateau.",
+   "source_evidence": "Visible blue ring centered near native pixel (96.0,75.0), immediately before the supplied marker near (97.5,72.1).",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    96.01,
+    75.06
+   ]
+  },
+  {
+   "operation_index": 14,
+   "operation_id": "op-add-15",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Missed marker between the bend and plateau points.",
+   "source_evidence": "Visible blue open circle centered near native pixel (98.8,70.0) on the source curve between supplied points near (97.5,72.1) and (100.9,69.3).",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    98.71,
+    70.06
+   ]
+  },
+  {
+   "operation_index": 15,
+   "operation_id": "op-add-16",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 195K",
+   "reason": "Missed blue plateau marker.",
+   "source_evidence": "Visible blue open circle centered near native pixel (200.0,65.0) on the main-plot plateau, outside the inset.",
+   "actor": "agent03_review_points",
+   "status": "applied",
+   "source_pixel": [
+    200.0,
+    65.05
+   ]
+  }
+ ]
+}
