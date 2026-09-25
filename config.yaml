@@ -1,0 +1,62 @@
+#  CO2 isotherm workflow - settings (folders, naming, deterministic tuning)
+#  The workflow graph itself (steps, agents, prompts, schemas, examples) lives in workflow.yaml.
+#  Change values here, no need to touch the Python files.
+
+project_name: chart-extraction
+
+folders:
+  input: data/input                 # drop PDFs / figure images here
+  output: artifacts/runs            # generated run outputs and master tables
+  reviews: artifacts/reviews        # human-reviewed correction files
+
+input:
+  accept: [.pdf, .png, .jpg, .jpeg, .tif, .tiff]   # file types picked up from the input folder
+  pattern: "*"                                     # glob on the file name, e.g. "2024_*" or "*_CO2*"
+  document_name: "{stem}"                          # output folder per document: {stem} = file name without extension
+
+naming:
+  # Output layout:  artifacts/runs/<document>/<figure_id>/   e.g. runs/file1/fig2, runs/file1/fig3a
+  #                 artifacts/runs/<document>/discovery/     document inventory + agent 00 answers
+  #                 artifacts/runs/<document>/final.csv      every final row of the document
+  figure_id: "fig{figure}{panel}"          # fig3a = figure 3, panel a · fig2 = figure 2, one panel
+  unnumbered_figure: "figp{page}{panel}"   # figp7 = unnumbered figure on page 7
+  run_id: "{date:%Y%m%d-%H%M%S}-{rand6}"   # set when a document starts
+  review_file: "{document}__{figure}__reviewed.json"   # what the review page downloads
+  master_table: all_data.csv
+  dashboard: dashboard.html
+
+pdf:
+  min_figure_pixels: 600    # ignore small images (logos, icons)
+  vector_render_dpi: 300    # vector figures are rendered to PNG at this resolution
+  discovery_page_dpi: 120   # page overview supplied to agent 00 with each figure candidate
+
+extract:
+  color_tolerance: 28      # how close a pixel color must be to the legend color (Lab units)
+  confidence_ok: 0.6        # points below this get a red ring + human_requires = True
+  max_color_tolerance: 45  # widened automatically on noisy JPEGs, never beyond this
+  color_ambiguity_distance_lab: 28  # nearest legend colors at or below this distance share a joint assignment group
+  series_assignment_margin: 0.12  # minimum best-vs-runner-up score gap for an automatic ambiguous assignment
+  shape_assignment_weight: 0.40  # geometry/marker-shape contribution to ambiguous ownership
+  color_assignment_weight: 0.20  # supporting local Lab likelihood contribution
+  trajectory_assignment_weight: 0.20  # bracketed native trajectory contribution; never creates a coordinate
+  fill_shared_x_grid: false       # opt in only when the Python extraction confirms shared visible marker columns
+  split_twins_by_lines: true      # ads/des marker pairs painted on top of each other: split by their two lines
+  trace_curve_in_knot: false      # never substitute a curve sample for a visible marker by default
+  dense_region_resolver: true     # native-core-only resolver for crowded strips
+  series_gate: true               # same-color series: points go to the series whose curve (y anchors / y_band) explains them
+  template_fill: true             # put the series' legend template on crowded-strip slots the resolver could not confirm
+  template_fit_min_coverage: 0.55 # share of the template that must carry the series color -> template_fit row
+  template_fit_margin: 0.15       # own series must beat every other series' color+shape coverage by this much
+  template_fill_unresolved: true  # no fit: place the template anyway (is_inferred, review-only); false = leave unresolved
+  missing_strip_recovery: false   # opt in only for Agent 02-requested, native-pixel-confirmed slots
+  isotherm_origin: true           # linear axes printed from 0: agent 02 curves start at (0, 0) - zero uptake at zero pressure
+  max_tick_fit_residual_px: 2.5   # send panels with poorer tick reprojection fits to review
+  max_tick_anchor_residual_px: 3.0 # reject shifted-but-linear tick/value mappings
+  max_weak_point_fraction: 0.25   # require review when too many rows are low-confidence or overlapping
+  refine_colors_on_plot: false   # re-measure each series color on the plot markers (helps when the legend is rendered lighter; can drift on crowded charts)
+
+checks:
+  qst_min_kj_mol: 10        # isosteric heat sanity range for CO2
+  qst_max_kj_mol: 60
+  axis_range_margin: 0.05             # hard check: values may run this share of the printed span past the outer ticks
+  axis_frame_max_overhang_steps: 1.0  # hard check: the plot frame may overhang the outer printed tick by <= 1 tick step

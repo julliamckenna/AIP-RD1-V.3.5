@@ -1,0 +1,2 @@
+run,agent_name,agent_version,model,pricing_profile,calls,figures,input_tokens,cache_write_tokens,cached_tokens,uncached_input_tokens,output_tokens,reasoning_tokens,total_tokens,cache_hit_pct,estimated_uncached_input_cost_usd,estimated_cache_write_cost_usd,estimated_cached_input_cost_usd,estimated_output_cost_usd,estimated_total_cost_usd
+run_02,agent01,1,,,1,1,10,0,0,10,2,0,12,0.0,,,,,

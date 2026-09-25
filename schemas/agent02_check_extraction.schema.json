@@ -1,0 +1,158 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "agent02_check_extraction_response",
+  "description": "Agent 02 check of the Python extraction. satisfied=false -> the corrected structure is applied to spec.json and Python extracts again.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "reasoning",
+    "axis_check",
+    "satisfied",
+    "issues",
+    "structure_ok",
+    "chart_title",
+    "x_axis",
+    "y_axis",
+    "legend_bbox_norm",
+    "total_series",
+    "series",
+    "branches",
+    "complex_regions",
+    "extraction_settings",
+    "notes",
+    "region_strategies",
+    "shared_x_columns"
+  ],
+  "properties": {
+    "reasoning": {
+      "type": "string"
+    },
+    "axis_check": {
+      "$ref": "shared.schema.json#/$defs/axis_check"
+    },
+    "satisfied": {
+      "type": "boolean",
+      "description": "true only when calibration, series identity and marker coverage are correct; false triggers another Python round with this answer's structure."
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "What is still wrong (empty when satisfied)."
+    },
+    "structure_ok": {
+      "type": "boolean"
+    },
+    "chart_title": {
+      "type": "string"
+    },
+    "x_axis": {
+      "$ref": "shared.schema.json#/$defs/checked_axis"
+    },
+    "y_axis": {
+      "$ref": "shared.schema.json#/$defs/checked_axis"
+    },
+    "legend_bbox_norm": {
+      "$ref": "shared.schema.json#/$defs/bbox_norm"
+    },
+    "total_series": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "series": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "label",
+          "marker",
+          "marker_fill",
+          "line_style",
+          "color_hex",
+          "notes"
+        ],
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "marker": {
+            "$ref": "shared.schema.json#/$defs/marker"
+          },
+          "marker_fill": {
+            "$ref": "shared.schema.json#/$defs/marker_fill"
+          },
+          "line_style": {
+            "$ref": "shared.schema.json#/$defs/line_style"
+          },
+          "color_hex": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "branches": {
+      "$ref": "shared.schema.json#/$defs/branches"
+    },
+    "complex_regions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "bbox_norm",
+          "kind",
+          "python_passes"
+        ],
+        "properties": {
+          "bbox_norm": {
+            "$ref": "shared.schema.json#/$defs/bbox_norm"
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "dense_markers",
+              "overlapping_markers",
+              "thick_connecting_lines",
+              "crossing",
+              "inset",
+              "annotation"
+            ]
+          },
+          "python_passes": {
+            "type": "integer",
+            "minimum": 2,
+            "maximum": 6
+          }
+        }
+      }
+    },
+    "extraction_settings": {
+      "type": "array",
+      "items": {
+        "$ref": "shared.schema.json#/$defs/extraction_setting"
+      },
+      "description": "Only series whose extraction needs a change; empty when the defaults work."
+    },
+    "notes": {
+      "type": "string"
+    },
+    "region_strategies": {
+      "type": "array",
+      "items": {
+        "$ref": "shared.schema.json#/$defs/region_strategy"
+      }
+    },
+    "shared_x_columns": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "description": "Pressures (x, data units) where the series share marker columns; used by sample_band_at_columns. Empty when there are none."
+    }
+  }
+}

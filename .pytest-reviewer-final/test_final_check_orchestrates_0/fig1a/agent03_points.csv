@@ -1,0 +1,4 @@
+figure_id,panel_id,series_id,series_name,x,x_unit,y,y_unit,marker_shape,line_style,color_hex,is_inferred,confidence,source_pixel_x,source_pixel_y,notes,point_id,source_instance_id,species,export_eligible,species_evidence,quantity_type,loading_basis,evidence_type,normalized_x,normalized_x_unit,normalized_y,normalized_y_unit,conversion_id,uncertainty_x,uncertainty_y
+fig1,a,fig1:a:co2-273k-78e92393,CO2 273K,20,kPa,20,mmol/g,circle,solid,#2028dc,false,high,20,80,source=visible_marker,a-1,src-a77fb168df09e385,CO2,true,,Uptake,unknown,visible_marker,,,,,,,
+fig1,a,fig1:a:co2-273k-78e92393,CO2 273K,70,kPa,80,mmol/g,circle,solid,#2028dc,false,high,70,20,source=visible_marker,a-2,src-186de8dd080a03e2,CO2,true,,Uptake,unknown,visible_marker,,,,,,,
+fig1,a,fig1:a:co2-298k-438baf4c,CO2 298K,80,kPa,30,mmol/g,square,solid,#dc2a1e,false,high,80,70,source=visible_marker,b-1,src-2276df2b36b8cc3f,CO2,true,,Uptake,unknown,visible_marker,,,,,,,

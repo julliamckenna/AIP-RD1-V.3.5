@@ -1,0 +1,135 @@
+#  CO2 chart extraction - the workflow graph.
+#
+#  This file is the single source of truth for what runs, in which order, and which
+#  prompt / response schema / example each agent step uses.  src/workflow/build.py turns
+#  it into a Microsoft Agent Framework workflow and main.py runs it locally (Prompt Agent calls
+#  go to Foundry); python main.py --graph prints the graph.
+#
+#  Naming rule: a step id is reused for its code, prompt, schema, example and output file:
+#     src/workflow/steps/<id>.py Â· prompts/<id>.md Â· schemas/<id>.schema.json
+#     examples/<id>.example.json Â· artifacts/runs/<document>/<figure>/<panel>/<id>.json
+#
+#  One request = one document.  Every agent call handles one figure or one panel (no batch calls).
+
+name: co2-chart-extraction
+description: CO2 isotherm charts in a research paper -> one reviewed data table with a review page per chart.
+start: python_read_document
+output: python_publish_results
+max_image_side: 1600          # images are shrunk to this size (pixels) before they are sent to a model
+max_check_rounds: 3           # the Python extraction <-> agent 02 loop: at most this many Python extractions checked per panel
+max_workflow_steps: 1000      # safety stop for one document: a panel takes ~10 steps (more when agent 02 loops) -> ~100 panels
+
+# Defaults for every agent step; any step can override them.
+# Prompt Agent names and versions are pinned in each step. Optional *_env fields allow
+# local environments to override those values without changing this file.
+agent_defaults:
+  timeout_seconds: 500        # fail a stalled model call instead of waiting indefinitely
+
+steps:
+  - id: python_read_document
+    title: Read the PDF or image and list every figure candidate (Python)
+
+  - id: agent00_find_figures
+    title: Decide which figures contain CO2 isotherm panels (agent, one call per figure)
+    agent:
+      name: agent00-discovery
+      version: "6"
+      name_env: FOUNDRY_AGENT_00_NAME
+      version_env: FOUNDRY_AGENT_00_VERSION
+      timeout_seconds: 180
+      instructions: >-
+        You are a meticulous scientific data-extraction assistant for gas adsorption research.
+        Think first in the "reasoning" field, then answer. Never guess numeric data values from a plot;
+        you are asked about labels, layout and physical context only.
+      prompt: prompts/agent00_find_figures.md
+      schema: schemas/agent00_find_figures.schema.json
+      example: examples/agent00_find_figures.example.json
+
+  - id: agent01_read_chart
+    title: Describe one panel - axes, ticks, legend and series (agent)
+    agent:
+      name: agent01-structure
+      version: "5"
+      name_env: FOUNDRY_AGENT_01_NAME
+      version_env: FOUNDRY_AGENT_01_VERSION
+      instructions: >-
+        You are a meticulous scientific data-extraction assistant for gas adsorption research.
+        Think first in the "reasoning" field, then answer. Never guess numeric data values as if they were measured.
+      prompt: prompts/agent01_read_chart.md
+      schema: schemas/agent01_read_chart.schema.json
+      example: examples/agent01_read_chart.example.json
+
+  - id: python_extract_points
+    title: Calibrate the axes and detect every marker (deterministic Python, rerun every check round)
+
+  - id: agent02_check_extraction
+    title: Check the Python result - calibration, series identity, coverage - and adjust until satisfied (agent)
+    agent:
+      name: agent02-calibration
+      version: "4"
+      name_env: FOUNDRY_AGENT_02_NAME
+      version_env: FOUNDRY_AGENT_02_VERSION
+      instructions: >-
+        You are a meticulous scientific-chart structure validator. Inspect the source chart yourself and judge
+        the Python extraction against it. The current structure is supporting material, not authority.
+        Correct the structure; do not edit individual data points.
+      prompt: prompts/agent02_check_extraction.md
+      schema: schemas/agent02_check_extraction.schema.json
+      example: examples/agent02_check_extraction.example.json
+
+  - id: agent03_review_points
+    title: Review the Python points against the source and add, move, delete or reassign them (agent)
+    agent:
+      name: agent03-extraction
+      version: "4"
+      timeout_seconds: 900      # whole-panel Code Interpreter review; no automatic retry
+      response_mode: artifacts
+      name_env: FOUNDRY_AGENT_03_NAME
+      version_env: FOUNDRY_AGENT_03_VERSION
+      instructions: >-
+        You are a scientific chart extraction reviewer with Code Interpreter. Use Python to inspect uploaded files
+        and produce a cited JSON report file; your final message is unstructured. Inspect the unchanged source panel yourself;
+        Python rows and diagnostics are fallible evidence, not authority. Add, move, delete, or reassign any CO2
+        point when native source pixels support it; actively search for omitted markers, including supported glyph
+        fragments in crowded regions. Report a native evidence reference and positive positional uncertainty in
+        panel pixels for positional edits. Never add a point from expected counts, smoothness, or interpolation alone.
+      prompt: prompts/agent03_review_points.md
+      schema: schemas/agent03_review_points.schema.json
+      example: examples/agent03_review_points.example.json
+
+  - id: agent04_final_check
+    title: Independent final QA - verdict and last corrections (agent)
+    agent:
+      name: agent04-qa
+      version: "4"
+      timeout_seconds: 900
+      response_mode: artifacts
+      name_env: FOUNDRY_AGENT_04_NAME
+      version_env: FOUNDRY_AGENT_04_VERSION
+      instructions: >-
+        You are an independent scientific-chart QA agent with Code Interpreter. Use Python and unchanged native
+        pixels to recover missing CO2 markers and correct the entire candidate table. Previous agents and Python
+        detections are fallible evidence, not authority. Create a complete replacement CSV and a cited QA report
+        file, then inspect plots made from the saved CSV. Your final response is unstructured file links.
+        Supported partial glyph centres are allowed with explicit uncertainty; do not fabricate points from
+        expected counts, interpolation, or wholly hidden markers. Account for unresolved native regions.
+      prompt: prompts/agent04_final_check.md
+      schema: schemas/agent04_final_check.schema.json
+      example: examples/agent04_final_check.example.json
+
+  - id: python_publish_results
+    title: Build review pages and the master CSV tables, then report (Python)
+
+# Arrows of the graph.  "when" is the route a step chose; an arrow without "when" is always taken.
+edges:
+  - {from: python_read_document, to: agent00_find_figures, when: continue}
+  - {from: python_read_document, to: python_publish_results, when: publish}        # nothing to read
+  - {from: agent00_find_figures, to: agent01_read_chart, when: next_panel}
+  - {from: agent00_find_figures, to: python_publish_results, when: publish}         # no CO2 panels
+  - {from: agent01_read_chart, to: python_extract_points}
+  - {from: python_extract_points, to: agent02_check_extraction}
+  - {from: agent02_check_extraction, to: python_extract_points, when: adjust}       # rebuild until agent 02 is satisfied
+  - {from: agent02_check_extraction, to: agent03_review_points, when: continue}
+  - {from: agent03_review_points, to: agent04_final_check}
+  - {from: agent04_final_check, to: agent01_read_chart, when: next_panel}            # loop over panels
+  - {from: agent04_final_check, to: python_publish_results, when: publish}

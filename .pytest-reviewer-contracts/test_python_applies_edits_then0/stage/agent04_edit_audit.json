@@ -1,0 +1,64 @@
+{
+ "schema_version": "1.0",
+ "actor": "agent04_final_check",
+ "requested": 4,
+ "applied": 4,
+ "operations": [
+  {
+   "operation_index": 0,
+   "operation_id": "add",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 273K",
+   "reason": "",
+   "source_evidence": "",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    40.0,
+    60.0
+   ]
+  },
+  {
+   "operation_index": 1,
+   "operation_id": "move",
+   "action": "move",
+   "point_id": "a-1",
+   "series_label": null,
+   "reason": "",
+   "source_evidence": "",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    22.0,
+    80.0
+   ]
+  },
+  {
+   "operation_index": 2,
+   "operation_id": "delete",
+   "action": "delete",
+   "point_id": "a-2",
+   "series_label": null,
+   "reason": "",
+   "source_evidence": "",
+   "actor": "agent04_final_check",
+   "status": "applied"
+  },
+  {
+   "operation_index": 3,
+   "operation_id": "reassign",
+   "action": "reassign",
+   "point_id": "b-1",
+   "series_label": "CO2 273K",
+   "reason": "",
+   "source_evidence": "",
+   "actor": "agent04_final_check",
+   "status": "applied",
+   "source_pixel": [
+    80,
+    70
+   ]
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+  "profile": "openai_standard_short_context_2026-09-24",
+  "currency": "USD",
+  "unit_tokens": 1000000,
+  "source_url": "https://developers.openai.com/api/docs/pricing",
+  "notes": "Public OpenAI Standard short-context list prices. Estimates may differ from Microsoft Foundry/Azure billing, regional uplifts, negotiated rates, taxes, and non-token charges.",
+  "agent_versions": {
+    "agent00-discovery@6": "gpt-5.6-sol",
+    "agent01-structure@5": "gpt-5.6-sol",
+    "agent02-calibration@4": "gpt-5.6-luna",
+    "agent03-extraction@4": "gpt-5.6-luna",
+    "agent04-qa@4": "gpt-5.6-sol"
+  },
+  "models": {
+    "gpt-5.6-sol": {
+      "input_usd_per_million": 4.0,
+      "cached_input_usd_per_million": 0.4,
+      "cache_write_usd_per_million": 5.0,
+      "output_usd_per_million": 20.0
+    },
+    "gpt-5.6-luna": {
+      "input_usd_per_million": 0.2,
+      "cached_input_usd_per_million": 0.02,
+      "cache_write_usd_per_million": 0.25,
+      "output_usd_per_million": 1.2
+    }
+  }
+}

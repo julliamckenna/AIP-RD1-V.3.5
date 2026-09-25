@@ -1,0 +1,16 @@
+run,agent_name,agent_version,model,pricing_profile,calls,figures,input_tokens,cache_write_tokens,cached_tokens,uncached_input_tokens,output_tokens,reasoning_tokens,total_tokens,cache_hit_pct,estimated_uncached_input_cost_usd,estimated_cache_write_cost_usd,estimated_cached_input_cost_usd,estimated_output_cost_usd,estimated_total_cost_usd
+combined_02,agent00-discovery,6,gpt-5.6-sol,openai_standard_short_context_2026-09-24,12,1,86996,79546,7414,36,12722,4793,99718,8.52,0.00014400,0.39773000,0.00296600,0.25444000,0.65528000
+combined_02,agent01-structure,5,gpt-5.6-sol,openai_standard_short_context_2026-09-24,4,4,23483,23471,0,12,11755,5315,35238,0.0,0.00004800,0.11735500,0.00000000,0.23510000,0.35250300
+combined_02,agent02-calibration,4,gpt-5.6-luna,openai_standard_short_context_2026-09-24,9,3,229952,214285,15640,27,31506,7762,261458,6.8,0.00000500,0.05357100,0.00031300,0.03780700,0.09169700
+combined_02,agent03-extraction,4,gpt-5.6-luna,openai_standard_short_context_2026-09-24,3,3,102212,102203,0,9,16895,9950,119107,0.0,0.00000200,0.02555100,0.00000000,0.02027400,0.04582700
+combined_02,agent04-qa,4,gpt-5.6-sol,openai_standard_short_context_2026-09-24,3,3,30508,30499,0,9,12019,5185,42527,0.0,0.00003600,0.15249500,0.00000000,0.24038000,0.39291100
+combined_03,agent00-discovery,6,gpt-5.6-sol,openai_standard_short_context_2026-09-24,12,1,86996,86960,0,36,11719,3911,98715,0.0,0.00014400,0.43480000,0.00000000,0.23438000,0.66932400
+combined_03,agent01-structure,5,gpt-5.6-sol,openai_standard_short_context_2026-09-24,2,2,12277,12271,0,6,6475,2702,18752,0.0,0.00002400,0.06135500,0.00000000,0.12950000,0.19087900
+combined_03,agent02-calibration,4,gpt-5.6-luna,openai_standard_short_context_2026-09-24,6,2,153775,142027,11730,18,21209,3995,174984,7.63,0.00000400,0.03550700,0.00023500,0.02545100,0.06119600
+combined_03,agent03-extraction,4,gpt-5.6-luna,openai_standard_short_context_2026-09-24,2,2,102003,101997,0,6,7370,4476,109373,0.0,0.00000100,0.02549900,0.00000000,0.00884400,0.03434400
+combined_03,agent04-qa,4,gpt-5.6-sol,openai_standard_short_context_2026-09-24,2,2,22997,22991,0,6,7842,3591,30839,0.0,0.00002400,0.11495500,0.00000000,0.15684000,0.27181900
+single_01,agent00-discovery,6,gpt-5.6-sol,openai_standard_short_context_2026-09-24,1,1,4309,4306,0,3,2210,829,6519,0.0,0.00001200,0.02153000,0.00000000,0.04420000,0.06574200
+single_01,agent01-structure,5,gpt-5.6-sol,openai_standard_short_context_2026-09-24,1,1,5208,0,5205,3,2186,1449,7394,99.94,0.00001200,0.00000000,0.00208200,0.04372000,0.04581400
+single_01,agent02-calibration,4,gpt-5.6-luna,openai_standard_short_context_2026-09-24,3,1,35432,29558,5865,9,6881,3024,42313,16.55,0.00000200,0.00739000,0.00011700,0.00825700,0.01576600
+single_01,agent03-extraction,4,gpt-5.6-luna,openai_standard_short_context_2026-09-24,1,1,8986,8983,0,3,4448,2909,13434,0.0,0.00000100,0.00224600,0.00000000,0.00533800,0.00758400
+single_01,agent04-qa,4,gpt-5.6-sol,openai_standard_short_context_2026-09-24,1,1,6324,6321,0,3,1849,1292,8173,0.0,0.00001200,0.03160500,0.00000000,0.03698000,0.06859700

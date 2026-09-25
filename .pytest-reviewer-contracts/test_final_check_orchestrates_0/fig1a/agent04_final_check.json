@@ -1,0 +1,84 @@
+{
+ "reasoning": "The native source shows 13 CO2 273 K markers and 11 CO2 298 K markers; the candidate misses one, includes one false point, and assigns one square to the wrong series.",
+ "axis_check": {
+  "x": {
+   "printed_min": 0,
+   "printed_max": 100,
+   "data_min": 20,
+   "data_max": 80,
+   "result": "pass",
+   "reason": "The source ticks and candidate positions align."
+  },
+  "y": {
+   "printed_min": 0,
+   "printed_max": 100,
+   "data_min": 20,
+   "data_max": 80,
+   "result": "pass",
+   "reason": "The source ticks and candidate positions align."
+  }
+ },
+ "independent_read": {
+  "x_axis": "Pressure (kPa), linear 0-100",
+  "y_axis": "CO2 uptake (mmol/g), linear 0-100",
+  "series": [
+   {
+    "label": "CO2 273K",
+    "marker": "circle",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 2,
+    "notes": ""
+   },
+   {
+    "label": "CO2 298K",
+    "marker": "square",
+    "marker_fill": "filled",
+    "visible_markers_estimate": 1,
+    "notes": ""
+   }
+  ],
+  "visual_risks": [
+   "Overlapping markers below 5 kPa."
+  ]
+ },
+ "verdict": "accept",
+ "series": [
+  {
+   "label": "CO2 273K",
+   "coverage": "complete",
+   "final_count": 2,
+   "comment": ""
+  },
+  {
+   "label": "CO2 298K",
+   "coverage": "complete",
+   "final_count": 1,
+   "comment": ""
+  }
+ ],
+ "operations": [
+  {
+   "operation_id": "add-missed",
+   "action": "add",
+   "point_id": null,
+   "series_label": "CO2 273K",
+   "x_norm": 0.4,
+   "y_norm": 0.5,
+   "overlap": false,
+   "reason": "Visible marker is absent from the candidate.",
+   "source_evidence": "Blue circle centre at panel pixel (40, 50) in the untouched source."
+  },
+  {
+   "operation_id": "delete-false",
+   "action": "delete",
+   "point_id": "a-2",
+   "series_label": null,
+   "x_norm": null,
+   "y_norm": null,
+   "overlap": false,
+   "reason": "No marker is present at this candidate location.",
+   "source_evidence": "Panel pixel (70, 20) is blank in the untouched source."
+  }
+ ],
+ "uncertainties": []
+}

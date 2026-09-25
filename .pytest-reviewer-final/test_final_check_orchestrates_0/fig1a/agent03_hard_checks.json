@@ -1,0 +1,99 @@
+{
+ "stage": "agent03",
+ "passed": true,
+ "problems": [],
+ "axis_range": {
+  "passed": true,
+  "problems": [],
+  "margin": 0.05,
+  "max_frame_overhang_steps": 1.0,
+  "x": {
+   "unit": "kPa",
+   "scale": "linear",
+   "printed": [
+    0.0,
+    100.0
+   ],
+   "data": [
+    20.0,
+    80.0
+   ],
+   "points_outside": 0,
+   "passed": true,
+   "frame": [
+    0.0,
+    100.0
+   ],
+   "frame_overhang_steps": [
+    0.0,
+    0.0
+   ],
+   "allowed": [
+    -5.0,
+    105.0
+   ]
+  },
+  "y": {
+   "unit": "mmol/g",
+   "scale": "linear",
+   "printed": [
+    0.0,
+    100.0
+   ],
+   "data": [
+    20.0,
+    80.0
+   ],
+   "points_outside": 0,
+   "passed": true,
+   "frame": [
+    0.0,
+    100.0
+   ],
+   "frame_overhang_steps": [
+    0.0,
+    0.0
+   ],
+   "allowed": [
+    -5.0,
+    105.0
+   ]
+  }
+ },
+ "redraw": {
+  "available": true,
+  "series": {
+   "CO2 273K": {
+    "points": 2,
+    "precision": 0.5,
+    "recall": 0.133,
+    "missed_marker_equivalents": 6.8,
+    "same_color_group": [
+     "CO2 273K"
+    ]
+   },
+   "CO2 298K": {
+    "points": 1,
+    "precision": 1.0,
+    "recall": 0.265,
+    "missed_marker_equivalents": 2.9,
+    "same_color_group": [
+     "CO2 298K"
+    ]
+   }
+  },
+  "recall": 0.199,
+  "precision": 0.75
+ },
+ "physics": {
+  "verdict": null,
+  "flags": {},
+  "cross_series": []
+ },
+ "limitations": {
+  "unresolved_slots": 0,
+  "dense_regions_with_no_distinct_centres": 0,
+  "note": "ink coverage is not marker completeness; unresolved dense evidence requires review"
+ },
+ "accepted_extraction": true
+}

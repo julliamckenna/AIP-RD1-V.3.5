@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "agent03_review_points_response",
+  "description": "Agent 03 corrections to the Python proposal, applied mechanically by src/tools/stage_edits.py.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "reasoning",
+    "verdict",
+    "series",
+    "operations",
+    "uncertainties",
+    "coverage"
+  ],
+  "properties": {
+    "reasoning": {
+      "type": "string"
+    },
+    "verdict": {
+      "$ref": "shared.schema.json#/$defs/verdict"
+    },
+    "series": {
+      "type": "array",
+      "items": {
+        "$ref": "shared.schema.json#/$defs/series_coverage"
+      }
+    },
+    "operations": {
+      "type": "array",
+      "items": {
+        "$ref": "shared.schema.json#/$defs/point_operation"
+      }
+    },
+    "uncertainties": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "coverage": {
+      "description": "Explicit disposition for every tile, contested box, ambiguity crop and unresolved slot presented in this review batch.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["item_id", "item_type", "status", "detail"],
+        "properties": {
+          "item_id": {"type": "string"},
+          "item_type": {
+            "type": "string",
+            "enum": ["tile", "box", "evidence", "ambiguity", "slot"]
+          },
+          "status": {
+            "type": "string",
+            "enum": ["reviewed", "unresolved"]
+          },
+          "detail": {"type": "string"}
+        }
+      }
+    }
+  }
+}

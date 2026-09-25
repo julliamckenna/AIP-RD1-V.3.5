@@ -1,0 +1,75 @@
+{
+ "schema_version": "1.2",
+ "authority": "supporting_evidence_only",
+ "native_image": "panel.png",
+ "legend": "legend.png",
+ "tiles": [
+  {
+   "tile_id": "marker_01",
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "boxes": [
+    {
+     "box": 1,
+     "point_id": null,
+     "series_label": "CO2 273K",
+     "source_pixel": [
+      3,
+      4
+     ],
+     "reason": "low_confidence_or_overlap"
+    }
+   ]
+  }
+ ],
+ "dense_region_evidence": [
+  "dense_roi_native.png",
+  "dense_roi_line_suppressed.png"
+ ],
+ "ambiguity_native_evidence_tiles": [],
+ "ambiguity_contact_sheets": [],
+ "review_items": [
+  {
+   "item_id": "tile:marker_01",
+   "item_type": "tile",
+   "tile_id": "marker_01",
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": ""
+  },
+  {
+   "item_id": "box:marker_01:1",
+   "item_type": "box",
+   "tile_id": "marker_01",
+   "box": 1,
+   "point_id": null,
+   "series_label": "CO2 273K",
+   "source_pixel": [
+    3,
+    4
+   ],
+   "native_tile": "tile_01_native.png",
+   "candidate_tile": "tile_01_candidate.png",
+   "detail": "low_confidence_or_overlap"
+  },
+  {
+   "item_id": "evidence:dense_roi_native.png",
+   "item_type": "evidence",
+   "native_tile": "dense_roi_native.png",
+   "diagnostic_tile": null,
+   "evidence_kind": "native_source",
+   "candidate_tile": null,
+   "detail": "unchanged source crop"
+  },
+  {
+   "item_id": "evidence:dense_roi_line_suppressed.png",
+   "item_type": "evidence",
+   "native_tile": null,
+   "diagnostic_tile": "dense_roi_line_suppressed.png",
+   "evidence_kind": "derived_diagnostic",
+   "candidate_tile": null,
+   "detail": "Python-derived diagnostic; not source pixels or proof of a marker"
+  }
+ ],
+ "instructions": "Native tiles preserve source pixel values, with nearest-neighbor enlargement where needed. Candidate tiles identify Python proposals only. Diagnostic tiles (line suppression, likelihood, assignments and scores) are fallible derived views, not native evidence. Ambiguity contact sheets preserve each native crop as a labeled cell; use the manifest row and column to match item IDs. Search every complex-region native tile for missed CO2 markers; never use an annotated ring or count as coordinate evidence."
+}

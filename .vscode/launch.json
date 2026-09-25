@@ -1,0 +1,97 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "1. Run one document from data/input",
+      "type": "debugpy",
+      "request": "launch",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      },
+      "envFile": "${workspaceFolder}/.env",
+      "program": "${workspaceFolder}/main.py",
+      "args": [
+        "--run",
+        "${input:document}"
+      ]
+    },
+    {
+      "name": "2. Dry run one document (example answers, no Azure)",
+      "type": "debugpy",
+      "request": "launch",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}",
+        "CHART_EXTRACT_DRY_RUN": "1"
+      },
+      "envFile": "${workspaceFolder}/.env",
+      "program": "${workspaceFolder}/main.py",
+      "args": [
+        "--run",
+        "${input:document}"
+      ]
+    },
+    {
+      "name": "3. Print workflow graph (Mermaid)",
+      "type": "debugpy",
+      "request": "launch",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      },
+      "envFile": "${workspaceFolder}/.env",
+      "program": "${workspaceFolder}/main.py",
+      "args": [
+        "--graph"
+      ]
+    },
+    {
+      "name": "4. Contract tests",
+      "type": "debugpy",
+      "request": "launch",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      },
+      "module": "pytest",
+      "args": [
+        "-q"
+      ]
+    },
+    {
+      "name": "5. Review server (dashboard + direct save)",
+      "type": "debugpy",
+      "request": "launch",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      },
+      "program": "${workspaceFolder}/scripts/review_server.py"
+    },
+    {
+      "name": "6. Rebuild master table",
+      "type": "debugpy",
+      "request": "launch",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      },
+      "program": "${workspaceFolder}/scripts/rebuild_table.py"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "document",
+      "type": "promptString",
+      "description": "File in data/input, a path, or an https URL",
+      "default": "paper.pdf"
+    }
+  ]
+}

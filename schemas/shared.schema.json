@@ -1,0 +1,793 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "shared_definitions_used_by_step_response_schemas",
+  "description": "Reference these with {\"$ref\": \"shared.schema.json#/$defs/<name>\"}. src/workflow/resources.py inlines them before a schema is sent to a model.",
+  "$defs": {
+    "bbox_norm": {
+      "description": "[x0, y0, x1, y1] as fractions 0-1 of the image, origin at top left.",
+      "type": "array",
+      "items": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "minItems": 4,
+      "maxItems": 4
+    },
+    "marker": {
+      "description": "Marker outline as drawn in the legend. Triangles are named by the direction their apex points.",
+      "type": "string",
+      "enum": [
+        "circle",
+        "square",
+        "diamond",
+        "triangle_up",
+        "triangle_down",
+        "triangle_left",
+        "triangle_right",
+        "pentagon",
+        "hexagon",
+        "star",
+        "plus",
+        "cross",
+        "none"
+      ]
+    },
+    "marker_fill": {
+      "type": "string",
+      "enum": [
+        "open",
+        "filled"
+      ]
+    },
+    "line_style": {
+      "type": "string",
+      "enum": [
+        "none",
+        "solid",
+        "dashed",
+        "dotted",
+        "dashdot"
+      ]
+    },
+    "axis_scale": {
+      "type": "string",
+      "enum": [
+        "linear",
+        "log"
+      ]
+    },
+    "branches": {
+      "type": "string",
+      "enum": [
+        "adsorption_only",
+        "adsorption_and_desorption",
+        "unknown"
+      ]
+    },
+    "verdict": {
+      "type": "string",
+      "enum": [
+        "accept",
+        "review",
+        "reject"
+      ]
+    },
+    "ticks": {
+      "description": "Printed tick values in reading order (x left to right, y bottom to top).",
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "tick_anchor": {
+      "description": "A printed tick value and its normalized pixel position along the axis (x left-to-right, y top-to-bottom).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "pixel_norm",
+        "value"
+      ],
+      "properties": {
+        "pixel_norm": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "value": {
+          "type": "number"
+        }
+      }
+    },
+    "checked_axis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "unit",
+        "scale",
+        "minimum",
+        "maximum",
+        "boundary_limits_confirmed",
+        "ticks",
+        "tick_anchors"
+      ],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "unit": {
+          "type": "string"
+        },
+        "scale": {
+          "$ref": "#/$defs/axis_scale"
+        },
+        "minimum": {
+          "type": "number"
+        },
+        "maximum": {
+          "type": "number"
+        },
+        "boundary_limits_confirmed": {
+          "type": "boolean"
+        },
+        "ticks": {
+          "$ref": "#/$defs/ticks"
+        },
+        "tick_anchors": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "$ref": "#/$defs/tick_anchor"
+          }
+        }
+      }
+    },
+    "series_coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "label",
+        "coverage",
+        "final_count",
+        "comment"
+      ],
+      "properties": {
+        "label": {
+          "type": "string"
+        },
+        "coverage": {
+          "type": "string",
+          "enum": [
+            "complete",
+            "incomplete",
+            "uncertain"
+          ]
+        },
+        "final_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "comment": {
+          "type": "string"
+        }
+      }
+    },
+    "point_operation": {
+      "description": "A source-backed extraction edit. Add uses a null point_id, nonblank series_label, and numeric coordinates. Move uses a nonblank existing point_id and numeric coordinates. Delete uses a nonblank existing point_id and null coordinates. Reassign uses a nonblank existing point_id and nonblank series_label with either both coordinates or neither. Every operation cites source_evidence and evidence_ref. Positional operations report nonnegative uncertainty_px in native panel pixels; nonpositional operations use null.",
+      "anyOf": [
+        {
+          "$ref": "#/$defs/point_operation_add"
+        },
+        {
+          "$ref": "#/$defs/point_operation_move"
+        },
+        {
+          "$ref": "#/$defs/point_operation_delete"
+        },
+        {
+          "$ref": "#/$defs/point_operation_reassign_with_position"
+        },
+        {
+          "$ref": "#/$defs/point_operation_reassign_without_position"
+        }
+      ]
+    },
+    "extraction_setting": {
+      "description": "Per-series extraction setting for the next Python round. Python clamps every value to a safe range and never loosens calibration gates.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "label",
+        "color_tolerance",
+        "separate_from",
+        "y_bands",
+        "template_fill",
+        "reason",
+        "sample_marker_norm",
+        "expected_counts",
+        "curve_points"
+      ],
+      "properties": {
+        "label": {
+          "type": "string"
+        },
+        "color_tolerance": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 15,
+          "maximum": 45,
+          "description": "Lab tolerance for this series' color; null = Python's measured default. Tighter for same-color neighbours, wider for pale/blurred rings."
+        },
+        "separate_from": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Labels of same-color series this one must be told apart from (shape and curve position)."
+        },
+        "y_bands": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "x_from",
+              "x_to",
+              "y_min",
+              "y_max"
+            ],
+            "properties": {
+              "x_from": {
+                "type": "number"
+              },
+              "x_to": {
+                "type": "number"
+              },
+              "y_min": {
+                "type": "number"
+              },
+              "y_max": {
+                "type": "number"
+              }
+            }
+          },
+          "description": "Where this series' markers lie, in data units, as one box per x range (several boxes follow a curved isotherm, e.g. a steep low-pressure part and a flat part). Points outside go to a twin or are dropped."
+        },
+        "template_fill": {
+          "type": "string",
+          "enum": [
+            "on",
+            "fit_only",
+            "off"
+          ],
+          "description": "Template filling of crowded strips for this series."
+        },
+        "reason": {
+          "type": "string"
+        },
+        "sample_marker_norm": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "description": "[x, y] normalized position of ONE clean, unoverlapped marker of this series in image 1; Python measures the series color there instead of trusting the legend. null = keep the legend color."
+        },
+        "expected_counts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "x_from",
+              "x_to",
+              "count"
+            ],
+            "properties": {
+              "x_from": {
+                "type": "number"
+              },
+              "x_to": {
+                "type": "number"
+              },
+              "count": {
+                "type": "integer",
+                "minimum": 0
+              }
+            }
+          },
+          "description": "How many markers of this series you see per x range (data units). Python reports its own count next to each; a shortfall is a coverage issue for the next round."
+        },
+        "curve_points": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "x",
+              "y"
+            ],
+            "properties": {
+              "x": {
+                "type": "number"
+              },
+              "y": {
+                "type": "number"
+              }
+            }
+          },
+          "description": "The series curve read from the axes as 6-12 (x, y) points in data units, densest where it bends. Python uses it to give crowded markers to the right series; it holds over its whole x range. Empty = keep agent 01's rough anchors."
+        }
+      }
+    },
+    "region_strategy": {
+      "description": "How Python must handle one region of the plot.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "bbox_norm",
+        "series_labels",
+        "strategy",
+        "reason"
+      ],
+      "properties": {
+        "bbox_norm": {
+          "$ref": "#/$defs/bbox_norm"
+        },
+        "series_labels": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Series the strategy applies to; empty = every series (ignore only)."
+        },
+        "strategy": {
+          "type": "string",
+          "enum": [
+            "ignore",
+            "split_filled_open",
+            "sample_band_at_columns"
+          ],
+          "description": "ignore: no points of these series here (inset, annotation, text). split_filled_open: same-color filled/open series overlap here - Python gives each marker to the filled or the open series by its centre. sample_band_at_columns: markers are fused into a solid band - Python takes one line sample per shared_x_columns value (inferred, review-only)."
+        },
+        "reason": {
+          "type": "string"
+        }
+      }
+    },
+    "axis_check_entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "printed_min",
+        "printed_max",
+        "data_min",
+        "data_max",
+        "result",
+        "reason"
+      ],
+      "properties": {
+        "printed_min": {
+          "type": "number",
+          "description": "Lowest printed tick label you read in the source image."
+        },
+        "printed_max": {
+          "type": "number",
+          "description": "Highest printed tick label you read in the source image."
+        },
+        "data_min": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Lowest extracted value on this axis (copy it from the numbers you were given; null when there are none)."
+        },
+        "data_max": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "reason": {
+          "type": "string"
+        },
+        "result": {
+          "type": "string",
+          "enum": [
+            "pass",
+            "fail"
+          ],
+          "description": "fail only for a shifted or stretched axis or wrongly read tick labels: the re-plot puts the curves at other values than the source against its ticks. Python checks the value range with tolerance itself; a value slightly past the outer tick is not a fail."
+        }
+      }
+    },
+    "axis_check": {
+      "description": "Numbers check that only a reader of the image can do: the printed tick range, and whether the re-plotted curves sit at the same values as the source. Python checks the extracted value range against the axes itself.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "x",
+        "y"
+      ],
+      "properties": {
+        "x": {
+          "$ref": "#/$defs/axis_check_entry"
+        },
+        "y": {
+          "$ref": "#/$defs/axis_check_entry"
+        }
+      }
+    },
+    "point_operation_add": {
+      "title": "add_point_operation",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "operation_id",
+        "action",
+        "point_id",
+        "series_label",
+        "x_norm",
+        "y_norm",
+        "overlap",
+        "reason",
+        "source_evidence",
+        "evidence_kind",
+        "uncertainty_px",
+        "evidence_ref"
+      ],
+      "properties": {
+        "operation_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "action": {
+          "type": "string",
+          "const": "add"
+        },
+        "point_id": {
+          "type": "null"
+        },
+        "series_label": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "x_norm": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "y_norm": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "overlap": {
+          "type": "boolean"
+        },
+        "reason": {
+          "type": "string"
+        },
+        "source_evidence": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "evidence_kind": {
+          "type": "string",
+          "enum": ["native_visible", "partial_marker"]
+        },
+        "uncertainty_px": {
+          "type": "number",
+          "minimum": 0.1,
+          "description": "Radius of positional uncertainty in native source-panel pixels. Estimate from the visible marker or fragment; do not use zero to imply certainty."
+        },
+        "evidence_ref": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S",
+          "description": "panel.png or the exact native evidence item_id that supports this operation."
+        }
+      }
+    },
+    "point_operation_move": {
+      "title": "move_point_operation",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "operation_id",
+        "action",
+        "point_id",
+        "series_label",
+        "x_norm",
+        "y_norm",
+        "overlap",
+        "reason",
+        "source_evidence",
+        "evidence_kind",
+        "uncertainty_px",
+        "evidence_ref"
+      ],
+      "properties": {
+        "operation_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "action": {
+          "type": "string",
+          "const": "move"
+        },
+        "point_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "series_label": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "x_norm": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "y_norm": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "overlap": {
+          "type": "boolean"
+        },
+        "reason": {
+          "type": "string"
+        },
+        "source_evidence": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "evidence_kind": {
+          "type": "string",
+          "enum": ["native_visible", "partial_marker"]
+        },
+        "uncertainty_px": {
+          "type": "number",
+          "minimum": 0.1
+        },
+        "evidence_ref": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        }
+      }
+    },
+    "point_operation_delete": {
+      "title": "delete_point_operation",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "operation_id",
+        "action",
+        "point_id",
+        "series_label",
+        "x_norm",
+        "y_norm",
+        "overlap",
+        "reason",
+        "source_evidence",
+        "evidence_kind",
+        "uncertainty_px",
+        "evidence_ref"
+      ],
+      "properties": {
+        "operation_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "action": {
+          "type": "string",
+          "const": "delete"
+        },
+        "point_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "series_label": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "x_norm": {
+          "type": "null"
+        },
+        "y_norm": {
+          "type": "null"
+        },
+        "overlap": {
+          "type": "boolean"
+        },
+        "reason": {
+          "type": "string"
+        },
+        "source_evidence": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "evidence_kind": {
+          "type": "string",
+          "enum": ["native_visible", "partial_marker", "native_absence"]
+        },
+        "uncertainty_px": {
+          "type": "null",
+          "description": "Delete has no replacement position."
+        },
+        "evidence_ref": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        }
+      }
+    },
+    "point_operation_reassign_with_position": {
+      "title": "reassign_point_operation_with_position",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "operation_id",
+        "action",
+        "point_id",
+        "series_label",
+        "x_norm",
+        "y_norm",
+        "overlap",
+        "reason",
+        "source_evidence",
+        "evidence_kind",
+        "uncertainty_px",
+        "evidence_ref"
+      ],
+      "properties": {
+        "operation_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "action": {
+          "type": "string",
+          "const": "reassign"
+        },
+        "point_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "series_label": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "x_norm": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "y_norm": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "overlap": {
+          "type": "boolean"
+        },
+        "reason": {
+          "type": "string"
+        },
+        "source_evidence": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "evidence_kind": {
+          "type": "string",
+          "enum": ["native_visible", "partial_marker"]
+        },
+        "uncertainty_px": {
+          "type": "number",
+          "minimum": 0.1
+        },
+        "evidence_ref": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        }
+      }
+    },
+    "point_operation_reassign_without_position": {
+      "title": "reassign_point_operation_without_position",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "operation_id",
+        "action",
+        "point_id",
+        "series_label",
+        "x_norm",
+        "y_norm",
+        "overlap",
+        "reason",
+        "source_evidence",
+        "evidence_kind",
+        "uncertainty_px",
+        "evidence_ref"
+      ],
+      "properties": {
+        "operation_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "action": {
+          "type": "string",
+          "const": "reassign"
+        },
+        "point_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "series_label": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "x_norm": {
+          "type": "null"
+        },
+        "y_norm": {
+          "type": "null"
+        },
+        "overlap": {
+          "type": "boolean"
+        },
+        "reason": {
+          "type": "string"
+        },
+        "source_evidence": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "evidence_kind": {
+          "type": "string",
+          "enum": ["native_visible", "partial_marker"]
+        },
+        "uncertainty_px": {
+          "type": "null",
+          "description": "No replacement position was supplied."
+        },
+        "evidence_ref": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        }
+      }
+    }
+  }
+}

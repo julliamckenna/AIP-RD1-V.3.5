@@ -1,0 +1,116 @@
+{
+  "reasoning": "The native source shows 13 CO2 273 K markers and 11 CO2 298 K markers; the candidate misses one, includes one false point, and assigns one square to the wrong series.",
+  "axis_check": {
+    "x": {
+      "printed_min": 0,
+      "printed_max": 100,
+      "data_min": 1.0,
+      "data_max": 100.0,
+      "result": "pass",
+      "reason": "Re-plot x axis matches the source 0-100 kPa."
+    },
+    "y": {
+      "printed_min": 0,
+      "printed_max": 4,
+      "data_min": 0.31,
+      "data_max": 3.58,
+      "result": "pass",
+      "reason": "Uptake values fall where the source markers sit against the y ticks."
+    }
+  },
+  "independent_read": {
+    "x_axis": "Pressure (kPa), linear 0-100",
+    "y_axis": "CO2 uptake (mmol/g), linear 0-4",
+    "series": [
+      {
+        "label": "CO2 273 K",
+        "marker": "circle",
+        "marker_fill": "filled",
+        "visible_markers_estimate": 13,
+        "notes": ""
+      },
+      {
+        "label": "CO2 298 K",
+        "marker": "square",
+        "marker_fill": "filled",
+        "visible_markers_estimate": 11,
+        "notes": ""
+      }
+    ],
+    "visual_risks": [
+      "Overlapping markers below 5 kPa."
+    ]
+  },
+  "verdict": "accept",
+  "series": [
+    {
+      "label": "CO2 273 K",
+      "coverage": "complete",
+      "final_count": 13,
+      "comment": "Final count includes a source-supported add and reassignment."
+    },
+    {
+      "label": "CO2 298 K",
+      "coverage": "complete",
+      "final_count": 11,
+      "comment": "Final count reflects removal of a false point and one reassignment."
+    }
+  ],
+  "uncertainties": [],
+  "row_count": 24,
+  "calibration": {
+    "axis_models": {
+      "x": {
+        "scale": "linear",
+        "slope": 0.1,
+        "intercept": 0
+      },
+      "y": {
+        "scale": "linear",
+        "slope": -0.004,
+        "intercept": 4
+      }
+    },
+    "frame_px": [
+      0,
+      0,
+      1000,
+      1000
+    ],
+    "px_per_unit_x": 10,
+    "px_per_unit_y": 250,
+    "unit_per_px_x": 0.1,
+    "unit_per_px_y": 0.004
+  },
+  "unresolved_slots": {
+    "total": 0,
+    "by_series": {},
+    "slots": []
+  },
+  "changes": [
+    {
+      "action": "add",
+      "point_id": "qa-added-001",
+      "reason": "Visible marker omitted from the candidate.",
+      "source_evidence": "Filled blue circle centre at panel pixel (131, 742) in the untouched source."
+    },
+    {
+      "action": "move",
+      "point_id": "pt-41be07",
+      "reason": "Centre was on the connecting line instead of the square centre.",
+      "source_evidence": "Square centre at panel pixel (512, 611) in the untouched source."
+    },
+    {
+      "action": "delete",
+      "point_id": "pt-7be211",
+      "reason": "No CO2 marker is present at this candidate location.",
+      "source_evidence": "Native source pixels at panel pixel (701, 490) show only the connecting line."
+    },
+    {
+      "action": "reassign",
+      "point_id": "pt-9302ab",
+      "reason": "The square belongs to CO2 273 K, not CO2 298 K.",
+      "source_evidence": "Native source at panel pixel (731, 520) shows the 273 K square style and curve."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "reasoning": "The page shows one axis frame with CO2 and N2 uptake against pressure; the caption binds the filled symbols to CO2.",
+  "figure_number": "10",
+  "matched_caption": "Fig. 10. CO2 (filled) and N2 (open) adsorption isotherms of Example-MOF at 273 K and 298 K.",
+  "figure_is_relevant": true,
+  "si_has_tabulated_data": "unknown",
+  "panels": [
+    {
+      "panel": "x",
+      "is_co2_isotherm": true,
+      "reason": "CO2 uptake (mmol/g) is plotted against pressure (kPa).",
+      "bbox_norm": [
+        0.04,
+        0.03,
+        0.97,
+        0.95
+      ],
+      "has_inset": false,
+      "inset_bbox_norm": null
+    }
+  ],
+  "context": {
+    "adsorbent": "Example-MOF",
+    "sample_form": "powder",
+    "activation": "150 C under vacuum for 12 h",
+    "instrument": "volumetric sorption analyser",
+    "measurement_notes": "Isotherms at 273 K and 298 K up to 100 kPa.",
+    "other_parameters": "No additional source-reported parameters."
+  }
+}

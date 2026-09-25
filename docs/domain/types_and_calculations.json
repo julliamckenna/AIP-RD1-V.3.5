@@ -1,0 +1,6 @@
+{
+  "deprecated": true,
+  "replaced_by": "knowledge/calculations.json",
+  "scope_policy": "policy/co2_scope.policy.json",
+  "note": "Not attached to v4 agent calls. Benchmark labels remain in benchmarks/ground_truth."
+}

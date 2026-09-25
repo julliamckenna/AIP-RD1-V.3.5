@@ -1,0 +1,100 @@
+{
+ "calibration": {
+  "frame_px": [
+   0,
+   0,
+   100,
+   100
+  ],
+  "axis_models": {
+   "x": {
+    "scale": "linear",
+    "slope": 1,
+    "intercept": 0
+   },
+   "y": {
+    "scale": "linear",
+    "slope": -1,
+    "intercept": 100
+   }
+  }
+ },
+ "series": [
+  {
+   "label": "CO2 273K",
+   "gas": "CO2",
+   "extract": true,
+   "marker_radius_px": 2,
+   "color_lab": [
+    81.0,
+    188.0,
+    39.0
+   ],
+   "points": [
+    {
+     "point_id": "a-1",
+     "px": [
+      20,
+      80
+     ],
+     "x": 20.0,
+     "y": 20.0,
+     "source": "visible_marker",
+     "confidence": 0.9,
+     "source_instance_id": "src-a77fb168df09e385"
+    },
+    {
+     "x": 40.0,
+     "y": 50.0,
+     "px": [
+      40.0,
+      50.0
+     ],
+     "confidence": 0.85,
+     "overlap_flag": false,
+     "assigned_by": "agent04_final_check",
+     "source": "agent04_final_check",
+     "point_id": "pt-c7a40b2f990cbeb1",
+     "source_instance_id": "src-d5de2064c2e9dfa6"
+    }
+   ],
+   "n_points": 2,
+   "series_id": "fig1:a:co2-273k-78e92393",
+   "x_min": 20.0,
+   "x_max": 40.0,
+   "y_min": 20.0,
+   "y_max": 50.0
+  },
+  {
+   "label": "CO2 298K",
+   "gas": "CO2",
+   "extract": true,
+   "marker_radius_px": 2,
+   "color_lab": [
+    123.0,
+    194.0,
+    179.0
+   ],
+   "points": [
+    {
+     "point_id": "b-1",
+     "px": [
+      80,
+      70
+     ],
+     "x": 80.0,
+     "y": 30.0,
+     "source": "visible_marker",
+     "confidence": 0.9,
+     "source_instance_id": "src-2276df2b36b8cc3f"
+    }
+   ],
+   "n_points": 1,
+   "series_id": "fig1:a:co2-298k-438baf4c",
+   "x_min": 80.0,
+   "x_max": 80.0,
+   "y_min": 30.0,
+   "y_max": 30.0
+  }
+ ]
+}

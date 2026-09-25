@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "agent00_find_figures_response",
+  "description": "Agent 00 answer for ONE figure candidate: is it relevant, which physical panels are CO2 isotherms, and the experimental context.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "reasoning",
+    "figure_number",
+    "matched_caption",
+    "figure_is_relevant",
+    "si_has_tabulated_data",
+    "panels",
+    "context"
+  ],
+  "properties": {
+    "reasoning": {
+      "type": "string"
+    },
+    "figure_number": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Printed figure number, or null for an unnumbered graphic."
+    },
+    "matched_caption": {
+      "type": "string"
+    },
+    "figure_is_relevant": {
+      "type": "boolean"
+    },
+    "si_has_tabulated_data": {
+      "type": "string",
+      "enum": [
+        "yes",
+        "no",
+        "unknown"
+      ]
+    },
+    "panels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "panel",
+          "is_co2_isotherm",
+          "reason",
+          "bbox_norm",
+          "has_inset",
+          "inset_bbox_norm"
+        ],
+        "properties": {
+          "panel": {
+            "type": "string",
+            "description": "Panel letter, or x when the figure has one axis frame."
+          },
+          "is_co2_isotherm": {
+            "type": "boolean"
+          },
+          "reason": {
+            "type": "string"
+          },
+          "bbox_norm": {
+            "$ref": "shared.schema.json#/$defs/bbox_norm"
+          },
+          "has_inset": {
+            "type": "boolean"
+          },
+          "inset_bbox_norm": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "minItems": 4,
+            "maxItems": 4
+          }
+        }
+      }
+    },
+    "context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "adsorbent",
+        "sample_form",
+        "activation",
+        "instrument",
+        "measurement_notes",
+        "other_parameters"
+      ],
+      "properties": {
+        "adsorbent": {
+          "type": "string"
+        },
+        "sample_form": {
+          "type": "string"
+        },
+        "activation": {
+          "type": "string"
+        },
+        "instrument": {
+          "type": "string"
+        },
+        "measurement_notes": {
+          "type": "string"
+        },
+        "other_parameters": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

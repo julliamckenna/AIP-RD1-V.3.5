@@ -1,0 +1,188 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "agent01_read_chart_response",
+  "description": "Agent 01 description of ONE panel: axes, printed ticks, legend and every series (CO2 or not).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "reasoning",
+    "x",
+    "y",
+    "legend_bbox_norm",
+    "legend_position",
+    "series",
+    "branches",
+    "notes"
+  ],
+  "properties": {
+    "reasoning": {
+      "type": "string"
+    },
+    "x": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "unit",
+        "scale",
+        "ticks",
+        "x_setpoints_visible"
+      ],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "unit": {
+          "type": "string"
+        },
+        "scale": {
+          "$ref": "shared.schema.json#/$defs/axis_scale"
+        },
+        "ticks": {
+          "$ref": "shared.schema.json#/$defs/ticks"
+        },
+        "x_setpoints_visible": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "y": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "unit",
+        "scale",
+        "ticks"
+      ],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "unit": {
+          "type": "string"
+        },
+        "scale": {
+          "$ref": "shared.schema.json#/$defs/axis_scale"
+        },
+        "ticks": {
+          "$ref": "shared.schema.json#/$defs/ticks"
+        }
+      }
+    },
+    "legend_bbox_norm": {
+      "$ref": "shared.schema.json#/$defs/bbox_norm"
+    },
+    "legend_position": {
+      "type": "string"
+    },
+    "series": {
+      "type": "array",
+      "description": "Every legend series in legend order, top to bottom.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "label",
+          "gas",
+          "species_evidence",
+          "temperature_k",
+          "color_name",
+          "color_hex",
+          "marker",
+          "marker_fill",
+          "line_style",
+          "has_line",
+          "quantity_type",
+          "loading_basis",
+          "extract",
+          "y_anchors",
+          "n_markers_estimate"
+        ],
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "gas": {
+            "type": "string"
+          },
+          "species_evidence": {
+            "type": "string"
+          },
+          "temperature_k": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "color_name": {
+            "type": "string"
+          },
+          "color_hex": {
+            "type": "string"
+          },
+          "marker": {
+            "$ref": "shared.schema.json#/$defs/marker"
+          },
+          "marker_fill": {
+            "$ref": "shared.schema.json#/$defs/marker_fill"
+          },
+          "line_style": {
+            "$ref": "shared.schema.json#/$defs/line_style"
+          },
+          "has_line": {
+            "type": "boolean"
+          },
+          "quantity_type": {
+            "type": "string"
+          },
+          "loading_basis": {
+            "type": "string"
+          },
+          "extract": {
+            "type": "boolean",
+            "description": "true only for a policy-eligible CO2 series."
+          },
+          "y_anchors": {
+            "description": "Rough y readings at 25/50/75/100 % of the x range.",
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "p25",
+              "p50",
+              "p75",
+              "p100"
+            ],
+            "properties": {
+              "p25": {
+                "type": "number"
+              },
+              "p50": {
+                "type": "number"
+              },
+              "p75": {
+                "type": "number"
+              },
+              "p100": {
+                "type": "number"
+              }
+            }
+          },
+          "n_markers_estimate": {
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "branches": {
+      "$ref": "shared.schema.json#/$defs/branches"
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "version": "4.0",
+  "role": "Conditional calculation specification; executable implementations in calculations.py, not image ground truth.",
+  "pressure_to_bar": {
+    "Pa": 1e-05,
+    "kPa": 0.01,
+    "MPa": 10,
+    "bar": 1,
+    "mbar": 0.001,
+    "atm": 1.01325,
+    "Torr": 0.0013332236842105263
+  },
+  "quantity_preservation": [
+    "fugacity is not pressure",
+    "relative pressure is preserved unless source P0 is explicitly authorized",
+    "volume loading is not mass loading without matching density",
+    "do not merge excess/absolute or working/equilibrium capacity"
+  ],
+  "co2_molar_mass_g_mol": 44.0095,
+  "mass_loading_to_mmol_g": {
+    "mmol/g": "x",
+    "mol/kg": "x",
+    "mol/g": "1000*x",
+    "mg/g": "x/44.0095",
+    "g/kg": "x/44.0095",
+    "g/g": "1000*x/44.0095"
+  },
+  "percent_loading": {
+    "co2_mass_per_dry_sorbent_mass": "10*w/44.0095",
+    "co2_fraction_of_loaded_mass": "1000*w/((100-w)*44.0095), 0<=w<100",
+    "unknown_basis": "preserve reported unit; no normalization"
+  },
+  "volume_loading": {
+    "mmol/cm3 or mol/L": "preserve as mmol/cm3 unless sorbent_density_g_cm3 is positive and density_basis_matches_loading_volume=true; then divide by density"
+  },
+  "STP": "cm3(STP)/g divided by positive molar_volume_cm3_per_mmol only with stp_source_evidence",
+  "fixed_temperature_conversion": "C or °C to K: +273.15",
+  "priors": "Magnitude, monotonicity, temperature order, Langmuir/Toth fits are advisory only; never move a measured point."
+}

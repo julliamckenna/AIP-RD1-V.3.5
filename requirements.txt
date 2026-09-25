@@ -1,0 +1,24 @@
+# Only what the code imports. Check with: pip install -r requirements.txt && python -m pytest -q
+
+# Deterministic extraction (src/tools/)
+pymupdf>=1.24                        # read PDFs, render figures
+opencv-python-headless>=4.9          # marker detection, image work
+numpy>=1.26
+scipy>=1.12                          # curve fits, physics checks
+matplotlib>=3.8                      # re-plots, legend glyph shapes
+bokeh>=3.4                           # review page
+pillow>=10                           # benchmark chart generator (evaluations/)
+opencv-python
+# Workflow and Foundry Prompt Agent calls (src/workflow/, main.py)
+# The Agent Framework parts are listed one by one on purpose: the "agent-framework" bundle
+# installs ~30 connectors this project never uses (other model vendors, databases, ...).
+agent-framework-core>=1.19           # workflow graph, executors, messages
+azure-ai-projects>=2.1.0             # AIProjectClient + OpenAI Responses client
+azure-identity>=1.25                 # az login -> DefaultAzureCredential
+httpx<1                              # download a document from a URL
+jsonschema>=4.21                     # validate every model answer against its schema
+python-dotenv>=1.0                   # read .env
+pyyaml>=6.0                          # workflow.yaml, config.yaml
+
+# Tests
+pytest>=8

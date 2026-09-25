@@ -1,0 +1,1 @@
+[{"candidate_id": "xref:4", "provenance": {"agent_name": "agent00", "agent_version": "6", "response_id": "resp_0", "usage": {"input_tokens": 50, "input_tokens_details": {"cache_write_tokens": 0, "cached_tokens": 40}, "output_tokens": 10, "output_tokens_details": {"reasoning_tokens": 2}, "total_tokens": 60}, "created_at": "2026-09-24T00:00:00+00:00", "dry_run": false}}]

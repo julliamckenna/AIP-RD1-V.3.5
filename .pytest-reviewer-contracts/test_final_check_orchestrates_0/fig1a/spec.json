@@ -1,0 +1,85 @@
+{
+ "image": "C:\\Users\\jmckenna\\dev-ai\\AIP-RD1-V.3.5\\.pytest-reviewer-contracts\\test_final_check_orchestrates_0\\fig1a\\panel.png",
+ "panel_bbox": [
+  0,
+  0,
+  100,
+  100
+ ],
+ "x": {
+  "ticks": [
+   0,
+   50,
+   100
+  ],
+  "unit": "kPa",
+  "title": "Pressure",
+  "scale": "linear"
+ },
+ "y": {
+  "ticks": [
+   0,
+   50,
+   100
+  ],
+  "unit": "mmol/g",
+  "title": "Uptake",
+  "scale": "linear"
+ },
+ "series": [
+  {
+   "label": "CO2 273K",
+   "gas": "CO2",
+   "extract": true,
+   "marker": "circle",
+   "marker_fill": "filled",
+   "color_hex": "#1e28dc",
+   "curve_points": [
+    {
+     "x": 20,
+     "y": 20
+    },
+    {
+     "x": 70,
+     "y": 80
+    }
+   ]
+  },
+  {
+   "label": "CO2 298K",
+   "gas": "CO2",
+   "extract": true,
+   "marker": "square",
+   "marker_fill": "filled",
+   "color_hex": "#dc281e",
+   "curve_points": [
+    {
+     "x": 0,
+     "y": 30
+    },
+    {
+     "x": 100,
+     "y": 30
+    }
+   ]
+  }
+ ],
+ "llm_spec": {
+  "series": [
+   {
+    "label": "CO2 273K",
+    "gas": "CO2",
+    "marker": "circle",
+    "marker_fill": "filled",
+    "color_hex": "#1e28dc"
+   },
+   {
+    "label": "CO2 298K",
+    "gas": "CO2",
+    "marker": "square",
+    "marker_fill": "filled",
+    "color_hex": "#dc281e"
+   }
+  ]
+ }
+}
